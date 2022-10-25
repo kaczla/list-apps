@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# User ignore
+.idea/
+.run/
+workspace.code-workspace
+*~
