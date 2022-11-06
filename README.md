@@ -50,7 +50,7 @@ Some descriptions are from:
 - duf [🛈](https://github.com/muesli/duf)
   - Disk Usage/Free Utility (Linux, BSD, macOS & Windows)
   - Tags: disk utility
-- eDEX-UI [eDEX-🛈](https://github.com/GitSquared/edex-ui)
+- eDEX-UI [🛈](https://github.com/GitSquared/edex-ui)
   - eDEX-UI is a fullscreen, cross-platform terminal emulator and system monitor that looks and feels like a sci-fi computer interface.
   - Tags: terminal emulator
 - fastprogress [🛈](https://github.com/fastai/fastprogress)
@@ -62,6 +62,9 @@ Some descriptions are from:
 - gyroflow [🛈](https://github.com/gyroflow/gyroflow)
   - Gyroflow is an application that can stabilize your video by using motion data from a gyroscope and optionally an accelerometer.
   - Tags: video
+- hishtory [🛈](https://github.com/ddworken/hishtory)
+  - Your shell history: synced, queryable, and in context
+  - Tags: shell, history
 - htop [🛈](https://github.com/htop-dev/htop)
   - htop - an interactive process viewer
   - Tags: monitoring, command line
@@ -152,4 +155,4 @@ Some descriptions are from:
 
 # Tags
 
-C++, GPU, JavaScript, Linux, Python, Rust, Stable Diffusion Model, cache, caching, command line, container, data structures, database, debugging, diff, disc, disk utility, encryption, file manager, file system watcher, fuzzy search, image, isolation, library, linter, monitoring, monitoring tool, network, notification, platform, privacy, profiler, progress bar, searching, shell, storage, terminal, terminal emulator, unstructured data, video, web page, web scraper
+C++, GPU, JavaScript, Linux, Python, Rust, Stable Diffusion Model, cache, caching, command line, container, data structures, database, debugging, diff, disc, disk utility, encryption, file manager, file system watcher, fuzzy search, history, image, isolation, library, linter, monitoring, monitoring tool, network, notification, platform, privacy, profiler, progress bar, searching, shell, storage, terminal, terminal emulator, unstructured data, video, web page, web scraper
