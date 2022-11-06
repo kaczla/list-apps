@@ -83,6 +83,9 @@ Some descriptions are from:
 - jc [🛈](https://github.com/kellyjonbrazil/jc)
   - CLI tool and python library that converts the output of popular command-line tools, file-types, and common strings to JSON, YAML, or Dictionaries. This allows piping of output to tools like jq and simplifying automation scripts.
   - Tags: command line
+- mc [🛈](https://github.com/MidnightCommander/mc)
+  - GNU Midnight Commander is a visual file manager, licensed under GNU General Public License and therefore qualifies as Free Software. It's a feature rich full-screen text mode application that allows you to copy, move and delete files and whole directory trees, search for files and run commands in the subshell. Internal viewer and editor are included.
+  - Tags: terminal, file manager
 - Milvus [🛈](https://github.com/milvus-io/milvus)
   - Milvus is an open-source vector database built to power embedding similarity search and AI applications. It makes unstructured data search more accessible and provides a consistent user experience regardless of the deployment environment. All components in Milvus are stateless to enhance elasticity and flexibility.
   - Tags: platform, image, unstructured data, searching
@@ -101,6 +104,9 @@ Some descriptions are from:
 - pls [🛈](https://github.com/dhruvkb/pls)
   - pls is a pretty and powerful ls. It works in a similar way to ls, but it adds many more developer-friendly features, such as node filters, file sorting based on attributes, a details view, and more. pls is a simple tool for looking at the contents of directories and not a complete replacement for ls.
   - Tags: command line
+- projectM [🛈](https://github.com/projectM-visualizer/projectm)
+  - projectM - The most advanced open-source music visualizer
+  - Tags: audio, visualizer
 - Puff [🛈](https://github.com/hansonkd/puff)
   - Puff is a 'deep stack' for Python that tries to minimize the barrier between Python and Rust. It gives Rust its own layer so that developers can build tools in Rust that work together without having to re-enter Python. Puff allows developers to build runtimes using standard CPython and extend them with Rust.
   - Tags: Rust, Python
@@ -142,7 +148,7 @@ Some descriptions are from:
   - Tags: command line, shell, Python
 - Zellij [🛈](https://github.com/zellij-org/zellij)
   - Zellij is a workspace aimed at developers, ops-oriented people and anyone who loves the terminal. At its core, it is a terminal multiplexer (similar to tmux and screen), but this is merely its infrastructure layer.
-  - Tags: terminal
+  - Tags: terminal, terminal interface
 - μFuzzy [🛈](https://github.com/leeoniya/uFuzzy)
   - μFuzzy is a tiny, efficient, fuzzy search library designed to match a short search phrase against a large list of short-to-medium phrases. It can be used for list filtering, auto-complete, or title/name/description/filename/function searches. μFuzzy features straightforward fuzziness control, customized sorting, and a concise set of options.
   - Tags: JavaScript, library, fuzzy search
@@ -155,4 +161,51 @@ Some descriptions are from:
 
 # Tags
 
-C++, GPU, JavaScript, Linux, Python, Rust, Stable Diffusion Model, cache, caching, command line, container, data structures, database, debugging, diff, disc, disk utility, encryption, file manager, file system watcher, fuzzy search, history, image, isolation, library, linter, monitoring, monitoring tool, network, notification, platform, privacy, profiler, progress bar, searching, shell, storage, terminal, terminal emulator, unstructured data, video, web page, web scraper
+List of tags with occurrences in the brackets:
+
+- C++ (1)
+- GPU (1)
+- JavaScript (1)
+- Linux (1)
+- Python (8)
+- Rust (1)
+- Stable Diffusion Model (1)
+- audio (1)
+- cache (1)
+- caching (1)
+- command line (17)
+- container (1)
+- data structures (2)
+- database (1)
+- debugging (1)
+- diff (1)
+- disc (1)
+- disk utility (2)
+- encryption (1)
+- file manager (3)
+- file system watcher (1)
+- fuzzy search (1)
+- history (1)
+- image (3)
+- isolation (1)
+- library (1)
+- linter (1)
+- monitoring (3)
+- monitoring tool (2)
+- network (2)
+- notification (1)
+- platform (1)
+- privacy (1)
+- profiler (2)
+- progress bar (1)
+- searching (1)
+- shell (2)
+- storage (1)
+- terminal (2)
+- terminal emulator (1)
+- terminal interface (1)
+- unstructured data (1)
+- video (3)
+- visualizer (1)
+- web page (1)
+- web scraper (1)

@@ -172,7 +172,7 @@ def parse_list_applications(section: Section) -> List[ParsedApplication]:
     return parsed_applications
 
 
-def get_tags(parsed_applications: List[ParsedApplication]) -> List[str]:
+def get_tags(parsed_applications: List[ParsedApplication]) -> List[Tuple[str, int]]:
     tags = Counter()
     for parsed_application in parsed_applications:
         tags_lines_text = [
@@ -194,7 +194,7 @@ def get_tags(parsed_applications: List[ParsedApplication]) -> List[str]:
 
     LOGGER.info(f"Found {len(tags)} tags")
     LOGGER.debug(f"Tags with occurrences: {sorted(tags.items(), key=lambda x: x[0])}")
-    return sorted(tags.keys())
+    return sorted(tags.items(), key=lambda x: x[0])
 
 
 def main() -> None:
@@ -207,7 +207,13 @@ def main() -> None:
 
     remove_section("Tags", text_after)
     tags = get_tags(parsed_applications)
-    text_after.append(Section(name="Tags", text=[", ".join(tags)]))
+    text_after.append(
+        Section(
+            name="Tags",
+            text=["List of tags with occurrences in the brackets:\n"]
+            + [f"- {tag} ({tag_occurrence})" for tag, tag_occurrence in tags],
+        )
+    )
 
     write_readme(text_before, text_after, parsed_applications, readme_path)
 
