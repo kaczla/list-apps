@@ -194,7 +194,7 @@ def get_tags(parsed_applications: List[ParsedApplication]) -> List[Tuple[str, in
 
     LOGGER.info(f"Found {len(tags)} tags")
     LOGGER.debug(f"Tags with occurrences: {sorted(tags.items(), key=lambda x: x[0])}")
-    return sorted(tags.items(), key=lambda x: x[0])
+    return sorted(tags.items(), key=lambda x: x[0].lower())
 
 
 def main() -> None:
