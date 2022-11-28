@@ -8,6 +8,9 @@ Some descriptions are from:
 
 # List of application
 
+- act [🛈](https://github.com/nektos/act)
+  - Run your GitHub Actions locally.
+  - Tags: GitHub actions
 - age [🛈](https://github.com/FiloSottile/age)
   - A simple, modern and secure encryption tool (and Go library) with small explicit keys, no config options, and UNIX-style composability.
   - Tags: command line, encryption
@@ -31,7 +34,7 @@ Some descriptions are from:
   - Tags: command line, debugging
 - cheat.sh [🛈](https://github.com/chubin/cheat.sh)
   - The only cheat sheet you need. Has a simple curl/browser/editor interface. Covers 56 programming languages, several DBMSes, and more than 1000 most important UNIX/Linux commands.
-  - Tags: cheat sheet
+  - Tags: cheat sheet, guide, command line
 - Comcast [🛈](https://github.com/tylertreat/comcast)
   - Comcast is a tool designed to simulate common network problems like latency, bandwidth restrictions, and dropped/reordered/corrupted packets. Simulating shitty network connections so you can build better systems.
   - Tags: command line, network
@@ -62,12 +65,21 @@ Some descriptions are from:
 - eDEX-UI [🛈](https://github.com/GitSquared/edex-ui)
   - eDEX-UI is a fullscreen, cross-platform terminal emulator and system monitor that looks and feels like a sci-fi computer interface.
   - Tags: terminal emulator
+- extremely-linear [🛈](https://github.com/zegl/extremely-linear)
+  - Extremely Linear Git History. Create meaningful checksums: The first commit is 0000000, then 0000001, then 0000002.
+  - Tags: git
 - FastDeploy [🛈](https://github.com/PaddlePaddle/FastDeploy)
   - An Easy-to-use and Fast Deep Learning Model Deployment Toolkit for Cloud Mobile and Edge. Including Image, Video, Text and Audio 20+ main stream scenarios and 150+ SOTA models with end-to-end optimization, multi-platform and multi-framework support.
   - Tags: Deep Learning Models, image, video, audio, text
 - fastprogress [🛈](https://github.com/fastai/fastprogress)
   - A fast and simple progress bar for Jupyter Notebook and console.
   - Tags: progress bar, Python
+- finch [🛈](https://github.com/runfinch/finch)
+  - The Finch CLI an open source client for container development.
+  - Tags: developer environment
+- git-bug [🛈](https://github.com/MichaelMure/git-bug)
+  - Distributed, offline-first bug tracker embedded in git, with bridges
+  - Tags: git, bug tracker
 - Glances [🛈](https://github.com/nicolargo/glances) [🖼️](app/glances/REAMDE.md)
   - Glances is a cross-platform monitoring tool which aims to present a large amount of monitoring information through a curses or Web based interface.
   - Tags: monitoring tool
@@ -92,7 +104,7 @@ Some descriptions are from:
 - InvokeAI [🛈](https://github.com/invoke-ai/InvokeAI)
   - This version of Stable Diffusion features a slick WebGUI, an interactive command-line script that combines text2img and img2img functionality in a "dream bot" style interface, and multiple features and other enhancements. For more info, see the website link below.
   - Tags: Stable Diffusion Model, image generation
-- iotop [🛈]()
+- iotop [🛈](https://repo.or.cz/w/iotop.git)
   - A top utility for IO
   - Tags: monitoring, command line, disc
 - jc [🛈](https://github.com/kellyjonbrazil/jc)
@@ -107,6 +119,12 @@ Some descriptions are from:
 - katana [🛈](https://github.com/projectdiscovery/katana)
   - A next-generation crawling and spidering framework
   - Tags: web scraper
+- llama [🛈](https://github.com/antonmedv/llama)
+  - Llama is a terminal file manager. It allows for quick navigation with fuzzy searching. Llama is very simple and minimalistic.
+  - Tags: terminal, file manager
+- lucky-commit [🛈](https://github.com/not-an-aardvark/lucky-commit)
+  - Customize your git commit hashes!
+  - Tags: git
 - mc [🛈](https://github.com/MidnightCommander/mc)
   - GNU Midnight Commander is a visual file manager, licensed under GNU General Public License and therefore qualifies as Free Software. It's a feature rich full-screen text mode application that allows you to copy, move and delete files and whole directory trees, search for files and run commands in the subshell. Internal viewer and editor are included.
   - Tags: terminal, file manager
@@ -158,6 +176,9 @@ Some descriptions are from:
 - sdsl-lite [🛈](https://github.com/simongog/sdsl-lite)
   - The Succinct Data Structure Library is a C++ 11 library that implements succinct data structures.
   - Tags: C++, data structures
+- the-art-of-command-line [🛈](https://github.com/jlevy/the-art-of-command-line)
+  - Master the command line, in one page
+  - Tags: command line, guide, cheat sheet
 - trdrop [🛈](https://github.com/cirquit/trdrop)
   - Estimate the "real" framerate of an uncompressed video.
   - Tags: video
@@ -197,11 +218,12 @@ Some descriptions are from:
 List of tags with occurrences in the brackets:
 
 - audio (2)
+- bug tracker (1)
 - C++ (1)
 - cache (1)
 - caching (1)
-- cheat sheet (1)
-- command line (19)
+- cheat sheet (2)
+- command line (21)
 - container (1)
 - content extractor (3)
 - data formatter (3)
@@ -210,17 +232,19 @@ List of tags with occurrences in the brackets:
 - debugging (1)
 - deduplication (1)
 - Deep Learning Models (1)
-- developer environment (1)
+- developer environment (2)
 - diff (1)
 - disc (1)
 - disk utility (2)
 - encryption (1)
 - environment variables (1)
-- file manager (3)
+- file manager (4)
 - file system watcher (1)
 - fuzzy search (2)
-- git (1)
+- git (4)
+- GitHub actions (1)
 - GPU (1)
+- guide (2)
 - history (1)
 - HTML (1)
 - image (3)
@@ -247,7 +271,7 @@ List of tags with occurrences in the brackets:
 - source control system (1)
 - Stable Diffusion Model (2)
 - storage (1)
-- terminal (2)
+- terminal (3)
 - terminal emulator (1)
 - terminal interface (1)
 - text (1)

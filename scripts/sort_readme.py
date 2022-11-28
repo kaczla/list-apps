@@ -141,6 +141,11 @@ def write_readme(
 def parse_application_text_lines(text: List[str]) -> ParsedApplication:
     line_with_name = text.pop(0).lstrip("-").strip()
     application_name, application_name_text = line_with_name.split(maxsplit=1)
+
+    # Check empty link
+    if "[]" in application_name_text or "()" in application_name_text:
+        LOGGER.error(f"Found empty link in {application_name}")
+
     return ParsedApplication(name=application_name, name_text=application_name_text.strip(), text=text)
 
 
