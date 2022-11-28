@@ -101,9 +101,7 @@ def read_readme(file_path: Path) -> Tuple[List[Section], List[Section], Section]
 
     sections = parse_sections(file_path.read_text().split("\n"))
 
-    indexes_list_applications = [
-        index for index, s in enumerate(sections) if s.name == HEADER_LIST_OF_APPS
-    ]
+    indexes_list_applications = [index for index, s in enumerate(sections) if s.name == HEADER_LIST_OF_APPS]
     assert len(
         indexes_list_applications
     ), f"Expecting one section with applications, got {len(indexes_list_applications)} sections"
@@ -143,9 +141,7 @@ def write_readme(
 def parse_application_text_lines(text: List[str]) -> ParsedApplication:
     line_with_name = text.pop(0).lstrip("-").strip()
     application_name, application_name_text = line_with_name.split(maxsplit=1)
-    return ParsedApplication(
-        name=application_name, name_text=application_name_text.strip(), text=text
-    )
+    return ParsedApplication(name=application_name, name_text=application_name_text.strip(), text=text)
 
 
 def parse_list_applications(section: Section) -> List[ParsedApplication]:
@@ -154,9 +150,7 @@ def parse_list_applications(section: Section) -> List[ParsedApplication]:
     for line in section.text:
         if line.startswith("-"):
             if data_application_lines:
-                parsed_applications.append(
-                    parse_application_text_lines(data_application_lines)
-                )
+                parsed_applications.append(parse_application_text_lines(data_application_lines))
                 data_application_lines = []
 
             data_application_lines.append(line.rstrip())
@@ -185,11 +179,7 @@ def get_tags(parsed_applications: List[ParsedApplication]) -> List[Tuple[str, in
             continue
 
         tags_text = ", ".join(tags_lines_text).strip().strip(",")
-        application_tags = list(
-            filter(
-                lambda x: x, [tag.strip() for tag in tags_text.strip(",").split(",")]
-            )
-        )
+        application_tags = list(filter(lambda x: x, [tag.strip() for tag in tags_text.strip(",").split(",")]))
         tags.update(application_tags)
 
     LOGGER.info(f"Found {len(tags)} tags")
