@@ -65,6 +65,9 @@ Some descriptions are from:
 - eDEX-UI [🛈](https://github.com/GitSquared/edex-ui)
   - eDEX-UI is a fullscreen, cross-platform terminal emulator and system monitor that looks and feels like a sci-fi computer interface.
   - Tags: terminal emulator
+- engineering-management [🛈](https://github.com/charlax/engineering-management)
+  - A collection of inspiring resources related to engineering management and tech leadership.
+  - Tags: guide, awesome-list, engineering
 - extremely-linear [🛈](https://github.com/zegl/extremely-linear)
   - Extremely Linear Git History. Create meaningful checksums: The first commit is 0000000, then 0000001, then 0000002.
   - Tags: git
@@ -113,6 +116,9 @@ Some descriptions are from:
 - jq [🛈](https://github.com/stedolan/jq)
   - jq is a lightweight and flexible command-line JSON processor.
   - Tags: command line, JSON, content extractor, data formatter
+- JupyterLite [🛈](https://github.com/jupyterlite/jupyterlite)
+  - JupyterLite is a JupyterLab distribution that runs entirely in the browser built from the ground-up using JupyterLab components and extensions.
+  - Tags: Jupyter, Notebook, Python
 - Kangas [🛈](https://github.com/comet-ml/kangas)
   - Kangas is a tool for exploring, analyzing, and visualizing large-scale multimedia data.
   - Tags: JavaScript, library, fuzzy search
@@ -218,6 +224,7 @@ Some descriptions are from:
 List of tags with occurrences in the brackets:
 
 - audio (2)
+- awesome-list (1)
 - bug tracker (1)
 - C++ (1)
 - cache (1)
@@ -237,6 +244,7 @@ List of tags with occurrences in the brackets:
 - disc (1)
 - disk utility (2)
 - encryption (1)
+- engineering (1)
 - environment variables (1)
 - file manager (4)
 - file system watcher (1)
@@ -244,7 +252,7 @@ List of tags with occurrences in the brackets:
 - git (4)
 - GitHub actions (1)
 - GPU (1)
-- guide (2)
+- guide (3)
 - history (1)
 - HTML (1)
 - image (3)
@@ -252,18 +260,20 @@ List of tags with occurrences in the brackets:
 - isolation (1)
 - JavaScript (2)
 - JSON (2)
+- Jupyter (1)
 - library (3)
 - linter (1)
 - Linux (1)
 - monitoring (3)
 - monitoring tool (2)
 - network (2)
+- Notebook (1)
 - notification (1)
 - platform (1)
 - privacy (1)
 - profiler (2)
 - progress bar (1)
-- Python (8)
+- Python (9)
 - rust (1)
 - Rust (1)
 - searching (1)
