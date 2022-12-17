@@ -149,6 +149,9 @@ Some descriptions are from:
 - nvtop [🛈](https://github.com/Syllo/nvtop)
   - AMD and NVIDIA GPUs htop like monitoring tool
   - Tags: monitoring, command line, GPU
+- OSV-Scanner [🛈](https://github.com/google/osv-scanner)
+  - Vulnerability scanner written in Go which uses the data provided by https://osv.dev
+  - Tags: security, vulnerability scanner
 - Pelikan [🛈](https://github.com/twitter/pelikan)
   - Pelikan is framework for developing cache services.
   - Tags: caching
@@ -277,6 +280,7 @@ List of tags with occurrences in the brackets:
 - rust (1)
 - Rust (1)
 - searching (1)
+- security (1)
 - shell (3)
 - source control system (1)
 - Stable Diffusion Model (2)
@@ -288,6 +292,7 @@ List of tags with occurrences in the brackets:
 - unstructured data (1)
 - video (4)
 - visualizer (1)
+- vulnerability scanner (1)
 - web page (1)
 - web scraper (2)
 - XML (1)
