@@ -56,6 +56,9 @@ Some descriptions are from:
 - difftastic [🛈](https://github.com/Wilfred/difftastic)
   - Difftastic is a structural diff tool that compares files based on their syntax.
   - Tags: command line, diff
+- diffuzers [🛈](https://github.com/abhishekkrthakur/diffuzers)
+  - diffuzers is a web ui for huggingface diffusers.
+  - Tags: Stable Diffusion Model, image generation
 - ducks [🛈](https://github.com/manimino/ducks)
   - ducks is a tool that indexes Python objects for fast lookup by their attributes.
   - Tags: Python, data structures
@@ -80,6 +83,9 @@ Some descriptions are from:
 - finch [🛈](https://github.com/runfinch/finch)
   - The Finch CLI an open source client for container development.
   - Tags: developer environment
+- generate-subtitles [🛈](https://github.com/mayeaux/generate-subtitles)
+  - Generate transcripts for audio and video content with a user friendly UI, powered by Open AI's Whisper with automatic translations powered by LibreTranslate.
+  - Tags: automatic transcription, transcription
 - git-bug [🛈](https://github.com/MichaelMure/git-bug)
   - Distributed, offline-first bug tracker embedded in git, with bridges
   - Tags: git, bug tracker
@@ -125,6 +131,9 @@ Some descriptions are from:
 - katana [🛈](https://github.com/projectdiscovery/katana)
   - A next-generation crawling and spidering framework
   - Tags: web scraper
+- LibreTranslate [🛈](https://github.com/LibreTranslate/LibreTranslate)
+  - Free and Open Source Machine Translation API. 100% self-hosted, offline capable and easy to setup.
+  - Tags: Machine Translation
 - llama [🛈](https://github.com/antonmedv/llama)
   - Llama is a terminal file manager. It allows for quick navigation with fuzzy searching. Llama is very simple and minimalistic.
   - Tags: terminal, file manager
@@ -203,6 +212,9 @@ Some descriptions are from:
 - Watcher [🛈](https://github.com/e-dant/watcher)
   - Watcher is a file system watcher that works anywhere. It is simple, efficient, dependency-free, and header-only. Watcher uses a near-zero amount of resources even when scanning millions of paths.
   - Tags: command line, file system watcher
+- whisper [🛈](https://github.com/openai/whisper)
+  - Robust Speech Recognition via Large-Scale Weak Supervision.
+  - Tags: automatic transcription, transcription, speech recognition
 - xonsh [🛈](https://github.com/xonsh/xonsh)
   - xonsh is a Python-powered, cross-platform, Unix-gazing shell language and command prompt.
   - Tags: command line, shell, Python
@@ -227,6 +239,7 @@ Some descriptions are from:
 List of tags with occurrences in the brackets:
 
 - audio (2)
+- automatic transcription (2)
 - awesome-list (1)
 - bug tracker (1)
 - C++ (1)
@@ -259,7 +272,7 @@ List of tags with occurrences in the brackets:
 - history (1)
 - HTML (1)
 - image (3)
-- image generation (2)
+- image generation (3)
 - isolation (1)
 - JavaScript (2)
 - JSON (2)
@@ -267,6 +280,7 @@ List of tags with occurrences in the brackets:
 - library (3)
 - linter (1)
 - Linux (1)
+- Machine Translation (1)
 - monitoring (3)
 - monitoring tool (2)
 - network (2)
@@ -283,12 +297,14 @@ List of tags with occurrences in the brackets:
 - security (1)
 - shell (3)
 - source control system (1)
-- Stable Diffusion Model (2)
+- speech recognition (1)
+- Stable Diffusion Model (3)
 - storage (1)
 - terminal (3)
 - terminal emulator (1)
 - terminal interface (1)
 - text (1)
+- transcription (2)
 - unstructured data (1)
 - video (4)
 - visualizer (1)
