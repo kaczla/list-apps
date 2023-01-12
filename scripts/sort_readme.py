@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 
+
 import logging
 from collections import Counter
 from dataclasses import dataclass
 from pathlib import Path
-from typing import List, Tuple
+from typing import Counter as CounterType
+from typing import Dict, List, Optional, Tuple
 
 HEADER_LIST_OF_APPS = "List of application"
 
@@ -23,6 +25,47 @@ class ParsedApplication:
     def to_text(self) -> str:
         return f"- {self.name} {self.name_text}\n{self.text_to_line()}"
 
+    def get_tags(self) -> Optional[List[str]]:
+        tags_lines_text_with_index: List[Tuple[int, str]] = [
+            (i, text.strip()[7:].strip())
+            for i, text in enumerate(self.text)
+            if text[:10].strip().lower().startswith("- tags:")
+        ]
+        if not tags_lines_text_with_index:
+            return None
+
+        tags_text = ", ".join([text for _, text in tags_lines_text_with_index]).strip().strip(",")
+        tags = [tag_name.strip() for tag_name in tags_text.split(", ")]
+
+        # Remove other tag text lines
+        if len(tags_lines_text_with_index) > 1:
+            for index, _ in reversed(tags_lines_text_with_index[1:]):
+                del self.text[index]
+
+        # Skip duplicates tags
+        uniq_tags = set(tags)
+        if len(uniq_tags) != len(tags):
+            uniq_tags_list = []
+            for tag_name in tags:
+                if tag_name in uniq_tags:
+                    uniq_tags_list.append(tag_name)
+                    uniq_tags.discard(tag_name)
+                else:
+                    continue
+            tags = uniq_tags_list
+
+        # Update tag text
+        self.set_tags(tags)
+
+        return tags
+
+    def set_tags(self, tag_names: List[str]) -> None:
+        tag_text_indexes = [i for i, text in enumerate(self.text) if text[:10].strip().lower().startswith("- tags:")]
+        if tag_text_indexes:
+            self.text[tag_text_indexes[0]] = "  - Tags: " + ", ".join(tag_names)
+        else:
+            self.text.append("  - Tags: " + ", ".join(tag_names))
+
 
 @dataclass
 class Section:
@@ -37,6 +80,12 @@ class Section:
         if extra_new_line:
             text += "\n"
         return text
+
+
+@dataclass
+class Tag:
+    name: str
+    occurrence: int
 
 
 def parse_section(text: List[str]) -> Section:
@@ -72,7 +121,8 @@ def parse_section(text: List[str]) -> Section:
 
 
 def parse_sections(text: List[str]) -> List[Section]:
-    sections, text_lines = [], []
+    sections: List[Section] = []
+    text_lines: List[str] = []
 
     for line in text:
         if line.startswith("# ") and text_lines:
@@ -150,8 +200,8 @@ def parse_application_text_lines(text: List[str]) -> ParsedApplication:
 
 
 def parse_list_applications(section: Section) -> List[ParsedApplication]:
-    parsed_applications = []
-    data_application_lines = []
+    parsed_applications: List[ParsedApplication] = []
+    data_application_lines: List[str] = []
     for line in section.text:
         if line.startswith("-"):
             if data_application_lines:
@@ -171,25 +221,98 @@ def parse_list_applications(section: Section) -> List[ParsedApplication]:
     return parsed_applications
 
 
-def get_tags(parsed_applications: List[ParsedApplication]) -> List[Tuple[str, int]]:
-    tags = Counter()
+def get_tags(parsed_applications: List[ParsedApplication]) -> List[Tag]:
+    tags_counter: CounterType = Counter()
     for parsed_application in parsed_applications:
-        tags_lines_text = [
-            text.strip()[7:].strip()
-            for text in parsed_application.text
-            if text[:10].strip().lower().startswith("- tags:")
-        ]
-        if not tags_lines_text:
-            LOGGER.error(f"Cannot find TAGS for application: {parsed_application.name}")
+        tag_names = parsed_application.get_tags()
+        if tag_names is None:
+            LOGGER.error(f"Not found tags in: {parsed_application}")
             continue
 
-        tags_text = ", ".join(tags_lines_text).strip().strip(",")
-        application_tags = list(filter(lambda x: x, [tag.strip() for tag in tags_text.strip(",").split(",")]))
-        tags.update(application_tags)
+        application_tags = list(filter(lambda x: x, tag_names))
+        tags_counter.update(application_tags)
 
-    LOGGER.info(f"Found {len(tags)} tags")
-    LOGGER.debug(f"Tags with occurrences: {sorted(tags.items(), key=lambda x: x[0])}")
-    return sorted(tags.items(), key=lambda x: x[0].lower())
+    LOGGER.info(f"Found {len(tags_counter)} tags")
+    tags = [Tag(name=name, occurrence=occ) for name, occ in sorted(tags_counter.items(), key=lambda x: x[0].lower())]
+    LOGGER.debug(f"Tags with occurrences: {tags}")
+    return tags
+
+
+def get_tag_mapper(tags: List[Tag]) -> Dict[str, str]:
+    normalized_tags_dict: Dict[str, List[Tag]] = {}
+    for tag in tags:
+        tag_name = tag.name.lower()
+        if tag_name in normalized_tags_dict:
+            normalized_tags_dict[tag_name].append(tag)
+        else:
+            normalized_tags_dict[tag_name] = [tag]
+
+    tag_mapper = {}
+    for normalized_tag_name, original_tags in normalized_tags_dict.items():
+        if len(original_tags) < 2:
+            continue
+
+        sorted_tags_by_occ = sorted(original_tags, key=lambda x: x.occurrence, reverse=True)
+        most_popular_tag = sorted_tags_by_occ.pop(0)
+        # If tags are with equal occurrences, use tag with first uppercase letter
+        if most_popular_tag.occurrence == sorted_tags_by_occ[0].occurrence and not most_popular_tag.name[0].isupper():
+            index_to_remove = None
+            for tag_index, tag in enumerate(sorted_tags_by_occ):
+                # Use tag with first uppercase letter
+                if tag.name[0].isupper():
+                    sorted_tags_by_occ.append(most_popular_tag)
+                    most_popular_tag = tag
+                    index_to_remove = tag_index
+                    break
+
+            if index_to_remove is not None:
+                del sorted_tags_by_occ[index_to_remove]
+            else:
+                LOGGER.warning(f"Cannot find tag to normalization for: {original_tags}")
+                continue
+
+        for tag in sorted_tags_by_occ:
+            LOGGER.debug(f"Found tag normalization from: {repr(tag.name)} to {repr(most_popular_tag.name)}")
+            tag_mapper[tag.name] = most_popular_tag.name
+
+    return tag_mapper
+
+
+def fix_tags(tags: List[Tag], applications: List[ParsedApplication], tag_mapper: Dict[str, str]) -> List[Tag]:
+    LOGGER.info(f"Normalizing tags with mapping: {tag_mapper}")
+    tag_name_to_index: Dict[str, int] = {tag.name: i for i, tag in enumerate(tags)}
+
+    # Merge tag occurrences
+    tag_indexes_to_remove = []
+    for tag_name, target_tag_name in tag_mapper.items():
+        idx = tag_name_to_index[tag_name]
+        idx_target = tag_name_to_index[target_tag_name]
+        LOGGER.debug(f"Merging tag: {tags[idx]} with {tags[idx_target]}")
+        tags[idx_target].occurrence += tags[idx].occurrence
+        tag_indexes_to_remove.append(idx)
+
+    # Remove merged tags
+    for idx in reversed(tag_indexes_to_remove):
+        del tags[idx]
+
+    # Fix tags in applications
+    for application in applications:
+        original_tag_names = application.get_tags()
+        if original_tag_names is None:
+            continue
+
+        original_tag_names = [tag_name.strip() for tag_name in original_tag_names]
+
+        tag_names = []
+        for tag_name in original_tag_names:
+            if tag_name in tag_mapper:
+                tag_name = tag_mapper[tag_name]
+            tag_names.append(tag_name)
+
+        if original_tag_names != tag_names:
+            application.set_tags(tag_names)
+
+    return tags
 
 
 def main() -> None:
@@ -202,11 +325,15 @@ def main() -> None:
 
     remove_section("Tags", text_after)
     tags = get_tags(parsed_applications)
+    tag_mapper = get_tag_mapper(tags)
+    if tag_mapper:
+        fix_tags(tags, parsed_applications, tag_mapper)
+
     text_after.append(
         Section(
             name="Tags",
             text=["List of tags with occurrences in the brackets:\n"]
-            + [f"- {tag} ({tag_occurrence})" for tag, tag_occurrence in tags],
+            + [f"- {tag.name} ({tag.occurrence})" for tag in tags],
         )
     )
 
