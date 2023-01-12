@@ -26,6 +26,9 @@ Some descriptions are from:
 - bucketratelimiter [🛈](https://github.com/ArtyomKozyrev8/BucketRateLimiter/)
   - bucketratelimiter is the collection of rate limiters, which are based on Bucket conception - Python.
   - Tags: Python
+- burn [🛈](https://github.com/burn-rs/burn)
+  - This library aims to be a complete deep learning framework with extreme flexibility written in Rust. The goal would be to satisfy researchers as well as practitioners making it easier to experiment, train and deploy your models.
+  - Tags: Rust, Deep Learning framework, framework
 - cachegrand [🛈](https://github.com/danielealbano/cachegrand)
   - cachegrand - a modern OSS Key-Value store built for today's hardware
   - Tags: cache, storage
@@ -43,7 +46,7 @@ Some descriptions are from:
   - Tags: command line, profiler
 - crates [🛈](https://blessed.rs/crates)
   - This site contains a list of Rust crates. The list aims to help new developers learn where to start, which crates they should use, and which crates to trust. Categories include general purpose, cryptography, networking, and CLIs.
-  - Tags: rust, library
+  - Tags: Rust, library
 - CRIU [🛈](https://criu.org/Main_Page)
   - Checkpoint/Restore In Userspace. It can freeze a running container (or an individual application) and checkpoint its state to disk. The data saved can be used to restore the application and run it exactly as it was during the time of the freeze. Using this functionality, application or container live migration, snapshots, remote debugging, and many other things are now possible.
   - Tags: Linux
@@ -95,6 +98,9 @@ Some descriptions are from:
 - gyroflow [🛈](https://github.com/gyroflow/gyroflow)
   - Gyroflow is an application that can stabilize your video by using motion data from a gyroscope and optionally an accelerometer.
   - Tags: video
+- highway [🛈](https://github.com/google/highway)
+  - Highway is a C++ library that provides portable SIMD/vector intrinsics - performance-portable, length-agnostic SIMD with runtime dispatch.
+  - Tags: C++, library
 - hishtory [🛈](https://github.com/ddworken/hishtory)
   - Your shell history: synced, queryable, and in context
   - Tags: shell, history
@@ -125,6 +131,9 @@ Some descriptions are from:
 - JupyterLite [🛈](https://github.com/jupyterlite/jupyterlite)
   - JupyterLite is a JupyterLab distribution that runs entirely in the browser built from the ground-up using JupyterLab components and extensions.
   - Tags: Jupyter, Notebook, Python
+- just [🛈](https://github.com/casey/just)
+  - just is a handy way to save and run project-specific commands. Commands, called recipes, are stored in a file called `justfile` with syntax inspired by `make`.
+  - Tags: makefile, command line
 - Kangas [🛈](https://github.com/comet-ml/kangas)
   - Kangas is a tool for exploring, analyzing, and visualizing large-scale multimedia data.
   - Tags: JavaScript, library, fuzzy search
@@ -140,6 +149,9 @@ Some descriptions are from:
 - lucky-commit [🛈](https://github.com/not-an-aardvark/lucky-commit)
   - Customize your git commit hashes!
   - Tags: git
+- matplotlib-gallery [🛈](https://github.com/rasbt/matplotlib-gallery)
+  - This repository is a collection of different matplotlib plots in IPython notebooks that I needed for my data visualizations.
+  - Tags: matplot, library, visualizations
 - mc [🛈](https://github.com/MidnightCommander/mc)
   - GNU Midnight Commander is a visual file manager, licensed under GNU General Public License and therefore qualifies as Free Software. It's a feature rich full-screen text mode application that allows you to copy, move and delete files and whole directory trees, search for files and run commands in the subshell. Internal viewer and editor are included.
   - Tags: terminal, file manager
@@ -242,11 +254,11 @@ List of tags with occurrences in the brackets:
 - automatic transcription (2)
 - awesome-list (1)
 - bug tracker (1)
-- C++ (1)
+- C++ (2)
 - cache (1)
 - caching (1)
 - cheat sheet (2)
-- command line (21)
+- command line (22)
 - container (1)
 - content extractor (3)
 - data formatter (3)
@@ -254,6 +266,7 @@ List of tags with occurrences in the brackets:
 - database (1)
 - debugging (1)
 - deduplication (1)
+- Deep Learning framework (1)
 - Deep Learning Models (1)
 - developer environment (2)
 - diff (1)
@@ -264,6 +277,7 @@ List of tags with occurrences in the brackets:
 - environment variables (1)
 - file manager (4)
 - file system watcher (1)
+- framework (1)
 - fuzzy search (2)
 - git (4)
 - GitHub actions (1)
@@ -277,10 +291,12 @@ List of tags with occurrences in the brackets:
 - JavaScript (2)
 - JSON (2)
 - Jupyter (1)
-- library (3)
+- library (5)
 - linter (1)
 - Linux (1)
 - Machine Translation (1)
+- makefile (1)
+- matplot (1)
 - monitoring (3)
 - monitoring tool (2)
 - network (2)
@@ -291,8 +307,7 @@ List of tags with occurrences in the brackets:
 - profiler (2)
 - progress bar (1)
 - Python (9)
-- rust (1)
-- Rust (1)
+- Rust (3)
 - searching (1)
 - security (1)
 - shell (3)
@@ -307,6 +322,7 @@ List of tags with occurrences in the brackets:
 - transcription (2)
 - unstructured data (1)
 - video (4)
+- visualizations (1)
 - visualizer (1)
 - vulnerability scanner (1)
 - web page (1)
