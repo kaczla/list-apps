@@ -50,6 +50,9 @@ Some descriptions are from:
 - CRIU [🛈](https://criu.org/Main_Page)
   - Checkpoint/Restore In Userspace. It can freeze a running container (or an individual application) and checkpoint its state to disk. The data saved can be used to restore the application and run it exactly as it was during the time of the freeze. Using this functionality, application or container live migration, snapshots, remote debugging, and many other things are now possible.
   - Tags: Linux
+- detect-secrets [🛈](https://github.com/Yelp/detect-secrets)
+  - An enterprise friendly way of detecting and preventing secrets in code.
+  - Tags: command line, detector, secrets detector, preventing secrets, Python library
 - Devbox [🛈](https://github.com/jetpack-io/devbox)
   - Devbox is a command-line tool for creating isolated shells and containers. It creates a consistent shell for everyone on the team and allows devs to try new tools without polluting their workstations. Devbox can instantly turn applications into containers that can be deployed to any cloud.
   - Tags: isolation, command line, container
@@ -67,7 +70,7 @@ Some descriptions are from:
   - Tags: Python, data structures
 - duf [🛈](https://github.com/muesli/duf)
   - Disk Usage/Free Utility (Linux, BSD, macOS & Windows)
-  - Tags: disk utility
+  - Tags: command line, disk utility
 - eDEX-UI [🛈](https://github.com/GitSquared/edex-ui)
   - eDEX-UI is a fullscreen, cross-platform terminal emulator and system monitor that looks and feels like a sci-fi computer interface.
   - Tags: terminal emulator
@@ -76,7 +79,7 @@ Some descriptions are from:
   - Tags: guide, awesome-list, engineering
 - extremely-linear [🛈](https://github.com/zegl/extremely-linear)
   - Extremely Linear Git History. Create meaningful checksums: The first commit is 0000000, then 0000001, then 0000002.
-  - Tags: git
+  - Tags: command line, git
 - FastDeploy [🛈](https://github.com/PaddlePaddle/FastDeploy)
   - An Easy-to-use and Fast Deep Learning Model Deployment Toolkit for Cloud Mobile and Edge. Including Image, Video, Text and Audio 20+ main stream scenarios and 150+ SOTA models with end-to-end optimization, multi-platform and multi-framework support.
   - Tags: Deep Learning Models, image, video, audio, text
@@ -89,12 +92,21 @@ Some descriptions are from:
 - generate-subtitles [🛈](https://github.com/mayeaux/generate-subtitles)
   - Generate transcripts for audio and video content with a user friendly UI, powered by Open AI's Whisper with automatic translations powered by LibreTranslate.
   - Tags: automatic transcription, transcription
+- Gibberish Detector [🛈](https://github.com/domanchi/gibberish-detector)
+  - Train a model, and detect gibberish strings with it. Example gibberish: "ertrjiloifdfyyoiu".
+  - Tags: command line, data text processing, Python library
 - git-bug [🛈](https://github.com/MichaelMure/git-bug)
   - Distributed, offline-first bug tracker embedded in git, with bridges
   - Tags: git, bug tracker
+- gitty [🛈](https://github.com/muesli/gitty)
+  - gitty is a smart little CLI helper for git projects, that shows you all the relevant issues, pull requests and changes at a quick glance, right on the command-line. It currently supports the GitHub, GitLab, and Gitea APIs.
+  - Tags: command line, git
 - Glances [🛈](https://github.com/nicolargo/glances) [🖼️](app/glances/REAMDE.md)
   - Glances is a cross-platform monitoring tool which aims to present a large amount of monitoring information through a curses or Web based interface.
   - Tags: monitoring tool
+- Glow [🛈](https://github.com/charmbracelet/glow)
+  - Render markdown on the CLI, with pizzazz!
+  - Tags: command line, Markdown, editor
 - gyroflow [🛈](https://github.com/gyroflow/gyroflow)
   - Gyroflow is an application that can stabilize your video by using motion data from a gyroscope and optionally an accelerometer.
   - Tags: video
@@ -148,7 +160,7 @@ Some descriptions are from:
   - Tags: terminal, file manager
 - lucky-commit [🛈](https://github.com/not-an-aardvark/lucky-commit)
   - Customize your git commit hashes!
-  - Tags: git
+  - Tags: git, customizing
 - matplotlib-gallery [🛈](https://github.com/rasbt/matplotlib-gallery)
   - This repository is a collection of different matplotlib plots in IPython notebooks that I needed for my data visualizations.
   - Tags: matplot, library, visualizations
@@ -206,6 +218,9 @@ Some descriptions are from:
 - sdsl-lite [🛈](https://github.com/simongog/sdsl-lite)
   - The Succinct Data Structure Library is a C++ 11 library that implements succinct data structures.
   - Tags: C++, data structures
+- sysm [🛈](https://github.com/jafarlihi/sysm)
+  - sysm makes your system play custom sounds when any configured system or external event happens.
+  - Tags: command line, sounds, system events
 - the-art-of-command-line [🛈](https://github.com/jlevy/the-art-of-command-line)
   - Master the command line, in one page
   - Tags: command line, guide, cheat sheet
@@ -258,20 +273,24 @@ List of tags with occurrences in the brackets:
 - cache (1)
 - caching (1)
 - cheat sheet (2)
-- command line (22)
+- command line (30)
 - container (1)
 - content extractor (3)
+- customizing (1)
 - data formatter (3)
 - data structures (2)
+- data text processing (1)
 - database (1)
 - debugging (1)
 - deduplication (1)
 - Deep Learning framework (1)
 - Deep Learning Models (1)
+- detector (1)
 - developer environment (2)
 - diff (1)
 - disc (1)
 - disk utility (2)
+- editor (2)
 - encryption (1)
 - engineering (1)
 - environment variables (1)
@@ -279,7 +298,7 @@ List of tags with occurrences in the brackets:
 - file system watcher (1)
 - framework (1)
 - fuzzy search (2)
-- git (4)
+- git (5)
 - GitHub actions (1)
 - GPU (1)
 - guide (3)
@@ -296,6 +315,7 @@ List of tags with occurrences in the brackets:
 - Linux (1)
 - Machine Translation (1)
 - makefile (1)
+- Markdown (2)
 - matplot (1)
 - monitoring (3)
 - monitoring tool (2)
@@ -303,18 +323,23 @@ List of tags with occurrences in the brackets:
 - Notebook (1)
 - notification (1)
 - platform (1)
+- preventing secrets (1)
 - privacy (1)
 - profiler (2)
 - progress bar (1)
 - Python (9)
+- Python library (2)
 - Rust (3)
 - searching (1)
+- secrets detector (1)
 - security (1)
 - shell (3)
+- sounds (1)
 - source control system (1)
 - speech recognition (1)
 - Stable Diffusion Model (3)
 - storage (1)
+- system events (1)
 - terminal (3)
 - terminal emulator (1)
 - terminal interface (1)
