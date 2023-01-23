@@ -218,6 +218,9 @@ Some descriptions are from:
 - sdsl-lite [🛈](https://github.com/simongog/sdsl-lite)
   - The Succinct Data Structure Library is a C++ 11 library that implements succinct data structures.
   - Tags: C++, data structures
+- sqlmap [🛈](https://github.com/sqlmapproject/sqlmap)
+  - sqlmap is an open source penetration testing tool that automates the process of detecting and exploiting SQL injection flaws and taking over of database servers.
+  - Tags: database, SQL, SQL injection, penetration tests, command line
 - sysm [🛈](https://github.com/jafarlihi/sysm)
   - sysm makes your system play custom sounds when any configured system or external event happens.
   - Tags: command line, sounds, system events
@@ -280,7 +283,7 @@ List of tags with occurrences in the brackets:
 - data formatter (3)
 - data structures (2)
 - data text processing (1)
-- database (1)
+- database (2)
 - debugging (1)
 - deduplication (1)
 - Deep Learning framework (1)
@@ -290,7 +293,7 @@ List of tags with occurrences in the brackets:
 - diff (1)
 - disc (1)
 - disk utility (2)
-- editor (2)
+- editor (1)
 - encryption (1)
 - engineering (1)
 - environment variables (1)
@@ -315,13 +318,14 @@ List of tags with occurrences in the brackets:
 - Linux (1)
 - Machine Translation (1)
 - makefile (1)
-- Markdown (2)
+- Markdown (1)
 - matplot (1)
 - monitoring (3)
 - monitoring tool (2)
 - network (2)
 - Notebook (1)
 - notification (1)
+- penetration tests (1)
 - platform (1)
 - preventing secrets (1)
 - privacy (1)
@@ -337,6 +341,8 @@ List of tags with occurrences in the brackets:
 - sounds (1)
 - source control system (1)
 - speech recognition (1)
+- SQL (1)
+- SQL injection (1)
 - Stable Diffusion Model (3)
 - storage (1)
 - system events (1)
