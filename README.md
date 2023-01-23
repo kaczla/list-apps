@@ -17,9 +17,18 @@ Some descriptions are from:
 - Apprise [🛈](https://github.com/caronc/apprise)
   - Apprise is a library that allows developers to send notifications to almost all of the most popular notification services available. It features a common and intuitive notification syntax and it supports the handling of images and attachments. A list of notification types and services supported by Apprise is available.
   - Tags: notification
+- bandwhich [🛈](https://github.com/imsnif/bandwhich)
+  - bandwhich is a CLI utility for displaying current network utilization by process, connection and remote IP/hostname.
+  - Tags: Rust, command line, monitoring tool, monitoring, network
+- bat [🛈](https://github.com/sharkdp/bat)
+  - bat is a cat clone with syntax highlighting and Git integration.
+  - Tags: Rust, command line, printing file, syntax highlighting, command line: cat
 - BleachBit [🛈](https://github.com/bleachbit/bleachbit)
   - BleachBit cleans files to free disk space and to maintain privacy.
-  - Tags: disk utility, privacy
+  - Tags: disc utility, privacy, deletion tool
+- bottom [🛈](https://github.com/ClementTsang/bottom)
+  - bottom is a customizable cross-platform graphical process/system monitor for the terminal.
+  - Tags: Rust, command line, monitoring tool, monitoring, command line: top
 - btop [🛈](https://github.com/aristocratos/btop)
   - Resource monitor that shows usage and stats for processor, memory, disks, network and processes.
   - Tags: monitoring tool
@@ -37,7 +46,7 @@ Some descriptions are from:
   - Tags: command line, debugging
 - cheat.sh [🛈](https://github.com/chubin/cheat.sh)
   - The only cheat sheet you need. Has a simple curl/browser/editor interface. Covers 56 programming languages, several DBMSes, and more than 1000 most important UNIX/Linux commands.
-  - Tags: cheat sheet, guide, command line
+  - Tags: cheat sheet, guide, command line, tldr
 - Comcast [🛈](https://github.com/tylertreat/comcast)
   - Comcast is a tool designed to simulate common network problems like latency, bandwidth restrictions, and dropped/reordered/corrupted packets. Simulating shitty network connections so you can build better systems.
   - Tags: command line, network
@@ -50,6 +59,9 @@ Some descriptions are from:
 - CRIU [🛈](https://criu.org/Main_Page)
   - Checkpoint/Restore In Userspace. It can freeze a running container (or an individual application) and checkpoint its state to disk. The data saved can be used to restore the application and run it exactly as it was during the time of the freeze. Using this functionality, application or container live migration, snapshots, remote debugging, and many other things are now possible.
   - Tags: Linux
+- delta [🛈](https://github.com/dandavison/delta)
+  - delta is a syntax-highlighting pager for git, diff, and grep output.
+  - Tags: Rust, command line, diff, command line: diff
 - detect-secrets [🛈](https://github.com/Yelp/detect-secrets)
   - An enterprise friendly way of detecting and preventing secrets in code.
   - Tags: command line, detector, secrets detector, preventing secrets, Python library
@@ -61,22 +73,34 @@ Some descriptions are from:
   - Tags: developer environment
 - difftastic [🛈](https://github.com/Wilfred/difftastic)
   - Difftastic is a structural diff tool that compares files based on their syntax.
-  - Tags: command line, diff
+  - Tags: command line, diff, command line: diff
 - diffuzers [🛈](https://github.com/abhishekkrthakur/diffuzers)
   - diffuzers is a web ui for huggingface diffusers.
   - Tags: Stable Diffusion Model, image generation
+- dprint [🛈](https://github.com/dprint/dprint)
+  - dprint is a pluggable and configurable code formatting platform.
+  - Tags: Rust, command line, code formatting
+- dua [🛈](https://github.com/Byron/dua-cli)
+  - dua is a view disk space usage and delete unwanted data, fast.
+  - Tags: Rust, command line, disc utility, command line: du
 - ducks [🛈](https://github.com/manimino/ducks)
   - ducks is a tool that indexes Python objects for fast lookup by their attributes.
   - Tags: Python, data structures
 - duf [🛈](https://github.com/muesli/duf)
   - Disk Usage/Free Utility (Linux, BSD, macOS & Windows)
-  - Tags: command line, disk utility
+  - Tags: command line, disc utility, command line: du
+- dust [🛈](https://github.com/bootandy/dust)
+  - dust is a more intuitive version of du in rust.
+  - Tags: Rust, command line, disc utility, command line: du
 - eDEX-UI [🛈](https://github.com/GitSquared/edex-ui)
   - eDEX-UI is a fullscreen, cross-platform terminal emulator and system monitor that looks and feels like a sci-fi computer interface.
   - Tags: terminal emulator
 - engineering-management [🛈](https://github.com/charlax/engineering-management)
   - A collection of inspiring resources related to engineering management and tech leadership.
   - Tags: guide, awesome-list, engineering
+- exa [🛈](https://github.com/ogham/exa)
+  - exa is a modern replacement for ls.
+  - Tags: Rust, command line, file listing, command line: ls
 - extremely-linear [🛈](https://github.com/zegl/extremely-linear)
   - Extremely Linear Git History. Create meaningful checksums: The first commit is 0000000, then 0000001, then 0000002.
   - Tags: command line, git
@@ -86,6 +110,12 @@ Some descriptions are from:
 - fastprogress [🛈](https://github.com/fastai/fastprogress)
   - A fast and simple progress bar for Jupyter Notebook and console.
   - Tags: progress bar, Python
+- fd [🛈](https://github.com/sharkdp/fd)
+  - fd is a simple, fast and user-friendly alternative to find.
+  - Tags: Rust, command line, searching, file searching, command line: find
+- fdupes [🛈](https://github.com/adrianlopezroche/fdupes)
+  - fdupes is a program for identifying or deleting duplicate files residing within specified directories.
+  - Tags: C, command line, deduplication, unique, deletion tool
 - finch [🛈](https://github.com/runfinch/finch)
   - The Finch CLI an open source client for container development.
   - Tags: developer environment
@@ -107,9 +137,15 @@ Some descriptions are from:
 - Glow [🛈](https://github.com/charmbracelet/glow)
   - Render markdown on the CLI, with pizzazz!
   - Tags: command line, Markdown, editor
+- grex [🛈](https://github.com/pemistahl/grex)
+  - grex is a command-line tool and Rust library for generating regular expressions from user-provided test cases.
+  - Tags: Rust, command line, regular expression, regex
 - gyroflow [🛈](https://github.com/gyroflow/gyroflow)
   - Gyroflow is an application that can stabilize your video by using motion data from a gyroscope and optionally an accelerometer.
   - Tags: video
+- hexyl [🛈](https://github.com/sharkdp/hexyl)
+  - hexyl is a simple hex viewer for the terminal.
+  - Tags: Rust, command line, hex viewer, command line: hexdump
 - highway [🛈](https://github.com/google/highway)
   - Highway is a C++ library that provides portable SIMD/vector intrinsics - performance-portable, length-agnostic SIMD with runtime dispatch.
   - Tags: C++, library
@@ -118,13 +154,19 @@ Some descriptions are from:
   - Tags: shell, history
 - htop [🛈](https://github.com/htop-dev/htop)
   - htop - an interactive process viewer
-  - Tags: monitoring, command line
+  - Tags: monitoring, command line, command line: top
+- huniq [🛈](https://github.com/koraa/huniq)
+  - huniq is a command line utility to remove duplicates from the given input.
+  - Tags: Rust, command line, deduplication, unique, command line: uniq
 - hurl [🛈](https://github.com/Orange-OpenSource/hurl)
   - Hurl is a command line tool that runs HTTP requests defined in a simple plain text format. It can be used for fetching data and testing HTTP sessions. Hurl can perform requests, capture values, and evaluate queries on headers and body responses.
   - Tags: command line, network
+- hyperfine [🛈](https://github.com/sharkdp/hyperfine)
+  - hyperfine is a command-line benchmarking tool.
+  - Tags: Rust, command line, benchmarking
 - imagededup [🛈](https://github.com/idealo/imagededup)
   - imagededup is a python package that simplifies the task of finding exact and near duplicates in an image collection.
-  - Tags: deduplication, image
+  - Tags: deduplication, image, unique
 - Infisical [🛈](https://github.com/Infisical/infisical)
   - Infisical is an open-source, E2EE tool to sync environment variables across your team and infrastructure.
   - Tags: shell, environment variables
@@ -133,7 +175,7 @@ Some descriptions are from:
   - Tags: Stable Diffusion Model, image generation
 - iotop [🛈](https://repo.or.cz/w/iotop.git)
   - A top utility for IO
-  - Tags: monitoring, command line, disc
+  - Tags: monitoring, command line, disc utility, monitoring tool
 - jc [🛈](https://github.com/kellyjonbrazil/jc)
   - CLI tool and python library that converts the output of popular command-line tools, file-types, and common strings to JSON, YAML, or Dictionaries. This allows piping of output to tools like jq and simplifying automation scripts.
   - Tags: command line, JSON, YAML, content extractor, data formatter
@@ -158,6 +200,9 @@ Some descriptions are from:
 - llama [🛈](https://github.com/antonmedv/llama)
   - Llama is a terminal file manager. It allows for quick navigation with fuzzy searching. Llama is very simple and minimalistic.
   - Tags: terminal, file manager
+- lsd [🛈](https://github.com/Peltoche/lsd)
+  - lsd is a next gen ls command.
+  - Tags: Rust, command line, file listing, command line: ls
 - lucky-commit [🛈](https://github.com/not-an-aardvark/lucky-commit)
   - Customize your git commit hashes!
   - Tags: git, customizing
@@ -173,6 +218,12 @@ Some descriptions are from:
 - Muse [🛈](https://github.com/Lightning-AI/stable-diffusion-deploy)
   - Open source, stable-diffusion production server to show how to deploy diffusion models in a real production environment with: load-balancing, gpu-inference, performance-testing, micro-services orchestration and more.
   - Tags: Stable Diffusion Model, image generation
+- nat [🛈](https://github.com/willdoescode/nat)
+  - nat is an alternative of ls command line with useful info and a splash of color.
+  - Tags: Rust, command line, file listing, command line: ls
+- navi [🛈](https://github.com/denisidoro/navi)
+  - navi is an interactive cheatsheet tool for the command-line.
+  - Tags: Rust, command line, tldr, cheat sheet, guide
 - nerfstudio [🛈](https://docs.nerf.studio/en/latest/)
   - Nerfstudio provides a simple API that allows for a simplified end-to-end process of creating, training, and visualizing NeRFs
   - Tags: video
@@ -182,6 +233,9 @@ Some descriptions are from:
 - nvtop [🛈](https://github.com/Syllo/nvtop)
   - AMD and NVIDIA GPUs htop like monitoring tool
   - Tags: monitoring, command line, GPU
+- oniguruma [🛈](https://github.com/kkos/oniguruma)
+  - Oniguruma is a modern and flexible regular expressions library.
+  - Tags: regular expression, regex, library, C
 - OSV-Scanner [🛈](https://github.com/google/osv-scanner)
   - Vulnerability scanner written in Go which uses the data provided by https://osv.dev
   - Tags: security, vulnerability scanner
@@ -191,6 +245,9 @@ Some descriptions are from:
 - pls [🛈](https://github.com/dhruvkb/pls)
   - pls is a pretty and powerful ls. It works in a similar way to ls, but it adds many more developer-friendly features, such as node filters, file sorting based on attributes, a details view, and more. pls is a simple tool for looking at the contents of directories and not a complete replacement for ls.
   - Tags: command line
+- procs [🛈](https://github.com/dalance/procs)
+  - procs is a replacement for ps written in Rust.
+  - Tags: Rust, command line, monitoring tool, monitoring, command line: ps
 - projectM [🛈](https://github.com/projectM-visualizer/projectm)
   - projectM - The most advanced open-source music visualizer
   - Tags: audio, visualizer
@@ -206,6 +263,12 @@ Some descriptions are from:
 - refurb [🛈](https://github.com/dosisod/refurb)
   - A tool for refurbishing and modernizing Python codebases.
   - Tags: command line, Python, linter
+- rip [🛈](https://github.com/nivekuil/rip)
+  - rip is a command-line deletion tool focused on safety, ergonomics, and performance.
+  - Tags: Rust, command line, deletion tool, command line: rm
+- ripgrep [🛈](https://github.com/BurntSushi/ripgrep)
+  - ripgrep is a line-oriented search tool that recursively searches the current directory for a regex pattern.
+  - Tags: regular expression, regex, library, command line, Rust, command line: grep
 - ruff [🛈](https://github.com/charliermarsh/ruff)
   - ruff is an extremely fast Python linter written in Rust.
   - Tags: Python
@@ -215,6 +278,9 @@ Some descriptions are from:
 - Scalene [🛈](https://github.com/plasma-umass/scalene)
   - Scalene: a high-performance, high-precision CPU, GPU, and memory profiler for Python.
   - Tags: profiler, Python
+- sd [🛈](https://github.com/chmln/sd)
+  - sd is an intuitive find & replace CLI (sed alternative).
+  - Tags: Rust, command line, find and replace, command line: sed
 - sdsl-lite [🛈](https://github.com/simongog/sdsl-lite)
   - The Succinct Data Structure Library is a C++ 11 library that implements succinct data structures.
   - Tags: C++, data structures
@@ -224,9 +290,15 @@ Some descriptions are from:
 - sysm [🛈](https://github.com/jafarlihi/sysm)
   - sysm makes your system play custom sounds when any configured system or external event happens.
   - Tags: command line, sounds, system events
+- tealdeer [🛈](https://github.com/dbrgn/tealdeer)
+  - tealdeer is a very fast implementation of tldr in Rust: Simplified, example based and community-driven man pages.
+  - Tags: Rust, command line, tldr, cheat sheet, guide
 - the-art-of-command-line [🛈](https://github.com/jlevy/the-art-of-command-line)
   - Master the command line, in one page
-  - Tags: command line, guide, cheat sheet
+  - Tags: command line, tldr, guide, cheat sheet
+- Tokei [🛈](https://github.com/XAMPPRocky/tokei)
+  - Tokei is a program that displays statistics about your code.
+  - Tags: Rust, command line, code statistics
 - trdrop [🛈](https://github.com/cirquit/trdrop)
   - Estimate the "real" framerate of an uncompressed video.
   - Tags: video
@@ -251,6 +323,9 @@ Some descriptions are from:
 - xq [🛈](https://github.com/sibprogrammer/xq)
   -  Command-line XML and HTML beautifier and content extractor
   - Tags: command line, XML, HTML, content extractor, data formatter
+- ytop [🛈](https://github.com/cjbassi/ytop) - NO LONGER MAINTAINED
+  - ytop is a TUI based system monitor, this time in Rust!
+  - Tags: Rust, command line, monitoring tool, monitoring, command line: top
 - Zellij [🛈](https://github.com/zellij-org/zellij)
   - Zellij is a workspace aimed at developers, ops-oriented people and anyone who loves the terminal. At its core, it is a terminal multiplexer (similar to tmux and screen), but this is merely its infrastructure layer.
   - Tags: terminal, terminal interface
@@ -271,12 +346,28 @@ List of tags with occurrences in the brackets:
 - audio (2)
 - automatic transcription (2)
 - awesome-list (1)
+- benchmarking (1)
 - bug tracker (1)
+- C (2)
 - C++ (2)
 - cache (1)
 - caching (1)
-- cheat sheet (2)
-- command line (30)
+- cheat sheet (4)
+- code formatting (1)
+- code statistics (1)
+- command line (53)
+- command line: cat (1)
+- command line: diff (2)
+- command line: du (3)
+- command line: find (1)
+- command line: grep (1)
+- command line: hexdump (1)
+- command line: ls (3)
+- command line: ps (1)
+- command line: rm (1)
+- command line: sed (1)
+- command line: top (3)
+- command line: uniq (1)
 - container (1)
 - content extractor (3)
 - customizing (1)
@@ -285,26 +376,30 @@ List of tags with occurrences in the brackets:
 - data text processing (1)
 - database (2)
 - debugging (1)
-- deduplication (1)
+- deduplication (3)
 - Deep Learning framework (1)
 - Deep Learning Models (1)
+- deletion tool (2)
 - detector (1)
 - developer environment (2)
-- diff (1)
-- disc (1)
-- disk utility (2)
+- diff (2)
+- disc utility (5)
 - editor (1)
 - encryption (1)
 - engineering (1)
 - environment variables (1)
+- file listing (3)
 - file manager (4)
+- file searching (1)
 - file system watcher (1)
+- find and replace (1)
 - framework (1)
 - fuzzy search (2)
 - git (5)
 - GitHub actions (1)
 - GPU (1)
-- guide (3)
+- guide (5)
+- hex viewer (1)
 - history (1)
 - HTML (1)
 - image (3)
@@ -313,28 +408,31 @@ List of tags with occurrences in the brackets:
 - JavaScript (2)
 - JSON (2)
 - Jupyter (1)
-- library (5)
+- library (7)
 - linter (1)
 - Linux (1)
 - Machine Translation (1)
 - makefile (1)
 - Markdown (1)
 - matplot (1)
-- monitoring (3)
-- monitoring tool (2)
-- network (2)
+- monitoring (7)
+- monitoring tool (7)
+- network (3)
 - Notebook (1)
 - notification (1)
 - penetration tests (1)
 - platform (1)
 - preventing secrets (1)
+- printing file (1)
 - privacy (1)
 - profiler (2)
 - progress bar (1)
 - Python (9)
 - Python library (2)
-- Rust (3)
-- searching (1)
+- regex (3)
+- regular expression (3)
+- Rust (26)
+- searching (2)
 - secrets detector (1)
 - security (1)
 - shell (3)
@@ -345,12 +443,15 @@ List of tags with occurrences in the brackets:
 - SQL injection (1)
 - Stable Diffusion Model (3)
 - storage (1)
+- syntax highlighting (1)
 - system events (1)
 - terminal (3)
 - terminal emulator (1)
 - terminal interface (1)
 - text (1)
+- tldr (4)
 - transcription (2)
+- unique (3)
 - unstructured data (1)
 - video (4)
 - visualizations (1)
