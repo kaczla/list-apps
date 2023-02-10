@@ -41,6 +41,9 @@ Some descriptions are from:
 - cachegrand [🛈](https://github.com/danielealbano/cachegrand)
   - cachegrand - a modern OSS Key-Value store built for today's hardware
   - Tags: cache, storage
+- carbonyl [🛈](https://github.com/fathyb/carbonyl)
+  - Carbonyl is a Chromium based browser built to run in a terminal.
+  - Tags: command line, web browser, Rust
 - catp [🛈](https://github.com/rapiz1/catp)
   - catp is a tool for printing the output of a running process. It uses ptrace to intercept syscall and extracts data from the syscall write. catp works for most applications on x86_64 Linux systems. It requires root privilege to run in most systems.
   - Tags: command line, debugging
@@ -77,6 +80,9 @@ Some descriptions are from:
 - diffuzers [🛈](https://github.com/abhishekkrthakur/diffuzers)
   - diffuzers is a web ui for huggingface diffusers.
   - Tags: Stable Diffusion Model, image generation
+- docker-rollout [🛈](https://github.com/Wowu/docker-rollout)
+  - Docker CLI plugin that updates Docker Compose services without downtime.
+  - Tags: docker, docker-compose, services
 - dprint [🛈](https://github.com/dprint/dprint)
   - dprint is a pluggable and configurable code formatting platform.
   - Tags: Rust, command line, code formatting
@@ -106,7 +112,7 @@ Some descriptions are from:
   - Tags: command line, git
 - FastDeploy [🛈](https://github.com/PaddlePaddle/FastDeploy)
   - An Easy-to-use and Fast Deep Learning Model Deployment Toolkit for Cloud Mobile and Edge. Including Image, Video, Text and Audio 20+ main stream scenarios and 150+ SOTA models with end-to-end optimization, multi-platform and multi-framework support.
-  - Tags: Deep Learning Models, image, video, audio, text
+  - Tags: Deep Learning framework, image, video, audio, text
 - fastprogress [🛈](https://github.com/fastai/fastprogress)
   - A fast and simple progress bar for Jupyter Notebook and console.
   - Tags: progress bar, Python
@@ -176,12 +182,18 @@ Some descriptions are from:
 - iotop [🛈](https://repo.or.cz/w/iotop.git)
   - A top utility for IO
   - Tags: monitoring, command line, disc utility, monitoring tool
+- IPyflow [🛈](https://github.com/ipyflow/ipyflow)
+  - ipyflow is a next-generation Python kernel for Jupyter and other notebook interfaces that tracks dataflow relationships between symbols and cells during a given interactive session.
+  - Tags: Python, Jupyter
 - jc [🛈](https://github.com/kellyjonbrazil/jc)
   - CLI tool and python library that converts the output of popular command-line tools, file-types, and common strings to JSON, YAML, or Dictionaries. This allows piping of output to tools like jq and simplifying automation scripts.
   - Tags: command line, JSON, YAML, content extractor, data formatter
 - jq [🛈](https://github.com/stedolan/jq)
   - jq is a lightweight and flexible command-line JSON processor.
   - Tags: command line, JSON, content extractor, data formatter
+- jupyter_contrib_nbextensions [🛈](https://github.com/ipython-contrib/jupyter_contrib_nbextensions)
+  - A collection of various notebook extensions for Jupyter.
+  - Tags: Python, Jupyter
 - JupyterLite [🛈](https://github.com/jupyterlite/jupyterlite)
   - JupyterLite is a JupyterLab distribution that runs entirely in the browser built from the ground-up using JupyterLab components and extensions.
   - Tags: Jupyter, Notebook, Python
@@ -206,6 +218,9 @@ Some descriptions are from:
 - lucky-commit [🛈](https://github.com/not-an-aardvark/lucky-commit)
   - Customize your git commit hashes!
   - Tags: git, customizing
+- Lynx [🛈](https://lynx.invisible-island.net)
+  - Lynx is the text web browser.
+  - Tags: command line, web browser, C
 - matplotlib-gallery [🛈](https://github.com/rasbt/matplotlib-gallery)
   - This repository is a collection of different matplotlib plots in IPython notebooks that I needed for my data visualizations.
   - Tags: matplot, library, visualizations
@@ -251,6 +266,9 @@ Some descriptions are from:
 - projectM [🛈](https://github.com/projectM-visualizer/projectm)
   - projectM - The most advanced open-source music visualizer
   - Tags: audio, visualizer
+- PuDB [🛈](https://github.com/inducer/pudb)
+  - PuDB: a console-based visual debugger for Python.
+  - Tags: Python, debugger, debugging, command line
 - Puff [🛈](https://github.com/hansonkd/puff)
   - Puff is a 'deep stack' for Python that tries to minimize the barrier between Python and Rust. It gives Rust its own layer so that developers can build tools in Rust that work together without having to re-enter Python. Puff allows developers to build runtimes using standard CPython and extend them with Rust.
   - Tags: Rust, Python
@@ -262,16 +280,19 @@ Some descriptions are from:
   - Tags: file manager
 - refurb [🛈](https://github.com/dosisod/refurb)
   - A tool for refurbishing and modernizing Python codebases.
-  - Tags: command line, Python, linter
+  - Tags: command line, Python linter, linter
 - rip [🛈](https://github.com/nivekuil/rip)
   - rip is a command-line deletion tool focused on safety, ergonomics, and performance.
   - Tags: Rust, command line, deletion tool, command line: rm
 - ripgrep [🛈](https://github.com/BurntSushi/ripgrep)
   - ripgrep is a line-oriented search tool that recursively searches the current directory for a regex pattern.
   - Tags: regular expression, regex, library, command line, Rust, command line: grep
+- rtx [🛈](https://github.com/jdxcode/rtx)
+  - rtx is a tool for managing programming language and tool versions.
+  - Tags: command line, environment manager, Rust
 - ruff [🛈](https://github.com/charliermarsh/ruff)
   - ruff is an extremely fast Python linter written in Rust.
-  - Tags: Python
+  - Tags: Python linter, linter, Rust
 - Sapling [🛈](https://github.com/facebook/sapling)
   -  A Scalable, User-Friendly Source Control System.
   - Tags: git, source control system
@@ -284,6 +305,9 @@ Some descriptions are from:
 - sdsl-lite [🛈](https://github.com/simongog/sdsl-lite)
   - The Succinct Data Structure Library is a C++ 11 library that implements succinct data structures.
   - Tags: C++, data structures
+- Slidev [🛈](https://github.com/slidevjs/slidev)
+  - Slives is a program to create presentation slides from Markdown.
+  - Tags: Markdown, presentation
 - sqlmap [🛈](https://github.com/sqlmapproject/sqlmap)
   - sqlmap is an open source penetration testing tool that automates the process of detecting and exploiting SQL injection flaws and taking over of database servers.
   - Tags: database, SQL, SQL injection, penetration tests, command line
@@ -308,6 +332,9 @@ Some descriptions are from:
 - unblob [🛈](https://github.com/onekey-sec/unblob)
   - unblob is an extraction suite that parses unknown binary blobs, extracts their content recursively, and carves out unknown chunks.
   - Tags: command line
+- vsd [🛈](https://github.com/clitic/vsd)
+  - vsd - video stream downloader is a command line program to download video streams served over HTTP from websites, HLS and DASH playlists.
+  - Tags: command line, video, downloader, video downloader, Rust
 - Wails [🛈](https://github.com/wailsapp/wails)
   - Wails is a framework for building desktop applications using Go and Web technologies. It has the ability to wrap both Go code and a web frontend into a single binary. Wails features tools for project creation, compilation, and bundling.
   - Tags: web page
@@ -315,14 +342,20 @@ Some descriptions are from:
   - Watcher is a file system watcher that works anywhere. It is simple, efficient, dependency-free, and header-only. Watcher uses a near-zero amount of resources even when scanning millions of paths.
   - Tags: command line, file system watcher
 - whisper [🛈](https://github.com/openai/whisper)
-  - Robust Speech Recognition via Large-Scale Weak Supervision.
+  - whisper - Robust Speech Recognition via Large-Scale Weak Supervision.
   - Tags: automatic transcription, transcription, speech recognition
 - xonsh [🛈](https://github.com/xonsh/xonsh)
   - xonsh is a Python-powered, cross-platform, Unix-gazing shell language and command prompt.
   - Tags: command line, shell, Python
 - xq [🛈](https://github.com/sibprogrammer/xq)
-  -  Command-line XML and HTML beautifier and content extractor
+  - Command-line XML and HTML beautifier and content extractor.
   - Tags: command line, XML, HTML, content extractor, data formatter
+- youtube-dl [🛈](https://github.com/ytdl-org/youtube-dl)
+  - youtube-dl - download videos from youtube.com or other video platforms.
+  - Tags: command line, video, downloader, video downloader, Python
+- yt-dlp [🛈](https://github.com/yt-dlp/yt-dlp)
+  - yt-dlp is a youtube-dl fork based on the now inactive youtube-dlc. The main focus of this project is adding new features and patches while also keeping up to date with the original project.
+  - Tags: command line, video, downloader, video downloader, Python
 - ytop [🛈](https://github.com/cjbassi/ytop) - NO LONGER MAINTAINED
   - ytop is a TUI based system monitor, this time in Rust!
   - Tags: Rust, command line, monitoring tool, monitoring, command line: top
@@ -348,14 +381,14 @@ List of tags with occurrences in the brackets:
 - awesome-list (1)
 - benchmarking (1)
 - bug tracker (1)
-- C (2)
+- C (3)
 - C++ (2)
 - cache (1)
 - caching (1)
 - cheat sheet (4)
 - code formatting (1)
 - code statistics (1)
-- command line (53)
+- command line (61)
 - command line: cat (1)
 - command line: diff (2)
 - command line: du (3)
@@ -375,18 +408,22 @@ List of tags with occurrences in the brackets:
 - data structures (2)
 - data text processing (1)
 - database (2)
-- debugging (1)
+- debugger (1)
+- debugging (2)
 - deduplication (3)
-- Deep Learning framework (1)
-- Deep Learning Models (1)
-- deletion tool (2)
+- Deep Learning framework (2)
+- deletion tool (3)
 - detector (1)
 - developer environment (2)
 - diff (2)
 - disc utility (5)
+- docker (1)
+- docker-compose (1)
+- downloader (3)
 - editor (1)
 - encryption (1)
 - engineering (1)
+- environment manager (1)
 - environment variables (1)
 - file listing (3)
 - file manager (4)
@@ -407,13 +444,13 @@ List of tags with occurrences in the brackets:
 - isolation (1)
 - JavaScript (2)
 - JSON (2)
-- Jupyter (1)
+- Jupyter (3)
 - library (7)
-- linter (1)
+- linter (2)
 - Linux (1)
 - Machine Translation (1)
 - makefile (1)
-- Markdown (1)
+- Markdown (2)
 - matplot (1)
 - monitoring (7)
 - monitoring tool (7)
@@ -422,19 +459,22 @@ List of tags with occurrences in the brackets:
 - notification (1)
 - penetration tests (1)
 - platform (1)
+- presentation (1)
 - preventing secrets (1)
 - printing file (1)
 - privacy (1)
 - profiler (2)
 - progress bar (1)
-- Python (9)
+- Python (12)
 - Python library (2)
+- Python linter (2)
 - regex (3)
 - regular expression (3)
-- Rust (26)
+- Rust (30)
 - searching (2)
 - secrets detector (1)
 - security (1)
+- services (1)
 - shell (3)
 - sounds (1)
 - source control system (1)
@@ -453,10 +493,12 @@ List of tags with occurrences in the brackets:
 - transcription (2)
 - unique (3)
 - unstructured data (1)
-- video (4)
+- video (7)
+- video downloader (3)
 - visualizations (1)
 - visualizer (1)
 - vulnerability scanner (1)
+- web browser (2)
 - web page (1)
 - web scraper (2)
 - XML (1)
