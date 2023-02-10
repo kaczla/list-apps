@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 
-
 import logging
 from collections import Counter
 from dataclasses import dataclass
@@ -248,7 +247,7 @@ def get_tag_mapper(tags: List[Tag]) -> Dict[str, str]:
             normalized_tags_dict[tag_name] = [tag]
 
     tag_mapper = {}
-    for normalized_tag_name, original_tags in normalized_tags_dict.items():
+    for _, original_tags in normalized_tags_dict.items():
         if len(original_tags) < 2:
             continue
 
