@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import logging
+import re
 from collections import Counter
 from dataclasses import dataclass
 from pathlib import Path
@@ -10,6 +11,8 @@ from typing import Dict, List, Optional, Tuple
 HEADER_LIST_OF_APPS = "List of application"
 
 LOGGER = logging.getLogger(__name__)
+
+RGX_SPACES_CLEAN = re.compile(r"\s+")
 
 
 @dataclass
@@ -187,6 +190,26 @@ def write_readme(
     save_path.write_text(text_to_save)
 
 
+def clean_whitespaces(text: str) -> str:
+    lines = text.split("\n")
+    lines_cleaned = []
+
+    for line in lines:
+        line_clean = line.strip()
+
+        line_clean_index = line.find(line_clean)
+        if line_clean_index < 0:
+            LOGGER.warning(f"Cannot clean text: {repr(line)}")
+            lines_cleaned.append(line)
+            continue
+        prefix = line[:line_clean_index]
+
+        line_clean = RGX_SPACES_CLEAN.sub(" ", line_clean)
+        lines_cleaned.append(prefix + line_clean)
+
+    return "\n".join(lines_cleaned)
+
+
 def parse_application_text_lines(text: List[str]) -> ParsedApplication:
     line_with_name = text.pop(0).lstrip("-").strip()
     application_name, application_name_text = line_with_name.split(maxsplit=1)
@@ -195,6 +218,8 @@ def parse_application_text_lines(text: List[str]) -> ParsedApplication:
     if "[]" in application_name_text or "()" in application_name_text:
         LOGGER.error(f"Found empty link in {application_name}")
 
+    application_name_text = clean_whitespaces(application_name_text)
+    text = [clean_whitespaces(single_text) for single_text in text]
     return ParsedApplication(name=application_name, name_text=application_name_text.strip(), text=text)
 
 

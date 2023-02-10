@@ -294,7 +294,7 @@ Some descriptions are from:
   - ruff is an extremely fast Python linter written in Rust.
   - Tags: Python linter, linter, Rust
 - Sapling [🛈](https://github.com/facebook/sapling)
-  -  A Scalable, User-Friendly Source Control System.
+  - A Scalable, User-Friendly Source Control System.
   - Tags: git, source control system
 - Scalene [🛈](https://github.com/plasma-umass/scalene)
   - Scalene: a high-performance, high-precision CPU, GPU, and memory profiler for Python.
