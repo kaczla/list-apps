@@ -14,6 +14,9 @@ Some descriptions are from:
 - age [🛈](https://github.com/FiloSottile/age)
   - A simple, modern and secure encryption tool (and Go library) with small explicit keys, no config options, and UNIX-style composability.
   - Tags: command line, encryption
+- allocscope [🛈](https://github.com/matt-kimball/allocscope)
+  - allocscope is a tool for tracking down where the most egregiously large allocations are occurring in a C, C++ or Rust codebase.
+  - Tags: C, C++, Rust, library, memory tracking
 - Apprise [🛈](https://github.com/caronc/apprise)
   - Apprise is a library that allows developers to send notifications to almost all of the most popular notification services available. It features a common and intuitive notification syntax and it supports the handling of images and attachments. A list of notification types and services supported by Apprise is available.
   - Tags: notification
@@ -62,6 +65,12 @@ Some descriptions are from:
 - CRIU [🛈](https://criu.org/Main_Page)
   - Checkpoint/Restore In Userspace. It can freeze a running container (or an individual application) and checkpoint its state to disk. The data saved can be used to restore the application and run it exactly as it was during the time of the freeze. Using this functionality, application or container live migration, snapshots, remote debugging, and many other things are now possible.
   - Tags: Linux
+- ctop [🛈](https://github.com/bcicen/ctop)
+  - ctop provides a concise and condensed overview of real-time metrics for multiple containers. Top-like interface for container metrics.
+  - Tags: containers, monitoring, command line, command line: top
+- DBeaver [🛈](https://github.com/dbeaver/dbeaver)
+  - Free multi-platform database tool for developers, SQL programmers, database administrators and analysts.
+  - Tags: database, GUI, SQL
 - delta [🛈](https://github.com/dandavison/delta)
   - delta is a syntax-highlighting pager for git, diff, and grep output.
   - Tags: Rust, command line, diff, command line: diff
@@ -206,6 +215,9 @@ Some descriptions are from:
 - katana [🛈](https://github.com/projectdiscovery/katana)
   - A next-generation crawling and spidering framework
   - Tags: web scraper
+- Keep [🛈](https://github.com/keephq/keep)
+  - Keep is a simple CLI tool that contains everything you need to start creating Alerts.
+  - Tags: Python, command line, alerts
 - LibreTranslate [🛈](https://github.com/LibreTranslate/LibreTranslate)
   - Free and Open Source Machine Translation API. 100% self-hosted, offline capable and easy to setup.
   - Tags: Machine Translation
@@ -223,13 +235,19 @@ Some descriptions are from:
   - Tags: command line, web browser, C
 - matplotlib-gallery [🛈](https://github.com/rasbt/matplotlib-gallery)
   - This repository is a collection of different matplotlib plots in IPython notebooks that I needed for my data visualizations.
-  - Tags: matplot, library, visualizations
+  - Tags: matplot, library, visualization
 - mc [🛈](https://github.com/MidnightCommander/mc)
   - GNU Midnight Commander is a visual file manager, licensed under GNU General Public License and therefore qualifies as Free Software. It's a feature rich full-screen text mode application that allows you to copy, move and delete files and whole directory trees, search for files and run commands in the subshell. Internal viewer and editor are included.
   - Tags: terminal, file manager
+- Mergify [🛈](https://mergify.com)
+  - Mergify to automate pull requests + secure the code merge using a merge queue.
+  - Tags: automate pull requests, pull requests
+- Metaflow [🛈](https://github.com/Netflix/metaflow)
+  - Metaflow is a human-friendly Python/R library that helps scientists and engineers build and manage real-life data science projects.
+  - Tags: Python, library, real-time workflow
 - Milvus [🛈](https://github.com/milvus-io/milvus)
   - Milvus is an open-source vector database built to power embedding similarity search and AI applications. It makes unstructured data search more accessible and provides a consistent user experience regardless of the deployment environment. All components in Milvus are stateless to enhance elasticity and flexibility.
-  - Tags: platform, image, unstructured data, searching
+  - Tags: platform, image, unstructured data, searching, database
 - Muse [🛈](https://github.com/Lightning-AI/stable-diffusion-deploy)
   - Open source, stable-diffusion production server to show how to deploy diffusion models in a real production environment with: load-balancing, gpu-inference, performance-testing, micro-services orchestration and more.
   - Tags: Stable Diffusion Model, image generation
@@ -257,6 +275,18 @@ Some descriptions are from:
 - Pelikan [🛈](https://github.com/twitter/pelikan)
   - Pelikan is framework for developing cache services.
   - Tags: caching
+- pgAdmin [🛈](https://github.com/pgadmin-org/pgadmin4)
+  - pgAdmin is the most popular and feature rich Open Source administration and development platform for PostgreSQL, the most advanced Open Source database in the world.
+  - Tags: database, GUI, SQL
+- pgmodeler [🛈](https://github.com/pgmodeler/pgmodeler)
+  - Open-source data modeling tool designed for PostgreSQL. No more typing DDL commands. Let pgModeler do the work for you!
+  - Tags: database, GUI, SQL
+- PINCE [🛈](https://github.com/korcankaraokcu/PINCE)
+  - PINCE is a front-end/reverse engineering tool for the GNU Project Debugger (GDB), focused on games.
+  - Tags: reverse engineering
+- pipes.sh [🛈](https://github.com/pipeseroni/pipes.sh)
+  - Animated pipes terminal screensaver.
+  - Tags: shell script, fun
 - pls [🛈](https://github.com/dhruvkb/pls)
   - pls is a pretty and powerful ls. It works in a similar way to ls, but it adds many more developer-friendly features, such as node filters, file sorting based on attributes, a details view, and more. pls is a simple tool for looking at the contents of directories and not a complete replacement for ls.
   - Tags: command line
@@ -272,15 +302,21 @@ Some descriptions are from:
 - Puff [🛈](https://github.com/hansonkd/puff)
   - Puff is a 'deep stack' for Python that tries to minimize the barrier between Python and Rust. It gives Rust its own layer so that developers can build tools in Rust that work together without having to re-enter Python. Puff allows developers to build runtimes using standard CPython and extend them with Rust.
   - Tags: Rust, Python
+- PyGWalker [🛈](https://github.com/Kanaries/pygwalker)
+  - PyGWalker: A Python Library for Exploratory Data Analysis with Visualization. Turn your pandas dataframe into a Tableau-style User Interface for visual analysis.
+  - Tags: Python, library, Jupyter, visualization
 - q [🛈](https://github.com/harelba/q)
   - q - Run SQL directly on delimited files and multi-file sqlite databases
-  - Tags: command line, database
+  - Tags: command line, database, sqlite, SQL
 - ranger [🛈](https://github.com/ranger/ranger)
   - ranger is a console file manager with VI key bindings
   - Tags: file manager
 - refurb [🛈](https://github.com/dosisod/refurb)
   - A tool for refurbishing and modernizing Python codebases.
   - Tags: command line, Python linter, linter
+- Reverie [🛈](https://github.com/facebookexperimental/reverie)
+  - Reverie is a user space system-call interception framework for Linux. It can be used to intercept, modify, or elide a syscall before the kernel executes it. In essence, Reverie sits at the boundary between user space and kernel space.
+  - Tags: Linux, system call, Rust, library
 - rip [🛈](https://github.com/nivekuil/rip)
   - rip is a command-line deletion tool focused on safety, ergonomics, and performance.
   - Tags: Rust, command line, deletion tool, command line: rm
@@ -293,6 +329,9 @@ Some descriptions are from:
 - ruff [🛈](https://github.com/charliermarsh/ruff)
   - ruff is an extremely fast Python linter written in Rust.
   - Tags: Python linter, linter, Rust
+- runiq [🛈](https://github.com/whitfin/runiq)
+  - An efficient way to filter duplicate lines from input, à la uniq.
+  - Tags: Rust, command line, deduplication, unique, command line: uniq
 - Sapling [🛈](https://github.com/facebook/sapling)
   - A Scalable, User-Friendly Source Control System.
   - Tags: git, source control system
@@ -308,18 +347,30 @@ Some descriptions are from:
 - Slidev [🛈](https://github.com/slidevjs/slidev)
   - Slives is a program to create presentation slides from Markdown.
   - Tags: Markdown, presentation
+- sqlectron-gui [🛈](https://github.com/sqlectron/sqlectron-gui)
+  - A simple and lightweight SQL client desktop with cross database and platform support.
+  - Tags: database, GUI, SQL
 - sqlmap [🛈](https://github.com/sqlmapproject/sqlmap)
   - sqlmap is an open source penetration testing tool that automates the process of detecting and exploiting SQL injection flaws and taking over of database servers.
   - Tags: database, SQL, SQL injection, penetration tests, command line
+- Stacer [🛈](https://github.com/oguzhaninan/Stacer)
+  - Linux System Optimizer and Monitoring
+  - Tags: GUI, monitoring, command line, command line: top
 - sysm [🛈](https://github.com/jafarlihi/sysm)
   - sysm makes your system play custom sounds when any configured system or external event happens.
   - Tags: command line, sounds, system events
 - tealdeer [🛈](https://github.com/dbrgn/tealdeer)
   - tealdeer is a very fast implementation of tldr in Rust: Simplified, example based and community-driven man pages.
   - Tags: Rust, command line, tldr, cheat sheet, guide
+- terashuf [🛈](https://github.com/alexandres/terashuf)
+  - terashuf shuffles multi-terabyte text files using limited memory.
+  - Tags: command line, command line: shuf
 - the-art-of-command-line [🛈](https://github.com/jlevy/the-art-of-command-line)
   - Master the command line, in one page
   - Tags: command line, tldr, guide, cheat sheet
+- tidy-html5 [🛈](https://github.com/htacg/tidy-html5)
+  - Tidy is the granddaddy of HTML tools, with support for modern standards.
+  - Tags: HTML, command line
 - Tokei [🛈](https://github.com/XAMPPRocky/tokei)
   - Tokei is a program that displays statistics about your code.
   - Tags: Rust, command line, code statistics
@@ -350,6 +401,9 @@ Some descriptions are from:
 - xq [🛈](https://github.com/sibprogrammer/xq)
   - Command-line XML and HTML beautifier and content extractor.
   - Tags: command line, XML, HTML, content extractor, data formatter
+- xz [🛈](https://github.com/tukaani-project/xz)
+  - XZ Utils provide a general-purpose data-compression library plus command-line tools. The native file format is the .xz format, but also the legacy .lzma format is supported.
+  - Tags: C, command line, compression
 - youtube-dl [🛈](https://github.com/ytdl-org/youtube-dl)
   - youtube-dl - download videos from youtube.com or other video platforms.
   - Tags: command line, video, downloader, video downloader, Python
@@ -362,6 +416,9 @@ Some descriptions are from:
 - Zellij [🛈](https://github.com/zellij-org/zellij)
   - Zellij is a workspace aimed at developers, ops-oriented people and anyone who loves the terminal. At its core, it is a terminal multiplexer (similar to tmux and screen), but this is merely its infrastructure layer.
   - Tags: terminal, terminal interface
+- zstd [🛈](https://github.com/facebook/zstd)
+  - Zstandard, or zstd as short version, is a fast lossless compression algorithm, targeting real-time compression scenarios at zlib-level and better compression ratios.
+  - Tags: C, command line, compression
 - μFuzzy [🛈](https://github.com/leeoniya/uFuzzy)
   - μFuzzy is a tiny, efficient, fuzzy search library designed to match a short search phrase against a large list of short-to-medium phrases. It can be used for list filtering, auto-complete, or title/name/description/filename/function searches. μFuzzy features straightforward fuzziness control, customized sorting, and a concise set of options.
   - Tags: JavaScript, library, fuzzy search
@@ -376,19 +433,21 @@ Some descriptions are from:
 
 List of tags with occurrences in the brackets:
 
+- alerts (1)
 - audio (2)
+- automate pull requests (1)
 - automatic transcription (2)
 - awesome-list (1)
 - benchmarking (1)
 - bug tracker (1)
-- C (3)
-- C++ (2)
+- C (6)
+- C++ (3)
 - cache (1)
 - caching (1)
 - cheat sheet (4)
 - code formatting (1)
 - code statistics (1)
-- command line (61)
+- command line (69)
 - command line: cat (1)
 - command line: diff (2)
 - command line: du (3)
@@ -399,18 +458,21 @@ List of tags with occurrences in the brackets:
 - command line: ps (1)
 - command line: rm (1)
 - command line: sed (1)
-- command line: top (3)
-- command line: uniq (1)
+- command line: shuf (1)
+- command line: top (5)
+- command line: uniq (2)
+- compression (2)
 - container (1)
+- containers (1)
 - content extractor (3)
 - customizing (1)
 - data formatter (3)
 - data structures (2)
 - data text processing (1)
-- database (2)
+- database (7)
 - debugger (1)
 - debugging (2)
-- deduplication (3)
+- deduplication (4)
 - Deep Learning framework (2)
 - deletion tool (3)
 - detector (1)
@@ -431,28 +493,31 @@ List of tags with occurrences in the brackets:
 - file system watcher (1)
 - find and replace (1)
 - framework (1)
+- fun (1)
 - fuzzy search (2)
 - git (5)
 - GitHub actions (1)
 - GPU (1)
+- GUI (5)
 - guide (5)
 - hex viewer (1)
 - history (1)
-- HTML (1)
+- HTML (2)
 - image (3)
 - image generation (3)
 - isolation (1)
 - JavaScript (2)
 - JSON (2)
-- Jupyter (3)
-- library (7)
+- Jupyter (4)
+- library (11)
 - linter (2)
-- Linux (1)
+- Linux (2)
 - Machine Translation (1)
 - makefile (1)
 - Markdown (2)
 - matplot (1)
-- monitoring (7)
+- memory tracking (1)
+- monitoring (9)
 - monitoring tool (7)
 - network (3)
 - Notebook (1)
@@ -465,25 +530,31 @@ List of tags with occurrences in the brackets:
 - privacy (1)
 - profiler (2)
 - progress bar (1)
-- Python (12)
+- pull requests (1)
+- Python (15)
 - Python library (2)
 - Python linter (2)
+- real-time workflow (1)
 - regex (3)
 - regular expression (3)
-- Rust (30)
+- reverse engineering (1)
+- Rust (33)
 - searching (2)
 - secrets detector (1)
 - security (1)
 - services (1)
 - shell (3)
+- shell script (1)
 - sounds (1)
 - source control system (1)
 - speech recognition (1)
-- SQL (1)
+- SQL (6)
 - SQL injection (1)
+- sqlite (1)
 - Stable Diffusion Model (3)
 - storage (1)
 - syntax highlighting (1)
+- system call (1)
 - system events (1)
 - terminal (3)
 - terminal emulator (1)
@@ -491,11 +562,11 @@ List of tags with occurrences in the brackets:
 - text (1)
 - tldr (4)
 - transcription (2)
-- unique (3)
+- unique (4)
 - unstructured data (1)
 - video (7)
 - video downloader (3)
-- visualizations (1)
+- visualization (2)
 - visualizer (1)
 - vulnerability scanner (1)
 - web browser (2)
