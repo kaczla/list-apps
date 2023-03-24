@@ -3,6 +3,7 @@
 import logging
 import re
 from collections import Counter
+from copy import deepcopy
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Counter as CounterType
@@ -57,7 +58,7 @@ class ParsedApplication:
             tags = uniq_tags_list
 
         # Update tag text
-        self.set_tags(tags)
+        self.set_tags(self._sort_tags(tags))
 
         return tags
 
@@ -67,6 +68,24 @@ class ParsedApplication:
             self.text[tag_text_indexes[0]] = "  - Tags: " + ", ".join(tag_names)
         else:
             self.text.append("  - Tags: " + ", ".join(tag_names))
+
+    @staticmethod
+    def _sort_tags(tags: List[str]) -> List[str]:
+        source_tags = []
+        command_line_tags = []
+        for tag in deepcopy(tags):
+            if tag.startswith("source: "):
+                source_tags.append(tag)
+
+            elif tag.startswith("command line: "):
+                command_line_tags.append(tag)
+
+            else:
+                continue
+
+            tags.remove(tag)
+
+        return tags + command_line_tags + source_tags
 
 
 @dataclass
