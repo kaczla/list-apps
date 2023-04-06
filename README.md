@@ -53,6 +53,9 @@ Some descriptions are from:
 - catp [🛈](https://github.com/rapiz1/catp)
   - catp is a tool for printing the output of a running process. It uses ptrace to intercept syscall and extracts data from the syscall write. catp works for most applications on x86_64 Linux systems. It requires root privilege to run in most systems.
   - Tags: command line, debugging
+- chatanalytics [🛈](https://github.com/mlomb/chat-analytics)
+  - Generate interactive, beautiful and insightful chat analysis reports.
+  - Tags: GUI, report, analysis
 - cheat.sh [🛈](https://github.com/chubin/cheat.sh)
   - The only cheat sheet you need. Has a simple curl/browser/editor interface. Covers 56 programming languages, several DBMSes, and more than 1000 most important UNIX/Linux commands.
   - Tags: cheat sheet, guide, command line, tldr
@@ -71,6 +74,9 @@ Some descriptions are from:
 - ctop [🛈](https://github.com/bcicen/ctop)
   - ctop provides a concise and condensed overview of real-time metrics for multiple containers. Top-like interface for container metrics.
   - Tags: containers, monitoring, command line, command line: top
+- Cursor [🛈](https://github.com/getcursor/cursor)
+  - Cursor is an editor made for programming with AI robot.
+  - Tags: GUI, editor, AI powered
 - DBeaver [🛈](https://github.com/dbeaver/dbeaver)
   - Free multi-platform database tool for developers, SQL programmers, database administrators and analysts.
   - Tags: database, GUI, SQL
@@ -368,6 +374,9 @@ Some descriptions are from:
 - Slidev [🛈](https://github.com/slidevjs/slidev)
   - Slives is a program to create presentation slides from Markdown.
   - Tags: Markdown, presentation
+- Sourcegraph [🛈](https://github.com/sourcegraph/sourcegraph)
+  - Sourcegraph makes it easy to read, write, and fix code—even in big, complex codebases.
+  - Tags: GUI, editor, database, AI powered
 - sqlectron-gui [🛈](https://github.com/sqlectron/sqlectron-gui)
   - A simple and lightweight SQL client desktop with cross database and platform support.
   - Tags: database, GUI, SQL
@@ -401,6 +410,9 @@ Some descriptions are from:
 - tree [🛈](https://github.com/mgunyho/tere)
   - tere is a terminal file explorer that is faster than using cd or ls. It enables fast navigation to a folder and then prints the path to that folder on exit. tere is not a file manager and it can only be used to browse folders.
   - Tags: file manager
+- trurl [🛈](https://github.com/curl/trurl)
+  - trurl is a command line tool for URL parsing and manipulation
+  - Tags: command line, parsing, url, source: Python
 - typst [🛈](https://github.com/typst/typst)
   - Typst is a new markup-based typsetting system that is designed to be as powerful as LaTeX while being much easier to learn and use.
   - Tags: editor, source: Rust
@@ -457,7 +469,9 @@ Some descriptions are from:
 
 List of tags with occurrences in the brackets:
 
+- AI powered (2)
 - alerts (1)
+- analysis (1)
 - audio (2)
 - automate pull requests (1)
 - automatic transcription (2)
@@ -472,7 +486,7 @@ List of tags with occurrences in the brackets:
 - code completion (1)
 - code formatting (1)
 - code statistics (1)
-- command line (73)
+- command line (74)
 - compression (2)
 - container (2)
 - containers (1)
@@ -481,7 +495,7 @@ List of tags with occurrences in the brackets:
 - data formatter (3)
 - data structures (2)
 - data text processing (1)
-- database (7)
+- database (8)
 - dataflow (1)
 - debugger (1)
 - debugging (2)
@@ -496,7 +510,7 @@ List of tags with occurrences in the brackets:
 - docker (2)
 - docker-compose (1)
 - downloader (3)
-- editor (2)
+- editor (4)
 - encryption (1)
 - engineering (1)
 - environment (3)
@@ -513,7 +527,7 @@ List of tags with occurrences in the brackets:
 - git (5)
 - GitHub actions (1)
 - GPU (1)
-- GUI (5)
+- GUI (8)
 - guide (5)
 - help message (1)
 - hex viewer (1)
@@ -539,6 +553,7 @@ List of tags with occurrences in the brackets:
 - Notebook (1)
 - notification (1)
 - parse file (1)
+- parsing (1)
 - penetration tests (1)
 - platform (1)
 - presentation (1)
@@ -552,6 +567,7 @@ List of tags with occurrences in the brackets:
 - real-time workflow (1)
 - regex (3)
 - regular expression (3)
+- report (1)
 - reverse engineering (1)
 - Rust (1)
 - scan vulnerability (1)
@@ -580,6 +596,7 @@ List of tags with occurrences in the brackets:
 - transcription (2)
 - unique (4)
 - unstructured data (1)
+- url (1)
 - video (7)
 - video downloader (3)
 - visualization (2)
