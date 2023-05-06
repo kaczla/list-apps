@@ -20,9 +20,15 @@ Some descriptions are from:
 - Apprise [🛈](https://github.com/caronc/apprise)
   - Apprise is a library that allows developers to send notifications to almost all of the most popular notification services available. It features a common and intuitive notification syntax and it supports the handling of images and attachments. A list of notification types and services supported by Apprise is available.
   - Tags: notification
+- Arroyo [🛈](https://github.com/ArroyoSystems/arroyo)
+  - Arroyo is a distributed stream processing engine written in Rust, designed to efficiently perform stateful computations on streams of data. Unlike traditional batch processing, streaming engines can operate on both bounded and unbounded sources, emitting results as soon as they are available.
+  - Tags: library, stream data, source: Rust
 - bandwhich [🛈](https://github.com/imsnif/bandwhich)
   - bandwhich is a CLI utility for displaying current network utilization by process, connection and remote IP/hostname.
   - Tags: command line, monitoring tool, monitoring, network, source: Rust
+- bark [🛈](https://github.com/suno-ai/bark)
+  - Bark is a transformer-based text-to-audio model created by Suno. Bark can generate highly realistic, multilingual speech as well as other audio - including music, background noise and simple sound effects.
+  - Tags: Deep Learning, text-to-audio, audio generation, source: Python
 - bat [🛈](https://github.com/sharkdp/bat)
   - bat is a cat clone with syntax highlighting and Git integration.
   - Tags: command line, printing file, syntax highlighting, command line: cat, source: Rust
@@ -119,9 +125,15 @@ Some descriptions are from:
 - dust [🛈](https://github.com/bootandy/dust)
   - dust is a more intuitive version of du in rust.
   - Tags: command line, disc utility, command line: du, source: Rust
+- e2b [🛈](https://github.com/e2b-dev/e2b)
+  - Open-source IDE powered by AI agents that do the work for you.
+  - Tags: IDE, Deep Learning, source: Python
 - eDEX-UI [🛈](https://github.com/GitSquared/edex-ui)
   - eDEX-UI is a fullscreen, cross-platform terminal emulator and system monitor that looks and feels like a sci-fi computer interface.
   - Tags: terminal emulator
+- EditAnything [🛈](https://github.com/sail-sg/EditAnything)
+  - Edit anything in images powered by segment-anything, ControlNet, StableDiffusion, etc.
+  - Tags: Deep Learning, image generation, image editing, source: Python
 - engineering-management [🛈](https://github.com/charlax/engineering-management)
   - A collection of inspiring resources related to engineering management and tech leadership.
   - Tags: guide, awesome-list, engineering
@@ -151,7 +163,10 @@ Some descriptions are from:
   - Tags: command line, deduplication, unique, deletion tool, source: C
 - finch [🛈](https://github.com/runfinch/finch)
   - The Finch CLI an open source client for container development.
-  - Tags: developer environment
+  - Tags: developer environment, container
+- Frogmouth [🛈](https://github.com/Textualize/frogmouth)
+  - Frogmouth is a Markdown viewer / browser for your terminal, built with Textual.
+  - Tags: command line, Markdown, viewer, source: Python
 - fzf [🛈](https://github.com/junegunn/fzf)
   - fzf is a general-purpose command-line fuzzy finder.
   - Tags: command line, searching, file searching, command line: find, source: Go
@@ -245,6 +260,9 @@ Some descriptions are from:
 - Keep [🛈](https://github.com/keephq/keep)
   - Keep is a simple CLI tool that contains everything you need to start creating Alerts.
   - Tags: command line, alerts, source: Python
+- killport [🛈](https://github.com/jkfran/killport)
+  - killport is a command-line utility for killing processes listening on specific ports. It's designed to be simple, fast, and effective. The tool is built with Rust and works on Linux and macOS.
+  - Tags: command line, killing proces, command line: kill, source: Rust
 - LibreTranslate [🛈](https://github.com/LibreTranslate/LibreTranslate)
   - Free and Open Source Machine Translation API. 100% self-hosted, offline capable and easy to setup.
   - Tags: Machine Translation
@@ -314,6 +332,9 @@ Some descriptions are from:
 - pipes.sh [🛈](https://github.com/pipeseroni/pipes.sh)
   - Animated pipes terminal screensaver.
   - Tags: shell script, fun
+- PL/Rust [🛈](https://github.com/tcdi/plrust)
+  - PL/Rust is a loadable procedural language that enables writing PostgreSQL functions in the Rust programming language. These functions are compiled to native machine code. Unlike other procedural languages, PL/Rust functions are not interpreted.
+  - Tags: library, database, PostgreSQL, source: Rust
 - pls [🛈](https://github.com/dhruvkb/pls)
   - pls is a pretty and powerful ls. It works in a similar way to ls, but it adds many more developer-friendly features, such as node filters, file sorting based on attributes, a details view, and more. pls is a simple tool for looking at the contents of directories and not a complete replacement for ls.
   - Tags: command line, file listing, command line: ls
@@ -359,6 +380,9 @@ Some descriptions are from:
 - runiq [🛈](https://github.com/whitfin/runiq)
   - An efficient way to filter duplicate lines from input, à la uniq.
   - Tags: command line, deduplication, unique, command line: uniq, source: Rust
+- rye [🛈](https://github.com/mitsuhiko/rye)
+  - Rye is Armin's personal one-stop-shop for all his Python needs. It installs and manages Python installations, manages pyproject.toml files, installs and uninstalls dependencies, manages virtualenvs behind the scenes. It supports monorepos and global tool installations.
+  - Tags: command line, developer environment, environment manager, Python interpreter, source: Rust
 - Sapling [🛈](https://github.com/facebook/sapling)
   - A Scalable, User-Friendly Source Control System.
   - Tags: git, source control system
@@ -389,12 +413,18 @@ Some descriptions are from:
 - sysm [🛈](https://github.com/jafarlihi/sysm)
   - sysm makes your system play custom sounds when any configured system or external event happens.
   - Tags: command line, sounds, system events
+- Tabby [🛈](https://github.com/TabbyML/tabby)
+  - Tabby is a self-hosted AI coding assistant. An opensource / on-prem alternative to GitHub Copilot.
+  - Tags: code completion, Deep Learning, source: Python
 - tealdeer [🛈](https://github.com/dbrgn/tealdeer)
   - tealdeer is a very fast implementation of tldr in Rust: Simplified, example based and community-driven man pages.
   - Tags: command line, tldr, cheat sheet, guide, source: Rust
 - terashuf [🛈](https://github.com/alexandres/terashuf)
   - terashuf shuffles multi-terabyte text files using limited memory.
   - Tags: command line, command line: shuf
+- Text generation web UI [🛈](https://github.com/oobabooga/text-generation-webui)
+  - A gradio web UI for running Large Language Models like LLaMA, llama.cpp, GPT-J, Pythia, OPT, and GALACTICA.
+  - Tags: text generation, Deep Learning, source: Python
 - the-art-of-command-line [🛈](https://github.com/jlevy/the-art-of-command-line)
   - Master the command line, in one page
   - Tags: command line, tldr, guide, cheat sheet
@@ -413,12 +443,18 @@ Some descriptions are from:
 - trurl [🛈](https://github.com/curl/trurl)
   - trurl is a command line tool for URL parsing and manipulation
   - Tags: command line, parsing, url, source: Python
+- TurboPilot [🛈](https://github.com/ravenscroftj/turbopilot)
+  - TurboPilot is a self-hosted copilot clone which uses the library behind llama.cpp to run the 6 Billion Parameter Salesforce Codegen model in 4GiB of RAM. It is heavily based and inspired by on the fauxpilot project.
+  - Tags: code completion, Deep Learning, source: Python
 - typst [🛈](https://github.com/typst/typst)
   - Typst is a new markup-based typsetting system that is designed to be as powerful as LaTeX while being much easier to learn and use.
   - Tags: editor, source: Rust
 - unblob [🛈](https://github.com/onekey-sec/unblob)
   - unblob is an extraction suite that parses unknown binary blobs, extracts their content recursively, and carves out unknown chunks.
   - Tags: command line, parse file
+- VideoCrafter [🛈](https://github.com/VideoCrafter/VideoCrafter)
+  - VideoCrafter is an open-source video generation and editing toolbox for crafting video content.
+  - Tags: Deep Learning, video, video generation, source: Python
 - vsd [🛈](https://github.com/clitic/vsd)
   - vsd - video stream downloader is a command line program to download video streams served over HTTP from websites, HLS and DASH playlists.
   - Tags: command line, video, downloader, video downloader, Rust
@@ -431,6 +467,9 @@ Some descriptions are from:
 - whisper [🛈](https://github.com/openai/whisper)
   - whisper - Robust Speech Recognition via Large-Scale Weak Supervision.
   - Tags: automatic transcription, transcription, speech recognition
+- wonnx [🛈](https://github.com/webonnx/wonnx)
+  - Wonnx is a GPU-accelerated ONNX inference run-time written 100% in Rust, ready for the web.
+  - Tags: Deep Learning, GPU, library, source: Rust
 - xonsh [🛈](https://github.com/xonsh/xonsh)
   - xonsh is a Python-powered, cross-platform, Unix-gazing shell language and command prompt.
   - Tags: command line, shell, source: Python
@@ -473,6 +512,7 @@ List of tags with occurrences in the brackets:
 - alerts (1)
 - analysis (1)
 - audio (2)
+- audio generation (1)
 - automate pull requests (1)
 - automatic transcription (2)
 - awesome-list (1)
@@ -483,28 +523,28 @@ List of tags with occurrences in the brackets:
 - cache (1)
 - caching (1)
 - cheat sheet (4)
-- code completion (1)
+- code completion (3)
 - code formatting (1)
 - code statistics (1)
-- command line (74)
+- command line (77)
 - compression (2)
-- container (2)
+- container (3)
 - containers (1)
 - content extractor (3)
 - customizing (1)
 - data formatter (3)
 - data structures (2)
 - data text processing (1)
-- database (8)
+- database (9)
 - dataflow (1)
 - debugger (1)
 - debugging (2)
 - deduplication (4)
-- Deep Learning (3)
+- Deep Learning (11)
 - Deep Learning framework (2)
 - deletion tool (3)
 - detector (1)
-- developer environment (2)
+- developer environment (3)
 - diff (2)
 - disc utility (5)
 - docker (2)
@@ -514,7 +554,7 @@ List of tags with occurrences in the brackets:
 - encryption (1)
 - engineering (1)
 - environment (3)
-- environment manager (3)
+- environment manager (4)
 - environment variables (1)
 - file listing (4)
 - file manager (4)
@@ -526,25 +566,28 @@ List of tags with occurrences in the brackets:
 - fuzzy search (2)
 - git (5)
 - GitHub actions (1)
-- GPU (1)
+- GPU (2)
 - GUI (8)
 - guide (5)
 - help message (1)
 - hex viewer (1)
 - history (1)
 - HTML (2)
+- IDE (1)
 - image (3)
-- image generation (3)
+- image editing (1)
+- image generation (4)
 - isolation (1)
 - JSON (2)
 - Jupyter (4)
-- library (15)
+- killing proces (1)
+- library (18)
 - linter (3)
 - Linux (2)
 - Machine Translation (1)
 - makefile (1)
 - management (3)
-- Markdown (2)
+- Markdown (3)
 - matplot (1)
 - memory tracking (1)
 - monitoring (9)
@@ -556,6 +599,7 @@ List of tags with occurrences in the brackets:
 - parsing (1)
 - penetration tests (1)
 - platform (1)
+- PostgreSQL (1)
 - presentation (1)
 - preventing secrets (1)
 - printing file (1)
@@ -563,6 +607,7 @@ List of tags with occurrences in the brackets:
 - profiler (2)
 - progress bar (1)
 - pull requests (1)
+- Python interpreter (1)
 - Python linter (1)
 - real-time workflow (1)
 - regex (3)
@@ -585,6 +630,7 @@ List of tags with occurrences in the brackets:
 - sqlite (1)
 - Stable Diffusion Model (3)
 - storage (1)
+- stream data (1)
 - syntax highlighting (1)
 - system call (1)
 - system events (1)
@@ -592,13 +638,17 @@ List of tags with occurrences in the brackets:
 - terminal emulator (1)
 - terminal interface (1)
 - text (1)
+- text generation (1)
+- text-to-audio (1)
 - tldr (4)
 - transcription (2)
 - unique (4)
 - unstructured data (1)
 - url (1)
-- video (7)
+- video (8)
 - video downloader (3)
+- video generation (1)
+- viewer (1)
 - visualization (2)
 - visualizer (1)
 - vulnerability scanner (1)
