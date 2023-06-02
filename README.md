@@ -17,6 +17,9 @@ Some descriptions are from:
 - allocscope [🛈](https://github.com/matt-kimball/allocscope)
   - allocscope is a tool for tracking down where the most egregiously large allocations are occurring in a C, C++ or Rust codebase.
   - Tags: C, C++, library, memory tracking, source: Rust
+- Ambrosia [🛈](https://github.com/reactorsh/ambrosia)
+  - Ambrosia is a cross-platform command line tool for improving the text datasets you use for machine learning.
+  - Tags: text processing, Natural Language Processing, NLP, source: Go
 - Apprise [🛈](https://github.com/caronc/apprise)
   - Apprise is a library that allows developers to send notifications to almost all of the most popular notification services available. It features a common and intuitive notification syntax and it supports the handling of images and attachments. A list of notification types and services supported by Apprise is available.
   - Tags: notification
@@ -229,7 +232,7 @@ Some descriptions are from:
   - Tags: shell, environment variables
 - InvokeAI [🛈](https://github.com/invoke-ai/InvokeAI)
   - This version of Stable Diffusion features a slick WebGUI, an interactive command-line script that combines text2img and img2img functionality in a "dream bot" style interface, and multiple features and other enhancements. For more info, see the website link below.
-  - Tags: Stable Diffusion Model, image generation
+  - Tags: Deep Learning, image generation, image editing, Stable Diffusion Model
 - iotop [🛈](https://repo.or.cz/w/iotop.git)
   - A top utility for IO
   - Tags: monitoring, command line, disc utility, monitoring tool
@@ -239,9 +242,15 @@ Some descriptions are from:
 - jc [🛈](https://github.com/kellyjonbrazil/jc)
   - CLI tool and python library that converts the output of popular command-line tools, file-types, and common strings to JSON, YAML, or Dictionaries. This allows piping of output to tools like jq and simplifying automation scripts.
   - Tags: command line, JSON, YAML, content extractor, data formatter
+- joshuto [🛈](https://github.com/kamiyaa/joshuto)
+  - ranger-like terminal file manager written in Rust.
+  - Tags: file manager, command line: ranger, command line: mc, source: Rust
 - jq [🛈](https://github.com/stedolan/jq)
   - jq is a lightweight and flexible command-line JSON processor.
   - Tags: command line, JSON, content extractor, data formatter
+- JunoDB [🛈](https://github.com/paypal/junodb)
+  - JunoDB is PayPal's home-grown secure, consistent and highly available key-value store providing low, single digit millisecond, latency at any scale.
+  - Tags: database, key-value store, source: Go
 - jupyter_contrib_nbextensions [🛈](https://github.com/ipython-contrib/jupyter_contrib_nbextensions)
   - A collection of various notebook extensions for Jupyter.
   - Tags: Jupyter, source: Python
@@ -263,12 +272,18 @@ Some descriptions are from:
 - killport [🛈](https://github.com/jkfran/killport)
   - killport is a command-line utility for killing processes listening on specific ports. It's designed to be simple, fast, and effective. The tool is built with Rust and works on Linux and macOS.
   - Tags: command line, killing proces, command line: kill, source: Rust
+- Lance [🛈](https://github.com/lancedb/lance)
+  - Lance is a modern columnar data format that is optimized for ML workflows and datasets. Convert from parquet in 2-lines of code for 100x faster random access, a vector index, data versioning, and more. Compatible with pandas, duckdb, polars, pyarrow, with more integrations on the way.
+  - Tags: data format, Natural Language Processing, NLP, source: Rust
 - LibreTranslate [🛈](https://github.com/LibreTranslate/LibreTranslate)
   - Free and Open Source Machine Translation API. 100% self-hosted, offline capable and easy to setup.
   - Tags: Machine Translation
 - llama [🛈](https://github.com/antonmedv/llama)
   - Llama is a terminal file manager. It allows for quick navigation with fuzzy searching. Llama is very simple and minimalistic.
   - Tags: terminal, file manager
+- llm [🛈](https://github.com/rustformers/llm)
+  - llm is a Rust ecosystem of libraries for running inference on large language models, inspired by llama.cpp.
+  - Tags: Deep Learning, Deep Learning framework, Language Model, framework, source: Rust
 - lsd [🛈](https://github.com/Peltoche/lsd)
   - lsd is a next gen ls command.
   - Tags: command line, file listing, command line: ls, source: Rust
@@ -283,7 +298,7 @@ Some descriptions are from:
   - Tags: matplot, library, visualization, source: Python
 - mc [🛈](https://github.com/MidnightCommander/mc)
   - GNU Midnight Commander is a visual file manager, licensed under GNU General Public License and therefore qualifies as Free Software. It's a feature rich full-screen text mode application that allows you to copy, move and delete files and whole directory trees, search for files and run commands in the subshell. Internal viewer and editor are included.
-  - Tags: terminal, file manager
+  - Tags: terminal, file manager, command line: mc
 - Mergify [🛈](https://mergify.com)
   - Mergify to automate pull requests + secure the code merge using a merge queue.
   - Tags: automate pull requests, pull requests
@@ -317,6 +332,9 @@ Some descriptions are from:
 - OSV-Scanner [🛈](https://github.com/google/osv-scanner)
   - Vulnerability scanner written in Go which uses the data provided by https://osv.dev
   - Tags: security, vulnerability scanner
+- Overlay [🛈](https://github.com/os-scar/overlay)
+  - Overlay is a browser extension that helps developers evaluate open source packages before picking them. It gathers data from various sources, such as Snyk Advisor, Debricked, Socket.dev, and Deps.dev, and displays them on the package pages of popular registries like npm, PyPI, and Go.
+  - Tags: web-browser extension, security, source: JavaScript
 - Pelikan [🛈](https://github.com/twitter/pelikan)
   - Pelikan is framework for developing cache services.
   - Tags: caching
@@ -358,7 +376,7 @@ Some descriptions are from:
   - Tags: command line, database, sqlite, SQL
 - ranger [🛈](https://github.com/ranger/ranger)
   - ranger is a console file manager with VI key bindings
-  - Tags: file manager
+  - Tags: file manager, command line: ranger, command line: mc
 - refurb [🛈](https://github.com/dosisod/refurb)
   - A tool for refurbishing and modernizing Python codebases.
   - Tags: command line, linter, source: Python linter
@@ -407,9 +425,15 @@ Some descriptions are from:
 - sqlmap [🛈](https://github.com/sqlmapproject/sqlmap)
   - sqlmap is an open source penetration testing tool that automates the process of detecting and exploiting SQL injection flaws and taking over of database servers.
   - Tags: database, SQL, SQL injection, penetration tests, command line
+- StableStudio [🛈](https://github.com/Stability-AI/StableStudio)
+  - StableStudio is Stability AI's official open-source variant of DreamStudio, our user interface for generative AI. It is a web-based application that allows users to create and edit generated images.
+  - Tags: Deep Learning, image generation, image editing, source: TypeScript
 - Stacer [🛈](https://github.com/oguzhaninan/Stacer)
   - Linux System Optimizer and Monitoring
   - Tags: GUI, monitoring, command line, command line: top
+- string2string [🛈](https://github.com/stanfordnlp/string2string)
+  - The string2string library is an open-source tool that offers a comprehensive suite of efficient algorithms for a broad range of string-to-string problems. It includes both traditional algorithmic solutions and recent advanced neural approaches to address various problems in pairwise string alignment, distance measurement, lexical and semantic search, and similarity analysis. Additionally, the library provides several helpful visualization tools and metrics to facilitate the interpretation and analysis of these methods.
+  - Tags: text processing, Natural Language Processing, NLP, source: Python
 - sysm [🛈](https://github.com/jafarlihi/sysm)
   - sysm makes your system play custom sounds when any configured system or external event happens.
   - Tags: command line, sounds, system events
@@ -428,6 +452,9 @@ Some descriptions are from:
 - the-art-of-command-line [🛈](https://github.com/jlevy/the-art-of-command-line)
   - Master the command line, in one page
   - Tags: command line, tldr, guide, cheat sheet
+- threestudio [🛈](https://github.com/threestudio-project/threestudio)
+  - threestudio is a unified framework for 3D content creation from text prompts, single images, and few-shot images, by lifting 2D text-to-image generation models.
+  - Tags: 3D image generation, Deep Learning, source: Python
 - tidy-html5 [🛈](https://github.com/htacg/tidy-html5)
   - Tidy is the granddaddy of HTML tools, with support for modern standards.
   - Tags: HTML, command line
@@ -464,6 +491,9 @@ Some descriptions are from:
 - Watcher [🛈](https://github.com/e-dant/watcher)
   - Watcher is a file system watcher that works anywhere. It is simple, efficient, dependency-free, and header-only. Watcher uses a near-zero amount of resources even when scanning millions of paths.
   - Tags: command line, file system watcher
+- whichlang [🛈](https://github.com/quickwit-oss/whichlang)
+  - This is a language detection library, aiming for both precision and performance.
+  - Tags: language detection, source: Rust
 - whisper [🛈](https://github.com/openai/whisper)
   - whisper - Robust Speech Recognition via Large-Scale Weak Supervision.
   - Tags: automatic transcription, transcription, speech recognition
@@ -508,6 +538,7 @@ Some descriptions are from:
 
 List of tags with occurrences in the brackets:
 
+- 3D image generation (1)
 - AI powered (2)
 - alerts (1)
 - analysis (1)
@@ -532,16 +563,17 @@ List of tags with occurrences in the brackets:
 - containers (1)
 - content extractor (3)
 - customizing (1)
+- data format (1)
 - data formatter (3)
 - data structures (2)
 - data text processing (1)
-- database (9)
+- database (10)
 - dataflow (1)
 - debugger (1)
 - debugging (2)
 - deduplication (4)
-- Deep Learning (11)
-- Deep Learning framework (2)
+- Deep Learning (15)
+- Deep Learning framework (3)
 - deletion tool (3)
 - detector (1)
 - developer environment (3)
@@ -557,11 +589,11 @@ List of tags with occurrences in the brackets:
 - environment manager (4)
 - environment variables (1)
 - file listing (4)
-- file manager (4)
+- file manager (5)
 - file searching (2)
 - file system watcher (1)
 - find and replace (1)
-- framework (1)
+- framework (2)
 - fun (1)
 - fuzzy search (2)
 - git (5)
@@ -575,12 +607,15 @@ List of tags with occurrences in the brackets:
 - HTML (2)
 - IDE (1)
 - image (3)
-- image editing (1)
-- image generation (4)
+- image editing (3)
+- image generation (5)
 - isolation (1)
 - JSON (2)
 - Jupyter (4)
+- key-value store (1)
 - killing proces (1)
+- language detection (1)
+- Language Model (1)
 - library (18)
 - linter (3)
 - Linux (2)
@@ -592,7 +627,9 @@ List of tags with occurrences in the brackets:
 - memory tracking (1)
 - monitoring (9)
 - monitoring tool (7)
+- Natural Language Processing (3)
 - network (3)
+- NLP (3)
 - Notebook (1)
 - notification (1)
 - parse file (1)
@@ -618,7 +655,7 @@ List of tags with occurrences in the brackets:
 - scan vulnerability (1)
 - searching (3)
 - secrets detector (1)
-- security (2)
+- security (3)
 - services (1)
 - shell (3)
 - shell script (1)
@@ -639,6 +676,7 @@ List of tags with occurrences in the brackets:
 - terminal interface (1)
 - text (1)
 - text generation (1)
+- text processing (2)
 - text-to-audio (1)
 - tldr (4)
 - transcription (2)
@@ -655,5 +693,6 @@ List of tags with occurrences in the brackets:
 - web browser (2)
 - web page (1)
 - web scraper (2)
+- web-browser extension (1)
 - XML (1)
 - YAML (1)
