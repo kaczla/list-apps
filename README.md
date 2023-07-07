@@ -14,6 +14,9 @@ Some descriptions are from:
 - age [🛈](https://github.com/FiloSottile/age)
   - A simple, modern and secure encryption tool (and Go library) with small explicit keys, no config options, and UNIX-style composability.
   - Tags: command line, encryption
+- aim [🛈](https://github.com/aimhubio/aim)
+  - An easy-to-use & supercharged open-source AI metadata tracker.
+  - Tags: metadata tracker, metrics, dashboard, source: Python
 - allocscope [🛈](https://github.com/matt-kimball/allocscope)
   - allocscope is a tool for tracking down where the most egregiously large allocations are occurring in a C, C++ or Rust codebase.
   - Tags: C, C++, library, memory tracking, source: Rust
@@ -266,6 +269,9 @@ Some descriptions are from:
 - IPyflow [🛈](https://github.com/ipyflow/ipyflow)
   - ipyflow is a next-generation Python kernel for Jupyter and other notebook interfaces that tracks dataflow relationships between symbols and cells during a given interactive session.
   - Tags: Jupyter, source: Python
+- Ivy [🛈](https://github.com/unifyai/ivy)
+  - Ivy is both an ML transpiler and a framework, currently supporting JAX, TensorFlow, PyTorch and Numpy.
+  - Tags: transpiler, Machine Learning, Machine Learning transpiler, framework, source: Python
 - jc [🛈](https://github.com/kellyjonbrazil/jc)
   - CLI tool and python library that converts the output of popular command-line tools, file-types, and common strings to JSON, YAML, or Dictionaries. This allows piping of output to tools like jq and simplifying automation scripts.
   - Tags: command line, JSON, YAML, content extractor, data formatter
@@ -311,6 +317,9 @@ Some descriptions are from:
 - LibreTranslate [🛈](https://github.com/LibreTranslate/LibreTranslate)
   - Free and Open Source Machine Translation API. 100% self-hosted, offline capable and easy to setup.
   - Tags: Machine Translation
+- LineSelect [🛈](https://github.com/chfritz/lineselect)
+  - A shell utility to interactively select lines from stdin and output them to stdout. This allows you to effectively pause the pipeline to make a manual selection before the pipeline, or other composed command, continues.
+  - Tags: pipeline, command line, source: JavaScript
 - llama [🛈](https://github.com/antonmedv/llama)
   - Llama is a terminal file manager. It allows for quick navigation with fuzzy searching. Llama is very simple and minimalistic.
   - Tags: terminal, file manager
@@ -386,6 +395,9 @@ Some descriptions are from:
 - pgmodeler [🛈](https://github.com/pgmodeler/pgmodeler)
   - Open-source data modeling tool designed for PostgreSQL. No more typing DDL commands. Let pgModeler do the work for you!
   - Tags: database, GUI, SQL
+- PhotoFiremark [🛈](https://github.com/avestura/PhotoFiremark)
+  - PhotoFiremark hides a photo in another photo
+  - Tags: image, hide, source: C#
 - PINCE [🛈](https://github.com/korcankaraokcu/PINCE)
   - PINCE is a front-end/reverse engineering tool for the GNU Project Debugger (GDB), focused on games.
   - Tags: reverse engineering
@@ -512,6 +524,9 @@ Some descriptions are from:
 - tidy-html5 [🛈](https://github.com/htacg/tidy-html5)
   - Tidy is the granddaddy of HTML tools, with support for modern standards.
   - Tags: HTML, command line
+- tinyvector [🛈](https://github.com/0hq/tinyvector)
+  - tinyvector - the tiny, least-dumb, speedy vector embedding database.
+  - Tags: database, embeddings, source: Python
 - Tokei [🛈](https://github.com/XAMPPRocky/tokei)
   - Tokei is a program that displays statistics about your code.
   - Tags: command line, code statistics, source: Rust
@@ -621,20 +636,21 @@ List of tags with occurrences in the brackets:
 - code search (1)
 - code statistics (1)
 - coloring code (1)
-- command line (82)
+- command line (83)
 - compression (2)
 - configuration (1)
 - container (3)
 - containers (1)
 - content extractor (3)
 - customizing (1)
+- dashboard (1)
 - data format (1)
 - data formatter (3)
 - data generator (1)
 - data labeling (1)
 - data structures (2)
 - data text processing (1)
-- database (10)
+- database (11)
 - dataflow (1)
 - debugger (1)
 - debugging (2)
@@ -653,6 +669,7 @@ List of tags with occurrences in the brackets:
 - downloader (3)
 - editor (4)
 - email (1)
+- embeddings (1)
 - encryption (2)
 - engineering (1)
 - environment (3)
@@ -664,7 +681,7 @@ List of tags with occurrences in the brackets:
 - file searching (2)
 - file system watcher (1)
 - find and replace (1)
-- framework (2)
+- framework (3)
 - fun (1)
 - fuzzy search (2)
 - git (5)
@@ -674,10 +691,11 @@ List of tags with occurrences in the brackets:
 - guide (5)
 - help message (1)
 - hex viewer (1)
+- hide (1)
 - history (1)
 - HTML (2)
 - IDE (1)
-- image (3)
+- image (4)
 - image editing (3)
 - image generation (5)
 - isolation (1)
@@ -691,13 +709,16 @@ List of tags with occurrences in the brackets:
 - linter (4)
 - Linux (2)
 - logs (1)
+- Machine Learning (1)
+- Machine Learning transpiler (1)
 - Machine Translation (1)
 - makefile (1)
 - management (3)
 - Markdown (3)
 - matplot (1)
 - memory tracking (1)
-- metrics (1)
+- metadata tracker (1)
+- metrics (2)
 - monitoring (9)
 - monitoring tool (7)
 - Natural Language Processing (3)
@@ -711,6 +732,7 @@ List of tags with occurrences in the brackets:
 - parsing (1)
 - pattern search (3)
 - penetration tests (1)
+- pipeline (1)
 - platform (1)
 - PostgreSQL (1)
 - presentation (1)
@@ -759,6 +781,7 @@ List of tags with occurrences in the brackets:
 - text-to-audio (1)
 - tldr (4)
 - transcription (2)
+- transpiler (1)
 - unique (4)
 - unstructured data (1)
 - url (1)
