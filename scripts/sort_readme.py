@@ -73,19 +73,21 @@ class ParsedApplication:
     def _sort_tags(tags: List[str]) -> List[str]:
         source_tags = []
         command_line_tags = []
-        for tag in deepcopy(tags):
-            if tag.startswith("source: "):
+        tags_copy = deepcopy(tags)
+        tags_to_remove = []
+        for tag in tags_copy:
+            if tag.lower().startswith("source: "):
                 source_tags.append(tag)
+                tags_to_remove.append(tag)
 
-            elif tag.startswith("command line: "):
+            elif tag.lower().startswith("command line: "):
                 command_line_tags.append(tag)
+                tags_to_remove.append(tag)
 
-            else:
-                continue
+        for tag_to_remove in tags_to_remove:
+            tags_copy.remove(tag_to_remove)
 
-            tags.remove(tag)
-
-        return tags + command_line_tags + source_tags
+        return tags_copy + command_line_tags + source_tags
 
 
 @dataclass
@@ -218,7 +220,7 @@ def clean_whitespaces(text: str) -> str:
 
         line_clean_index = line.find(line_clean)
         if line_clean_index < 0:
-            LOGGER.warning(f"Cannot clean text: {repr(line)}")
+            LOGGER.warning(f"Cannot clean text: {line!r}")
             lines_cleaned.append(line)
             continue
         prefix = line[:line_clean_index]
@@ -315,7 +317,7 @@ def get_tag_mapper(tags: List[Tag]) -> Dict[str, str]:
                 continue
 
         for tag in sorted_tags_by_occ:
-            LOGGER.debug(f"Found tag normalization from: {repr(tag.name)} to {repr(most_popular_tag.name)}")
+            LOGGER.debug(f"Found tag normalization from: {tag.name!r} to {most_popular_tag.name!r}")
             tag_mapper[tag.name] = most_popular_tag.name
 
     return tag_mapper

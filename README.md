@@ -32,6 +32,9 @@ Some descriptions are from:
 - ast-grep [🛈](https://github.com/ast-grep/ast-grep)
   - ast-grep(sg) is a lightning fast and user friendly tool for code searching, linting, rewriting at large scale.
   - Tags: search, pattern search, library, command line, command line: grep, source: Rust
+- AudioCraft [🛈](https://github.com/facebookresearch/audiocraft)
+  - AudioCraft is a PyTorch library for deep learning research on audio generation.
+  - Tags: Deep Learning, audio generation, source: Python
 - bandwhich [🛈](https://github.com/imsnif/bandwhich)
   - bandwhich is a CLI utility for displaying current network utilization by process, connection and remote IP/hostname.
   - Tags: command line, monitoring tool, monitoring, network, source: Rust
@@ -61,7 +64,7 @@ Some descriptions are from:
   - Tags: Deep Learning, Deep Learning framework, framework, source: Rust
 - cachegrand [🛈](https://github.com/danielealbano/cachegrand)
   - cachegrand - a modern OSS Key-Value store built for today's hardware
-  - Tags: cache, storage
+  - Tags: caching, storage
 - carbonyl [🛈](https://github.com/fathyb/carbonyl)
   - Carbonyl is a Chromium based browser built to run in a terminal.
   - Tags: command line, web browser, source: Rust
@@ -194,9 +197,18 @@ Some descriptions are from:
 - finch [🛈](https://github.com/runfinch/finch)
   - The Finch CLI an open source client for container development.
   - Tags: developer environment, container
+- Fixit [🛈](https://github.com/Instagram/Fixit)
+  - Fixit provides a highly configurable linting framework with support for auto-fixes, custom "local" lint rules, and hierarchical configuration, built on LibCST.
+  - Tags: Python linter, linter, source: Python
+- Fooocus [🛈](https://github.com/lllyasviel/Fooocus)
+  - Fooocus is an image generating software.
+  - Tags: Deep Learning, image generation, Stable Diffusion Model, source: Python
 - Frogmouth [🛈](https://github.com/Textualize/frogmouth)
   - Frogmouth is a Markdown viewer / browser for your terminal, built with Textual.
   - Tags: command line, Markdown, viewer, source: Python
+- Fury [🛈](https://github.com/alipay/fury)
+  - Fury is a blazing fast multi-language serialization framework powered by jit(just-in-time compilation) and zero-copy, providing up to 170x performance and ultimate ease of use.
+  - Tags: serialization, multi-language, source: Java
 - fzf [🛈](https://github.com/junegunn/fzf)
   - fzf is a general-purpose command-line fuzzy finder.
   - Tags: command line, searching, file searching, command line: find, source: Go
@@ -209,6 +221,12 @@ Some descriptions are from:
 - git-bug [🛈](https://github.com/MichaelMure/git-bug)
   - Distributed, offline-first bug tracker embedded in git, with bridges
   - Tags: git, bug tracker
+- Gita [🛈](https://github.com/nosarthur/gita)
+  - Gita: a command-line tool to manage multiple git repos
+  - Tags: command line, git, repository, source: Python
+- GitID [🛈](https://github.com/InderdeepBajwa/gitid)
+  - GitID is a convenient command-line interface (CLI) that allows you seamlessly manage and switch between multiple git SSH identities on a single user account.
+  - Tags: command line, management, ssh, source: TypeScript
 - gitty [🛈](https://github.com/muesli/gitty)
   - gitty is a smart little CLI helper for git projects, that shows you all the relevant issues, pull requests and changes at a quick glance, right on the command-line. It currently supports the GitHub, GitLab, and Gitea APIs.
   - Tags: command line, git
@@ -254,12 +272,18 @@ Some descriptions are from:
 - hyperfine [🛈](https://github.com/sharkdp/hyperfine)
   - hyperfine is a command-line benchmarking tool.
   - Tags: command line, benchmarking, source: Rust
+- Iconbuddy [🛈](https://iconbuddy.app/)
+  - Download, Customize, Edit and Personalize. Over 180k+ open source icons.
+  - Tags: website, icons
 - imagededup [🛈](https://github.com/idealo/imagededup)
   - imagededup is a python package that simplifies the task of finding exact and near duplicates in an image collection.
   - Tags: deduplication, image, unique
 - Infisical [🛈](https://github.com/Infisical/infisical)
   - Infisical is an open-source, E2EE tool to sync environment variables across your team and infrastructure.
   - Tags: shell, environment variables
+- Infisical [🛈](https://github.com/Infisical/infisical)
+  - Infisical is an open source, end-to-end encrypted secret management platform that teams use to centralize their secrets like API keys, database credentials, and configurations.
+  - Tags: management, secret management, source: TypeScript
 - InvokeAI [🛈](https://github.com/invoke-ai/InvokeAI)
   - This version of Stable Diffusion features a slick WebGUI, an interactive command-line script that combines text2img and img2img functionality in a "dream bot" style interface, and multiple features and other enhancements. For more info, see the website link below.
   - Tags: Deep Learning, image generation, image editing, Stable Diffusion Model
@@ -284,6 +308,9 @@ Some descriptions are from:
 - JunoDB [🛈](https://github.com/paypal/junodb)
   - JunoDB is PayPal's home-grown secure, consistent and highly available key-value store providing low, single digit millisecond, latency at any scale.
   - Tags: database, key-value store, source: Go
+- Jupyter AI [🛈](https://github.com/jupyterlab/jupyter-ai)
+  - Jupyter AI connects generative AI with Jupyter notebooks.
+  - Tags: Deep Learning, AI personal assistant, Jupyter, Notebook, source: Python
 - jupyter_contrib_nbextensions [🛈](https://github.com/ipython-contrib/jupyter_contrib_nbextensions)
   - A collection of various notebook extensions for Jupyter.
   - Tags: Jupyter, source: Python
@@ -299,9 +326,15 @@ Some descriptions are from:
 - katana [🛈](https://github.com/projectdiscovery/katana)
   - A next-generation crawling and spidering framework
   - Tags: web scraper
+- KDash [🛈](https://github.com/kdash-rs/kdash)
+  - KDash is a simple terminal dashboard for Kubernetes built with Rust.
+  - Tags: kubernetes, dashboard, command line, source: Rust
 - Keep [🛈](https://github.com/keephq/keep)
   - Keep is a simple CLI tool that contains everything you need to start creating Alerts.
   - Tags: command line, alerts, source: Python
+- Khoj [🛈](https://github.com/khoj-ai/khoj)
+  - Khoj is a desktop application to search and chat with your notes, documents and images.
+  - Tags: Deep Learning, AI personal assistant, chat, source: Python
 - killport [🛈](https://github.com/jkfran/killport)
   - killport is a command-line utility for killing processes listening on specific ports. It's designed to be simple, fast, and effective. The tool is built with Rust and works on Linux and macOS.
   - Tags: command line, killing proces, command line: kill, source: Rust
@@ -377,6 +410,12 @@ Some descriptions are from:
 - oniguruma [🛈](https://github.com/kkos/oniguruma)
   - Oniguruma is a modern and flexible regular expressions library.
   - Tags: regular expression, regex, library, source: C
+- OpenDAN [🛈](https://github.com/fiatrete/OpenDAN-Personal-AI-OS)
+  - OpenDAN is an open source Personal AI OS , which consolidates various AI modules in one place for your personal use.
+  - Tags: Deep Learning, AI personal assistant, source: Python
+- Opendream [🛈](https://github.com/varunshenoy/opendream)
+  - Opendream brings much needed and familiar features, such as layering, non-destructive editing, portability, and easy-to-write extensions, to your Stable Diffusion workflows.
+  - Tags: Deep Learning, image generation, image editing, Stable Diffusion Model, source: JavaScript
 - OpenObserve [🛈](https://github.com/openobserve/openobserve)
   - OpenObserve is a cloud native observability platform built specifically for logs, metrics, traces and analytics designed to work at petabyte scale.
   - Tags: logs, metrics, source: Rust
@@ -404,12 +443,18 @@ Some descriptions are from:
 - pipes.sh [🛈](https://github.com/pipeseroni/pipes.sh)
   - Animated pipes terminal screensaver.
   - Tags: shell script, fun
+- pixi [🛈](https://github.com/prefix-dev/pixi)
+  - pixi is a cross-platform, multi-language package manager and workflow tool build on the shoulders of the conda ecosystem.
+  - Tags: package manager, cross-platform, command line, source: Rust
 - PL/Rust [🛈](https://github.com/tcdi/plrust)
   - PL/Rust is a loadable procedural language that enables writing PostgreSQL functions in the Rust programming language. These functions are compiled to native machine code. Unlike other procedural languages, PL/Rust functions are not interpreted.
   - Tags: library, database, PostgreSQL, source: Rust
 - pls [🛈](https://github.com/dhruvkb/pls)
   - pls is a pretty and powerful ls. It works in a similar way to ls, but it adds many more developer-friendly features, such as node filters, file sorting based on attributes, a details view, and more. pls is a simple tool for looking at the contents of directories and not a complete replacement for ls.
   - Tags: command line, file listing, command line: ls
+- Pop [🛈](https://github.com/charmbracelet/pop)
+  - Pop allows to send emails from your terminal.
+  - Tags: command line, email, send email, source: Go
 - procs [🛈](https://github.com/dalance/procs)
   - procs is a replacement for ps written in Rust.
   - Tags: command line, monitoring tool, monitoring, command line: ps, source: Rust
@@ -425,6 +470,9 @@ Some descriptions are from:
 - PyGWalker [🛈](https://github.com/Kanaries/pygwalker)
   - PyGWalker: A Python Library for Exploratory Data Analysis with Visualization. Turn your pandas dataframe into a Tableau-style User Interface for visual analysis.
   - Tags: library, Jupyter, visualization, source: Python
+- PythonMonkey [🛈](https://github.com/Distributive-Network/PythonMonkey)
+  - PythonMonkey is a Mozilla SpiderMonkey JavaScript engine embedded into the Python VM, using the Python engine to provide the JS host environment.
+  - Tags: JavaScript engine, source: C++
 - q [🛈](https://github.com/harelba/q)
   - q - Run SQL directly on delimited files and multi-file sqlite databases
   - Tags: command line, database, sqlite, SQL
@@ -479,9 +527,15 @@ Some descriptions are from:
 - spacer [🛈](https://github.com/samwho/spacer)
   - spacer is a simple CLI tool to insert spacers when command output stops.
   - Tags: space, command line, source: Rust
+- SpacetimeDB [🛈](https://github.com/clockworklabs/SpacetimeDB)
+  - SpacetimeDB as both a database and server combined into one.
+  - Tags: database, server, source: Rust
 - sqlectron-gui [🛈](https://github.com/sqlectron/sqlectron-gui)
   - A simple and lightweight SQL client desktop with cross database and platform support.
   - Tags: database, GUI, SQL
+- SQLite [🛈](https://github.com/sqlite/sqlite)
+  - SQLite is a database in a single disk file.
+  - Tags: database, source: C
 - sqlmap [🛈](https://github.com/sqlmapproject/sqlmap)
   - sqlmap is an open source penetration testing tool that automates the process of detecting and exploiting SQL injection flaws and taking over of database servers.
   - Tags: database, SQL, SQL injection, penetration tests, command line
@@ -497,6 +551,9 @@ Some descriptions are from:
 - string2string [🛈](https://github.com/stanfordnlp/string2string)
   - The string2string library is an open-source tool that offers a comprehensive suite of efficient algorithms for a broad range of string-to-string problems. It includes both traditional algorithmic solutions and recent advanced neural approaches to address various problems in pairwise string alignment, distance measurement, lexical and semantic search, and similarity analysis. Additionally, the library provides several helpful visualization tools and metrics to facilitate the interpretation and analysis of these methods.
   - Tags: text processing, Natural Language Processing, NLP, source: Python
+- Stringzilla [🛈](https://github.com/ashvardanian/Stringzilla)
+  - StringZilla is the Godzilla of string libraries, splitting, sorting, and shuffling large textual datasets.
+  - Tags: data text processing, library, source: Python
 - sysm [🛈](https://github.com/jafarlihi/sysm)
   - sysm makes your system play custom sounds when any configured system or external event happens.
   - Tags: command line, sounds, system events
@@ -548,9 +605,18 @@ Some descriptions are from:
 - typst [🛈](https://github.com/typst/typst)
   - Typst is a new markup-based typsetting system that is designed to be as powerful as LaTeX while being much easier to learn and use.
   - Tags: editor, source: Rust
+- Ubicloud [🛈](https://github.com/ubicloud/ubicloud)
+  - Ubicloud is an open, free, and portable cloud.
+  - Tags: cloud, platform, source: Ruby
 - unblob [🛈](https://github.com/onekey-sec/unblob)
   - unblob is an extraction suite that parses unknown binary blobs, extracts their content recursively, and carves out unknown chunks.
   - Tags: command line, parse file
+- Unshackle [🛈](https://github.com/Fadi002/unshackle)
+  - Unshackle is an open-source tool to bypass Windows and Linux user passwords from a bootable USB based on Linux.
+  - Tags: bypass, passwords, source: Shell
+- Uptime Kuma [🛈](https://github.com/louislam/uptime-kuma)
+  - Uptime Kuma is an easy-to-use self-hosted monitoring tool.
+  - Tags: monitoring, monitoring tool, source: JavaScript
 - VideoCrafter [🛈](https://github.com/VideoCrafter/VideoCrafter)
   - VideoCrafter is an open-source video generation and editing toolbox for crafting video content.
   - Tags: Deep Learning, video, video generation, source: Python
@@ -560,6 +626,9 @@ Some descriptions are from:
 - Wails [🛈](https://github.com/wailsapp/wails)
   - Wails is a framework for building desktop applications using Go and Web technologies. It has the ability to wrap both Go code and a web frontend into a single binary. Wails features tools for project creation, compilation, and bundling.
   - Tags: web page
+- walk [🛈](https://github.com/antonmedv/walk)
+  - Walk — a terminal navigator.
+  - Tags: command line, command line: cd, source: Go
 - Watcher [🛈](https://github.com/e-dant/watcher)
   - Watcher is a file system watcher that works anywhere. It is simple, efficient, dependency-free, and header-only. Watcher uses a near-zero amount of resources even when scanning millions of paths.
   - Tags: command line, file system watcher
@@ -614,48 +683,69 @@ Some descriptions are from:
 List of tags with occurrences in the brackets:
 
 - 3D image generation (1)
+- AI personal assistant (3)
 - AI powered (2)
 - alerts (1)
 - analysis (1)
 - API (1)
 - audio (2)
-- audio generation (1)
+- audio generation (2)
 - automate pull requests (1)
 - automatic transcription (2)
 - awesome-list (1)
 - benchmarking (1)
 - binary (1)
 - bug tracker (1)
+- bypass (1)
 - C (1)
 - C++ (1)
-- cache (1)
-- caching (1)
+- caching (2)
+- chat (1)
 - cheat sheet (4)
+- cloud (1)
 - code completion (3)
 - code formatting (1)
 - code search (1)
 - code statistics (1)
 - coloring code (1)
-- command line (83)
+- command line (89)
+- command line: cat (1)
+- command line: cd (1)
+- command line: diff (2)
+- command line: du (3)
+- command line: find (2)
+- command line: grep (3)
+- command line: hexdump (1)
+- command line: kill (1)
+- command line: ls (4)
+- command line: mc (3)
+- command line: ps (1)
+- command line: ranger (2)
+- command line: rm (1)
+- command line: sed (1)
+- command line: shuf (1)
+- command line: top (5)
+- command line: uniq (2)
 - compression (2)
 - configuration (1)
 - container (3)
 - containers (1)
 - content extractor (3)
+- cross-platform (1)
 - customizing (1)
-- dashboard (1)
+- dashboard (2)
 - data format (1)
 - data formatter (3)
 - data generator (1)
 - data labeling (1)
 - data structures (2)
-- data text processing (1)
-- database (11)
+- data text processing (2)
+- database (13)
 - dataflow (1)
 - debugger (1)
 - debugging (2)
 - deduplication (4)
-- Deep Learning (17)
+- Deep Learning (23)
 - Deep Learning framework (3)
 - deletion tool (3)
 - deploy (1)
@@ -668,7 +758,7 @@ List of tags with occurrences in the brackets:
 - documentation (1)
 - downloader (3)
 - editor (4)
-- email (1)
+- email (2)
 - embeddings (1)
 - encryption (2)
 - engineering (1)
@@ -684,7 +774,7 @@ List of tags with occurrences in the brackets:
 - framework (3)
 - fun (1)
 - fuzzy search (2)
-- git (5)
+- git (6)
 - GitHub actions (1)
 - GPU (2)
 - GUI (9)
@@ -694,46 +784,52 @@ List of tags with occurrences in the brackets:
 - hide (1)
 - history (1)
 - HTML (2)
+- icons (1)
 - IDE (1)
 - image (4)
-- image editing (3)
-- image generation (5)
+- image editing (4)
+- image generation (7)
 - isolation (1)
+- JavaScript engine (1)
 - JSON (2)
-- Jupyter (5)
+- Jupyter (6)
 - key-value store (1)
 - killing proces (1)
+- kubernetes (1)
 - language detection (1)
 - Language Model (2)
-- library (20)
-- linter (4)
+- library (21)
+- linter (5)
 - Linux (2)
 - logs (1)
 - Machine Learning (1)
 - Machine Learning transpiler (1)
 - Machine Translation (1)
 - makefile (1)
-- management (3)
+- management (5)
 - Markdown (3)
 - matplot (1)
 - memory tracking (1)
 - metadata tracker (1)
 - metrics (2)
-- monitoring (9)
-- monitoring tool (7)
+- monitoring (10)
+- monitoring tool (8)
+- multi-language (1)
 - Natural Language Processing (3)
 - network (3)
 - NLP (3)
-- Notebook (1)
+- Notebook (2)
 - notification (1)
 - object detection (1)
 - OCR (2)
+- package manager (1)
 - parse file (1)
 - parsing (1)
+- passwords (1)
 - pattern search (3)
 - penetration tests (1)
 - pipeline (1)
-- platform (1)
+- platform (2)
 - PostgreSQL (1)
 - presentation (1)
 - preventing secrets (1)
@@ -743,30 +839,48 @@ List of tags with occurrences in the brackets:
 - progress bar (1)
 - pull requests (1)
 - Python interpreter (1)
-- Python linter (1)
+- Python linter (2)
 - real-time workflow (1)
 - regex (4)
 - regular expression (4)
 - report (1)
+- repository (1)
 - reverse engineering (1)
 - Rust (1)
 - scan vulnerability (1)
 - search (4)
 - searching (3)
+- secret management (1)
 - secrets detector (1)
 - security (4)
+- send email (1)
+- serialization (1)
+- server (1)
 - services (1)
 - shell (3)
 - shell script (1)
 - SMTP server (1)
 - sounds (1)
 - source control system (1)
+- source: C (8)
+- source: C# (1)
+- source: C++ (5)
+- source: Go (8)
+- source: Java (2)
+- source: JavaScript (8)
+- source: Python (46)
+- source: Python linter (1)
+- source: Ruby (1)
+- source: Rust (53)
+- source: Shell (2)
+- source: TypeScript (4)
 - space (1)
 - speech recognition (1)
 - SQL (6)
 - SQL injection (1)
 - sqlite (1)
-- Stable Diffusion Model (3)
+- ssh (1)
+- Stable Diffusion Model (5)
 - storage (1)
 - stream data (1)
 - syntax highlighting (2)
@@ -796,5 +910,6 @@ List of tags with occurrences in the brackets:
 - web page (1)
 - web scraper (2)
 - web-browser extension (1)
+- website (1)
 - XML (1)
 - YAML (1)
