@@ -47,6 +47,9 @@ Some descriptions are from:
 - bearer [🛈](https://github.com/bearer/bearer)
   - Bearer is a static application security testing (SAST) tool that scans your source code and analyzes your data flows to discover, filter and prioritize security risks and vulnerabilities leading to sensitive data exposures (PII, PHI, PD).
   - Tags: linter, security, scan vulnerability, source: C
+- bindiff [🛈](https://github.com/google/bindiff)
+  - BinDiff is an open-source comparison tool for binary files to quickly find differences and similarities in disassembled code.
+  - Tags: command line, binary, diff, command line: diff, source: Rust
 - BleachBit [🛈](https://github.com/bleachbit/bleachbit)
   - BleachBit cleans files to free disk space and to maintain privacy.
   - Tags: disc utility, privacy, deletion tool
@@ -101,12 +104,21 @@ Some descriptions are from:
 - Cryptomator [🛈](https://github.com/cryptomator/cryptomator)
   - Cryptomator offers multi-platform transparent client-side encryption of your files in the cloud.
   - Tags: encryption, source: Java
+- ctoc [🛈](https://github.com/yaohui-wyh/ctoc)
+  - ctoc is Count Tokens of Code.
+  - Tags: command line, statistics, source: Go
 - ctop [🛈](https://github.com/bcicen/ctop)
   - ctop provides a concise and condensed overview of real-time metrics for multiple containers. Top-like interface for container metrics.
   - Tags: containers, monitoring, command line, command line: top
 - Cursor [🛈](https://github.com/getcursor/cursor)
   - Cursor is an editor made for programming with AI robot.
   - Tags: GUI, editor, AI powered
+- daktilo [🛈](https://github.com/orhun/daktilo)
+  - daktilo is a small command-line program that plays typewriter sounds every time you press a key.
+  - Tags: command line, sounds, source: Rust
+- DataLens [🛈](https://github.com/datalens-tech/datalens)
+  - DataLens is a modern business intelligence and data visualization system.
+  - Tags: visualization, source: Python
 - DBeaver [🛈](https://github.com/dbeaver/dbeaver)
   - Free multi-platform database tool for developers, SQL programmers, database administrators and analysts.
   - Tags: database, GUI, SQL
@@ -143,6 +155,9 @@ Some descriptions are from:
 - dua [🛈](https://github.com/Byron/dua-cli)
   - dua is a view disk space usage and delete unwanted data, fast.
   - Tags: command line, disc utility, command line: du, source: Rust
+- dub [🛈](https://github.com/steven-tey/dub)
+  - Dub is an open-source link management tool for modern marketing teams to create, share, and track short links.
+  - Tags: management, link management, source: TypeScript
 - ducks [🛈](https://github.com/manimino/ducks)
   - ducks is a tool that indexes Python objects for fast lookup by their attributes.
   - Tags: data structures, source: Python
@@ -269,12 +284,21 @@ Some descriptions are from:
 - hurl [🛈](https://github.com/Orange-OpenSource/hurl)
   - Hurl is a command line tool that runs HTTP requests defined in a simple plain text format. It can be used for fetching data and testing HTTP sessions. Hurl can perform requests, capture values, and evaluate queries on headers and body responses.
   - Tags: command line, network
+- HyperDX [🛈](https://github.com/hyperdxio/hyperdx)
+  - HyperDX helps engineers figure out why production is broken faster by centralizing and correlating logs, metrics, traces, exceptions and session replays in one place.
+  - Tags: GUI, logs, metrics, source: TypeScript
 - hyperfine [🛈](https://github.com/sharkdp/hyperfine)
   - hyperfine is a command-line benchmarking tool.
   - Tags: command line, benchmarking, source: Rust
+- IceCream [🛈](https://github.com/gruns/icecream)
+  - IceCream — Never use print() to debug again
+  - Tags: logs, debugging, library, source: Python
 - Iconbuddy [🛈](https://iconbuddy.app/)
   - Download, Customize, Edit and Personalize. Over 180k+ open source icons.
   - Tags: website, icons
+- IGL [🛈](https://github.com/facebook/igl)
+  - Intermediate Graphics Library (IGL) is a cross-platform library that commands the GPU. It provides a single low-level cross-platform interface on top of various graphics APIs (e.g. OpenGL, Metal and Vulkan).
+  - Tags: cross-platform, GPU, library, source: C++
 - imagededup [🛈](https://github.com/idealo/imagededup)
   - imagededup is a python package that simplifies the task of finding exact and near duplicates in an image collection.
   - Tags: deduplication, image, unique
@@ -284,6 +308,9 @@ Some descriptions are from:
 - Infisical [🛈](https://github.com/Infisical/infisical)
   - Infisical is an open source, end-to-end encrypted secret management platform that teams use to centralize their secrets like API keys, database credentials, and configurations.
   - Tags: management, secret management, source: TypeScript
+- Insomnia [🛈](https://insomnia.rest/)
+  - Kong Insomnia is a collaborative open source API development platform that makes it easy to build high-quality APIs — without the bloat and clutter of other tools.
+  - Tags: GUI, testing API, API development platform
 - InvokeAI [🛈](https://github.com/invoke-ai/InvokeAI)
   - This version of Stable Diffusion features a slick WebGUI, an interactive command-line script that combines text2img and img2img functionality in a "dream bot" style interface, and multiple features and other enhancements. For more info, see the website link below.
   - Tags: Deep Learning, image generation, image editing, Stable Diffusion Model
@@ -359,6 +386,9 @@ Some descriptions are from:
 - llm [🛈](https://github.com/rustformers/llm)
   - llm is a Rust ecosystem of libraries for running inference on large language models, inspired by llama.cpp.
   - Tags: Deep Learning, Deep Learning framework, Language Model, framework, source: Rust
+- LotusDB [🛈](https://github.com/lotusdblabs/lotusdb)
+  - LotusDB is the most advanced key-value store written in Go, extremely fast, compatible with LSM tree and B+ tree, and optimization of badger and bbolt.
+  - Tags: database, key-value store, source: Go
 - lsd [🛈](https://github.com/Peltoche/lsd)
   - lsd is a next gen ls command.
   - Tags: command line, file listing, command line: ls, source: Rust
@@ -400,7 +430,7 @@ Some descriptions are from:
   - Tags: command line, tldr, cheat sheet, guide, source: Rust
 - nerfstudio [🛈](https://docs.nerf.studio/en/latest/)
   - Nerfstudio provides a simple API that allows for a simplified end-to-end process of creating, training, and visualizing NeRFs
-  - Tags: video
+  - Tags: video, NeRFs
 - Newspaper3k [🛈](https://github.com/codelucas/newspaper/)
   - Newspaper3k: Article scraping & curation
   - Tags: web scraper
@@ -422,6 +452,9 @@ Some descriptions are from:
 - OSV-Scanner [🛈](https://github.com/google/osv-scanner)
   - Vulnerability scanner written in Go which uses the data provided by https://osv.dev
   - Tags: security, vulnerability scanner
+- oterm [🛈](https://github.com/ggozad/oterm)
+  - otem is the text-based terminal client for Ollama.
+  - Tags: command line, Deep Learning, Language Model, source: Python
 - Overlay [🛈](https://github.com/os-scar/overlay)
   - Overlay is a browser extension that helps developers evaluate open source packages before picking them. It gathers data from various sources, such as Snyk Advisor, Debricked, Socket.dev, and Deps.dev, and displays them on the package pages of popular registries like npm, PyPI, and Go.
   - Tags: web-browser extension, security, source: JavaScript
@@ -455,6 +488,9 @@ Some descriptions are from:
 - Pop [🛈](https://github.com/charmbracelet/pop)
   - Pop allows to send emails from your terminal.
   - Tags: command line, email, send email, source: Go
+- Postman [🛈](https://www.postman.com/)
+  - Postman is an API platform for building and using APIs. Postman simplifies each step of the API lifecycle and streamlines collaboration so you can create better APIs-faster.
+  - Tags: GUI, testing API, API development platform
 - procs [🛈](https://github.com/dalance/procs)
   - procs is a replacement for ps written in Rust.
   - Tags: command line, monitoring tool, monitoring, command line: ps, source: Rust
@@ -470,6 +506,9 @@ Some descriptions are from:
 - PyGWalker [🛈](https://github.com/Kanaries/pygwalker)
   - PyGWalker: A Python Library for Exploratory Data Analysis with Visualization. Turn your pandas dataframe into a Tableau-style User Interface for visual analysis.
   - Tags: library, Jupyter, visualization, source: Python
+- pypipe [🛈](https://github.com/bugen/pypipe)
+  - pypipe is a Python command-line tool for pipeline processing.
+  - Tags: command line, content extractor, source: Python
 - PythonMonkey [🛈](https://github.com/Distributive-Network/PythonMonkey)
   - PythonMonkey is a Mozilla SpiderMonkey JavaScript engine embedded into the Python VM, using the Python engine to provide the JS host environment.
   - Tags: JavaScript engine, source: C++
@@ -479,6 +518,12 @@ Some descriptions are from:
 - ranger [🛈](https://github.com/ranger/ranger)
   - ranger is a console file manager with VI key bindings
   - Tags: file manager, command line: ranger, command line: mc
+- rapidgzip [🛈](https://github.com/mxmlnkn/rapidgzip)
+  - Rapidgzip: Parallelized Decompression of Gzip Files with Support for Fast Random Access.
+  - Tags: compression, decompression, command line, source: C++
+- RecipeUI [🛈](https://github.com/RecipeUI/RecipeUI)
+  - RecipeUI is the open source Postman alternative with type safety built in. Catch your API requests before they fail with TypeScript and autocomplete. Enhance your workflows with auto-generated docs and reusable API templates.
+  - Tags: GUI, testing API, API development platform
 - refurb [🛈](https://github.com/dosisod/refurb)
   - A tool for refurbishing and modernizing Python codebases.
   - Tags: command line, linter, source: Python linter
@@ -587,9 +632,12 @@ Some descriptions are from:
 - Tokei [🛈](https://github.com/XAMPPRocky/tokei)
   - Tokei is a program that displays statistics about your code.
   - Tags: command line, code statistics, source: Rust
+- TokenFlow [🛈](https://github.com/omerbt/TokenFlow)
+  - TokenFlow is a framework that enables consistent video editing, using a pre-trained text-to-image diffusion model, without any further training or finetuning.
+  - Tags: Deep Learning, video, video editing, source: Python
 - trdrop [🛈](https://github.com/cirquit/trdrop)
   - Estimate the "real" framerate of an uncompressed video.
-  - Tags: video
+  - Tags: video, framerate
 - tree [🛈](https://github.com/mgunyho/tere)
   - tere is a terminal file explorer that is faster than using cd or ls. It enables fast navigation to a folder and then prints the path to that folder on exit. tere is not a file manager and it can only be used to browse folders.
   - Tags: file manager
@@ -620,6 +668,9 @@ Some descriptions are from:
 - VideoCrafter [🛈](https://github.com/VideoCrafter/VideoCrafter)
   - VideoCrafter is an open-source video generation and editing toolbox for crafting video content.
   - Tags: Deep Learning, video, video generation, source: Python
+- Vizro [🛈](https://github.com/mckinsey/vizro)
+  - Vizro is a toolkit for creating modular data visualization applications.
+  - Tags: visualization, library, source: Python
 - vsd [🛈](https://github.com/clitic/vsd)
   - vsd - video stream downloader is a command line program to download video streams served over HTTP from websites, HLS and DASH playlists.
   - Tags: command line, video, downloader, video downloader, Rust
@@ -637,7 +688,10 @@ Some descriptions are from:
   - Tags: language detection, source: Rust
 - whisper [🛈](https://github.com/openai/whisper)
   - whisper - Robust Speech Recognition via Large-Scale Weak Supervision.
-  - Tags: automatic transcription, transcription, speech recognition
+  - Tags: automatic transcription, transcription, speech recognition, source: Python
+- Whisper Turbo [🛈](https://github.com/FL33TW00D/whisper-turbo)
+  - Whisper Turbo is a lightning-fast, cross-platform Whisper implementation, designed to run entirely client-side on your browser or electron app.
+  - Tags: automatic transcription, transcription, speech recognition, source: TypeScript
 - wonnx [🛈](https://github.com/webonnx/wonnx)
   - Wonnx is a GPU-accelerated ONNX inference run-time written 100% in Rust, ready for the web.
   - Tags: Deep Learning, GPU, library, source: Rust
@@ -649,7 +703,7 @@ Some descriptions are from:
   - Tags: command line, XML, HTML, content extractor, data formatter
 - xz [🛈](https://github.com/tukaani-project/xz)
   - XZ Utils provide a general-purpose data-compression library plus command-line tools. The native file format is the .xz format, but also the legacy .lzma format is supported.
-  - Tags: command line, compression, source: C
+  - Tags: command line, compression, decompression, source: C
 - youtube-dl [🛈](https://github.com/ytdl-org/youtube-dl)
   - youtube-dl - download videos from youtube.com or other video platforms.
   - Tags: command line, video, downloader, video downloader, source: Python
@@ -667,7 +721,7 @@ Some descriptions are from:
   - Tags: terminal, terminal interface, source: Rust
 - zstd [🛈](https://github.com/facebook/zstd)
   - Zstandard, or zstd as short version, is a fast lossless compression algorithm, targeting real-time compression scenarios at zlib-level and better compression ratios.
-  - Tags: command line, compression, source: C
+  - Tags: command line, compression, decompression, source: C
 - μFuzzy [🛈](https://github.com/leeoniya/uFuzzy)
   - μFuzzy is a tiny, efficient, fuzzy search library designed to match a short search phrase against a large list of short-to-medium phrases. It can be used for list filtering, auto-complete, or title/name/description/filename/function searches. μFuzzy features straightforward fuzziness control, customized sorting, and a concise set of options.
   - Tags: library, fuzzy search, source: JavaScript
@@ -688,13 +742,14 @@ List of tags with occurrences in the brackets:
 - alerts (1)
 - analysis (1)
 - API (1)
+- API development platform (3)
 - audio (2)
 - audio generation (2)
 - automate pull requests (1)
-- automatic transcription (2)
+- automatic transcription (3)
 - awesome-list (1)
 - benchmarking (1)
-- binary (1)
+- binary (2)
 - bug tracker (1)
 - bypass (1)
 - C (1)
@@ -708,10 +763,10 @@ List of tags with occurrences in the brackets:
 - code search (1)
 - code statistics (1)
 - coloring code (1)
-- command line (89)
+- command line (95)
 - command line: cat (1)
 - command line: cd (1)
-- command line: diff (2)
+- command line: diff (3)
 - command line: du (3)
 - command line: find (2)
 - command line: grep (3)
@@ -726,12 +781,12 @@ List of tags with occurrences in the brackets:
 - command line: shuf (1)
 - command line: top (5)
 - command line: uniq (2)
-- compression (2)
+- compression (3)
 - configuration (1)
 - container (3)
 - containers (1)
-- content extractor (3)
-- cross-platform (1)
+- content extractor (4)
+- cross-platform (2)
 - customizing (1)
 - dashboard (2)
 - data format (1)
@@ -740,18 +795,19 @@ List of tags with occurrences in the brackets:
 - data labeling (1)
 - data structures (2)
 - data text processing (2)
-- database (13)
+- database (14)
 - dataflow (1)
 - debugger (1)
-- debugging (2)
+- debugging (3)
+- decompression (3)
 - deduplication (4)
-- Deep Learning (23)
+- Deep Learning (25)
 - Deep Learning framework (3)
 - deletion tool (3)
 - deploy (1)
 - detector (1)
 - developer environment (3)
-- diff (2)
+- diff (3)
 - disc utility (5)
 - docker (2)
 - docker-compose (1)
@@ -771,13 +827,14 @@ List of tags with occurrences in the brackets:
 - file searching (2)
 - file system watcher (1)
 - find and replace (1)
+- framerate (1)
 - framework (3)
 - fun (1)
 - fuzzy search (2)
 - git (6)
 - GitHub actions (1)
-- GPU (2)
-- GUI (9)
+- GPU (3)
+- GUI (13)
 - guide (5)
 - help message (1)
 - hex viewer (1)
@@ -793,29 +850,31 @@ List of tags with occurrences in the brackets:
 - JavaScript engine (1)
 - JSON (2)
 - Jupyter (6)
-- key-value store (1)
+- key-value store (2)
 - killing proces (1)
 - kubernetes (1)
 - language detection (1)
-- Language Model (2)
-- library (21)
+- Language Model (3)
+- library (24)
+- link management (1)
 - linter (5)
 - Linux (2)
-- logs (1)
+- logs (3)
 - Machine Learning (1)
 - Machine Learning transpiler (1)
 - Machine Translation (1)
 - makefile (1)
-- management (5)
+- management (6)
 - Markdown (3)
 - matplot (1)
 - memory tracking (1)
 - metadata tracker (1)
-- metrics (2)
+- metrics (3)
 - monitoring (10)
 - monitoring tool (8)
 - multi-language (1)
 - Natural Language Processing (3)
+- NeRFs (1)
 - network (3)
 - NLP (3)
 - Notebook (2)
@@ -860,27 +919,28 @@ List of tags with occurrences in the brackets:
 - shell (3)
 - shell script (1)
 - SMTP server (1)
-- sounds (1)
+- sounds (2)
 - source control system (1)
 - source: C (8)
 - source: C# (1)
-- source: C++ (5)
-- source: Go (8)
+- source: C++ (7)
+- source: Go (10)
 - source: Java (2)
 - source: JavaScript (8)
-- source: Python (46)
+- source: Python (53)
 - source: Python linter (1)
 - source: Ruby (1)
-- source: Rust (53)
+- source: Rust (55)
 - source: Shell (2)
-- source: TypeScript (4)
+- source: TypeScript (7)
 - space (1)
-- speech recognition (1)
+- speech recognition (2)
 - SQL (6)
 - SQL injection (1)
 - sqlite (1)
 - ssh (1)
 - Stable Diffusion Model (5)
+- statistics (1)
 - storage (1)
 - stream data (1)
 - syntax highlighting (2)
@@ -889,21 +949,23 @@ List of tags with occurrences in the brackets:
 - terminal (3)
 - terminal emulator (1)
 - terminal interface (1)
+- testing API (3)
 - text (1)
 - text generation (1)
 - text processing (2)
 - text-to-audio (1)
 - tldr (4)
-- transcription (2)
+- transcription (3)
 - transpiler (1)
 - unique (4)
 - unstructured data (1)
 - url (1)
-- video (8)
+- video (9)
 - video downloader (3)
+- video editing (1)
 - video generation (1)
 - viewer (1)
-- visualization (2)
+- visualization (4)
 - visualizer (1)
 - vulnerability scanner (1)
 - web browser (2)
