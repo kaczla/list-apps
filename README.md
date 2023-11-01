@@ -319,7 +319,7 @@ Some descriptions are from:
   - Tags: GUI, testing API, API development platform
 - InvokeAI [🛈](https://github.com/invoke-ai/InvokeAI)
   - This version of Stable Diffusion features a slick WebGUI, an interactive command-line script that combines text2img and img2img functionality in a "dream bot" style interface, and multiple features and other enhancements. For more info, see the website link below.
-  - Tags: Deep Learning, image generation, image editing, Stable Diffusion Model
+  - Tags: Deep Learning, image generation, image editing, Stable Diffusion Model, platform, source: TypeScript
 - iotop [🛈](https://repo.or.cz/w/iotop.git)
   - A top utility for IO
   - Tags: monitoring, command line, disc utility, monitoring tool
@@ -392,6 +392,12 @@ Some descriptions are from:
 - llm [🛈](https://github.com/rustformers/llm)
   - llm is a Rust ecosystem of libraries for running inference on large language models, inspired by llama.cpp.
   - Tags: Deep Learning, Deep Learning framework, Language Model, framework, source: Rust
+- Local AI Stack [🛈](https://github.com/ykhli/local-ai-stack)
+  - AI Getting Started is a starter kit to build local-only AI apps that cost $0 to run -- starting with document Q&A.
+  - Tags: Deep Learning, platform, source: TypeScript
+- Local AI Stack [🛈](https://github.com/a16z-infra/ai-getting-started)
+  - AI Getting Started is a Javascript AI getting started stack for weekend projects, including image/text models, vector stores, auth, and deployment configs.
+  - Tags: Deep Learning, platform, source: TypeScript
 - LotusDB [🛈](https://github.com/lotusdblabs/lotusdb)
   - LotusDB is the most advanced key-value store written in Go, extremely fast, compatible with LSM tree and B+ tree, and optimization of badger and bbolt.
   - Tags: database, key-value store, source: Go
@@ -709,13 +715,13 @@ Some descriptions are from:
   - Tags: automatic transcription, transcription, speech recognition, source: Python
 - Whisper Turbo [🛈](https://github.com/FL33TW00D/whisper-turbo)
   - Whisper Turbo is a lightning-fast, cross-platform Whisper implementation, designed to run entirely client-side on your browser or electron app.
-  - Tags: automatic transcription, transcription, speech recognition, source: TypeScript
+  - Tags: automatic transcription, transcription, speech recognition, cross-platform, source: TypeScript
 - wonnx [🛈](https://github.com/webonnx/wonnx)
   - Wonnx is a GPU-accelerated ONNX inference run-time written 100% in Rust, ready for the web.
   - Tags: Deep Learning, GPU, library, source: Rust
 - xonsh [🛈](https://github.com/xonsh/xonsh)
   - xonsh is a Python-powered, cross-platform, Unix-gazing shell language and command prompt.
-  - Tags: command line, shell, source: Python
+  - Tags: command line, shell, cross-platform, source: Python
 - xq [🛈](https://github.com/sibprogrammer/xq)
   - Command-line XML and HTML beautifier and content extractor.
   - Tags: command line, XML, HTML, content extractor, data formatter
@@ -804,7 +810,7 @@ List of tags with occurrences in the brackets:
 - container (3)
 - containers (1)
 - content extractor (4)
-- cross-platform (2)
+- cross-platform (4)
 - customizing (1)
 - dashboard (2)
 - data format (1)
@@ -819,7 +825,7 @@ List of tags with occurrences in the brackets:
 - debugging (3)
 - decompression (3)
 - deduplication (4)
-- Deep Learning (25)
+- Deep Learning (27)
 - Deep Learning framework (3)
 - deletion tool (3)
 - deploy (1)
@@ -907,7 +913,7 @@ List of tags with occurrences in the brackets:
 - pattern search (3)
 - penetration tests (1)
 - pipeline (1)
-- platform (2)
+- platform (5)
 - PostgreSQL (1)
 - presentation (1)
 - preventing secrets (1)
@@ -951,7 +957,7 @@ List of tags with occurrences in the brackets:
 - source: Ruby (1)
 - source: Rust (55)
 - source: Shell (2)
-- source: TypeScript (7)
+- source: TypeScript (10)
 - space (1)
 - speech recognition (3)
 - SQL (6)
