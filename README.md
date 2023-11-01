@@ -248,6 +248,9 @@ Some descriptions are from:
 - Glances [🛈](https://github.com/nicolargo/glances) [🖼️](app/glances/REAMDE.md)
   - Glances is a cross-platform monitoring tool which aims to present a large amount of monitoring information through a curses or Web based interface.
   - Tags: monitoring tool
+- GlotLID [🛈](https://github.com/cisnlp/GlotLID)
+  - GlotLID is an open-source language identification model with support for more than 1600 languages.
+  - Tags: language identification, source: Python
 - Glow [🛈](https://github.com/charmbracelet/glow)
   - Render markdown on the CLI, with pizzazz!
   - Tags: command line, Markdown, editor
@@ -308,6 +311,9 @@ Some descriptions are from:
 - Infisical [🛈](https://github.com/Infisical/infisical)
   - Infisical is an open source, end-to-end encrypted secret management platform that teams use to centralize their secrets like API keys, database credentials, and configurations.
   - Tags: management, secret management, source: TypeScript
+- Insanely Fast Whisper [🛈](https://github.com/Vaibhavs10/insanely-fast-whisper)
+  - Insanely Fast Whisper transcribe 300 minutes (5 hours) of audio in less than 10 minutes.
+  - Tags: automatic transcription, transcription, speech recognition, source: Python
 - Insomnia [🛈](https://insomnia.rest/)
   - Kong Insomnia is a collaborative open source API development platform that makes it easy to build high-quality APIs — without the bloat and clutter of other tools.
   - Tags: GUI, testing API, API development platform
@@ -419,9 +425,15 @@ Some descriptions are from:
 - Milvus [🛈](https://github.com/milvus-io/milvus)
   - Milvus is an open-source vector database built to power embedding similarity search and AI applications. It makes unstructured data search more accessible and provides a consistent user experience regardless of the deployment environment. All components in Milvus are stateless to enhance elasticity and flexibility.
   - Tags: platform, image, unstructured data, searching, database
+- MongoDB [🛈](https://github.com/mongodb/mongo)
+  - MongoDB is a flexible and scalable database software that supports transactional, search, analytics, and mobile use cases with a common query interface and a document data model.
+  - Tags: database, source: C++
 - Muse [🛈](https://github.com/Lightning-AI/stable-diffusion-deploy)
   - Open source, stable-diffusion production server to show how to deploy diffusion models in a real production environment with: load-balancing, gpu-inference, performance-testing, micro-services orchestration and more.
   - Tags: Stable Diffusion Model, image generation
+- MySQL [🛈](https://github.com/mysql/mysql-server)
+  - MySQL Server, the world's most popular open source database, and MySQL Cluster, a real-time, open source transactional database.
+  - Tags: database, source: C++
 - nat [🛈](https://github.com/willdoescode/nat)
   - nat is an alternative of ls command line with useful info and a splash of color.
   - Tags: command line, file listing, command line: ls, source: Rust
@@ -488,6 +500,9 @@ Some descriptions are from:
 - Pop [🛈](https://github.com/charmbracelet/pop)
   - Pop allows to send emails from your terminal.
   - Tags: command line, email, send email, source: Go
+- PostgreSQL [🛈](https://github.com/postgres/postgres)
+  - PostgreSQL is an advanced object-relational database management system that supports an extended subset of the SQL standard, including transactions, foreign keys, subqueries, triggers, user-defined types and functions.
+  - Tags: database, source: C
 - Postman [🛈](https://www.postman.com/)
   - Postman is an API platform for building and using APIs. Postman simplifies each step of the API lifecycle and streamlines collaboration so you can create better APIs-faster.
   - Tags: GUI, testing API, API development platform
@@ -554,6 +569,9 @@ Some descriptions are from:
 - Scalene [🛈](https://github.com/plasma-umass/scalene)
   - Scalene: a high-performance, high-precision CPU, GPU, and memory profiler for Python.
   - Tags: profiler, source: Python
+- ScyllaDB [🛈](https://github.com/scylladb/scylladb)
+  - Scylla is the real-time big data database that is API-compatible with Apache Cassandra and Amazon DynamoDB. Scylla embraces a shared-nothing approach that increases throughput and storage capacity to realize order-of-magnitude performance improvements and reduce hardware costs.
+  - Tags: database, source: C++
 - sd [🛈](https://github.com/chmln/sd)
   - sd is an intuitive find & replace CLI (sed alternative).
   - Tags: command line, find and replace, command line: sed, source: Rust
@@ -746,7 +764,7 @@ List of tags with occurrences in the brackets:
 - audio (2)
 - audio generation (2)
 - automate pull requests (1)
-- automatic transcription (3)
+- automatic transcription (4)
 - awesome-list (1)
 - benchmarking (1)
 - binary (2)
@@ -795,7 +813,7 @@ List of tags with occurrences in the brackets:
 - data labeling (1)
 - data structures (2)
 - data text processing (2)
-- database (14)
+- database (18)
 - dataflow (1)
 - debugger (1)
 - debugging (3)
@@ -854,6 +872,7 @@ List of tags with occurrences in the brackets:
 - killing proces (1)
 - kubernetes (1)
 - language detection (1)
+- language identification (1)
 - Language Model (3)
 - library (24)
 - link management (1)
@@ -921,20 +940,20 @@ List of tags with occurrences in the brackets:
 - SMTP server (1)
 - sounds (2)
 - source control system (1)
-- source: C (8)
+- source: C (9)
 - source: C# (1)
-- source: C++ (7)
+- source: C++ (10)
 - source: Go (10)
 - source: Java (2)
 - source: JavaScript (8)
-- source: Python (53)
+- source: Python (55)
 - source: Python linter (1)
 - source: Ruby (1)
 - source: Rust (55)
 - source: Shell (2)
 - source: TypeScript (7)
 - space (1)
-- speech recognition (2)
+- speech recognition (3)
 - SQL (6)
 - SQL injection (1)
 - sqlite (1)
@@ -955,7 +974,7 @@ List of tags with occurrences in the brackets:
 - text processing (2)
 - text-to-audio (1)
 - tldr (4)
-- transcription (3)
+- transcription (4)
 - transpiler (1)
 - unique (4)
 - unstructured data (1)
