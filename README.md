@@ -629,6 +629,9 @@ Some descriptions are from:
 - Tabby [🛈](https://github.com/TabbyML/tabby)
   - Tabby is a self-hosted AI coding assistant. An opensource / on-prem alternative to GitHub Copilot.
   - Tags: code completion, Deep Learning, source: Python
+- tailspin [🛈](https://github.com/bensadeh/tailspin)
+  - tailspin is a log file highlighter.
+  - Tags: logs, highlighter, command line, source: Rust
 - tealdeer [🛈](https://github.com/dbrgn/tealdeer)
   - tealdeer is a very fast implementation of tldr in Rust: Simplified, example based and community-driven man pages.
   - Tags: command line, tldr, cheat sheet, guide, source: Rust
@@ -787,7 +790,7 @@ List of tags with occurrences in the brackets:
 - code search (1)
 - code statistics (1)
 - coloring code (1)
-- command line (95)
+- command line (96)
 - command line: cat (1)
 - command line: cd (1)
 - command line: diff (3)
@@ -863,6 +866,7 @@ List of tags with occurrences in the brackets:
 - help message (1)
 - hex viewer (1)
 - hide (1)
+- highlighter (1)
 - history (1)
 - HTML (2)
 - icons (1)
@@ -884,7 +888,7 @@ List of tags with occurrences in the brackets:
 - link management (1)
 - linter (5)
 - Linux (2)
-- logs (3)
+- logs (4)
 - Machine Learning (1)
 - Machine Learning transpiler (1)
 - Machine Translation (1)
@@ -955,7 +959,7 @@ List of tags with occurrences in the brackets:
 - source: Python (55)
 - source: Python linter (1)
 - source: Ruby (1)
-- source: Rust (55)
+- source: Rust (56)
 - source: Shell (2)
 - source: TypeScript (10)
 - space (1)
