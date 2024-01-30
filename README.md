@@ -23,6 +23,9 @@ Some descriptions are from:
 - Ambrosia [🛈](https://github.com/reactorsh/ambrosia)
   - Ambrosia is a cross-platform command line tool for improving the text datasets you use for machine learning.
   - Tags: text processing, Natural Language Processing, NLP, source: Go
+- Amphion [🛈](https://github.com/open-mmlab/Amphion)
+  - Amphion is a toolkit for Audio, Music, and Speech Generation.
+  - Tags: audio generation, music generation, speech generation, source: Python
 - Apprise [🛈](https://github.com/caronc/apprise)
   - Apprise is a library that allows developers to send notifications to almost all of the most popular notification services available. It features a common and intuitive notification syntax and it supports the handling of images and attachments. A list of notification types and services supported by Apprise is available.
   - Tags: notification
@@ -37,7 +40,7 @@ Some descriptions are from:
   - Tags: Deep Learning, audio generation, source: Python
 - bandwhich [🛈](https://github.com/imsnif/bandwhich)
   - bandwhich is a CLI utility for displaying current network utilization by process, connection and remote IP/hostname.
-  - Tags: command line, monitoring tool, monitoring, network, source: Rust
+  - Tags: command line, monitoring, network, source: Rust
 - bark [🛈](https://github.com/suno-ai/bark)
   - Bark is a transformer-based text-to-audio model created by Suno. Bark can generate highly realistic, multilingual speech as well as other audio - including music, background noise and simple sound effects.
   - Tags: Deep Learning, text-to-audio, audio generation, source: Python
@@ -55,10 +58,10 @@ Some descriptions are from:
   - Tags: disc utility, privacy, deletion tool
 - bottom [🛈](https://github.com/ClementTsang/bottom)
   - bottom is a customizable cross-platform graphical process/system monitor for the terminal.
-  - Tags: command line, monitoring tool, monitoring, command line: top, source: Rust
+  - Tags: command line, monitoring, command line: top, source: Rust
 - btop [🛈](https://github.com/aristocratos/btop)
   - Resource monitor that shows usage and stats for processor, memory, disks, network and processes.
-  - Tags: monitoring tool
+  - Tags: monitoring
 - bucketratelimiter [🛈](https://github.com/ArtyomKozyrev8/BucketRateLimiter/)
   - bucketratelimiter is the collection of rate limiters, which are based on Bucket conception - Python.
   - Tags: library, source: Python
@@ -116,6 +119,9 @@ Some descriptions are from:
 - daktilo [🛈](https://github.com/orhun/daktilo)
   - daktilo is a small command-line program that plays typewriter sounds every time you press a key.
   - Tags: command line, sounds, source: Rust
+- Datadrift [🛈](https://github.com/data-drift/data-drift)
+  - Datadrift is an open-source monitoring and incident management platform to help data teams deliver trusted and reliable metrics.
+  - Tags: metrics, monitoring, source: TypeScript
 - DataLens [🛈](https://github.com/datalens-tech/datalens)
   - DataLens is a modern business intelligence and data visualization system.
   - Tags: visualization, source: Python
@@ -247,13 +253,16 @@ Some descriptions are from:
   - Tags: command line, git
 - Glances [🛈](https://github.com/nicolargo/glances) [🖼️](app/glances/REAMDE.md)
   - Glances is a cross-platform monitoring tool which aims to present a large amount of monitoring information through a curses or Web based interface.
-  - Tags: monitoring tool
+  - Tags: monitoring, cross-platform
 - GlotLID [🛈](https://github.com/cisnlp/GlotLID)
   - GlotLID is an open-source language identification model with support for more than 1600 languages.
   - Tags: language identification, source: Python
 - Glow [🛈](https://github.com/charmbracelet/glow)
   - Render markdown on the CLI, with pizzazz!
   - Tags: command line, Markdown, editor
+- GQL [🛈](https://github.com/AmrDeveloper/GQL)
+  - GQL is a query language with a syntax very similar to SQL with a tiny engine to perform queries on .git files instance of database files, the engine executes the query on the fly without the need to create database files or convert .git files into any other format, note that all Keywords in GQL are case-insensitive similar to SQL.
+  - Tags: terminal, command line, git, quering, searching, source: Rust
 - grep [🛈](https://www.gnu.org/software/grep)
   - Grep searches one or more input files for lines containing a match to a specified pattern.
   - Tags: regular expression, regex, search, pattern search, library, command line, command line: grep, source: C
@@ -281,6 +290,9 @@ Some descriptions are from:
 - htop [🛈](https://github.com/htop-dev/htop)
   - htop - an interactive process viewer
   - Tags: monitoring, command line, command line: top
+- huh [🛈](https://github.com/charmbracelet/huh)
+  - Huh is a simple, powerful library for forms and prompts in the terminal.
+  - Tags: forms, terminal, command line, source: Go
 - huniq [🛈](https://github.com/koraa/huniq)
   - huniq is a command line utility to remove duplicates from the given input.
   - Tags: command line, deduplication, unique, command line: uniq, source: Rust
@@ -314,6 +326,9 @@ Some descriptions are from:
 - Insanely Fast Whisper [🛈](https://github.com/Vaibhavs10/insanely-fast-whisper)
   - Insanely Fast Whisper transcribe 300 minutes (5 hours) of audio in less than 10 minutes.
   - Tags: automatic transcription, transcription, speech recognition, source: Python
+- inshellisense [🛈](https://github.com/microsoft/inshellisense)
+  - inshellisense provides IDE style autocomplete for shells. It's a terminal native runtime for autocomplete which has support for 600+ command line tools.
+  - Tags: terminal, autocomplete, source: TypeScript
 - Insomnia [🛈](https://insomnia.rest/)
   - Kong Insomnia is a collaborative open source API development platform that makes it easy to build high-quality APIs — without the bloat and clutter of other tools.
   - Tags: GUI, testing API, API development platform
@@ -322,13 +337,16 @@ Some descriptions are from:
   - Tags: Deep Learning, image generation, image editing, Stable Diffusion Model, platform, source: TypeScript
 - iotop [🛈](https://repo.or.cz/w/iotop.git)
   - A top utility for IO
-  - Tags: monitoring, command line, disc utility, monitoring tool
+  - Tags: monitoring, command line, disc utility
 - IPyflow [🛈](https://github.com/ipyflow/ipyflow)
   - ipyflow is a next-generation Python kernel for Jupyter and other notebook interfaces that tracks dataflow relationships between symbols and cells during a given interactive session.
   - Tags: Jupyter, source: Python
 - Ivy [🛈](https://github.com/unifyai/ivy)
   - Ivy is both an ML transpiler and a framework, currently supporting JAX, TensorFlow, PyTorch and Numpy.
   - Tags: transpiler, Machine Learning, Machine Learning transpiler, framework, source: Python
+- jaq [🛈](https://github.com/01mf02/jaq)
+  - jaq is a clone of the JSON data processing tool jq. jaq aims to support a large subset of jq's syntax and operations.
+  - Tags: terminal, command line, JSON, content extractor, data formatter, source: Rust
 - jc [🛈](https://github.com/kellyjonbrazil/jc)
   - CLI tool and python library that converts the output of popular command-line tools, file-types, and common strings to JSON, YAML, or Dictionaries. This allows piping of output to tools like jq and simplifying automation scripts.
   - Tags: command line, JSON, YAML, content extractor, data formatter
@@ -337,7 +355,7 @@ Some descriptions are from:
   - Tags: file manager, command line: ranger, command line: mc, source: Rust
 - jq [🛈](https://github.com/stedolan/jq)
   - jq is a lightweight and flexible command-line JSON processor.
-  - Tags: command line, JSON, content extractor, data formatter
+  - Tags: command line, JSON, content extractor, data formatter, source: C
 - JunoDB [🛈](https://github.com/paypal/junodb)
   - JunoDB is PayPal's home-grown secure, consistent and highly available key-value store providing low, single digit millisecond, latency at any scale.
   - Tags: database, key-value store, source: Go
@@ -476,6 +494,9 @@ Some descriptions are from:
 - Overlay [🛈](https://github.com/os-scar/overlay)
   - Overlay is a browser extension that helps developers evaluate open source packages before picking them. It gathers data from various sources, such as Snyk Advisor, Debricked, Socket.dev, and Deps.dev, and displays them on the package pages of popular registries like npm, PyPI, and Go.
   - Tags: web-browser extension, security, source: JavaScript
+- pathway [🛈](https://github.com/pathwaycom/pathway)
+  - Pathway is an open framework for high-throughput and low-latency real-time data processing.
+  - Tags: data processing, library, source: Python
 - Pelikan [🛈](https://github.com/twitter/pelikan)
   - Pelikan is framework for developing cache services.
   - Tags: caching
@@ -491,6 +512,9 @@ Some descriptions are from:
 - PINCE [🛈](https://github.com/korcankaraokcu/PINCE)
   - PINCE is a front-end/reverse engineering tool for the GNU Project Debugger (GDB), focused on games.
   - Tags: reverse engineering
+- pipeless [🛈](https://github.com/pipeless-ai/pipeless)
+  - Pipeless is an open-source computer vision framework to create and deploy applications without the complexity of building and maintaining multimedia pipelines.
+  - Tags: Machine Learning, computer vision, framework, source: Rust
 - pipes.sh [🛈](https://github.com/pipeseroni/pipes.sh)
   - Animated pipes terminal screensaver.
   - Tags: shell script, fun
@@ -512,18 +536,27 @@ Some descriptions are from:
 - Postman [🛈](https://www.postman.com/)
   - Postman is an API platform for building and using APIs. Postman simplifies each step of the API lifecycle and streamlines collaboration so you can create better APIs-faster.
   - Tags: GUI, testing API, API development platform
+- process-compose [🛈](https://github.com/F1bonacc1/process-compose)
+  - Process Compose is a simple and flexible scheduler and orchestrator to manage non-containerized applications.
+  - Tags: terminal, command line, job, scheduler, orchestrator, source: Go
 - procs [🛈](https://github.com/dalance/procs)
   - procs is a replacement for ps written in Rust.
-  - Tags: command line, monitoring tool, monitoring, command line: ps, source: Rust
+  - Tags: command line, monitoring, command line: ps, source: Rust
 - projectM [🛈](https://github.com/projectM-visualizer/projectm)
   - projectM - The most advanced open-source music visualizer
   - Tags: audio, visualizer
 - PuDB [🛈](https://github.com/inducer/pudb)
   - PuDB: a console-based visual debugger for Python.
   - Tags: debugger, debugging, command line, source: Python
+- pueue [🛈](https://github.com/Nukesor/pueue)
+  - Pueue is a command-line task management tool for sequential and parallel execution of long-running tasks.
+  - Tags: parallel, queue, command line, source: Rust
 - Puff [🛈](https://github.com/hansonkd/puff)
   - Puff is a 'deep stack' for Python that tries to minimize the barrier between Python and Rust. It gives Rust its own layer so that developers can build tools in Rust that work together without having to re-enter Python. Puff allows developers to build runtimes using standard CPython and extend them with Rust.
   - Tags: source: Rust, source: Python
+- PyApp [🛈](https://github.com/ofek/pyapp)
+  - PyApp is a wrapper for Python applications that bootstrap themselves at runtime.
+  - Tags: Python wrapper, source: Rust
 - PyGWalker [🛈](https://github.com/Kanaries/pygwalker)
   - PyGWalker: A Python Library for Exploratory Data Analysis with Visualization. Turn your pandas dataframe into a Tableau-style User Interface for visual analysis.
   - Tags: library, Jupyter, visualization, source: Python
@@ -536,6 +569,9 @@ Some descriptions are from:
 - q [🛈](https://github.com/harelba/q)
   - q - Run SQL directly on delimited files and multi-file sqlite databases
   - Tags: command line, database, sqlite, SQL
+- qsv [🛈](https://github.com/jqnatividad/qsv)
+  - qsv is a command line program for querying, indexing, slicing, analyzing, filtering, enriching, transforming, sorting, validating & joining CSV files.
+  - Tags: terminal, command line, CSV, quering, searching, source: Rust
 - ranger [🛈](https://github.com/ranger/ranger)
   - ranger is a console file manager with VI key bindings
   - Tags: file manager, command line: ranger, command line: mc
@@ -632,6 +668,9 @@ Some descriptions are from:
 - tailspin [🛈](https://github.com/bensadeh/tailspin)
   - tailspin is a log file highlighter.
   - Tags: logs, highlighter, command line, source: Rust
+- tbmk [🛈](https://github.com/linhx/tbmk)
+  - tbmk is a commands bookmark for terminal.
+  - Tags: terminal, bookmark, source: Go
 - tealdeer [🛈](https://github.com/dbrgn/tealdeer)
   - tealdeer is a very fast implementation of tldr in Rust: Simplified, example based and community-driven man pages.
   - Tags: command line, tldr, cheat sheet, guide, source: Rust
@@ -656,6 +695,9 @@ Some descriptions are from:
 - tinyvector [🛈](https://github.com/0hq/tinyvector)
   - tinyvector - the tiny, least-dumb, speedy vector embedding database.
   - Tags: database, embeddings, source: Python
+- tinyzero [🛈](https://github.com/s-casci/tinyzero)
+  - tinyzero is an easy train AlphaZero-like agents on any environment you want!
+  - Tags: terminal, command line, Machine Learning, AlphaZero, source: Rust
 - Tokei [🛈](https://github.com/XAMPPRocky/tokei)
   - Tokei is a program that displays statistics about your code.
   - Tags: command line, code statistics, source: Rust
@@ -691,7 +733,7 @@ Some descriptions are from:
   - Tags: bypass, passwords, source: Shell
 - Uptime Kuma [🛈](https://github.com/louislam/uptime-kuma)
   - Uptime Kuma is an easy-to-use self-hosted monitoring tool.
-  - Tags: monitoring, monitoring tool, source: JavaScript
+  - Tags: monitoring, source: JavaScript
 - VideoCrafter [🛈](https://github.com/VideoCrafter/VideoCrafter)
   - VideoCrafter is an open-source video generation and editing toolbox for crafting video content.
   - Tags: Deep Learning, video, video generation, source: Python
@@ -719,6 +761,9 @@ Some descriptions are from:
 - Whisper Turbo [🛈](https://github.com/FL33TW00D/whisper-turbo)
   - Whisper Turbo is a lightning-fast, cross-platform Whisper implementation, designed to run entirely client-side on your browser or electron app.
   - Tags: automatic transcription, transcription, speech recognition, cross-platform, source: TypeScript
+- WhisperPlus [🛈](https://github.com/kadirnar/whisper-plus)
+  - WhisperPlus: Advancing Speech-to-Text Processing.
+  - Tags: automatic transcription, transcription, speech recognition, source: Python
 - wonnx [🛈](https://github.com/webonnx/wonnx)
   - Wonnx is a GPU-accelerated ONNX inference run-time written 100% in Rust, ready for the web.
   - Tags: Deep Learning, GPU, library, source: Rust
@@ -739,7 +784,7 @@ Some descriptions are from:
   - Tags: command line, video, downloader, video downloader, source: Python
 - ytop [🛈](https://github.com/cjbassi/ytop) - NO LONGER MAINTAINED
   - ytop is a TUI based system monitor, this time in Rust!
-  - Tags: command line, monitoring tool, monitoring, command line: top, source: Rust
+  - Tags: command line, monitoring, command line: top, source: Rust
 - Zeal [🛈](https://github.com/zealdocs/zeal/)
   - Zeal is a simple offline documentation browser inspired by Dash.
   - Tags: GUI, documentation, source: C++
@@ -767,16 +812,19 @@ List of tags with occurrences in the brackets:
 - AI personal assistant (3)
 - AI powered (2)
 - alerts (1)
+- AlphaZero (1)
 - analysis (1)
 - API (1)
 - API development platform (3)
 - audio (2)
-- audio generation (2)
+- audio generation (3)
+- autocomplete (1)
 - automate pull requests (1)
-- automatic transcription (4)
+- automatic transcription (5)
 - awesome-list (1)
 - benchmarking (1)
 - binary (2)
+- bookmark (1)
 - bug tracker (1)
 - bypass (1)
 - C (1)
@@ -790,7 +838,7 @@ List of tags with occurrences in the brackets:
 - code search (1)
 - code statistics (1)
 - coloring code (1)
-- command line (96)
+- command line (103)
 - command line: cat (1)
 - command line: cd (1)
 - command line: diff (3)
@@ -809,17 +857,20 @@ List of tags with occurrences in the brackets:
 - command line: top (5)
 - command line: uniq (2)
 - compression (3)
+- computer vision (1)
 - configuration (1)
 - container (3)
 - containers (1)
-- content extractor (4)
-- cross-platform (4)
+- content extractor (5)
+- cross-platform (5)
+- CSV (1)
 - customizing (1)
 - dashboard (2)
 - data format (1)
-- data formatter (3)
+- data formatter (4)
 - data generator (1)
 - data labeling (1)
+- data processing (1)
 - data structures (2)
 - data text processing (2)
 - database (18)
@@ -854,11 +905,12 @@ List of tags with occurrences in the brackets:
 - file searching (2)
 - file system watcher (1)
 - find and replace (1)
+- forms (1)
 - framerate (1)
-- framework (3)
+- framework (4)
 - fun (1)
 - fuzzy search (2)
-- git (6)
+- git (7)
 - GitHub actions (1)
 - GPU (3)
 - GUI (13)
@@ -876,7 +928,8 @@ List of tags with occurrences in the brackets:
 - image generation (7)
 - isolation (1)
 - JavaScript engine (1)
-- JSON (2)
+- job (1)
+- JSON (3)
 - Jupyter (6)
 - key-value store (2)
 - killing proces (1)
@@ -884,12 +937,12 @@ List of tags with occurrences in the brackets:
 - language detection (1)
 - language identification (1)
 - Language Model (3)
-- library (24)
+- library (25)
 - link management (1)
 - linter (5)
 - Linux (2)
 - logs (4)
-- Machine Learning (1)
+- Machine Learning (3)
 - Machine Learning transpiler (1)
 - Machine Translation (1)
 - makefile (1)
@@ -898,10 +951,10 @@ List of tags with occurrences in the brackets:
 - matplot (1)
 - memory tracking (1)
 - metadata tracker (1)
-- metrics (3)
-- monitoring (10)
-- monitoring tool (8)
+- metrics (4)
+- monitoring (13)
 - multi-language (1)
+- music generation (1)
 - Natural Language Processing (3)
 - NeRFs (1)
 - network (3)
@@ -910,7 +963,9 @@ List of tags with occurrences in the brackets:
 - notification (1)
 - object detection (1)
 - OCR (2)
+- orchestrator (1)
 - package manager (1)
+- parallel (1)
 - parse file (1)
 - parsing (1)
 - passwords (1)
@@ -928,6 +983,9 @@ List of tags with occurrences in the brackets:
 - pull requests (1)
 - Python interpreter (1)
 - Python linter (2)
+- Python wrapper (1)
+- quering (2)
+- queue (1)
 - real-time workflow (1)
 - regex (4)
 - regular expression (4)
@@ -936,8 +994,9 @@ List of tags with occurrences in the brackets:
 - reverse engineering (1)
 - Rust (1)
 - scan vulnerability (1)
+- scheduler (1)
 - search (4)
-- searching (3)
+- searching (5)
 - secret management (1)
 - secrets detector (1)
 - security (4)
@@ -950,20 +1009,21 @@ List of tags with occurrences in the brackets:
 - SMTP server (1)
 - sounds (2)
 - source control system (1)
-- source: C (9)
+- source: C (10)
 - source: C# (1)
 - source: C++ (10)
-- source: Go (10)
+- source: Go (13)
 - source: Java (2)
 - source: JavaScript (8)
-- source: Python (55)
+- source: Python (58)
 - source: Python linter (1)
 - source: Ruby (1)
-- source: Rust (56)
+- source: Rust (63)
 - source: Shell (2)
-- source: TypeScript (10)
+- source: TypeScript (12)
 - space (1)
-- speech recognition (3)
+- speech generation (1)
+- speech recognition (4)
 - SQL (6)
 - SQL injection (1)
 - sqlite (1)
@@ -975,7 +1035,7 @@ List of tags with occurrences in the brackets:
 - syntax highlighting (2)
 - system call (1)
 - system events (1)
-- terminal (3)
+- terminal (11)
 - terminal emulator (1)
 - terminal interface (1)
 - testing API (3)
@@ -984,7 +1044,7 @@ List of tags with occurrences in the brackets:
 - text processing (2)
 - text-to-audio (1)
 - tldr (4)
-- transcription (4)
+- transcription (5)
 - transpiler (1)
 - unique (4)
 - unstructured data (1)
