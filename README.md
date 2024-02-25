@@ -34,7 +34,7 @@ Some descriptions are from:
   - Tags: library, stream data, source: Rust
 - ast-grep [🛈](https://github.com/ast-grep/ast-grep)
   - ast-grep(sg) is a lightning fast and user friendly tool for code searching, linting, rewriting at large scale.
-  - Tags: search, pattern search, library, command line, command line: grep, source: Rust
+  - Tags: searching, pattern search, library, command line, command line: grep, source: Rust
 - AudioCraft [🛈](https://github.com/facebookresearch/audiocraft)
   - AudioCraft is a PyTorch library for deep learning research on audio generation.
   - Tags: Deep Learning, audio generation, source: Python
@@ -88,10 +88,13 @@ Some descriptions are from:
   - Tags: API, linter, source: Rust
 - codespelunker [🛈](https://github.com/boyter/cs)
   - codespelunker is a command line search tool. Allows you to search over code or text files in the current directory either on the console, via a TUI or HTTP server, using some boolean queries or regular expressions.
-  - Tags: search, code search, command line, source: Go
+  - Tags: searching, code search, command line, source: Go
 - Comcast [🛈](https://github.com/tylertreat/comcast)
   - Comcast is a tool designed to simulate common network problems like latency, bandwidth restrictions, and dropped/reordered/corrupted packets. Simulating shitty network connections so you can build better systems.
   - Tags: command line, network
+- Conductor [🛈](https://github.com/conductor-oss/conductor)
+  - Conductor is a platform originally created at Netflix to orchestrate microservices and events.
+  - Tags: orchestrator, source: Java
 - Configu [🛈](https://github.com/configu/configu)
   - Configu is a simple, modern, and generic standard for managing and collaborating software configurations.
   - Tags: configuration, source: TypeScript
@@ -107,6 +110,9 @@ Some descriptions are from:
 - Cryptomator [🛈](https://github.com/cryptomator/cryptomator)
   - Cryptomator offers multi-platform transparent client-side encryption of your files in the cloud.
   - Tags: encryption, source: Java
+- csvlens [🛈](https://github.com/YS-L/csvlens)
+  - csvlens is a command line CSV file viewer. It is like less but made for CSV.
+  - Tags: terminal, command line, CSV, quering, searching, source: Rust
 - ctoc [🛈](https://github.com/yaohui-wyh/ctoc)
   - ctoc is Count Tokens of Code.
   - Tags: command line, statistics, source: Go
@@ -245,12 +251,18 @@ Some descriptions are from:
 - Gita [🛈](https://github.com/nosarthur/gita)
   - Gita: a command-line tool to manage multiple git repos
   - Tags: command line, git, repository, source: Python
+- GitButler [🛈](https://github.com/gitbutlerapp/gitbutler)
+  - GitButler is a git client that lets you work on multiple branches at the same time.
+  - Tags: git, git GUI, source: TypeScript
 - GitID [🛈](https://github.com/InderdeepBajwa/gitid)
   - GitID is a convenient command-line interface (CLI) that allows you seamlessly manage and switch between multiple git SSH identities on a single user account.
   - Tags: command line, management, ssh, source: TypeScript
 - gitty [🛈](https://github.com/muesli/gitty)
   - gitty is a smart little CLI helper for git projects, that shows you all the relevant issues, pull requests and changes at a quick glance, right on the command-line. It currently supports the GitHub, GitLab, and Gitea APIs.
   - Tags: command line, git
+- gitui [🛈](https://github.com/extrawurst/gitui)
+  - GitUI provides you with the comfort of a git GUI but right in your terminal.
+  - Tags: command line, git, git GUI, source: Rust
 - Glances [🛈](https://github.com/nicolargo/glances) [🖼️](app/glances/REAMDE.md)
   - Glances is a cross-platform monitoring tool which aims to present a large amount of monitoring information through a curses or Web based interface.
   - Tags: monitoring, cross-platform
@@ -265,7 +277,7 @@ Some descriptions are from:
   - Tags: terminal, command line, git, quering, searching, source: Rust
 - grep [🛈](https://www.gnu.org/software/grep)
   - Grep searches one or more input files for lines containing a match to a specified pattern.
-  - Tags: regular expression, regex, search, pattern search, library, command line, command line: grep, source: C
+  - Tags: regular expression, regex, searching, pattern search, library, command line, command line: grep, source: C
 - grex [🛈](https://github.com/pemistahl/grex)
   - grex is a command-line tool and Rust library for generating regular expressions from user-provided test cases.
   - Tags: command line, regular expression, regex, source: Rust
@@ -428,6 +440,9 @@ Some descriptions are from:
 - Lynx [🛈](https://lynx.invisible-island.net)
   - Lynx is the text web browser.
   - Tags: command line, web browser, source: C
+- magika [🛈](https://github.com/google/magika)
+  - Magika is a novel AI powered file type detection tool that relies on the recent advance of deep learning to provide accurate detection.
+  - Tags: command line, file detection, source: Python
 - Mailpit [🛈](https://github.com/axllent/mailpit)
   - Mailpit is a multi-platform email testing tool & API for developers.
   - Tags: email, SMTP server, source: Go
@@ -450,7 +465,7 @@ Some descriptions are from:
   - Milvus is an open-source vector database built to power embedding similarity search and AI applications. It makes unstructured data search more accessible and provides a consistent user experience regardless of the deployment environment. All components in Milvus are stateless to enhance elasticity and flexibility.
   - Tags: platform, image, unstructured data, searching, database
 - MongoDB [🛈](https://github.com/mongodb/mongo)
-  - MongoDB is a flexible and scalable database software that supports transactional, search, analytics, and mobile use cases with a common query interface and a document data model.
+  - MongoDB is a flexible and scalable database software that supports transactional, searching, analytics, and mobile use cases with a common query interface and a document data model.
   - Tags: database, source: C++
 - Muse [🛈](https://github.com/Lightning-AI/stable-diffusion-deploy)
   - Open source, stable-diffusion production server to show how to deploy diffusion models in a real production environment with: load-balancing, gpu-inference, performance-testing, micro-services orchestration and more.
@@ -512,6 +527,9 @@ Some descriptions are from:
 - PINCE [🛈](https://github.com/korcankaraokcu/PINCE)
   - PINCE is a front-end/reverse engineering tool for the GNU Project Debugger (GDB), focused on games.
   - Tags: reverse engineering
+- pip-tools [🛈](https://github.com/jazzband/pip-tools)
+  - pip-tools ia a set of command line tools to help you keep your pip-based packages fresh, even when you've pinned them.
+  - Tags: package installer, resolver, source: Python
 - pipeless [🛈](https://github.com/pipeless-ai/pipeless)
   - Pipeless is an open-source computer vision framework to create and deploy applications without the complexity of building and maintaining multimedia pipelines.
   - Tags: Machine Learning, computer vision, framework, source: Rust
@@ -592,7 +610,7 @@ Some descriptions are from:
   - Tags: command line, deletion tool, command line: rm, source: Rust
 - ripgrep [🛈](https://github.com/BurntSushi/ripgrep)
   - ripgrep is a line-oriented search tool that recursively searches the current directory for a regex pattern.
-  - Tags: regular expression, regex, search, pattern search, library, command line, command line: grep, source: Rust
+  - Tags: regular expression, regex, searching, pattern search, library, command line, command line: grep, source: Rust
 - rtx [🛈](https://github.com/jdxcode/rtx)
   - rtx is a tool for managing programming language and tool versions.
   - Tags: command line, environment, management, environment manager, source: Rust
@@ -635,6 +653,9 @@ Some descriptions are from:
 - SpacetimeDB [🛈](https://github.com/clockworklabs/SpacetimeDB)
   - SpacetimeDB as both a database and server combined into one.
   - Tags: database, server, source: Rust
+- spin [🛈](https://github.com/serversideup/spin)
+  - spin is a bash utility that improves the user-experience for teams using Docker.
+  - Tags: command line, docker, source: Shell
 - sqlectron-gui [🛈](https://github.com/sqlectron/sqlectron-gui)
   - A simple and lightweight SQL client desktop with cross database and platform support.
   - Tags: database, GUI, SQL
@@ -659,6 +680,9 @@ Some descriptions are from:
 - Stringzilla [🛈](https://github.com/ashvardanian/Stringzilla)
   - StringZilla is the Godzilla of string libraries, splitting, sorting, and shuffling large textual datasets.
   - Tags: data text processing, library, source: Python
+- Surya [🛈](https://github.com/VikParuchuri/surya)
+  - Surya is a document OCR toolkit.
+  - Tags: OCR, source: Python
 - sysm [🛈](https://github.com/jafarlihi/sysm)
   - sysm makes your system play custom sounds when any configured system or external event happens.
   - Tags: command line, sounds, system events
@@ -704,6 +728,9 @@ Some descriptions are from:
 - TokenFlow [🛈](https://github.com/omerbt/TokenFlow)
   - TokenFlow is a framework that enables consistent video editing, using a pre-trained text-to-image diffusion model, without any further training or finetuning.
   - Tags: Deep Learning, video, video editing, source: Python
+- Toolong [🛈](https://github.com/Textualize/toolong)
+  - Toolong is a terminal application to view, tail, merge, and search log files (plus JSONL).
+  - Tags: command line, logs, searching, viewer, source: Python
 - trdrop [🛈](https://github.com/cirquit/trdrop)
   - Estimate the "real" framerate of an uncompressed video.
   - Tags: video, framerate
@@ -734,6 +761,9 @@ Some descriptions are from:
 - Uptime Kuma [🛈](https://github.com/louislam/uptime-kuma)
   - Uptime Kuma is an easy-to-use self-hosted monitoring tool.
   - Tags: monitoring, source: JavaScript
+- uv [🛈](https://github.com/astral-sh/uv)
+  - uv ia an extremely fast Python package installer and resolver, written in Rust.
+  - Tags: package installer, resolver, source: Rust
 - VideoCrafter [🛈](https://github.com/VideoCrafter/VideoCrafter)
   - VideoCrafter is an open-source video generation and editing toolbox for crafting video content.
   - Tags: Deep Learning, video, video generation, source: Python
@@ -838,7 +868,7 @@ List of tags with occurrences in the brackets:
 - code search (1)
 - code statistics (1)
 - coloring code (1)
-- command line (103)
+- command line (108)
 - command line: cat (1)
 - command line: cd (1)
 - command line: diff (3)
@@ -863,7 +893,7 @@ List of tags with occurrences in the brackets:
 - containers (1)
 - content extractor (5)
 - cross-platform (5)
-- CSV (1)
+- CSV (2)
 - customizing (1)
 - dashboard (2)
 - data format (1)
@@ -887,7 +917,7 @@ List of tags with occurrences in the brackets:
 - developer environment (3)
 - diff (3)
 - disc utility (5)
-- docker (2)
+- docker (3)
 - docker-compose (1)
 - documentation (1)
 - downloader (3)
@@ -900,6 +930,7 @@ List of tags with occurrences in the brackets:
 - environment manager (4)
 - environment variables (1)
 - fake data (1)
+- file detection (1)
 - file listing (4)
 - file manager (5)
 - file searching (2)
@@ -910,7 +941,8 @@ List of tags with occurrences in the brackets:
 - framework (4)
 - fun (1)
 - fuzzy search (2)
-- git (7)
+- git (9)
+- git GUI (2)
 - GitHub actions (1)
 - GPU (3)
 - GUI (13)
@@ -941,7 +973,7 @@ List of tags with occurrences in the brackets:
 - link management (1)
 - linter (5)
 - Linux (2)
-- logs (4)
+- logs (5)
 - Machine Learning (3)
 - Machine Learning transpiler (1)
 - Machine Translation (1)
@@ -962,8 +994,9 @@ List of tags with occurrences in the brackets:
 - Notebook (2)
 - notification (1)
 - object detection (1)
-- OCR (2)
-- orchestrator (1)
+- OCR (3)
+- orchestrator (2)
+- package installer (2)
 - package manager (1)
 - parallel (1)
 - parse file (1)
@@ -984,19 +1017,19 @@ List of tags with occurrences in the brackets:
 - Python interpreter (1)
 - Python linter (2)
 - Python wrapper (1)
-- quering (2)
+- quering (3)
 - queue (1)
 - real-time workflow (1)
 - regex (4)
 - regular expression (4)
 - report (1)
 - repository (1)
+- resolver (2)
 - reverse engineering (1)
 - Rust (1)
 - scan vulnerability (1)
 - scheduler (1)
-- search (4)
-- searching (5)
+- searching (11)
 - secret management (1)
 - secrets detector (1)
 - security (4)
@@ -1013,14 +1046,14 @@ List of tags with occurrences in the brackets:
 - source: C# (1)
 - source: C++ (10)
 - source: Go (13)
-- source: Java (2)
+- source: Java (3)
 - source: JavaScript (8)
-- source: Python (58)
+- source: Python (62)
 - source: Python linter (1)
 - source: Ruby (1)
-- source: Rust (63)
-- source: Shell (2)
-- source: TypeScript (12)
+- source: Rust (66)
+- source: Shell (3)
+- source: TypeScript (13)
 - space (1)
 - speech generation (1)
 - speech recognition (4)
@@ -1035,7 +1068,7 @@ List of tags with occurrences in the brackets:
 - syntax highlighting (2)
 - system call (1)
 - system events (1)
-- terminal (11)
+- terminal (12)
 - terminal emulator (1)
 - terminal interface (1)
 - testing API (3)
@@ -1053,7 +1086,7 @@ List of tags with occurrences in the brackets:
 - video downloader (3)
 - video editing (1)
 - video generation (1)
-- viewer (1)
+- viewer (2)
 - visualization (4)
 - visualizer (1)
 - vulnerability scanner (1)
