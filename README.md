@@ -362,12 +362,15 @@ Some descriptions are from:
 - jc [🛈](https://github.com/kellyjonbrazil/jc)
   - CLI tool and python library that converts the output of popular command-line tools, file-types, and common strings to JSON, YAML, or Dictionaries. This allows piping of output to tools like jq and simplifying automation scripts.
   - Tags: command line, JSON, YAML, content extractor, data formatter
+- jnv [🛈](https://github.com/ynqa/jnv)
+  - jnv is designed for navigating JSON, offering an interactive JSON viewer and jq filter editor.
+  - Tags: command line, JSON, content extractor, filter editor, interactive, source: Rust
 - joshuto [🛈](https://github.com/kamiyaa/joshuto)
   - ranger-like terminal file manager written in Rust.
   - Tags: file manager, command line: ranger, command line: mc, source: Rust
 - jq [🛈](https://github.com/stedolan/jq)
   - jq is a lightweight and flexible command-line JSON processor.
-  - Tags: command line, JSON, content extractor, data formatter, source: C
+  - Tags: command line, JSON, content extractor, data formatter, filter editor, source: C
 - JunoDB [🛈](https://github.com/paypal/junodb)
   - JunoDB is PayPal's home-grown secure, consistent and highly available key-value store providing low, single digit millisecond, latency at any scale.
   - Tags: database, key-value store, source: Go
@@ -415,7 +418,7 @@ Some descriptions are from:
   - Tags: Machine Translation
 - LineSelect [🛈](https://github.com/chfritz/lineselect)
   - A shell utility to interactively select lines from stdin and output them to stdout. This allows you to effectively pause the pipeline to make a manual selection before the pipeline, or other composed command, continues.
-  - Tags: pipeline, command line, source: JavaScript
+  - Tags: command line, pipeline, interactive, source: JavaScript
 - llama [🛈](https://github.com/antonmedv/llama)
   - Llama is a terminal file manager. It allows for quick navigation with fuzzy searching. Llama is very simple and minimalistic.
   - Tags: terminal, file manager
@@ -641,6 +644,9 @@ Some descriptions are from:
 - Self-Replace [🛈](https://github.com/mitsuhiko/self-replace)
   - self-replace is a crate that allows binaries to replace themselves with newer versions or to uninstall themselves. On Unix systems this is a simple feat, but on Windows a few hacks are needed which is why this crate exists.
   - Tags: binary, source: Rust
+- sig [🛈](https://github.com/ynqa/sig)
+  - sig is an interactive grep (for streaming).
+  - Tags: command line, interactive, command line: grep, source: Rust
 - Slidev [🛈](https://github.com/slidevjs/slidev)
   - Slives is a program to create presentation slides from Markdown.
   - Tags: Markdown, presentation
@@ -809,6 +815,9 @@ Some descriptions are from:
 - youtube-dl [🛈](https://github.com/ytdl-org/youtube-dl)
   - youtube-dl - download videos from youtube.com or other video platforms.
   - Tags: command line, video, downloader, video downloader, source: Python
+- yq [🛈](https://github.com/mikefarah/yq)
+  - yq is a lightweight and portable command-line YAML, JSON and XML processor. yq uses jq like syntax but works with yaml files as well as json, xml, properties, csv and tsv.
+  - Tags: command line, YAML, JSON, XML, CSV, TSV, content extractor, data formatter, filter editor, command line: jq, source: Go
 - yt-dlp [🛈](https://github.com/yt-dlp/yt-dlp)
   - yt-dlp is a youtube-dl fork based on the now inactive youtube-dlc. The main focus of this project is adding new features and patches while also keeping up to date with the original project.
   - Tags: command line, video, downloader, video downloader, source: Python
@@ -868,14 +877,15 @@ List of tags with occurrences in the brackets:
 - code search (1)
 - code statistics (1)
 - coloring code (1)
-- command line (108)
+- command line (111)
 - command line: cat (1)
 - command line: cd (1)
 - command line: diff (3)
 - command line: du (3)
 - command line: find (2)
-- command line: grep (3)
+- command line: grep (4)
 - command line: hexdump (1)
+- command line: jq (1)
 - command line: kill (1)
 - command line: ls (4)
 - command line: mc (3)
@@ -891,13 +901,13 @@ List of tags with occurrences in the brackets:
 - configuration (1)
 - container (3)
 - containers (1)
-- content extractor (5)
+- content extractor (7)
 - cross-platform (5)
-- CSV (2)
+- CSV (3)
 - customizing (1)
 - dashboard (2)
 - data format (1)
-- data formatter (4)
+- data formatter (5)
 - data generator (1)
 - data labeling (1)
 - data processing (1)
@@ -935,6 +945,7 @@ List of tags with occurrences in the brackets:
 - file manager (5)
 - file searching (2)
 - file system watcher (1)
+- filter editor (3)
 - find and replace (1)
 - forms (1)
 - framerate (1)
@@ -958,10 +969,11 @@ List of tags with occurrences in the brackets:
 - image (4)
 - image editing (4)
 - image generation (7)
+- interactive (3)
 - isolation (1)
 - JavaScript engine (1)
 - job (1)
-- JSON (3)
+- JSON (5)
 - Jupyter (6)
 - key-value store (2)
 - killing proces (1)
@@ -1045,13 +1057,13 @@ List of tags with occurrences in the brackets:
 - source: C (10)
 - source: C# (1)
 - source: C++ (10)
-- source: Go (13)
+- source: Go (14)
 - source: Java (3)
 - source: JavaScript (8)
 - source: Python (62)
 - source: Python linter (1)
 - source: Ruby (1)
-- source: Rust (66)
+- source: Rust (68)
 - source: Shell (3)
 - source: TypeScript (13)
 - space (1)
@@ -1079,6 +1091,7 @@ List of tags with occurrences in the brackets:
 - tldr (4)
 - transcription (5)
 - transpiler (1)
+- TSV (1)
 - unique (4)
 - unstructured data (1)
 - url (1)
@@ -1095,5 +1108,5 @@ List of tags with occurrences in the brackets:
 - web scraper (2)
 - web-browser extension (1)
 - website (1)
-- XML (1)
-- YAML (1)
+- XML (2)
+- YAML (2)
