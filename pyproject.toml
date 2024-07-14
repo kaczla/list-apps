@@ -31,7 +31,6 @@ skip-string-normalization = false
 atomic = true
 profile = "black"
 line_length = 120
-lines_before_imports = 1
 multi_line_output = 3
 
 [tool.mypy]
