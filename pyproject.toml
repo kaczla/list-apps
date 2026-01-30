@@ -1,3 +1,20 @@
+[project]
+name = "list-app"
+version = "0.1.0"
+description = "Application list"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+  "loguru>=0.7.3,<1.0",
+  "lxml>=5.4,<6.0",
+  "pydantic>=2.12,<3.0",
+  "pyperclip>=1.11,<2.0",
+  "requests>=2.32,<3.0",
+]
+
+[dependency-groups]
+dev = ["mypy>=1.19,<2.0", "ruff>=0.14.0,<1.0", "types-requests>=2.32,<3.0"]
+
 [tool.ruff]
 line-length = 120
 
