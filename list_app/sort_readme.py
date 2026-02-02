@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
 import json
-import logging
 import re
 from collections import Counter
 from copy import deepcopy
@@ -11,6 +10,8 @@ from typing import Counter as CounterType
 from typing import Dict, List, Optional, Tuple
 
 from loguru import logger
+
+from list_app.log_utils import init_logs
 
 HEADER_LIST_OF_APPS = "List of application"
 
@@ -113,22 +114,6 @@ class Section:
 class Tag:
     name: str
     occurrence: int
-
-
-def init_logs(debug: bool = False, warning: bool = False) -> None:
-    if debug:
-        level = logging.DEBUG
-    elif warning:
-        level = logging.WARNING
-    else:
-        level = logging.INFO
-    logging.basicConfig(
-        level=level,
-        format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
-    )
-
-    if debug:
-        logging.getLogger("urllib3").setLevel(logging.INFO)
 
 
 def parse_section(text: List[str]) -> Section:

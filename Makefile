@@ -3,16 +3,16 @@ all: format lint_fix
 
 lint:
 	@echo "[INFO] Running lint..."
-	@uv run ruff check scripts
+	@uv run ruff check list_app
 
 lint_fix:
 	@echo "[INFO] Running lint fix..."
-	@uv run ruff check --select I --fix scripts
-	@uv run ruff check --fix scripts
+	@uv run ruff check --select I --fix list_app
+	@uv run ruff check --fix list_app
 
 format:
 	@echo "[INFO] Running format..."
-	@uv run ruff format scripts
+	@uv run ruff format list_app
 
 format_toml:
 	@echo "[INFO] Running TOML format..."
@@ -20,6 +20,6 @@ format_toml:
 
 type_check:
 	@echo "[INFO] Running type check..."
-	@uv run mypy scripts
+	@uv run mypy list_app
 
 .PHONY: lint lint_fix format format_toml type_check
