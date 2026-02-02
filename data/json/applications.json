@@ -1,0 +1,2850 @@
+[
+    {
+        "name": "act",
+        "url": "https://github.com/nektos/act",
+        "description": "Run your GitHub Actions locally.",
+        "tags": [
+            "GitHub actions"
+        ]
+    },
+    {
+        "name": "age",
+        "url": "https://github.com/FiloSottile/age",
+        "description": "A simple, modern and secure encryption tool (and Go library) with small explicit keys, no config options, and UNIX-style composability.",
+        "tags": [
+            "command line",
+            "encryption"
+        ]
+    },
+    {
+        "name": "aim",
+        "url": "https://github.com/aimhubio/aim",
+        "description": "An easy-to-use & supercharged open-source AI metadata tracker.",
+        "tags": [
+            "metadata tracker",
+            "metrics",
+            "dashboard",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "allocscope",
+        "url": "https://github.com/matt-kimball/allocscope",
+        "description": "allocscope is a tool for tracking down where the most egregiously large allocations are occurring in a C, C++ or Rust codebase.",
+        "tags": [
+            "C",
+            "C++",
+            "library",
+            "memory tracking",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "Ambrosia",
+        "url": "https://github.com/reactorsh/ambrosia",
+        "description": "Ambrosia is a cross-platform command line tool for improving the text datasets you use for machine learning.",
+        "tags": [
+            "text processing",
+            "Natural Language Processing",
+            "NLP",
+            "source: Go"
+        ]
+    },
+    {
+        "name": "Amphion",
+        "url": "https://github.com/open-mmlab/Amphion",
+        "description": "Amphion is a toolkit for Audio, Music, and Speech Generation.",
+        "tags": [
+            "audio generation",
+            "music generation",
+            "speech generation",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "Apprise",
+        "url": "https://github.com/caronc/apprise",
+        "description": "Apprise is a library that allows developers to send notifications to almost all of the most popular notification services available. It features a common and intuitive notification syntax and it supports the handling of images and attachments. A list of notification types and services supported by Apprise is available.",
+        "tags": [
+            "notification"
+        ]
+    },
+    {
+        "name": "Arroyo",
+        "url": "https://github.com/ArroyoSystems/arroyo",
+        "description": "Arroyo is a distributed stream processing engine written in Rust, designed to efficiently perform stateful computations on streams of data. Unlike traditional batch processing, streaming engines can operate on both bounded and unbounded sources, emitting results as soon as they are available.",
+        "tags": [
+            "library",
+            "stream data",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "ast-grep",
+        "url": "https://github.com/ast-grep/ast-grep",
+        "description": "ast-grep(sg) is a lightning fast and user friendly tool for code searching, linting, rewriting at large scale.",
+        "tags": [
+            "searching",
+            "pattern search",
+            "library",
+            "command line",
+            "command line: grep",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "AudioCraft",
+        "url": "https://github.com/facebookresearch/audiocraft",
+        "description": "AudioCraft is a PyTorch library for deep learning research on audio generation.",
+        "tags": [
+            "Deep Learning",
+            "audio generation",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "bandwhich",
+        "url": "https://github.com/imsnif/bandwhich",
+        "description": "bandwhich is a CLI utility for displaying current network utilization by process, connection and remote IP/hostname.",
+        "tags": [
+            "command line",
+            "monitoring",
+            "network",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "bark",
+        "url": "https://github.com/suno-ai/bark",
+        "description": "Bark is a transformer-based text-to-audio model created by Suno. Bark can generate highly realistic, multilingual speech as well as other audio - including music, background noise and simple sound effects.",
+        "tags": [
+            "Deep Learning",
+            "text-to-audio",
+            "audio generation",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "bat",
+        "url": "https://github.com/sharkdp/bat",
+        "description": "bat is a cat clone with syntax highlighting and Git integration.",
+        "tags": [
+            "command line",
+            "printing file",
+            "syntax highlighting",
+            "command line: cat",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "bearer",
+        "url": "https://github.com/bearer/bearer",
+        "description": "Bearer is a static application security testing (SAST) tool that scans your source code and analyzes your data flows to discover, filter and prioritize security risks and vulnerabilities leading to sensitive data exposures (PII, PHI, PD).",
+        "tags": [
+            "linter",
+            "security",
+            "scan vulnerability",
+            "source: C"
+        ]
+    },
+    {
+        "name": "bindiff",
+        "url": "https://github.com/google/bindiff",
+        "description": "BinDiff is an open-source comparison tool for binary files to quickly find differences and similarities in disassembled code.",
+        "tags": [
+            "command line",
+            "binary",
+            "diff",
+            "command line: diff",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "BleachBit",
+        "url": "https://github.com/bleachbit/bleachbit",
+        "description": "BleachBit cleans files to free disk space and to maintain privacy.",
+        "tags": [
+            "disc utility",
+            "privacy",
+            "deletion tool"
+        ]
+    },
+    {
+        "name": "bottom",
+        "url": "https://github.com/ClementTsang/bottom",
+        "description": "bottom is a customizable cross-platform graphical process/system monitor for the terminal.",
+        "tags": [
+            "command line",
+            "monitoring",
+            "command line: top",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "btop",
+        "url": "https://github.com/aristocratos/btop",
+        "description": "Resource monitor that shows usage and stats for processor, memory, disks, network and processes.",
+        "tags": [
+            "monitoring"
+        ]
+    },
+    {
+        "name": "bucketratelimiter",
+        "url": "https://github.com/ArtyomKozyrev8/BucketRateLimiter/",
+        "description": "bucketratelimiter is the collection of rate limiters, which are based on Bucket conception - Python.",
+        "tags": [
+            "library",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "burn",
+        "url": "https://github.com/burn-rs/burn",
+        "description": "This library aims to be a complete deep learning framework with extreme flexibility written in Rust. The goal would be to satisfy researchers as well as practitioners making it easier to experiment, train and deploy your models.",
+        "tags": [
+            "Deep Learning",
+            "Deep Learning framework",
+            "framework",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "cachegrand",
+        "url": "https://github.com/danielealbano/cachegrand",
+        "description": "cachegrand - a modern OSS Key-Value store built for today's hardware",
+        "tags": [
+            "caching",
+            "storage"
+        ]
+    },
+    {
+        "name": "carbonyl",
+        "url": "https://github.com/fathyb/carbonyl",
+        "description": "Carbonyl is a Chromium based browser built to run in a terminal.",
+        "tags": [
+            "command line",
+            "web browser",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "catp",
+        "url": "https://github.com/rapiz1/catp",
+        "description": "catp is a tool for printing the output of a running process. It uses ptrace to intercept syscall and extracts data from the syscall write. catp works for most applications on x86_64 Linux systems. It requires root privilege to run in most systems.",
+        "tags": [
+            "command line",
+            "debugging"
+        ]
+    },
+    {
+        "name": "chatanalytics",
+        "url": "https://github.com/mlomb/chat-analytics",
+        "description": "Generate interactive, beautiful and insightful chat analysis reports.",
+        "tags": [
+            "GUI",
+            "report",
+            "analysis"
+        ]
+    },
+    {
+        "name": "cheat.sh",
+        "url": "https://github.com/chubin/cheat.sh",
+        "description": "The only cheat sheet you need. Has a simple curl/browser/editor interface. Covers 56 programming languages, several DBMSes, and more than 1000 most important UNIX/Linux commands.",
+        "tags": [
+            "cheat sheet",
+            "guide",
+            "command line",
+            "tldr"
+        ]
+    },
+    {
+        "name": "Cherrybomb",
+        "url": "https://github.com/blst-security/cherrybomb",
+        "description": "Cherrybomb is an CLI tool written in Rust that helps prevent incorrect code implementation early in development. It works by validating and testing your API using an OpenAPI file. Its main goal is to reduce security errors and ensure your API functions as intended.",
+        "tags": [
+            "API",
+            "linter",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "codespelunker",
+        "url": "https://github.com/boyter/cs",
+        "description": "codespelunker is a command line search tool. Allows you to search over code or text files in the current directory either on the console, via a TUI or HTTP server, using some boolean queries or regular expressions.",
+        "tags": [
+            "searching",
+            "code search",
+            "command line",
+            "source: Go"
+        ]
+    },
+    {
+        "name": "Comcast",
+        "url": "https://github.com/tylertreat/comcast",
+        "description": "Comcast is a tool designed to simulate common network problems like latency, bandwidth restrictions, and dropped/reordered/corrupted packets. Simulating shitty network connections so you can build better systems.",
+        "tags": [
+            "command line",
+            "network"
+        ]
+    },
+    {
+        "name": "Conductor",
+        "url": "https://github.com/conductor-oss/conductor",
+        "description": "Conductor is a platform originally created at Netflix to orchestrate microservices and events.",
+        "tags": [
+            "orchestrator",
+            "source: Java"
+        ]
+    },
+    {
+        "name": "Configu",
+        "url": "https://github.com/configu/configu",
+        "description": "Configu is a simple, modern, and generic standard for managing and collaborating software configurations.",
+        "tags": [
+            "configuration",
+            "source: TypeScript"
+        ]
+    },
+    {
+        "name": "counts",
+        "url": "https://github.com/nnethercote/counts",
+        "description": "counts is a command line tool for ad hoc profiling. It tallies line frequencies within text files and shows the total line count with all the unique lines ordered by frequency and individual and cumulative percentages. counts supports weighting and negative weights are allowed.",
+        "tags": [
+            "command line",
+            "profiler"
+        ]
+    },
+    {
+        "name": "crates",
+        "url": "https://blessed.rs/crates",
+        "description": "This site contains a list of Rust crates. The list aims to help new developers learn where to start, which crates they should use, and which crates to trust. Categories include general purpose, cryptography, networking, and CLIs.",
+        "tags": [
+            "library",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "CRIU",
+        "url": "https://criu.org/Main_Page",
+        "description": "Checkpoint/Restore In Userspace. It can freeze a running container (or an individual application) and checkpoint its state to disk. The data saved can be used to restore the application and run it exactly as it was during the time of the freeze. Using this functionality, application or container live migration, snapshots, remote debugging, and many other things are now possible.",
+        "tags": [
+            "Linux"
+        ]
+    },
+    {
+        "name": "Cryptomator",
+        "url": "https://github.com/cryptomator/cryptomator",
+        "description": "Cryptomator offers multi-platform transparent client-side encryption of your files in the cloud.",
+        "tags": [
+            "encryption",
+            "source: Java"
+        ]
+    },
+    {
+        "name": "csvlens",
+        "url": "https://github.com/YS-L/csvlens",
+        "description": "csvlens is a command line CSV file viewer. It is like less but made for CSV.",
+        "tags": [
+            "terminal",
+            "command line",
+            "CSV",
+            "quering",
+            "searching",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "ctoc",
+        "url": "https://github.com/yaohui-wyh/ctoc",
+        "description": "ctoc is Count Tokens of Code.",
+        "tags": [
+            "command line",
+            "statistics",
+            "source: Go"
+        ]
+    },
+    {
+        "name": "ctop",
+        "url": "https://github.com/bcicen/ctop",
+        "description": "ctop provides a concise and condensed overview of real-time metrics for multiple containers. Top-like interface for container metrics.",
+        "tags": [
+            "containers",
+            "monitoring",
+            "command line",
+            "command line: top"
+        ]
+    },
+    {
+        "name": "Cursor",
+        "url": "https://github.com/getcursor/cursor",
+        "description": "Cursor is an editor made for programming with AI robot.",
+        "tags": [
+            "GUI",
+            "editor",
+            "AI powered"
+        ]
+    },
+    {
+        "name": "daktilo",
+        "url": "https://github.com/orhun/daktilo",
+        "description": "daktilo is a small command-line program that plays typewriter sounds every time you press a key.",
+        "tags": [
+            "command line",
+            "sounds",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "Datadrift",
+        "url": "https://github.com/data-drift/data-drift",
+        "description": "Datadrift is an open-source monitoring and incident management platform to help data teams deliver trusted and reliable metrics.",
+        "tags": [
+            "metrics",
+            "monitoring",
+            "source: TypeScript"
+        ]
+    },
+    {
+        "name": "DataLens",
+        "url": "https://github.com/datalens-tech/datalens",
+        "description": "DataLens is a modern business intelligence and data visualization system.",
+        "tags": [
+            "visualization",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "DBeaver",
+        "url": "https://github.com/dbeaver/dbeaver",
+        "description": "Free multi-platform database tool for developers, SQL programmers, database administrators and analysts.",
+        "tags": [
+            "database",
+            "GUI",
+            "SQL"
+        ]
+    },
+    {
+        "name": "delta",
+        "url": "https://github.com/dandavison/delta",
+        "description": "delta is a syntax-highlighting pager for git, diff, and grep output.",
+        "tags": [
+            "command line",
+            "diff",
+            "command line: diff",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "detect-secrets",
+        "url": "https://github.com/Yelp/detect-secrets",
+        "description": "An enterprise friendly way of detecting and preventing secrets in code.",
+        "tags": [
+            "command line",
+            "detector",
+            "secrets detector",
+            "preventing secrets",
+            "library",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "detrex",
+        "url": "https://github.com/IDEA-Research/detrex",
+        "description": "detrex is an open-source toolbox that provides state-of-the-art Transformer-based detection algorithms.",
+        "tags": [
+            "object detection",
+            "Deep Learning",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "Devbox",
+        "url": "https://github.com/jetpack-io/devbox",
+        "description": "Devbox is a command-line tool for creating isolated shells and containers. It creates a consistent shell for everyone on the team and allows devs to try new tools without polluting their workstations. Devbox can instantly turn applications into containers that can be deployed to any cloud.",
+        "tags": [
+            "isolation",
+            "command line",
+            "container"
+        ]
+    },
+    {
+        "name": "devenv",
+        "url": "https://github.com/cachix/devenv",
+        "description": "Fast, Declarative, Reproducible, and Composable Developer Environments",
+        "tags": [
+            "developer environment",
+            "environment",
+            "management",
+            "environment manager"
+        ]
+    },
+    {
+        "name": "difftastic",
+        "url": "https://github.com/Wilfred/difftastic",
+        "description": "Difftastic is a structural diff tool that compares files based on their syntax.",
+        "tags": [
+            "command line",
+            "diff",
+            "command line: diff"
+        ]
+    },
+    {
+        "name": "diffuzers",
+        "url": "https://github.com/abhishekkrthakur/diffuzers",
+        "description": "diffuzers is a web ui for huggingface diffusers.",
+        "tags": [
+            "Stable Diffusion Model",
+            "image generation"
+        ]
+    },
+    {
+        "name": "dive",
+        "url": "https://github.com/wagoodman/dive",
+        "description": "A tool for exploring a docker image, layer contents, and discovering ways to shrink the size of your Docker/OCI image.",
+        "tags": [
+            "command line",
+            "docker",
+            "container",
+            "source: Go"
+        ]
+    },
+    {
+        "name": "docker-rollout",
+        "url": "https://github.com/Wowu/docker-rollout",
+        "description": "Docker CLI plugin that updates Docker Compose services without downtime.",
+        "tags": [
+            "docker",
+            "docker-compose",
+            "services"
+        ]
+    },
+    {
+        "name": "dprint",
+        "url": "https://github.com/dprint/dprint",
+        "description": "dprint is a pluggable and configurable code formatting platform.",
+        "tags": [
+            "command line",
+            "code formatting",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "dua",
+        "url": "https://github.com/Byron/dua-cli",
+        "description": "dua is a view disk space usage and delete unwanted data, fast.",
+        "tags": [
+            "command line",
+            "disc utility",
+            "command line: du",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "dub",
+        "url": "https://github.com/steven-tey/dub",
+        "description": "Dub is an open-source link management tool for modern marketing teams to create, share, and track short links.",
+        "tags": [
+            "management",
+            "link management",
+            "source: TypeScript"
+        ]
+    },
+    {
+        "name": "ducks",
+        "url": "https://github.com/manimino/ducks",
+        "description": "ducks is a tool that indexes Python objects for fast lookup by their attributes.",
+        "tags": [
+            "data structures",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "duf",
+        "url": "https://github.com/muesli/duf",
+        "description": "Disk Usage/Free Utility (Linux, BSD, macOS & Windows)",
+        "tags": [
+            "command line",
+            "disc utility",
+            "command line: du"
+        ]
+    },
+    {
+        "name": "dust",
+        "url": "https://github.com/bootandy/dust",
+        "description": "dust is a more intuitive version of du in rust.",
+        "tags": [
+            "command line",
+            "disc utility",
+            "command line: du",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "e2b",
+        "url": "https://github.com/e2b-dev/e2b",
+        "description": "Open-source IDE powered by AI agents that do the work for you.",
+        "tags": [
+            "IDE",
+            "Deep Learning",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "EasyOCR",
+        "url": "https://github.com/JaidedAI/EasyOCR",
+        "description": "Ready-to-use OCR with 80+ supported languages and all popular writing scripts including: Latin, Chinese, Arabic, Devanagari, Cyrillic, etc.",
+        "tags": [
+            "OCR",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "eDEX-UI",
+        "url": "https://github.com/GitSquared/edex-ui",
+        "description": "eDEX-UI is a fullscreen, cross-platform terminal emulator and system monitor that looks and feels like a sci-fi computer interface.",
+        "tags": [
+            "terminal emulator"
+        ]
+    },
+    {
+        "name": "EditAnything",
+        "url": "https://github.com/sail-sg/EditAnything",
+        "description": "Edit anything in images powered by segment-anything, ControlNet, StableDiffusion, etc.",
+        "tags": [
+            "Deep Learning",
+            "image generation",
+            "image editing",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "engineering-management",
+        "url": "https://github.com/charlax/engineering-management",
+        "description": "A collection of inspiring resources related to engineering management and tech leadership.",
+        "tags": [
+            "guide",
+            "awesome-list",
+            "engineering"
+        ]
+    },
+    {
+        "name": "envio",
+        "url": "https://github.com/humblepenguinn/envio",
+        "description": "Envio is a command-line tool that simplifies the management of environment variables across multiple profiles. It allows users to easily switch between different configurations and apply them to their current environment.",
+        "tags": [
+            "command line",
+            "environment",
+            "management",
+            "environment manager",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "exa",
+        "url": "https://github.com/ogham/exa",
+        "description": "exa is a modern replacement for ls.",
+        "tags": [
+            "command line",
+            "file listing",
+            "command line: ls",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "extremely-linear",
+        "url": "https://github.com/zegl/extremely-linear",
+        "description": "Extremely Linear Git History. Create meaningful checksums: The first commit is 0000000, then 0000001, then 0000002.",
+        "tags": [
+            "command line",
+            "git"
+        ]
+    },
+    {
+        "name": "Faker.js",
+        "url": "UI [🛈](https://github.com/jofftiquez/faker-js-ui",
+        "description": "Use Faker.js UI to easiliy generate fake (but realistic) data for testing and development using Faker.js.",
+        "tags": [
+            "data generator",
+            "fake data",
+            "source: JavaScript"
+        ]
+    },
+    {
+        "name": "FastDeploy",
+        "url": "https://github.com/PaddlePaddle/FastDeploy",
+        "description": "An Easy-to-use and Fast Deep Learning Model Deployment Toolkit for Cloud Mobile and Edge. Including Image, Video, Text and Audio 20+ main stream scenarios and 150+ SOTA models with end-to-end optimization, multi-platform and multi-framework support.",
+        "tags": [
+            "Deep Learning",
+            "Deep Learning framework",
+            "image",
+            "video",
+            "audio",
+            "text"
+        ]
+    },
+    {
+        "name": "fastprogress",
+        "url": "https://github.com/fastai/fastprogress",
+        "description": "A fast and simple progress bar for Jupyter Notebook and console.",
+        "tags": [
+            "progress bar",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "FauxPilot",
+        "url": "https://github.com/fauxpilot/fauxpilot",
+        "description": "FauxPilot - an open-source GitHub Copilot server.",
+        "tags": [
+            "Deep Learning",
+            "code completion"
+        ]
+    },
+    {
+        "name": "fd",
+        "url": "https://github.com/sharkdp/fd",
+        "description": "fd is a simple, fast and user-friendly alternative to find.",
+        "tags": [
+            "command line",
+            "searching",
+            "file searching",
+            "command line: find",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "fdupes",
+        "url": "https://github.com/adrianlopezroche/fdupes",
+        "description": "fdupes is a program for identifying or deleting duplicate files residing within specified directories.",
+        "tags": [
+            "command line",
+            "deduplication",
+            "unique",
+            "deletion tool",
+            "source: C"
+        ]
+    },
+    {
+        "name": "finch",
+        "url": "https://github.com/runfinch/finch",
+        "description": "The Finch CLI an open source client for container development.",
+        "tags": [
+            "developer environment",
+            "container"
+        ]
+    },
+    {
+        "name": "Fixit",
+        "url": "https://github.com/Instagram/Fixit",
+        "description": "Fixit provides a highly configurable linting framework with support for auto-fixes, custom \"local\" lint rules, and hierarchical configuration, built on LibCST.",
+        "tags": [
+            "Python linter",
+            "linter",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "Fooocus",
+        "url": "https://github.com/lllyasviel/Fooocus",
+        "description": "Fooocus is an image generating software.",
+        "tags": [
+            "Deep Learning",
+            "image generation",
+            "Stable Diffusion Model",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "Frogmouth",
+        "url": "https://github.com/Textualize/frogmouth",
+        "description": "Frogmouth is a Markdown viewer / browser for your terminal, built with Textual.",
+        "tags": [
+            "command line",
+            "Markdown",
+            "viewer",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "Fury",
+        "url": "https://github.com/alipay/fury",
+        "description": "Fury is a blazing fast multi-language serialization framework powered by jit(just-in-time compilation) and zero-copy, providing up to 170x performance and ultimate ease of use.",
+        "tags": [
+            "serialization",
+            "multi-language",
+            "source: Java"
+        ]
+    },
+    {
+        "name": "fzf",
+        "url": "https://github.com/junegunn/fzf",
+        "description": "fzf is a general-purpose command-line fuzzy finder.",
+        "tags": [
+            "command line",
+            "searching",
+            "file searching",
+            "command line: find",
+            "source: Go"
+        ]
+    },
+    {
+        "name": "generate-subtitles",
+        "url": "https://github.com/mayeaux/generate-subtitles",
+        "description": "Generate transcripts for audio and video content with a user friendly UI, powered by Open AI's Whisper with automatic translations powered by LibreTranslate.",
+        "tags": [
+            "automatic transcription",
+            "transcription"
+        ]
+    },
+    {
+        "name": "Gibberish",
+        "url": "Detector [🛈](https://github.com/domanchi/gibberish-detector",
+        "description": "Train a model, and detect gibberish strings with it. Example gibberish: \"ertrjiloifdfyyoiu\".",
+        "tags": [
+            "command line",
+            "data text processing",
+            "library",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "git-bug",
+        "url": "https://github.com/MichaelMure/git-bug",
+        "description": "Distributed, offline-first bug tracker embedded in git, with bridges",
+        "tags": [
+            "git",
+            "bug tracker"
+        ]
+    },
+    {
+        "name": "Gita",
+        "url": "https://github.com/nosarthur/gita",
+        "description": "Gita: a command-line tool to manage multiple git repos",
+        "tags": [
+            "command line",
+            "git",
+            "repository",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "GitButler",
+        "url": "https://github.com/gitbutlerapp/gitbutler",
+        "description": "GitButler is a git client that lets you work on multiple branches at the same time.",
+        "tags": [
+            "git",
+            "git GUI",
+            "source: TypeScript"
+        ]
+    },
+    {
+        "name": "GitID",
+        "url": "https://github.com/InderdeepBajwa/gitid",
+        "description": "GitID is a convenient command-line interface (CLI) that allows you seamlessly manage and switch between multiple git SSH identities on a single user account.",
+        "tags": [
+            "command line",
+            "management",
+            "ssh",
+            "source: TypeScript"
+        ]
+    },
+    {
+        "name": "gitty",
+        "url": "https://github.com/muesli/gitty",
+        "description": "gitty is a smart little CLI helper for git projects, that shows you all the relevant issues, pull requests and changes at a quick glance, right on the command-line. It currently supports the GitHub, GitLab, and Gitea APIs.",
+        "tags": [
+            "command line",
+            "git"
+        ]
+    },
+    {
+        "name": "gitui",
+        "url": "https://github.com/extrawurst/gitui",
+        "description": "GitUI provides you with the comfort of a git GUI but right in your terminal.",
+        "tags": [
+            "command line",
+            "git",
+            "git GUI",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "Glances",
+        "url": "https://github.com/nicolargo/glances) [🖼️](app/glances/REAMDE.md",
+        "description": "Glances is a cross-platform monitoring tool which aims to present a large amount of monitoring information through a curses or Web based interface.",
+        "tags": [
+            "monitoring",
+            "cross-platform"
+        ]
+    },
+    {
+        "name": "GlotLID",
+        "url": "https://github.com/cisnlp/GlotLID",
+        "description": "GlotLID is an open-source language identification model with support for more than 1600 languages.",
+        "tags": [
+            "language identification",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "Glow",
+        "url": "https://github.com/charmbracelet/glow",
+        "description": "Render markdown on the CLI, with pizzazz!",
+        "tags": [
+            "command line",
+            "Markdown",
+            "editor"
+        ]
+    },
+    {
+        "name": "GQL",
+        "url": "https://github.com/AmrDeveloper/GQL",
+        "description": "GQL is a query language with a syntax very similar to SQL with a tiny engine to perform queries on .git files instance of database files, the engine executes the query on the fly without the need to create database files or convert .git files into any other format, note that all Keywords in GQL are case-insensitive similar to SQL.",
+        "tags": [
+            "terminal",
+            "command line",
+            "git",
+            "quering",
+            "searching",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "grep",
+        "url": "https://www.gnu.org/software/grep",
+        "description": "Grep searches one or more input files for lines containing a match to a specified pattern.",
+        "tags": [
+            "regular expression",
+            "regex",
+            "searching",
+            "pattern search",
+            "library",
+            "command line",
+            "command line: grep",
+            "source: C"
+        ]
+    },
+    {
+        "name": "grex",
+        "url": "https://github.com/pemistahl/grex",
+        "description": "grex is a command-line tool and Rust library for generating regular expressions from user-provided test cases.",
+        "tags": [
+            "command line",
+            "regular expression",
+            "regex",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "gyroflow",
+        "url": "https://github.com/gyroflow/gyroflow",
+        "description": "Gyroflow is an application that can stabilize your video by using motion data from a gyroscope and optionally an accelerometer.",
+        "tags": [
+            "video"
+        ]
+    },
+    {
+        "name": "halp",
+        "url": "https://github.com/orhun/halp",
+        "description": "A CLI tool to get help with CLI tools.",
+        "tags": [
+            "help message",
+            "command line",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "hamilton",
+        "url": "https://github.com/dagworks-inc/hamilton",
+        "description": "A scalable general purpose micro-framework for defining dataflows in Python.",
+        "tags": [
+            "dataflow",
+            "library",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "hexyl",
+        "url": "https://github.com/sharkdp/hexyl",
+        "description": "hexyl is a simple hex viewer for the terminal.",
+        "tags": [
+            "command line",
+            "hex viewer",
+            "command line: hexdump",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "highway",
+        "url": "https://github.com/google/highway",
+        "description": "Highway is a C++ library that provides portable SIMD/vector intrinsics - performance-portable, length-agnostic SIMD with runtime dispatch.",
+        "tags": [
+            "library",
+            "source: C++"
+        ]
+    },
+    {
+        "name": "hishtory",
+        "url": "https://github.com/ddworken/hishtory",
+        "description": "Your shell history: synced, queryable, and in context",
+        "tags": [
+            "shell",
+            "history"
+        ]
+    },
+    {
+        "name": "htop",
+        "url": "https://github.com/htop-dev/htop",
+        "description": "htop - an interactive process viewer",
+        "tags": [
+            "monitoring",
+            "command line",
+            "command line: top"
+        ]
+    },
+    {
+        "name": "huh",
+        "url": "https://github.com/charmbracelet/huh",
+        "description": "Huh is a simple, powerful library for forms and prompts in the terminal.",
+        "tags": [
+            "forms",
+            "terminal",
+            "command line",
+            "source: Go"
+        ]
+    },
+    {
+        "name": "huniq",
+        "url": "https://github.com/koraa/huniq",
+        "description": "huniq is a command line utility to remove duplicates from the given input.",
+        "tags": [
+            "command line",
+            "deduplication",
+            "unique",
+            "command line: uniq",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "hurl",
+        "url": "https://github.com/Orange-OpenSource/hurl",
+        "description": "Hurl is a command line tool that runs HTTP requests defined in a simple plain text format. It can be used for fetching data and testing HTTP sessions. Hurl can perform requests, capture values, and evaluate queries on headers and body responses.",
+        "tags": [
+            "command line",
+            "network"
+        ]
+    },
+    {
+        "name": "HyperDX",
+        "url": "https://github.com/hyperdxio/hyperdx",
+        "description": "HyperDX helps engineers figure out why production is broken faster by centralizing and correlating logs, metrics, traces, exceptions and session replays in one place.",
+        "tags": [
+            "GUI",
+            "logs",
+            "metrics",
+            "source: TypeScript"
+        ]
+    },
+    {
+        "name": "hyperfine",
+        "url": "https://github.com/sharkdp/hyperfine",
+        "description": "hyperfine is a command-line benchmarking tool.",
+        "tags": [
+            "command line",
+            "benchmarking",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "IceCream",
+        "url": "https://github.com/gruns/icecream",
+        "description": "IceCream — Never use print() to debug again",
+        "tags": [
+            "logs",
+            "debugging",
+            "library",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "Iconbuddy",
+        "url": "https://iconbuddy.app/",
+        "description": "Download, Customize, Edit and Personalize. Over 180k+ open source icons.",
+        "tags": [
+            "website",
+            "icons"
+        ]
+    },
+    {
+        "name": "IGL",
+        "url": "https://github.com/facebook/igl",
+        "description": "Intermediate Graphics Library (IGL) is a cross-platform library that commands the GPU. It provides a single low-level cross-platform interface on top of various graphics APIs (e.g. OpenGL, Metal and Vulkan).",
+        "tags": [
+            "cross-platform",
+            "GPU",
+            "library",
+            "source: C++"
+        ]
+    },
+    {
+        "name": "imagededup",
+        "url": "https://github.com/idealo/imagededup",
+        "description": "imagededup is a python package that simplifies the task of finding exact and near duplicates in an image collection.",
+        "tags": [
+            "deduplication",
+            "image",
+            "unique"
+        ]
+    },
+    {
+        "name": "Infisical",
+        "url": "https://github.com/Infisical/infisical",
+        "description": "Infisical is an open-source, E2EE tool to sync environment variables across your team and infrastructure.",
+        "tags": [
+            "shell",
+            "environment variables"
+        ]
+    },
+    {
+        "name": "Infisical",
+        "url": "https://github.com/Infisical/infisical",
+        "description": "Infisical is an open source, end-to-end encrypted secret management platform that teams use to centralize their secrets like API keys, database credentials, and configurations.",
+        "tags": [
+            "management",
+            "secret management",
+            "source: TypeScript"
+        ]
+    },
+    {
+        "name": "Insanely",
+        "url": "Fast Whisper [🛈](https://github.com/Vaibhavs10/insanely-fast-whisper",
+        "description": "Insanely Fast Whisper transcribe 300 minutes (5 hours) of audio in less than 10 minutes.",
+        "tags": [
+            "automatic transcription",
+            "transcription",
+            "speech recognition",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "inshellisense",
+        "url": "https://github.com/microsoft/inshellisense",
+        "description": "inshellisense provides IDE style autocomplete for shells. It's a terminal native runtime for autocomplete which has support for 600+ command line tools.",
+        "tags": [
+            "terminal",
+            "autocomplete",
+            "source: TypeScript"
+        ]
+    },
+    {
+        "name": "Insomnia",
+        "url": "https://insomnia.rest/",
+        "description": "Kong Insomnia is a collaborative open source API development platform that makes it easy to build high-quality APIs — without the bloat and clutter of other tools.",
+        "tags": [
+            "GUI",
+            "testing API",
+            "API development platform"
+        ]
+    },
+    {
+        "name": "InvokeAI",
+        "url": "https://github.com/invoke-ai/InvokeAI",
+        "description": "This version of Stable Diffusion features a slick WebGUI, an interactive command-line script that combines text2img and img2img functionality in a \"dream bot\" style interface, and multiple features and other enhancements. For more info, see the website link below.",
+        "tags": [
+            "Deep Learning",
+            "image generation",
+            "image editing",
+            "Stable Diffusion Model",
+            "platform",
+            "source: TypeScript"
+        ]
+    },
+    {
+        "name": "iotop",
+        "url": "https://repo.or.cz/w/iotop.git",
+        "description": "A top utility for IO",
+        "tags": [
+            "monitoring",
+            "command line",
+            "disc utility"
+        ]
+    },
+    {
+        "name": "IPyflow",
+        "url": "https://github.com/ipyflow/ipyflow",
+        "description": "ipyflow is a next-generation Python kernel for Jupyter and other notebook interfaces that tracks dataflow relationships between symbols and cells during a given interactive session.",
+        "tags": [
+            "Jupyter",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "Ivy",
+        "url": "https://github.com/unifyai/ivy",
+        "description": "Ivy is both an ML transpiler and a framework, currently supporting JAX, TensorFlow, PyTorch and Numpy.",
+        "tags": [
+            "transpiler",
+            "Machine Learning",
+            "Machine Learning transpiler",
+            "framework",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "jaq",
+        "url": "https://github.com/01mf02/jaq",
+        "description": "jaq is a clone of the JSON data processing tool jq. jaq aims to support a large subset of jq's syntax and operations.",
+        "tags": [
+            "terminal",
+            "command line",
+            "JSON",
+            "content extractor",
+            "data formatter",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "jc",
+        "url": "https://github.com/kellyjonbrazil/jc",
+        "description": "CLI tool and python library that converts the output of popular command-line tools, file-types, and common strings to JSON, YAML, or Dictionaries. This allows piping of output to tools like jq and simplifying automation scripts.",
+        "tags": [
+            "command line",
+            "JSON",
+            "YAML",
+            "content extractor",
+            "data formatter"
+        ]
+    },
+    {
+        "name": "jnv",
+        "url": "https://github.com/ynqa/jnv",
+        "description": "jnv is designed for navigating JSON, offering an interactive JSON viewer and jq filter editor.",
+        "tags": [
+            "command line",
+            "JSON",
+            "content extractor",
+            "filter editor",
+            "interactive",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "joshuto",
+        "url": "https://github.com/kamiyaa/joshuto",
+        "description": "ranger-like terminal file manager written in Rust.",
+        "tags": [
+            "file manager",
+            "command line: ranger",
+            "command line: mc",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "jq",
+        "url": "https://github.com/stedolan/jq",
+        "description": "jq is a lightweight and flexible command-line JSON processor.",
+        "tags": [
+            "command line",
+            "JSON",
+            "content extractor",
+            "data formatter",
+            "filter editor",
+            "source: C"
+        ]
+    },
+    {
+        "name": "JunoDB",
+        "url": "https://github.com/paypal/junodb",
+        "description": "JunoDB is PayPal's home-grown secure, consistent and highly available key-value store providing low, single digit millisecond, latency at any scale.",
+        "tags": [
+            "database",
+            "key-value store",
+            "source: Go"
+        ]
+    },
+    {
+        "name": "Jupyter",
+        "url": "AI [🛈](https://github.com/jupyterlab/jupyter-ai",
+        "description": "Jupyter AI connects generative AI with Jupyter notebooks.",
+        "tags": [
+            "Deep Learning",
+            "AI personal assistant",
+            "Jupyter",
+            "Notebook",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "jupyter_contrib_nbextensions",
+        "url": "https://github.com/ipython-contrib/jupyter_contrib_nbextensions",
+        "description": "A collection of various notebook extensions for Jupyter.",
+        "tags": [
+            "Jupyter",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "JupyterLite",
+        "url": "https://github.com/jupyterlite/jupyterlite",
+        "description": "JupyterLite is a JupyterLab distribution that runs entirely in the browser built from the ground-up using JupyterLab components and extensions.",
+        "tags": [
+            "Jupyter",
+            "Notebook",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "just",
+        "url": "https://github.com/casey/just",
+        "description": "just is a handy way to save and run project-specific commands. Commands, called recipes, are stored in a file called `justfile` with syntax inspired by `make`.",
+        "tags": [
+            "makefile",
+            "command line"
+        ]
+    },
+    {
+        "name": "Kangas",
+        "url": "https://github.com/comet-ml/kangas",
+        "description": "Kangas is a tool for exploring, analyzing, and visualizing large-scale multimedia data.",
+        "tags": [
+            "library",
+            "fuzzy search",
+            "source: JavaScript"
+        ]
+    },
+    {
+        "name": "katana",
+        "url": "https://github.com/projectdiscovery/katana",
+        "description": "A next-generation crawling and spidering framework",
+        "tags": [
+            "web scraper"
+        ]
+    },
+    {
+        "name": "KDash",
+        "url": "https://github.com/kdash-rs/kdash",
+        "description": "KDash is a simple terminal dashboard for Kubernetes built with Rust.",
+        "tags": [
+            "kubernetes",
+            "dashboard",
+            "command line",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "Keep",
+        "url": "https://github.com/keephq/keep",
+        "description": "Keep is a simple CLI tool that contains everything you need to start creating Alerts.",
+        "tags": [
+            "command line",
+            "alerts",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "Khoj",
+        "url": "https://github.com/khoj-ai/khoj",
+        "description": "Khoj is a desktop application to search and chat with your notes, documents and images.",
+        "tags": [
+            "Deep Learning",
+            "AI personal assistant",
+            "chat",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "killport",
+        "url": "https://github.com/jkfran/killport",
+        "description": "killport is a command-line utility for killing processes listening on specific ports. It's designed to be simple, fast, and effective. The tool is built with Rust and works on Linux and macOS.",
+        "tags": [
+            "command line",
+            "killing proces",
+            "command line: kill",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "Label",
+        "url": "Studio [🛈](https://github.com/heartexlabs/label-studio/",
+        "description": "Label Studio is an open source data labeling tool. It lets you label data types like audio, text, images, videos, and time series with a simple and straightforward UI and export to various model formats. It can be used to prepare raw data or improve existing training data to get more accurate ML models.",
+        "tags": [
+            "data labeling",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "Lanarky",
+        "url": "https://github.com/ajndkr/lanarky",
+        "description": "Lanarky is an open-source framework to deploy LLM applications in production. It is built on top of FastAPI and comes with batteries included.",
+        "tags": [
+            "deploy",
+            "Language Model",
+            "Deep Learning",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "Lance",
+        "url": "https://github.com/lancedb/lance",
+        "description": "Lance is a modern columnar data format that is optimized for ML workflows and datasets. Convert from parquet in 2-lines of code for 100x faster random access, a vector index, data versioning, and more. Compatible with pandas, duckdb, polars, pyarrow, with more integrations on the way.",
+        "tags": [
+            "data format",
+            "Natural Language Processing",
+            "NLP",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "LibreTranslate",
+        "url": "https://github.com/LibreTranslate/LibreTranslate",
+        "description": "Free and Open Source Machine Translation API. 100% self-hosted, offline capable and easy to setup.",
+        "tags": [
+            "Machine Translation"
+        ]
+    },
+    {
+        "name": "LineSelect",
+        "url": "https://github.com/chfritz/lineselect",
+        "description": "A shell utility to interactively select lines from stdin and output them to stdout. This allows you to effectively pause the pipeline to make a manual selection before the pipeline, or other composed command, continues.",
+        "tags": [
+            "command line",
+            "pipeline",
+            "interactive",
+            "source: JavaScript"
+        ]
+    },
+    {
+        "name": "llama",
+        "url": "https://github.com/antonmedv/llama",
+        "description": "Llama is a terminal file manager. It allows for quick navigation with fuzzy searching. Llama is very simple and minimalistic.",
+        "tags": [
+            "terminal",
+            "file manager"
+        ]
+    },
+    {
+        "name": "llm",
+        "url": "https://github.com/rustformers/llm",
+        "description": "llm is a Rust ecosystem of libraries for running inference on large language models, inspired by llama.cpp.",
+        "tags": [
+            "Deep Learning",
+            "Deep Learning framework",
+            "Language Model",
+            "framework",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "Local",
+        "url": "AI Stack [🛈](https://github.com/ykhli/local-ai-stack",
+        "description": "AI Getting Started is a starter kit to build local-only AI apps that cost $0 to run -- starting with document Q&A.",
+        "tags": [
+            "Deep Learning",
+            "platform",
+            "source: TypeScript"
+        ]
+    },
+    {
+        "name": "Local",
+        "url": "AI Stack [🛈](https://github.com/a16z-infra/ai-getting-started",
+        "description": "AI Getting Started is a Javascript AI getting started stack for weekend projects, including image/text models, vector stores, auth, and deployment configs.",
+        "tags": [
+            "Deep Learning",
+            "platform",
+            "source: TypeScript"
+        ]
+    },
+    {
+        "name": "LotusDB",
+        "url": "https://github.com/lotusdblabs/lotusdb",
+        "description": "LotusDB is the most advanced key-value store written in Go, extremely fast, compatible with LSM tree and B+ tree, and optimization of badger and bbolt.",
+        "tags": [
+            "database",
+            "key-value store",
+            "source: Go"
+        ]
+    },
+    {
+        "name": "lsd",
+        "url": "https://github.com/Peltoche/lsd",
+        "description": "lsd is a next gen ls command.",
+        "tags": [
+            "command line",
+            "file listing",
+            "command line: ls",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "lucky-commit",
+        "url": "https://github.com/not-an-aardvark/lucky-commit",
+        "description": "Customize your git commit hashes!",
+        "tags": [
+            "git",
+            "customizing"
+        ]
+    },
+    {
+        "name": "Lynx",
+        "url": "https://lynx.invisible-island.net",
+        "description": "Lynx is the text web browser.",
+        "tags": [
+            "command line",
+            "web browser",
+            "source: C"
+        ]
+    },
+    {
+        "name": "magika",
+        "url": "https://github.com/google/magika",
+        "description": "Magika is a novel AI powered file type detection tool that relies on the recent advance of deep learning to provide accurate detection.",
+        "tags": [
+            "command line",
+            "file detection",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "Mailpit",
+        "url": "https://github.com/axllent/mailpit",
+        "description": "Mailpit is a multi-platform email testing tool & API for developers.",
+        "tags": [
+            "email",
+            "SMTP server",
+            "source: Go"
+        ]
+    },
+    {
+        "name": "matplotlib-gallery",
+        "url": "https://github.com/rasbt/matplotlib-gallery",
+        "description": "This repository is a collection of different matplotlib plots in IPython notebooks that I needed for my data visualizations.",
+        "tags": [
+            "matplot",
+            "library",
+            "visualization",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "mc",
+        "url": "https://github.com/MidnightCommander/mc",
+        "description": "GNU Midnight Commander is a visual file manager, licensed under GNU General Public License and therefore qualifies as Free Software. It's a feature rich full-screen text mode application that allows you to copy, move and delete files and whole directory trees, search for files and run commands in the subshell. Internal viewer and editor are included.",
+        "tags": [
+            "terminal",
+            "file manager",
+            "command line: mc"
+        ]
+    },
+    {
+        "name": "Mercury",
+        "url": "https://github.com/mljar/mercury",
+        "description": "Mercury allows you to add interactive widgets in Python notebooks, so you can share notebooks as web applications. Forget about rewriting notebooks to web frameworks just to share your results. Mercury offers a set of widgets with simple re-execution of cells.",
+        "tags": [
+            "Jupyter",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "Mergify",
+        "url": "https://mergify.com",
+        "description": "Mergify to automate pull requests + secure the code merge using a merge queue.",
+        "tags": [
+            "automate pull requests",
+            "pull requests"
+        ]
+    },
+    {
+        "name": "Metaflow",
+        "url": "https://github.com/Netflix/metaflow",
+        "description": "Metaflow is a human-friendly Python/R library that helps scientists and engineers build and manage real-life data science projects.",
+        "tags": [
+            "library",
+            "real-time workflow",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "Milvus",
+        "url": "https://github.com/milvus-io/milvus",
+        "description": "Milvus is an open-source vector database built to power embedding similarity search and AI applications. It makes unstructured data search more accessible and provides a consistent user experience regardless of the deployment environment. All components in Milvus are stateless to enhance elasticity and flexibility.",
+        "tags": [
+            "platform",
+            "image",
+            "unstructured data",
+            "searching",
+            "database"
+        ]
+    },
+    {
+        "name": "MongoDB",
+        "url": "https://github.com/mongodb/mongo",
+        "description": "MongoDB is a flexible and scalable database software that supports transactional, searching, analytics, and mobile use cases with a common query interface and a document data model.",
+        "tags": [
+            "database",
+            "source: C++"
+        ]
+    },
+    {
+        "name": "Muse",
+        "url": "https://github.com/Lightning-AI/stable-diffusion-deploy",
+        "description": "Open source, stable-diffusion production server to show how to deploy diffusion models in a real production environment with: load-balancing, gpu-inference, performance-testing, micro-services orchestration and more.",
+        "tags": [
+            "Stable Diffusion Model",
+            "image generation"
+        ]
+    },
+    {
+        "name": "MySQL",
+        "url": "https://github.com/mysql/mysql-server",
+        "description": "MySQL Server, the world's most popular open source database, and MySQL Cluster, a real-time, open source transactional database.",
+        "tags": [
+            "database",
+            "source: C++"
+        ]
+    },
+    {
+        "name": "nat",
+        "url": "https://github.com/willdoescode/nat",
+        "description": "nat is an alternative of ls command line with useful info and a splash of color.",
+        "tags": [
+            "command line",
+            "file listing",
+            "command line: ls",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "navi",
+        "url": "https://github.com/denisidoro/navi",
+        "description": "navi is an interactive cheatsheet tool for the command-line.",
+        "tags": [
+            "command line",
+            "tldr",
+            "cheat sheet",
+            "guide",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "nerfstudio",
+        "url": "https://docs.nerf.studio/en/latest/",
+        "description": "Nerfstudio provides a simple API that allows for a simplified end-to-end process of creating, training, and visualizing NeRFs",
+        "tags": [
+            "video",
+            "NeRFs"
+        ]
+    },
+    {
+        "name": "Newspaper3k",
+        "url": "https://github.com/codelucas/newspaper/",
+        "description": "Newspaper3k: Article scraping & curation",
+        "tags": [
+            "web scraper"
+        ]
+    },
+    {
+        "name": "nvtop",
+        "url": "https://github.com/Syllo/nvtop",
+        "description": "AMD and NVIDIA GPUs htop like monitoring tool",
+        "tags": [
+            "monitoring",
+            "command line",
+            "GPU"
+        ]
+    },
+    {
+        "name": "oniguruma",
+        "url": "https://github.com/kkos/oniguruma",
+        "description": "Oniguruma is a modern and flexible regular expressions library.",
+        "tags": [
+            "regular expression",
+            "regex",
+            "library",
+            "source: C"
+        ]
+    },
+    {
+        "name": "OpenDAN",
+        "url": "https://github.com/fiatrete/OpenDAN-Personal-AI-OS",
+        "description": "OpenDAN is an open source Personal AI OS , which consolidates various AI modules in one place for your personal use.",
+        "tags": [
+            "Deep Learning",
+            "AI personal assistant",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "Opendream",
+        "url": "https://github.com/varunshenoy/opendream",
+        "description": "Opendream brings much needed and familiar features, such as layering, non-destructive editing, portability, and easy-to-write extensions, to your Stable Diffusion workflows.",
+        "tags": [
+            "Deep Learning",
+            "image generation",
+            "image editing",
+            "Stable Diffusion Model",
+            "source: JavaScript"
+        ]
+    },
+    {
+        "name": "OpenObserve",
+        "url": "https://github.com/openobserve/openobserve",
+        "description": "OpenObserve is a cloud native observability platform built specifically for logs, metrics, traces and analytics designed to work at petabyte scale.",
+        "tags": [
+            "logs",
+            "metrics",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "OSV-Scanner",
+        "url": "https://github.com/google/osv-scanner",
+        "description": "Vulnerability scanner written in Go which uses the data provided by https://osv.dev",
+        "tags": [
+            "security",
+            "vulnerability scanner"
+        ]
+    },
+    {
+        "name": "oterm",
+        "url": "https://github.com/ggozad/oterm",
+        "description": "otem is the text-based terminal client for Ollama.",
+        "tags": [
+            "command line",
+            "Deep Learning",
+            "Language Model",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "Overlay",
+        "url": "https://github.com/os-scar/overlay",
+        "description": "Overlay is a browser extension that helps developers evaluate open source packages before picking them. It gathers data from various sources, such as Snyk Advisor, Debricked, Socket.dev, and Deps.dev, and displays them on the package pages of popular registries like npm, PyPI, and Go.",
+        "tags": [
+            "web-browser extension",
+            "security",
+            "source: JavaScript"
+        ]
+    },
+    {
+        "name": "pathway",
+        "url": "https://github.com/pathwaycom/pathway",
+        "description": "Pathway is an open framework for high-throughput and low-latency real-time data processing.",
+        "tags": [
+            "data processing",
+            "library",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "Pelikan",
+        "url": "https://github.com/twitter/pelikan",
+        "description": "Pelikan is framework for developing cache services.",
+        "tags": [
+            "caching"
+        ]
+    },
+    {
+        "name": "pgAdmin",
+        "url": "https://github.com/pgadmin-org/pgadmin4",
+        "description": "pgAdmin is the most popular and feature rich Open Source administration and development platform for PostgreSQL, the most advanced Open Source database in the world.",
+        "tags": [
+            "database",
+            "GUI",
+            "SQL"
+        ]
+    },
+    {
+        "name": "pgmodeler",
+        "url": "https://github.com/pgmodeler/pgmodeler",
+        "description": "Open-source data modeling tool designed for PostgreSQL. No more typing DDL commands. Let pgModeler do the work for you!",
+        "tags": [
+            "database",
+            "GUI",
+            "SQL"
+        ]
+    },
+    {
+        "name": "PhotoFiremark",
+        "url": "https://github.com/avestura/PhotoFiremark",
+        "description": "PhotoFiremark hides a photo in another photo",
+        "tags": [
+            "image",
+            "hide",
+            "source: C#"
+        ]
+    },
+    {
+        "name": "PINCE",
+        "url": "https://github.com/korcankaraokcu/PINCE",
+        "description": "PINCE is a front-end/reverse engineering tool for the GNU Project Debugger (GDB), focused on games.",
+        "tags": [
+            "reverse engineering"
+        ]
+    },
+    {
+        "name": "pip-tools",
+        "url": "https://github.com/jazzband/pip-tools",
+        "description": "pip-tools ia a set of command line tools to help you keep your pip-based packages fresh, even when you've pinned them.",
+        "tags": [
+            "package installer",
+            "resolver",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "pipeless",
+        "url": "https://github.com/pipeless-ai/pipeless",
+        "description": "Pipeless is an open-source computer vision framework to create and deploy applications without the complexity of building and maintaining multimedia pipelines.",
+        "tags": [
+            "Machine Learning",
+            "computer vision",
+            "framework",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "pipes.sh",
+        "url": "https://github.com/pipeseroni/pipes.sh",
+        "description": "Animated pipes terminal screensaver.",
+        "tags": [
+            "shell script",
+            "fun"
+        ]
+    },
+    {
+        "name": "pixi",
+        "url": "https://github.com/prefix-dev/pixi",
+        "description": "pixi is a cross-platform, multi-language package manager and workflow tool build on the shoulders of the conda ecosystem.",
+        "tags": [
+            "package manager",
+            "cross-platform",
+            "command line",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "PL/Rust",
+        "url": "https://github.com/tcdi/plrust",
+        "description": "PL/Rust is a loadable procedural language that enables writing PostgreSQL functions in the Rust programming language. These functions are compiled to native machine code. Unlike other procedural languages, PL/Rust functions are not interpreted.",
+        "tags": [
+            "library",
+            "database",
+            "PostgreSQL",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "pls",
+        "url": "https://github.com/dhruvkb/pls",
+        "description": "pls is a pretty and powerful ls. It works in a similar way to ls, but it adds many more developer-friendly features, such as node filters, file sorting based on attributes, a details view, and more. pls is a simple tool for looking at the contents of directories and not a complete replacement for ls.",
+        "tags": [
+            "command line",
+            "file listing",
+            "command line: ls"
+        ]
+    },
+    {
+        "name": "Pop",
+        "url": "https://github.com/charmbracelet/pop",
+        "description": "Pop allows to send emails from your terminal.",
+        "tags": [
+            "command line",
+            "email",
+            "send email",
+            "source: Go"
+        ]
+    },
+    {
+        "name": "PostgreSQL",
+        "url": "https://github.com/postgres/postgres",
+        "description": "PostgreSQL is an advanced object-relational database management system that supports an extended subset of the SQL standard, including transactions, foreign keys, subqueries, triggers, user-defined types and functions.",
+        "tags": [
+            "database",
+            "source: C"
+        ]
+    },
+    {
+        "name": "Postman",
+        "url": "https://www.postman.com/",
+        "description": "Postman is an API platform for building and using APIs. Postman simplifies each step of the API lifecycle and streamlines collaboration so you can create better APIs-faster.",
+        "tags": [
+            "GUI",
+            "testing API",
+            "API development platform"
+        ]
+    },
+    {
+        "name": "process-compose",
+        "url": "https://github.com/F1bonacc1/process-compose",
+        "description": "Process Compose is a simple and flexible scheduler and orchestrator to manage non-containerized applications.",
+        "tags": [
+            "terminal",
+            "command line",
+            "job",
+            "scheduler",
+            "orchestrator",
+            "source: Go"
+        ]
+    },
+    {
+        "name": "procs",
+        "url": "https://github.com/dalance/procs",
+        "description": "procs is a replacement for ps written in Rust.",
+        "tags": [
+            "command line",
+            "monitoring",
+            "command line: ps",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "projectM",
+        "url": "https://github.com/projectM-visualizer/projectm",
+        "description": "projectM - The most advanced open-source music visualizer",
+        "tags": [
+            "audio",
+            "visualizer"
+        ]
+    },
+    {
+        "name": "PuDB",
+        "url": "https://github.com/inducer/pudb",
+        "description": "PuDB: a console-based visual debugger for Python.",
+        "tags": [
+            "debugger",
+            "debugging",
+            "command line",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "pueue",
+        "url": "https://github.com/Nukesor/pueue",
+        "description": "Pueue is a command-line task management tool for sequential and parallel execution of long-running tasks.",
+        "tags": [
+            "parallel",
+            "queue",
+            "command line",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "Puff",
+        "url": "https://github.com/hansonkd/puff",
+        "description": "Puff is a 'deep stack' for Python that tries to minimize the barrier between Python and Rust. It gives Rust its own layer so that developers can build tools in Rust that work together without having to re-enter Python. Puff allows developers to build runtimes using standard CPython and extend them with Rust.",
+        "tags": [
+            "source: Rust",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "PyApp",
+        "url": "https://github.com/ofek/pyapp",
+        "description": "PyApp is a wrapper for Python applications that bootstrap themselves at runtime.",
+        "tags": [
+            "Python wrapper",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "PyGWalker",
+        "url": "https://github.com/Kanaries/pygwalker",
+        "description": "PyGWalker: A Python Library for Exploratory Data Analysis with Visualization. Turn your pandas dataframe into a Tableau-style User Interface for visual analysis.",
+        "tags": [
+            "library",
+            "Jupyter",
+            "visualization",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "pypipe",
+        "url": "https://github.com/bugen/pypipe",
+        "description": "pypipe is a Python command-line tool for pipeline processing.",
+        "tags": [
+            "command line",
+            "content extractor",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "PythonMonkey",
+        "url": "https://github.com/Distributive-Network/PythonMonkey",
+        "description": "PythonMonkey is a Mozilla SpiderMonkey JavaScript engine embedded into the Python VM, using the Python engine to provide the JS host environment.",
+        "tags": [
+            "JavaScript engine",
+            "source: C++"
+        ]
+    },
+    {
+        "name": "q",
+        "url": "https://github.com/harelba/q",
+        "description": "q - Run SQL directly on delimited files and multi-file sqlite databases",
+        "tags": [
+            "command line",
+            "database",
+            "sqlite",
+            "SQL"
+        ]
+    },
+    {
+        "name": "qsv",
+        "url": "https://github.com/jqnatividad/qsv",
+        "description": "qsv is a command line program for querying, indexing, slicing, analyzing, filtering, enriching, transforming, sorting, validating & joining CSV files.",
+        "tags": [
+            "terminal",
+            "command line",
+            "CSV",
+            "quering",
+            "searching",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "ranger",
+        "url": "https://github.com/ranger/ranger",
+        "description": "ranger is a console file manager with VI key bindings",
+        "tags": [
+            "file manager",
+            "command line: ranger",
+            "command line: mc"
+        ]
+    },
+    {
+        "name": "rapidgzip",
+        "url": "https://github.com/mxmlnkn/rapidgzip",
+        "description": "Rapidgzip: Parallelized Decompression of Gzip Files with Support for Fast Random Access.",
+        "tags": [
+            "compression",
+            "decompression",
+            "command line",
+            "source: C++"
+        ]
+    },
+    {
+        "name": "RecipeUI",
+        "url": "https://github.com/RecipeUI/RecipeUI",
+        "description": "RecipeUI is the open source Postman alternative with type safety built in. Catch your API requests before they fail with TypeScript and autocomplete. Enhance your workflows with auto-generated docs and reusable API templates.",
+        "tags": [
+            "GUI",
+            "testing API",
+            "API development platform"
+        ]
+    },
+    {
+        "name": "refurb",
+        "url": "https://github.com/dosisod/refurb",
+        "description": "A tool for refurbishing and modernizing Python codebases.",
+        "tags": [
+            "command line",
+            "linter",
+            "source: Python linter"
+        ]
+    },
+    {
+        "name": "Reverie",
+        "url": "https://github.com/facebookexperimental/reverie",
+        "description": "Reverie is a user space system-call interception framework for Linux. It can be used to intercept, modify, or elide a syscall before the kernel executes it. In essence, Reverie sits at the boundary between user space and kernel space.",
+        "tags": [
+            "Linux",
+            "system call",
+            "library",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "rip",
+        "url": "https://github.com/nivekuil/rip",
+        "description": "rip is a command-line deletion tool focused on safety, ergonomics, and performance.",
+        "tags": [
+            "command line",
+            "deletion tool",
+            "command line: rm",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "ripgrep",
+        "url": "https://github.com/BurntSushi/ripgrep",
+        "description": "ripgrep is a line-oriented search tool that recursively searches the current directory for a regex pattern.",
+        "tags": [
+            "regular expression",
+            "regex",
+            "searching",
+            "pattern search",
+            "library",
+            "command line",
+            "command line: grep",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "rtx",
+        "url": "https://github.com/jdxcode/rtx",
+        "description": "rtx is a tool for managing programming language and tool versions.",
+        "tags": [
+            "command line",
+            "environment",
+            "management",
+            "environment manager",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "ruff",
+        "url": "https://github.com/charliermarsh/ruff",
+        "description": "ruff is an extremely fast Python linter written in Rust.",
+        "tags": [
+            "Python linter",
+            "linter",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "runiq",
+        "url": "https://github.com/whitfin/runiq",
+        "description": "An efficient way to filter duplicate lines from input, à la uniq.",
+        "tags": [
+            "command line",
+            "deduplication",
+            "unique",
+            "command line: uniq",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "rye",
+        "url": "https://github.com/mitsuhiko/rye",
+        "description": "Rye is Armin's personal one-stop-shop for all his Python needs. It installs and manages Python installations, manages pyproject.toml files, installs and uninstalls dependencies, manages virtualenvs behind the scenes. It supports monorepos and global tool installations.",
+        "tags": [
+            "command line",
+            "developer environment",
+            "environment manager",
+            "Python interpreter",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "Sapling",
+        "url": "https://github.com/facebook/sapling",
+        "description": "A Scalable, User-Friendly Source Control System.",
+        "tags": [
+            "git",
+            "source control system"
+        ]
+    },
+    {
+        "name": "Scalene",
+        "url": "https://github.com/plasma-umass/scalene",
+        "description": "Scalene: a high-performance, high-precision CPU, GPU, and memory profiler for Python.",
+        "tags": [
+            "profiler",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "ScyllaDB",
+        "url": "https://github.com/scylladb/scylladb",
+        "description": "Scylla is the real-time big data database that is API-compatible with Apache Cassandra and Amazon DynamoDB. Scylla embraces a shared-nothing approach that increases throughput and storage capacity to realize order-of-magnitude performance improvements and reduce hardware costs.",
+        "tags": [
+            "database",
+            "source: C++"
+        ]
+    },
+    {
+        "name": "sd",
+        "url": "https://github.com/chmln/sd",
+        "description": "sd is an intuitive find & replace CLI (sed alternative).",
+        "tags": [
+            "command line",
+            "find and replace",
+            "command line: sed",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "sdsl-lite",
+        "url": "https://github.com/simongog/sdsl-lite",
+        "description": "The Succinct Data Structure Library is a C++ 11 library that implements succinct data structures.",
+        "tags": [
+            "data structures",
+            "source: C++"
+        ]
+    },
+    {
+        "name": "Self-Replace",
+        "url": "https://github.com/mitsuhiko/self-replace",
+        "description": "self-replace is a crate that allows binaries to replace themselves with newer versions or to uninstall themselves. On Unix systems this is a simple feat, but on Windows a few hacks are needed which is why this crate exists.",
+        "tags": [
+            "binary",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "sig",
+        "url": "https://github.com/ynqa/sig",
+        "description": "sig is an interactive grep (for streaming).",
+        "tags": [
+            "command line",
+            "interactive",
+            "command line: grep",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "Slidev",
+        "url": "https://github.com/slidevjs/slidev",
+        "description": "Slives is a program to create presentation slides from Markdown.",
+        "tags": [
+            "Markdown",
+            "presentation"
+        ]
+    },
+    {
+        "name": "Sourcegraph",
+        "url": "https://github.com/sourcegraph/sourcegraph",
+        "description": "Sourcegraph makes it easy to read, write, and fix code—even in big, complex codebases.",
+        "tags": [
+            "GUI",
+            "editor",
+            "database",
+            "AI powered"
+        ]
+    },
+    {
+        "name": "spacer",
+        "url": "https://github.com/samwho/spacer",
+        "description": "spacer is a simple CLI tool to insert spacers when command output stops.",
+        "tags": [
+            "space",
+            "command line",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "SpacetimeDB",
+        "url": "https://github.com/clockworklabs/SpacetimeDB",
+        "description": "SpacetimeDB as both a database and server combined into one.",
+        "tags": [
+            "database",
+            "server",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "spin",
+        "url": "https://github.com/serversideup/spin",
+        "description": "spin is a bash utility that improves the user-experience for teams using Docker.",
+        "tags": [
+            "command line",
+            "docker",
+            "source: Shell"
+        ]
+    },
+    {
+        "name": "sqlectron-gui",
+        "url": "https://github.com/sqlectron/sqlectron-gui",
+        "description": "A simple and lightweight SQL client desktop with cross database and platform support.",
+        "tags": [
+            "database",
+            "GUI",
+            "SQL"
+        ]
+    },
+    {
+        "name": "SQLite",
+        "url": "https://github.com/sqlite/sqlite",
+        "description": "SQLite is a database in a single disk file.",
+        "tags": [
+            "database",
+            "source: C"
+        ]
+    },
+    {
+        "name": "sqlmap",
+        "url": "https://github.com/sqlmapproject/sqlmap",
+        "description": "sqlmap is an open source penetration testing tool that automates the process of detecting and exploiting SQL injection flaws and taking over of database servers.",
+        "tags": [
+            "database",
+            "SQL",
+            "SQL injection",
+            "penetration tests",
+            "command line"
+        ]
+    },
+    {
+        "name": "StableStudio",
+        "url": "https://github.com/Stability-AI/StableStudio",
+        "description": "StableStudio is Stability AI's official open-source variant of DreamStudio, our user interface for generative AI. It is a web-based application that allows users to create and edit generated images.",
+        "tags": [
+            "Deep Learning",
+            "image generation",
+            "image editing",
+            "source: TypeScript"
+        ]
+    },
+    {
+        "name": "Stacer",
+        "url": "https://github.com/oguzhaninan/Stacer",
+        "description": "Linux System Optimizer and Monitoring",
+        "tags": [
+            "GUI",
+            "monitoring",
+            "command line",
+            "command line: top"
+        ]
+    },
+    {
+        "name": "starry-night",
+        "url": "https://github.com/wooorm/starry-night",
+        "description": "Syntax highlighting, like what GitHub uses to highlight code, but free and open source and JavaScript!",
+        "tags": [
+            "syntax highlighting",
+            "coloring code",
+            "source: JavaScript"
+        ]
+    },
+    {
+        "name": "string2string",
+        "url": "https://github.com/stanfordnlp/string2string",
+        "description": "The string2string library is an open-source tool that offers a comprehensive suite of efficient algorithms for a broad range of string-to-string problems. It includes both traditional algorithmic solutions and recent advanced neural approaches to address various problems in pairwise string alignment, distance measurement, lexical and semantic search, and similarity analysis. Additionally, the library provides several helpful visualization tools and metrics to facilitate the interpretation and analysis of these methods.",
+        "tags": [
+            "text processing",
+            "Natural Language Processing",
+            "NLP",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "Stringzilla",
+        "url": "https://github.com/ashvardanian/Stringzilla",
+        "description": "StringZilla is the Godzilla of string libraries, splitting, sorting, and shuffling large textual datasets.",
+        "tags": [
+            "data text processing",
+            "library",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "Surya",
+        "url": "https://github.com/VikParuchuri/surya",
+        "description": "Surya is a document OCR toolkit.",
+        "tags": [
+            "OCR",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "sysm",
+        "url": "https://github.com/jafarlihi/sysm",
+        "description": "sysm makes your system play custom sounds when any configured system or external event happens.",
+        "tags": [
+            "command line",
+            "sounds",
+            "system events"
+        ]
+    },
+    {
+        "name": "Tabby",
+        "url": "https://github.com/TabbyML/tabby",
+        "description": "Tabby is a self-hosted AI coding assistant. An opensource / on-prem alternative to GitHub Copilot.",
+        "tags": [
+            "code completion",
+            "Deep Learning",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "tailspin",
+        "url": "https://github.com/bensadeh/tailspin",
+        "description": "tailspin is a log file highlighter.",
+        "tags": [
+            "logs",
+            "highlighter",
+            "command line",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "tbmk",
+        "url": "https://github.com/linhx/tbmk",
+        "description": "tbmk is a commands bookmark for terminal.",
+        "tags": [
+            "terminal",
+            "bookmark",
+            "source: Go"
+        ]
+    },
+    {
+        "name": "tealdeer",
+        "url": "https://github.com/dbrgn/tealdeer",
+        "description": "tealdeer is a very fast implementation of tldr in Rust: Simplified, example based and community-driven man pages.",
+        "tags": [
+            "command line",
+            "tldr",
+            "cheat sheet",
+            "guide",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "terashuf",
+        "url": "https://github.com/alexandres/terashuf",
+        "description": "terashuf shuffles multi-terabyte text files using limited memory.",
+        "tags": [
+            "command line",
+            "command line: shuf"
+        ]
+    },
+    {
+        "name": "Tesseract",
+        "url": "OCR [🛈](https://github.com/tesseract-ocr/tesseract",
+        "description": "Tesseract Open Source OCR Engine.",
+        "tags": [
+            "OCR",
+            "source: C++"
+        ]
+    },
+    {
+        "name": "Text",
+        "url": "generation web UI [🛈](https://github.com/oobabooga/text-generation-webui",
+        "description": "A gradio web UI for running Large Language Models like LLaMA, llama.cpp, GPT-J, Pythia, OPT, and GALACTICA.",
+        "tags": [
+            "text generation",
+            "Deep Learning",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "the-art-of-command-line",
+        "url": "https://github.com/jlevy/the-art-of-command-line",
+        "description": "Master the command line, in one page",
+        "tags": [
+            "command line",
+            "tldr",
+            "guide",
+            "cheat sheet"
+        ]
+    },
+    {
+        "name": "threestudio",
+        "url": "https://github.com/threestudio-project/threestudio",
+        "description": "threestudio is a unified framework for 3D content creation from text prompts, single images, and few-shot images, by lifting 2D text-to-image generation models.",
+        "tags": [
+            "3D image generation",
+            "Deep Learning",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "tidy-html5",
+        "url": "https://github.com/htacg/tidy-html5",
+        "description": "Tidy is the granddaddy of HTML tools, with support for modern standards.",
+        "tags": [
+            "HTML",
+            "command line"
+        ]
+    },
+    {
+        "name": "tinyvector",
+        "url": "https://github.com/0hq/tinyvector",
+        "description": "tinyvector - the tiny, least-dumb, speedy vector embedding database.",
+        "tags": [
+            "database",
+            "embeddings",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "tinyzero",
+        "url": "https://github.com/s-casci/tinyzero",
+        "description": "tinyzero is an easy train AlphaZero-like agents on any environment you want!",
+        "tags": [
+            "terminal",
+            "command line",
+            "Machine Learning",
+            "AlphaZero",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "Tokei",
+        "url": "https://github.com/XAMPPRocky/tokei",
+        "description": "Tokei is a program that displays statistics about your code.",
+        "tags": [
+            "command line",
+            "code statistics",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "TokenFlow",
+        "url": "https://github.com/omerbt/TokenFlow",
+        "description": "TokenFlow is a framework that enables consistent video editing, using a pre-trained text-to-image diffusion model, without any further training or finetuning.",
+        "tags": [
+            "Deep Learning",
+            "video",
+            "video editing",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "Toolong",
+        "url": "https://github.com/Textualize/toolong",
+        "description": "Toolong is a terminal application to view, tail, merge, and search log files (plus JSONL).",
+        "tags": [
+            "command line",
+            "logs",
+            "searching",
+            "viewer",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "trdrop",
+        "url": "https://github.com/cirquit/trdrop",
+        "description": "Estimate the \"real\" framerate of an uncompressed video.",
+        "tags": [
+            "video",
+            "framerate"
+        ]
+    },
+    {
+        "name": "tree",
+        "url": "https://github.com/mgunyho/tere",
+        "description": "tere is a terminal file explorer that is faster than using cd or ls. It enables fast navigation to a folder and then prints the path to that folder on exit. tere is not a file manager and it can only be used to browse folders.",
+        "tags": [
+            "file manager"
+        ]
+    },
+    {
+        "name": "trurl",
+        "url": "https://github.com/curl/trurl",
+        "description": "trurl is a command line tool for URL parsing and manipulation",
+        "tags": [
+            "command line",
+            "parsing",
+            "url",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "try",
+        "url": "https://github.com/binpash/try",
+        "description": "try lets you run a command and inspect its effects before changing your live system. try uses Linux's namespaces (via unshare) and the overlayfs union filesystem.",
+        "tags": [
+            "security",
+            "command line",
+            "source: Shell"
+        ]
+    },
+    {
+        "name": "TurboPilot",
+        "url": "https://github.com/ravenscroftj/turbopilot",
+        "description": "TurboPilot is a self-hosted copilot clone which uses the library behind llama.cpp to run the 6 Billion Parameter Salesforce Codegen model in 4GiB of RAM. It is heavily based and inspired by on the fauxpilot project.",
+        "tags": [
+            "code completion",
+            "Deep Learning",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "typst",
+        "url": "https://github.com/typst/typst",
+        "description": "Typst is a new markup-based typsetting system that is designed to be as powerful as LaTeX while being much easier to learn and use.",
+        "tags": [
+            "editor",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "Ubicloud",
+        "url": "https://github.com/ubicloud/ubicloud",
+        "description": "Ubicloud is an open, free, and portable cloud.",
+        "tags": [
+            "cloud",
+            "platform",
+            "source: Ruby"
+        ]
+    },
+    {
+        "name": "unblob",
+        "url": "https://github.com/onekey-sec/unblob",
+        "description": "unblob is an extraction suite that parses unknown binary blobs, extracts their content recursively, and carves out unknown chunks.",
+        "tags": [
+            "command line",
+            "parse file"
+        ]
+    },
+    {
+        "name": "Unshackle",
+        "url": "https://github.com/Fadi002/unshackle",
+        "description": "Unshackle is an open-source tool to bypass Windows and Linux user passwords from a bootable USB based on Linux.",
+        "tags": [
+            "bypass",
+            "passwords",
+            "source: Shell"
+        ]
+    },
+    {
+        "name": "Uptime",
+        "url": "Kuma [🛈](https://github.com/louislam/uptime-kuma",
+        "description": "Uptime Kuma is an easy-to-use self-hosted monitoring tool.",
+        "tags": [
+            "monitoring",
+            "source: JavaScript"
+        ]
+    },
+    {
+        "name": "uv",
+        "url": "https://github.com/astral-sh/uv",
+        "description": "uv ia an extremely fast Python package installer and resolver, written in Rust.",
+        "tags": [
+            "package installer",
+            "resolver",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "VideoCrafter",
+        "url": "https://github.com/VideoCrafter/VideoCrafter",
+        "description": "VideoCrafter is an open-source video generation and editing toolbox for crafting video content.",
+        "tags": [
+            "Deep Learning",
+            "video",
+            "video generation",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "Vizro",
+        "url": "https://github.com/mckinsey/vizro",
+        "description": "Vizro is a toolkit for creating modular data visualization applications.",
+        "tags": [
+            "visualization",
+            "library",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "vsd",
+        "url": "https://github.com/clitic/vsd",
+        "description": "vsd - video stream downloader is a command line program to download video streams served over HTTP from websites, HLS and DASH playlists.",
+        "tags": [
+            "command line",
+            "video",
+            "downloader",
+            "video downloader",
+            "Rust"
+        ]
+    },
+    {
+        "name": "Wails",
+        "url": "https://github.com/wailsapp/wails",
+        "description": "Wails is a framework for building desktop applications using Go and Web technologies. It has the ability to wrap both Go code and a web frontend into a single binary. Wails features tools for project creation, compilation, and bundling.",
+        "tags": [
+            "web page"
+        ]
+    },
+    {
+        "name": "walk",
+        "url": "https://github.com/antonmedv/walk",
+        "description": "Walk — a terminal navigator.",
+        "tags": [
+            "command line",
+            "command line: cd",
+            "source: Go"
+        ]
+    },
+    {
+        "name": "Watcher",
+        "url": "https://github.com/e-dant/watcher",
+        "description": "Watcher is a file system watcher that works anywhere. It is simple, efficient, dependency-free, and header-only. Watcher uses a near-zero amount of resources even when scanning millions of paths.",
+        "tags": [
+            "command line",
+            "file system watcher"
+        ]
+    },
+    {
+        "name": "whichlang",
+        "url": "https://github.com/quickwit-oss/whichlang",
+        "description": "This is a language detection library, aiming for both precision and performance.",
+        "tags": [
+            "language detection",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "whisper",
+        "url": "https://github.com/openai/whisper",
+        "description": "whisper - Robust Speech Recognition via Large-Scale Weak Supervision.",
+        "tags": [
+            "automatic transcription",
+            "transcription",
+            "speech recognition",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "Whisper",
+        "url": "Turbo [🛈](https://github.com/FL33TW00D/whisper-turbo",
+        "description": "Whisper Turbo is a lightning-fast, cross-platform Whisper implementation, designed to run entirely client-side on your browser or electron app.",
+        "tags": [
+            "automatic transcription",
+            "transcription",
+            "speech recognition",
+            "cross-platform",
+            "source: TypeScript"
+        ]
+    },
+    {
+        "name": "WhisperPlus",
+        "url": "https://github.com/kadirnar/whisper-plus",
+        "description": "WhisperPlus: Advancing Speech-to-Text Processing.",
+        "tags": [
+            "automatic transcription",
+            "transcription",
+            "speech recognition",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "wonnx",
+        "url": "https://github.com/webonnx/wonnx",
+        "description": "Wonnx is a GPU-accelerated ONNX inference run-time written 100% in Rust, ready for the web.",
+        "tags": [
+            "Deep Learning",
+            "GPU",
+            "library",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "xonsh",
+        "url": "https://github.com/xonsh/xonsh",
+        "description": "xonsh is a Python-powered, cross-platform, Unix-gazing shell language and command prompt.",
+        "tags": [
+            "command line",
+            "shell",
+            "cross-platform",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "xq",
+        "url": "https://github.com/sibprogrammer/xq",
+        "description": "Command-line XML and HTML beautifier and content extractor.",
+        "tags": [
+            "command line",
+            "XML",
+            "HTML",
+            "content extractor",
+            "data formatter"
+        ]
+    },
+    {
+        "name": "xz",
+        "url": "https://github.com/tukaani-project/xz",
+        "description": "XZ Utils provide a general-purpose data-compression library plus command-line tools. The native file format is the .xz format, but also the legacy .lzma format is supported.",
+        "tags": [
+            "command line",
+            "compression",
+            "decompression",
+            "source: C"
+        ]
+    },
+    {
+        "name": "youtube-dl",
+        "url": "https://github.com/ytdl-org/youtube-dl",
+        "description": "youtube-dl - download videos from youtube.com or other video platforms.",
+        "tags": [
+            "command line",
+            "video",
+            "downloader",
+            "video downloader",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "yq",
+        "url": "https://github.com/mikefarah/yq",
+        "description": "yq is a lightweight and portable command-line YAML, JSON and XML processor. yq uses jq like syntax but works with yaml files as well as json, xml, properties, csv and tsv.",
+        "tags": [
+            "command line",
+            "YAML",
+            "JSON",
+            "XML",
+            "CSV",
+            "TSV",
+            "content extractor",
+            "data formatter",
+            "filter editor",
+            "command line: jq",
+            "source: Go"
+        ]
+    },
+    {
+        "name": "yt-dlp",
+        "url": "https://github.com/yt-dlp/yt-dlp",
+        "description": "yt-dlp is a youtube-dl fork based on the now inactive youtube-dlc. The main focus of this project is adding new features and patches while also keeping up to date with the original project.",
+        "tags": [
+            "command line",
+            "video",
+            "downloader",
+            "video downloader",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "ytop",
+        "url": "https://github.com/cjbassi/ytop) - NO LONGER MAINTAINED",
+        "description": "ytop is a TUI based system monitor, this time in Rust!",
+        "tags": [
+            "command line",
+            "monitoring",
+            "command line: top",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "Zeal",
+        "url": "https://github.com/zealdocs/zeal/",
+        "description": "Zeal is a simple offline documentation browser inspired by Dash.",
+        "tags": [
+            "GUI",
+            "documentation",
+            "source: C++"
+        ]
+    },
+    {
+        "name": "Zellij",
+        "url": "https://github.com/zellij-org/zellij",
+        "description": "Zellij is a workspace aimed at developers, ops-oriented people and anyone who loves the terminal. At its core, it is a terminal multiplexer (similar to tmux and screen), but this is merely its infrastructure layer.",
+        "tags": [
+            "terminal",
+            "terminal interface",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "zstd",
+        "url": "https://github.com/facebook/zstd",
+        "description": "Zstandard, or zstd as short version, is a fast lossless compression algorithm, targeting real-time compression scenarios at zlib-level and better compression ratios.",
+        "tags": [
+            "command line",
+            "compression",
+            "decompression",
+            "source: C"
+        ]
+    },
+    {
+        "name": "μFuzzy",
+        "url": "https://github.com/leeoniya/uFuzzy",
+        "description": "μFuzzy is a tiny, efficient, fuzzy search library designed to match a short search phrase against a large list of short-to-medium phrases. It can be used for list filtering, auto-complete, or title/name/description/filename/function searches. μFuzzy features straightforward fuzziness control, customized sorting, and a concise set of options.",
+        "tags": [
+            "library",
+            "fuzzy search",
+            "source: JavaScript"
+        ]
+    }
+]

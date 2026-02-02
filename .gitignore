@@ -133,3 +133,4 @@ dmypy.json
 .run/
 workspace.code-workspace
 *~
+notes.txt

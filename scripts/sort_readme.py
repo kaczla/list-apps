@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import json
 import logging
 import re
 from collections import Counter
@@ -14,6 +15,9 @@ HEADER_LIST_OF_APPS = "List of application"
 LOGGER = logging.getLogger(__name__)
 
 RGX_SPACES_CLEAN = re.compile(r"\s+")
+
+DATA_PATH = Path("data")
+JSON_DATA = DATA_PATH / "json"
 
 
 @dataclass
@@ -175,9 +179,9 @@ def read_readme(file_path: Path) -> Tuple[List[Section], List[Section], Section]
     sections = parse_sections(file_path.read_text().split("\n"))
 
     indexes_list_applications = [index for index, s in enumerate(sections) if s.name == HEADER_LIST_OF_APPS]
-    assert len(
-        indexes_list_applications
-    ), f"Expecting one section with applications, got {len(indexes_list_applications)} sections"
+    assert len(indexes_list_applications), (
+        f"Expecting one section with applications, got {len(indexes_list_applications)} sections"
+    )
     index_list_applications = indexes_list_applications[0]
     del indexes_list_applications
 
@@ -374,6 +378,8 @@ def main() -> None:
     if tag_mapper:
         fix_tags(tags, parsed_applications, tag_mapper)
 
+    dump_data_from_parsed_applications(parsed_applications, tags)
+
     text_after.append(
         Section(
             name="Tags",
@@ -383,6 +389,29 @@ def main() -> None:
     )
 
     write_readme(text_before, text_after, parsed_applications, readme_path)
+
+
+def dump_data_from_parsed_applications(parsed_applications: list[ParsedApplication], tags: list[Tag]) -> None:
+    file_tags = JSON_DATA / "tags.json"
+    file_applications = JSON_DATA / "applications.json"
+
+    tag_names = [tag.name for tag in tags]
+    tag_names.sort(key=lambda x: x.lower())
+    file_tags.write_text(json.dumps(tag_names, indent=4, ensure_ascii=False))
+
+    application_data = []
+    for parsed_application in parsed_applications:
+        url = parsed_application.name_text.strip("[🛈]()")
+        description = next(text for text in parsed_application.text if "- Tags:" not in text)
+        description = description.strip().lstrip("-").strip()
+        json_data = {
+            "name": parsed_application.name,
+            "url": url,
+            "description": description,
+            "tags": parsed_application.get_tags() or [],
+        }
+        application_data.append(json_data)
+    file_applications.write_text(json.dumps(application_data, indent=4, ensure_ascii=False))
 
 
 if __name__ == "__main__":
