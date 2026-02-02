@@ -10,9 +10,9 @@ from pathlib import Path
 from typing import Counter as CounterType
 from typing import Dict, List, Optional, Tuple
 
-HEADER_LIST_OF_APPS = "List of application"
+from loguru import logger
 
-LOGGER = logging.getLogger(__name__)
+HEADER_LIST_OF_APPS = "List of application"
 
 RGX_SPACES_CLEAN = re.compile(r"\s+")
 
@@ -115,6 +115,22 @@ class Tag:
     occurrence: int
 
 
+def init_logs(debug: bool = False, warning: bool = False) -> None:
+    if debug:
+        level = logging.DEBUG
+    elif warning:
+        level = logging.WARNING
+    else:
+        level = logging.INFO
+    logging.basicConfig(
+        level=level,
+        format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    )
+
+    if debug:
+        logging.getLogger("urllib3").setLevel(logging.INFO)
+
+
 def parse_section(text: List[str]) -> Section:
     section_name = text.pop(0)[1:].strip()
 
@@ -129,7 +145,7 @@ def parse_section(text: List[str]) -> Section:
 
     # Return empty text if it is
     if len(indexes_to_remove) == len(text):
-        LOGGER.error(f"Empty text in section: {section_name}")
+        logger.error(f"Empty text in section: {section_name}")
         return Section(name=section_name, text=[])
 
     # Find empty lines at the end
@@ -161,8 +177,8 @@ def parse_sections(text: List[str]) -> List[Section]:
     if text_lines:
         sections.append(parse_section(text_lines))
 
-    LOGGER.info(f"Found {len(sections)} sections")
-    LOGGER.info(f"Sections: {[s.name for s in sections]}")
+    logger.info(f"Found {len(sections)} sections")
+    logger.info(f"Sections: {[s.name for s in sections]}")
     return sections
 
 
@@ -174,7 +190,7 @@ def remove_section(section_name: str, sections: List[Section]) -> List[Section]:
 
 
 def read_readme(file_path: Path) -> Tuple[List[Section], List[Section], Section]:
-    LOGGER.info(f"Reading from: {file_path}")
+    logger.info(f"Reading from: {file_path}")
 
     sections = parse_sections(file_path.read_text().split("\n"))
 
@@ -202,7 +218,7 @@ def write_readme(
     parsed_applications: List[ParsedApplication],
     save_path: Path,
 ) -> None:
-    LOGGER.info(f"Writing into: {save_path}")
+    logger.info(f"Writing into: {save_path}")
     text_to_save = ""
 
     text_to_save += "\n".join([s.to_text(extra_new_line=True) for s in text_before])
@@ -224,7 +240,7 @@ def clean_whitespaces(text: str) -> str:
 
         line_clean_index = line.find(line_clean)
         if line_clean_index < 0:
-            LOGGER.warning(f"Cannot clean text: {line!r}")
+            logger.warning(f"Cannot clean text: {line!r}")
             lines_cleaned.append(line)
             continue
         prefix = line[:line_clean_index]
@@ -241,7 +257,7 @@ def parse_application_text_lines(text: List[str]) -> ParsedApplication:
 
     # Check empty link
     if "[]" in application_name_text or "()" in application_name_text:
-        LOGGER.error(f"Found empty link in {application_name}")
+        logger.error(f"Found empty link in {application_name}")
 
     application_name_text = clean_whitespaces(application_name_text)
     text = [clean_whitespaces(single_text) for single_text in text]
@@ -265,7 +281,7 @@ def parse_list_applications(section: Section) -> List[ParsedApplication]:
     if data_application_lines:
         parsed_applications.append(parse_application_text_lines(data_application_lines))
 
-    LOGGER.info(f"Parsed {len(parsed_applications)} applications")
+    logger.info(f"Parsed {len(parsed_applications)} applications")
     parsed_applications.sort(key=lambda x: x.name.lower())
     return parsed_applications
 
@@ -275,15 +291,15 @@ def get_tags(parsed_applications: List[ParsedApplication]) -> List[Tag]:
     for parsed_application in parsed_applications:
         tag_names = parsed_application.get_tags()
         if tag_names is None:
-            LOGGER.error(f"Not found tags in: {parsed_application}")
+            logger.error(f"Not found tags in: {parsed_application}")
             continue
 
         application_tags = list(filter(lambda x: x, tag_names))
         tags_counter.update(application_tags)
 
-    LOGGER.info(f"Found {len(tags_counter)} tags")
+    logger.info(f"Found {len(tags_counter)} tags")
     tags = [Tag(name=name, occurrence=occ) for name, occ in sorted(tags_counter.items(), key=lambda x: x[0].lower())]
-    LOGGER.debug(f"Tags with occurrences: {tags}")
+    logger.debug(f"Tags with occurrences: {tags}")
     return tags
 
 
@@ -317,18 +333,18 @@ def get_tag_mapper(tags: List[Tag]) -> Dict[str, str]:
             if index_to_remove is not None:
                 del sorted_tags_by_occ[index_to_remove]
             else:
-                LOGGER.warning(f"Cannot find tag to normalization for: {original_tags}")
+                logger.warning(f"Cannot find tag to normalization for: {original_tags}")
                 continue
 
         for tag in sorted_tags_by_occ:
-            LOGGER.debug(f"Found tag normalization from: {tag.name!r} to {most_popular_tag.name!r}")
+            logger.debug(f"Found tag normalization from: {tag.name!r} to {most_popular_tag.name!r}")
             tag_mapper[tag.name] = most_popular_tag.name
 
     return tag_mapper
 
 
 def fix_tags(tags: List[Tag], applications: List[ParsedApplication], tag_mapper: Dict[str, str]) -> List[Tag]:
-    LOGGER.info(f"Normalizing tags with mapping: {tag_mapper}")
+    logger.info(f"Normalizing tags with mapping: {tag_mapper}")
     tag_name_to_index: Dict[str, int] = {tag.name: i for i, tag in enumerate(tags)}
 
     # Merge tag occurrences
@@ -336,7 +352,7 @@ def fix_tags(tags: List[Tag], applications: List[ParsedApplication], tag_mapper:
     for tag_name, target_tag_name in tag_mapper.items():
         idx = tag_name_to_index[tag_name]
         idx_target = tag_name_to_index[target_tag_name]
-        LOGGER.debug(f"Merging tag: {tags[idx]} with {tags[idx_target]}")
+        logger.debug(f"Merging tag: {tags[idx]} with {tags[idx_target]}")
         tags[idx_target].occurrence += tags[idx].occurrence
         tag_indexes_to_remove.append(idx)
 
@@ -365,7 +381,7 @@ def fix_tags(tags: List[Tag], applications: List[ParsedApplication], tag_mapper:
 
 
 def main() -> None:
-    logging.basicConfig(level=logging.DEBUG)
+    init_logs(debug=False)
     readme_path = Path("README.md")
     assert readme_path.exists(), "README.md does not exist!"
 
