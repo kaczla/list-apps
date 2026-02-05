@@ -1,4 +1,4 @@
-all: format lint_fix
+all: format lint_fix type_check
 	@echo "[INFO] All checks complete!"
 
 lint:

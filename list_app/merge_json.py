@@ -10,10 +10,9 @@ from loguru import logger
 from pydantic import ValidationError
 
 from list_app.data import ApplicationData
-from list_app.data_utils import load_applications
+from list_app.data_utils import load_applications, save_applications
+from list_app.generate_readme import generate_and_save_readme
 from list_app.log_utils import init_logs
-
-DATA_JSON_PATH = Path("data/json")
 
 
 def load_input_json(input_path: Path) -> list[dict[str, Any]]:
@@ -42,8 +41,7 @@ def merge_applications(input_data: list[dict[str, Any]], dry_run: bool = False, 
     Returns:
         Error count
     """
-    target_path = DATA_JSON_PATH / "applications.json"
-    existing_list = load_applications(target_path)
+    existing_list = load_applications()
 
     # Build lookup for duplicate detection
     existing_names: set[str] = {m.name for m in existing_list}
@@ -96,10 +94,10 @@ def merge_applications(input_data: list[dict[str, Any]], dry_run: bool = False, 
     has_changes = new_items or replaced_count > 0
     if has_changes and not dry_run:
         merged_list = existing_list + new_items
-        logger.info(f"Saving {len(merged_list)} models to: {target_path}")
-        # TODO: Add implemenation
-        logger.warning("Saving data and README not implemented yet")
-        logger.info("Generated updated README")
+        merged_list.sort(key=lambda x: x.name.lower())
+        logger.info(f"Saving {len(merged_list)} models")
+        save_applications(merged_list)
+        generate_and_save_readme(merged_list)
 
     logger.info(
         f"Summary: {added_count} added, {replaced_count} replaced, "

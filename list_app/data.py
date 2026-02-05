@@ -6,3 +6,8 @@ class ApplicationData(BaseModel):
     url: str
     description: str
     tags: set[str]
+
+
+class Tag(BaseModel):
+    name: str
+    occurrence: int

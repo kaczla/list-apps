@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-A curated list of applications worth knowing, maintained as a README.md file with automated sorting and tag management. The project includes a Python script that parses, sorts, and normalizes the application entries.
+A curated list of applications worth knowing, maintained as a README.md file with automated sorting and tag management. The project includes Python tools that parse, sort, and normalize the application entries.
 
 ## Development Commands
 
@@ -18,26 +18,82 @@ make lint_fix      # Auto-fix lint issues
 make format        # Format code with ruff
 make type_check    # Run mypy type checking
 
-# Run the main script (sorts README and generates JSON data)
-uv run python scripts/sort_readme.py
+# Generate README from applications.json
+uv run python -m list_app.generate_readme
+
+# Merge new applications from JSON file
+uv run python -m list_app.merge_json new_apps.json
+uv run python -m list_app.merge_json new_apps.json --dry-run  # Preview changes
+```
+
+## Adding New Applications
+
+### Extracting Application Data
+
+When given a GitHub URL, use WebFetch to extract:
+- **Name**: The project/repository name
+- **Description**: A concise summary of what the application does
+- **Tags**: Based on programming language, features, and use cases
+
+### JSON Format
+
+Create a JSON file with the current date and time in the name using format `YYYYMMDDTHHMM` (e.g., `new_apps_20240115T1430.json`) with a list of applications:
+
+```json
+[
+    {
+        "name": "Ruff",
+        "url": "https://github.com/charliermarsh/ruff",
+        "description": "An extremely fast Python linter and code formatter with 800+ built-in rules, compatible with Flake8, isort, and Black.",
+        "tags": [
+            "caching",
+            "code formatting",
+            "linter",
+            "Python linter",
+            "command line",
+            "source: Rust"
+        ]
+    }
+]
+```
+
+### Tag Conventions
+
+1. Check existing tags in `data/json/tags.json` and prefer using them. New tags can be created if needed.
+2. Tag ordering:
+   - General tags first (e.g., `database`, `linter`, `editor`)
+   - `command line: <tool>` for CLI tool alternatives (e.g., `command line: grep`)
+   - `source: <language>` for implementation language (e.g., `source: Rust`, `source: Python`)
+
+### Merging and Generating README
+
+```bash
+uv run python -m list_app.merge_json new_apps_20240115T1430.json --dry-run  # Preview first
+uv run python -m list_app.merge_json new_apps_20240115T1430.json            # Apply changes
+uv run python -m list_app.generate_readme                                   # Generate README
 ```
 
 ## Architecture
 
-The project has a single main script (`scripts/sort_readme.py`) that:
+### Data Flow
 
-1. Parses the `README.md` file into sections, extracting the "List of application" section
-2. Parses each application entry into `ParsedApplication` objects (name, link, description, tags)
-3. Sorts applications alphabetically by name (case-insensitive)
-4. Normalizes tags (merges duplicates with different casing, prioritizes capitalized versions)
-5. Sorts tags within each application (general tags first, then `command line: *` tags, then `source: *` tags)
-6. Generates a "Tags" section with occurrence counts
-7. Exports structured data to `data/json/applications.json` and `data/json/tags.json`
+The canonical data lives in `data/json/applications.json`. The README.md is generated from this JSON file.
+
+### Main Package (`list_app/`)
+
+- `data.py` - Pydantic model `ApplicationData` (name, url, description, tags)
+- `generate_readme.py` - Generates README.md from applications.json, sorts apps alphabetically, generates Tags section with occurrence counts
+- `merge_json.py` - Merges new applications into applications.json with duplicate detection
+- `data_utils.py` - JSON loading utilities
+
+### Tag Sorting Order
+
+Tags within each application are sorted: general tags first, then `command line: *` tags, then `source: *` tags.
 
 ## Code Style
 
 - Line length: 120 characters
 - Type annotations required on all functions (strict mypy settings)
 - Uses loguru for logging
-- Uses Pydantic for data validation where needed
+- Uses Pydantic for data validation
 - Google-style docstrings

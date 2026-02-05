@@ -1,46 +1,15 @@
 """Generate README.md from applications.json data."""
 
 from collections import Counter
-from pathlib import Path
 from typing import Counter as CounterType
 
 from loguru import logger
 
-from list_app.data import ApplicationData
-from list_app.data_utils import load_applications
+from list_app.data import ApplicationData, Tag
+from list_app.data_utils import DATA_APPLICATIONS_PATH, README_PATH, load_applications, sort_application_tags
 from list_app.log_utils import init_logs
-from list_app.sort_readme import HEADER_LIST_OF_APPS, Tag
 
-APPLICATIONS_JSON = Path("data/json/applications.json")
-README_PATH = Path("README.md")
-
-
-def sort_tags(tags: set[str]) -> list[str]:
-    """Sort tags: general tags first, then 'command line: *', then 'source: *'.
-
-    Args:
-        tags: Set of tag strings to sort.
-
-    Returns:
-        Sorted list of tags.
-    """
-    general: list[str] = []
-    cmd_line: list[str] = []
-    source: list[str] = []
-
-    for tag in tags:
-        if tag.lower().startswith("source: "):
-            source.append(tag)
-        elif tag.lower().startswith("command line: "):
-            cmd_line.append(tag)
-        else:
-            general.append(tag)
-
-    general.sort(key=lambda x: x.lower())
-    cmd_line.sort(key=lambda x: x.lower())
-    source.sort(key=lambda x: x.lower())
-
-    return general + cmd_line + source
+HEADER_LIST_OF_APPS = "List of application"
 
 
 def calculate_tag_occurrences(apps: list[ApplicationData]) -> list[Tag]:
@@ -90,7 +59,7 @@ def format_application(app: ApplicationData) -> str:
     Returns:
         Formatted markdown string for the application.
     """
-    sorted_tags = sort_tags(app.tags)
+    sorted_tags = sort_application_tags(app.tags)
     tags_str = ", ".join(sorted_tags)
     return f"- {app.name} [🛈]({app.url})\n  - {app.description}\n  - Tags: {tags_str}"
 
@@ -142,24 +111,28 @@ def generate_readme(apps: list[ApplicationData]) -> str:
     return content
 
 
-def main() -> None:
-    """Entry point: load JSON, generate README, and write to file."""
-    init_logs(debug=False)
-    logger.info(f"Loading applications from: {APPLICATIONS_JSON}")
-
-    if not APPLICATIONS_JSON.exists():
-        logger.error(f"Applications JSON file not found: {APPLICATIONS_JSON}")
-        raise FileNotFoundError(f"Applications JSON file not found: {APPLICATIONS_JSON}")
-
-    apps = load_applications(APPLICATIONS_JSON)
-    apps.sort(key=lambda x: x.name.lower())
-
-    logger.info(f"Loaded {len(apps)} applications")
-
+def generate_and_save_readme(apps: list[ApplicationData]) -> None:
     readme_content = generate_readme(apps)
 
     logger.info(f"Writing README to: {README_PATH}")
     README_PATH.write_text(readme_content)
+    logger.info("README generated")
+
+
+def main() -> None:
+    """Entry point: load JSON, generate README, and write to file."""
+    init_logs(debug=False)
+    logger.info(f"Loading applications from: {DATA_APPLICATIONS_PATH}")
+
+    if not DATA_APPLICATIONS_PATH.exists():
+        logger.error(f"Applications JSON file not found: {DATA_APPLICATIONS_PATH}")
+        raise FileNotFoundError(f"Applications JSON file not found: {DATA_APPLICATIONS_PATH}")
+
+    apps = load_applications(DATA_APPLICATIONS_PATH)
+    apps.sort(key=lambda x: x.name.lower())
+
+    logger.info(f"Loaded {len(apps)} applications")
+    generate_and_save_readme(apps)
 
     logger.info("README generation complete")
 
