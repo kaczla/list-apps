@@ -6,7 +6,13 @@ from typing import Counter as CounterType
 from loguru import logger
 
 from list_app.data import ApplicationData, Tag
-from list_app.data_utils import DATA_APPLICATIONS_PATH, README_PATH, load_applications, save_applications, sort_application_tags
+from list_app.data_utils import (
+    DATA_APPLICATIONS_PATH,
+    README_PATH,
+    load_applications,
+    save_applications,
+    sort_application_tags,
+)
 from list_app.log_utils import init_logs
 
 HEADER_LIST_OF_APPS = "List of application"

@@ -47,7 +47,10 @@ def load_applications(path: Path | None = None) -> list[ApplicationData]:
     with path.open("rt") as file:
         data = json.load(file)
 
-    return [ApplicationData(**item) for item in data]
+    applications = [ApplicationData(**item) for item in data]
+    logger.info(f"Loaded {len(applications)} applications")
+
+    return applications
 
 
 def save_applications(applications: list[ApplicationData]) -> None:
