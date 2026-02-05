@@ -6,7 +6,7 @@ from typing import Counter as CounterType
 from loguru import logger
 
 from list_app.data import ApplicationData, Tag
-from list_app.data_utils import DATA_APPLICATIONS_PATH, README_PATH, load_applications, sort_application_tags
+from list_app.data_utils import DATA_APPLICATIONS_PATH, README_PATH, load_applications, save_applications, sort_application_tags
 from list_app.log_utils import init_logs
 
 HEADER_LIST_OF_APPS = "List of application"
@@ -79,6 +79,25 @@ def generate_applications_section(apps: list[ApplicationData]) -> str:
     return f"# {HEADER_LIST_OF_APPS}\n\n{apps_content}\n\n"
 
 
+def check_duplicate_tags(tags: list[Tag]) -> None:
+    """Check for duplicate tag names after lowercase and strip() operations.
+
+    Args:
+        tags: List of Tag objects to check.
+
+    Raises:
+        ValueError: If duplicate tag names are found after normalization.
+    """
+    normalized_tags = [tag.name.lower().strip() for tag in tags]
+    tag_counts = Counter(normalized_tags)
+
+    duplicates = {tag: count for tag, count in tag_counts.items() if count > 1}
+
+    if duplicates:
+        duplicate_list = [f"'{tag}' (appears {count} times)" for tag, count in duplicates.items()]
+        logger.warning(f"Duplicate tag names found after lowercase and strip(): {', '.join(duplicate_list)}")
+
+
 def generate_tags_section(tags: list[Tag]) -> str:
     """Generate the Tags section with occurrence counts.
 
@@ -88,6 +107,7 @@ def generate_tags_section(tags: list[Tag]) -> str:
     Returns:
         Tags section as markdown.
     """
+    check_duplicate_tags(tags)
     tag_lines = [f"- {tag.name} ({tag.occurrence})" for tag in tags]
     tags_content = "\n".join(tag_lines)
     return f"# Tags\n\nList of tags with occurrences in the brackets:\n\n{tags_content}\n"
@@ -133,6 +153,7 @@ def main() -> None:
 
     logger.info(f"Loaded {len(apps)} applications")
     generate_and_save_readme(apps)
+    save_applications(apps)
 
     logger.info("README generation complete")
 

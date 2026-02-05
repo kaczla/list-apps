@@ -90,6 +90,18 @@
         ]
     },
     {
+        "name": "Artemis",
+        "url": "https://github.com/CERT-Polska/Artemis",
+        "description": "A modular vulnerability scanner that automatically detects security issues and generates human-readable reports with remediation guidance.",
+        "tags": [
+            "command line",
+            "report",
+            "security",
+            "vulnerability scanner",
+            "source: Python"
+        ]
+    },
+    {
         "name": "ast-grep",
         "url": "https://github.com/ast-grep/ast-grep",
         "description": "ast-grep(sg) is a lightning fast and user friendly tool for code searching, linting, rewriting at large scale.",
@@ -110,6 +122,29 @@
             "audio generation",
             "Deep Learning",
             "source: Python"
+        ]
+    },
+    {
+        "name": "AutoCrawler",
+        "url": "https://github.com/EZ-hwh/AutoCrawler",
+        "description": "An AI agent that automatically generates web scrapers through progressive web understanding, using LLMs to extract structured data from websites.",
+        "tags": [
+            "AI powered",
+            "automation",
+            "web scraper",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "AWS Secrets Manager Agent",
+        "url": "https://github.com/aws/aws-secretsmanager-agent",
+        "description": "A local HTTP service for fetching and caching AWS Secrets Manager secrets in memory, with SSRF protection and support for Lambda, ECS, EKS, and EC2 environments.",
+        "tags": [
+            "caching",
+            "cloud",
+            "secret management",
+            "security",
+            "source: Rust"
         ]
     },
     {
@@ -323,12 +358,36 @@
         ]
     },
     {
+        "name": "Cohere Toolkit",
+        "url": "https://github.com/cohere-ai/cohere-toolkit",
+        "description": "A deployable all-in-one RAG application for building LLM-based products with multiple UI options, customizable backends, and cloud deployment guides.",
+        "tags": [
+            "AI powered",
+            "API",
+            "framework",
+            "Language Model",
+            "source: TypeScript"
+        ]
+    },
+    {
         "name": "Comcast",
         "url": "https://github.com/tylertreat/comcast",
         "description": "Comcast is a tool designed to simulate common network problems like latency, bandwidth restrictions, and dropped/reordered/corrupted packets. Simulating shitty network connections so you can build better systems.",
         "tags": [
             "command line",
             "network"
+        ]
+    },
+    {
+        "name": "ComfyUI",
+        "url": "https://github.com/comfyanonymous/ComfyUI",
+        "description": "A powerful node-based interface for creating diffusion model workflows supporting Stable Diffusion, Flux, and SD3 with memory optimization for low VRAM systems.",
+        "tags": [
+            "Deep Learning",
+            "GUI",
+            "image generation",
+            "Stable Diffusion Model",
+            "source: Python"
         ]
     },
     {
@@ -350,6 +409,18 @@
         ]
     },
     {
+        "name": "Coqui TTS",
+        "url": "https://github.com/coqui-ai/TTS",
+        "description": "A deep learning text-to-speech toolkit with pretrained models for 1100+ languages, voice cloning capabilities, and low-latency streaming support.",
+        "tags": [
+            "Deep Learning",
+            "multi-language",
+            "speech generation",
+            "text-to-audio",
+            "source: Python"
+        ]
+    },
+    {
         "name": "counts",
         "url": "https://github.com/nnethercote/counts",
         "description": "counts is a command line tool for ad hoc profiling. It tallies line frequencies within text files and shows the total line count with all the unique lines ordered by frequency and individual and cumulative percentages. counts supports weighting and negative weights are allowed.",
@@ -365,6 +436,18 @@
         "tags": [
             "library",
             "source: Rust"
+        ]
+    },
+    {
+        "name": "Crawlee",
+        "url": "https://github.com/apify/crawlee",
+        "description": "A web scraping and browser automation library for building reliable crawlers with HTTP/2 support, proxy rotation, persistent queues, and bot protection evasion.",
+        "tags": [
+            "automation",
+            "command line",
+            "proxy",
+            "web scraper",
+            "source: TypeScript"
         ]
     },
     {
@@ -458,6 +541,18 @@
         ]
     },
     {
+        "name": "Daytona",
+        "url": "https://github.com/daytonaio/daytona",
+        "description": "A platform for running AI-generated code in isolated sandboxes with sub-90ms creation time, programmatic APIs, and OCI/Docker compatibility.",
+        "tags": [
+            "AI powered",
+            "container",
+            "developer environment",
+            "isolation",
+            "source: Go"
+        ]
+    },
+    {
         "name": "DBeaver",
         "url": "https://github.com/dbeaver/dbeaver",
         "description": "Free multi-platform database tool for developers, SQL programmers, database administrators and analysts.",
@@ -465,6 +560,21 @@
             "database",
             "GUI",
             "SQL"
+        ]
+    },
+    {
+        "name": "Deep-Live-Cam",
+        "url": "https://github.com/hacksider/Deep-Live-Cam",
+        "description": "Real-time face swapping and deepfake video creation application using a single image, with GPU acceleration support for NVIDIA, AMD, and Apple Silicon.",
+        "tags": [
+            "Deep Learning",
+            "deepfake",
+            "face sawpping",
+            "GPU",
+            "GUI",
+            "image",
+            "video",
+            "source: Python"
         ]
     },
     {
@@ -523,6 +633,19 @@
         ]
     },
     {
+        "name": "DiceDB",
+        "url": "https://github.com/DiceDB/dice",
+        "description": "A reactive in-memory database with Redis-like interface, optimized for modern hardware with query subscriptions for real-time data updates. Note: development paused.",
+        "tags": [
+            "caching",
+            "database",
+            "in-memory",
+            "key-value store",
+            "redis",
+            "source: Go"
+        ]
+    },
+    {
         "name": "difftastic",
         "url": "https://github.com/Wilfred/difftastic",
         "description": "Difftastic is a structural diff tool that compares files based on their syntax.",
@@ -553,6 +676,17 @@
         ]
     },
     {
+        "name": "dlordinal",
+        "url": "https://github.com/ayrna/dlordinal",
+        "description": "A Python library implementing deep ordinal classification methods with specialized loss functions, output layers, and evaluation metrics for problems with ordered classes.",
+        "tags": [
+            "Deep Learning",
+            "library",
+            "Machine Learning",
+            "source: Python"
+        ]
+    },
+    {
         "name": "docker-rollout",
         "url": "https://github.com/Wowu/docker-rollout",
         "description": "Docker CLI plugin that updates Docker Compose services without downtime.",
@@ -560,6 +694,18 @@
             "docker",
             "docker-compose",
             "services"
+        ]
+    },
+    {
+        "name": "dotenvx",
+        "url": "https://github.com/dotenvx/dotenvx",
+        "description": "A secure environment variable management tool with cross-platform support, multi-environment handling, and encryption using public-key cryptography.",
+        "tags": [
+            "command line",
+            "configuration",
+            "encryption",
+            "environment variables",
+            "source: JavaScript"
         ]
     },
     {
@@ -695,12 +841,38 @@
         ]
     },
     {
+        "name": "exo",
+        "url": "https://github.com/exo-explore/exo",
+        "description": "A distributed AI inference system connecting multiple devices into a cluster for running large language models with automatic device discovery and RDMA over Thunderbolt support.",
+        "tags": [
+            "command line",
+            "Language Model",
+            "Machine Learning",
+            "parallel",
+            "source: Python"
+        ]
+    },
+    {
         "name": "extremely-linear",
         "url": "https://github.com/zegl/extremely-linear",
         "description": "Extremely Linear Git History. Create meaningful checksums: The first commit is 0000000, then 0000001, then 0000002.",
         "tags": [
             "command line",
             "git"
+        ]
+    },
+    {
+        "name": "FaceSwap",
+        "url": "https://github.com/deepfakes/faceswap",
+        "description": "A deep learning tool for face recognition and swapping in images and videos with extract, train, and convert workflows and GPU acceleration.",
+        "tags": [
+            "computer vision",
+            "Deep Learning",
+            "face recognition",
+            "face swapping",
+            "image",
+            "video",
+            "source: Python"
         ]
     },
     {
@@ -775,6 +947,19 @@
         "tags": [
             "container",
             "developer environment"
+        ]
+    },
+    {
+        "name": "Fish Speech",
+        "url": "https://github.com/fishaudio/fish-speech",
+        "description": "An advanced text-to-speech system with fine-grained emotion control, voice cloning from 10-30 second samples, and multilingual support for 9+ languages.",
+        "tags": [
+            "Deep Learning",
+            "multi-language",
+            "speech generation",
+            "text-to-audio",
+            "voice cloning",
+            "source: Python"
         ]
     },
     {
@@ -896,6 +1081,18 @@
         ]
     },
     {
+        "name": "github2file",
+        "url": "https://github.com/cognitivecomputations/github2file",
+        "description": "A tool for downloading and processing GitHub repository files into a single output for sharing with AI chatbots, with language filtering and comment removal options.",
+        "tags": [
+            "command line",
+            "downloader",
+            "git",
+            "text processing",
+            "source: Python"
+        ]
+    },
+    {
         "name": "GitID",
         "url": "https://github.com/InderdeepBajwa/gitid",
         "description": "GitID is a convenient command-line interface (CLI) that allows you seamlessly manage and switch between multiple git SSH identities on a single user account.",
@@ -936,6 +1133,18 @@
         ]
     },
     {
+        "name": "Glasskube",
+        "url": "https://github.com/glasskube/glasskube",
+        "description": "Next generation Kubernetes package manager with GUI and CLI, featuring typesafe configuration, dependency management, and GitOps integration.",
+        "tags": [
+            "command line",
+            "GUI",
+            "kubernetes",
+            "package manager",
+            "source: Go"
+        ]
+    },
+    {
         "name": "GlotLID",
         "url": "https://github.com/cisnlp/GlotLID",
         "description": "GlotLID is an open-source language identification model with support for more than 1600 languages.",
@@ -968,6 +1177,19 @@
         ]
     },
     {
+        "name": "Greenmask",
+        "url": "https://github.com/GreenmaskIO/greenmask",
+        "description": "PostgreSQL database backup, anonymization, and synthetic data generation utility with deterministic transformers and backward compatibility with pg_dump/pg_restore.",
+        "tags": [
+            "command line",
+            "data generator",
+            "database",
+            "PostgreSQL",
+            "privacy",
+            "source: Go"
+        ]
+    },
+    {
         "name": "grep",
         "url": "https://www.gnu.org/software/grep",
         "description": "Grep searches one or more input files for lines containing a match to a specified pattern.",
@@ -990,6 +1212,19 @@
             "command line",
             "regex",
             "regular expression",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "GritQL",
+        "url": "https://github.com/getgrit/gritql",
+        "description": "A declarative query language for searching, linting, and modifying source code across multiple programming languages with high performance and 200+ built-in patterns.",
+        "tags": [
+            "code search",
+            "command line",
+            "find and replace",
+            "linter",
+            "multi-language",
             "source: Rust"
         ]
     },
@@ -1019,6 +1254,19 @@
             "dataflow",
             "library",
             "source: Python"
+        ]
+    },
+    {
+        "name": "Hatchet",
+        "url": "https://github.com/hatchet-dev/hatchet",
+        "description": "Background task and durable workflow execution platform built on PostgreSQL, combining task queue, observability, alerting, dashboard, and CLI.",
+        "tags": [
+            "dashboard",
+            "orchestrator",
+            "PostgreSQL",
+            "queue",
+            "scheduler",
+            "source: Go"
         ]
     },
     {
@@ -1174,6 +1422,19 @@
         ]
     },
     {
+        "name": "ingestr",
+        "url": "https://github.com/bruin-data/ingestr",
+        "description": "A CLI tool for copying data between 20+ databases and 30+ platforms with support for incremental loading, merge strategies, and no-code operation.",
+        "tags": [
+            "command line",
+            "data processing",
+            "database",
+            "database transfer",
+            "pipeline",
+            "source: Python"
+        ]
+    },
+    {
         "name": "Insanely Fast Whisper",
         "url": "https://github.com/Vaibhavs10/insanely-fast-whisper",
         "description": "Insanely Fast Whisper transcribe 300 minutes (5 hours) of audio in less than 10 minutes.",
@@ -1205,6 +1466,17 @@
         ]
     },
     {
+        "name": "Instant",
+        "url": "https://github.com/instantdb/instant",
+        "description": "Modern Firebase alternative providing a real-time database with relational queries, offline support, multiplayer functionality, and permission system.",
+        "tags": [
+            "API",
+            "database",
+            "real-time workflow",
+            "source: Clojure"
+        ]
+    },
+    {
         "name": "InvokeAI",
         "url": "https://github.com/invoke-ai/InvokeAI",
         "description": "This version of Stable Diffusion features a slick WebGUI, an interactive command-line script that combines text2img and img2img functionality in a \"dream bot\" style interface, and multiple features and other enhancements. For more info, see the website link below.",
@@ -1233,6 +1505,19 @@
         "description": "ipyflow is a next-generation Python kernel for Jupyter and other notebook interfaces that tracks dataflow relationships between symbols and cells during a given interactive session.",
         "tags": [
             "Jupyter",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "iText2KG",
+        "url": "https://github.com/AuvaLab/itext2kg",
+        "description": "A framework for constructing knowledge graphs from unstructured text documents using LLMs, with incremental entity resolution and relation extraction.",
+        "tags": [
+            "data processing",
+            "knowledge graph",
+            "Language Model",
+            "Machine Learning",
+            "NLP",
             "source: Python"
         ]
     },
@@ -1361,6 +1646,18 @@
         ]
     },
     {
+        "name": "Kamal",
+        "url": "https://github.com/basecamp/kamal",
+        "description": "A deployment tool for web apps enabling zero-downtime deploys across bare metal to cloud VMs using Docker containers and seamless traffic switching.",
+        "tags": [
+            "command line",
+            "container",
+            "deploy",
+            "docker",
+            "source: Ruby"
+        ]
+    },
+    {
         "name": "Kangas",
         "url": "https://github.com/comet-ml/kangas",
         "description": "Kangas is a tool for exploring, analyzing, and visualizing large-scale multimedia data.",
@@ -1422,6 +1719,44 @@
         ]
     },
     {
+        "name": "Kopia",
+        "url": "https://github.com/kopia/kopia",
+        "description": "Fast and secure backup/restore tool with client-side encryption, deduplication, compression, supporting cloud storage (S3, Azure, GCS) and local targets.",
+        "tags": [
+            "cloud",
+            "command line",
+            "compression",
+            "encryption",
+            "GUI",
+            "storage",
+            "source: Go"
+        ]
+    },
+    {
+        "name": "Kotaemon",
+        "url": "https://github.com/Cinnamon/kotaemon",
+        "description": "An open-source RAG application for chatting with documents, featuring hybrid retrieval, multi-modal support, detailed citations, and multiple LLM backend options.",
+        "tags": [
+            "AI powered",
+            "chat",
+            "documentation",
+            "Language Model",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "kty",
+        "url": "https://github.com/grampelberg/kty",
+        "description": "SSH-based access to Kubernetes clusters with terminal UI, social login via GitHub/Google, pod shell access, log viewing, and file transfer via scp/sftp.",
+        "tags": [
+            "dashboard",
+            "kubernetes",
+            "ssh",
+            "terminal interface",
+            "source: Rust"
+        ]
+    },
+    {
         "name": "Label Studio",
         "url": "https://github.com/heartexlabs/label-studio/",
         "description": "Label Studio is an open source data labeling tool. It lets you label data types like audio, text, images, videos, and time series with a simple and straightforward UI and export to various model formats. It can be used to prepare raw data or improve existing training data to get more accurate ML models.",
@@ -1464,6 +1799,18 @@
         ]
     },
     {
+        "name": "lazygit",
+        "url": "https://github.com/jesseduffield/lazygit",
+        "description": "Terminal UI for Git with interactive staging, visual rebasing, cherry-picking, commit graph visualization, and undo/redo via reflog.",
+        "tags": [
+            "git",
+            "git GUI",
+            "interactive",
+            "terminal interface",
+            "source: Go"
+        ]
+    },
+    {
         "name": "LibreTranslate",
         "url": "https://github.com/LibreTranslate/LibreTranslate",
         "description": "Free and Open Source Machine Translation API. 100% self-hosted, offline capable and easy to setup.",
@@ -1489,6 +1836,19 @@
         "tags": [
             "file manager",
             "terminal"
+        ]
+    },
+    {
+        "name": "LLaMA-Factory",
+        "url": "https://github.com/hiyouga/LLaMA-Factory",
+        "description": "Unified framework for efficient fine-tuning of 100+ LLMs and VLMs with support for LoRA, QLoRA, PPO, DPO, and various optimization techniques.",
+        "tags": [
+            "Deep Learning",
+            "fine-tuning",
+            "GPU",
+            "Language Model",
+            "Machine Learning",
+            "source: Python"
         ]
     },
     {
@@ -1597,6 +1957,18 @@
         ]
     },
     {
+        "name": "Mandark",
+        "url": "https://github.com/hrishioa/mandark",
+        "description": "AI-powered coding assistant supporting multiple models (Claude, GPT-4, Llama) with code extraction, multi-file editing, diff verification, and cost transparency.",
+        "tags": [
+            "AI powered",
+            "automation",
+            "code completion",
+            "command line",
+            "source: TypeScript"
+        ]
+    },
+    {
         "name": "matplotlib-gallery",
         "url": "https://github.com/rasbt/matplotlib-gallery",
         "description": "This repository is a collection of different matplotlib plots in IPython notebooks that I needed for my data visualizations.",
@@ -1623,6 +1995,18 @@
         "description": "Mercury allows you to add interactive widgets in Python notebooks, so you can share notebooks as web applications. Forget about rewriting notebooks to web frameworks just to share your results. Mercury offers a set of widgets with simple re-execution of cells.",
         "tags": [
             "Jupyter",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "mergekit",
+        "url": "https://github.com/arcee-ai/mergekit",
+        "description": "A toolkit for merging pre-trained language models using multiple algorithms (linear, SLERP, TIES, DARE) with out-of-core approach enabling complex merges in resource-constrained environments.",
+        "tags": [
+            "Deep Learning",
+            "Language Model",
+            "Machine Learning",
+            "merge lm",
             "source: Python"
         ]
     },
@@ -1722,6 +2106,30 @@
         "description": "Newspaper3k: Article scraping & curation",
         "tags": [
             "web scraper"
+        ]
+    },
+    {
+        "name": "ngtop",
+        "url": "https://github.com/facundoolano/ngtop",
+        "description": "A CLI tool for analyzing nginx access logs with flexible filtering, grouping by URL/status/user-agent, time range queries, and SQLite storage.",
+        "tags": [
+            "analysis",
+            "command line",
+            "logs",
+            "statistics",
+            "source: Go"
+        ]
+    },
+    {
+        "name": "Niquests",
+        "url": "https://github.com/jawah/niquests",
+        "description": "Drop-in replacement for Python Requests with HTTP/1.1, HTTP/2, HTTP/3, WebSocket, async support, DNS-over-HTTPS, and connection multiplexing.",
+        "tags": [
+            "API",
+            "library",
+            "network",
+            "requests",
+            "source: Python"
         ]
     },
     {
@@ -1831,6 +2239,20 @@
         ]
     },
     {
+        "name": "PE-bear",
+        "url": "https://github.com/hasherezade/pe-bear",
+        "description": "Multiplatform reversing tool for PE files providing fast and flexible analysis for malware analysts, capable of handling malformed PE files.",
+        "tags": [
+            "analysis",
+            "binary",
+            "cross-platform",
+            "GUI",
+            "reverse engineering",
+            "security",
+            "source: C++"
+        ]
+    },
+    {
         "name": "Pelikan",
         "url": "https://github.com/twitter/pelikan",
         "description": "Pelikan is framework for developing cache services.",
@@ -1929,6 +2351,19 @@
         ]
     },
     {
+        "name": "Pipet",
+        "url": "https://github.com/bjesus/pipet",
+        "description": "A web scraping tool supporting HTML parsing via CSS selectors, JSON parsing with GJSON, JavaScript evaluation, pagination, and change monitoring with Unix pipe integration.",
+        "tags": [
+            "command line",
+            "HTML",
+            "JSON",
+            "monitoring",
+            "web scraper",
+            "source: Go"
+        ]
+    },
+    {
         "name": "pixi",
         "url": "https://github.com/prefix-dev/pixi",
         "description": "pixi is a cross-platform, multi-language package manager and workflow tool build on the shoulders of the conda ecosystem.",
@@ -1947,6 +2382,18 @@
             "database",
             "library",
             "PostgreSQL",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "Plano",
+        "url": "https://github.com/katanemo/plano",
+        "description": "AI-native proxy server and data plane for agentic apps with agent orchestration, model routing, OpenTelemetry tracing, and safety guardrails.",
+        "tags": [
+            "AI powered",
+            "monitoring",
+            "orchestrator",
+            "proxy",
             "source: Rust"
         ]
     },
@@ -1990,6 +2437,19 @@
         "tags": [
             "database",
             "source: C"
+        ]
+    },
+    {
+        "name": "Posting",
+        "url": "https://github.com/darrenburns/posting",
+        "description": "A terminal-based HTTP client with jump mode navigation, environment variables, vim keybindings, and YAML-based request storage for version control.",
+        "tags": [
+            "API",
+            "command line",
+            "HTTP client",
+            "terminal interface",
+            "testing API",
+            "source: Python"
         ]
     },
     {
@@ -2130,6 +2590,17 @@
         ]
     },
     {
+        "name": "Quarkdown",
+        "url": "https://github.com/iamgio/quarkdown",
+        "description": "Modern Markdown-based typesetting system compiling to print-ready books or interactive presentations with Turing-complete scripting and live preview.",
+        "tags": [
+            "documentation",
+            "Markdown",
+            "presentation",
+            "source: Kotlin"
+        ]
+    },
+    {
         "name": "ranger",
         "url": "https://github.com/ranger/ranger",
         "description": "ranger is a console file manager with VI key bindings",
@@ -2244,6 +2715,18 @@
         ]
     },
     {
+        "name": "ruroco",
+        "url": "https://github.com/beac0n/ruroco",
+        "description": "A security-focused tool for remote command execution via encrypted UDP packets with AES-256-GCM encryption, replay protection, and Single Packet Authorization support.",
+        "tags": [
+            "command line",
+            "encryption",
+            "network",
+            "security",
+            "source: Rust"
+        ]
+    },
+    {
         "name": "rye",
         "url": "https://github.com/mitsuhiko/rye",
         "description": "Rye is Armin's personal one-stop-shop for all his Python needs. It installs and manages Python installations, manages pyproject.toml files, installs and uninstalls dependencies, manages virtualenvs behind the scenes. It supports monorepos and global tool installations.",
@@ -2252,6 +2735,17 @@
             "developer environment",
             "environment manager",
             "Python interpreter",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "Rye",
+        "url": "https://github.com/astral-sh/rye",
+        "description": "A comprehensive Python project and package management tool with automated installations, virtual environments, linting, and workspace support. Note: archived in favor of uv.",
+        "tags": [
+            "command line",
+            "environment manager",
+            "package manager",
             "source: Rust"
         ]
     },
@@ -2271,6 +2765,18 @@
         "tags": [
             "profiler",
             "source: Python"
+        ]
+    },
+    {
+        "name": "scrcpy",
+        "url": "https://github.com/Genymobile/scrcpy",
+        "description": "An Android device mirroring and control application via USB or TCP/IP with 30-120fps display, audio forwarding, recording, and camera mirroring support.",
+        "tags": [
+            "audio",
+            "command line",
+            "cross-platform",
+            "video",
+            "source: C"
         ]
     },
     {
@@ -2309,6 +2815,32 @@
         "tags": [
             "binary",
             "source: Rust"
+        ]
+    },
+    {
+        "name": "semantic-grep",
+        "url": "https://github.com/arunsupe/semantic-grep",
+        "description": "A semantic search tool that finds text using word embeddings instead of exact string matching, supporting 157+ languages via FastText models.",
+        "tags": [
+            "command line",
+            "embeddings",
+            "multi-language",
+            "searching",
+            "command line: grep",
+            "source: Go"
+        ]
+    },
+    {
+        "name": "ShadowFinder",
+        "url": "https://github.com/bellingcat/ShadowFinder",
+        "description": "A geolocation tool that estimates Earth surface locations based on shadow lengths, using object height, shadow measurements, and time data for open-source investigations.",
+        "tags": [
+            "analysis",
+            "command line",
+            "geolocation",
+            "image",
+            "visualization",
+            "source: Python"
         ]
     },
     {
@@ -2363,6 +2895,19 @@
         ]
     },
     {
+        "name": "Sparrow",
+        "url": "https://github.com/katanaml/sparrow",
+        "description": "Platform for structured data extraction from documents (PDFs, images) using ML, LLM, and Vision LLM with JSON schema validation and multiple backend support.",
+        "tags": [
+            "API",
+            "data processing",
+            "Deep Learning",
+            "Machine Learning",
+            "OCR",
+            "source: Python"
+        ]
+    },
+    {
         "name": "spin",
         "url": "https://github.com/serversideup/spin",
         "description": "spin is a bash utility that improves the user-experience for teams using Docker.",
@@ -2388,6 +2933,18 @@
         "description": "SQLite is a database in a single disk file.",
         "tags": [
             "database",
+            "source: C"
+        ]
+    },
+    {
+        "name": "sqlite-vec",
+        "url": "https://github.com/asg017/sqlite-vec",
+        "description": "A small and fast vector search SQLite extension supporting float, int8, and binary vectors with KNN queries, written in pure C with no dependencies.",
+        "tags": [
+            "database",
+            "embeddings",
+            "sqlite",
+            "vector search",
             "source: C"
         ]
     },
@@ -2423,6 +2980,18 @@
             "GUI",
             "monitoring",
             "command line: top"
+        ]
+    },
+    {
+        "name": "StarbaseDB",
+        "url": "https://github.com/Brayden/starbasedb",
+        "description": "An HTTP SQLite database built on Cloudflare Durable Objects with scale-to-zero architecture, WebSocket support, and automatic REST API generation.",
+        "tags": [
+            "API",
+            "cloud",
+            "database",
+            "sqlite",
+            "source: TypeScript"
         ]
     },
     {
@@ -2649,6 +3218,19 @@
         ]
     },
     {
+        "name": "Treescope",
+        "url": "https://github.com/google-deepmind/treescope",
+        "description": "Interactive HTML pretty-printer and N-dimensional array visualizer for machine learning research in IPython notebooks, with support for JAX, PyTorch, and NumPy.",
+        "tags": [
+            "Deep Learning",
+            "interactive",
+            "Jupyter",
+            "Machine Learning",
+            "visualization",
+            "source: Python"
+        ]
+    },
+    {
         "name": "trurl",
         "url": "https://github.com/curl/trurl",
         "description": "trurl is a command line tool for URL parsing and manipulation",
@@ -2748,6 +3330,18 @@
         ]
     },
     {
+        "name": "Viking",
+        "url": "https://github.com/d3witt/viking",
+        "description": "A CLI tool for managing remote bare metal servers with parallel command execution, file transfer, SSH key management, and machine grouping.",
+        "tags": [
+            "command line",
+            "management",
+            "server",
+            "ssh",
+            "source: Go"
+        ]
+    },
+    {
         "name": "Vizro",
         "url": "https://github.com/mckinsey/vizro",
         "description": "Vizro is a toolkit for creating modular data visualization applications.",
@@ -2829,6 +3423,32 @@
         ]
     },
     {
+        "name": "whisper.cpp",
+        "url": "https://github.com/ggerganov/whisper.cpp",
+        "description": "High-performance C/C++ implementation of OpenAI's Whisper automatic speech recognition model with zero runtime dependencies, supporting various hardware accelerations.",
+        "tags": [
+            "audio",
+            "cross-platform",
+            "Machine Learning",
+            "speech recognition",
+            "transcription",
+            "source: C++"
+        ]
+    },
+    {
+        "name": "whisper.cpp-cli",
+        "url": "https://github.com/charliermarsh/whisper.cpp-cli",
+        "description": "A Python wrapper around whisper.cpp CLI that packages it into pre-built, pip-installable wheels for macOS and Linux.",
+        "tags": [
+            "audio",
+            "command line",
+            "Python wrapper",
+            "speech recognition",
+            "transcription",
+            "source: Python"
+        ]
+    },
+    {
         "name": "WhisperPlus",
         "url": "https://github.com/kadirnar/whisper-plus",
         "description": "WhisperPlus: Advancing Speech-to-Text Processing.",
@@ -2848,6 +3468,18 @@
             "GPU",
             "library",
             "source: Rust"
+        ]
+    },
+    {
+        "name": "WordLlama",
+        "url": "https://github.com/dleemiller/WordLlama",
+        "description": "A fast lightweight NLP toolkit for fuzzy deduplication, similarity computation, ranking, clustering, and semantic text splitting using token embeddings.",
+        "tags": [
+            "deduplication",
+            "embeddings",
+            "library",
+            "NLP",
+            "source: Python"
         ]
     },
     {
