@@ -38,6 +38,31 @@
         ]
     },
     {
+        "name": "Airweave",
+        "url": "https://github.com/airweave-ai/airweave",
+        "description": "An open-source context retrieval infrastructure that connects to apps, databases, and documents, continuously syncing their data and exposing it through a unified search interface for AI agents and RAG systems.",
+        "tags": [
+            "AI agents",
+            "API",
+            "context retrieval",
+            "RAG",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "aisuite",
+        "url": "https://github.com/andrewyng/aisuite",
+        "description": "A lightweight Python library providing a unified API for working with multiple generative AI providers enabling developers to build LLM-based and agentic applications with minimal setup.",
+        "tags": [
+            "agent builder",
+            "AI powered",
+            "API",
+            "Language Model",
+            "library",
+            "source: Python"
+        ]
+    },
+    {
         "name": "allocscope",
         "url": "https://github.com/matt-kimball/allocscope",
         "description": "allocscope is a tool for tracking down where the most egregiously large allocations are occurring in a C, C++ or Rust codebase.",
@@ -69,6 +94,21 @@
             "music generation",
             "speech generation",
             "source: Python"
+        ]
+    },
+    {
+        "name": "AnythingLLM",
+        "url": "https://github.com/Mintplex-Labs/anything-llm",
+        "description": "An all-in-one desktop and Docker AI application with built-in RAG, no-code agent builder, MCP compatibility, multi-user support, and integration with 30+ LLM providers for creating private ChatGPT-like systems.",
+        "tags": [
+            "agent builder",
+            "AI powered",
+            "automation",
+            "chat",
+            "GUI",
+            "Language Model",
+            "RAG",
+            "source: JavaScript"
         ]
     },
     {
@@ -112,6 +152,18 @@
             "searching",
             "command line: grep",
             "source: Rust"
+        ]
+    },
+    {
+        "name": "atpbar",
+        "url": "https://github.com/alphatwirl/atpbar",
+        "description": "A Python library that displays multiple progress bars simultaneously for threading and multiprocessing tasks, functioning on both terminal and Jupyter Notebook environments.",
+        "tags": [
+            "Jupyter",
+            "library",
+            "parallel",
+            "progress bar",
+            "source: Python"
         ]
     },
     {
@@ -205,6 +257,19 @@
         ]
     },
     {
+        "name": "bknd",
+        "url": "https://github.com/bknd-io/bknd",
+        "description": "A lightweight Firebase/Supabase alternative providing modular backend system with database management, authentication, media handling, and workflows that deploys across multiple runtimes without vendor lock-in.",
+        "tags": [
+            "API development platform",
+            "authentication",
+            "database managment",
+            "Firebase",
+            "Supabase",
+            "source: TypeScript"
+        ]
+    },
+    {
         "name": "BleachBit",
         "url": "https://github.com/bleachbit/bleachbit",
         "description": "BleachBit cleans files to free disk space and to maintain privacy.",
@@ -212,6 +277,30 @@
             "deletion tool",
             "disc utility",
             "privacy"
+        ]
+    },
+    {
+        "name": "Blinko",
+        "url": "https://github.com/blinkospace/blinko",
+        "description": "An open-source, self-hosted personal AI note-taking application that enables users to quickly capture and organize fleeting thoughts using natural language processing and RAG technology.",
+        "tags": [
+            "AI powered",
+            "note",
+            "privacy",
+            "RAG",
+            "self-hosted",
+            "source: TypeScript"
+        ]
+    },
+    {
+        "name": "BookLore",
+        "url": "https://github.com/booklore-app/booklore",
+        "description": "A self-hosted web application for organizing personal book collections with smart organization, custom shelves, powerful filters, and dynamic auto-updating collections through magic shelves.",
+        "tags": [
+            "book collections",
+            "management",
+            "self-hosted",
+            "source: Java"
         ]
     },
     {
@@ -271,12 +360,50 @@
         ]
     },
     {
+        "name": "Buzz",
+        "url": "https://github.com/chidiwilliams/buzz",
+        "description": "An offline audio transcription and translation application powered by OpenAI's Whisper, enabling local audio and video file processing without internet connectivity.",
+        "tags": [
+            "audio",
+            "GUI",
+            "transcription",
+            "translation",
+            "video",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "Bytebot",
+        "url": "https://github.com/bytebot-ai/bytebot",
+        "description": "An open-source AI desktop agent that automates computer tasks through natural language commands, operating within a containerized Linux desktop environment with full application access.",
+        "tags": [
+            "AI powered",
+            "automation",
+            "GUI",
+            "source: TypeScript"
+        ]
+    },
+    {
         "name": "cachegrand",
         "url": "https://github.com/danielealbano/cachegrand",
         "description": "cachegrand - a modern OSS Key-Value store built for today's hardware",
         "tags": [
             "caching",
             "storage"
+        ]
+    },
+    {
+        "name": "Canine",
+        "url": "https://github.com/czhu12/canine",
+        "description": "A self-hosted Kubernetes deployment platform that brings PaaS simplicity to your own infrastructure, enabling deployments via git push and intuitive web management without requiring YAML knowledge.",
+        "tags": [
+            "Automated Deployments",
+            "automation",
+            "containers",
+            "kubernetes",
+            "Platform-as-a-Service",
+            "self-hosted",
+            "source: Ruby"
         ]
     },
     {
@@ -296,6 +423,17 @@
         "tags": [
             "command line",
             "debugging"
+        ]
+    },
+    {
+        "name": "Ceph",
+        "url": "https://github.com/ceph/ceph",
+        "description": "A distributed object, block, and file storage platform designed to be scalable and unified across multiple storage types with erasure coding capabilities.",
+        "tags": [
+            "database",
+            "file storage",
+            "storage",
+            "source: C++"
         ]
     },
     {
@@ -330,6 +468,45 @@
         ]
     },
     {
+        "name": "Claude Code",
+        "url": "https://github.com/anthropics/claude-code",
+        "description": "An agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining code, and handling git workflows through natural language commands.",
+        "tags": [
+            "agentic coding",
+            "AI powered",
+            "automation",
+            "code generation",
+            "command line",
+            "terminal",
+            "source: Python",
+            "source: Shell"
+        ]
+    },
+    {
+        "name": "Cline",
+        "url": "https://github.com/cline/cline",
+        "description": "An AI-powered coding assistant integrated into VS Code that autonomously handles complex development tasks, including file creation/editing, terminal commands, browser automation, and custom tool extensions.",
+        "tags": [
+            "AI powered",
+            "automation",
+            "code generation",
+            "source: TypeScript"
+        ]
+    },
+    {
+        "name": "Cocommit",
+        "url": "https://github.com/andrewromanenco/cocommit",
+        "description": "A command-line tool that analyzes your Git HEAD commit and uses an LLM to enhance commit quality by suggesting improvements to commit messages.",
+        "tags": [
+            "AI powered",
+            "automation",
+            "command line",
+            "commit message",
+            "git",
+            "source: Python"
+        ]
+    },
+    {
         "name": "Codel",
         "url": "https://github.com/semanser/codel",
         "description": "Fully autonomous AI Agent that can perform complicated tasks using terminal, browser, and editor in a sandboxed Docker environment.",
@@ -355,6 +532,15 @@
             "command line",
             "searching",
             "source: Go"
+        ]
+    },
+    {
+        "name": "Codon",
+        "url": "https://github.com/exaloop/codon",
+        "description": "A high-performance Python compiler that translates code to native machine code without runtime overhead, delivering 10-100x typical speedups compared to standard Python while maintaining near C/C++ performance levels.",
+        "tags": [
+            "compiler",
+            "source: Python"
         ]
     },
     {
@@ -391,6 +577,19 @@
         ]
     },
     {
+        "name": "Composio",
+        "url": "https://github.com/ComposioHQ/composio",
+        "description": "A toolkit that equips AI agents and large language models with 100+ high-quality integrations through function calling capabilities.",
+        "tags": [
+            "AI agents",
+            "AI powered",
+            "framework",
+            "function calling",
+            "Language Model",
+            "source: TypeScript"
+        ]
+    },
+    {
         "name": "Conductor",
         "url": "https://github.com/conductor-oss/conductor",
         "description": "Conductor is a platform originally created at Netflix to orchestrate microservices and events.",
@@ -405,6 +604,16 @@
         "description": "Configu is a simple, modern, and generic standard for managing and collaborating software configurations.",
         "tags": [
             "configuration",
+            "source: TypeScript"
+        ]
+    },
+    {
+        "name": "ConvertX",
+        "url": "https://github.com/C4illin/ConvertX",
+        "description": "A self-hosted online file converter supporting over 1,000 different formats for private file transformation needs.",
+        "tags": [
+            "file convert",
+            "self-hosted",
             "source: TypeScript"
         ]
     },
@@ -451,11 +660,36 @@
         ]
     },
     {
+        "name": "CrewAI",
+        "url": "https://github.com/crewAIInc/crewAI",
+        "description": "A lean Python framework for orchestrating multi-agent AI systems where autonomous agents work together seamlessly to tackle complex tasks through role-based collaboration and event-driven workflows.",
+        "tags": [
+            "agent builder",
+            "AI powered",
+            "automation",
+            "framework",
+            "source: Python"
+        ]
+    },
+    {
         "name": "CRIU",
         "url": "https://criu.org/Main_Page",
         "description": "Checkpoint/Restore In Userspace. It can freeze a running container (or an individual application) and checkpoint its state to disk. The data saved can be used to restore the application and run it exactly as it was during the time of the freeze. Using this functionality, application or container live migration, snapshots, remote debugging, and many other things are now possible.",
         "tags": [
             "Linux"
+        ]
+    },
+    {
+        "name": "Crush",
+        "url": "https://github.com/charmbracelet/crush",
+        "description": "A terminal-based AI coding agent that integrates with multiple LLM providers and development tools through LSP integration and MCP support, enabling AI assistance directly from the command line.",
+        "tags": [
+            "AI powered",
+            "automation",
+            "code generation",
+            "command line",
+            "terminal",
+            "source: Go"
         ]
     },
     {
@@ -522,6 +756,22 @@
         ]
     },
     {
+        "name": "Dasel",
+        "url": "https://github.com/TomWright/dasel",
+        "description": "A command-line tool and Go library for querying, modifying, and transforming structured data across multiple formats including JSON, YAML, TOML, XML, CSV, HCL, and INI files using a unified syntax.",
+        "tags": [
+            "command line",
+            "CSV",
+            "data processing",
+            "JSON",
+            "quering",
+            "transforming",
+            "XML",
+            "YAML",
+            "source: Go"
+        ]
+    },
+    {
         "name": "Datadrift",
         "url": "https://github.com/data-drift/data-drift",
         "description": "Datadrift is an open-source monitoring and incident management platform to help data teams deliver trusted and reliable metrics.",
@@ -529,6 +779,19 @@
             "metrics",
             "monitoring",
             "source: TypeScript"
+        ]
+    },
+    {
+        "name": "dataframely",
+        "url": "https://github.com/Quantco/dataframely",
+        "description": "A declarative, Polars-native data frame validation library for Python that validates both schema and content using type specifications, custom validation rules, and automatic type casting for robust data pipelines.",
+        "tags": [
+            "data processing",
+            "data validation",
+            "library",
+            "Polars",
+            "schema validation",
+            "source: Python"
         ]
     },
     {

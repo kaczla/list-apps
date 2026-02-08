@@ -20,6 +20,12 @@ Some descriptions are from:
 - aim [🛈](https://github.com/aimhubio/aim)
   - An easy-to-use & supercharged open-source AI metadata tracker.
   - Tags: dashboard, metadata tracker, metrics, source: Python
+- Airweave [🛈](https://github.com/airweave-ai/airweave)
+  - An open-source context retrieval infrastructure that connects to apps, databases, and documents, continuously syncing their data and exposing it through a unified search interface for AI agents and RAG systems.
+  - Tags: AI agents, API, context retrieval, RAG, source: Python
+- aisuite [🛈](https://github.com/andrewyng/aisuite)
+  - A lightweight Python library providing a unified API for working with multiple generative AI providers enabling developers to build LLM-based and agentic applications with minimal setup.
+  - Tags: agent builder, AI powered, API, Language Model, library, source: Python
 - allocscope [🛈](https://github.com/matt-kimball/allocscope)
   - allocscope is a tool for tracking down where the most egregiously large allocations are occurring in a C, C++ or Rust codebase.
   - Tags: C, C++, library, memory tracking, source: Rust
@@ -29,6 +35,9 @@ Some descriptions are from:
 - Amphion [🛈](https://github.com/open-mmlab/Amphion)
   - Amphion is a toolkit for Audio, Music, and Speech Generation.
   - Tags: audio generation, music generation, speech generation, source: Python
+- AnythingLLM [🛈](https://github.com/Mintplex-Labs/anything-llm)
+  - An all-in-one desktop and Docker AI application with built-in RAG, no-code agent builder, MCP compatibility, multi-user support, and integration with 30+ LLM providers for creating private ChatGPT-like systems.
+  - Tags: agent builder, AI powered, automation, chat, GUI, Language Model, RAG, source: JavaScript
 - Apprise [🛈](https://github.com/caronc/apprise)
   - Apprise is a library that allows developers to send notifications to almost all of the most popular notification services available. It features a common and intuitive notification syntax and it supports the handling of images and attachments. A list of notification types and services supported by Apprise is available.
   - Tags: notification
@@ -41,6 +50,9 @@ Some descriptions are from:
 - ast-grep [🛈](https://github.com/ast-grep/ast-grep)
   - ast-grep(sg) is a lightning fast and user friendly tool for code searching, linting, rewriting at large scale.
   - Tags: command line, library, pattern search, searching, command line: grep, source: Rust
+- atpbar [🛈](https://github.com/alphatwirl/atpbar)
+  - A Python library that displays multiple progress bars simultaneously for threading and multiprocessing tasks, functioning on both terminal and Jupyter Notebook environments.
+  - Tags: Jupyter, library, parallel, progress bar, source: Python
 - AudioCraft [🛈](https://github.com/facebookresearch/audiocraft)
   - AudioCraft is a PyTorch library for deep learning research on audio generation.
   - Tags: audio generation, Deep Learning, source: Python
@@ -65,9 +77,18 @@ Some descriptions are from:
 - bindiff [🛈](https://github.com/google/bindiff)
   - BinDiff is an open-source comparison tool for binary files to quickly find differences and similarities in disassembled code.
   - Tags: binary, command line, diff, command line: diff, source: Rust
+- bknd [🛈](https://github.com/bknd-io/bknd)
+  - A lightweight Firebase/Supabase alternative providing modular backend system with database management, authentication, media handling, and workflows that deploys across multiple runtimes without vendor lock-in.
+  - Tags: API development platform, authentication, database managment, Firebase, Supabase, source: TypeScript
 - BleachBit [🛈](https://github.com/bleachbit/bleachbit)
   - BleachBit cleans files to free disk space and to maintain privacy.
   - Tags: deletion tool, disc utility, privacy
+- Blinko [🛈](https://github.com/blinkospace/blinko)
+  - An open-source, self-hosted personal AI note-taking application that enables users to quickly capture and organize fleeting thoughts using natural language processing and RAG technology.
+  - Tags: AI powered, note, privacy, RAG, self-hosted, source: TypeScript
+- BookLore [🛈](https://github.com/booklore-app/booklore)
+  - A self-hosted web application for organizing personal book collections with smart organization, custom shelves, powerful filters, and dynamic auto-updating collections through magic shelves.
+  - Tags: book collections, management, self-hosted, source: Java
 - bottom [🛈](https://github.com/ClementTsang/bottom)
   - bottom is a customizable cross-platform graphical process/system monitor for the terminal.
   - Tags: command line, monitoring, command line: top, source: Rust
@@ -83,15 +104,27 @@ Some descriptions are from:
 - burn [🛈](https://github.com/burn-rs/burn)
   - This library aims to be a complete deep learning framework with extreme flexibility written in Rust. The goal would be to satisfy researchers as well as practitioners making it easier to experiment, train and deploy your models.
   - Tags: Deep Learning, Deep Learning framework, framework, source: Rust
+- Buzz [🛈](https://github.com/chidiwilliams/buzz)
+  - An offline audio transcription and translation application powered by OpenAI's Whisper, enabling local audio and video file processing without internet connectivity.
+  - Tags: audio, GUI, transcription, translation, video, source: Python
+- Bytebot [🛈](https://github.com/bytebot-ai/bytebot)
+  - An open-source AI desktop agent that automates computer tasks through natural language commands, operating within a containerized Linux desktop environment with full application access.
+  - Tags: AI powered, automation, GUI, source: TypeScript
 - cachegrand [🛈](https://github.com/danielealbano/cachegrand)
   - cachegrand - a modern OSS Key-Value store built for today's hardware
   - Tags: caching, storage
+- Canine [🛈](https://github.com/czhu12/canine)
+  - A self-hosted Kubernetes deployment platform that brings PaaS simplicity to your own infrastructure, enabling deployments via git push and intuitive web management without requiring YAML knowledge.
+  - Tags: Automated Deployments, automation, containers, kubernetes, Platform-as-a-Service, self-hosted, source: Ruby
 - carbonyl [🛈](https://github.com/fathyb/carbonyl)
   - Carbonyl is a Chromium based browser built to run in a terminal.
   - Tags: command line, web browser, source: Rust
 - catp [🛈](https://github.com/rapiz1/catp)
   - catp is a tool for printing the output of a running process. It uses ptrace to intercept syscall and extracts data from the syscall write. catp works for most applications on x86_64 Linux systems. It requires root privilege to run in most systems.
   - Tags: command line, debugging
+- Ceph [🛈](https://github.com/ceph/ceph)
+  - A distributed object, block, and file storage platform designed to be scalable and unified across multiple storage types with erasure coding capabilities.
+  - Tags: database, file storage, storage, source: C++
 - chatanalytics [🛈](https://github.com/mlomb/chat-analytics)
   - Generate interactive, beautiful and insightful chat analysis reports.
   - Tags: analysis, GUI, report
@@ -101,12 +134,24 @@ Some descriptions are from:
 - Cherrybomb [🛈](https://github.com/blst-security/cherrybomb)
   - Cherrybomb is an CLI tool written in Rust that helps prevent incorrect code implementation early in development. It works by validating and testing your API using an OpenAPI file. Its main goal is to reduce security errors and ensure your API functions as intended.
   - Tags: API, linter, source: Rust
+- Claude Code [🛈](https://github.com/anthropics/claude-code)
+  - An agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining code, and handling git workflows through natural language commands.
+  - Tags: agentic coding, AI powered, automation, code generation, command line, terminal, source: Python, source: Shell
+- Cline [🛈](https://github.com/cline/cline)
+  - An AI-powered coding assistant integrated into VS Code that autonomously handles complex development tasks, including file creation/editing, terminal commands, browser automation, and custom tool extensions.
+  - Tags: AI powered, automation, code generation, source: TypeScript
+- Cocommit [🛈](https://github.com/andrewromanenco/cocommit)
+  - A command-line tool that analyzes your Git HEAD commit and uses an LLM to enhance commit quality by suggesting improvements to commit messages.
+  - Tags: AI powered, automation, command line, commit message, git, source: Python
 - Codel [🛈](https://github.com/semanser/codel)
   - Fully autonomous AI Agent that can perform complicated tasks using terminal, browser, and editor in a sandboxed Docker environment.
   - Tags: AI powered, docker, editor, GUI, Language Model, PostgreSQL, terminal, web browser, source: Go, source: TypeScript
 - codespelunker [🛈](https://github.com/boyter/cs)
   - codespelunker is a command line search tool. Allows you to search over code or text files in the current directory either on the console, via a TUI or HTTP server, using some boolean queries or regular expressions.
   - Tags: code search, command line, searching, source: Go
+- Codon [🛈](https://github.com/exaloop/codon)
+  - A high-performance Python compiler that translates code to native machine code without runtime overhead, delivering 10-100x typical speedups compared to standard Python while maintaining near C/C++ performance levels.
+  - Tags: compiler, source: Python
 - Cohere Toolkit [🛈](https://github.com/cohere-ai/cohere-toolkit)
   - A deployable all-in-one RAG application for building LLM-based products with multiple UI options, customizable backends, and cloud deployment guides.
   - Tags: AI powered, API, framework, Language Model, source: TypeScript
@@ -116,12 +161,18 @@ Some descriptions are from:
 - ComfyUI [🛈](https://github.com/comfyanonymous/ComfyUI)
   - A powerful node-based interface for creating diffusion model workflows supporting Stable Diffusion, Flux, and SD3 with memory optimization for low VRAM systems.
   - Tags: Deep Learning, GUI, image generation, Stable Diffusion Model, source: Python
+- Composio [🛈](https://github.com/ComposioHQ/composio)
+  - A toolkit that equips AI agents and large language models with 100+ high-quality integrations through function calling capabilities.
+  - Tags: AI agents, AI powered, framework, function calling, Language Model, source: TypeScript
 - Conductor [🛈](https://github.com/conductor-oss/conductor)
   - Conductor is a platform originally created at Netflix to orchestrate microservices and events.
   - Tags: orchestrator, source: Java
 - Configu [🛈](https://github.com/configu/configu)
   - Configu is a simple, modern, and generic standard for managing and collaborating software configurations.
   - Tags: configuration, source: TypeScript
+- ConvertX [🛈](https://github.com/C4illin/ConvertX)
+  - A self-hosted online file converter supporting over 1,000 different formats for private file transformation needs.
+  - Tags: file convert, self-hosted, source: TypeScript
 - Coqui TTS [🛈](https://github.com/coqui-ai/TTS)
   - A deep learning text-to-speech toolkit with pretrained models for 1100+ languages, voice cloning capabilities, and low-latency streaming support.
   - Tags: Deep Learning, multi-language, speech generation, text-to-audio, source: Python
@@ -134,9 +185,15 @@ Some descriptions are from:
 - Crawlee [🛈](https://github.com/apify/crawlee)
   - A web scraping and browser automation library for building reliable crawlers with HTTP/2 support, proxy rotation, persistent queues, and bot protection evasion.
   - Tags: automation, command line, proxy, web scraper, source: TypeScript
+- CrewAI [🛈](https://github.com/crewAIInc/crewAI)
+  - A lean Python framework for orchestrating multi-agent AI systems where autonomous agents work together seamlessly to tackle complex tasks through role-based collaboration and event-driven workflows.
+  - Tags: agent builder, AI powered, automation, framework, source: Python
 - CRIU [🛈](https://criu.org/Main_Page)
   - Checkpoint/Restore In Userspace. It can freeze a running container (or an individual application) and checkpoint its state to disk. The data saved can be used to restore the application and run it exactly as it was during the time of the freeze. Using this functionality, application or container live migration, snapshots, remote debugging, and many other things are now possible.
   - Tags: Linux
+- Crush [🛈](https://github.com/charmbracelet/crush)
+  - A terminal-based AI coding agent that integrates with multiple LLM providers and development tools through LSP integration and MCP support, enabling AI assistance directly from the command line.
+  - Tags: AI powered, automation, code generation, command line, terminal, source: Go
 - Cryptomator [🛈](https://github.com/cryptomator/cryptomator)
   - Cryptomator offers multi-platform transparent client-side encryption of your files in the cloud.
   - Tags: encryption, source: Java
@@ -155,9 +212,15 @@ Some descriptions are from:
 - daktilo [🛈](https://github.com/orhun/daktilo)
   - daktilo is a small command-line program that plays typewriter sounds every time you press a key.
   - Tags: command line, sounds, source: Rust
+- Dasel [🛈](https://github.com/TomWright/dasel)
+  - A command-line tool and Go library for querying, modifying, and transforming structured data across multiple formats including JSON, YAML, TOML, XML, CSV, HCL, and INI files using a unified syntax.
+  - Tags: command line, CSV, data processing, JSON, quering, transforming, XML, YAML, source: Go
 - Datadrift [🛈](https://github.com/data-drift/data-drift)
   - Datadrift is an open-source monitoring and incident management platform to help data teams deliver trusted and reliable metrics.
   - Tags: metrics, monitoring, source: TypeScript
+- dataframely [🛈](https://github.com/Quantco/dataframely)
+  - A declarative, Polars-native data frame validation library for Python that validates both schema and content using type specifications, custom validation rules, and automatic type casting for robust data pipelines.
+  - Tags: data processing, data validation, library, Polars, schema validation, source: Python
 - DataLens [🛈](https://github.com/datalens-tech/datalens)
   - DataLens is a modern business intelligence and data visualization system.
   - Tags: visualization, source: Python
@@ -1025,37 +1088,44 @@ Some descriptions are from:
 List of tags with occurrences in the brackets:
 
 - 3D image generation (1)
+- agent builder (3)
+- agentic coding (1)
+- AI agents (2)
 - AI personal assistant (3)
-- AI powered (10)
+- AI powered (20)
 - alerts (1)
 - AlphaZero (1)
 - analysis (4)
-- API (8)
-- API development platform (3)
-- audio (5)
+- API (10)
+- API development platform (4)
+- audio (6)
 - audio generation (3)
+- authentication (1)
 - autocomplete (1)
 - automate pull requests (1)
+- Automated Deployments (1)
 - automatic transcription (5)
-- automation (3)
+- automation (11)
 - awesome-list (1)
 - benchmarking (1)
 - binary (4)
+- book collections (1)
 - bookmark (1)
 - bug tracker (1)
 - bypass (1)
 - C (1)
 - C++ (1)
 - caching (5)
-- chat (2)
+- chat (3)
 - cheat sheet (4)
 - cloud (4)
 - code completion (4)
 - code formatting (2)
+- code generation (3)
 - code search (2)
 - code statistics (1)
 - coloring code (1)
-- command line (135)
+- command line (139)
 - command line: cat (1)
 - command line: cd (1)
 - command line: diff (3)
@@ -1074,24 +1144,29 @@ List of tags with occurrences in the brackets:
 - command line: shuf (1)
 - command line: top (5)
 - command line: uniq (2)
+- commit message (1)
+- compiler (1)
 - compression (4)
 - computer vision (2)
 - configuration (2)
 - container (5)
-- containers (1)
+- containers (2)
 - content extractor (7)
+- context retrieval (1)
 - cross-platform (8)
-- CSV (3)
+- CSV (4)
 - customizing (1)
 - dashboard (5)
 - data format (1)
 - data formatter (5)
 - data generator (2)
 - data labeling (1)
-- data processing (5)
+- data processing (7)
 - data structures (2)
 - data text processing (2)
-- database (25)
+- data validation (1)
+- database (26)
+- database managment (1)
 - database transfer (1)
 - dataflow (1)
 - debugger (1)
@@ -1123,27 +1198,31 @@ List of tags with occurrences in the brackets:
 - face sawpping (1)
 - face swapping (1)
 - fake data (1)
+- file convert (1)
 - file detection (1)
 - file listing (4)
 - file manager (5)
 - file searching (2)
+- file storage (1)
 - file system watcher (1)
 - filter editor (3)
 - find and replace (2)
 - fine-tuning (1)
+- Firebase (1)
 - forms (1)
 - forwarding (1)
 - framerate (1)
-- framework (6)
+- framework (8)
 - fun (1)
+- function calling (1)
 - fuzzy search (2)
 - geolocation (1)
-- git (11)
+- git (12)
 - git GUI (3)
 - GitHub actions (1)
 - GPU (6)
 - gRPC (1)
-- GUI (19)
+- GUI (22)
 - guide (5)
 - help message (1)
 - hex viewer (1)
@@ -1162,16 +1241,16 @@ List of tags with occurrences in the brackets:
 - isolation (3)
 - JavaScript engine (1)
 - job (1)
-- JSON (6)
-- Jupyter (7)
+- JSON (7)
+- Jupyter (8)
 - key-value store (4)
 - killing proces (1)
 - knowledge graph (1)
-- kubernetes (4)
+- kubernetes (5)
 - language detection (1)
 - language identification (1)
-- Language Model (12)
-- library (29)
+- Language Model (15)
+- library (32)
 - link management (1)
 - linter (6)
 - Linux (2)
@@ -1180,7 +1259,7 @@ List of tags with occurrences in the brackets:
 - Machine Learning transpiler (1)
 - Machine Translation (1)
 - makefile (1)
-- management (7)
+- management (8)
 - Markdown (4)
 - matplot (1)
 - memory tracking (1)
@@ -1195,6 +1274,7 @@ List of tags with occurrences in the brackets:
 - network (8)
 - nixpkgs (1)
 - NLP (5)
+- note (1)
 - Notebook (2)
 - notification (1)
 - object detection (1)
@@ -1202,7 +1282,7 @@ List of tags with occurrences in the brackets:
 - orchestrator (4)
 - package installer (2)
 - package manager (4)
-- parallel (2)
+- parallel (3)
 - parse file (1)
 - parsing (2)
 - passwords (1)
@@ -1210,20 +1290,23 @@ List of tags with occurrences in the brackets:
 - penetration tests (1)
 - pipeline (2)
 - platform (5)
+- Platform-as-a-Service (1)
+- Polars (1)
 - PostgreSQL (4)
 - presentation (2)
 - preventing secrets (1)
 - printing file (1)
-- privacy (2)
+- privacy (3)
 - profiler (2)
-- progress bar (1)
+- progress bar (2)
 - proxy (4)
 - pull requests (1)
 - Python interpreter (1)
 - Python linter (2)
 - Python wrapper (2)
-- quering (3)
+- quering (4)
 - queue (2)
+- RAG (3)
 - real-time workflow (2)
 - redis (1)
 - regex (4)
@@ -1236,10 +1319,12 @@ List of tags with occurrences in the brackets:
 - Rust (1)
 - scan vulnerability (1)
 - scheduler (2)
+- schema validation (1)
 - searching (12)
 - secret management (2)
 - secrets detector (1)
 - security (8)
+- self-hosted (4)
 - send email (1)
 - serialization (1)
 - server (3)
@@ -1251,18 +1336,18 @@ List of tags with occurrences in the brackets:
 - source control system (1)
 - source: C (12)
 - source: C# (1)
-- source: C++ (12)
+- source: C++ (13)
 - source: Clojure (1)
-- source: Go (28)
-- source: Java (3)
-- source: JavaScript (9)
+- source: Go (30)
+- source: Java (4)
+- source: JavaScript (10)
 - source: Kotlin (1)
-- source: Python (88)
+- source: Python (97)
 - source: Python linter (1)
-- source: Ruby (2)
+- source: Ruby (3)
 - source: Rust (77)
-- source: Shell (3)
-- source: TypeScript (18)
+- source: Shell (4)
+- source: TypeScript (24)
 - space (1)
 - speech generation (3)
 - speech recognition (6)
@@ -1272,12 +1357,13 @@ List of tags with occurrences in the brackets:
 - ssh (4)
 - Stable Diffusion Model (6)
 - statistics (2)
-- storage (3)
+- storage (4)
 - stream data (1)
+- Supabase (1)
 - syntax highlighting (2)
 - system call (1)
 - system events (1)
-- terminal (13)
+- terminal (15)
 - terminal emulator (1)
 - terminal interface (4)
 - testing API (4)
@@ -1288,14 +1374,16 @@ List of tags with occurrences in the brackets:
 - tldr (4)
 - trace (1)
 - tracking (1)
-- transcription (8)
+- transcription (9)
+- transforming (1)
+- translation (1)
 - transpiler (1)
 - TSV (1)
 - unique (4)
 - unstructured data (2)
 - url (1)
 - vector search (1)
-- video (12)
+- video (13)
 - video downloader (3)
 - video editing (1)
 - video generation (1)
@@ -1309,5 +1397,5 @@ List of tags with occurrences in the brackets:
 - web scraper (5)
 - web-browser extension (1)
 - website (1)
-- XML (2)
-- YAML (2)
+- XML (3)
+- YAML (3)

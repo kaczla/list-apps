@@ -74,15 +74,13 @@ def merge_applications(input_data: list[dict[str, Any]], dry_run: bool = False, 
                 replaced_count += 1
                 logger.info(f"[{idx + 1}] Replacing model: {model_info.name}")
             else:
-                logger.warning(f"[{idx + 1}] Duplicate URL for {model_info.name!r}: {model_info.url} - skipping")
+                logger.error(f"[{idx + 1}] Duplicate URL for {model_info.name!r}: {model_info.url} - skipping")
                 duplicate_count += 1
             continue
 
         # Check for duplicate name (different URL)
         if model_info.name in existing_names:
-            logger.warning(f"[{idx + 1}] Duplicate model name: {model_info.name!r} - skipping")
-            duplicate_count += 1
-            continue
+            logger.warning(f"[{idx + 1}] Duplicate model name for {model_info.name!r}: {model_info.url} - continuing")
 
         # Add to new items and update lookup sets
         new_items.append(model_info)
