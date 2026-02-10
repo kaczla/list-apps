@@ -24,6 +24,10 @@ uv run python -m list_app.generate_readme
 # Merge new applications from JSON file
 uv run python -m list_app.merge_json new_apps.json
 uv run python -m list_app.merge_json new_apps.json --dry-run  # Preview changes
+
+# Review new applications via browser UI (NiceGUI)
+uv run python -m list_app.review_app new_apps.json
+uv run python -m list_app.review_app new_apps.json --port 9090  # Custom port
 ```
 
 ## Adding New Applications
@@ -84,6 +88,7 @@ The canonical data lives in `data/json/applications.json`. The README.md is gene
 - `data.py` - Pydantic model `ApplicationData` (name, url, description, tags)
 - `generate_readme.py` - Generates README.md from applications.json, sorts apps alphabetically, generates Tags section with occurrence counts
 - `merge_json.py` - Merges new applications into applications.json with duplicate detection
+- `review_app.py` - NiceGUI browser UI for reviewing, editing, and merging new applications (file selection → per-app review with iframe preview → summary & merge)
 - `data_utils.py` - JSON loading utilities
 
 ### Tag Sorting Order
