@@ -8,15 +8,33 @@ Some descriptions are from:
 
 # List of application
 
+- 0xtools [🛈](https://github.com/tanelpoder/0xtools)
+  - A Linux performance analysis toolkit providing deep visibility into thread activity, system calls, and I/O operations through eBPF technology with minimal CPU overhead.
+  - Tags: Linux, monitoring, observability, profiler, source: Python
 - act [🛈](https://github.com/nektos/act)
   - Run your GitHub Actions locally.
   - Tags: GitHub actions
 - age [🛈](https://github.com/FiloSottile/age)
   - A simple, modern and secure encryption tool (and Go library) with small explicit keys, no config options, and UNIX-style composability.
   - Tags: command line, encryption
+- AgentScope [🛈](https://github.com/modelscope/agentscope)
+  - A production-ready agent framework designed for building LLM applications with essential abstractions for memory, planning, and finetuning.
+  - Tags: AI agents, framework, library, source: Python
+- Agno [🛈](https://github.com/phidatahq/phidata)
+  - A framework enabling the creation of multi-agent systems with persistent learning capabilities that remember users across sessions, accumulate knowledge, and learn from decisions.
+  - Tags: AI agents, framework, Language Model, multi-agent, RAG, source: Python
 - AI Getting Started [🛈](https://github.com/a16z-infra/ai-getting-started)
   - AI Getting Started is a Javascript AI getting started stack for weekend projects, including image/text models, vector stores, auth, and deployment configs.
   - Tags: Deep Learning, platform, source: TypeScript
+- AI Observer [🛈](https://github.com/tobilg/ai-observer)
+  - A self-hosted, single-binary observability backend for monitoring local AI coding assistants with real-time dashboards and token/cost tracking.
+  - Tags: AI agents, analytics, monitoring, observability, OpenTelemetry, self-hosted, source: Go
+- AIChat [🛈](https://github.com/sigoden/aichat)
+  - An all-in-one LLM CLI tool combining shell assistance, interactive chat, RAG document retrieval, and AI agent capabilities with support for 20+ providers.
+  - Tags: AI powered, chat, command line, Language Model, RAG, source: Rust
+- Aider [🛈](https://github.com/paul-gauthier/aider)
+  - AI pair programming tool that enables developers to collaborate with large language models directly in the terminal for building new projects or modifying existing codebases.
+  - Tags: AI powered, code generation, multi-language, terminal, source: Python
 - aim [🛈](https://github.com/aimhubio/aim)
   - An easy-to-use & supercharged open-source AI metadata tracker.
   - Tags: dashboard, metadata tracker, metrics, source: Python
@@ -35,6 +53,9 @@ Some descriptions are from:
 - Amphion [🛈](https://github.com/open-mmlab/Amphion)
   - Amphion is a toolkit for Audio, Music, and Speech Generation.
   - Tags: audio generation, music generation, speech generation, source: Python
+- Amurex [🛈](https://github.com/thepersonalaicompany/amurex)
+  - An open-source AI meeting copilot providing real-time suggestions, automatic summaries, action item extraction, and follow-up email generation for Google Meet and Microsoft Teams.
+  - Tags: AI powered, automation, chat, meetings, source: JavaScript
 - AnythingLLM [🛈](https://github.com/Mintplex-Labs/anything-llm)
   - An all-in-one desktop and Docker AI application with built-in RAG, no-code agent builder, MCP compatibility, multi-user support, and integration with 30+ LLM providers for creating private ChatGPT-like systems.
   - Tags: agent builder, AI powered, automation, chat, GUI, Language Model, RAG, source: JavaScript
@@ -56,9 +77,15 @@ Some descriptions are from:
 - AudioCraft [🛈](https://github.com/facebookresearch/audiocraft)
   - AudioCraft is a PyTorch library for deep learning research on audio generation.
   - Tags: audio generation, Deep Learning, source: Python
+- AuthorTrail [🛈](https://github.com/sarimabbas/authortrail)
+  - A Git repository exploration tool that identifies and displays all files contributed by a specific author with hierarchical tree visualization and integrated code viewer.
+  - Tags: git, tracking, source: TypeScript
 - AutoCrawler [🛈](https://github.com/EZ-hwh/AutoCrawler)
   - An AI agent that automatically generates web scrapers through progressive web understanding, using LLMs to extract structured data from websites.
   - Tags: AI powered, automation, web scraper, source: Python
+- AutoGen [🛈](https://github.com/microsoft/autogen)
+  - A framework for building multi-agent AI applications that operate autonomously or collaborate with humans, with layered APIs and developer tools.
+  - Tags: AI agents, framework, source: Python
 - AWS Secrets Manager Agent [🛈](https://github.com/aws/aws-secretsmanager-agent)
   - A local HTTP service for fetching and caching AWS Secrets Manager secrets in memory, with SSRF protection and support for Lambda, ECS, EKS, and EC2 environments.
   - Tags: caching, cloud, secret management, security, source: Rust
@@ -80,6 +107,9 @@ Some descriptions are from:
 - bknd [🛈](https://github.com/bknd-io/bknd)
   - A lightweight Firebase/Supabase alternative providing modular backend system with database management, authentication, media handling, and workflows that deploys across multiple runtimes without vendor lock-in.
   - Tags: API development platform, authentication, database managment, Firebase, Supabase, source: TypeScript
+- Blackbird [🛈](https://github.com/p1ngul1n0/blackbird)
+  - An OSINT tool that searches for accounts by username and email across 600+ social networks, combining fast searches with free AI-powered profiling to identify user accounts and behavioral patterns.
+  - Tags: AI powered, command line, email search, OSINT, security, social media, username search, source: Python
 - BleachBit [🛈](https://github.com/bleachbit/bleachbit)
   - BleachBit cleans files to free disk space and to maintain privacy.
   - Tags: deletion tool, disc utility, privacy
@@ -92,6 +122,9 @@ Some descriptions are from:
 - bottom [🛈](https://github.com/ClementTsang/bottom)
   - bottom is a customizable cross-platform graphical process/system monitor for the terminal.
   - Tags: command line, monitoring, command line: top, source: Rust
+- BrowserAI [🛈](https://github.com/sauravpanda/BrowserAI)
+  - A TypeScript library enabling direct execution of large language models within web browsers using WebGPU acceleration, with speech recognition, TTS, and structured output support.
+  - Tags: AI powered, Language Model, source: TypeScript
 - btop [🛈](https://github.com/aristocratos/btop)
   - Resource monitor that shows usage and stats for processor, memory, disks, network and processes.
   - Tags: monitoring
@@ -101,6 +134,9 @@ Some descriptions are from:
 - BuffDB [🛈](https://github.com/buffdb/buffdb)
   - Embedded storage built for AI model management over gRPC with key-value storage, BLOB storage, and secondary indexing.
   - Tags: API, database, gRPC, key-value store, library, Machine Learning, server, SQL, storage, source: Rust
+- Bunster [🛈](https://github.com/yassinebenaid/bunster)
+  - A shell compiler that transpiles shell scripts to Go code and compiles them into secure, portable, and static binaries without external shell dependencies.
+  - Tags: compiler, shell script, source: Go
 - burn [🛈](https://github.com/burn-rs/burn)
   - This library aims to be a complete deep learning framework with extreme flexibility written in Rust. The goal would be to satisfy researchers as well as practitioners making it easier to experiment, train and deploy your models.
   - Tags: Deep Learning, Deep Learning framework, framework, source: Rust
@@ -113,6 +149,9 @@ Some descriptions are from:
 - cachegrand [🛈](https://github.com/danielealbano/cachegrand)
   - cachegrand - a modern OSS Key-Value store built for today's hardware
   - Tags: caching, storage
+- Cachey [🛈](https://github.com/s2-streamstore/cachey)
+  - A high-performance read-through cache layer for object storage that handles immutable blob caching with hybrid memory and disk storage, supporting range-based requests and hedged reads.
+  - Tags: caching, file storage, S3, storage, source: Rust
 - Canine [🛈](https://github.com/czhu12/canine)
   - A self-hosted Kubernetes deployment platform that brings PaaS simplicity to your own infrastructure, enabling deployments via git push and intuitive web management without requiring YAML knowledge.
   - Tags: Automated Deployments, automation, containers, kubernetes, Platform-as-a-Service, self-hosted, source: Ruby
@@ -1090,12 +1129,13 @@ List of tags with occurrences in the brackets:
 - 3D image generation (1)
 - agent builder (3)
 - agentic coding (1)
-- AI agents (2)
+- AI agents (6)
 - AI personal assistant (3)
-- AI powered (20)
+- AI powered (25)
 - alerts (1)
 - AlphaZero (1)
 - analysis (4)
+- analytics (1)
 - API (10)
 - API development platform (4)
 - audio (6)
@@ -1105,7 +1145,7 @@ List of tags with occurrences in the brackets:
 - automate pull requests (1)
 - Automated Deployments (1)
 - automatic transcription (5)
-- automation (11)
+- automation (12)
 - awesome-list (1)
 - benchmarking (1)
 - binary (4)
@@ -1115,17 +1155,17 @@ List of tags with occurrences in the brackets:
 - bypass (1)
 - C (1)
 - C++ (1)
-- caching (5)
-- chat (3)
+- caching (6)
+- chat (5)
 - cheat sheet (4)
 - cloud (4)
 - code completion (4)
 - code formatting (2)
-- code generation (3)
+- code generation (4)
 - code search (2)
 - code statistics (1)
 - coloring code (1)
-- command line (139)
+- command line (141)
 - command line: cat (1)
 - command line: cd (1)
 - command line: diff (3)
@@ -1145,7 +1185,7 @@ List of tags with occurrences in the brackets:
 - command line: top (5)
 - command line: uniq (2)
 - commit message (1)
-- compiler (1)
+- compiler (2)
 - compression (4)
 - computer vision (2)
 - configuration (2)
@@ -1188,6 +1228,7 @@ List of tags with occurrences in the brackets:
 - downloader (4)
 - editor (5)
 - email (2)
+- email search (1)
 - embeddings (4)
 - encryption (5)
 - engineering (1)
@@ -1203,7 +1244,7 @@ List of tags with occurrences in the brackets:
 - file listing (4)
 - file manager (5)
 - file searching (2)
-- file storage (1)
+- file storage (2)
 - file system watcher (1)
 - filter editor (3)
 - find and replace (2)
@@ -1212,12 +1253,12 @@ List of tags with occurrences in the brackets:
 - forms (1)
 - forwarding (1)
 - framerate (1)
-- framework (8)
+- framework (11)
 - fun (1)
 - function calling (1)
 - fuzzy search (2)
 - geolocation (1)
-- git (12)
+- git (13)
 - git GUI (3)
 - GitHub actions (1)
 - GPU (6)
@@ -1249,11 +1290,11 @@ List of tags with occurrences in the brackets:
 - kubernetes (5)
 - language detection (1)
 - language identification (1)
-- Language Model (15)
-- library (32)
+- Language Model (18)
+- library (33)
 - link management (1)
 - linter (6)
-- Linux (2)
+- Linux (3)
 - logs (6)
 - Machine Learning (13)
 - Machine Learning transpiler (1)
@@ -1262,12 +1303,14 @@ List of tags with occurrences in the brackets:
 - management (8)
 - Markdown (4)
 - matplot (1)
+- meetings (1)
 - memory tracking (1)
 - merge lm (1)
 - metadata tracker (1)
 - metrics (4)
-- monitoring (15)
-- multi-language (5)
+- monitoring (17)
+- multi-agent (1)
+- multi-language (6)
 - music generation (1)
 - Natural Language Processing (3)
 - NeRFs (1)
@@ -1278,8 +1321,11 @@ List of tags with occurrences in the brackets:
 - Notebook (2)
 - notification (1)
 - object detection (1)
+- observability (2)
 - OCR (5)
+- OpenTelemetry (1)
 - orchestrator (4)
+- OSINT (1)
 - package installer (2)
 - package manager (4)
 - parallel (3)
@@ -1297,7 +1343,7 @@ List of tags with occurrences in the brackets:
 - preventing secrets (1)
 - printing file (1)
 - privacy (3)
-- profiler (2)
+- profiler (3)
 - progress bar (2)
 - proxy (4)
 - pull requests (1)
@@ -1306,7 +1352,7 @@ List of tags with occurrences in the brackets:
 - Python wrapper (2)
 - quering (4)
 - queue (2)
-- RAG (3)
+- RAG (5)
 - real-time workflow (2)
 - redis (1)
 - regex (4)
@@ -1317,37 +1363,39 @@ List of tags with occurrences in the brackets:
 - resolver (2)
 - reverse engineering (3)
 - Rust (1)
+- S3 (1)
 - scan vulnerability (1)
 - scheduler (2)
 - schema validation (1)
 - searching (12)
 - secret management (2)
 - secrets detector (1)
-- security (8)
-- self-hosted (4)
+- security (9)
+- self-hosted (5)
 - send email (1)
 - serialization (1)
 - server (3)
 - services (1)
 - shell (3)
-- shell script (1)
+- shell script (2)
 - SMTP server (1)
+- social media (1)
 - sounds (2)
 - source control system (1)
 - source: C (12)
 - source: C# (1)
 - source: C++ (13)
 - source: Clojure (1)
-- source: Go (30)
+- source: Go (32)
 - source: Java (4)
-- source: JavaScript (10)
+- source: JavaScript (11)
 - source: Kotlin (1)
-- source: Python (97)
+- source: Python (103)
 - source: Python linter (1)
 - source: Ruby (3)
-- source: Rust (77)
+- source: Rust (79)
 - source: Shell (4)
-- source: TypeScript (24)
+- source: TypeScript (26)
 - space (1)
 - speech generation (3)
 - speech recognition (6)
@@ -1357,13 +1405,13 @@ List of tags with occurrences in the brackets:
 - ssh (4)
 - Stable Diffusion Model (6)
 - statistics (2)
-- storage (4)
+- storage (5)
 - stream data (1)
 - Supabase (1)
 - syntax highlighting (2)
 - system call (1)
 - system events (1)
-- terminal (15)
+- terminal (16)
 - terminal emulator (1)
 - terminal interface (4)
 - testing API (4)
@@ -1373,7 +1421,7 @@ List of tags with occurrences in the brackets:
 - text-to-audio (3)
 - tldr (4)
 - trace (1)
-- tracking (1)
+- tracking (2)
 - transcription (9)
 - transforming (1)
 - translation (1)
@@ -1382,6 +1430,7 @@ List of tags with occurrences in the brackets:
 - unique (4)
 - unstructured data (2)
 - url (1)
+- username search (1)
 - vector search (1)
 - video (13)
 - video downloader (3)

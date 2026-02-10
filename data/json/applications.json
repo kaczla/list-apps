@@ -1,5 +1,17 @@
 [
     {
+        "name": "0xtools",
+        "url": "https://github.com/tanelpoder/0xtools",
+        "description": "A Linux performance analysis toolkit providing deep visibility into thread activity, system calls, and I/O operations through eBPF technology with minimal CPU overhead.",
+        "tags": [
+            "Linux",
+            "monitoring",
+            "observability",
+            "profiler",
+            "source: Python"
+        ]
+    },
+    {
         "name": "act",
         "url": "https://github.com/nektos/act",
         "description": "Run your GitHub Actions locally.",
@@ -17,6 +29,30 @@
         ]
     },
     {
+        "name": "AgentScope",
+        "url": "https://github.com/modelscope/agentscope",
+        "description": "A production-ready agent framework designed for building LLM applications with essential abstractions for memory, planning, and finetuning.",
+        "tags": [
+            "AI agents",
+            "framework",
+            "library",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "Agno",
+        "url": "https://github.com/phidatahq/phidata",
+        "description": "A framework enabling the creation of multi-agent systems with persistent learning capabilities that remember users across sessions, accumulate knowledge, and learn from decisions.",
+        "tags": [
+            "AI agents",
+            "framework",
+            "Language Model",
+            "multi-agent",
+            "RAG",
+            "source: Python"
+        ]
+    },
+    {
         "name": "AI Getting Started",
         "url": "https://github.com/a16z-infra/ai-getting-started",
         "description": "AI Getting Started is a Javascript AI getting started stack for weekend projects, including image/text models, vector stores, auth, and deployment configs.",
@@ -24,6 +60,45 @@
             "Deep Learning",
             "platform",
             "source: TypeScript"
+        ]
+    },
+    {
+        "name": "AI Observer",
+        "url": "https://github.com/tobilg/ai-observer",
+        "description": "A self-hosted, single-binary observability backend for monitoring local AI coding assistants with real-time dashboards and token/cost tracking.",
+        "tags": [
+            "AI agents",
+            "analytics",
+            "monitoring",
+            "observability",
+            "OpenTelemetry",
+            "self-hosted",
+            "source: Go"
+        ]
+    },
+    {
+        "name": "AIChat",
+        "url": "https://github.com/sigoden/aichat",
+        "description": "An all-in-one LLM CLI tool combining shell assistance, interactive chat, RAG document retrieval, and AI agent capabilities with support for 20+ providers.",
+        "tags": [
+            "AI powered",
+            "chat",
+            "command line",
+            "Language Model",
+            "RAG",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "Aider",
+        "url": "https://github.com/paul-gauthier/aider",
+        "description": "AI pair programming tool that enables developers to collaborate with large language models directly in the terminal for building new projects or modifying existing codebases.",
+        "tags": [
+            "AI powered",
+            "code generation",
+            "multi-language",
+            "terminal",
+            "source: Python"
         ]
     },
     {
@@ -94,6 +169,18 @@
             "music generation",
             "speech generation",
             "source: Python"
+        ]
+    },
+    {
+        "name": "Amurex",
+        "url": "https://github.com/thepersonalaicompany/amurex",
+        "description": "An open-source AI meeting copilot providing real-time suggestions, automatic summaries, action item extraction, and follow-up email generation for Google Meet and Microsoft Teams.",
+        "tags": [
+            "AI powered",
+            "automation",
+            "chat",
+            "meetings",
+            "source: JavaScript"
         ]
     },
     {
@@ -177,6 +264,16 @@
         ]
     },
     {
+        "name": "AuthorTrail",
+        "url": "https://github.com/sarimabbas/authortrail",
+        "description": "A Git repository exploration tool that identifies and displays all files contributed by a specific author with hierarchical tree visualization and integrated code viewer.",
+        "tags": [
+            "git",
+            "tracking",
+            "source: TypeScript"
+        ]
+    },
+    {
         "name": "AutoCrawler",
         "url": "https://github.com/EZ-hwh/AutoCrawler",
         "description": "An AI agent that automatically generates web scrapers through progressive web understanding, using LLMs to extract structured data from websites.",
@@ -184,6 +281,16 @@
             "AI powered",
             "automation",
             "web scraper",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "AutoGen",
+        "url": "https://github.com/microsoft/autogen",
+        "description": "A framework for building multi-agent AI applications that operate autonomously or collaborate with humans, with layered APIs and developer tools.",
+        "tags": [
+            "AI agents",
+            "framework",
             "source: Python"
         ]
     },
@@ -270,6 +377,21 @@
         ]
     },
     {
+        "name": "Blackbird",
+        "url": "https://github.com/p1ngul1n0/blackbird",
+        "description": "An OSINT tool that searches for accounts by username and email across 600+ social networks, combining fast searches with free AI-powered profiling to identify user accounts and behavioral patterns.",
+        "tags": [
+            "AI powered",
+            "command line",
+            "email search",
+            "OSINT",
+            "security",
+            "social media",
+            "username search",
+            "source: Python"
+        ]
+    },
+    {
         "name": "BleachBit",
         "url": "https://github.com/bleachbit/bleachbit",
         "description": "BleachBit cleans files to free disk space and to maintain privacy.",
@@ -315,6 +437,16 @@
         ]
     },
     {
+        "name": "BrowserAI",
+        "url": "https://github.com/sauravpanda/BrowserAI",
+        "description": "A TypeScript library enabling direct execution of large language models within web browsers using WebGPU acceleration, with speech recognition, TTS, and structured output support.",
+        "tags": [
+            "AI powered",
+            "Language Model",
+            "source: TypeScript"
+        ]
+    },
+    {
         "name": "btop",
         "url": "https://github.com/aristocratos/btop",
         "description": "Resource monitor that shows usage and stats for processor, memory, disks, network and processes.",
@@ -346,6 +478,16 @@
             "SQL",
             "storage",
             "source: Rust"
+        ]
+    },
+    {
+        "name": "Bunster",
+        "url": "https://github.com/yassinebenaid/bunster",
+        "description": "A shell compiler that transpiles shell scripts to Go code and compiles them into secure, portable, and static binaries without external shell dependencies.",
+        "tags": [
+            "compiler",
+            "shell script",
+            "source: Go"
         ]
     },
     {
@@ -390,6 +532,18 @@
         "tags": [
             "caching",
             "storage"
+        ]
+    },
+    {
+        "name": "Cachey",
+        "url": "https://github.com/s2-streamstore/cachey",
+        "description": "A high-performance read-through cache layer for object storage that handles immutable blob caching with hybrid memory and disk storage, supporting range-based requests and hedged reads.",
+        "tags": [
+            "caching",
+            "file storage",
+            "S3",
+            "storage",
+            "source: Rust"
         ]
     },
     {
