@@ -39,6 +39,8 @@ When given a GitHub URL, use WebFetch to extract:
 - **Description**: A concise summary of what the application does
 - **Tags**: Based on programming language, features, and use cases
 
+**Important**: Fetch URLs in batches of 3 at a time to avoid overloading. Wait for each batch to complete before starting the next one.
+
 ### JSON Format
 
 Create a JSON file with the current date and time in the name using format `YYYYMMDDTHHMM` (e.g., `new_apps_20240115T1430.json`) with a list of applications:

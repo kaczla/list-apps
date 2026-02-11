@@ -2468,6 +2468,18 @@
         ]
     },
     {
+        "name": "Monty",
+        "url": "https://github.com/pydantic/monty",
+        "description": "A minimal, secure Python interpreter written in Rust for use by AI, enabling safe execution of LLM-generated Python code with microsecond startup times and strict resource controls.",
+        "tags": [
+            "AI agents",
+            "isolation",
+            "Python interpreter",
+            "security",
+            "source: Rust"
+        ]
+    },
+    {
         "name": "Muse",
         "url": "https://github.com/Lightning-AI/stable-diffusion-deploy",
         "description": "Open source, stable-diffusion production server to show how to deploy diffusion models in a real production environment with: load-balancing, gpu-inference, performance-testing, micro-services orchestration and more.",
@@ -2535,6 +2547,18 @@
             "logs",
             "statistics",
             "source: Go"
+        ]
+    },
+    {
+        "name": "Night Watcher",
+        "url": "https://github.com/daya0576/nightwatcher",
+        "description": "A web-based IP camera viewer for fast, simple streaming in any browser with support for local AI models and custom detection scripts.",
+        "tags": [
+            "IP camera",
+            "object detection",
+            "self-hosted",
+            "video",
+            "source: Python"
         ]
     },
     {
@@ -2994,6 +3018,16 @@
         ]
     },
     {
+        "name": "qrcode-pretty",
+        "url": "https://github.com/mrinfinidy/qrcode-pretty",
+        "description": "A command-line tool that generates customizable QR codes with multiple style options, custom colors, center image embedding, and SVG/PNG output formats.",
+        "tags": [
+            "command line",
+            "QR code",
+            "source: Python"
+        ]
+    },
+    {
         "name": "qsv",
         "url": "https://github.com/jqnatividad/qsv",
         "description": "qsv is a command line program for querying, indexing, slicing, analyzing, filtering, enriching, transforming, sorting, validating & joining CSV files.",
@@ -3245,6 +3279,19 @@
             "searching",
             "command line: grep",
             "source: Go"
+        ]
+    },
+    {
+        "name": "ServiceRadar",
+        "url": "https://github.com/carverauto/serviceradar",
+        "description": "A distributed network monitoring system designed for infrastructure and services in hard-to-reach places or constrained environments, featuring WASM plugin system, graph-based network discovery, and cloud-based alerting.",
+        "tags": [
+            "alerts",
+            "dashboard",
+            "monitoring",
+            "network",
+            "observability",
+            "source: Elixir"
         ]
     },
     {
@@ -3733,6 +3780,21 @@
             "package installer",
             "resolver",
             "source: Rust"
+        ]
+    },
+    {
+        "name": "Valkey",
+        "url": "https://github.com/valkey-io/valkey",
+        "description": "A high-performance key/value data structure server, forked from Redis as an open-source community project, supporting TLS, extensible plugin system, and clustering.",
+        "tags": [
+            "data structures",
+            "database",
+            "file storage",
+            "in-memory",
+            "key-value store",
+            "redis",
+            "storage",
+            "source: C"
         ]
     },
     {

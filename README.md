@@ -683,6 +683,9 @@ Some descriptions are from:
 - MongoDB [🛈](https://github.com/mongodb/mongo)
   - MongoDB is a flexible and scalable database software that supports transactional, searching, analytics, and mobile use cases with a common query interface and a document data model.
   - Tags: database, source: C++
+- Monty [🛈](https://github.com/pydantic/monty)
+  - A minimal, secure Python interpreter written in Rust for use by AI, enabling safe execution of LLM-generated Python code with microsecond startup times and strict resource controls.
+  - Tags: AI agents, isolation, Python interpreter, security, source: Rust
 - Muse [🛈](https://github.com/Lightning-AI/stable-diffusion-deploy)
   - Open source, stable-diffusion production server to show how to deploy diffusion models in a real production environment with: load-balancing, gpu-inference, performance-testing, micro-services orchestration and more.
   - Tags: image generation, Stable Diffusion Model
@@ -704,6 +707,9 @@ Some descriptions are from:
 - ngtop [🛈](https://github.com/facundoolano/ngtop)
   - A CLI tool for analyzing nginx access logs with flexible filtering, grouping by URL/status/user-agent, time range queries, and SQLite storage.
   - Tags: analysis, command line, logs, statistics, source: Go
+- Night Watcher [🛈](https://github.com/daya0576/nightwatcher)
+  - A web-based IP camera viewer for fast, simple streaming in any browser with support for local AI models and custom detection scripts.
+  - Tags: IP camera, object detection, self-hosted, video, source: Python
 - Niquests [🛈](https://github.com/jawah/niquests)
   - Drop-in replacement for Python Requests with HTTP/1.1, HTTP/2, HTTP/3, WebSocket, async support, DNS-over-HTTPS, and connection multiplexing.
   - Tags: API, library, network, requests, source: Python
@@ -833,6 +839,9 @@ Some descriptions are from:
 - q [🛈](https://github.com/harelba/q)
   - q - Run SQL directly on delimited files and multi-file sqlite databases
   - Tags: command line, database, SQL, sqlite
+- qrcode-pretty [🛈](https://github.com/mrinfinidy/qrcode-pretty)
+  - A command-line tool that generates customizable QR codes with multiple style options, custom colors, center image embedding, and SVG/PNG output formats.
+  - Tags: command line, QR code, source: Python
 - qsv [🛈](https://github.com/jqnatividad/qsv)
   - qsv is a command line program for querying, indexing, slicing, analyzing, filtering, enriching, transforming, sorting, validating & joining CSV files.
   - Tags: command line, CSV, quering, searching, terminal, source: Rust
@@ -902,6 +911,9 @@ Some descriptions are from:
 - semantic-grep [🛈](https://github.com/arunsupe/semantic-grep)
   - A semantic search tool that finds text using word embeddings instead of exact string matching, supporting 157+ languages via FastText models.
   - Tags: command line, embeddings, multi-language, searching, command line: grep, source: Go
+- ServiceRadar [🛈](https://github.com/carverauto/serviceradar)
+  - A distributed network monitoring system designed for infrastructure and services in hard-to-reach places or constrained environments, featuring WASM plugin system, graph-based network discovery, and cloud-based alerting.
+  - Tags: alerts, dashboard, monitoring, network, observability, source: Elixir
 - ShadowFinder [🛈](https://github.com/bellingcat/ShadowFinder)
   - A geolocation tool that estimates Earth surface locations based on shadow lengths, using object height, shadow measurements, and time data for open-source investigations.
   - Tags: analysis, command line, geolocation, image, visualization, source: Python
@@ -1043,6 +1055,9 @@ Some descriptions are from:
 - uv [🛈](https://github.com/astral-sh/uv)
   - uv ia an extremely fast Python package installer and resolver, written in Rust.
   - Tags: package installer, resolver, source: Rust
+- Valkey [🛈](https://github.com/valkey-io/valkey)
+  - A high-performance key/value data structure server, forked from Redis as an open-source community project, supporting TLS, extensible plugin system, and clustering.
+  - Tags: data structures, database, file storage, in-memory, key-value store, redis, storage, source: C
 - VideoCrafter [🛈](https://github.com/VideoCrafter/VideoCrafter)
   - VideoCrafter is an open-source video generation and editing toolbox for crafting video content.
   - Tags: Deep Learning, video, video generation, source: Python
@@ -1129,10 +1144,10 @@ List of tags with occurrences in the brackets:
 - 3D image generation (1)
 - agent builder (3)
 - agentic coding (1)
-- AI agents (6)
+- AI agents (7)
 - AI personal assistant (3)
 - AI powered (25)
-- alerts (1)
+- alerts (2)
 - AlphaZero (1)
 - analysis (4)
 - analytics (1)
@@ -1165,7 +1180,7 @@ List of tags with occurrences in the brackets:
 - code search (2)
 - code statistics (1)
 - coloring code (1)
-- command line (141)
+- command line (142)
 - command line: cat (1)
 - command line: cd (1)
 - command line: diff (3)
@@ -1196,16 +1211,16 @@ List of tags with occurrences in the brackets:
 - cross-platform (8)
 - CSV (4)
 - customizing (1)
-- dashboard (5)
+- dashboard (6)
 - data format (1)
 - data formatter (5)
 - data generator (2)
 - data labeling (1)
 - data processing (7)
-- data structures (2)
+- data structures (3)
 - data text processing (2)
 - data validation (1)
-- database (26)
+- database (27)
 - database managment (1)
 - database transfer (1)
 - dataflow (1)
@@ -1244,7 +1259,7 @@ List of tags with occurrences in the brackets:
 - file listing (4)
 - file manager (5)
 - file searching (2)
-- file storage (2)
+- file storage (3)
 - file system watcher (1)
 - filter editor (3)
 - find and replace (2)
@@ -1277,14 +1292,15 @@ List of tags with occurrences in the brackets:
 - image (7)
 - image editing (4)
 - image generation (8)
-- in-memory (1)
+- in-memory (2)
 - interactive (5)
-- isolation (3)
+- IP camera (1)
+- isolation (4)
 - JavaScript engine (1)
 - job (1)
 - JSON (7)
 - Jupyter (8)
-- key-value store (4)
+- key-value store (5)
 - killing proces (1)
 - knowledge graph (1)
 - kubernetes (5)
@@ -1308,20 +1324,20 @@ List of tags with occurrences in the brackets:
 - merge lm (1)
 - metadata tracker (1)
 - metrics (4)
-- monitoring (17)
+- monitoring (18)
 - multi-agent (1)
 - multi-language (6)
 - music generation (1)
 - Natural Language Processing (3)
 - NeRFs (1)
-- network (8)
+- network (9)
 - nixpkgs (1)
 - NLP (5)
 - note (1)
 - Notebook (2)
 - notification (1)
-- object detection (1)
-- observability (2)
+- object detection (2)
+- observability (3)
 - OCR (5)
 - OpenTelemetry (1)
 - orchestrator (4)
@@ -1347,14 +1363,15 @@ List of tags with occurrences in the brackets:
 - progress bar (2)
 - proxy (4)
 - pull requests (1)
-- Python interpreter (1)
+- Python interpreter (2)
 - Python linter (2)
 - Python wrapper (2)
+- QR code (1)
 - quering (4)
 - queue (2)
 - RAG (5)
 - real-time workflow (2)
-- redis (1)
+- redis (2)
 - regex (4)
 - regular expression (4)
 - report (2)
@@ -1370,8 +1387,8 @@ List of tags with occurrences in the brackets:
 - searching (12)
 - secret management (2)
 - secrets detector (1)
-- security (9)
-- self-hosted (5)
+- security (10)
+- self-hosted (6)
 - send email (1)
 - serialization (1)
 - server (3)
@@ -1382,18 +1399,19 @@ List of tags with occurrences in the brackets:
 - social media (1)
 - sounds (2)
 - source control system (1)
-- source: C (12)
+- source: C (13)
 - source: C# (1)
 - source: C++ (13)
 - source: Clojure (1)
+- source: Elixir (1)
 - source: Go (32)
 - source: Java (4)
 - source: JavaScript (11)
 - source: Kotlin (1)
-- source: Python (103)
+- source: Python (105)
 - source: Python linter (1)
 - source: Ruby (3)
-- source: Rust (79)
+- source: Rust (80)
 - source: Shell (4)
 - source: TypeScript (26)
 - space (1)
@@ -1405,7 +1423,7 @@ List of tags with occurrences in the brackets:
 - ssh (4)
 - Stable Diffusion Model (6)
 - statistics (2)
-- storage (5)
+- storage (6)
 - stream data (1)
 - Supabase (1)
 - syntax highlighting (2)
@@ -1432,7 +1450,7 @@ List of tags with occurrences in the brackets:
 - url (1)
 - username search (1)
 - vector search (1)
-- video (13)
+- video (14)
 - video downloader (3)
 - video editing (1)
 - video generation (1)
