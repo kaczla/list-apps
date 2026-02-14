@@ -95,9 +95,11 @@ def _load_tags() -> list[str]:
         Sorted list of tag strings.
     """
     if not DATA_TAGS_PATH.exists():
+        logger.warning(f"Tags file not found: {DATA_TAGS_PATH}")
         return []
     with DATA_TAGS_PATH.open("rt") as f:
         data: list[str] = json.load(f)
+    logger.debug(f"Loaded {len(data)} tags from {DATA_TAGS_PATH}")
     return data
 
 
@@ -117,9 +119,11 @@ def perform_merge(accepted_apps: list[ApplicationData]) -> tuple[int, int]:
     replaced = 0
     for app_data in accepted_apps:
         if app_data.url in url_to_idx:
+            logger.info(f"Replacing existing app: '{app_data.name}' ({app_data.url})")
             existing[url_to_idx[app_data.url]] = app_data
             replaced += 1
         else:
+            logger.info(f"Adding new app: '{app_data.name}' ({app_data.url})")
             existing.append(app_data)
             added += 1
 
@@ -137,6 +141,8 @@ def _evict_stale_cache() -> None:
     """Remove expired entries from the proxy cache."""
     now = time.monotonic()
     stale_keys = [k for k, v in _proxy_cache.items() if now - v[4] > PROXY_CACHE_TTL]
+    if stale_keys:
+        logger.debug(f"Evicting {len(stale_keys)} stale proxy cache entries")
     for k in stale_keys:
         del _proxy_cache[k]
     # Evict oldest if over max size
@@ -194,11 +200,13 @@ def proxy_page(url: str) -> Response:
         Proxied response with frame-blocking headers removed.
     """
     if not url.startswith(("http://", "https://")):
+        logger.warning(f"Proxy rejected invalid URL scheme: {url}")
         return Response("Invalid URL scheme", status_code=400)
 
     # Check cache
     cached = _proxy_cache.get(url)
     if cached and (time.monotonic() - cached[4]) < PROXY_CACHE_TTL:
+        logger.debug(f"Proxy cache hit: {url}")
         content, content_type, filtered_headers, status_code = cached[:4]
         return Response(
             content=content,
@@ -207,9 +215,11 @@ def proxy_page(url: str) -> Response:
             media_type=content_type or "text/html",
         )
 
+    logger.debug(f"Proxy fetching: {url}")
     try:
         content, content_type, filtered_headers, status_code = _fetch_and_process(url)
     except requests.RequestException as e:
+        logger.error(f"Proxy fetch failed for {url}: {e}")
         return Response(f"Failed to fetch: {e}", status_code=502)
 
     # Store in cache
@@ -237,11 +247,14 @@ def index_page() -> None:
         """Load and validate the input JSON file, then show review screen."""
         file_path_str = file_path_str.strip()
         if not file_path_str:
+            logger.warning("Empty file path provided")
             ui.notify("Please enter a file path", type="warning")
             return
 
         path = Path(file_path_str)
+        logger.info(f"Loading file: {path}")
         if not path.exists():
+            logger.error(f"File not found: {path}")
             ui.notify(f"File not found: {path}", type="negative")
             return
 
@@ -249,14 +262,17 @@ def index_page() -> None:
             with path.open("rt") as f:
                 raw_data = json.load(f)
         except json.JSONDecodeError as e:
+            logger.error(f"Invalid JSON in {path}: {e}")
             ui.notify(f"Invalid JSON: {e}", type="negative")
             return
 
         if not isinstance(raw_data, list):
+            logger.error(f"JSON in {path} is not a list")
             ui.notify("JSON must be a list of objects", type="negative")
             return
 
         if not raw_data:
+            logger.warning(f"JSON file is empty: {path}")
             ui.notify("JSON file is empty", type="negative")
             return
 
@@ -269,9 +285,12 @@ def index_page() -> None:
                 errors.append(f"Entry {idx + 1}: {e}")
 
         if errors:
+            logger.warning(f"Validation errors in {path}: {len(errors)} entries failed")
             for err in errors:
+                logger.warning(f"  {err}")
                 ui.notify(err, type="warning", timeout=10000)
             if not edited:
+                logger.error(f"No valid entries found in {path}")
                 ui.notify("No valid entries found", type="negative")
                 return
 
@@ -342,10 +361,12 @@ def index_page() -> None:
 
             # Duplicate warnings
             if app_data.url in state.existing_urls:
+                logger.warning(f"Duplicate URL detected: '{app_data.name}' ({app_data.url})")
                 with ui.row().classes("w-full mb-2 p-3 bg-yellow-100 rounded items-center gap-2"):
                     ui.icon("warning", color="orange")
                     ui.label("Duplicate URL — this application already exists. Accepting will overwrite it.")
             elif app_data.name in state.existing_names:
+                logger.info(f"Duplicate name detected: '{app_data.name}' (different URL: {app_data.url})")
                 with ui.row().classes("w-full mb-2 p-3 bg-blue-100 rounded items-center gap-2"):
                     ui.icon("info", color="blue")
                     ui.label("An application with this name already exists (different URL).")
@@ -378,6 +399,7 @@ def index_page() -> None:
                             sorted_tags = sort_application_tags(app_data.tags)
 
                             def _remove_tag(tag_to_remove: str) -> None:
+                                logger.debug(f"Removed tag '{tag_to_remove}' from '{app_data.name}'")
                                 app_data.tags.discard(tag_to_remove)
                                 _rebuild_tags()
 
@@ -396,7 +418,10 @@ def index_page() -> None:
 
                             def _on_add_tag(e: Any) -> None:
                                 if e.value and e.value not in app_data.tags:
-                                    app_data.tags.add(str(e.value))
+                                    tag_value = str(e.value)
+                                    if tag_value not in state.all_tags:
+                                        logger.info(f"New tag created: '{tag_value}' (for '{app_data.name}')")
+                                    app_data.tags.add(tag_value)
                                     _rebuild_tags()
 
                             ui.select(
@@ -460,11 +485,14 @@ def index_page() -> None:
         """Navigate between review entries."""
         new_idx = state.current_index + delta
         if 0 <= new_idx < len(state.edited_apps):
+            logger.debug(f"Navigating from {state.current_index} to {new_idx}")
             state.current_index = new_idx
             _show_review()
 
     def _decide(decision: Decision) -> None:
         """Record decision for current entry and advance."""
+        app_name = state.edited_apps[state.current_index].name
+        logger.info(f"Decision for '{app_name}' (index {state.current_index}): {decision}")
         state.decisions[state.current_index] = decision
         if state.current_index < len(state.edited_apps) - 1:
             state.current_index += 1
@@ -483,6 +511,11 @@ def index_page() -> None:
             rejected_count = sum(1 for d in state.decisions if d == Decision.REJECT)
             pending_count = sum(1 for d in state.decisions if d == Decision.PENDING)
             merged_count = sum(1 for d in state.decisions if d == Decision.MERGED)
+
+            logger.info(
+                f"Summary: {len(accepted_indices)} accepted, {merged_count} merged, "
+                f"{skipped_count} skipped, {rejected_count} rejected, {pending_count} pending"
+            )
 
             with ui.row().classes("gap-4 mb-4"):
                 ui.badge(f"{len(accepted_indices)} accepted", color="green").classes("text-sm p-2")
@@ -531,6 +564,7 @@ def index_page() -> None:
 
     def _do_merge(accepted_indices: list[int]) -> None:
         """Perform the merge of accepted entries."""
+        logger.info(f"Merging {len(accepted_indices)} accepted entries")
         accepted_apps = [state.edited_apps[i] for i in accepted_indices]
         try:
             added, replaced = perform_merge(accepted_apps)
@@ -549,15 +583,33 @@ def index_page() -> None:
             logger.exception("Merge failed")
 
     def _save_unmerged(unmerged_indices: list[int]) -> None:
-        """Save unmerged (skipped/pending) entries to a timestamped JSON file."""
+        """Save unmerged (skipped/pending) entries back to the input file.
+
+        Creates a backup of the current input file before overwriting.
+        """
+        if not state.input_file:
+            logger.error("No input file set, cannot save unmerged entries")
+            ui.notify("No input file set", type="negative")
+            return
+
         apps = [state.edited_apps[i] for i in unmerged_indices]
-        timestamp = datetime.now(tz=UTC).strftime("%Y%m%dT%H%M")
-        out_path = Path(f"application_{timestamp}.json")
+        input_path = state.input_file
         try:
-            with out_path.open("wt") as f:
+            # Backup current input file
+            timestamp = datetime.now(tz=UTC).strftime("%Y%m%dT%H%M")
+            backup_path = input_path.with_name(f"{input_path.stem}-{timestamp}.json.bak")
+            backup_path.write_bytes(input_path.read_bytes())
+            logger.info(f"Backed up {input_path} to {backup_path}")
+
+            # Overwrite input file with unmerged entries
+            with input_path.open("wt") as f:
                 json.dump([a.model_dump(mode="json") for a in apps], f, indent=4, ensure_ascii=False)
-            ui.notify(f"Saved {len(apps)} entries to {out_path}", type="positive", timeout=10000)
-            logger.info(f"Saved {len(apps)} unmerged entries to {out_path}")
+            ui.notify(
+                f"Saved {len(apps)} entries to {input_path} (backup: {backup_path.name})",
+                type="positive",
+                timeout=10000,
+            )
+            logger.info(f"Saved {len(apps)} unmerged entries to {input_path}")
         except Exception as e:  # noqa: BLE001
             ui.notify(f"Save failed: {e}", type="negative", timeout=10000)
             logger.exception("Save unmerged failed")
@@ -572,14 +624,17 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Review and merge new applications via GUI")
     parser.add_argument("input_file", type=Path, nargs="?", help="Path to JSON file with new applications")
     parser.add_argument("--port", type=int, default=DEFAULT_PORT, help="Port to run the server on")
+    parser.add_argument("--reload", action="store_true", help="Enable auto-reload")
     args = parser.parse_args()
 
     init_logs()
 
     if args.input_file:
         _cli_input_file = str(args.input_file)
+        logger.info(f"CLI input file: {args.input_file}")
 
-    ui.run(title="Review Applications", port=args.port, host="127.0.0.1", reload=False)
+    logger.info(f"Starting review app on port {args.port}")
+    ui.run(title="Review Applications", port=args.port, host="127.0.0.1", show=False, reload=args.reload)
 
 
 if __name__ == "__main__":
