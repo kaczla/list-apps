@@ -1515,6 +1515,19 @@
         ]
     },
     {
+        "name": "EasyTier",
+        "url": "https://github.com/EasyTier/EasyTier",
+        "description": "A decentralized mesh VPN that creates secure peer-to-peer virtual networks with NAT traversal, WireGuard integration, and zero-copy performance across platforms.",
+        "tags": [
+            "cross-platform",
+            "encryption",
+            "network",
+            "self-hosted",
+            "VPN",
+            "source: Rust"
+        ]
+    },
+    {
         "name": "eDEX-UI",
         "url": "https://github.com/GitSquared/edex-ui",
         "description": "eDEX-UI is a fullscreen, cross-platform terminal emulator and system monitor that looks and feels like a sci-fi computer interface.",
@@ -1986,6 +1999,17 @@
         ]
     },
     {
+        "name": "gitingest",
+        "url": "https://github.com/coderamp-labs/gitingest",
+        "description": "Transforms any Git repository into a prompt-friendly text digest for LLMs, with statistics on file structure, size, and token counts. Available as a web app, CLI tool, Python package, and browser extension.",
+        "tags": [
+            "content extractor",
+            "git",
+            "LLM-ready",
+            "source: Python"
+        ]
+    },
+    {
         "name": "GitTools",
         "url": "https://github.com/internetwache/GitTools",
         "description": "A toolkit containing three scripts designed for Git security research to identify publicly exposed .git repositories on websites and extract their contents.",
@@ -2444,6 +2468,17 @@
         ]
     },
     {
+        "name": "Insync",
+        "url": "https://www.insynchq.com/",
+        "description": "A desktop application for syncing, editing, and sharing files across Google Drive, OneDrive, and Dropbox with selective sync, multiple account management, and file manager integration.",
+        "tags": [
+            "cross-platform",
+            "file transfer",
+            "No source code",
+            "syncing"
+        ]
+    },
+    {
         "name": "Intensify",
         "url": "https://github.com/swairshah/Intensify",
         "description": "A Python package for colorizing terminal text based on intensity values, useful for visualizing probability, entropy, and token metrics through color gradients in CLI applications.",
@@ -2767,6 +2802,17 @@
             "speech generation",
             "text-to-speach",
             "source: Python"
+        ]
+    },
+    {
+        "name": "Kong",
+        "url": "https://github.com/Kong/kong",
+        "description": "A cloud-native API gateway for microservices, AI/LLM traffic, and MCP systems with plugin-based extensibility, advanced routing, load balancing, and authentication.",
+        "tags": [
+            "cloud",
+            "gateway",
+            "kubernetes",
+            "source: Lua"
         ]
     },
     {
@@ -3249,6 +3295,18 @@
         ]
     },
     {
+        "name": "Maxun",
+        "url": "https://github.com/getmaxun/maxun",
+        "description": "An open-source no-code platform that converts websites into structured APIs with AI-powered point-and-click data extraction, scheduled scraping, and auto-recovery from site updates.",
+        "tags": [
+            "automation",
+            "content extractor",
+            "self-hosted",
+            "web scraper",
+            "source: TypeScript"
+        ]
+    },
+    {
         "name": "mc",
         "url": "https://github.com/MidnightCommander/mc",
         "description": "GNU Midnight Commander is a visual file manager, licensed under GNU General Public License and therefore qualifies as Free Software. It's a feature rich full-screen text mode application that allows you to copy, move and delete files and whole directory trees, search for files and run commands in the subshell. Internal viewer and editor are included.",
@@ -3672,6 +3730,17 @@
             "database",
             "GUI",
             "SQL"
+        ]
+    },
+    {
+        "name": "pglinter",
+        "url": "https://github.com/pmpetit/pglinter",
+        "description": "A PostgreSQL database linter extension that analyzes databases for potential issues, performance problems, and best practice violations. Runs natively inside PostgreSQL with 10-100x faster execution than Python alternatives and outputs SARIF reports.",
+        "tags": [
+            "database",
+            "linter",
+            "PostgreSQL",
+            "source: Rust"
         ]
     },
     {
@@ -4902,6 +4971,17 @@
             "speech recognition",
             "transcription",
             "source: Python"
+        ]
+    },
+    {
+        "name": "Whosthere",
+        "url": "https://github.com/ramonvermeulen/whosthere",
+        "description": "A local network discovery tool with an interactive TUI that identifies devices using mDNS, SSDP, and ARP cache reading, with integrated port scanning and OUI lookups.",
+        "tags": [
+            "network",
+            "network scan",
+            "terminal interface",
+            "source: Go"
         ]
     },
     {

@@ -407,6 +407,9 @@ Some descriptions are from:
 - EasyOCR [🛈](https://github.com/JaidedAI/EasyOCR)
   - Ready-to-use OCR with 80+ supported languages and all popular writing scripts including: Latin, Chinese, Arabic, Devanagari, Cyrillic, etc.
   - Tags: OCR, source: Python
+- EasyTier [🛈](https://github.com/EasyTier/EasyTier)
+  - A decentralized mesh VPN that creates secure peer-to-peer virtual networks with NAT traversal, WireGuard integration, and zero-copy performance across platforms.
+  - Tags: cross-platform, encryption, network, self-hosted, VPN, source: Rust
 - eDEX-UI [🛈](https://github.com/GitSquared/edex-ui)
   - eDEX-UI is a fullscreen, cross-platform terminal emulator and system monitor that looks and feels like a sci-fi computer interface.
   - Tags: terminal emulator
@@ -533,6 +536,9 @@ Some descriptions are from:
 - GitID [🛈](https://github.com/InderdeepBajwa/gitid)
   - GitID is a convenient command-line interface (CLI) that allows you seamlessly manage and switch between multiple git SSH identities on a single user account.
   - Tags: command line, management, ssh, source: TypeScript
+- gitingest [🛈](https://github.com/coderamp-labs/gitingest)
+  - Transforms any Git repository into a prompt-friendly text digest for LLMs, with statistics on file structure, size, and token counts. Available as a web app, CLI tool, Python package, and browser extension.
+  - Tags: content extractor, git, LLM-ready, source: Python
 - GitTools [🛈](https://github.com/internetwache/GitTools)
   - A toolkit containing three scripts designed for Git security research to identify publicly exposed .git repositories on websites and extract their contents.
   - Tags: penetration tests, security, vulnerability search, source: Python
@@ -659,6 +665,9 @@ Some descriptions are from:
 - Instant [🛈](https://github.com/instantdb/instant)
   - Modern Firebase alternative providing a real-time database with relational queries, offline support, multiplayer functionality, and permission system.
   - Tags: API, database, real-time workflow, source: Clojure
+- Insync [🛈](https://www.insynchq.com/)
+  - A desktop application for syncing, editing, and sharing files across Google Drive, OneDrive, and Dropbox with selective sync, multiple account management, and file manager integration.
+  - Tags: cross-platform, file transfer, No source code, syncing
 - Intensify [🛈](https://github.com/swairshah/Intensify)
   - A Python package for colorizing terminal text based on intensity values, useful for visualizing probability, entropy, and token metrics through color gradients in CLI applications.
   - Tags: coloring, terminal, visualization, source: Python
@@ -746,6 +755,9 @@ Some descriptions are from:
 - KittenTTS [🛈](https://github.com/KittenML/KittenTTS)
   - An open-source text-to-speech model with just 15 million parameters, delivering realistic voice synthesis with minimal computational requirements.
   - Tags: library, Machine Learning, speech generation, text-to-speach, source: Python
+- Kong [🛈](https://github.com/Kong/kong)
+  - A cloud-native API gateway for microservices, AI/LLM traffic, and MCP systems with plugin-based extensibility, advanced routing, load balancing, and authentication.
+  - Tags: cloud, gateway, kubernetes, source: Lua
 - Kopia [🛈](https://github.com/kopia/kopia)
   - Fast and secure backup/restore tool with client-side encryption, deduplication, compression, supporting cloud storage (S3, Azure, GCS) and local targets.
   - Tags: cloud, command line, compression, encryption, GUI, storage, source: Go
@@ -875,6 +887,9 @@ Some descriptions are from:
 - matplotlib-gallery [🛈](https://github.com/rasbt/matplotlib-gallery)
   - This repository is a collection of different matplotlib plots in IPython notebooks that I needed for my data visualizations.
   - Tags: library, matplot, visualization, source: Python
+- Maxun [🛈](https://github.com/getmaxun/maxun)
+  - An open-source no-code platform that converts websites into structured APIs with AI-powered point-and-click data extraction, scheduled scraping, and auto-recovery from site updates.
+  - Tags: automation, content extractor, self-hosted, web scraper, source: TypeScript
 - mc [🛈](https://github.com/MidnightCommander/mc)
   - GNU Midnight Commander is a visual file manager, licensed under GNU General Public License and therefore qualifies as Free Software. It's a feature rich full-screen text mode application that allows you to copy, move and delete files and whole directory trees, search for files and run commands in the subshell. Internal viewer and editor are included.
   - Tags: file manager, terminal, command line: mc
@@ -995,6 +1010,9 @@ Some descriptions are from:
 - pgAdmin [🛈](https://github.com/pgadmin-org/pgadmin4)
   - pgAdmin is the most popular and feature rich Open Source administration and development platform for PostgreSQL, the most advanced Open Source database in the world.
   - Tags: database, GUI, SQL
+- pglinter [🛈](https://github.com/pmpetit/pglinter)
+  - A PostgreSQL database linter extension that analyzes databases for potential issues, performance problems, and best practice violations. Runs natively inside PostgreSQL with 10-100x faster execution than Python alternatives and outputs SARIF reports.
+  - Tags: database, linter, PostgreSQL, source: Rust
 - pgmodeler [🛈](https://github.com/pgmodeler/pgmodeler)
   - Open-source data modeling tool designed for PostgreSQL. No more typing DDL commands. Let pgModeler do the work for you!
   - Tags: database, GUI, SQL
@@ -1340,6 +1358,9 @@ Some descriptions are from:
 - WhisperPlus [🛈](https://github.com/kadirnar/whisper-plus)
   - WhisperPlus: Advancing Speech-to-Text Processing.
   - Tags: automatic transcription, speech recognition, transcription, source: Python
+- Whosthere [🛈](https://github.com/ramonvermeulen/whosthere)
+  - A local network discovery tool with an interactive TUI that identifies devices using mDNS, SSDP, and ARP cache reading, with integrated port scanning and OUI lookups.
+  - Tags: network, network scan, terminal interface, source: Go
 - wonnx [🛈](https://github.com/webonnx/wonnx)
   - Wonnx is a GPU-accelerated ONNX inference run-time written 100% in Rust, ready for the web.
   - Tags: Deep Learning, GPU, library, source: Rust
@@ -1405,7 +1426,7 @@ List of tags with occurrences in the brackets:
 - automate pull requests (1)
 - Automated Deployments (1)
 - automatic transcription (5)
-- automation (19)
+- automation (20)
 - awesome-list (1)
 - benchmarking (1)
 - binary (5)
@@ -1418,7 +1439,7 @@ List of tags with occurrences in the brackets:
 - caching (6)
 - chat (7)
 - cheat sheet (4)
-- cloud (5)
+- cloud (6)
 - code completion (4)
 - code execution (1)
 - code formatting (2)
@@ -1453,10 +1474,10 @@ List of tags with occurrences in the brackets:
 - configuration (4)
 - configuration distribution (1)
 - container (14)
-- content extractor (9)
+- content extractor (11)
 - context retrieval (1)
 - control desktop (1)
-- cross-platform (16)
+- cross-platform (18)
 - CSV (5)
 - customizing (2)
 - dashboard (7)
@@ -1469,7 +1490,7 @@ List of tags with occurrences in the brackets:
 - data structures (3)
 - data text processing (2)
 - data validation (1)
-- database (33)
+- database (34)
 - database managment (1)
 - database schema (1)
 - database transfer (1)
@@ -1499,7 +1520,7 @@ List of tags with occurrences in the brackets:
 - email (2)
 - email search (1)
 - embeddings (4)
-- encryption (7)
+- encryption (8)
 - engineering (1)
 - environment (3)
 - environment manager (6)
@@ -1517,7 +1538,7 @@ List of tags with occurrences in the brackets:
 - file storage (6)
 - file system (1)
 - file system watcher (1)
-- file transfer (1)
+- file transfer (2)
 - file-recovery (1)
 - filter editor (3)
 - filtering (1)
@@ -1531,9 +1552,10 @@ List of tags with occurrences in the brackets:
 - fun (1)
 - function calling (1)
 - fuzzy search (2)
+- gateway (1)
 - Gemini (1)
 - geolocation (1)
-- git (18)
+- git (19)
 - git GUI (3)
 - GitHub actions (1)
 - GPU (7)
@@ -1569,16 +1591,16 @@ List of tags with occurrences in the brackets:
 - key-value store (6)
 - killing proces (1)
 - knowledge graph (1)
-- kubernetes (6)
+- kubernetes (7)
 - language detection (1)
 - language identification (1)
 - Language Model (23)
 - library (40)
 - link management (1)
-- linter (6)
+- linter (7)
 - Linux (6)
 - Linux kernel (1)
-- LLM-ready (3)
+- LLM-ready (4)
 - logs (7)
 - Machine Learning (15)
 - Machine Learning transpiler (1)
@@ -1601,10 +1623,11 @@ List of tags with occurrences in the brackets:
 - music generation (1)
 - Natural Language Processing (3)
 - NeRFs (1)
-- network (11)
-- network scan (1)
+- network (13)
+- network scan (2)
 - nixpkgs (1)
 - NLP (5)
+- No source code (1)
 - note (2)
 - Notebook (4)
 - notification (2)
@@ -1632,7 +1655,7 @@ List of tags with occurrences in the brackets:
 - platform (5)
 - Platform-as-a-Service (1)
 - Polars (1)
-- PostgreSQL (5)
+- PostgreSQL (6)
 - presentation (2)
 - preventing secrets (1)
 - printing file (1)
@@ -1669,7 +1692,7 @@ List of tags with occurrences in the brackets:
 - secret management (2)
 - secrets detector (1)
 - security (17)
-- self-hosted (11)
+- self-hosted (13)
 - self-replace (1)
 - send email (1)
 - serialization (1)
@@ -1687,17 +1710,18 @@ List of tags with occurrences in the brackets:
 - source: C++ (16)
 - source: Clojure (1)
 - source: Elixir (1)
-- source: Go (47)
+- source: Go (48)
 - source: HTML (1)
 - source: Java (5)
 - source: JavaScript (14)
 - source: Kotlin (1)
-- source: Python (129)
+- source: Lua (1)
+- source: Python (130)
 - source: Python linter (1)
 - source: Ruby (4)
-- source: Rust (94)
+- source: Rust (96)
 - source: Shell (6)
-- source: TypeScript (39)
+- source: TypeScript (40)
 - source: Zig (2)
 - space (1)
 - speach-to-text (1)
@@ -1714,13 +1738,14 @@ List of tags with occurrences in the brackets:
 - stream data (1)
 - streaming (1)
 - Supabase (1)
+- syncing (1)
 - syntax highlighting (2)
 - system call (1)
 - system events (1)
 - templater (1)
 - terminal (23)
 - terminal emulator (2)
-- terminal interface (9)
+- terminal interface (10)
 - testing (1)
 - testing API (4)
 - text (1)
@@ -1751,11 +1776,12 @@ List of tags with occurrences in the brackets:
 - visualization (9)
 - visualizer (1)
 - voice cloning (2)
+- VPN (1)
 - vulnerability scanner (4)
 - vulnerability search (1)
 - web browser (6)
 - web page (4)
-- web scraper (9)
+- web scraper (10)
 - web search (1)
 - web-browser extension (2)
 - webhooks (1)
