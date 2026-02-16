@@ -346,8 +346,8 @@
         "description": "Bearer is a static application security testing (SAST) tool that scans your source code and analyzes your data flows to discover, filter and prioritize security risks and vulnerabilities leading to sensitive data exposures (PII, PHI, PD).",
         "tags": [
             "linter",
-            "scan vulnerability",
             "security",
+            "vulnerability scanner",
             "source: C"
         ]
     },
@@ -1917,8 +1917,8 @@
         "description": "Train a model, and detect gibberish strings with it. Example gibberish: \"ertrjiloifdfyyoiu\".",
         "tags": [
             "command line",
-            "data text processing",
             "library",
+            "text processing",
             "source: Python"
         ]
     },
@@ -2016,7 +2016,7 @@
         "tags": [
             "penetration tests",
             "security",
-            "vulnerability search",
+            "vulnerability scanner",
             "source: Python"
         ]
     },
@@ -3542,12 +3542,47 @@
         ]
     },
     {
+        "name": "Nerdlog",
+        "url": "https://github.com/dimonomid/nerdlog",
+        "description": "A fast, remote-first, multi-host TUI log viewer that enables efficient querying of logs from multiple remote machines simultaneously with an interactive timeline histogram, requiring no central server.",
+        "tags": [
+            "logs",
+            "monitoring",
+            "terminal interface",
+            "source: Go"
+        ]
+    },
+    {
         "name": "nerfstudio",
         "url": "https://docs.nerf.studio/en/latest/",
         "description": "Nerfstudio provides a simple API that allows for a simplified end-to-end process of creating, training, and visualizing NeRFs",
         "tags": [
             "NeRFs",
             "video"
+        ]
+    },
+    {
+        "name": "NetBird",
+        "url": "https://github.com/netbirdio/netbird",
+        "description": "A configuration-free peer-to-peer private network platform combining a centralized access control system with WireGuard-based overlay networking for secure device connectivity.",
+        "tags": [
+            "cross-platform",
+            "network",
+            "security",
+            "self-hosted",
+            "source: Go"
+        ]
+    },
+    {
+        "name": "Netdiscover",
+        "url": "https://github.com/netdiscover-scanner/netdiscover",
+        "description": "An ARP-based network discovery tool for identifying active hosts on networks, particularly useful for wireless networks.",
+        "tags": [
+            "command line",
+            "network",
+            "network scan",
+            "security",
+            "source: C"
         ]
     },
     {
@@ -3595,6 +3630,17 @@
         ]
     },
     {
+        "name": "nnn",
+        "url": "https://github.com/jarun/nnn",
+        "description": "A full-featured terminal file manager that is tiny, nearly zero-config, and incredibly fast with minimal resource usage.",
+        "tags": [
+            "command line",
+            "file manager",
+            "terminal",
+            "source: C"
+        ]
+    },
+    {
         "name": "nvtop",
         "url": "https://github.com/Syllo/nvtop",
         "description": "AMD and NVIDIA GPUs htop like monitoring tool",
@@ -3602,6 +3648,77 @@
             "command line",
             "GPU",
             "monitoring"
+        ]
+    },
+    {
+        "name": "Octofriend",
+        "url": "https://github.com/synthetic-lab/octofriend",
+        "description": "A zero-telemetry open-source CLI coding assistant supporting OpenAI-compatible and Anthropic-compatible APIs with Docker sandboxing, MCP connectivity, and mid-conversation model switching.",
+        "tags": [
+            "agentic coding",
+            "AI powered",
+            "command line",
+            "source: TypeScript"
+        ]
+    },
+    {
+        "name": "offset-allocator",
+        "url": "https://github.com/pcwalton/offset-allocator",
+        "description": "A fast, hard real-time memory allocator optimized for managing GPU resources and other non-CPU memory allocations with O(1) operations and minimal fragmentation.",
+        "tags": [
+            "allocator",
+            "GPU",
+            "library",
+            "memory management",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "OllamaTalk",
+        "url": "https://github.com/shinhyo/OllamaTalk",
+        "description": "A fully local, cross-platform AI chat application powered by Ollama that runs entirely on-device across macOS, Windows, Linux, Android, and iOS with no cloud dependencies.",
+        "tags": [
+            "AI powered",
+            "chat",
+            "cross-platform",
+            "Language Model",
+            "offline",
+            "source: Dart"
+        ]
+    },
+    {
+        "name": "ollm",
+        "url": "https://github.com/Mega4alik/ollm",
+        "description": "A lightweight Python library enabling large-context LLM inference on consumer GPUs with limited VRAM through intelligent KV cache offloading to SSD without quantization.",
+        "tags": [
+            "inference",
+            "Language Model",
+            "library",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "olmOCR",
+        "url": "https://github.com/allenai/olmocr",
+        "description": "A toolkit that converts PDFs and image-based documents into clean, readable plain text and markdown format using vision language models for accurate OCR processing.",
+        "tags": [
+            "data processing",
+            "file convert",
+            "Markdown",
+            "OCR",
+            "PDF",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "Omnilingual ASR",
+        "url": "https://github.com/facebookresearch/omnilingual-asr",
+        "description": "An open-source multilingual speech recognition system supporting over 1,600 languages, including hundreds previously uncovered by ASR technology, enabling new languages to be added with minimal paired examples.",
+        "tags": [
+            "audio",
+            "multi-language",
+            "speech recognition",
+            "source: Python"
         ]
     },
     {
@@ -3629,6 +3746,56 @@
         ]
     },
     {
+        "name": "Open Notebook",
+        "url": "https://github.com/lfnovo/open-notebook",
+        "description": "An open-source, privacy-focused alternative to Google's Notebook LM that enables users to organize research materials and generate AI-powered insights.",
+        "tags": [
+            "AI powered",
+            "Jupyter",
+            "note",
+            "Notebook",
+            "privacy",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "open-interpreter",
+        "url": "https://github.com/OpenInterpreter/open-interpreter",
+        "description": "A natural language interface for computers that allows LLMs to run Python, JavaScript, Shell, and other code locally with user approval, overcoming ChatGPT Code Interpreter limitations.",
+        "tags": [
+            "AI powered",
+            "automation",
+            "code execution",
+            "command line",
+            "interactive",
+            "Language Model",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "OpenCode",
+        "url": "https://github.com/anomalyco/opencode/",
+        "description": "An open source AI coding agent that functions as a terminal-based alternative to Claude Code, enabling developers to write and manage code with AI assistance.",
+        "tags": [
+            "AI powered",
+            "automation",
+            "code generation",
+            "command line",
+            "source: TypeScript"
+        ]
+    },
+    {
+        "name": "OpenCode",
+        "url": "https://github.com/sst/opencode",
+        "description": "An open-source AI coding agent with a terminal UI offering autonomous code generation and modification, LSP integration, and support for Claude, OpenAI, Google, and local models.",
+        "tags": [
+            "agentic coding",
+            "AI powered",
+            "command line",
+            "source: TypeScript"
+        ]
+    },
+    {
         "name": "OpenDAN",
         "url": "https://github.com/fiatrete/OpenDAN-Personal-AI-OS",
         "description": "OpenDAN is an open source Personal AI OS , which consolidates various AI modules in one place for your personal use.",
@@ -3651,6 +3818,18 @@
         ]
     },
     {
+        "name": "OpenLIT",
+        "url": "https://github.com/openlit/openlit",
+        "description": "An open source platform providing OpenTelemetry-native LLM Observability, GPU Monitoring, Guardrails, Evaluations, Prompt Management, Vault, Playground for AI engineering workflows.",
+        "tags": [
+            "AI powered",
+            "metrics",
+            "monitoring",
+            "observability",
+            "source: Python"
+        ]
+    },
+    {
         "name": "OpenObserve",
         "url": "https://github.com/openobserve/openobserve",
         "description": "OpenObserve is a cloud native observability platform built specifically for logs, metrics, traces and analytics designed to work at petabyte scale.",
@@ -3658,6 +3837,27 @@
             "logs",
             "metrics",
             "source: Rust"
+        ]
+    },
+    {
+        "name": "OpenVMM",
+        "url": "https://github.com/microsoft/openvmm",
+        "description": "A modular, cross-platform Virtual Machine Monitor written in Rust, primarily developed for the OpenHCL paravisor.",
+        "tags": [
+            "container",
+            "cross-platform",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "OpenZL",
+        "url": "https://github.com/facebook/openzl",
+        "description": "A format-aware data compression framework that delivers high compression ratios while preserving high speed by generating specialized compressors optimized for specific data formats using a universal decompressor.",
+        "tags": [
+            "command line",
+            "compression",
+            "decompression",
+            "source: C"
         ]
     },
     {
@@ -3691,6 +3891,40 @@
         ]
     },
     {
+        "name": "oxker",
+        "url": "https://github.com/mrjackwills/oxker",
+        "description": "A terminal user interface for viewing and controlling Docker containers with real-time monitoring, log management, and interactive container operations.",
+        "tags": [
+            "containers",
+            "docker",
+            "monitoring",
+            "terminal interface",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "pandas-ai",
+        "url": "https://github.com/Sinaptik-AI/pandas-ai",
+        "description": "A Python library enabling natural language interactions with data sources including databases, data lakes, SQL, CSV, and Parquet files using large language models and retrieval-augmented generation.",
+        "tags": [
+            "AI powered",
+            "data processing",
+            "visualization",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "Patchwork",
+        "url": "https://github.com/patched-codes/patchwork",
+        "description": "An agentic AI framework designed to automate development tasks like PR reviews, bug fixing, and security patching using a self-hosted CLI agent with preferred LLMs.",
+        "tags": [
+            "AI agents",
+            "automation",
+            "pull requests",
+            "source: Python"
+        ]
+    },
+    {
         "name": "pathway",
         "url": "https://github.com/pathwaycom/pathway",
         "description": "Pathway is an open framework for high-throughput and low-latency real-time data processing.",
@@ -3720,6 +3954,29 @@
         "description": "Pelikan is framework for developing cache services.",
         "tags": [
             "caching"
+        ]
+    },
+    {
+        "name": "Perplexica",
+        "url": "https://github.com/ItzCrazyKns/Perplexica",
+        "description": "A privacy-focused AI-powered search and answering engine operating entirely on user hardware with local and cloud-based language models.",
+        "tags": [
+            "AI powered",
+            "privacy",
+            "web search",
+            "source: TypeScript"
+        ]
+    },
+    {
+        "name": "petit",
+        "url": "https://github.com/PedramNavid/petit",
+        "description": "A minimal, lightweight task orchestrator with cron-like scheduling, DAG-based execution, parallel processing, and configurable retry policies, built in Rust for embedded hardware environments.",
+        "tags": [
+            "command line",
+            "cron",
+            "orchestrator",
+            "scheduler",
+            "source: Rust"
         ]
     },
     {
@@ -3764,6 +4021,32 @@
         ]
     },
     {
+        "name": "Pi.Alert",
+        "url": "https://github.com/pucherot/Pi.Alert",
+        "description": "A network security monitoring system that continuously scans the network for new devices, disconnections, and IP changes while alerting you with unknown devices.",
+        "tags": [
+            "alerts",
+            "monitoring",
+            "network",
+            "security",
+            "web page",
+            "source: JavaScript"
+        ]
+    },
+    {
+        "name": "pico.sh",
+        "url": "https://github.com/picosh/pico",
+        "description": "Open source web services that leverage SSH for content publishing and management, enabling developers to deploy sites, share code, and manage blogs without additional installations.",
+        "tags": [
+            "self-hosted",
+            "ssh",
+            "static site",
+            "tunneling",
+            "web page",
+            "source: Go"
+        ]
+    },
+    {
         "name": "Piko",
         "url": "https://github.com/andydunstall/piko",
         "description": "An open-source reverse proxy enabling secure connections to non-publicly routable services through outbound-only tunnels, with clustering support for fault tolerance and horizontal scaling.",
@@ -3800,6 +4083,16 @@
         "tags": [
             "package installer",
             "resolver",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "pipask",
+        "url": "https://github.com/feynmanix/pipask",
+        "description": "A safer Python package installer that performs security audits before installation, acting as a drop-in replacement for pip that asks for user consent before executing any third-party code.",
+        "tags": [
+            "package installer",
+            "command line: pip",
             "source: Python"
         ]
     },
@@ -3881,6 +4174,28 @@
         ]
     },
     {
+        "name": "PocketPal AI",
+        "url": "https://github.com/a-ghorbani/pocketpal-ai",
+        "description": "A mobile application that enables users to run small language models directly on their phones for offline AI assistance with all processing occurring on-device to protect user privacy.",
+        "tags": [
+            "AI powered",
+            "Language Model",
+            "privacy",
+            "source: TypeScript"
+        ]
+    },
+    {
+        "name": "pogocache",
+        "url": "https://github.com/tidwall/pogocache",
+        "description": "A high-performance caching server with low latency and CPU efficiency, supporting HTTP, Memcache, RESP, and Postgres wire protocols.",
+        "tags": [
+            "caching",
+            "in-memory",
+            "key-value store",
+            "source: C"
+        ]
+    },
+    {
         "name": "Pop",
         "url": "https://github.com/charmbracelet/pop",
         "description": "Pop allows to send emails from your terminal.",
@@ -3888,6 +4203,19 @@
             "command line",
             "email",
             "send email",
+            "source: Go"
+        ]
+    },
+    {
+        "name": "portfwd",
+        "url": "https://github.com/gaetanlhf/portfwd",
+        "description": "A lightweight tool that forwards TCP and UDP network traffic from one port to another, supporting simultaneous forwarding to multiple destinations with a single compiled binary.",
+        "tags": [
+            "command line",
+            "forwarding",
+            "network",
+            "TCP",
+            "UDP",
             "source: Go"
         ]
     },
@@ -3933,6 +4261,17 @@
             "API development platform",
             "GUI",
             "testing API"
+        ]
+    },
+    {
+        "name": "Pretzel",
+        "url": "https://github.com/pretzelai/pretzelai",
+        "description": "An open-source fork of Jupyter that enhances the notebook experience with AI-powered code generation, intelligent editing, and collaborative features designed for modern data workflows.",
+        "tags": [
+            "AI powered",
+            "Jupyter",
+            "Notebook",
+            "source: Python"
         ]
     },
     {
@@ -4000,6 +4339,28 @@
         ]
     },
     {
+        "name": "Puter",
+        "url": "https://github.com/HeyPuter/puter",
+        "description": "An open-source internet operating system that functions as a personal cloud computer for file storage, app hosting, and remote access.",
+        "tags": [
+            "cloud",
+            "operating system",
+            "web browser",
+            "source: JavaScript"
+        ]
+    },
+    {
+        "name": "pwncat",
+        "url": "https://github.com/cytopia/pwncat",
+        "description": "A netcat alternative providing advanced networking capabilities including firewall/IDS/IPS evasion, bind and reverse shells, self-injecting capabilities, and port forwarding with full scriptability.",
+        "tags": [
+            "command line",
+            "network",
+            "security",
+            "source: Python"
+        ]
+    },
+    {
         "name": "PyApp",
         "url": "https://github.com/ofek/pyapp",
         "description": "PyApp is a wrapper for Python applications that bootstrap themselves at runtime.",
@@ -4020,6 +4381,18 @@
         ]
     },
     {
+        "name": "pylyzer",
+        "url": "https://github.com/mtshiba/pylyzer",
+        "description": "A static code analyzer and language server for Python that performs type checking more than 100 times faster than pytype and pyright.",
+        "tags": [
+            "linter",
+            "Python linter",
+            "static code analyzer",
+            "type checking",
+            "source: Rust"
+        ]
+    },
+    {
         "name": "pypipe",
         "url": "https://github.com/bugen/pypipe",
         "description": "pypipe is a Python command-line tool for pipeline processing.",
@@ -4027,6 +4400,30 @@
             "command line",
             "content extractor",
             "source: Python"
+        ]
+    },
+    {
+        "name": "Pyrefly",
+        "url": "https://github.com/facebook/pyrefly",
+        "description": "A type checker and language server for Python that delivers fast type checking with IDE features including code navigation, semantic highlighting, and code completion.",
+        "tags": [
+            "linter",
+            "Python linter",
+            "static code analyzer",
+            "type checking",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "pyscn",
+        "url": "https://github.com/ludo-technologies/pyscn",
+        "description": "An intelligent Python code quality analyzer that performs structural analysis to maintain codebase quality, designed for AI coding assistant users.",
+        "tags": [
+            "analysis",
+            "code quality",
+            "linter",
+            "Python linter",
+            "source: Go"
         ]
     },
     {
@@ -4047,6 +4444,16 @@
             "database",
             "SQL",
             "SQLite"
+        ]
+    },
+    {
+        "name": "qmd",
+        "url": "https://github.com/tobi/qmd",
+        "description": "An on-device hybrid search engine for personal knowledge management, indexing markdown notes with BM25 full-text, vector semantic, and LLM-reranked search.",
+        "tags": [
+            "full-text search",
+            "semantic search",
+            "source: TypeScript"
         ]
     },
     {
@@ -4519,8 +4926,8 @@
         "url": "https://github.com/ashvardanian/Stringzilla",
         "description": "StringZilla is the Godzilla of string libraries, splitting, sorting, and shuffling large textual datasets.",
         "tags": [
-            "data text processing",
             "library",
+            "text processing",
             "source: Python"
         ]
     },
