@@ -551,9 +551,9 @@
         "url": "https://github.com/czhu12/canine",
         "description": "A self-hosted Kubernetes deployment platform that brings PaaS simplicity to your own infrastructure, enabling deployments via git push and intuitive web management without requiring YAML knowledge.",
         "tags": [
-            "Automated Deployments",
             "automation",
             "container",
+            "deployments",
             "kubernetes",
             "Platform-as-a-Service",
             "self-hosted",
@@ -1971,7 +1971,7 @@
         "description": "GitButler is a git client that lets you work on multiple branches at the same time.",
         "tags": [
             "git",
-            "git GUI",
+            "GUI",
             "source: TypeScript"
         ]
     },
@@ -2036,7 +2036,7 @@
         "tags": [
             "command line",
             "git",
-            "git GUI",
+            "terminal interface",
             "source: Rust"
         ]
     },
@@ -2229,6 +2229,16 @@
             "library",
             "Python wrapper",
             "web browser",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "Heretic",
+        "url": "https://github.com/p-e-w/heretic",
+        "description": "Automated removal of safety constraints from transformer-based language models through directional ablation and TPE-based parameter optimization, without requiring expensive retraining.",
+        "tags": [
+            "AI powered",
+            "Language Model",
             "source: Python"
         ]
     },
@@ -2463,7 +2473,7 @@
         "tags": [
             "API",
             "database",
-            "real-time workflow",
+            "Firebase",
             "source: Clojure"
         ]
     },
@@ -2705,7 +2715,10 @@
         "description": "just is a handy way to save and run project-specific commands. Commands, called recipes, are stored in a file called `justfile` with syntax inspired by `make`.",
         "tags": [
             "command line",
-            "makefile"
+            "command runner",
+            "makefile",
+            "command line: make",
+            "source: Rust"
         ]
     },
     {
@@ -2981,7 +2994,6 @@
         "description": "Terminal UI for Git with interactive staging, visual rebasing, cherry-picking, commit graph visualization, and undo/redo via reflog.",
         "tags": [
             "git",
-            "git GUI",
             "interactive",
             "terminal interface",
             "source: Go"
@@ -2996,6 +3008,7 @@
             "file manager",
             "terminal",
             "terminal interface",
+            "command line: mc",
             "command line: ranger",
             "source: Go"
         ]
@@ -3224,6 +3237,18 @@
         ]
     },
     {
+        "name": "make",
+        "url": "https://github.com/mirror/make",
+        "description": "GNU Make build automation tool that automatically determines which parts of a program need to be recompiled and issues the commands to rebuild them.",
+        "tags": [
+            "command line",
+            "command runner",
+            "makefile",
+            "command line: make",
+            "source: C"
+        ]
+    },
+    {
         "name": "Mandala",
         "url": "https://github.com/amakelov/mandala",
         "description": "An experiment tracking framework that automatically saves, queries, and versions Python computations through an @op decorator that captures inputs, outputs, and code dependencies.",
@@ -3384,8 +3409,9 @@
         "url": "https://github.com/Netflix/metaflow",
         "description": "Metaflow is a human-friendly Python/R library that helps scientists and engineers build and manage real-life data science projects.",
         "tags": [
-            "library",
-            "real-time workflow",
+            "deploy",
+            "management",
+            "workflow",
             "source: Python"
         ]
     },
@@ -4467,6 +4493,16 @@
         ]
     },
     {
+        "name": "qrframe",
+        "url": "https://github.com/zhengkyl/qrframe",
+        "description": "A code-based QR code designer allowing visual customization through presets or custom rendering code, with SVG and PNG export.",
+        "tags": [
+            "image generation",
+            "QR code",
+            "source: TypeScript"
+        ]
+    },
+    {
         "name": "qsv",
         "url": "https://github.com/jqnatividad/qsv",
         "description": "qsv is a command line program for querying, indexing, slicing, analyzing, filtering, enriching, transforming, sorting, validating & joining CSV files.",
@@ -4488,6 +4524,28 @@
             "Markdown",
             "presentation",
             "source: Kotlin"
+        ]
+    },
+    {
+        "name": "Quary",
+        "url": "https://github.com/quarylabs/quary",
+        "description": "Open-source business intelligence platform for engineers that enables database connections, SQL-based data transformations, and model deployment with version control.",
+        "tags": [
+            "analytics",
+            "database",
+            "GUI",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "Raijin",
+        "url": "https://github.com/MasonStooksbury/Raijin",
+        "description": "A terminal-based weather application that retrieves meteorological data without requiring API keys, user accounts, or subscriptions.",
+        "tags": [
+            "command line",
+            "terminal interface",
+            "weather",
+            "source: Rust"
         ]
     },
     {
@@ -4522,6 +4580,30 @@
         ]
     },
     {
+        "name": "redir",
+        "url": "https://github.com/troglobit/redir",
+        "description": "A TCP port redirector for UNIX that listens on a source port and redirects connections to a destination address with bandwidth limiting and FTP redirection support.",
+        "tags": [
+            "forwarding",
+            "networking",
+            "proxy",
+            "TCP",
+            "source: C"
+        ]
+    },
+    {
+        "name": "Redka",
+        "url": "https://github.com/nalgeon/redka",
+        "description": "A SQL-based reimplementation of Redis that maintains API compatibility while storing data in relational databases instead of RAM.",
+        "tags": [
+            "caching",
+            "database",
+            "key-value store",
+            "redis",
+            "source: Go"
+        ]
+    },
+    {
         "name": "refurb",
         "url": "https://github.com/dosisod/refurb",
         "description": "A tool for refurbishing and modernizing Python codebases.",
@@ -4529,6 +4611,27 @@
             "command line",
             "linter",
             "source: Python linter"
+        ]
+    },
+    {
+        "name": "RenderCV",
+        "url": "https://github.com/sinaatalay/rendercv",
+        "description": "A CV/resume generator that transforms YAML input into professionally formatted PDFs with multiple built-in themes, version control support, and full typography control.",
+        "tags": [
+            "command line",
+            "PDF",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "RetroNAS",
+        "url": "https://github.com/retronas/retronas",
+        "description": "Configures a Raspberry Pi, legacy computer, or VM as network storage for retro computers and gaming consoles using NFS and Samba protocols.",
+        "tags": [
+            "NAS",
+            "network",
+            "storage",
+            "source: Shell"
         ]
     },
     {
@@ -4543,11 +4646,34 @@
         ]
     },
     {
+        "name": "rinetd",
+        "url": "https://github.com/samhocevar/rinetd",
+        "description": "A tool for efficiently redirecting TCP and UDP connections from one IP address and port to another, useful for virtual servers, firewalls, and load balancing.",
+        "tags": [
+            "forwarding",
+            "networking",
+            "proxy",
+            "TCP",
+            "UDP",
+            "source: C"
+        ]
+    },
+    {
         "name": "rip",
         "url": "https://github.com/nivekuil/rip",
         "description": "rip is a command-line deletion tool focused on safety, ergonomics, and performance.",
         "tags": [
             "command line",
+            "deletion tool",
+            "command line: rm",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "rip2",
+        "url": "https://github.com/MilesCranmer/rip2",
+        "description": "A safer, Rust-based alternative to rm that moves deleted files to a graveyard directory instead of permanently removing them, allowing for recovery with undo functionality.",
+        "tags": [
             "deletion tool",
             "command line: rm",
             "source: Rust"
@@ -4566,6 +4692,17 @@
             "searching",
             "command line: grep",
             "source: Rust"
+        ]
+    },
+    {
+        "name": "Rizin",
+        "url": "https://github.com/rizinorg/rizin",
+        "description": "Reverse engineering framework for analyzing binaries, disassembling code, and debugging programs with support for 50+ architectures and multiple file formats.",
+        "tags": [
+            "command line",
+            "debugger",
+            "reverse engineering",
+            "source: C"
         ]
     },
     {
@@ -4617,6 +4754,41 @@
         ]
     },
     {
+        "name": "rush",
+        "url": "https://github.com/shenwei356/rush",
+        "description": "A cross-platform command-line tool for executing jobs in parallel with support for custom variables, timeout handling, retry logic, and resumable execution after interruption.",
+        "tags": [
+            "command line",
+            "parallel",
+            "command line: parallel",
+            "source: Go"
+        ]
+    },
+    {
+        "name": "RustDesk",
+        "url": "https://github.com/rustdesk/rustdesk",
+        "description": "An open-source remote desktop application with P2P connectivity and self-hosting support, offering an alternative to TeamViewer with cross-platform support for desktop and mobile.",
+        "tags": [
+            "cross-platform",
+            "remote access",
+            "remote desktop",
+            "self-hosted",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "RustFS",
+        "url": "https://github.com/rustfs/rustfs",
+        "description": "A high-performance distributed object storage system with S3-compatible API, offering faster performance than traditional alternatives with replication, versioning, and web console.",
+        "tags": [
+            "file storage",
+            "S3",
+            "self-hosted",
+            "storage",
+            "source: Rust"
+        ]
+    },
+    {
         "name": "rye",
         "url": "https://github.com/mitsuhiko/rye",
         "description": "Rye is Armin's personal one-stop-shop for all his Python needs. It installs and manages Python installations, manages pyproject.toml files, installs and uninstalls dependencies, manages virtualenvs behind the scenes. It supports monorepos and global tool installations.",
@@ -4640,6 +4812,27 @@
         ]
     },
     {
+        "name": "s3mini",
+        "url": "https://github.com/good-lly/s3mini",
+        "description": "An ultra-lightweight TypeScript client (~20 KB minified) for S3-compatible object storage that runs on Node, Bun, Cloudflare Workers, and other edge platforms.",
+        "tags": [
+            "library",
+            "S3",
+            "source: TypeScript"
+        ]
+    },
+    {
+        "name": "s5cmd",
+        "url": "https://github.com/peak/s5cmd",
+        "description": "A high-performance tool for parallel S3 and local filesystem operations, offering very fast speed for object storage workflows with support for wildcards and batch operations.",
+        "tags": [
+            "command line",
+            "S3",
+            "storage",
+            "source: Go"
+        ]
+    },
+    {
         "name": "Sapling",
         "url": "https://github.com/facebook/sapling",
         "description": "A Scalable, User-Friendly Source Control System.",
@@ -4654,6 +4847,40 @@
         "description": "Scalene: a high-performance, high-precision CPU, GPU, and memory profiler for Python.",
         "tags": [
             "profiler",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "Scanopy",
+        "url": "https://github.com/scanopy/scanopy",
+        "description": "An automated network scanning tool that discovers hosts and services across 200+ service definitions and generates interactive topology visualizations with scheduled scanning support.",
+        "tags": [
+            "monitoring",
+            "network",
+            "network scan",
+            "self-hosted",
+            "visualization",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "ScrapeGraphAI",
+        "url": "https://github.com/VinciGit00/Scrapegraph-ai",
+        "description": "A Python library that leverages large language models and graph logic to create web scraping pipelines for websites and local documents with automatic extraction based on natural language prompts.",
+        "tags": [
+            "AI powered",
+            "web scraper",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "Scrapling",
+        "url": "https://github.com/D4Vinci/Scrapling",
+        "description": "An adaptive Python web scraping library that automatically relocates elements after website changes, with anti-bot bypass and AI integration.",
+        "tags": [
+            "AI powered",
+            "library",
+            "web scraper",
             "source: Python"
         ]
     },
@@ -4699,6 +4926,17 @@
         ]
     },
     {
+        "name": "SeekStorm",
+        "url": "https://github.com/SeekStorm/SeekStorm",
+        "description": "An open-source, sub-millisecond full-text search library and multi-tenancy server written in Rust with BM25F ranking, real-time indexing, faceted search, typo tolerance, and support for 18 languages.",
+        "tags": [
+            "full-text search",
+            "indexing",
+            "searching",
+            "source: Rust"
+        ]
+    },
+    {
         "name": "Self-Replace",
         "url": "https://github.com/mitsuhiko/self-replace",
         "description": "self-replace is a crate that allows binaries to replace themselves with newer versions or to uninstall themselves. On Unix systems this is a simple feat, but on Windows a few hacks are needed which is why this crate exists.",
@@ -4707,6 +4945,17 @@
             "distribution",
             "self-replace",
             "source: Rust"
+        ]
+    },
+    {
+        "name": "Semantic Kernel",
+        "url": "https://github.com/microsoft/semantic-kernel",
+        "description": "An enterprise-ready orchestration framework for building intelligent AI agents and multi-agent systems with support for multiple programming languages.",
+        "tags": [
+            "AI agents",
+            "framework",
+            "library",
+            "source: Python"
         ]
     },
     {
@@ -4736,6 +4985,27 @@
         ]
     },
     {
+        "name": "setup-ucacher",
+        "url": "https://github.com/earthly/setup-ucacher",
+        "description": "A GitHub Action that installs ucacher, Earthly's universal caching tool that tracks file access, automatically skips redundant commands, and restores cached outputs to significantly reduce CI/CD execution times.",
+        "tags": [
+            "automation",
+            "caching",
+            "GitHub actions"
+        ]
+    },
+    {
+        "name": "ShadeOfColor2",
+        "url": "https://github.com/archistico/ShadeOfColor2",
+        "description": "A cross-platform application that converts files into PNG images and recovers them, enabling data concealment within image pixels.",
+        "tags": [
+            "cross-platform",
+            "image",
+            "PNG",
+            "source: C#"
+        ]
+    },
+    {
         "name": "ShadowFinder",
         "url": "https://github.com/bellingcat/ShadowFinder",
         "description": "A geolocation tool that estimates Earth surface locations based on shadow lengths, using object height, shadow measurements, and time data for open-source investigations.",
@@ -4746,6 +5016,28 @@
             "image",
             "visualization",
             "source: Python"
+        ]
+    },
+    {
+        "name": "Sherlock",
+        "url": "https://github.com/sherlock-project/sherlock",
+        "description": "A command-line tool that hunts for usernames across 400+ social networks simultaneously to locate online accounts associated with a target username.",
+        "tags": [
+            "OSINT",
+            "social media",
+            "username search",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "sidekick",
+        "url": "https://github.com/MightyMoud/sidekick",
+        "description": "A CLI tool for VPS deployment that provides Heroku-like simplicity with Docker, Traefik, automatic SSL, zero-downtime deployments, and built-in secret management via SOPS.",
+        "tags": [
+            "automation",
+            "command line",
+            "deployments",
+            "source: Go"
         ]
     },
     {
@@ -4766,6 +5058,52 @@
         "tags": [
             "Markdown",
             "presentation"
+        ]
+    },
+    {
+        "name": "smallpond",
+        "url": "https://github.com/deepseek-ai/smallpond",
+        "description": "A lightweight framework for processing large-scale data that leverages DuckDB's performance capabilities combined with 3FS distributed storage, enabling efficient handling of petabyte-scale datasets without requiring persistent service infrastructure.",
+        "tags": [
+            "data processing",
+            "database",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "snitch",
+        "url": "https://github.com/karol-broda/snitch",
+        "description": "A user-friendly alternative to ss and netstat that inspects network connections through a clean terminal UI or styled tables.",
+        "tags": [
+            "command line",
+            "monitoring",
+            "network",
+            "network scan",
+            "terminal interface",
+            "source: Go"
+        ]
+    },
+    {
+        "name": "Somo",
+        "url": "https://github.com/theopfr/somo",
+        "description": "A human-friendly alternative to netstat for socket and port monitoring on Linux and macOS, with filtering by port/protocol/process, sorting, and interactive process termination.",
+        "tags": [
+            "monitoring",
+            "network",
+            "network scan",
+            "command line: netstat",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "Sourcebot",
+        "url": "https://github.com/sourcebot-dev/sourcebot",
+        "description": "A self-hosted tool enabling developers and AI agents to comprehend codebases through intelligent search, IDE-level navigation, and natural language querying across multiple repositories.",
+        "tags": [
+            "AI powered",
+            "code search",
+            "GUI",
+            "source: TypeScript"
         ]
     },
     {
@@ -4813,6 +5151,18 @@
         ]
     },
     {
+        "name": "Speedtest Tracker",
+        "url": "https://github.com/alexjustesen/speedtest-tracker",
+        "description": "A self-hosted application that monitors internet connection performance and uptime through automated testing, capturing detailed metrics including download/upload speeds, ping, and packet loss.",
+        "tags": [
+            "dashboard",
+            "internet connection",
+            "monitoring",
+            "network",
+            "source: PHP"
+        ]
+    },
+    {
         "name": "spin",
         "url": "https://github.com/serversideup/spin",
         "description": "spin is a bash utility that improves the user-experience for teams using Docker.",
@@ -4820,6 +5170,20 @@
             "command line",
             "docker",
             "source: Shell"
+        ]
+    },
+    {
+        "name": "sq",
+        "url": "https://github.com/neilotoole/sq",
+        "description": "A command-line tool providing jq-style access to structured data sources including SQL databases and document formats like CSV and Excel.",
+        "tags": [
+            "command line",
+            "CSV",
+            "data processing",
+            "database",
+            "SQL",
+            "command line: jq",
+            "source: Go"
         ]
     },
     {
@@ -4867,6 +5231,46 @@
         ]
     },
     {
+        "name": "ssh-crypt",
+        "url": "https://github.com/Sets88/ssh-crypt",
+        "description": "A tool that enables secure password storage within shell scripts by leveraging SSH keys managed through ssh-agent, encrypting sensitive data that only decrypts when the corresponding SSH key is active.",
+        "tags": [
+            "command line",
+            "encryption",
+            "passwords",
+            "secret management",
+            "security",
+            "ssh",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "sshrc",
+        "url": "https://github.com/cdown/sshrc",
+        "description": "A utility that enables users to bring their local shell configuration files to remote servers when establishing SSH connections, allowing personalized environment setup without modifying server-wide configurations.",
+        "tags": [
+            "configuration",
+            "shell",
+            "ssh",
+            "source: Shell"
+        ]
+    },
+    {
+        "name": "SSLyze",
+        "url": "https://github.com/nabla-c0d3/sslyze",
+        "description": "A fast and powerful tool for scanning SSL/TLS server configurations to identify weak encryption settings and known vulnerabilities like Heartbleed and ROBOT attacks.",
+        "tags": [
+            "command line",
+            "network",
+            "penetration tests",
+            "security",
+            "SSL",
+            "TLS",
+            "vulnerability scanner",
+            "source: Python"
+        ]
+    },
+    {
         "name": "StableStudio",
         "url": "https://github.com/Stability-AI/StableStudio",
         "description": "StableStudio is Stability AI's official open-source variant of DreamStudio, our user interface for generative AI. It is a web-based application that allows users to create and edit generated images.",
@@ -4901,6 +5305,17 @@
         ]
     },
     {
+        "name": "StarGuard",
+        "url": "https://github.com/m-ahmed-elbeskeri/Starguard",
+        "description": "A CLI tool that analyzes GitHub repositories to detect fake-star campaigns, dependency hijacks, and license red flags.",
+        "tags": [
+            "analysis",
+            "command line",
+            "git",
+            "source: Python"
+        ]
+    },
+    {
         "name": "starry-night",
         "url": "https://github.com/wooorm/starry-night",
         "description": "Syntax highlighting, like what GitHub uses to highlight code, but free and open source and JavaScript!",
@@ -4908,6 +5323,17 @@
             "coloring code",
             "syntax highlighting",
             "source: JavaScript"
+        ]
+    },
+    {
+        "name": "STORM",
+        "url": "https://github.com/stanford-oval/storm",
+        "description": "An AI system that researches topics and generates comprehensive Wikipedia-style articles with citations by conducting internet searches and simulating expert conversations.",
+        "tags": [
+            "AI powered",
+            "text generation",
+            "Wikipedia",
+            "source: Python"
         ]
     },
     {
@@ -4929,6 +5355,20 @@
             "library",
             "text processing",
             "source: Python"
+        ]
+    },
+    {
+        "name": "Superfile",
+        "url": "https://github.com/MHNightCat/superfile",
+        "description": "A modern terminal file manager with intuitive interface, customization support, and cross-platform compatibility.",
+        "tags": [
+            "command line",
+            "cross-platform",
+            "file manager",
+            "terminal interface",
+            "command line: mc",
+            "command line: ranger",
+            "source: Go"
         ]
     },
     {
@@ -4972,6 +5412,15 @@
         ]
     },
     {
+        "name": "Tau",
+        "url": "https://github.com/taubyte/tau",
+        "description": "An open-source Git-native Platform-as-a-Service for building, deploying, and scaling applications with infrastructure defined in Git, featuring serverless functions and built-in databases.",
+        "tags": [
+            "deploy",
+            "source: Go"
+        ]
+    },
+    {
         "name": "tbmk",
         "url": "https://github.com/linhx/tbmk",
         "description": "tbmk is a commands bookmark for terminal.",
@@ -4990,6 +5439,16 @@
             "command line",
             "guide",
             "tldr",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "TensorZero",
+        "url": "https://github.com/tensorzero/tensorzero",
+        "description": "An open-source platform unifying LLM gateway, observability, optimization, evaluation, and experimentation for production-grade AI applications with support for 20+ providers.",
+        "tags": [
+            "AI powered",
+            "observability",
             "source: Rust"
         ]
     },
@@ -5074,6 +5533,29 @@
         ]
     },
     {
+        "name": "tjq",
+        "url": "https://github.com/alpaylan/tjq",
+        "description": "A prototype type inference system for jq programs that requires no annotations while performing lightweight inference to deliver enhanced error messages for JSON manipulation tasks.",
+        "tags": [
+            "command line",
+            "data processing",
+            "debugging",
+            "command line: jq",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "tlm",
+        "url": "https://github.com/yusufcanb/tlm",
+        "description": "A local CLI companion tool using open-source LLMs for command suggestion, shell command explanation, and RAG-based queries, working fully offline.",
+        "tags": [
+            "AI powered",
+            "code generation",
+            "command line",
+            "source: Go"
+        ]
+    },
+    {
         "name": "Tokei",
         "url": "https://github.com/XAMPPRocky/tokei",
         "description": "Tokei is a program that displays statistics about your code.",
@@ -5107,6 +5589,29 @@
         ]
     },
     {
+        "name": "TOON",
+        "url": "https://github.com/johannschopplich/toon",
+        "description": "A compact, human-readable encoding format for JSON data designed specifically for LLM inputs, achieving up to 40% fewer tokens than standard JSON.",
+        "tags": [
+            "AI powered",
+            "data format",
+            "JSON",
+            "library",
+            "source: TypeScript"
+        ]
+    },
+    {
+        "name": "TrailBase",
+        "url": "https://github.com/trailbaseio/trailbase",
+        "description": "An open-source, sub-millisecond, single-executable Firebase alternative with type-safe REST APIs, realtime subscriptions, WebAssembly runtime, and built-in auth, built on Rust and SQLite.",
+        "tags": [
+            "Firebase",
+            "self-hosted",
+            "single-binary",
+            "source: Rust"
+        ]
+    },
+    {
         "name": "trdrop",
         "url": "https://github.com/cirquit/trdrop",
         "description": "Estimate the \"real\" framerate of an uncompressed video.",
@@ -5137,6 +5642,18 @@
         ]
     },
     {
+        "name": "TruffleHog",
+        "url": "https://github.com/trufflesecurity/trufflehog",
+        "description": "A secrets discovery, classification, validation, and analysis tool that scans Git repositories, cloud storage, Docker images, and more for over 800 types of leaked credentials.",
+        "tags": [
+            "preventing secrets",
+            "secrets detector",
+            "security",
+            "vulnerability scanner",
+            "source: Go"
+        ]
+    },
+    {
         "name": "trurl",
         "url": "https://github.com/curl/trurl",
         "description": "trurl is a command line tool for URL parsing and manipulation",
@@ -5158,6 +5675,37 @@
         ]
     },
     {
+        "name": "try",
+        "url": "https://github.com/tobi/try",
+        "description": "A CLI tool for managing experiment directories with fuzzy search, time-awareness, and automatic date-prefixing for developers who create many temporary projects.",
+        "tags": [
+            "command line",
+            "fuzzy search",
+            "managing experiment",
+            "source: Ruby"
+        ]
+    },
+    {
+        "name": "ttyd",
+        "url": "https://github.com/tsl0922/ttyd",
+        "description": "A command-line tool that shares terminal sessions over the web via a browser interface with WebSocket support, TLS encryption, and file transfer capabilities.",
+        "tags": [
+            "terminal",
+            "web page",
+            "source: C"
+        ]
+    },
+    {
+        "name": "tunnelto",
+        "url": "https://github.com/agrinman/tunnelto",
+        "description": "A command-line tool that lets you expose your locally running web server via a public URL, enabling developers to make local services accessible over the internet.",
+        "tags": [
+            "command line",
+            "deploy",
+            "source: Rust"
+        ]
+    },
+    {
         "name": "TurboPilot",
         "url": "https://github.com/ravenscroftj/turbopilot",
         "description": "TurboPilot is a self-hosted copilot clone which uses the library behind llama.cpp to run the 6 Billion Parameter Salesforce Codegen model in 4GiB of RAM. It is heavily based and inspired by on the fauxpilot project.",
@@ -5165,6 +5713,52 @@
             "code completion",
             "Deep Learning",
             "source: Python"
+        ]
+    },
+    {
+        "name": "Twick",
+        "url": "https://github.com/ncounterspecialist/twick",
+        "description": "An open-source React Video Editor Library & SDK featuring AI caption generation, timeline editing, canvas tools, and MP4 export for building custom video applications.",
+        "tags": [
+            "AI powered",
+            "automatic transcription",
+            "video",
+            "video editing",
+            "source: TypeScript"
+        ]
+    },
+    {
+        "name": "txtai",
+        "url": "https://github.com/neuml/txtai",
+        "description": "An all-in-one AI framework combining semantic search, LLM orchestration, and language model workflows into a unified platform for building intelligent applications.",
+        "tags": [
+            "AI powered",
+            "framework",
+            "semantic search",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "ty",
+        "url": "https://github.com/astral-sh/ty",
+        "description": "An extremely fast Python type checker and language server, written in Rust, delivering 10x-100x faster performance than competing type checkers with comprehensive diagnostics and IDE integration.",
+        "tags": [
+            "linter",
+            "Python linter",
+            "type checking",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "Typesense",
+        "url": "https://github.com/typesense/typesense",
+        "description": "A fast, typo-tolerant open-source search engine with semantic/vector search, sub-50ms latency, faceting, filtering, and built-in RAG functionality.",
+        "tags": [
+            "full-text search",
+            "search engine",
+            "semantic search",
+            "vector search",
+            "source: C++"
         ]
     },
     {
@@ -5187,12 +5781,33 @@
         ]
     },
     {
+        "name": "Umami",
+        "url": "https://github.com/umami-software/umami",
+        "description": "A simple, fast, privacy-focused open-source alternative to Google Analytics with real-time visitor tracking and self-hosted deployment.",
+        "tags": [
+            "analytics",
+            "Google Analytics",
+            "self-hosted",
+            "source: TypeScript"
+        ]
+    },
+    {
         "name": "unblob",
         "url": "https://github.com/onekey-sec/unblob",
         "description": "unblob is an extraction suite that parses unknown binary blobs, extracts their content recursively, and carves out unknown chunks.",
         "tags": [
             "command line",
             "parse file"
+        ]
+    },
+    {
+        "name": "UnisonDB",
+        "url": "https://github.com/ankur-anand/unisondb",
+        "description": "A log-native, real-time database for Edge AI and Edge Computing that replicates like a message bus, combining B+Tree storage with WAL-based streaming replication for near-instant fan-out across hundreds of nodes.",
+        "tags": [
+            "database",
+            "stream data",
+            "source: Go"
         ]
     },
     {
@@ -5212,6 +5827,17 @@
         "tags": [
             "monitoring",
             "source: JavaScript"
+        ]
+    },
+    {
+        "name": "uredir",
+        "url": "https://github.com/troglobit/uredir",
+        "description": "A small Linux daemon for redirecting UDP connections, useful on embedded systems without iptables support for SNMP and DNS forwarding.",
+        "tags": [
+            "forwarding",
+            "networking",
+            "UDP",
+            "source: C"
         ]
     },
     {
@@ -5237,6 +5863,52 @@
             "redis",
             "storage",
             "source: C"
+        ]
+    },
+    {
+        "name": "venvstacks",
+        "url": "https://github.com/lmstudio-ai/venvstacks",
+        "description": "A Python tool that packages applications with their dependencies into portable, deterministic formats without duplicating large ML/AI frameworks.",
+        "tags": [
+            "environment manager",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "vet",
+        "url": "https://github.com/vet-run/vet",
+        "description": "A command-line safety tool that prevents blind execution of remote scripts by enabling inspection, diffing, linting, and explicit approval before running downloaded code.",
+        "tags": [
+            "command line",
+            "security",
+            "shell script",
+            "source: Shell"
+        ]
+    },
+    {
+        "name": "VictoriaLogs",
+        "url": "https://github.com/VictoriaMetrics/VictoriaLogs",
+        "description": "A fast and easy-to-use database for logs designed to efficiently manage terabytes of log data with both single-node and cluster deployment options.",
+        "tags": [
+            "database",
+            "logs",
+            "monitoring",
+            "source: Go"
+        ]
+    },
+    {
+        "name": "VidBee",
+        "url": "https://github.com/nexmoe/VidBee",
+        "description": "A modern, open-source video downloader enabling users to download videos and audio from 1000+ websites globally with RSS automation features.",
+        "tags": [
+            "audio",
+            "automation",
+            "cross-platform",
+            "downloader",
+            "GUI",
+            "RSS",
+            "video downloader",
+            "source: TypeScript"
         ]
     },
     {
@@ -5273,6 +5945,61 @@
         ]
     },
     {
+        "name": "VoiceRestore",
+        "url": "https://github.com/skirdey/voicerestore",
+        "description": "A speech restoration model using flow-matching transformers to enhance degraded voice recordings by addressing noise, reverberation, distortion, and signal loss.",
+        "tags": [
+            "audio",
+            "Deep Learning",
+            "speech recognition",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "Void",
+        "url": "https://github.com/voideditor/void",
+        "description": "An open-source IDE built on VS Code that integrates AI agents for code analysis and manipulation with checkpoint visualization and local model hosting support.",
+        "tags": [
+            "agentic coding",
+            "editor",
+            "IDE",
+            "source: TypeScript"
+        ]
+    },
+    {
+        "name": "Volatility 3",
+        "url": "https://github.com/volatilityfoundation/volatility3",
+        "description": "The world's most widely used framework for extracting digital artifacts from volatile memory (RAM) samples for forensic analysis and incident response.",
+        "tags": [
+            "memory",
+            "security",
+            "vulnerability scanner",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "Vortex",
+        "url": "https://github.com/spiraldb/vortex",
+        "description": "A next-generation columnar file format and toolkit delivering 100x faster random access and 10-20x faster scans compared to Apache Parquet with zero-copy Arrow compatibility.",
+        "tags": [
+            "data format",
+            "data processing",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "Vosk",
+        "url": "https://github.com/alphacep/vosk-api",
+        "description": "An offline, open-source speech recognition system supporting 20+ languages with small models that deliver continuous transcription and zero-latency streaming responses.",
+        "tags": [
+            "audio",
+            "multi-language",
+            "privacy",
+            "speech recognition",
+            "source: C++"
+        ]
+    },
+    {
         "name": "vsd",
         "url": "https://github.com/clitic/vsd",
         "description": "vsd - video stream downloader is a command line program to download video streams served over HTTP from websites, HLS and DASH playlists.",
@@ -5303,12 +6030,56 @@
         ]
     },
     {
+        "name": "Warewulf",
+        "url": "https://github.com/warewulf/warewulf",
+        "description": "A stateless and diskless container-based operating system provisioning system for large clusters of bare metal and virtual systems in HPC environments.",
+        "tags": [
+            "containers",
+            "docker",
+            "source: Go"
+        ]
+    },
+    {
         "name": "Watcher",
         "url": "https://github.com/e-dant/watcher",
         "description": "Watcher is a file system watcher that works anywhere. It is simple, efficient, dependency-free, and header-only. Watcher uses a near-zero amount of resources even when scanning millions of paths.",
         "tags": [
             "command line",
             "file system watcher"
+        ]
+    },
+    {
+        "name": "Wave Terminal",
+        "url": "https://github.com/wavetermdev/waveterm",
+        "description": "An open-source terminal combining traditional CLI features with graphical capabilities including file previews, web browsing, AI assistance, and remote SSH connections.",
+        "tags": [
+            "AI powered",
+            "cross-platform",
+            "terminal",
+            "terminal emulator",
+            "source: Go"
+        ]
+    },
+    {
+        "name": "Waydroid",
+        "url": "https://github.com/waydroid/waydroid",
+        "description": "A container-based approach to boot a full Android system on GNU/Linux, enabling Android apps on regular Linux desktops using Linux namespaces.",
+        "tags": [
+            "Android",
+            "container",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "Werk",
+        "url": "https://github.com/simonask/werk",
+        "description": "A simplistic command runner and build system combining features of just and make, with task dependency management and VS Code language extension support.",
+        "tags": [
+            "command line",
+            "command runner",
+            "makefile",
+            "command line: make",
+            "source: Rust"
         ]
     },
     {
@@ -5392,6 +6163,31 @@
         ]
     },
     {
+        "name": "Windows",
+        "url": "https://github.com/dockur/windows",
+        "description": "A Docker container solution that enables users to run Windows operating systems virtualized inside Docker, complete with automatic ISO downloading, KVM acceleration, and a web-based viewer interface.",
+        "tags": [
+            "container",
+            "docker",
+            "Windows",
+            "source: Shell"
+        ]
+    },
+    {
+        "name": "witr",
+        "url": "https://github.com/pranshuparmar/witr",
+        "description": "A CLI tool that explains the causality behind running processes, services, and port bindings by tracing why something is running through process hierarchies and system supervisors.",
+        "tags": [
+            "command line",
+            "cross-platform",
+            "debugging",
+            "monitoring",
+            "process management",
+            "command line: ps",
+            "source: Go"
+        ]
+    },
+    {
         "name": "wonnx",
         "url": "https://github.com/webonnx/wonnx",
         "description": "Wonnx is a GPU-accelerated ONNX inference run-time written 100% in Rust, ready for the web.",
@@ -5412,6 +6208,38 @@
             "library",
             "NLP",
             "source: Python"
+        ]
+    },
+    {
+        "name": "workmux",
+        "url": "https://github.com/raine/workmux",
+        "description": "Workflow tool combining git worktrees and tmux windows to enable isolated parallel development environments for working on multiple features simultaneously.",
+        "tags": [
+            "automation",
+            "terminal",
+            "workflow",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "WTF",
+        "url": "https://github.com/wtfutil/wtf",
+        "description": "A personal information dashboard for the terminal providing at-a-glance access to important stats and data with 30+ integrations including GitHub, Calendar, and cloud services.",
+        "tags": [
+            "dashboard",
+            "terminal",
+            "source: Go"
+        ]
+    },
+    {
+        "name": "xan",
+        "url": "https://github.com/medialab/xan",
+        "description": "A command-line tool for processing CSV files with exceptional speed and low memory usage, offering composable commands for data operations.",
+        "tags": [
+            "command line",
+            "CSV",
+            "data processing",
+            "source: Rust"
         ]
     },
     {
@@ -5446,6 +6274,20 @@
             "compression",
             "decompression",
             "source: C"
+        ]
+    },
+    {
+        "name": "yadm",
+        "url": "https://github.com/yadm-dev/yadm",
+        "description": "A Git-based dotfiles manager with support for system-specific alternatives, templating, encryption via GnuPG/OpenSSL, and customizable bootstrapping.",
+        "tags": [
+            "configuration",
+            "customizing",
+            "dotfile",
+            "encryption",
+            "environment manager",
+            "management",
+            "source: Python"
         ]
     },
     {
@@ -5502,6 +6344,18 @@
         ]
     },
     {
+        "name": "Zasper",
+        "url": "https://github.com/zasper-io/zasper",
+        "description": "A high-performance IDE for Jupyter Notebooks offering up to 5x less CPU and 40x less RAM than JupyterLab, supporting Python, R, Julia, and other kernels.",
+        "tags": [
+            "GUI",
+            "IDE",
+            "Jupyter",
+            "Notebook",
+            "source: Go"
+        ]
+    },
+    {
         "name": "Zeal",
         "url": "https://github.com/zealdocs/zeal/",
         "description": "Zeal is a simple offline documentation browser inspired by Dash.",
@@ -5519,6 +6373,38 @@
             "terminal",
             "terminal interface",
             "source: Rust"
+        ]
+    },
+    {
+        "name": "Zev",
+        "url": "https://github.com/dtnewman/zev",
+        "description": "A CLI tool that leverages LLM APIs to translate natural language queries into executable terminal commands, supporting multiple providers including OpenAI, Google Gemini, Ollama, and Azure OpenAI.",
+        "tags": [
+            "AI powered",
+            "command line",
+            "terminal",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "ZML",
+        "url": "https://github.com/zml/zml",
+        "description": "A high-performance AI inference stack for production that supports any model on any hardware including NVIDIA CUDA, AMD RoCM, Google TPU, and AWS Trainium.",
+        "tags": [
+            "inference",
+            "Language Model",
+            "source: Zig"
+        ]
+    },
+    {
+        "name": "Zoekt",
+        "url": "https://github.com/sourcegraph/zoekt",
+        "description": "A fast trigram-based text search engine for source code supporting substring and regex matching with a rich query language, multi-repository search, and result ranking.",
+        "tags": [
+            "code search",
+            "full-text search",
+            "indexing",
+            "source: Go"
         ]
     },
     {

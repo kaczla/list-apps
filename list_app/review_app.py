@@ -405,9 +405,11 @@ def index_page() -> None:
 
                             with ui.row().classes("flex-wrap gap-1"):
                                 for tag in sorted_tags:
+                                    is_new_tag = tag not in state.all_tags
                                     ui.chip(
                                         tag,
                                         removable=True,
+                                        color="yellow" if is_new_tag else "blue",
                                         on_value_change=lambda e, t=tag: _remove_tag(t) if not e.value else None,
                                     ).props("dense")
 
@@ -637,5 +639,5 @@ def main() -> None:
     ui.run(title="Review Applications", port=args.port, host="127.0.0.1", show=False, reload=args.reload)
 
 
-if __name__ == "__main__":
+if __name__ in {"__main__", "__mp_main__"}:
     main()
