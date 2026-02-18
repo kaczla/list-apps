@@ -63,6 +63,16 @@ Create a JSON file with the current date and time in the name using format `YYYY
 ]
 ```
 
+### Working with applications.json and tags.json
+
+**`data/json/applications.json`** is a large file (~6400+ lines, 500+ applications). Key points:
+- The `Read` tool truncates at 2000 lines — always read it in multiple passes using `offset` and `limit` parameters (e.g., offsets 0, 2000, 4000, 6000).
+- To find a specific application, use `Grep` on the file rather than reading the whole file (e.g., search for `"name": "AppName"`).
+- For bulk tag fixes across many apps, use `Edit` with `replace_all: true` — safe when the search string is a quoted JSON value (e.g., `"old-tag"`) that only appears as a standalone tag, not embedded in descriptions.
+- For targeted edits to a single app, use the app's URL or a unique part of its description as anchor context to ensure uniqueness.
+
+**`data/json/tags.json`** is small (~420 lines) and can be read in one pass. It is a sorted JSON array of tag strings. When adding or removing tags, maintain alphabetical order.
+
 ### Tag Conventions
 
 1. Check existing tags in `data/json/tags.json` and prefer using them. New tags can be created if needed.
