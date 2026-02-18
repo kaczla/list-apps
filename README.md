@@ -52,7 +52,7 @@ Some descriptions are from:
   - Tags: Natural Language Processing, NLP, text processing, source: Go
 - Amphion [🛈](https://github.com/open-mmlab/Amphion)
   - Amphion is a toolkit for Audio, Music, and Speech Generation.
-  - Tags: audio generation, music generation, speech generation, source: Python
+  - Tags: audio, audio generation, music generation, speech generation, source: Python
 - Amurex [🛈](https://github.com/thepersonalaicompany/amurex)
   - An open-source AI meeting copilot providing real-time suggestions, automatic summaries, action item extraction, and follow-up email generation for Google Meet and Microsoft Teams.
   - Tags: AI powered, automation, chat, meetings, source: JavaScript
@@ -76,7 +76,7 @@ Some descriptions are from:
   - Tags: Jupyter, library, parallel, progress bar, source: Python
 - AudioCraft [🛈](https://github.com/facebookresearch/audiocraft)
   - AudioCraft is a PyTorch library for deep learning research on audio generation.
-  - Tags: audio generation, Deep Learning, source: Python
+  - Tags: audio generation, Deep Learning, music generation, speech generation, source: Python
 - AuthorTrail [🛈](https://github.com/sarimabbas/authortrail)
   - A Git repository exploration tool that identifies and displays all files contributed by a specific author with hierarchical tree visualization and integrated code viewer.
   - Tags: git, tracking, source: TypeScript
@@ -94,7 +94,7 @@ Some descriptions are from:
   - Tags: command line, monitoring, network, source: Rust
 - bark [🛈](https://github.com/suno-ai/bark)
   - Bark is a transformer-based text-to-audio model created by Suno. Bark can generate highly realistic, multilingual speech as well as other audio - including music, background noise and simple sound effects.
-  - Tags: audio generation, Deep Learning, text-to-audio, source: Python
+  - Tags: audio, audio generation, Deep Learning, speech generation, text-to-audio, source: Python
 - bat [🛈](https://github.com/sharkdp/bat)
   - bat is a cat clone with syntax highlighting and Git integration.
   - Tags: command line, printing file, syntax highlighting, command line: cat, source: Rust
@@ -106,13 +106,13 @@ Some descriptions are from:
   - Tags: binary, command line, diff, command line: diff, source: Rust
 - bknd [🛈](https://github.com/bknd-io/bknd)
   - A lightweight Firebase/Supabase alternative providing modular backend system with database management, authentication, media handling, and workflows that deploys across multiple runtimes without vendor lock-in.
-  - Tags: API development platform, authentication, database managment, Firebase, Supabase, source: TypeScript
+  - Tags: API development platform, authentication, database management, Firebase, Supabase, source: TypeScript
 - Blackbird [🛈](https://github.com/p1ngul1n0/blackbird)
   - An OSINT tool that searches for accounts by username and email across 600+ social networks, combining fast searches with free AI-powered profiling to identify user accounts and behavioral patterns.
   - Tags: AI powered, command line, email search, OSINT, security, social media, username search, source: Python
 - BleachBit [🛈](https://github.com/bleachbit/bleachbit)
   - BleachBit cleans files to free disk space and to maintain privacy.
-  - Tags: deletion tool, disc utility, privacy
+  - Tags: deletion tool, disk utility, privacy
 - Blinko [🛈](https://github.com/blinkospace/blinko)
   - An open-source, self-hosted personal AI note-taking application that enables users to quickly capture and organize fleeting thoughts using natural language processing and RAG technology.
   - Tags: AI powered, note, privacy, RAG, self-hosted, source: TypeScript
@@ -142,7 +142,7 @@ Some descriptions are from:
   - Tags: Deep Learning, Deep Learning framework, framework, source: Rust
 - Buzz [🛈](https://github.com/chidiwilliams/buzz)
   - An offline audio transcription and translation application powered by OpenAI's Whisper, enabling local audio and video file processing without internet connectivity.
-  - Tags: audio, GUI, transcription, translation, video, source: Python
+  - Tags: audio, GUI, offline, speech recognition, transcription, translation, video, source: Python
 - Bytebot [🛈](https://github.com/bytebot-ai/bytebot)
   - An open-source AI desktop agent that automates computer tasks through natural language commands, operating within a containerized Linux desktop environment with full application access.
   - Tags: AI powered, automation, GUI, source: TypeScript
@@ -172,7 +172,7 @@ Some descriptions are from:
   - Tags: analysis, GUI, report
 - Chatterbox [🛈](https://github.com/resemble-ai/chatterbox)
   - State-of-the-art open-source text-to-speech models with zero-shot voice cloning, multilingual support for 23+ languages, and low-latency voice agent capabilities.
-  - Tags: AI powered, multi-language, speech generation, text-to-audio, text-to-speach, voice cloning, source: Python
+  - Tags: AI powered, audio, multi-language, speech generation, text-to-audio, text-to-speech, voice cloning, source: Python
 - cheat.sh [🛈](https://github.com/chubin/cheat.sh)
   - The only cheat sheet you need. Has a simple curl/browser/editor interface. Covers 56 programming languages, several DBMSes, and more than 1000 most important UNIX/Linux commands.
   - Tags: cheat sheet, command line, guide, tldr
@@ -226,7 +226,7 @@ Some descriptions are from:
   - Tags: file convert, self-hosted, source: TypeScript
 - Coqui TTS [🛈](https://github.com/coqui-ai/TTS)
   - A deep learning text-to-speech toolkit with pretrained models for 1100+ languages, voice cloning capabilities, and low-latency streaming support.
-  - Tags: Deep Learning, multi-language, speech generation, text-to-speach, source: Python
+  - Tags: audio, Deep Learning, multi-language, speech generation, text-to-speech, source: Python
 - counts [🛈](https://github.com/nnethercote/counts)
   - counts is a command line tool for ad hoc profiling. It tallies line frequencies within text files and shows the total line count with all the unique lines ordered by frequency and individual and cumulative percentages. counts supports weighting and negative weights are allowed.
   - Tags: command line, profiler
@@ -259,7 +259,7 @@ Some descriptions are from:
   - Tags: agentic coding, AI powered, GUI, source: TypeScript
 - csvlens [🛈](https://github.com/YS-L/csvlens)
   - csvlens is a command line CSV file viewer. It is like less but made for CSV.
-  - Tags: command line, CSV, quering, searching, terminal, source: Rust
+  - Tags: command line, CSV, querying, searching, terminal, source: Rust
 - ctoc [🛈](https://github.com/yaohui-wyh/ctoc)
   - ctoc is Count Tokens of Code.
   - Tags: command line, statistics, source: Go
@@ -280,7 +280,7 @@ Some descriptions are from:
   - Tags: command line, sounds, source: Rust
 - Dasel [🛈](https://github.com/TomWright/dasel)
   - A command-line tool and Go library for querying, modifying, and transforming structured data across multiple formats including JSON, YAML, TOML, XML, CSV, HCL, and INI files using a unified syntax.
-  - Tags: command line, CSV, data processing, JSON, quering, transforming, XML, YAML, source: Go
+  - Tags: command line, CSV, data processing, JSON, querying, transforming, XML, YAML, source: Go
 - Datadrift [🛈](https://github.com/data-drift/data-drift)
   - Datadrift is an open-source monitoring and incident management platform to help data teams deliver trusted and reliable metrics.
   - Tags: metrics, monitoring, source: TypeScript
@@ -298,7 +298,7 @@ Some descriptions are from:
   - Tags: database, GUI, SQL
 - Deep-Live-Cam [🛈](https://github.com/hacksider/Deep-Live-Cam)
   - Real-time face swapping and deepfake video creation application using a single image, with GPU acceleration support for NVIDIA, AMD, and Apple Silicon.
-  - Tags: Deep Learning, deepfake, face sawpping, GPU, GUI, image, video, source: Python
+  - Tags: Deep Learning, deepfake, face swapping, GPU, GUI, image, video, source: Python
 - DeepFace [🛈](https://github.com/serengil/deepface)
   - A lightweight Python library for face recognition and facial attribute analysis wrapping state-of-the-art deep learning models, supporting verification, recognition, and demographic analysis.
   - Tags: computer vision, Deep Learning, face recognition, source: Python
@@ -382,10 +382,10 @@ Some descriptions are from:
   - Tags: database, database schema, diagram, editor, SQL, visualization, web browser, source: JavaScript
 - dsnote [🛈](https://github.com/mkiol/dsnote)
   - A Linux desktop application for note-taking, reading, and translating using offline Speech to Text, Text to Speech, and Machine Translation.
-  - Tags: note, speach-to-text, speech recognition, text-to-speach, transcription, translation, source: C++
+  - Tags: audio, note, speech recognition, speech-to-text, text-to-speech, transcription, translation, source: C++
 - dua [🛈](https://github.com/Byron/dua-cli)
   - dua is a view disk space usage and delete unwanted data, fast.
-  - Tags: command line, disc utility, command line: du, source: Rust
+  - Tags: command line, disk utility, command line: du, source: Rust
 - dub [🛈](https://github.com/steven-tey/dub)
   - Dub is an open-source link management tool for modern marketing teams to create, share, and track short links.
   - Tags: link management, management, source: TypeScript
@@ -397,10 +397,10 @@ Some descriptions are from:
   - Tags: data structures, source: Python
 - duf [🛈](https://github.com/muesli/duf)
   - Disk Usage/Free Utility (Linux, BSD, macOS & Windows)
-  - Tags: command line, disc utility, command line: du
+  - Tags: command line, disk utility, command line: du
 - dust [🛈](https://github.com/bootandy/dust)
   - dust is a more intuitive version of du in rust.
-  - Tags: command line, disc utility, command line: du, source: Rust
+  - Tags: command line, disk utility, command line: du, source: Rust
 - e2b [🛈](https://github.com/e2b-dev/e2b)
   - Open-source IDE powered by AI agents that do the work for you.
   - Tags: Deep Learning, IDE, source: Python
@@ -469,7 +469,7 @@ Some descriptions are from:
   - Tags: AI powered, LLM-ready, web scraper, source: TypeScript
 - Fish Speech [🛈](https://github.com/fishaudio/fish-speech)
   - An advanced text-to-speech system with fine-grained emotion control, voice cloning from 10-30 second samples, and multilingual support for 9+ languages.
-  - Tags: Deep Learning, multi-language, speech generation, text-to-speach, voice cloning, source: Python
+  - Tags: audio, Deep Learning, multi-language, speech generation, text-to-speech, voice cloning, source: Python
 - fixi [🛈](https://github.com/bigskysoftware/fixi)
   - A minimalist JavaScript library implementing generalized hypermedia controls for dynamic web interactions, enabling HTML elements to issue HTTP requests and swap DOM content via declarative attributes.
   - Tags: HTML, hypermedia, library, web page, source: HTML
@@ -487,7 +487,7 @@ Some descriptions are from:
   - Tags: distribution, encryption, key distribution, key management, security, source: Go
 - Fooocus [🛈](https://github.com/lllyasviel/Fooocus)
   - Fooocus is an image generating software.
-  - Tags: Deep Learning, image generation, Stable Diffusion Model, source: Python
+  - Tags: Deep Learning, GUI, image generation, Stable Diffusion Model, source: Python
 - Frogmouth [🛈](https://github.com/Textualize/frogmouth)
   - Frogmouth is a Markdown viewer / browser for your terminal, built with Textual.
   - Tags: command line, Markdown, viewer, source: Python
@@ -556,7 +556,7 @@ Some descriptions are from:
   - Tags: command line, GUI, kubernetes, package manager, source: Go
 - GlotLID [🛈](https://github.com/cisnlp/GlotLID)
   - GlotLID is an open-source language identification model with support for more than 1600 languages.
-  - Tags: language identification, source: Python
+  - Tags: language identification, Natural Language Processing, NLP, source: Python
 - Glow [🛈](https://github.com/charmbracelet/glow)
   - Render markdown on the CLI, with pizzazz!
   - Tags: command line, editor, Markdown
@@ -568,7 +568,7 @@ Some descriptions are from:
   - Tags: AI powered, Language Model, source: Python
 - GQL [🛈](https://github.com/AmrDeveloper/GQL)
   - GQL is a query language with a syntax very similar to SQL with a tiny engine to perform queries on .git files instance of database files, the engine executes the query on the fly without the need to create database files or convert .git files into any other format, note that all Keywords in GQL are case-insensitive similar to SQL.
-  - Tags: command line, git, quering, searching, terminal, source: Rust
+  - Tags: command line, git, querying, searching, terminal, source: Rust
 - Graft [🛈](https://github.com/orbitinghail/graft)
   - An open-source transactional storage engine optimized for lazy, partial, and strongly consistent replication suited for edge and offline-first applications.
   - Tags: database, offline-first, replication, storage, source: Rust
@@ -648,17 +648,14 @@ Some descriptions are from:
   - imagededup is a python package that simplifies the task of finding exact and near duplicates in an image collection.
   - Tags: deduplication, image, unique
 - Infisical [🛈](https://github.com/Infisical/infisical)
-  - Infisical is an open-source, E2EE tool to sync environment variables across your team and infrastructure.
-  - Tags: environment variables, shell
-- Infisical [🛈](https://github.com/Infisical/infisical)
   - Infisical is an open source, end-to-end encrypted secret management platform that teams use to centralize their secrets like API keys, database credentials, and configurations.
-  - Tags: management, secret management, source: TypeScript
+  - Tags: environment variables, GUI, management, secret management, shell, source: TypeScript
 - ingestr [🛈](https://github.com/bruin-data/ingestr)
   - A CLI tool for copying data between 20+ databases and 30+ platforms with support for incremental loading, merge strategies, and no-code operation.
   - Tags: command line, data processing, database, database transfer, pipeline, source: Python
 - Insanely Fast Whisper [🛈](https://github.com/Vaibhavs10/insanely-fast-whisper)
   - Insanely Fast Whisper transcribe 300 minutes (5 hours) of audio in less than 10 minutes.
-  - Tags: automatic transcription, speech recognition, transcription, source: Python
+  - Tags: audio, automatic transcription, speech recognition, transcription, source: Python
 - inshellisense [🛈](https://github.com/microsoft/inshellisense)
   - inshellisense provides IDE style autocomplete for shells. It's a terminal native runtime for autocomplete which has support for 600+ command line tools.
   - Tags: autocomplete, terminal, source: TypeScript
@@ -682,7 +679,7 @@ Some descriptions are from:
   - Tags: Deep Learning, image editing, image generation, platform, Stable Diffusion Model, source: TypeScript
 - iotop [🛈](https://repo.or.cz/w/iotop.git)
   - A top utility for IO
-  - Tags: command line, disc utility, monitoring
+  - Tags: command line, disk utility, monitoring
 - IPyflow [🛈](https://github.com/ipyflow/ipyflow)
   - ipyflow is a next-generation Python kernel for Jupyter and other notebook interfaces that tracks dataflow relationships between symbols and cells during a given interactive session.
   - Tags: Jupyter, source: Python
@@ -742,7 +739,7 @@ Some descriptions are from:
   - Tags: fuzzy search, library, source: JavaScript
 - katana [🛈](https://github.com/projectdiscovery/katana)
   - A next-generation crawling and spidering framework
-  - Tags: web scraper
+  - Tags: command line, web scraper, source: Go
 - KDash [🛈](https://github.com/kdash-rs/kdash)
   - KDash is a simple terminal dashboard for Kubernetes built with Rust.
   - Tags: command line, dashboard, kubernetes, source: Rust
@@ -754,10 +751,10 @@ Some descriptions are from:
   - Tags: AI personal assistant, chat, Deep Learning, source: Python
 - killport [🛈](https://github.com/jkfran/killport)
   - killport is a command-line utility for killing processes listening on specific ports. It's designed to be simple, fast, and effective. The tool is built with Rust and works on Linux and macOS.
-  - Tags: command line, killing proces, command line: kill, source: Rust
+  - Tags: command line, killing process, command line: kill, source: Rust
 - KittenTTS [🛈](https://github.com/KittenML/KittenTTS)
   - An open-source text-to-speech model with just 15 million parameters, delivering realistic voice synthesis with minimal computational requirements.
-  - Tags: library, Machine Learning, speech generation, text-to-speach, source: Python
+  - Tags: audio, library, Machine Learning, speech generation, text-to-speech, source: Python
 - Kong [🛈](https://github.com/Kong/kong)
   - A cloud-native API gateway for microservices, AI/LLM traffic, and MCP systems with plugin-based extensibility, advanced routing, load balancing, and authentication.
   - Tags: cloud, gateway, kubernetes, source: Lua
@@ -1048,7 +1045,7 @@ Some descriptions are from:
   - Tags: command line, compression, decompression, source: C
 - OSV-Scanner [🛈](https://github.com/google/osv-scanner)
   - Vulnerability scanner written in Go which uses the data provided by https://osv.dev
-  - Tags: security, vulnerability scanner
+  - Tags: command line, security, vulnerability scanner, source: Go
 - oterm [🛈](https://github.com/ggozad/oterm)
   - otem is the text-based terminal client for Ollama.
   - Tags: command line, Deep Learning, Language Model, source: Python
@@ -1057,7 +1054,7 @@ Some descriptions are from:
   - Tags: security, web-browser extension, source: JavaScript
 - oxker [🛈](https://github.com/mrjackwills/oxker)
   - A terminal user interface for viewing and controlling Docker containers with real-time monitoring, log management, and interactive container operations.
-  - Tags: containers, docker, monitoring, terminal interface, source: Rust
+  - Tags: container, docker, monitoring, terminal interface, source: Rust
 - pandas-ai [🛈](https://github.com/Sinaptik-AI/pandas-ai)
   - A Python library enabling natural language interactions with data sources including databases, data lakes, SQL, CSV, and Parquet files using large language models and retrieval-augmented generation.
   - Tags: AI powered, data processing, visualization, source: Python
@@ -1219,7 +1216,7 @@ Some descriptions are from:
   - Tags: image generation, QR code, source: TypeScript
 - qsv [🛈](https://github.com/jqnatividad/qsv)
   - qsv is a command line program for querying, indexing, slicing, analyzing, filtering, enriching, transforming, sorting, validating & joining CSV files.
-  - Tags: command line, CSV, quering, searching, terminal, source: Rust
+  - Tags: command line, CSV, querying, searching, terminal, source: Rust
 - Quarkdown [🛈](https://github.com/iamgio/quarkdown)
   - Modern Markdown-based typesetting system compiling to print-ready books or interactive presentations with Turing-complete scripting and live preview.
   - Tags: documentation, Markdown, presentation, source: Kotlin
@@ -1240,13 +1237,13 @@ Some descriptions are from:
   - Tags: API development platform, GUI, testing API
 - redir [🛈](https://github.com/troglobit/redir)
   - A TCP port redirector for UNIX that listens on a source port and redirects connections to a destination address with bandwidth limiting and FTP redirection support.
-  - Tags: forwarding, networking, proxy, TCP, source: C
+  - Tags: forwarding, network, proxy, TCP, source: C
 - Redka [🛈](https://github.com/nalgeon/redka)
   - A SQL-based reimplementation of Redis that maintains API compatibility while storing data in relational databases instead of RAM.
   - Tags: caching, database, key-value store, redis, source: Go
 - refurb [🛈](https://github.com/dosisod/refurb)
   - A tool for refurbishing and modernizing Python codebases.
-  - Tags: command line, linter, source: Python linter
+  - Tags: command line, linter, Python linter, source: Python
 - RenderCV [🛈](https://github.com/sinaatalay/rendercv)
   - A CV/resume generator that transforms YAML input into professionally formatted PDFs with multiple built-in themes, version control support, and full typography control.
   - Tags: command line, PDF, source: Python
@@ -1258,7 +1255,7 @@ Some descriptions are from:
   - Tags: library, Linux, system call, source: Rust
 - rinetd [🛈](https://github.com/samhocevar/rinetd)
   - A tool for efficiently redirecting TCP and UDP connections from one IP address and port to another, useful for virtual servers, firewalls, and load balancing.
-  - Tags: forwarding, networking, proxy, TCP, UDP, source: C
+  - Tags: forwarding, network, proxy, TCP, UDP, source: C
 - rip [🛈](https://github.com/nivekuil/rip)
   - rip is a command-line deletion tool focused on safety, ergonomics, and performance.
   - Tags: command line, deletion tool, command line: rm, source: Rust
@@ -1321,7 +1318,7 @@ Some descriptions are from:
   - Tags: AI powered, library, web scraper, source: Python
 - scrcpy [🛈](https://github.com/Genymobile/scrcpy)
   - An Android device mirroring and control application via USB or TCP/IP with 30-120fps display, audio forwarding, recording, and camera mirroring support.
-  - Tags: audio, command line, cross-platform, video, source: C
+  - Tags: Android, audio, command line, cross-platform, video, source: C
 - ScyllaDB [🛈](https://github.com/scylladb/scylladb)
   - Scylla is the real-time big data database that is API-compatible with Apache Cassandra and Amazon DynamoDB. Scylla embraces a shared-nothing approach that increases throughput and storage capacity to realize order-of-magnitude performance improvements and reduce hardware costs.
   - Tags: database, source: C++
@@ -1357,7 +1354,7 @@ Some descriptions are from:
   - Tags: analysis, command line, geolocation, image, visualization, source: Python
 - Sherlock [🛈](https://github.com/sherlock-project/sherlock)
   - A command-line tool that hunts for usernames across 400+ social networks simultaneously to locate online accounts associated with a target username.
-  - Tags: OSINT, social media, username search, source: Python
+  - Tags: command line, OSINT, social media, username search, source: Python
 - sidekick [🛈](https://github.com/MightyMoud/sidekick)
   - A CLI tool for VPS deployment that provides Heroku-like simplicity with Docker, Traefik, automatic SSL, zero-downtime deployments, and built-in secret management via SOPS.
   - Tags: automation, command line, deployments, source: Go
@@ -1423,7 +1420,7 @@ Some descriptions are from:
   - Tags: command line, network, penetration tests, security, SSL, TLS, vulnerability scanner, source: Python
 - StableStudio [🛈](https://github.com/Stability-AI/StableStudio)
   - StableStudio is Stability AI's official open-source variant of DreamStudio, our user interface for generative AI. It is a web-based application that allows users to create and edit generated images.
-  - Tags: Deep Learning, image editing, image generation, source: TypeScript
+  - Tags: Deep Learning, GUI, image editing, image generation, Stable Diffusion Model, source: TypeScript
 - Stacer [🛈](https://github.com/oguzhaninan/Stacer)
   - Linux System Optimizer and Monitoring
   - Tags: command line, GUI, monitoring, command line: top
@@ -1475,12 +1472,15 @@ Some descriptions are from:
 - terashuf [🛈](https://github.com/alexandres/terashuf)
   - terashuf shuffles multi-terabyte text files using limited memory.
   - Tags: command line, command line: shuf
+- tere [🛈](https://github.com/mgunyho/tere)
+  - tere is a terminal file explorer that is faster than using cd or ls. It enables fast navigation to a folder and then prints the path to that folder on exit. tere is not a file manager and it can only be used to browse folders.
+  - Tags: file manager
 - Tesseract OCR [🛈](https://github.com/tesseract-ocr/tesseract)
   - Tesseract Open Source OCR Engine.
   - Tags: OCR, source: C++
 - Text Generation Web UI [🛈](https://github.com/oobabooga/text-generation-webui)
   - A gradio web UI for running Large Language Models like LLaMA, llama.cpp, GPT-J, Pythia, OPT, and GALACTICA.
-  - Tags: Deep Learning, text generation, source: Python
+  - Tags: Deep Learning, GUI, Language Model, text generation, source: Python
 - the-art-of-command-line [🛈](https://github.com/jlevy/the-art-of-command-line)
   - Master the command line, in one page
   - Tags: cheat sheet, command line, guide, tldr
@@ -1520,9 +1520,6 @@ Some descriptions are from:
 - trdrop [🛈](https://github.com/cirquit/trdrop)
   - Estimate the "real" framerate of an uncompressed video.
   - Tags: framerate, video
-- tree [🛈](https://github.com/mgunyho/tere)
-  - tere is a terminal file explorer that is faster than using cd or ls. It enables fast navigation to a folder and then prints the path to that folder on exit. tere is not a file manager and it can only be used to browse folders.
-  - Tags: file manager
 - Treescope [🛈](https://github.com/google-deepmind/treescope)
   - Interactive HTML pretty-printer and N-dimensional array visualizer for machine learning research in IPython notebooks, with support for JAX, PyTorch, and NumPy.
   - Tags: Deep Learning, interactive, Jupyter, Machine Learning, visualization, source: Python
@@ -1582,7 +1579,7 @@ Some descriptions are from:
   - Tags: monitoring, source: JavaScript
 - uredir [🛈](https://github.com/troglobit/uredir)
   - A small Linux daemon for redirecting UDP connections, useful on embedded systems without iptables support for SNMP and DNS forwarding.
-  - Tags: forwarding, networking, UDP, source: C
+  - Tags: forwarding, network, UDP, source: C
 - uv [🛈](https://github.com/astral-sh/uv)
   - uv ia an extremely fast Python package installer and resolver, written in Rust.
   - Tags: package installer, resolver, source: Rust
@@ -1627,7 +1624,7 @@ Some descriptions are from:
   - Tags: audio, multi-language, privacy, speech recognition, source: C++
 - vsd [🛈](https://github.com/clitic/vsd)
   - vsd - video stream downloader is a command line program to download video streams served over HTTP from websites, HLS and DASH playlists.
-  - Tags: command line, downloader, Rust, video, video downloader
+  - Tags: command line, downloader, video, video downloader, source: Rust
 - Wails [🛈](https://github.com/wailsapp/wails)
   - Wails is a framework for building desktop applications using Go and Web technologies. It has the ability to wrap both Go code and a web frontend into a single binary. Wails features tools for project creation, compilation, and bundling.
   - Tags: web page
@@ -1636,7 +1633,7 @@ Some descriptions are from:
   - Tags: command line, command line: cd, source: Go
 - Warewulf [🛈](https://github.com/warewulf/warewulf)
   - A stateless and diskless container-based operating system provisioning system for large clusters of bare metal and virtual systems in HPC environments.
-  - Tags: containers, docker, source: Go
+  - Tags: container, docker, source: Go
 - Watcher [🛈](https://github.com/e-dant/watcher)
   - Watcher is a file system watcher that works anywhere. It is simple, efficient, dependency-free, and header-only. Watcher uses a near-zero amount of resources even when scanning millions of paths.
   - Tags: command line, file system watcher
@@ -1654,10 +1651,10 @@ Some descriptions are from:
   - Tags: language detection, source: Rust
 - whisper [🛈](https://github.com/openai/whisper)
   - whisper - Robust Speech Recognition via Large-Scale Weak Supervision.
-  - Tags: automatic transcription, speech recognition, transcription, source: Python
+  - Tags: audio, automatic transcription, speech recognition, transcription, source: Python
 - Whisper Turbo [🛈](https://github.com/FL33TW00D/whisper-turbo)
   - Whisper Turbo is a lightning-fast, cross-platform Whisper implementation, designed to run entirely client-side on your browser or electron app.
-  - Tags: automatic transcription, cross-platform, speech recognition, transcription, source: TypeScript
+  - Tags: audio, automatic transcription, cross-platform, speech recognition, transcription, source: TypeScript
 - whisper.cpp [🛈](https://github.com/ggerganov/whisper.cpp)
   - High-performance C/C++ implementation of OpenAI's Whisper automatic speech recognition model with zero runtime dependencies, supporting various hardware accelerations.
   - Tags: audio, cross-platform, Machine Learning, speech recognition, transcription, source: C++
@@ -1666,7 +1663,7 @@ Some descriptions are from:
   - Tags: audio, command line, Python wrapper, speech recognition, transcription, source: Python
 - WhisperPlus [🛈](https://github.com/kadirnar/whisper-plus)
   - WhisperPlus: Advancing Speech-to-Text Processing.
-  - Tags: automatic transcription, speech recognition, transcription, source: Python
+  - Tags: audio, automatic transcription, speech recognition, transcription, source: Python
 - Whosthere [🛈](https://github.com/ramonvermeulen/whosthere)
   - A local network discovery tool with an interactive TUI that identifies devices using mDNS, SSDP, and ARP cache reading, with integrated port scanning and OUI lookups.
   - Tags: network, network scan, terminal interface, source: Go
@@ -1755,11 +1752,11 @@ List of tags with occurrences in the brackets:
 - AlphaZero (1)
 - analysis (8)
 - analytics (3)
-- Android (2)
+- Android (3)
 - API (10)
 - API development platform (4)
 - archive (2)
-- audio (10)
+- audio (21)
 - audio generation (3)
 - authentication (2)
 - autocomplete (1)
@@ -1788,7 +1785,7 @@ List of tags with occurrences in the brackets:
 - code statistics (1)
 - coloring (1)
 - coloring code (1)
-- command line (193)
+- command line (196)
 - command line: cat (1)
 - command line: cd (1)
 - command line: diff (3)
@@ -1818,8 +1815,7 @@ List of tags with occurrences in the brackets:
 - computer vision (3)
 - configuration (6)
 - configuration distribution (1)
-- container (17)
-- containers (2)
+- container (19)
 - content extractor (11)
 - context retrieval (1)
 - control desktop (1)
@@ -1837,7 +1833,7 @@ List of tags with occurrences in the brackets:
 - data structures (3)
 - data validation (1)
 - database (40)
-- database managment (1)
+- database management (1)
 - database schema (1)
 - database transfer (1)
 - dataflow (1)
@@ -1855,7 +1851,7 @@ List of tags with occurrences in the brackets:
 - developer environment (6)
 - diagram (1)
 - diff (3)
-- disc utility (5)
+- disk utility (5)
 - distribution (2)
 - DNS (1)
 - docker (14)
@@ -1873,8 +1869,7 @@ List of tags with occurrences in the brackets:
 - environment manager (8)
 - environment variables (2)
 - face recognition (2)
-- face sawpping (1)
-- face swapping (1)
+- face swapping (2)
 - fake data (1)
 - file convert (3)
 - file detection (1)
@@ -1908,7 +1903,7 @@ List of tags with occurrences in the brackets:
 - Google Analytics (1)
 - GPU (8)
 - gRPC (1)
-- GUI (34)
+- GUI (38)
 - guide (5)
 - help message (1)
 - hex viewer (1)
@@ -1939,12 +1934,12 @@ List of tags with occurrences in the brackets:
 - key distribution (1)
 - key management (1)
 - key-value store (8)
-- killing proces (1)
+- killing process (1)
 - knowledge graph (1)
 - kubernetes (7)
 - language detection (1)
 - language identification (1)
-- Language Model (29)
+- Language Model (30)
 - library (45)
 - link management (1)
 - linter (11)
@@ -1972,15 +1967,14 @@ List of tags with occurrences in the brackets:
 - monitoring (32)
 - multi-agent (1)
 - multi-language (9)
-- music generation (1)
+- music generation (2)
 - NAS (1)
-- Natural Language Processing (3)
+- Natural Language Processing (4)
 - NeRFs (1)
-- network (24)
+- network (27)
 - network scan (6)
-- networking (3)
 - nixpkgs (1)
-- NLP (5)
+- NLP (6)
 - No source code (1)
 - note (3)
 - Notebook (7)
@@ -1988,7 +1982,7 @@ List of tags with occurrences in the brackets:
 - object detection (2)
 - observability (6)
 - OCR (6)
-- offline (2)
+- offline (3)
 - offline-first (1)
 - ollama (1)
 - OLTP (1)
@@ -2024,10 +2018,10 @@ List of tags with occurrences in the brackets:
 - proxy (6)
 - pull requests (2)
 - Python interpreter (2)
-- Python linter (6)
+- Python linter (7)
 - Python wrapper (3)
 - QR code (2)
-- quering (4)
+- querying (4)
 - queue (2)
 - RAG (5)
 - redis (5)
@@ -2043,7 +2037,6 @@ List of tags with occurrences in the brackets:
 - resolver (2)
 - reverse engineering (5)
 - RSS (1)
-- Rust (1)
 - S3 (6)
 - scheduler (3)
 - schema validation (1)
@@ -2072,31 +2065,30 @@ List of tags with occurrences in the brackets:
 - source: Clojure (1)
 - source: Dart (1)
 - source: Elixir (1)
-- source: Go (71)
+- source: Go (73)
 - source: HTML (1)
 - source: Java (5)
 - source: JavaScript (16)
 - source: Kotlin (1)
 - source: Lua (1)
 - source: PHP (1)
-- source: Python (159)
-- source: Python linter (1)
+- source: Python (160)
 - source: Ruby (5)
-- source: Rust (120)
+- source: Rust (121)
 - source: Shell (10)
 - source: TypeScript (54)
 - source: Zig (3)
 - space (1)
-- speach-to-text (1)
-- speech generation (5)
-- speech recognition (10)
+- speech generation (7)
+- speech recognition (11)
+- speech-to-text (1)
 - spreadsheet (1)
 - SQL (9)
 - SQL injection (1)
 - SQLite (4)
 - ssh (7)
 - SSL (1)
-- Stable Diffusion Model (7)
+- Stable Diffusion Model (8)
 - static code analyzer (2)
 - static site (1)
 - statistics (3)
@@ -2119,7 +2111,7 @@ List of tags with occurrences in the brackets:
 - text generation (2)
 - text processing (5)
 - text-to-audio (2)
-- text-to-speach (5)
+- text-to-speech (5)
 - tldr (4)
 - TLS (1)
 - TOML (1)

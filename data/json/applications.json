@@ -165,6 +165,7 @@
         "url": "https://github.com/open-mmlab/Amphion",
         "description": "Amphion is a toolkit for Audio, Music, and Speech Generation.",
         "tags": [
+            "audio",
             "audio generation",
             "music generation",
             "speech generation",
@@ -260,6 +261,8 @@
         "tags": [
             "audio generation",
             "Deep Learning",
+            "music generation",
+            "speech generation",
             "source: Python"
         ]
     },
@@ -322,8 +325,10 @@
         "url": "https://github.com/suno-ai/bark",
         "description": "Bark is a transformer-based text-to-audio model created by Suno. Bark can generate highly realistic, multilingual speech as well as other audio - including music, background noise and simple sound effects.",
         "tags": [
+            "audio",
             "audio generation",
             "Deep Learning",
+            "speech generation",
             "text-to-audio",
             "source: Python"
         ]
@@ -370,7 +375,7 @@
         "tags": [
             "API development platform",
             "authentication",
-            "database managment",
+            "database management",
             "Firebase",
             "Supabase",
             "source: TypeScript"
@@ -397,7 +402,7 @@
         "description": "BleachBit cleans files to free disk space and to maintain privacy.",
         "tags": [
             "deletion tool",
-            "disc utility",
+            "disk utility",
             "privacy"
         ]
     },
@@ -508,6 +513,8 @@
         "tags": [
             "audio",
             "GUI",
+            "offline",
+            "speech recognition",
             "transcription",
             "translation",
             "video",
@@ -617,10 +624,11 @@
         "description": "State-of-the-art open-source text-to-speech models with zero-shot voice cloning, multilingual support for 23+ languages, and low-latency voice agent capabilities.",
         "tags": [
             "AI powered",
+            "audio",
             "multi-language",
             "speech generation",
             "text-to-audio",
-            "text-to-speach",
+            "text-to-speech",
             "voice cloning",
             "source: Python"
         ]
@@ -827,10 +835,11 @@
         "url": "https://github.com/coqui-ai/TTS",
         "description": "A deep learning text-to-speech toolkit with pretrained models for 1100+ languages, voice cloning capabilities, and low-latency streaming support.",
         "tags": [
+            "audio",
             "Deep Learning",
             "multi-language",
             "speech generation",
-            "text-to-speach",
+            "text-to-speech",
             "source: Python"
         ]
     },
@@ -948,7 +957,7 @@
         "tags": [
             "command line",
             "CSV",
-            "quering",
+            "querying",
             "searching",
             "terminal",
             "source: Rust"
@@ -1027,7 +1036,7 @@
             "CSV",
             "data processing",
             "JSON",
-            "quering",
+            "querying",
             "transforming",
             "XML",
             "YAML",
@@ -1095,7 +1104,7 @@
         "tags": [
             "Deep Learning",
             "deepfake",
-            "face sawpping",
+            "face swapping",
             "GPU",
             "GUI",
             "image",
@@ -1422,10 +1431,11 @@
         "url": "https://github.com/mkiol/dsnote",
         "description": "A Linux desktop application for note-taking, reading, and translating using offline Speech to Text, Text to Speech, and Machine Translation.",
         "tags": [
+            "audio",
             "note",
-            "speach-to-text",
             "speech recognition",
-            "text-to-speach",
+            "speech-to-text",
+            "text-to-speech",
             "transcription",
             "translation",
             "source: C++"
@@ -1437,7 +1447,7 @@
         "description": "dua is a view disk space usage and delete unwanted data, fast.",
         "tags": [
             "command line",
-            "disc utility",
+            "disk utility",
             "command line: du",
             "source: Rust"
         ]
@@ -1480,7 +1490,7 @@
         "description": "Disk Usage/Free Utility (Linux, BSD, macOS & Windows)",
         "tags": [
             "command line",
-            "disc utility",
+            "disk utility",
             "command line: du"
         ]
     },
@@ -1490,7 +1500,7 @@
         "description": "dust is a more intuitive version of du in rust.",
         "tags": [
             "command line",
-            "disc utility",
+            "disk utility",
             "command line: du",
             "source: Rust"
         ]
@@ -1742,10 +1752,11 @@
         "url": "https://github.com/fishaudio/fish-speech",
         "description": "An advanced text-to-speech system with fine-grained emotion control, voice cloning from 10-30 second samples, and multilingual support for 9+ languages.",
         "tags": [
+            "audio",
             "Deep Learning",
             "multi-language",
             "speech generation",
-            "text-to-speach",
+            "text-to-speech",
             "voice cloning",
             "source: Python"
         ]
@@ -1817,6 +1828,7 @@
         "description": "Fooocus is an image generating software.",
         "tags": [
             "Deep Learning",
+            "GUI",
             "image generation",
             "Stable Diffusion Model",
             "source: Python"
@@ -2067,6 +2079,8 @@
         "description": "GlotLID is an open-source language identification model with support for more than 1600 languages.",
         "tags": [
             "language identification",
+            "Natural Language Processing",
+            "NLP",
             "source: Python"
         ]
     },
@@ -2109,7 +2123,7 @@
         "tags": [
             "command line",
             "git",
-            "quering",
+            "querying",
             "searching",
             "terminal",
             "source: Rust"
@@ -2406,19 +2420,13 @@
     {
         "name": "Infisical",
         "url": "https://github.com/Infisical/infisical",
-        "description": "Infisical is an open-source, E2EE tool to sync environment variables across your team and infrastructure.",
-        "tags": [
-            "environment variables",
-            "shell"
-        ]
-    },
-    {
-        "name": "Infisical",
-        "url": "https://github.com/Infisical/infisical",
         "description": "Infisical is an open source, end-to-end encrypted secret management platform that teams use to centralize their secrets like API keys, database credentials, and configurations.",
         "tags": [
+            "environment variables",
+            "GUI",
             "management",
             "secret management",
+            "shell",
             "source: TypeScript"
         ]
     },
@@ -2440,6 +2448,7 @@
         "url": "https://github.com/Vaibhavs10/insanely-fast-whisper",
         "description": "Insanely Fast Whisper transcribe 300 minutes (5 hours) of audio in less than 10 minutes.",
         "tags": [
+            "audio",
             "automatic transcription",
             "speech recognition",
             "transcription",
@@ -2529,7 +2538,7 @@
         "description": "A top utility for IO",
         "tags": [
             "command line",
-            "disc utility",
+            "disk utility",
             "monitoring"
         ]
     },
@@ -2759,7 +2768,9 @@
         "url": "https://github.com/projectdiscovery/katana",
         "description": "A next-generation crawling and spidering framework",
         "tags": [
-            "web scraper"
+            "command line",
+            "web scraper",
+            "source: Go"
         ]
     },
     {
@@ -2800,7 +2811,7 @@
         "description": "killport is a command-line utility for killing processes listening on specific ports. It's designed to be simple, fast, and effective. The tool is built with Rust and works on Linux and macOS.",
         "tags": [
             "command line",
-            "killing proces",
+            "killing process",
             "command line: kill",
             "source: Rust"
         ]
@@ -2810,10 +2821,11 @@
         "url": "https://github.com/KittenML/KittenTTS",
         "description": "An open-source text-to-speech model with just 15 million parameters, delivering realistic voice synthesis with minimal computational requirements.",
         "tags": [
+            "audio",
             "library",
             "Machine Learning",
             "speech generation",
-            "text-to-speach",
+            "text-to-speech",
             "source: Python"
         ]
     },
@@ -3891,8 +3903,10 @@
         "url": "https://github.com/google/osv-scanner",
         "description": "Vulnerability scanner written in Go which uses the data provided by https://osv.dev",
         "tags": [
+            "command line",
             "security",
-            "vulnerability scanner"
+            "vulnerability scanner",
+            "source: Go"
         ]
     },
     {
@@ -3921,7 +3935,7 @@
         "url": "https://github.com/mrjackwills/oxker",
         "description": "A terminal user interface for viewing and controlling Docker containers with real-time monitoring, log management, and interactive container operations.",
         "tags": [
-            "containers",
+            "container",
             "docker",
             "monitoring",
             "terminal interface",
@@ -4509,7 +4523,7 @@
         "tags": [
             "command line",
             "CSV",
-            "quering",
+            "querying",
             "searching",
             "terminal",
             "source: Rust"
@@ -4585,7 +4599,7 @@
         "description": "A TCP port redirector for UNIX that listens on a source port and redirects connections to a destination address with bandwidth limiting and FTP redirection support.",
         "tags": [
             "forwarding",
-            "networking",
+            "network",
             "proxy",
             "TCP",
             "source: C"
@@ -4610,7 +4624,8 @@
         "tags": [
             "command line",
             "linter",
-            "source: Python linter"
+            "Python linter",
+            "source: Python"
         ]
     },
     {
@@ -4651,7 +4666,7 @@
         "description": "A tool for efficiently redirecting TCP and UDP connections from one IP address and port to another, useful for virtual servers, firewalls, and load balancing.",
         "tags": [
             "forwarding",
-            "networking",
+            "network",
             "proxy",
             "TCP",
             "UDP",
@@ -4889,6 +4904,7 @@
         "url": "https://github.com/Genymobile/scrcpy",
         "description": "An Android device mirroring and control application via USB or TCP/IP with 30-120fps display, audio forwarding, recording, and camera mirroring support.",
         "tags": [
+            "Android",
             "audio",
             "command line",
             "cross-platform",
@@ -5023,6 +5039,7 @@
         "url": "https://github.com/sherlock-project/sherlock",
         "description": "A command-line tool that hunts for usernames across 400+ social networks simultaneously to locate online accounts associated with a target username.",
         "tags": [
+            "command line",
             "OSINT",
             "social media",
             "username search",
@@ -5276,8 +5293,10 @@
         "description": "StableStudio is Stability AI's official open-source variant of DreamStudio, our user interface for generative AI. It is a web-based application that allows users to create and edit generated images.",
         "tags": [
             "Deep Learning",
+            "GUI",
             "image editing",
             "image generation",
+            "Stable Diffusion Model",
             "source: TypeScript"
         ]
     },
@@ -5462,6 +5481,14 @@
         ]
     },
     {
+        "name": "tere",
+        "url": "https://github.com/mgunyho/tere",
+        "description": "tere is a terminal file explorer that is faster than using cd or ls. It enables fast navigation to a folder and then prints the path to that folder on exit. tere is not a file manager and it can only be used to browse folders.",
+        "tags": [
+            "file manager"
+        ]
+    },
+    {
         "name": "Tesseract OCR",
         "url": "https://github.com/tesseract-ocr/tesseract",
         "description": "Tesseract Open Source OCR Engine.",
@@ -5476,6 +5503,8 @@
         "description": "A gradio web UI for running Large Language Models like LLaMA, llama.cpp, GPT-J, Pythia, OPT, and GALACTICA.",
         "tags": [
             "Deep Learning",
+            "GUI",
+            "Language Model",
             "text generation",
             "source: Python"
         ]
@@ -5618,14 +5647,6 @@
         "tags": [
             "framerate",
             "video"
-        ]
-    },
-    {
-        "name": "tree",
-        "url": "https://github.com/mgunyho/tere",
-        "description": "tere is a terminal file explorer that is faster than using cd or ls. It enables fast navigation to a folder and then prints the path to that folder on exit. tere is not a file manager and it can only be used to browse folders.",
-        "tags": [
-            "file manager"
         ]
     },
     {
@@ -5835,7 +5856,7 @@
         "description": "A small Linux daemon for redirecting UDP connections, useful on embedded systems without iptables support for SNMP and DNS forwarding.",
         "tags": [
             "forwarding",
-            "networking",
+            "network",
             "UDP",
             "source: C"
         ]
@@ -6006,9 +6027,9 @@
         "tags": [
             "command line",
             "downloader",
-            "Rust",
             "video",
-            "video downloader"
+            "video downloader",
+            "source: Rust"
         ]
     },
     {
@@ -6034,7 +6055,7 @@
         "url": "https://github.com/warewulf/warewulf",
         "description": "A stateless and diskless container-based operating system provisioning system for large clusters of bare metal and virtual systems in HPC environments.",
         "tags": [
-            "containers",
+            "container",
             "docker",
             "source: Go"
         ]
@@ -6096,6 +6117,7 @@
         "url": "https://github.com/openai/whisper",
         "description": "whisper - Robust Speech Recognition via Large-Scale Weak Supervision.",
         "tags": [
+            "audio",
             "automatic transcription",
             "speech recognition",
             "transcription",
@@ -6107,6 +6129,7 @@
         "url": "https://github.com/FL33TW00D/whisper-turbo",
         "description": "Whisper Turbo is a lightning-fast, cross-platform Whisper implementation, designed to run entirely client-side on your browser or electron app.",
         "tags": [
+            "audio",
             "automatic transcription",
             "cross-platform",
             "speech recognition",
@@ -6145,6 +6168,7 @@
         "url": "https://github.com/kadirnar/whisper-plus",
         "description": "WhisperPlus: Advancing Speech-to-Text Processing.",
         "tags": [
+            "audio",
             "automatic transcription",
             "speech recognition",
             "transcription",
