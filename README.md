@@ -569,6 +569,9 @@ Some descriptions are from:
 - GQL [🛈](https://github.com/AmrDeveloper/GQL)
   - GQL is a query language with a syntax very similar to SQL with a tiny engine to perform queries on .git files instance of database files, the engine executes the query on the fly without the need to create database files or convert .git files into any other format, note that all Keywords in GQL are case-insensitive similar to SQL.
   - Tags: command line, git, querying, searching, terminal, source: Rust
+- Gradia [🛈](https://github.com/AlexanderVanhee/Gradia)
+  - A GNOME screenshot editing application that allows quickly enhancing images with gradient backgrounds for social media sharing.
+  - Tags: image, image editing, Linux, screenshot, source: Python
 - Graft [🛈](https://github.com/orbitinghail/graft)
   - An open-source transactional storage engine optimized for lazy, partial, and strongly consistent replication suited for edge and offline-first applications.
   - Tags: database, offline-first, replication, storage, source: Rust
@@ -1607,6 +1610,9 @@ Some descriptions are from:
 - Vizro [🛈](https://github.com/mckinsey/vizro)
   - Vizro is a toolkit for creating modular data visualization applications.
   - Tags: library, visualization, source: Python
+- Voicebox [🛈](https://github.com/jamiepine/voicebox)
+  - An open-source local-first voice synthesis studio powered by Qwen3-TTS, supporting voice cloning, multi-track timeline editing, and real-time transcription.
+  - Tags: audio, offline-first, speech generation, text-to-speech, voice cloning, source: TypeScript
 - VoiceRestore [🛈](https://github.com/skirdey/voicerestore)
   - A speech restoration model using flow-matching transformers to enhance degraded voice recordings by addressing noise, reverberation, distortion, and signal loss.
   - Tags: audio, Deep Learning, speech recognition, source: Python
@@ -1756,7 +1762,7 @@ List of tags with occurrences in the brackets:
 - API (10)
 - API development platform (4)
 - archive (2)
-- audio (21)
+- audio (22)
 - audio generation (3)
 - authentication (2)
 - autocomplete (1)
@@ -1916,8 +1922,8 @@ List of tags with occurrences in the brackets:
 - hypermedia (1)
 - icons (1)
 - IDE (3)
-- image (8)
-- image editing (4)
+- image (9)
+- image editing (5)
 - image generation (10)
 - in-memory (3)
 - indexing (3)
@@ -1943,7 +1949,7 @@ List of tags with occurrences in the brackets:
 - library (45)
 - link management (1)
 - linter (11)
-- Linux (6)
+- Linux (7)
 - Linux kernel (1)
 - LLM-ready (4)
 - logs (9)
@@ -1983,7 +1989,7 @@ List of tags with occurrences in the brackets:
 - observability (6)
 - OCR (6)
 - offline (3)
-- offline-first (1)
+- offline-first (2)
 - ollama (1)
 - OLTP (1)
 - OpenAI (1)
@@ -2040,6 +2046,7 @@ List of tags with occurrences in the brackets:
 - S3 (6)
 - scheduler (3)
 - schema validation (1)
+- screenshot (1)
 - search engine (1)
 - searching (14)
 - secret management (3)
@@ -2072,14 +2079,14 @@ List of tags with occurrences in the brackets:
 - source: Kotlin (1)
 - source: Lua (1)
 - source: PHP (1)
-- source: Python (160)
+- source: Python (161)
 - source: Ruby (5)
 - source: Rust (121)
 - source: Shell (10)
-- source: TypeScript (54)
+- source: TypeScript (55)
 - source: Zig (3)
 - space (1)
-- speech generation (7)
+- speech generation (8)
 - speech recognition (11)
 - speech-to-text (1)
 - spreadsheet (1)
@@ -2111,7 +2118,7 @@ List of tags with occurrences in the brackets:
 - text generation (2)
 - text processing (5)
 - text-to-audio (2)
-- text-to-speech (5)
+- text-to-speech (6)
 - tldr (4)
 - TLS (1)
 - TOML (1)
@@ -2138,7 +2145,7 @@ List of tags with occurrences in the brackets:
 - viewer (3)
 - visualization (11)
 - visualizer (1)
-- voice cloning (2)
+- voice cloning (3)
 - VPN (1)
 - vulnerability scanner (9)
 - weather (1)

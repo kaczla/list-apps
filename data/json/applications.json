@@ -2130,6 +2130,18 @@
         ]
     },
     {
+        "name": "Gradia",
+        "url": "https://github.com/AlexanderVanhee/Gradia",
+        "description": "A GNOME screenshot editing application that allows quickly enhancing images with gradient backgrounds for social media sharing.",
+        "tags": [
+            "image",
+            "image editing",
+            "Linux",
+            "screenshot",
+            "source: Python"
+        ]
+    },
+    {
         "name": "Graft",
         "url": "https://github.com/orbitinghail/graft",
         "description": "An open-source transactional storage engine optimized for lazy, partial, and strongly consistent replication suited for edge and offline-first applications.",
@@ -5963,6 +5975,19 @@
             "library",
             "visualization",
             "source: Python"
+        ]
+    },
+    {
+        "name": "Voicebox",
+        "url": "https://github.com/jamiepine/voicebox",
+        "description": "An open-source local-first voice synthesis studio powered by Qwen3-TTS, supporting voice cloning, multi-track timeline editing, and real-time transcription.",
+        "tags": [
+            "audio",
+            "offline-first",
+            "speech generation",
+            "text-to-speech",
+            "voice cloning",
+            "source: TypeScript"
         ]
     },
     {
