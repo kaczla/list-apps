@@ -4596,6 +4596,20 @@
         ]
     },
     {
+        "name": "Readest",
+        "url": "https://github.com/readest/readest",
+        "description": "An open-source ebook reader designed for immersive and deep reading experiences, built with Next.js and Tauri. Supports EPUB, MOBI, AZW3, FB2, CBZ, and TXT formats with annotations, full-text search, parallel reading, text-to-speech, dictionary lookups, and translation via DeepL/Yandex.",
+        "tags": [
+            "book collections",
+            "cross-platform",
+            "ebook reader",
+            "full-text search",
+            "GUI",
+            "offline",
+            "source: TypeScript"
+        ]
+    },
+    {
         "name": "RecipeUI",
         "url": "https://github.com/RecipeUI/RecipeUI",
         "description": "RecipeUI is the open source Postman alternative with type safety built in. Catch your API requests before they fail with TypeScript and autocomplete. Enhance your workflows with auto-generated docs and reusable API templates.",
@@ -6465,6 +6479,17 @@
             "compression",
             "decompression",
             "source: C"
+        ]
+    },
+    {
+        "name": "Zvec",
+        "url": "https://github.com/alibaba/zvec",
+        "description": "An open-source, in-process vector database built on Alibaba's Proxima search engine, delivering production-grade low-latency similarity search with minimal setup. Supports dense and sparse vectors, hybrid search with structured filtering, and runs as an embedded library without external servers.",
+        "tags": [
+            "database",
+            "semantic search",
+            "vector search",
+            "source: C++"
         ]
     },
     {

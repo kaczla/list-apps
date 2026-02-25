@@ -1235,6 +1235,9 @@ Some descriptions are from:
 - rapidgzip [🛈](https://github.com/mxmlnkn/rapidgzip)
   - Rapidgzip: Parallelized Decompression of Gzip Files with Support for Fast Random Access.
   - Tags: command line, compression, decompression, source: C++
+- Readest [🛈](https://github.com/readest/readest)
+  - An open-source ebook reader designed for immersive and deep reading experiences, built with Next.js and Tauri. Supports EPUB, MOBI, AZW3, FB2, CBZ, and TXT formats with annotations, full-text search, parallel reading, text-to-speech, dictionary lookups, and translation via DeepL/Yandex.
+  - Tags: book collections, cross-platform, ebook reader, full-text search, GUI, offline, source: TypeScript
 - RecipeUI [🛈](https://github.com/RecipeUI/RecipeUI)
   - RecipeUI is the open source Postman alternative with type safety built in. Catch your API requests before they fail with TypeScript and autocomplete. Enhance your workflows with auto-generated docs and reusable API templates.
   - Tags: API development platform, GUI, testing API
@@ -1739,6 +1742,9 @@ Some descriptions are from:
 - zstd [🛈](https://github.com/facebook/zstd)
   - Zstandard, or zstd as short version, is a fast lossless compression algorithm, targeting real-time compression scenarios at zlib-level and better compression ratios.
   - Tags: command line, compression, decompression, source: C
+- Zvec [🛈](https://github.com/alibaba/zvec)
+  - An open-source, in-process vector database built on Alibaba's Proxima search engine, delivering production-grade low-latency similarity search with minimal setup. Supports dense and sparse vectors, hybrid search with structured filtering, and runs as an embedded library without external servers.
+  - Tags: database, semantic search, vector search, source: C++
 - μFuzzy [🛈](https://github.com/leeoniya/uFuzzy)
   - μFuzzy is a tiny, efficient, fuzzy search library designed to match a short search phrase against a large list of short-to-medium phrases. It can be used for list filtering, auto-complete, or title/name/description/filename/function searches. μFuzzy features straightforward fuzziness control, customized sorting, and a concise set of options.
   - Tags: fuzzy search, library, source: JavaScript
@@ -1772,7 +1778,7 @@ List of tags with occurrences in the brackets:
 - awesome-list (1)
 - benchmarking (1)
 - binary (5)
-- book collections (1)
+- book collections (2)
 - bookmark (1)
 - bug tracker (1)
 - bypass (1)
@@ -1826,7 +1832,7 @@ List of tags with occurrences in the brackets:
 - context retrieval (1)
 - control desktop (1)
 - cron (1)
-- cross-platform (27)
+- cross-platform (28)
 - CSV (7)
 - customizing (3)
 - dashboard (9)
@@ -1838,7 +1844,7 @@ List of tags with occurrences in the brackets:
 - data recovery (1)
 - data structures (3)
 - data validation (1)
-- database (40)
+- database (41)
 - database management (1)
 - database schema (1)
 - database transfer (1)
@@ -1865,6 +1871,7 @@ List of tags with occurrences in the brackets:
 - documentation (4)
 - dotfile (3)
 - downloader (5)
+- ebook reader (1)
 - editor (7)
 - email (2)
 - email search (1)
@@ -1897,7 +1904,7 @@ List of tags with occurrences in the brackets:
 - forwarding (5)
 - framerate (1)
 - framework (14)
-- full-text search (4)
+- full-text search (5)
 - fun (1)
 - function calling (1)
 - fuzzy search (3)
@@ -1909,7 +1916,7 @@ List of tags with occurrences in the brackets:
 - Google Analytics (1)
 - GPU (8)
 - gRPC (1)
-- GUI (38)
+- GUI (39)
 - guide (5)
 - help message (1)
 - hex viewer (1)
@@ -1988,7 +1995,7 @@ List of tags with occurrences in the brackets:
 - object detection (2)
 - observability (6)
 - OCR (6)
-- offline (3)
+- offline (4)
 - offline-first (2)
 - ollama (1)
 - OLTP (1)
@@ -2054,7 +2061,7 @@ List of tags with occurrences in the brackets:
 - security (26)
 - self-hosted (20)
 - self-replace (1)
-- semantic search (3)
+- semantic search (4)
 - send email (1)
 - serialization (1)
 - server (3)
@@ -2068,7 +2075,7 @@ List of tags with occurrences in the brackets:
 - source control system (2)
 - source: C (26)
 - source: C# (2)
-- source: C++ (18)
+- source: C++ (19)
 - source: Clojure (1)
 - source: Dart (1)
 - source: Elixir (1)
@@ -2083,7 +2090,7 @@ List of tags with occurrences in the brackets:
 - source: Ruby (5)
 - source: Rust (121)
 - source: Shell (10)
-- source: TypeScript (55)
+- source: TypeScript (56)
 - source: Zig (3)
 - space (1)
 - speech generation (8)
@@ -2137,7 +2144,7 @@ List of tags with occurrences in the brackets:
 - unstructured data (3)
 - url (1)
 - username search (2)
-- vector search (2)
+- vector search (3)
 - video (16)
 - video downloader (4)
 - video editing (2)
