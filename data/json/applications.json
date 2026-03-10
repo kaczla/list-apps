@@ -1433,6 +1433,7 @@
         "tags": [
             "audio",
             "note",
+            "offline",
             "speech recognition",
             "speech-to-text",
             "text-to-speech",
@@ -1940,7 +1941,8 @@
         "description": "Distributed, offline-first bug tracker embedded in git, with bridges",
         "tags": [
             "bug tracker",
-            "git"
+            "git",
+            "offline"
         ]
     },
     {
@@ -2100,9 +2102,21 @@
         "description": "A terminal-based tool for managing Ollama models on macOS and Linux with an interactive TUI for listing, sorting, filtering, editing, and monitoring local LLM models.",
         "tags": [
             "Language Model",
+            "LLM managment",
             "management",
             "ollama",
             "terminal interface",
+            "source: Go"
+        ]
+    },
+    {
+        "name": "Gopeed",
+        "url": "https://github.com/GopeedLab/gopeed",
+        "description": "A modern cross-platform download manager supporting HTTP, BitTorrent, and Magnet protocols, built with Golang and Flutter, with browser extension integration and an extensible API.",
+        "tags": [
+            "cross-platform",
+            "downloader",
+            "file transfer",
             "source: Go"
         ]
     },
@@ -2147,7 +2161,7 @@
         "description": "An open-source transactional storage engine optimized for lazy, partial, and strongly consistent replication suited for edge and offline-first applications.",
         "tags": [
             "database",
-            "offline-first",
+            "offline",
             "replication",
             "storage",
             "source: Rust"
@@ -2495,6 +2509,7 @@
             "API",
             "database",
             "Firebase",
+            "offline",
             "source: Clojure"
         ]
     },
@@ -2586,6 +2601,24 @@
             "Machine Learning transpiler",
             "transpiler",
             "source: Python"
+        ]
+    },
+    {
+        "name": "Jan",
+        "url": "https://github.com/janhq/jan",
+        "description": "An open-source desktop alternative to ChatGPT that runs LLMs fully offline, with support for local models from HuggingFace, cloud provider integrations, an OpenAI-compatible local API, and Model Context Protocol for agentic capabilities.",
+        "tags": [
+            "AI powered",
+            "chat",
+            "cross-platform",
+            "GUI",
+            "inference",
+            "Language Model",
+            "LLM managment",
+            "Model Context Protocol (MCP)",
+            "offline",
+            "source: Rust",
+            "source: TypeScript"
         ]
     },
     {
@@ -3042,7 +3075,8 @@
         "url": "https://github.com/LibreTranslate/LibreTranslate",
         "description": "Free and Open Source Machine Translation API. 100% self-hosted, offline capable and easy to setup.",
         "tags": [
-            "Machine Translation"
+            "Machine Translation",
+            "offline"
         ]
     },
     {
@@ -3144,6 +3178,37 @@
             "Language Model",
             "reverse engineering",
             "source: Python"
+        ]
+    },
+    {
+        "name": "llmfit",
+        "url": "https://github.com/AlexsJones/llmfit",
+        "description": "A terminal tool that right-sizes LLM models to your hardware by detecting RAM, CPU, and GPU specs, then scoring hundreds of models across quality, speed, fit, and context dimensions.",
+        "tags": [
+            "AI powered",
+            "command line",
+            "GPU",
+            "inference",
+            "Language Model",
+            "LLM managment",
+            "management",
+            "terminal interface",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "LM Studio",
+        "url": "https://lmstudio.ai/",
+        "description": "A desktop application for discovering, downloading, and running large language models locally and privately, with an OpenAI-compatible API, cross-platform support, and a headless CLI mode for server deployments.",
+        "tags": [
+            "AI powered",
+            "cross-platform",
+            "GUI",
+            "inference",
+            "Language Model",
+            "LLM managment",
+            "No source code",
+            "offline"
         ]
     },
     {
@@ -3580,6 +3645,18 @@
         ]
     },
     {
+        "name": "neko",
+        "url": "https://github.com/m1k1o/neko",
+        "description": "A self-hosted virtual browser that streams a full desktop environment via WebRTC inside Docker, enabling multi-user collaborative browsing, watch parties, and privacy-focused throwaway sessions.",
+        "tags": [
+            "docker",
+            "remote desktop",
+            "self-hosted",
+            "web browser",
+            "source: Go"
+        ]
+    },
+    {
         "name": "NeoHtop",
         "url": "https://github.com/Abdenasser/neohtop",
         "description": "A cross-platform system monitoring application with modern user interface providing real-time process and resource utilization visibility.",
@@ -3721,6 +3798,21 @@
             "library",
             "memory management",
             "source: Rust"
+        ]
+    },
+    {
+        "name": "Ollama",
+        "url": "https://github.com/ollama/ollama",
+        "description": "An open-source framework for running large language models locally on macOS, Windows, and Linux, with a REST API and support for GPU acceleration, multiple model formats, and integrations with popular AI frameworks.",
+        "tags": [
+            "AI powered",
+            "cross-platform",
+            "inference",
+            "Language Model",
+            "LLM managment",
+            "offline",
+            "ollama",
+            "source: Go"
         ]
     },
     {
@@ -4232,6 +4324,7 @@
         "tags": [
             "AI powered",
             "Language Model",
+            "offline",
             "privacy",
             "source: TypeScript"
         ]
@@ -4744,6 +4837,19 @@
             "debugger",
             "reverse engineering",
             "source: C"
+        ]
+    },
+    {
+        "name": "RTK",
+        "url": "https://github.com/rtk-ai/rtk",
+        "description": "A high-performance CLI proxy that reduces LLM token consumption by 60-90% through intelligent filtering and compression of command outputs, with support for 40+ common development commands.",
+        "tags": [
+            "AI powered",
+            "command line",
+            "filtering",
+            "Language Model",
+            "proxy",
+            "source: Rust"
         ]
     },
     {
@@ -5607,6 +5713,7 @@
             "AI powered",
             "code generation",
             "command line",
+            "offline",
             "source: Go"
         ]
     },
@@ -5997,7 +6104,7 @@
         "description": "An open-source local-first voice synthesis studio powered by Qwen3-TTS, supporting voice cloning, multi-track timeline editing, and real-time transcription.",
         "tags": [
             "audio",
-            "offline-first",
+            "offline",
             "speech generation",
             "text-to-speech",
             "voice cloning",
@@ -6054,6 +6161,7 @@
         "tags": [
             "audio",
             "multi-language",
+            "offline",
             "privacy",
             "speech recognition",
             "source: C++"
@@ -6329,6 +6437,22 @@
         ]
     },
     {
+        "name": "xyOps",
+        "url": "https://github.com/pixlcore/xyops",
+        "description": "A unified platform combining job scheduling, workflow automation, server monitoring, alerting, and incident response for managing automation infrastructure across server fleets.",
+        "tags": [
+            "alerts",
+            "automation",
+            "dashboard",
+            "job",
+            "monitoring",
+            "scheduler",
+            "self-hosted",
+            "workflow",
+            "source: JavaScript"
+        ]
+    },
+    {
         "name": "xz",
         "url": "https://github.com/tukaani-project/xz",
         "description": "XZ Utils provide a general-purpose data-compression library plus command-line tools. The native file format is the .xz format, but also the legacy .lzma format is supported.",
@@ -6425,6 +6549,7 @@
         "tags": [
             "documentation",
             "GUI",
+            "offline",
             "source: C++"
         ]
     },

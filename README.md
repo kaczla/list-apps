@@ -382,7 +382,7 @@ Some descriptions are from:
   - Tags: database, database schema, diagram, editor, SQL, visualization, web browser, source: JavaScript
 - dsnote [🛈](https://github.com/mkiol/dsnote)
   - A Linux desktop application for note-taking, reading, and translating using offline Speech to Text, Text to Speech, and Machine Translation.
-  - Tags: audio, note, speech recognition, speech-to-text, text-to-speech, transcription, translation, source: C++
+  - Tags: audio, note, offline, speech recognition, speech-to-text, text-to-speech, transcription, translation, source: C++
 - dua [🛈](https://github.com/Byron/dua-cli)
   - dua is a view disk space usage and delete unwanted data, fast.
   - Tags: command line, disk utility, command line: du, source: Rust
@@ -517,7 +517,7 @@ Some descriptions are from:
   - Tags: command line, library, text processing, source: Python
 - git-bug [🛈](https://github.com/MichaelMure/git-bug)
   - Distributed, offline-first bug tracker embedded in git, with bridges
-  - Tags: bug tracker, git
+  - Tags: bug tracker, git, offline
 - git-rewrite-commits [🛈](https://github.com/f/git-rewrite-commits)
   - An AI-powered tool that automatically rewrites git commit histories with better, conventional commit messages using OpenAI GPT or local Ollama models, designed for cleaning up messy repositories before open-sourcing.
   - Tags: AI powered, automation, git, source: TypeScript
@@ -562,7 +562,10 @@ Some descriptions are from:
   - Tags: command line, editor, Markdown
 - Gollama [🛈](https://github.com/sammcj/gollama)
   - A terminal-based tool for managing Ollama models on macOS and Linux with an interactive TUI for listing, sorting, filtering, editing, and monitoring local LLM models.
-  - Tags: Language Model, management, ollama, terminal interface, source: Go
+  - Tags: Language Model, LLM managment, management, ollama, terminal interface, source: Go
+- Gopeed [🛈](https://github.com/GopeedLab/gopeed)
+  - A modern cross-platform download manager supporting HTTP, BitTorrent, and Magnet protocols, built with Golang and Flutter, with browser extension integration and an extensible API.
+  - Tags: cross-platform, downloader, file transfer, source: Go
 - gpt4free [🛈](https://github.com/xtekky/gpt4free)
   - A community-driven Python package that aggregates multiple LLM providers into a unified interface with OpenAI-compatible APIs, web GUI, and support for image/audio/video generation.
   - Tags: AI powered, Language Model, source: Python
@@ -574,7 +577,7 @@ Some descriptions are from:
   - Tags: image, image editing, Linux, screenshot, source: Python
 - Graft [🛈](https://github.com/orbitinghail/graft)
   - An open-source transactional storage engine optimized for lazy, partial, and strongly consistent replication suited for edge and offline-first applications.
-  - Tags: database, offline-first, replication, storage, source: Rust
+  - Tags: database, offline, replication, storage, source: Rust
 - Greenmask [🛈](https://github.com/GreenmaskIO/greenmask)
   - PostgreSQL database backup, anonymization, and synthetic data generation utility with deterministic transformers and backward compatibility with pg_dump/pg_restore.
   - Tags: command line, data generator, database, PostgreSQL, privacy, source: Go
@@ -667,7 +670,7 @@ Some descriptions are from:
   - Tags: API development platform, GUI, testing API
 - Instant [🛈](https://github.com/instantdb/instant)
   - Modern Firebase alternative providing a real-time database with relational queries, offline support, multiplayer functionality, and permission system.
-  - Tags: API, database, Firebase, source: Clojure
+  - Tags: API, database, Firebase, offline, source: Clojure
 - Insync [🛈](https://www.insynchq.com/)
   - A desktop application for syncing, editing, and sharing files across Google Drive, OneDrive, and Dropbox with selective sync, multiple account management, and file manager integration.
   - Tags: cross-platform, file transfer, No source code, syncing
@@ -692,6 +695,9 @@ Some descriptions are from:
 - Ivy [🛈](https://github.com/unifyai/ivy)
   - Ivy is both an ML transpiler and a framework, currently supporting JAX, TensorFlow, PyTorch and Numpy.
   - Tags: framework, Machine Learning, Machine Learning transpiler, transpiler, source: Python
+- Jan [🛈](https://github.com/janhq/jan)
+  - An open-source desktop alternative to ChatGPT that runs LLMs fully offline, with support for local models from HuggingFace, cloud provider integrations, an OpenAI-compatible local API, and Model Context Protocol for agentic capabilities.
+  - Tags: AI powered, chat, cross-platform, GUI, inference, Language Model, LLM managment, Model Context Protocol (MCP), offline, source: Rust, source: TypeScript
 - jaq [🛈](https://github.com/01mf02/jaq)
   - jaq is a clone of the JSON data processing tool jq. jaq aims to support a large subset of jq's syntax and operations.
   - Tags: command line, content extractor, data formatter, JSON, terminal, source: Rust
@@ -811,7 +817,7 @@ Some descriptions are from:
   - Tags: command line, file manager, terminal, terminal interface, command line: mc, command line: ranger, source: Go
 - LibreTranslate [🛈](https://github.com/LibreTranslate/LibreTranslate)
   - Free and Open Source Machine Translation API. 100% self-hosted, offline capable and easy to setup.
-  - Tags: Machine Translation
+  - Tags: Machine Translation, offline
 - Limbo [🛈](https://github.com/penberg/limbo)
   - An in-process OLTP database engine written in Rust that represents the modern evolution of SQLite with compatibility for SQLite's SQL dialect, file formats, and C API.
   - Tags: database, OLTP, source: Rust
@@ -839,6 +845,12 @@ Some descriptions are from:
 - LLM4Decompile [🛈](https://github.com/albertan017/LLM4Decompile)
   - An open-source LLM system for reverse-engineering compiled binaries back into human-readable C source code, supporting various GCC optimization levels.
   - Tags: binary, Language Model, reverse engineering, source: Python
+- llmfit [🛈](https://github.com/AlexsJones/llmfit)
+  - A terminal tool that right-sizes LLM models to your hardware by detecting RAM, CPU, and GPU specs, then scoring hundreds of models across quality, speed, fit, and context dimensions.
+  - Tags: AI powered, command line, GPU, inference, Language Model, LLM managment, management, terminal interface, source: Rust
+- LM Studio [🛈](https://lmstudio.ai/)
+  - A desktop application for discovering, downloading, and running large language models locally and privately, with an OpenAI-compatible API, cross-platform support, and a headless CLI mode for server deployments.
+  - Tags: AI powered, cross-platform, GUI, inference, Language Model, LLM managment, No source code, offline
 - LobeChat [🛈](https://github.com/lobehub/lobe-chat)
   - An open-source platform for multi-agent collaboration and AI-powered work, enabling users to find, build, and collaborate with AI agent teammates.
   - Tags: AI agents, chat, source: TypeScript
@@ -959,6 +971,9 @@ Some descriptions are from:
 - navi [🛈](https://github.com/denisidoro/navi)
   - navi is an interactive cheatsheet tool for the command-line.
   - Tags: cheat sheet, command line, guide, tldr, source: Rust
+- neko [🛈](https://github.com/m1k1o/neko)
+  - A self-hosted virtual browser that streams a full desktop environment via WebRTC inside Docker, enabling multi-user collaborative browsing, watch parties, and privacy-focused throwaway sessions.
+  - Tags: docker, remote desktop, self-hosted, web browser, source: Go
 - NeoHtop [🛈](https://github.com/Abdenasser/neohtop)
   - A cross-platform system monitoring application with modern user interface providing real-time process and resource utilization visibility.
   - Tags: cross-platform, GUI, monitoring, command line: top, source: Rust
@@ -998,6 +1013,9 @@ Some descriptions are from:
 - offset-allocator [🛈](https://github.com/pcwalton/offset-allocator)
   - A fast, hard real-time memory allocator optimized for managing GPU resources and other non-CPU memory allocations with O(1) operations and minimal fragmentation.
   - Tags: allocator, GPU, library, memory management, source: Rust
+- Ollama [🛈](https://github.com/ollama/ollama)
+  - An open-source framework for running large language models locally on macOS, Windows, and Linux, with a REST API and support for GPU acceleration, multiple model formats, and integrations with popular AI frameworks.
+  - Tags: AI powered, cross-platform, inference, Language Model, LLM managment, offline, ollama, source: Go
 - OllamaTalk [🛈](https://github.com/shinhyo/OllamaTalk)
   - A fully local, cross-platform AI chat application powered by Ollama that runs entirely on-device across macOS, Windows, Linux, Android, and iOS with no cloud dependencies.
   - Tags: AI powered, chat, cross-platform, Language Model, offline, source: Dart
@@ -1135,7 +1153,7 @@ Some descriptions are from:
   - Tags: command line, file listing, command line: ls
 - PocketPal AI [🛈](https://github.com/a-ghorbani/pocketpal-ai)
   - A mobile application that enables users to run small language models directly on their phones for offline AI assistance with all processing occurring on-device to protect user privacy.
-  - Tags: AI powered, Language Model, privacy, source: TypeScript
+  - Tags: AI powered, Language Model, offline, privacy, source: TypeScript
 - pogocache [🛈](https://github.com/tidwall/pogocache)
   - A high-performance caching server with low latency and CPU efficiency, supporting HTTP, Memcache, RESP, and Postgres wire protocols.
   - Tags: caching, in-memory, key-value store, source: C
@@ -1274,6 +1292,9 @@ Some descriptions are from:
 - Rizin [🛈](https://github.com/rizinorg/rizin)
   - Reverse engineering framework for analyzing binaries, disassembling code, and debugging programs with support for 50+ architectures and multiple file formats.
   - Tags: command line, debugger, reverse engineering, source: C
+- RTK [🛈](https://github.com/rtk-ai/rtk)
+  - A high-performance CLI proxy that reduces LLM token consumption by 60-90% through intelligent filtering and compression of command outputs, with support for 40+ common development commands.
+  - Tags: AI powered, command line, filtering, Language Model, proxy, source: Rust
 - rtx [🛈](https://github.com/jdxcode/rtx)
   - rtx is a tool for managing programming language and tool versions.
   - Tags: command line, environment, environment manager, management, source: Rust
@@ -1507,7 +1528,7 @@ Some descriptions are from:
   - Tags: command line, data processing, debugging, command line: jq, source: Rust
 - tlm [🛈](https://github.com/yusufcanb/tlm)
   - A local CLI companion tool using open-source LLMs for command suggestion, shell command explanation, and RAG-based queries, working fully offline.
-  - Tags: AI powered, code generation, command line, source: Go
+  - Tags: AI powered, code generation, command line, offline, source: Go
 - Tokei [🛈](https://github.com/XAMPPRocky/tokei)
   - Tokei is a program that displays statistics about your code.
   - Tags: code statistics, command line, source: Rust
@@ -1615,7 +1636,7 @@ Some descriptions are from:
   - Tags: library, visualization, source: Python
 - Voicebox [🛈](https://github.com/jamiepine/voicebox)
   - An open-source local-first voice synthesis studio powered by Qwen3-TTS, supporting voice cloning, multi-track timeline editing, and real-time transcription.
-  - Tags: audio, offline-first, speech generation, text-to-speech, voice cloning, source: TypeScript
+  - Tags: audio, offline, speech generation, text-to-speech, voice cloning, source: TypeScript
 - VoiceRestore [🛈](https://github.com/skirdey/voicerestore)
   - A speech restoration model using flow-matching transformers to enhance degraded voice recordings by addressing noise, reverberation, distortion, and signal loss.
   - Tags: audio, Deep Learning, speech recognition, source: Python
@@ -1630,7 +1651,7 @@ Some descriptions are from:
   - Tags: data format, data processing, source: Rust
 - Vosk [🛈](https://github.com/alphacep/vosk-api)
   - An offline, open-source speech recognition system supporting 20+ languages with small models that deliver continuous transcription and zero-latency streaming responses.
-  - Tags: audio, multi-language, privacy, speech recognition, source: C++
+  - Tags: audio, multi-language, offline, privacy, speech recognition, source: C++
 - vsd [🛈](https://github.com/clitic/vsd)
   - vsd - video stream downloader is a command line program to download video streams served over HTTP from websites, HLS and DASH playlists.
   - Tags: command line, downloader, video, video downloader, source: Rust
@@ -1703,6 +1724,9 @@ Some descriptions are from:
 - xq [🛈](https://github.com/sibprogrammer/xq)
   - Command-line XML and HTML beautifier and content extractor.
   - Tags: command line, content extractor, data formatter, HTML, XML
+- xyOps [🛈](https://github.com/pixlcore/xyops)
+  - A unified platform combining job scheduling, workflow automation, server monitoring, alerting, and incident response for managing automation infrastructure across server fleets.
+  - Tags: alerts, automation, dashboard, job, monitoring, scheduler, self-hosted, workflow, source: JavaScript
 - xz [🛈](https://github.com/tukaani-project/xz)
   - XZ Utils provide a general-purpose data-compression library plus command-line tools. The native file format is the .xz format, but also the legacy .lzma format is supported.
   - Tags: command line, compression, decompression, source: C
@@ -1726,7 +1750,7 @@ Some descriptions are from:
   - Tags: GUI, IDE, Jupyter, Notebook, source: Go
 - Zeal [🛈](https://github.com/zealdocs/zeal/)
   - Zeal is a simple offline documentation browser inspired by Dash.
-  - Tags: documentation, GUI, source: C++
+  - Tags: documentation, GUI, offline, source: C++
 - Zellij [🛈](https://github.com/zellij-org/zellij)
   - Zellij is a workspace aimed at developers, ops-oriented people and anyone who loves the terminal. At its core, it is a terminal multiplexer (similar to tmux and screen), but this is merely its infrastructure layer.
   - Tags: terminal, terminal interface, source: Rust
@@ -1758,8 +1782,8 @@ List of tags with occurrences in the brackets:
 - agentic coding (7)
 - AI agents (17)
 - AI personal assistant (3)
-- AI powered (61)
-- alerts (3)
+- AI powered (66)
+- alerts (4)
 - allocator (1)
 - AlphaZero (1)
 - analysis (8)
@@ -1774,7 +1798,7 @@ List of tags with occurrences in the brackets:
 - autocomplete (1)
 - automate pull requests (1)
 - automatic transcription (6)
-- automation (27)
+- automation (28)
 - awesome-list (1)
 - benchmarking (1)
 - binary (5)
@@ -1785,7 +1809,7 @@ List of tags with occurrences in the brackets:
 - C (1)
 - C++ (1)
 - caching (9)
-- chat (8)
+- chat (9)
 - cheat sheet (4)
 - cloud (7)
 - code completion (4)
@@ -1797,7 +1821,7 @@ List of tags with occurrences in the brackets:
 - code statistics (1)
 - coloring (1)
 - coloring code (1)
-- command line (196)
+- command line (198)
 - command line: cat (1)
 - command line: cd (1)
 - command line: diff (3)
@@ -1832,10 +1856,10 @@ List of tags with occurrences in the brackets:
 - context retrieval (1)
 - control desktop (1)
 - cron (1)
-- cross-platform (28)
+- cross-platform (32)
 - CSV (7)
 - customizing (3)
-- dashboard (9)
+- dashboard (10)
 - data format (5)
 - data formatter (5)
 - data generator (2)
@@ -1866,11 +1890,11 @@ List of tags with occurrences in the brackets:
 - disk utility (5)
 - distribution (2)
 - DNS (1)
-- docker (14)
+- docker (15)
 - docker-compose (1)
 - documentation (4)
 - dotfile (3)
-- downloader (5)
+- downloader (6)
 - ebook reader (1)
 - editor (7)
 - email (2)
@@ -1893,10 +1917,10 @@ List of tags with occurrences in the brackets:
 - file storage (7)
 - file system (1)
 - file system watcher (1)
-- file transfer (2)
+- file transfer (3)
 - file-recovery (1)
 - filter editor (3)
-- filtering (1)
+- filtering (2)
 - find and replace (2)
 - fine-tuning (1)
 - Firebase (3)
@@ -1914,9 +1938,9 @@ List of tags with occurrences in the brackets:
 - git (20)
 - GitHub actions (2)
 - Google Analytics (1)
-- GPU (8)
+- GPU (9)
 - gRPC (1)
-- GUI (39)
+- GUI (41)
 - guide (5)
 - help message (1)
 - hex viewer (1)
@@ -1934,14 +1958,14 @@ List of tags with occurrences in the brackets:
 - image generation (10)
 - in-memory (3)
 - indexing (3)
-- inference (2)
+- inference (6)
 - interactive (6)
 - internet connection (1)
 - invoice (1)
 - IP camera (1)
 - isolation (5)
 - JavaScript engine (1)
-- job (1)
+- job (2)
 - JSON (10)
 - Jupyter (13)
 - key distribution (1)
@@ -1952,12 +1976,13 @@ List of tags with occurrences in the brackets:
 - kubernetes (7)
 - language detection (1)
 - language identification (1)
-- Language Model (30)
+- Language Model (35)
 - library (45)
 - link management (1)
 - linter (11)
 - Linux (7)
 - Linux kernel (1)
+- LLM managment (5)
 - LLM-ready (4)
 - logs (9)
 - Machine Learning (15)
@@ -1965,7 +1990,7 @@ List of tags with occurrences in the brackets:
 - Machine Translation (1)
 - MacOS (1)
 - makefile (3)
-- management (14)
+- management (15)
 - managing experiment (1)
 - Markdown (5)
 - matplot (1)
@@ -1976,8 +2001,8 @@ List of tags with occurrences in the brackets:
 - merge lm (1)
 - metadata tracker (1)
 - metrics (5)
-- Model Context Protocol (MCP) (1)
-- monitoring (32)
+- Model Context Protocol (MCP) (2)
+- monitoring (33)
 - multi-agent (1)
 - multi-language (9)
 - music generation (2)
@@ -1988,16 +2013,15 @@ List of tags with occurrences in the brackets:
 - network scan (6)
 - nixpkgs (1)
 - NLP (6)
-- No source code (1)
+- No source code (2)
 - note (3)
 - Notebook (7)
 - notification (2)
 - object detection (2)
 - observability (6)
 - OCR (6)
-- offline (4)
-- offline-first (2)
-- ollama (1)
+- offline (17)
+- ollama (2)
 - OLTP (1)
 - OpenAI (1)
 - OpenTelemetry (1)
@@ -2028,7 +2052,7 @@ List of tags with occurrences in the brackets:
 - process management (1)
 - profiler (3)
 - progress bar (2)
-- proxy (6)
+- proxy (7)
 - pull requests (2)
 - Python interpreter (2)
 - Python linter (7)
@@ -2041,7 +2065,7 @@ List of tags with occurrences in the brackets:
 - regex (5)
 - regular expression (4)
 - remote access (1)
-- remote desktop (1)
+- remote desktop (2)
 - rename (1)
 - replication (1)
 - report (2)
@@ -2051,7 +2075,7 @@ List of tags with occurrences in the brackets:
 - reverse engineering (5)
 - RSS (1)
 - S3 (6)
-- scheduler (3)
+- scheduler (4)
 - schema validation (1)
 - screenshot (1)
 - search engine (1)
@@ -2059,7 +2083,7 @@ List of tags with occurrences in the brackets:
 - secret management (3)
 - secrets detector (2)
 - security (26)
-- self-hosted (20)
+- self-hosted (22)
 - self-replace (1)
 - semantic search (4)
 - send email (1)
@@ -2079,18 +2103,18 @@ List of tags with occurrences in the brackets:
 - source: Clojure (1)
 - source: Dart (1)
 - source: Elixir (1)
-- source: Go (73)
+- source: Go (76)
 - source: HTML (1)
 - source: Java (5)
-- source: JavaScript (16)
+- source: JavaScript (17)
 - source: Kotlin (1)
 - source: Lua (1)
 - source: PHP (1)
 - source: Python (161)
 - source: Ruby (5)
-- source: Rust (121)
+- source: Rust (124)
 - source: Shell (10)
-- source: TypeScript (56)
+- source: TypeScript (57)
 - source: Zig (3)
 - space (1)
 - speech generation (8)
@@ -2118,7 +2142,7 @@ List of tags with occurrences in the brackets:
 - templater (1)
 - terminal (29)
 - terminal emulator (3)
-- terminal interface (16)
+- terminal interface (17)
 - testing (1)
 - testing API (4)
 - text (1)
@@ -2156,7 +2180,7 @@ List of tags with occurrences in the brackets:
 - VPN (1)
 - vulnerability scanner (9)
 - weather (1)
-- web browser (7)
+- web browser (8)
 - web page (7)
 - web scraper (12)
 - web search (2)
@@ -2165,6 +2189,6 @@ List of tags with occurrences in the brackets:
 - website (1)
 - Wikipedia (1)
 - Windows (1)
-- workflow (3)
+- workflow (4)
 - XML (4)
 - YAML (4)

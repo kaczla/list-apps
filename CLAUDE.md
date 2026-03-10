@@ -83,11 +83,24 @@ Create a JSON file with the current date and time in the name using format `YYYY
 
 ### Merging and Generating README
 
+**Option A: Direct merge (no review)**
+
 ```bash
 uv run python -m list_app.merge_json new_apps_20240115T1430.json --dry-run  # Preview first
 uv run python -m list_app.merge_json new_apps_20240115T1430.json            # Apply changes
 uv run python -m list_app.generate_readme                                   # Generate README
 ```
+
+**Option B: Interactive review via browser UI**
+
+```bash
+uv run python -m list_app.review_app new_apps_20240115T1430.json            # Opens browser UI on default port
+uv run python -m list_app.review_app new_apps_20240115T1430.json --port 9090  # Custom port
+```
+
+The review UI lets you inspect each app (with iframe preview), edit name/description/tags, and then merge and generate the README from within the browser.
+
+**Important**: After creating the JSON file, do NOT run any of the above commands automatically. Just inform the user that the file has been created and show them the commands they can run to merge and generate the README.
 
 ## Architecture
 
