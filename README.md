@@ -89,6 +89,9 @@ Some descriptions are from:
 - AWS Secrets Manager Agent [🛈](https://github.com/aws/aws-secretsmanager-agent)
   - A local HTTP service for fetching and caching AWS Secrets Manager secrets in memory, with SSRF protection and support for Lambda, ECS, EKS, and EC2 environments.
   - Tags: caching, cloud, secret management, security, source: Rust
+- Bananas [🛈](https://github.com/mistweaverco/bananas)
+  - A cross-platform peer-to-peer screen sharing application for Mac, Windows, and Linux that requires no user accounts or server infrastructure.
+  - Tags: cross-platform, remote desktop, source: TypeScript
 - bandwhich [🛈](https://github.com/imsnif/bandwhich)
   - bandwhich is a CLI utility for displaying current network utilization by process, connection and remote IP/hostname.
   - Tags: command line, monitoring, network, source: Rust
@@ -119,6 +122,9 @@ Some descriptions are from:
 - BookLore [🛈](https://github.com/booklore-app/booklore)
   - A self-hosted web application for organizing personal book collections with smart organization, custom shelves, powerful filters, and dynamic auto-updating collections through magic shelves.
   - Tags: book collections, management, self-hosted, source: Java
+- BorgBackup [🛈](https://github.com/borgbackup/borg)
+  - A deduplicating backup program with client-side authenticated encryption, multiple compression algorithms, and SSH-based remote backup support for efficient and secure data archiving.
+  - Tags: archive, backup, command line, compression, deduplication, encryption, source: Python
 - bottom [🛈](https://github.com/ClementTsang/bottom)
   - bottom is a customizable cross-platform graphical process/system monitor for the terminal.
   - Tags: command line, monitoring, command line: top, source: Rust
@@ -325,7 +331,7 @@ Some descriptions are from:
   - Tags: documentation, offline, web browser, source: Ruby
 - devenv [🛈](https://github.com/cachix/devenv)
   - Fast, Declarative, Reproducible, and Composable Developer Environments
-  - Tags: developer environment, environment, environment manager, management
+  - Tags: developer environment, environment manager, management
 - DiceDB [🛈](https://github.com/DiceDB/dice)
   - A reactive in-memory database with Redis-like interface, optimized for modern hardware with query subscriptions for real-time data updates. Note: development paused.
   - Tags: caching, database, in-memory, key-value store, redis, source: Go
@@ -424,7 +430,7 @@ Some descriptions are from:
   - Tags: awesome-list, engineering, guide
 - envio [🛈](https://github.com/humblepenguinn/envio)
   - Envio is a command-line tool that simplifies the management of environment variables across multiple profiles. It allows users to easily switch between different configurations and apply them to their current environment.
-  - Tags: command line, environment, environment manager, management, source: Rust
+  - Tags: command line, environment manager, management, source: Rust
 - exa [🛈](https://github.com/ogham/exa)
   - exa is a modern replacement for ls.
   - Tags: command line, file listing, command line: ls, source: Rust
@@ -974,6 +980,9 @@ Some descriptions are from:
 - neko [🛈](https://github.com/m1k1o/neko)
   - A self-hosted virtual browser that streams a full desktop environment via WebRTC inside Docker, enabling multi-user collaborative browsing, watch parties, and privacy-focused throwaway sessions.
   - Tags: docker, remote desktop, self-hosted, web browser, source: Go
+- NemoClaw [🛈](https://github.com/NVIDIA/NemoClaw)
+  - An open-source platform for secure execution of autonomous AI assistants using NVIDIA's OpenShell runtime with policy-based sandboxing and cloud inference routing.
+  - Tags: AI agents, isolation, security, source: TypeScript
 - NeoHtop [🛈](https://github.com/Abdenasser/neohtop)
   - A cross-platform system monitoring application with modern user interface providing real-time process and resource utilization visibility.
   - Tags: cross-platform, GUI, monitoring, command line: top, source: Rust
@@ -1058,6 +1067,12 @@ Some descriptions are from:
 - OpenObserve [🛈](https://github.com/openobserve/openobserve)
   - OpenObserve is a cloud native observability platform built specifically for logs, metrics, traces and analytics designed to work at petabyte scale.
   - Tags: logs, metrics, source: Rust
+- OpenReview [🛈](https://github.com/vercel-labs/openreview)
+  - A self-hosted AI code review bot that integrates with GitHub to deliver automated PR reviews, inline suggestions, and direct code fixes using Claude.
+  - Tags: AI powered, automate pull requests, code quality, pull requests, self-hosted, source: TypeScript
+- OpenShell [🛈](https://github.com/NVIDIA/OpenShell)
+  - A secure runtime environment for executing autonomous AI agents in isolated, policy-governed sandboxes with declarative controls over filesystem, network, and process access.
+  - Tags: AI agents, isolation, security, source: Rust
 - OpenVMM [🛈](https://github.com/microsoft/openvmm)
   - A modular, cross-platform Virtual Machine Monitor written in Rust, primarily developed for the OpenHCL paravisor.
   - Tags: container, cross-platform, source: Rust
@@ -1163,6 +1178,9 @@ Some descriptions are from:
 - portfwd [🛈](https://github.com/gaetanlhf/portfwd)
   - A lightweight tool that forwards TCP and UDP network traffic from one port to another, supporting simultaneous forwarding to multiple destinations with a single compiled binary.
   - Tags: command line, forwarding, network, TCP, UDP, source: Go
+- Portless [🛈](https://github.com/vercel-labs/portless)
+  - Replaces port numbers with stable, named local URLs for development, supporting HTTPS, HTTP/2, git worktree detection, and framework auto-detection.
+  - Tags: developer environment, network, proxy, source: TypeScript
 - Portr [🛈](https://github.com/amalshaji/portr)
   - A self-hosted tunnel solution for exposing local HTTP, TCP, or WebSocket connections to the internet using SSH remote port forwarding, with admin dashboard and request inspection.
   - Tags: dashboard, forwarding, network, ssh, source: Go
@@ -1271,6 +1289,9 @@ Some descriptions are from:
 - RenderCV [🛈](https://github.com/sinaatalay/rendercv)
   - A CV/resume generator that transforms YAML input into professionally formatted PDFs with multiple built-in themes, version control support, and full typography control.
   - Tags: command line, PDF, source: Python
+- Restic [🛈](https://github.com/restic/restic)
+  - A fast, efficient, and secure backup program supporting multiple storage backends including local directories, SFTP, S3, Azure Blob Storage, and Google Cloud with deduplication and encryption.
+  - Tags: archive, backup, command line, deduplication, encryption, storage, source: Go
 - RetroNAS [🛈](https://github.com/retronas/retronas)
   - Configures a Raspberry Pi, legacy computer, or VM as network storage for retro computers and gaming consoles using NFS and Samba protocols.
   - Tags: NAS, network, storage, source: Shell
@@ -1297,7 +1318,7 @@ Some descriptions are from:
   - Tags: AI powered, command line, filtering, Language Model, proxy, source: Rust
 - rtx [🛈](https://github.com/jdxcode/rtx)
   - rtx is a tool for managing programming language and tool versions.
-  - Tags: command line, environment, environment manager, management, source: Rust
+  - Tags: command line, environment manager, management, source: Rust
 - ruff [🛈](https://github.com/charliermarsh/ruff)
   - An extremely fast Python linter and code formatter with 800+ built-in rules, compatible with Flake8, isort, and Black.
   - Tags: code formatting, command line, linter, Python linter, source: Rust
@@ -1481,6 +1502,9 @@ Some descriptions are from:
 - Tabby [🛈](https://github.com/TabbyML/tabby)
   - Tabby is a self-hosted AI coding assistant. An opensource / on-prem alternative to GitHub Copilot.
   - Tags: code completion, Deep Learning, source: Python
+- Tailscale [🛈](https://github.com/tailscale/tailscale)
+  - A networking tool that creates secure private WireGuard-based mesh networks with easy setup, supporting multi-platform devices, SSO, SSH, and DERP relay servers.
+  - Tags: network, remote access, security, VPN, source: Go
 - tailspin [🛈](https://github.com/bensadeh/tailspin)
   - tailspin is a log file highlighter.
   - Tags: command line, highlighter, logs, source: Rust
@@ -1601,6 +1625,9 @@ Some descriptions are from:
 - Unshackle [🛈](https://github.com/Fadi002/unshackle)
   - Unshackle is an open-source tool to bypass Windows and Linux user passwords from a bootable USB based on Linux.
   - Tags: bypass, passwords, source: Shell
+- Unsloth [🛈](https://github.com/unslothai/unsloth)
+  - A platform for running and fine-tuning AI models locally, offering up to 2x faster training with 70% less VRAM through optimized kernels, with support for 500+ models across NVIDIA, AMD, and Apple Silicon.
+  - Tags: fine-tuning, inference, Language Model, Machine Learning, training, source: Python
 - Uptime Kuma [🛈](https://github.com/louislam/uptime-kuma)
   - Uptime Kuma is an easy-to-use self-hosted monitoring tool.
   - Tags: monitoring, source: JavaScript
@@ -1646,6 +1673,9 @@ Some descriptions are from:
 - Volatility 3 [🛈](https://github.com/volatilityfoundation/volatility3)
   - The world's most widely used framework for extracting digital artifacts from volatile memory (RAM) samples for forensic analysis and incident response.
   - Tags: memory, security, vulnerability scanner, source: Python
+- Vorta [🛈](https://github.com/borgbase/vorta)
+  - A desktop backup client for macOS and Linux integrating BorgBackup to provide encrypted, deduplicated, and compressed backups with flexible scheduling and archive management.
+  - Tags: archive, backup, deduplication, encryption, GUI, source: Python
 - Vortex [🛈](https://github.com/spiraldb/vortex)
   - A next-generation columnar file format and toolkit delivering 100x faster random access and 10-20x faster scans compared to Apache Parquet with zero-copy Arrow compatibility.
   - Tags: data format, data processing, source: Rust
@@ -1780,9 +1810,9 @@ List of tags with occurrences in the brackets:
 - 3D image generation (1)
 - agent builder (3)
 - agentic coding (7)
-- AI agents (17)
+- AI agents (19)
 - AI personal assistant (3)
-- AI powered (66)
+- AI powered (67)
 - alerts (4)
 - allocator (1)
 - AlphaZero (1)
@@ -1791,15 +1821,16 @@ List of tags with occurrences in the brackets:
 - Android (3)
 - API (10)
 - API development platform (4)
-- archive (2)
+- archive (5)
 - audio (22)
 - audio generation (3)
 - authentication (2)
 - autocomplete (1)
-- automate pull requests (1)
+- automate pull requests (2)
 - automatic transcription (6)
 - automation (28)
 - awesome-list (1)
+- backup (3)
 - benchmarking (1)
 - binary (5)
 - book collections (2)
@@ -1816,12 +1847,12 @@ List of tags with occurrences in the brackets:
 - code execution (2)
 - code formatting (2)
 - code generation (8)
-- code quality (1)
+- code quality (2)
 - code search (5)
 - code statistics (1)
 - coloring (1)
 - coloring code (1)
-- command line (198)
+- command line (200)
 - command line: cat (1)
 - command line: cd (1)
 - command line: diff (3)
@@ -1847,7 +1878,7 @@ List of tags with occurrences in the brackets:
 - command runner (3)
 - commit message (1)
 - compiler (3)
-- compression (6)
+- compression (7)
 - computer vision (3)
 - configuration (6)
 - configuration distribution (1)
@@ -1856,7 +1887,7 @@ List of tags with occurrences in the brackets:
 - context retrieval (1)
 - control desktop (1)
 - cron (1)
-- cross-platform (32)
+- cross-platform (33)
 - CSV (7)
 - customizing (3)
 - dashboard (10)
@@ -1876,7 +1907,7 @@ List of tags with occurrences in the brackets:
 - debugger (3)
 - debugging (6)
 - decompression (4)
-- deduplication (5)
+- deduplication (8)
 - Deep Learning (39)
 - Deep Learning framework (3)
 - deepfake (1)
@@ -1884,7 +1915,7 @@ List of tags with occurrences in the brackets:
 - deploy (5)
 - deployments (2)
 - detector (1)
-- developer environment (6)
+- developer environment (7)
 - diagram (1)
 - diff (3)
 - disk utility (5)
@@ -1900,9 +1931,8 @@ List of tags with occurrences in the brackets:
 - email (2)
 - email search (1)
 - embeddings (4)
-- encryption (10)
+- encryption (13)
 - engineering (1)
-- environment (3)
 - environment manager (8)
 - environment variables (2)
 - face recognition (2)
@@ -1922,7 +1952,7 @@ List of tags with occurrences in the brackets:
 - filter editor (3)
 - filtering (2)
 - find and replace (2)
-- fine-tuning (1)
+- fine-tuning (2)
 - Firebase (3)
 - forms (2)
 - forwarding (5)
@@ -1940,7 +1970,7 @@ List of tags with occurrences in the brackets:
 - Google Analytics (1)
 - GPU (9)
 - gRPC (1)
-- GUI (41)
+- GUI (42)
 - guide (5)
 - help message (1)
 - hex viewer (1)
@@ -1958,12 +1988,12 @@ List of tags with occurrences in the brackets:
 - image generation (10)
 - in-memory (3)
 - indexing (3)
-- inference (6)
+- inference (7)
 - interactive (6)
 - internet connection (1)
 - invoice (1)
 - IP camera (1)
-- isolation (5)
+- isolation (7)
 - JavaScript engine (1)
 - job (2)
 - JSON (10)
@@ -1976,7 +2006,7 @@ List of tags with occurrences in the brackets:
 - kubernetes (7)
 - language detection (1)
 - language identification (1)
-- Language Model (35)
+- Language Model (36)
 - library (45)
 - link management (1)
 - linter (11)
@@ -1985,7 +2015,7 @@ List of tags with occurrences in the brackets:
 - LLM managment (5)
 - LLM-ready (4)
 - logs (9)
-- Machine Learning (15)
+- Machine Learning (16)
 - Machine Learning transpiler (1)
 - Machine Translation (1)
 - MacOS (1)
@@ -2009,7 +2039,7 @@ List of tags with occurrences in the brackets:
 - NAS (1)
 - Natural Language Processing (4)
 - NeRFs (1)
-- network (27)
+- network (29)
 - network scan (6)
 - nixpkgs (1)
 - NLP (6)
@@ -2052,8 +2082,8 @@ List of tags with occurrences in the brackets:
 - process management (1)
 - profiler (3)
 - progress bar (2)
-- proxy (7)
-- pull requests (2)
+- proxy (8)
+- pull requests (3)
 - Python interpreter (2)
 - Python linter (7)
 - Python wrapper (3)
@@ -2064,8 +2094,8 @@ List of tags with occurrences in the brackets:
 - redis (5)
 - regex (5)
 - regular expression (4)
-- remote access (1)
-- remote desktop (2)
+- remote access (2)
+- remote desktop (3)
 - rename (1)
 - replication (1)
 - report (2)
@@ -2082,8 +2112,8 @@ List of tags with occurrences in the brackets:
 - searching (14)
 - secret management (3)
 - secrets detector (2)
-- security (26)
-- self-hosted (22)
+- security (29)
+- self-hosted (23)
 - self-replace (1)
 - semantic search (4)
 - send email (1)
@@ -2103,18 +2133,18 @@ List of tags with occurrences in the brackets:
 - source: Clojure (1)
 - source: Dart (1)
 - source: Elixir (1)
-- source: Go (76)
+- source: Go (78)
 - source: HTML (1)
 - source: Java (5)
 - source: JavaScript (17)
 - source: Kotlin (1)
 - source: Lua (1)
 - source: PHP (1)
-- source: Python (161)
+- source: Python (164)
 - source: Ruby (5)
-- source: Rust (124)
+- source: Rust (125)
 - source: Shell (10)
-- source: TypeScript (57)
+- source: TypeScript (61)
 - source: Zig (3)
 - space (1)
 - speech generation (8)
@@ -2130,7 +2160,7 @@ List of tags with occurrences in the brackets:
 - static code analyzer (2)
 - static site (1)
 - statistics (3)
-- storage (13)
+- storage (14)
 - stream data (2)
 - streaming (1)
 - Supabase (1)
@@ -2155,7 +2185,7 @@ List of tags with occurrences in the brackets:
 - TOML (1)
 - trace (2)
 - tracking (2)
-- training (1)
+- training (2)
 - transcription (10)
 - transforming (1)
 - translation (2)
@@ -2177,7 +2207,7 @@ List of tags with occurrences in the brackets:
 - visualization (11)
 - visualizer (1)
 - voice cloning (3)
-- VPN (1)
+- VPN (2)
 - vulnerability scanner (9)
 - weather (1)
 - web browser (8)

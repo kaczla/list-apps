@@ -310,6 +310,16 @@
         ]
     },
     {
+        "name": "Bananas",
+        "url": "https://github.com/mistweaverco/bananas",
+        "description": "A cross-platform peer-to-peer screen sharing application for Mac, Windows, and Linux that requires no user accounts or server infrastructure.",
+        "tags": [
+            "cross-platform",
+            "remote desktop",
+            "source: TypeScript"
+        ]
+    },
+    {
         "name": "bandwhich",
         "url": "https://github.com/imsnif/bandwhich",
         "description": "bandwhich is a CLI utility for displaying current network utilization by process, connection and remote IP/hostname.",
@@ -428,6 +438,20 @@
             "management",
             "self-hosted",
             "source: Java"
+        ]
+    },
+    {
+        "name": "BorgBackup",
+        "url": "https://github.com/borgbackup/borg",
+        "description": "A deduplicating backup program with client-side authenticated encryption, multiple compression algorithms, and SSH-based remote backup support for efficient and secure data archiving.",
+        "tags": [
+            "archive",
+            "backup",
+            "command line",
+            "compression",
+            "deduplication",
+            "encryption",
+            "source: Python"
         ]
     },
     {
@@ -1208,7 +1232,6 @@
         "description": "Fast, Declarative, Reproducible, and Composable Developer Environments",
         "tags": [
             "developer environment",
-            "environment",
             "environment manager",
             "management"
         ]
@@ -1585,7 +1608,6 @@
         "description": "Envio is a command-line tool that simplifies the management of environment variables across multiple profiles. It allows users to easily switch between different configurations and apply them to their current environment.",
         "tags": [
             "command line",
-            "environment",
             "environment manager",
             "management",
             "source: Rust"
@@ -3657,6 +3679,17 @@
         ]
     },
     {
+        "name": "NemoClaw",
+        "url": "https://github.com/NVIDIA/NemoClaw",
+        "description": "An open-source platform for secure execution of autonomous AI assistants using NVIDIA's OpenShell runtime with policy-based sandboxing and cloud inference routing.",
+        "tags": [
+            "AI agents",
+            "isolation",
+            "security",
+            "source: TypeScript"
+        ]
+    },
+    {
         "name": "NeoHtop",
         "url": "https://github.com/Abdenasser/neohtop",
         "description": "A cross-platform system monitoring application with modern user interface providing real-time process and resource utilization visibility.",
@@ -3978,6 +4011,30 @@
         "tags": [
             "logs",
             "metrics",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "OpenReview",
+        "url": "https://github.com/vercel-labs/openreview",
+        "description": "A self-hosted AI code review bot that integrates with GitHub to deliver automated PR reviews, inline suggestions, and direct code fixes using Claude.",
+        "tags": [
+            "AI powered",
+            "automate pull requests",
+            "code quality",
+            "pull requests",
+            "self-hosted",
+            "source: TypeScript"
+        ]
+    },
+    {
+        "name": "OpenShell",
+        "url": "https://github.com/NVIDIA/OpenShell",
+        "description": "A secure runtime environment for executing autonomous AI agents in isolated, policy-governed sandboxes with declarative controls over filesystem, network, and process access.",
+        "tags": [
+            "AI agents",
+            "isolation",
+            "security",
             "source: Rust"
         ]
     },
@@ -4362,6 +4419,17 @@
             "TCP",
             "UDP",
             "source: Go"
+        ]
+    },
+    {
+        "name": "Portless",
+        "url": "https://github.com/vercel-labs/portless",
+        "description": "Replaces port numbers with stable, named local URLs for development, supporting HTTPS, HTTP/2, git worktree detection, and framework auto-detection.",
+        "tags": [
+            "developer environment",
+            "network",
+            "proxy",
+            "source: TypeScript"
         ]
     },
     {
@@ -4758,6 +4826,20 @@
         ]
     },
     {
+        "name": "Restic",
+        "url": "https://github.com/restic/restic",
+        "description": "A fast, efficient, and secure backup program supporting multiple storage backends including local directories, SFTP, S3, Azure Blob Storage, and Google Cloud with deduplication and encryption.",
+        "tags": [
+            "archive",
+            "backup",
+            "command line",
+            "deduplication",
+            "encryption",
+            "storage",
+            "source: Go"
+        ]
+    },
+    {
         "name": "RetroNAS",
         "url": "https://github.com/retronas/retronas",
         "description": "Configures a Raspberry Pi, legacy computer, or VM as network storage for retro computers and gaming consoles using NFS and Samba protocols.",
@@ -4858,7 +4940,6 @@
         "description": "rtx is a tool for managing programming language and tool versions.",
         "tags": [
             "command line",
-            "environment",
             "environment manager",
             "management",
             "source: Rust"
@@ -5552,6 +5633,18 @@
         ]
     },
     {
+        "name": "Tailscale",
+        "url": "https://github.com/tailscale/tailscale",
+        "description": "A networking tool that creates secure private WireGuard-based mesh networks with easy setup, supporting multi-platform devices, SSO, SSH, and DERP relay servers.",
+        "tags": [
+            "network",
+            "remote access",
+            "security",
+            "VPN",
+            "source: Go"
+        ]
+    },
+    {
         "name": "tailspin",
         "url": "https://github.com/bensadeh/tailspin",
         "description": "tailspin is a log file highlighter.",
@@ -5975,6 +6068,19 @@
         ]
     },
     {
+        "name": "Unsloth",
+        "url": "https://github.com/unslothai/unsloth",
+        "description": "A platform for running and fine-tuning AI models locally, offering up to 2x faster training with 70% less VRAM through optimized kernels, with support for 500+ models across NVIDIA, AMD, and Apple Silicon.",
+        "tags": [
+            "fine-tuning",
+            "inference",
+            "Language Model",
+            "Machine Learning",
+            "training",
+            "source: Python"
+        ]
+    },
+    {
         "name": "Uptime Kuma",
         "url": "https://github.com/louislam/uptime-kuma",
         "description": "Uptime Kuma is an easy-to-use self-hosted monitoring tool.",
@@ -6141,6 +6247,19 @@
             "memory",
             "security",
             "vulnerability scanner",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "Vorta",
+        "url": "https://github.com/borgbase/vorta",
+        "description": "A desktop backup client for macOS and Linux integrating BorgBackup to provide encrypted, deduplicated, and compressed backups with flexible scheduling and archive management.",
+        "tags": [
+            "archive",
+            "backup",
+            "deduplication",
+            "encryption",
+            "GUI",
             "source: Python"
         ]
     },
