@@ -29,6 +29,19 @@
         ]
     },
     {
+        "name": "AgentJet",
+        "url": "https://github.com/modelscope/AgentJet",
+        "description": "A reinforcement learning training framework for optimizing AI agents and agentic workflows by fine-tuning large language model weights, with support for distributed swarm training, multi-agent optimization, and multi-turn conversation workflows.",
+        "tags": [
+            "AI agents",
+            "Deep Learning framework",
+            "framework",
+            "Language Model",
+            "training",
+            "source: Python"
+        ]
+    },
+    {
         "name": "AgentScope",
         "url": "https://github.com/modelscope/agentscope",
         "description": "A production-ready agent framework designed for building LLM applications with essential abstractions for memory, planning, and finetuning.",
@@ -47,7 +60,6 @@
             "AI agents",
             "framework",
             "Language Model",
-            "multi-agent",
             "RAG",
             "source: Python"
         ]
@@ -463,6 +475,16 @@
             "monitoring",
             "command line: top",
             "source: Rust"
+        ]
+    },
+    {
+        "name": "Bright Data CLI",
+        "url": "https://github.com/brightdata/cli",
+        "description": "A command-line tool for web scraping, search engine queries, and structured data extraction from 40+ platforms (LinkedIn, Amazon, Instagram), with built-in CAPTCHA bypass, JavaScript rendering, anti-bot protection, and MCP server integration.",
+        "tags": [
+            "command line",
+            "web scraper",
+            "source: TypeScript"
         ]
     },
     {
@@ -939,6 +961,17 @@
             "file transfer",
             "self-hosted",
             "source: Go"
+        ]
+    },
+    {
+        "name": "Crucix",
+        "url": "https://github.com/calesthio/Crucix",
+        "description": "A self-contained intelligence aggregation terminal that consolidates real-time data from 27 open-source feeds (satellite fire detection, flight tracking, radiation, conflict data, economic indicators) into a unified 3D WebGL dashboard with automated alerts.",
+        "tags": [
+            "dashboard",
+            "OSINT",
+            "visualization",
+            "source: JavaScript"
         ]
     },
     {
@@ -2116,6 +2149,15 @@
             "command line",
             "editor",
             "Markdown"
+        ]
+    },
+    {
+        "name": "GoFakeS3",
+        "url": "https://github.com/johannesboyne/gofakes3",
+        "description": "A fake AWS S3 object storage server for local development and integration testing, implementing the S3 API to allow testing of S3-dependent code without a real AWS account.",
+        "tags": [
+            "S3",
+            "source: Go"
         ]
     },
     {
@@ -3313,7 +3355,6 @@
         "tags": [
             "container",
             "isolation",
-            "testing",
             "source: Rust"
         ]
     },
@@ -3524,6 +3565,17 @@
             "management",
             "workflow",
             "source: Python"
+        ]
+    },
+    {
+        "name": "mgrep",
+        "url": "https://github.com/mixedbread-ai/mgrep",
+        "description": "A CLI tool that enables semantic, AI-powered search across code, images, PDFs, and text files using natural language queries, designed as an intelligent complement to traditional grep.",
+        "tags": [
+            "command line",
+            "semantic search",
+            "command line: grep",
+            "source: TypeScript"
         ]
     },
     {
@@ -6679,6 +6731,16 @@
         "tags": [
             "terminal",
             "terminal interface",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "Zeroboot",
+        "url": "https://github.com/zerobootdev/zeroboot",
+        "description": "A sandboxing system that creates sub-millisecond VM sandboxes for AI agents using copy-on-write Firecracker snapshots, providing hardware-enforced KVM isolation with ~0.79ms spawn latency and ~265KB memory per sandbox.",
+        "tags": [
+            "AI agents",
+            "isolation",
             "source: Rust"
         ]
     },

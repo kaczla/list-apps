@@ -17,12 +17,15 @@ Some descriptions are from:
 - age [🛈](https://github.com/FiloSottile/age)
   - A simple, modern and secure encryption tool (and Go library) with small explicit keys, no config options, and UNIX-style composability.
   - Tags: command line, encryption
+- AgentJet [🛈](https://github.com/modelscope/AgentJet)
+  - A reinforcement learning training framework for optimizing AI agents and agentic workflows by fine-tuning large language model weights, with support for distributed swarm training, multi-agent optimization, and multi-turn conversation workflows.
+  - Tags: AI agents, Deep Learning framework, framework, Language Model, training, source: Python
 - AgentScope [🛈](https://github.com/modelscope/agentscope)
   - A production-ready agent framework designed for building LLM applications with essential abstractions for memory, planning, and finetuning.
   - Tags: AI agents, framework, library, source: Python
 - Agno [🛈](https://github.com/phidatahq/phidata)
   - A framework enabling the creation of multi-agent systems with persistent learning capabilities that remember users across sessions, accumulate knowledge, and learn from decisions.
-  - Tags: AI agents, framework, Language Model, multi-agent, RAG, source: Python
+  - Tags: AI agents, framework, Language Model, RAG, source: Python
 - AI Getting Started [🛈](https://github.com/a16z-infra/ai-getting-started)
   - AI Getting Started is a Javascript AI getting started stack for weekend projects, including image/text models, vector stores, auth, and deployment configs.
   - Tags: Deep Learning, platform, source: TypeScript
@@ -128,6 +131,9 @@ Some descriptions are from:
 - bottom [🛈](https://github.com/ClementTsang/bottom)
   - bottom is a customizable cross-platform graphical process/system monitor for the terminal.
   - Tags: command line, monitoring, command line: top, source: Rust
+- Bright Data CLI [🛈](https://github.com/brightdata/cli)
+  - A command-line tool for web scraping, search engine queries, and structured data extraction from 40+ platforms (LinkedIn, Amazon, Instagram), with built-in CAPTCHA bypass, JavaScript rendering, anti-bot protection, and MCP server integration.
+  - Tags: command line, web scraper, source: TypeScript
 - BrowserAI [🛈](https://github.com/sauravpanda/BrowserAI)
   - A TypeScript library enabling direct execution of large language models within web browsers using WebGPU acceleration, with speech recognition, TTS, and structured output support.
   - Tags: AI powered, Language Model, source: TypeScript
@@ -254,6 +260,9 @@ Some descriptions are from:
 - croc [🛈](https://github.com/schollz/croc)
   - A CLI tool for simple and secure file transfers between any two computers with end-to-end encryption via PAKE, relay support, resumable transfers, and optional self-hosted relay.
   - Tags: command line, cross-platform, encryption, file transfer, self-hosted, source: Go
+- Crucix [🛈](https://github.com/calesthio/Crucix)
+  - A self-contained intelligence aggregation terminal that consolidates real-time data from 27 open-source feeds (satellite fire detection, flight tracking, radiation, conflict data, economic indicators) into a unified 3D WebGL dashboard with automated alerts.
+  - Tags: dashboard, OSINT, visualization, source: JavaScript
 - Crush [🛈](https://github.com/charmbracelet/crush)
   - A terminal-based AI coding agent that integrates with multiple LLM providers and development tools through LSP integration and MCP support, enabling AI assistance directly from the command line.
   - Tags: AI powered, automation, code generation, command line, terminal, source: Go
@@ -566,6 +575,9 @@ Some descriptions are from:
 - Glow [🛈](https://github.com/charmbracelet/glow)
   - Render markdown on the CLI, with pizzazz!
   - Tags: command line, editor, Markdown
+- GoFakeS3 [🛈](https://github.com/johannesboyne/gofakes3)
+  - A fake AWS S3 object storage server for local development and integration testing, implementing the S3 API to allow testing of S3-dependent code without a real AWS account.
+  - Tags: S3, source: Go
 - Gollama [🛈](https://github.com/sammcj/gollama)
   - A terminal-based tool for managing Ollama models on macOS and Linux with an interactive TUI for listing, sorting, filtering, editing, and monitoring local LLM models.
   - Tags: Language Model, LLM managment, management, ollama, terminal interface, source: Go
@@ -880,7 +892,7 @@ Some descriptions are from:
   - Tags: command line, web browser, source: C
 - Maelstrom [🛈](https://github.com/maelstrom-software/maelstrom)
   - A fast test runner that executes every test in isolated micro-containers, supporting Rust, Go, and Python.
-  - Tags: container, isolation, testing, source: Rust
+  - Tags: container, isolation, source: Rust
 - magika [🛈](https://github.com/google/magika)
   - Magika is a novel AI powered file type detection tool that relies on the recent advance of deep learning to provide accurate detection.
   - Tags: command line, file detection, source: Python
@@ -938,6 +950,9 @@ Some descriptions are from:
 - Metaflow [🛈](https://github.com/Netflix/metaflow)
   - Metaflow is a human-friendly Python/R library that helps scientists and engineers build and manage real-life data science projects.
   - Tags: deploy, management, workflow, source: Python
+- mgrep [🛈](https://github.com/mixedbread-ai/mgrep)
+  - A CLI tool that enables semantic, AI-powered search across code, images, PDFs, and text files using natural language queries, designed as an intelligent complement to traditional grep.
+  - Tags: command line, semantic search, command line: grep, source: TypeScript
 - Milvus [🛈](https://github.com/milvus-io/milvus)
   - Milvus is an open-source vector database built to power embedding similarity search and AI applications. It makes unstructured data search more accessible and provides a consistent user experience regardless of the deployment environment. All components in Milvus are stateless to enhance elasticity and flexibility.
   - Tags: database, image, platform, searching, unstructured data
@@ -1784,6 +1799,9 @@ Some descriptions are from:
 - Zellij [🛈](https://github.com/zellij-org/zellij)
   - Zellij is a workspace aimed at developers, ops-oriented people and anyone who loves the terminal. At its core, it is a terminal multiplexer (similar to tmux and screen), but this is merely its infrastructure layer.
   - Tags: terminal, terminal interface, source: Rust
+- Zeroboot [🛈](https://github.com/zerobootdev/zeroboot)
+  - A sandboxing system that creates sub-millisecond VM sandboxes for AI agents using copy-on-write Firecracker snapshots, providing hardware-enforced KVM isolation with ~0.79ms spawn latency and ~265KB memory per sandbox.
+  - Tags: AI agents, isolation, source: Rust
 - Zev [🛈](https://github.com/dtnewman/zev)
   - A CLI tool that leverages LLM APIs to translate natural language queries into executable terminal commands, supporting multiple providers including OpenAI, Google Gemini, Ollama, and Azure OpenAI.
   - Tags: AI powered, command line, terminal, source: Python
@@ -1810,7 +1828,7 @@ List of tags with occurrences in the brackets:
 - 3D image generation (1)
 - agent builder (3)
 - agentic coding (7)
-- AI agents (19)
+- AI agents (21)
 - AI personal assistant (3)
 - AI powered (67)
 - alerts (4)
@@ -1852,13 +1870,13 @@ List of tags with occurrences in the brackets:
 - code statistics (1)
 - coloring (1)
 - coloring code (1)
-- command line (200)
+- command line (202)
 - command line: cat (1)
 - command line: cd (1)
 - command line: diff (3)
 - command line: du (3)
 - command line: find (2)
-- command line: grep (5)
+- command line: grep (6)
 - command line: hexdump (1)
 - command line: jq (3)
 - command line: kill (1)
@@ -1890,7 +1908,7 @@ List of tags with occurrences in the brackets:
 - cross-platform (33)
 - CSV (7)
 - customizing (3)
-- dashboard (10)
+- dashboard (11)
 - data format (5)
 - data formatter (5)
 - data generator (2)
@@ -1909,7 +1927,7 @@ List of tags with occurrences in the brackets:
 - decompression (4)
 - deduplication (8)
 - Deep Learning (39)
-- Deep Learning framework (3)
+- Deep Learning framework (4)
 - deepfake (1)
 - deletion tool (4)
 - deploy (5)
@@ -1957,7 +1975,7 @@ List of tags with occurrences in the brackets:
 - forms (2)
 - forwarding (5)
 - framerate (1)
-- framework (14)
+- framework (15)
 - full-text search (5)
 - fun (1)
 - function calling (1)
@@ -1993,7 +2011,7 @@ List of tags with occurrences in the brackets:
 - internet connection (1)
 - invoice (1)
 - IP camera (1)
-- isolation (7)
+- isolation (8)
 - JavaScript engine (1)
 - job (2)
 - JSON (10)
@@ -2006,7 +2024,7 @@ List of tags with occurrences in the brackets:
 - kubernetes (7)
 - language detection (1)
 - language identification (1)
-- Language Model (36)
+- Language Model (37)
 - library (45)
 - link management (1)
 - linter (11)
@@ -2033,7 +2051,6 @@ List of tags with occurrences in the brackets:
 - metrics (5)
 - Model Context Protocol (MCP) (2)
 - monitoring (33)
-- multi-agent (1)
 - multi-language (9)
 - music generation (2)
 - NAS (1)
@@ -2058,7 +2075,7 @@ List of tags with occurrences in the brackets:
 - operating system (1)
 - orchestrator (6)
 - OS disk (1)
-- OSINT (2)
+- OSINT (3)
 - package installer (3)
 - package manager (5)
 - parallel (4)
@@ -2104,7 +2121,7 @@ List of tags with occurrences in the brackets:
 - resolver (2)
 - reverse engineering (5)
 - RSS (1)
-- S3 (6)
+- S3 (7)
 - scheduler (4)
 - schema validation (1)
 - screenshot (1)
@@ -2115,7 +2132,7 @@ List of tags with occurrences in the brackets:
 - security (29)
 - self-hosted (23)
 - self-replace (1)
-- semantic search (4)
+- semantic search (5)
 - send email (1)
 - serialization (1)
 - server (3)
@@ -2133,18 +2150,18 @@ List of tags with occurrences in the brackets:
 - source: Clojure (1)
 - source: Dart (1)
 - source: Elixir (1)
-- source: Go (78)
+- source: Go (79)
 - source: HTML (1)
 - source: Java (5)
-- source: JavaScript (17)
+- source: JavaScript (18)
 - source: Kotlin (1)
 - source: Lua (1)
 - source: PHP (1)
-- source: Python (164)
+- source: Python (165)
 - source: Ruby (5)
-- source: Rust (125)
+- source: Rust (126)
 - source: Shell (10)
-- source: TypeScript (61)
+- source: TypeScript (63)
 - source: Zig (3)
 - space (1)
 - speech generation (8)
@@ -2173,7 +2190,6 @@ List of tags with occurrences in the brackets:
 - terminal (29)
 - terminal emulator (3)
 - terminal interface (17)
-- testing (1)
 - testing API (4)
 - text (1)
 - text generation (2)
@@ -2185,7 +2201,7 @@ List of tags with occurrences in the brackets:
 - TOML (1)
 - trace (2)
 - tracking (2)
-- training (2)
+- training (3)
 - transcription (10)
 - transforming (1)
 - translation (2)
@@ -2204,7 +2220,7 @@ List of tags with occurrences in the brackets:
 - video editing (2)
 - video generation (1)
 - viewer (3)
-- visualization (11)
+- visualization (12)
 - visualizer (1)
 - voice cloning (3)
 - VPN (2)
@@ -2212,7 +2228,7 @@ List of tags with occurrences in the brackets:
 - weather (1)
 - web browser (8)
 - web page (7)
-- web scraper (12)
+- web scraper (13)
 - web search (2)
 - web-browser extension (2)
 - webhooks (1)
