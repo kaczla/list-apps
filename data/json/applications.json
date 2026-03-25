@@ -16,6 +16,8 @@
         "url": "https://github.com/nektos/act",
         "description": "Run your GitHub Actions locally.",
         "tags": [
+            "automation",
+            "CI/CD",
             "GitHub actions"
         ]
     },
@@ -167,7 +169,6 @@
         "description": "Ambrosia is a cross-platform command line tool for improving the text datasets you use for machine learning.",
         "tags": [
             "Natural Language Processing",
-            "NLP",
             "text processing",
             "source: Go"
         ]
@@ -295,6 +296,7 @@
         "tags": [
             "AI powered",
             "automation",
+            "browser automation",
             "web scraper",
             "source: Python"
         ]
@@ -327,6 +329,7 @@
         "description": "A cross-platform peer-to-peer screen sharing application for Mac, Windows, and Linux that requires no user accounts or server infrastructure.",
         "tags": [
             "cross-platform",
+            "P2P",
             "remote desktop",
             "source: TypeScript"
         ]
@@ -372,6 +375,7 @@
         "url": "https://github.com/bearer/bearer",
         "description": "Bearer is a static application security testing (SAST) tool that scans your source code and analyzes your data flows to discover, filter and prioritize security risks and vulnerabilities leading to sensitive data exposures (PII, PHI, PD).",
         "tags": [
+            "code review",
             "linter",
             "security",
             "vulnerability scanner",
@@ -494,6 +498,7 @@
         "tags": [
             "AI powered",
             "Language Model",
+            "WebAssembly",
             "source: TypeScript"
         ]
     },
@@ -502,7 +507,8 @@
         "url": "https://github.com/aristocratos/btop",
         "description": "Resource monitor that shows usage and stats for processor, memory, disks, network and processes.",
         "tags": [
-            "monitoring"
+            "monitoring",
+            "command line: top"
         ]
     },
     {
@@ -511,6 +517,7 @@
         "description": "bucketratelimiter is the collection of rate limiters, which are based on Bucket conception - Python.",
         "tags": [
             "library",
+            "rate limiting",
             "source: Python"
         ]
     },
@@ -574,6 +581,7 @@
         "tags": [
             "AI powered",
             "automation",
+            "browser automation",
             "GUI",
             "source: TypeScript"
         ]
@@ -673,7 +681,6 @@
             "audio",
             "multi-language",
             "speech generation",
-            "text-to-audio",
             "text-to-speech",
             "voice cloning",
             "source: Python"
@@ -924,6 +931,7 @@
         "description": "A web scraping and browser automation library for building reliable crawlers with HTTP/2 support, proxy rotation, persistent queues, and bot protection evasion.",
         "tags": [
             "automation",
+            "browser automation",
             "command line",
             "proxy",
             "web scraper",
@@ -947,7 +955,10 @@
         "url": "https://criu.org/Main_Page",
         "description": "Checkpoint/Restore In Userspace. It can freeze a running container (or an individual application) and checkpoint its state to disk. The data saved can be used to restore the application and run it exactly as it was during the time of the freeze. Using this functionality, application or container live migration, snapshots, remote debugging, and many other things are now possible.",
         "tags": [
-            "Linux"
+            "container",
+            "Linux",
+            "process management",
+            "virtualization"
         ]
     },
     {
@@ -959,6 +970,7 @@
             "cross-platform",
             "encryption",
             "file transfer",
+            "P2P",
             "self-hosted",
             "source: Go"
         ]
@@ -1048,6 +1060,7 @@
         "tags": [
             "AI agents",
             "automation",
+            "browser automation",
             "control desktop",
             "source: Python"
         ]
@@ -1069,6 +1082,7 @@
         "tags": [
             "analysis",
             "debugger",
+            "forensics",
             "GUI",
             "reverse engineering",
             "source: C++"
@@ -1223,7 +1237,6 @@
             "command line",
             "detector",
             "library",
-            "preventing secrets",
             "secrets detector",
             "source: Python"
         ]
@@ -1310,7 +1323,7 @@
             "cross-platform",
             "data recovery",
             "file system",
-            "file-recovery",
+            "forensics",
             "GUI",
             "source: Go"
         ]
@@ -1356,6 +1369,7 @@
             "container",
             "docker",
             "MacOS",
+            "virtualization",
             "source: Shell"
         ]
     },
@@ -1401,7 +1415,6 @@
             "AI powered",
             "data format",
             "data processing",
-            "file format",
             "library",
             "LLM-ready",
             "parsing",
@@ -1491,7 +1504,6 @@
             "note",
             "offline",
             "speech recognition",
-            "speech-to-text",
             "text-to-speech",
             "transcription",
             "translation",
@@ -1588,7 +1600,9 @@
         "tags": [
             "cross-platform",
             "encryption",
+            "mesh network",
             "network",
+            "P2P",
             "self-hosted",
             "VPN",
             "source: Rust"
@@ -1952,7 +1966,6 @@
         "url": "https://github.com/mayeaux/generate-subtitles",
         "description": "Generate transcripts for audio and video content with a user friendly UI, powered by Open AI's Whisper with automatic translations powered by LibreTranslate.",
         "tags": [
-            "automatic transcription",
             "transcription"
         ]
     },
@@ -2135,9 +2148,8 @@
         "url": "https://github.com/cisnlp/GlotLID",
         "description": "GlotLID is an open-source language identification model with support for more than 1600 languages.",
         "tags": [
-            "language identification",
+            "language detection",
             "Natural Language Processing",
-            "NLP",
             "source: Python"
         ]
     },
@@ -2166,7 +2178,7 @@
         "description": "A terminal-based tool for managing Ollama models on macOS and Linux with an interactive TUI for listing, sorting, filtering, editing, and monitoring local LLM models.",
         "tags": [
             "Language Model",
-            "LLM managment",
+            "LLM management",
             "management",
             "ollama",
             "terminal interface",
@@ -2237,6 +2249,7 @@
         "description": "PostgreSQL database backup, anonymization, and synthetic data generation utility with deterministic transformers and backward compatibility with pg_dump/pg_restore.",
         "tags": [
             "command line",
+            "data anonymization",
             "data generator",
             "database",
             "PostgreSQL",
@@ -2253,7 +2266,6 @@
             "library",
             "pattern search",
             "regex",
-            "regular expression",
             "searching",
             "command line: grep",
             "source: C"
@@ -2266,7 +2278,6 @@
         "tags": [
             "command line",
             "regex",
-            "regular expression",
             "source: Rust"
         ]
     },
@@ -2288,7 +2299,8 @@
         "url": "https://github.com/gyroflow/gyroflow",
         "description": "Gyroflow is an application that can stabilize your video by using motion data from a gyroscope and optionally an accelerometer.",
         "tags": [
-            "video"
+            "video",
+            "video editing"
         ]
     },
     {
@@ -2306,6 +2318,7 @@
         "url": "https://github.com/dagworks-inc/hamilton",
         "description": "A scalable general purpose micro-framework for defining dataflows in Python.",
         "tags": [
+            "data pipeline",
             "dataflow",
             "library",
             "source: Python"
@@ -2330,6 +2343,7 @@
         "description": "A Python library for automating web browsers like Chrome and Firefox with a high-level API that simplifies browser automation compared to Selenium.",
         "tags": [
             "automation",
+            "browser automation",
             "library",
             "Python wrapper",
             "web browser",
@@ -2526,6 +2540,7 @@
         "description": "A CLI tool for copying data between 20+ databases and 30+ platforms with support for incremental loading, merge strategies, and no-code operation.",
         "tags": [
             "command line",
+            "data pipeline",
             "data processing",
             "database",
             "database transfer",
@@ -2539,7 +2554,6 @@
         "description": "Insanely Fast Whisper transcribe 300 minutes (5 hours) of audio in less than 10 minutes.",
         "tags": [
             "audio",
-            "automatic transcription",
             "speech recognition",
             "transcription",
             "source: Python"
@@ -2651,7 +2665,7 @@
             "knowledge graph",
             "Language Model",
             "Machine Learning",
-            "NLP",
+            "Natural Language Processing",
             "source: Python"
         ]
     },
@@ -2678,7 +2692,7 @@
             "GUI",
             "inference",
             "Language Model",
-            "LLM managment",
+            "LLM management",
             "Model Context Protocol (MCP)",
             "offline",
             "source: Rust",
@@ -2832,6 +2846,7 @@
         "url": "https://github.com/casey/just",
         "description": "just is a handy way to save and run project-specific commands. Commands, called recipes, are stored in a file called `justfile` with syntax inspired by `make`.",
         "tags": [
+            "build system",
             "command line",
             "command runner",
             "makefile",
@@ -2855,6 +2870,7 @@
         "url": "https://github.com/basecamp/kamal",
         "description": "A deployment tool for web apps enabling zero-downtime deploys across bare metal to cloud VMs using Docker containers and seamless traffic switching.",
         "tags": [
+            "CI/CD",
             "command line",
             "container",
             "deploy",
@@ -2946,6 +2962,9 @@
             "cloud",
             "gateway",
             "kubernetes",
+            "LLM gateway",
+            "load balancer",
+            "reverse proxy",
             "source: Lua"
         ]
     },
@@ -3013,6 +3032,7 @@
         "description": "An open-source observability platform built specifically for AI agents, offering tracing, evaluations, monitoring, and dashboards.",
         "tags": [
             "AI agents",
+            "AI evaluation",
             "monitoring",
             "observability",
             "trace",
@@ -3038,7 +3058,6 @@
         "tags": [
             "data format",
             "Natural Language Processing",
-            "NLP",
             "source: Rust"
         ]
     },
@@ -3254,7 +3273,7 @@
             "GPU",
             "inference",
             "Language Model",
-            "LLM managment",
+            "LLM management",
             "management",
             "terminal interface",
             "source: Rust"
@@ -3270,7 +3289,7 @@
             "GUI",
             "inference",
             "Language Model",
-            "LLM managment",
+            "LLM management",
             "No source code",
             "offline"
         ]
@@ -3393,6 +3412,7 @@
         "url": "https://github.com/mirror/make",
         "description": "GNU Make build automation tool that automatically determines which parts of a program need to be recompiled and issues the commands to rebuild them.",
         "tags": [
+            "build system",
             "command line",
             "command runner",
             "makefile",
@@ -3533,7 +3553,7 @@
             "Deep Learning",
             "Language Model",
             "Machine Learning",
-            "merge lm",
+            "model merging",
             "source: Python"
         ]
     },
@@ -3561,6 +3581,7 @@
         "url": "https://github.com/Netflix/metaflow",
         "description": "Metaflow is a human-friendly Python/R library that helps scientists and engineers build and manage real-life data science projects.",
         "tags": [
+            "data pipeline",
             "deploy",
             "management",
             "workflow",
@@ -3587,7 +3608,8 @@
             "image",
             "platform",
             "searching",
-            "unstructured data"
+            "unstructured data",
+            "vector database"
         ]
     },
     {
@@ -3779,7 +3801,9 @@
         "description": "A configuration-free peer-to-peer private network platform combining a centralized access control system with WireGuard-based overlay networking for secure device connectivity.",
         "tags": [
             "cross-platform",
+            "mesh network",
             "network",
+            "P2P",
             "security",
             "self-hosted",
             "source: Go"
@@ -3894,7 +3918,7 @@
             "cross-platform",
             "inference",
             "Language Model",
-            "LLM managment",
+            "LLM management",
             "offline",
             "ollama",
             "source: Go"
@@ -3968,7 +3992,6 @@
         "tags": [
             "library",
             "regex",
-            "regular expression",
             "source: C"
         ]
     },
@@ -4074,6 +4097,7 @@
             "AI powered",
             "automate pull requests",
             "code quality",
+            "code review",
             "pull requests",
             "self-hosted",
             "source: TypeScript"
@@ -4097,6 +4121,7 @@
         "tags": [
             "container",
             "cross-platform",
+            "virtualization",
             "source: Rust"
         ]
     },
@@ -4182,6 +4207,7 @@
         "url": "https://github.com/pathwaycom/pathway",
         "description": "Pathway is an open framework for high-throughput and low-latency real-time data processing.",
         "tags": [
+            "data pipeline",
             "data processing",
             "library",
             "source: Python"
@@ -4195,6 +4221,7 @@
             "analysis",
             "binary",
             "cross-platform",
+            "forensics",
             "GUI",
             "reverse engineering",
             "security",
@@ -4307,6 +4334,7 @@
             "kubernetes",
             "network",
             "proxy",
+            "reverse proxy",
             "source: Go"
         ]
     },
@@ -4324,8 +4352,10 @@
         "description": "A Rust framework for building fast, reliable and programmable networked systems, supporting HTTP 1/2, TLS, gRPC, and WebSocket proxying with customizable load balancing.",
         "tags": [
             "framework",
+            "load balancer",
             "network",
             "proxy",
+            "reverse proxy",
             "source: Rust"
         ]
     },
@@ -4410,6 +4440,7 @@
         "description": "AI-native proxy server and data plane for agentic apps with agent orchestration, model routing, OpenTelemetry tracing, and safety guardrails.",
         "tags": [
             "AI powered",
+            "LLM gateway",
             "monitoring",
             "orchestrator",
             "proxy",
@@ -4956,7 +4987,6 @@
             "library",
             "pattern search",
             "regex",
-            "regular expression",
             "searching",
             "command line: grep",
             "source: Rust"
@@ -5050,6 +5080,7 @@
         "description": "An open-source remote desktop application with P2P connectivity and self-hosting support, offering an alternative to TeamViewer with cross-platform support for desktop and mobile.",
         "tags": [
             "cross-platform",
+            "P2P",
             "remote access",
             "remote desktop",
             "self-hosted",
@@ -5272,6 +5303,7 @@
         "tags": [
             "automation",
             "caching",
+            "CI/CD",
             "GitHub actions"
         ]
     },
@@ -5317,6 +5349,7 @@
         "description": "A CLI tool for VPS deployment that provides Heroku-like simplicity with Docker, Traefik, automatic SSL, zero-downtime deployments, and built-in secret management via SOPS.",
         "tags": [
             "automation",
+            "CI/CD",
             "command line",
             "deployments",
             "source: Go"
@@ -5496,6 +5529,7 @@
             "database",
             "embeddings",
             "SQLite",
+            "vector database",
             "vector search",
             "source: C"
         ]
@@ -5604,7 +5638,6 @@
         "url": "https://github.com/wooorm/starry-night",
         "description": "Syntax highlighting, like what GitHub uses to highlight code, but free and open source and JavaScript!",
         "tags": [
-            "coloring code",
             "syntax highlighting",
             "source: JavaScript"
         ]
@@ -5626,7 +5659,6 @@
         "description": "The string2string library is an open-source tool that offers a comprehensive suite of efficient algorithms for a broad range of string-to-string problems. It includes both traditional algorithmic solutions and recent advanced neural approaches to address various problems in pairwise string alignment, distance measurement, lexical and semantic search, and similarity analysis. Additionally, the library provides several helpful visualization tools and metrics to facilitate the interpretation and analysis of these methods.",
         "tags": [
             "Natural Language Processing",
-            "NLP",
             "text processing",
             "source: Python"
         ]
@@ -5689,7 +5721,9 @@
         "url": "https://github.com/tailscale/tailscale",
         "description": "A networking tool that creates secure private WireGuard-based mesh networks with easy setup, supporting multi-platform devices, SSO, SSH, and DERP relay servers.",
         "tags": [
+            "mesh network",
             "network",
+            "P2P",
             "remote access",
             "security",
             "VPN",
@@ -5712,6 +5746,7 @@
         "url": "https://github.com/taubyte/tau",
         "description": "An open-source Git-native Platform-as-a-Service for building, deploying, and scaling applications with infrastructure defined in Git, featuring serverless functions and built-in databases.",
         "tags": [
+            "CI/CD",
             "deploy",
             "source: Go"
         ]
@@ -5743,7 +5778,9 @@
         "url": "https://github.com/tensorzero/tensorzero",
         "description": "An open-source platform unifying LLM gateway, observability, optimization, evaluation, and experimentation for production-grade AI applications with support for 20+ providers.",
         "tags": [
+            "AI evaluation",
             "AI powered",
+            "LLM gateway",
             "observability",
             "source: Rust"
         ]
@@ -5823,6 +5860,7 @@
         "tags": [
             "database",
             "embeddings",
+            "vector database",
             "source: Python"
         ]
     },
@@ -5945,7 +5983,6 @@
         "url": "https://github.com/trufflesecurity/trufflehog",
         "description": "A secrets discovery, classification, validation, and analysis tool that scans Git repositories, cloud storage, Docker images, and more for over 800 types of leaked credentials.",
         "tags": [
-            "preventing secrets",
             "secrets detector",
             "security",
             "vulnerability scanner",
@@ -6020,7 +6057,7 @@
         "description": "An open-source React Video Editor Library & SDK featuring AI caption generation, timeline editing, canvas tools, and MP4 export for building custom video applications.",
         "tags": [
             "AI powered",
-            "automatic transcription",
+            "transcription",
             "video",
             "video editing",
             "source: TypeScript"
@@ -6296,6 +6333,7 @@
         "url": "https://github.com/volatilityfoundation/volatility3",
         "description": "The world's most widely used framework for extracting digital artifacts from volatile memory (RAM) samples for forensic analysis and incident response.",
         "tags": [
+            "forensics",
             "memory",
             "security",
             "vulnerability scanner",
@@ -6414,6 +6452,7 @@
         "url": "https://github.com/simonask/werk",
         "description": "A simplistic command runner and build system combining features of just and make, with task dependency management and VS Code language extension support.",
         "tags": [
+            "build system",
             "command line",
             "command runner",
             "makefile",
@@ -6436,7 +6475,6 @@
         "description": "whisper - Robust Speech Recognition via Large-Scale Weak Supervision.",
         "tags": [
             "audio",
-            "automatic transcription",
             "speech recognition",
             "transcription",
             "source: Python"
@@ -6448,7 +6486,6 @@
         "description": "Whisper Turbo is a lightning-fast, cross-platform Whisper implementation, designed to run entirely client-side on your browser or electron app.",
         "tags": [
             "audio",
-            "automatic transcription",
             "cross-platform",
             "speech recognition",
             "transcription",
@@ -6487,7 +6524,6 @@
         "description": "WhisperPlus: Advancing Speech-to-Text Processing.",
         "tags": [
             "audio",
-            "automatic transcription",
             "speech recognition",
             "transcription",
             "source: Python"
@@ -6537,6 +6573,7 @@
             "Deep Learning",
             "GPU",
             "library",
+            "WebAssembly",
             "source: Rust"
         ]
     },
@@ -6548,7 +6585,7 @@
             "deduplication",
             "embeddings",
             "library",
-            "NLP",
+            "Natural Language Processing",
             "source: Python"
         ]
     },
@@ -6731,6 +6768,7 @@
         "tags": [
             "terminal",
             "terminal interface",
+            "terminal multiplexer",
             "source: Rust"
         ]
     },
@@ -6794,6 +6832,7 @@
         "tags": [
             "database",
             "semantic search",
+            "vector database",
             "vector search",
             "source: C++"
         ]
