@@ -643,6 +643,12 @@ def index_page() -> None:
                 ui.button("Back", on_click=_show_main_menu).props("flat icon=arrow_back")
                 ui.label("Edit Existing Applications").classes("text-2xl font-bold")
 
+            search_input = ui.input(
+                "Search by name...",
+                value=search,
+                on_change=lambda e: _rebuild_list(e.value, 0),
+            ).classes("w-full mb-2")
+
             list_container = ui.column().classes("w-full")
             pagination_container = ui.row().classes("w-full items-center justify-center gap-2 mt-2")
 
@@ -687,11 +693,6 @@ def index_page() -> None:
                     if current_page >= total_pages - 1:
                         next_btn.disable()
 
-            search_input = ui.input(
-                "Search by name...",
-                value=search,
-                on_change=lambda e: _rebuild_list(e.value, 0),
-            ).classes("w-full mb-2")
             _rebuild_list(search, page)
 
     def _open_edit_form(idx: int) -> None:
@@ -833,6 +834,172 @@ def index_page() -> None:
                     ).classes("w-full")
                     ui.link("Open in new tab", app_data.url, new_tab=True).classes("mt-1")
 
+    # --- Edit tags flow ---
+
+    def _load_tags_for_edit() -> None:
+        """Load all applications and tags into state, then show tag list."""
+        try:
+            state.edited_apps = load_applications()
+            state.all_tags = _load_tags()
+            logger.info(f"Loaded {len(state.all_tags)} tags for editing")
+            _show_edit_tags_list()
+        except Exception as e:  # noqa: BLE001
+            ui.notify(f"Failed to load tags: {e}", type="negative", timeout=10000)
+            logger.exception("Failed to load tags for editing")
+
+    def _show_edit_tags_list(search: str = "", page: int = 0) -> None:
+        """Show searchable paginated list of all tags with rename and remove actions."""
+        page_size = _cli_page_size
+        main_container.clear()
+        with main_container:
+            with ui.row().classes("w-full items-center gap-2 mb-4"):
+                ui.button("Back", on_click=_show_main_menu).props("flat icon=arrow_back")
+                ui.label("Edit Tags").classes("text-2xl font-bold")
+
+            search_input = ui.input(
+                "Search tags...",
+                value=search,
+                on_change=lambda e: _rebuild_tags_list(e.value, 0),
+            ).classes("w-full mb-2")
+
+            tag_usage: dict[str, int] = {}
+            for app_entry in state.edited_apps:
+                for t in app_entry.tags:
+                    tag_usage[t] = tag_usage.get(t, 0) + 1
+
+            tags_container = ui.column().classes("w-full")
+            pagination_container = ui.row().classes("w-full items-center justify-center gap-2 mt-2")
+
+            def _rebuild_tags_list(query: str = "", current_page: int = 0) -> None:
+                query_lower = query.lower()
+                matching_tags = sorted(
+                    (t for t in state.all_tags if not query_lower or query_lower in t.lower()),
+                    key=lambda x: x.lower(),
+                )
+                total_pages = max(1, (len(matching_tags) + page_size - 1) // page_size)
+                current_page = max(0, min(current_page, total_pages - 1))
+                page_tags = matching_tags[current_page * page_size : (current_page + 1) * page_size]
+
+                tags_container.clear()
+                with tags_container:
+                    for tag in page_tags:
+                        count = tag_usage.get(tag, 0)
+                        with ui.row().classes("w-full items-center justify-between p-2 border-b"):
+                            with ui.row().classes("items-center gap-2"):
+                                ui.chip(tag, color="blue").props("dense")
+                                ui.label(f"{count} app{'s' if count != 1 else ''}").classes("text-sm text-grey-7")
+
+                            with ui.row().classes("gap-1"):
+
+                                def _open_rename_dialog(t: str = tag) -> None:
+                                    with ui.dialog() as rename_dialog, ui.card().classes("w-96"):
+                                        ui.label(f"Rename tag: {t}").classes("font-bold mb-2")
+                                        new_name_input = ui.input("New tag name", value=t).classes("w-full")
+                                        with ui.row().classes("gap-2 mt-2"):
+                                            ui.button(
+                                                "Rename",
+                                                color="green",
+                                                on_click=lambda: _do_rename_tag(
+                                                    t, new_name_input.value, rename_dialog, search_input.value
+                                                ),
+                                            ).props("icon=edit")
+                                            ui.button("Cancel", on_click=rename_dialog.close).props("flat")
+                                    rename_dialog.open()
+
+                                def _open_remove_dialog(t: str = tag, c: int = count) -> None:
+                                    with ui.dialog() as confirm_dialog, ui.card().classes("w-96"):
+                                        ui.label(f"Remove tag '{t}' from all {c} app{'s' if c != 1 else ''}?").classes(
+                                            "font-bold mb-2"
+                                        )
+                                        with ui.row().classes("gap-2 mt-2"):
+                                            ui.button(
+                                                "Remove",
+                                                color="red",
+                                                on_click=lambda: _do_remove_tag(t, confirm_dialog, search_input.value),
+                                            ).props("icon=delete")
+                                            ui.button("Cancel", on_click=confirm_dialog.close).props("flat")
+                                    confirm_dialog.open()
+
+                                ui.button(
+                                    "Rename",
+                                    on_click=_open_rename_dialog,
+                                ).props("flat dense icon=edit")
+                                ui.button(
+                                    "Remove",
+                                    color="red",
+                                    on_click=_open_remove_dialog,
+                                ).props("flat dense icon=delete")
+
+                pagination_container.clear()
+                with pagination_container:
+                    prev_btn = ui.button(
+                        on_click=lambda: _rebuild_tags_list(search_input.value, current_page - 1),
+                    ).props("flat dense icon=chevron_left")
+                    if current_page <= 0:
+                        prev_btn.disable()
+                    ui.label(f"Page {current_page + 1} of {total_pages} ({len(matching_tags)} tags)").classes("text-sm")
+                    next_btn = ui.button(
+                        on_click=lambda: _rebuild_tags_list(search_input.value, current_page + 1),
+                    ).props("flat dense icon=chevron_right")
+                    if current_page >= total_pages - 1:
+                        next_btn.disable()
+
+            _rebuild_tags_list(search, page)
+
+    def _do_rename_tag(old_tag: str, new_tag: str, dialog: ui.dialog, search: str = "") -> None:
+        """Rename a tag across all applications and persist changes."""
+        new_tag = new_tag.strip()
+        if not new_tag:
+            ui.notify("New tag name cannot be empty", type="warning")
+            return
+        if new_tag == old_tag:
+            ui.notify("New name is the same as the current name", type="warning")
+            return
+        if any(new_tag in app_entry.tags for app_entry in state.edited_apps):
+            ui.notify(f"Tag '{new_tag}' already exists", type="warning")
+            return
+
+        updated = 0
+        for app_entry in state.edited_apps:
+            if old_tag in app_entry.tags:
+                app_entry.tags.discard(old_tag)
+                app_entry.tags.add(new_tag)
+                updated += 1
+
+        try:
+            save_applications(state.edited_apps)
+            generate_and_save_readme(state.edited_apps)
+            state.all_tags = _load_tags()
+            dialog.close()
+            label = f"app{'s' if updated != 1 else ''}"
+            ui.notify(f"Renamed '{old_tag}' \u2192 '{new_tag}' in {updated} {label}", type="positive", timeout=5000)
+            logger.info(f"Renamed tag '{old_tag}' -> '{new_tag}' across {updated} apps")
+            _show_edit_tags_list(search)
+        except Exception as e:  # noqa: BLE001
+            ui.notify(f"Save failed: {e}", type="negative", timeout=10000)
+            logger.exception("Failed to rename tag")
+
+    def _do_remove_tag(tag: str, dialog: ui.dialog, search: str = "") -> None:
+        """Remove a tag from all applications and persist changes."""
+        removed_from = 0
+        for app_entry in state.edited_apps:
+            if tag in app_entry.tags:
+                app_entry.tags.discard(tag)
+                removed_from += 1
+
+        try:
+            save_applications(state.edited_apps)
+            generate_and_save_readme(state.edited_apps)
+            state.all_tags = _load_tags()
+            dialog.close()
+            label = f"app{'s' if removed_from != 1 else ''}"
+            ui.notify(f"Removed tag '{tag}' from {removed_from} {label}", type="positive", timeout=5000)
+            logger.info(f"Removed tag '{tag}' from {removed_from} apps")
+            _show_edit_tags_list(search)
+        except Exception as e:  # noqa: BLE001
+            ui.notify(f"Save failed: {e}", type="negative", timeout=10000)
+            logger.exception("Failed to remove tag")
+
     # --- Main menu ---
 
     def _show_main_menu() -> None:
@@ -853,6 +1020,10 @@ def index_page() -> None:
                         "text-sm text-grey-7 mb-4"
                     )
                     ui.button("Browse", color="primary", on_click=_load_existing_for_edit).props("icon=edit")
+                with ui.card().classes("w-72"):
+                    ui.label("Edit Tags").classes("text-lg font-bold mb-2")
+                    ui.label("Rename or remove tags across all applications.").classes("text-sm text-grey-7 mb-4")
+                    ui.button("Browse", color="primary", on_click=_load_tags_for_edit).props("icon=label")
 
     if _cli_input_file:
         _show_file_selection()
