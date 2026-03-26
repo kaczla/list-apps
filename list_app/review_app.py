@@ -48,6 +48,7 @@ PROXY_CACHE_MAX_SIZE = 50
 DEFAULT_PORT = 8080
 
 _cli_input_file: str = ""
+_cli_page_size: int = 20
 
 # Reusable session for connection pooling
 _http_session = requests.Session()
@@ -314,7 +315,9 @@ def index_page() -> None:
         """Phase 1: file selection UI."""
         main_container.clear()
         with main_container:
-            ui.label("Review New Applications").classes("text-2xl font-bold mb-4")
+            with ui.row().classes("items-center gap-2 mb-4"):
+                ui.button("Back", on_click=_show_main_menu).props("flat icon=arrow_back")
+                ui.label("Review New Applications").classes("text-2xl font-bold")
             with ui.card().classes("w-96"):
                 json_files = _find_json_files()
 
@@ -616,17 +619,256 @@ def index_page() -> None:
             ui.notify(f"Save failed: {e}", type="negative", timeout=10000)
             logger.exception("Save unmerged failed")
 
-    _show_file_selection()
+    # --- Edit existing applications flow ---
+
+    def _load_existing_for_edit() -> None:
+        """Load all existing applications into state for editing."""
+        try:
+            existing = load_applications()
+            state.edited_apps = existing
+            state.all_tags = _load_tags()
+            state.current_index = 0
+            logger.info(f"Loaded {len(existing)} existing applications for editing")
+            _show_edit_list()
+        except Exception as e:  # noqa: BLE001
+            ui.notify(f"Failed to load applications: {e}", type="negative", timeout=10000)
+            logger.exception("Failed to load existing applications")
+
+    def _show_edit_list(search: str = "", page: int = 0) -> None:
+        """Show searchable paginated list of all existing applications."""
+        page_size = _cli_page_size
+        main_container.clear()
+        with main_container:
+            with ui.row().classes("w-full items-center gap-2 mb-4"):
+                ui.button("Back", on_click=_show_main_menu).props("flat icon=arrow_back")
+                ui.label("Edit Existing Applications").classes("text-2xl font-bold")
+
+            list_container = ui.column().classes("w-full")
+            pagination_container = ui.row().classes("w-full items-center justify-center gap-2 mt-2")
+
+            def _rebuild_list(query: str = "", current_page: int = 0) -> None:
+                query_lower = query.lower()
+                matches = [
+                    (i, app_entry)
+                    for i, app_entry in enumerate(state.edited_apps)
+                    if not query_lower or query_lower in app_entry.name.lower()
+                ]
+                total_pages = max(1, (len(matches) + page_size - 1) // page_size)
+                current_page = max(0, min(current_page, total_pages - 1))
+                page_matches = matches[current_page * page_size : (current_page + 1) * page_size]
+
+                list_container.clear()
+                with list_container:
+                    for i, app_entry in page_matches:
+                        with ui.row().classes("w-full items-center justify-between p-2 border-b"):
+                            with ui.column().classes("gap-0"):
+                                ui.label(app_entry.name).classes("font-medium")
+                                ui.link(app_entry.url, app_entry.url, new_tab=True).classes("text-sm")
+                                preview = app_entry.description[:100]
+                                if len(app_entry.description) > 100:
+                                    preview += "…"
+                                ui.label(preview).classes("text-sm text-grey-8")
+                            ui.button(
+                                "Edit",
+                                on_click=lambda _, idx=i: _open_edit_form(idx),
+                            ).props("flat dense icon=edit")
+
+                pagination_container.clear()
+                with pagination_container:
+                    prev_btn = ui.button(
+                        on_click=lambda: _rebuild_list(search_input.value, current_page - 1),
+                    ).props("flat dense icon=chevron_left")
+                    if current_page <= 0:
+                        prev_btn.disable()
+                    ui.label(f"Page {current_page + 1} of {total_pages} ({len(matches)} apps)").classes("text-sm")
+                    next_btn = ui.button(
+                        on_click=lambda: _rebuild_list(search_input.value, current_page + 1),
+                    ).props("flat dense icon=chevron_right")
+                    if current_page >= total_pages - 1:
+                        next_btn.disable()
+
+            search_input = ui.input(
+                "Search by name...",
+                value=search,
+                on_change=lambda e: _rebuild_list(e.value, 0),
+            ).classes("w-full mb-2")
+            _rebuild_list(search, page)
+
+    def _open_edit_form(idx: int) -> None:
+        """Navigate to the edit form for a specific existing app."""
+        state.current_index = idx
+        _show_edit_form()
+
+    def _navigate_edit(delta: int) -> None:
+        """Navigate between apps in edit mode."""
+        new_idx = state.current_index + delta
+        if 0 <= new_idx < len(state.edited_apps):
+            state.current_index = new_idx
+            _show_edit_form()
+
+    def _save_existing_edit() -> None:
+        """Save all in-memory edits back to applications.json and regenerate README."""
+        try:
+            existing = list(state.edited_apps)
+            existing.sort(key=lambda x: x.name.lower())
+            save_applications(existing)
+            generate_and_save_readme(existing)
+            app_name = state.edited_apps[state.current_index].name
+            ui.notify("Saved successfully", type="positive", timeout=5000)
+            logger.info(f"Saved existing app edit: '{app_name}'")
+        except Exception as e:  # noqa: BLE001
+            ui.notify(f"Save failed: {e}", type="negative", timeout=10000)
+            logger.exception("Save existing edit failed")
+
+    def _show_edit_form() -> None:
+        """Edit form for an existing application (split view with iframe preview)."""
+        if not state.edited_apps:
+            _show_main_menu()
+            return
+        main_container.clear()
+        idx = state.current_index
+        app_data = state.edited_apps[idx]
+        total = len(state.edited_apps)
+
+        with main_container:
+            with ui.row().classes("w-full items-center gap-2 mb-2"):
+                ui.button("Back to List", on_click=_show_edit_list).props("flat icon=arrow_back")
+                ui.label(f"Editing {idx + 1} of {total}: {app_data.name}").classes("text-xl font-bold")
+
+            ui.linear_progress(value=(idx + 1) / total, show_value=False).classes("mb-2")
+
+            with ui.splitter(value=45).classes("w-full") as splitter:
+                with splitter.before, ui.column().classes("w-full p-2 gap-2"):
+                    ui.input(
+                        "Name",
+                        value=app_data.name,
+                        on_change=lambda e: setattr(app_data, "name", e.value),
+                    ).classes("w-full")
+
+                    ui.input("URL", value=app_data.url).props("readonly").classes("w-full")
+
+                    ui.textarea(
+                        "Description",
+                        value=app_data.description,
+                        on_change=lambda e: setattr(app_data, "description", e.value),
+                    ).classes("w-full").props("rows=5")
+
+                    ui.label("Tags").classes("font-bold mt-2")
+                    tags_container = ui.column().classes("w-full")
+
+                    def _rebuild_edit_tags() -> None:
+                        tags_container.clear()
+                        with tags_container:
+                            sorted_tags = sort_application_tags(app_data.tags)
+
+                            def _remove_tag(tag_to_remove: str) -> None:
+                                app_data.tags.discard(tag_to_remove)
+                                _rebuild_edit_tags()
+
+                            with ui.row().classes("flex-wrap gap-1"):
+                                for tag in sorted_tags:
+                                    is_new_tag = tag not in state.all_tags
+                                    ui.chip(
+                                        tag,
+                                        removable=True,
+                                        color="yellow" if is_new_tag else "blue",
+                                        on_value_change=lambda e, t=tag: _remove_tag(t) if not e.value else None,
+                                    ).props("dense")
+
+                            all_options = sorted(
+                                set(state.all_tags) | app_data.tags,
+                                key=lambda x: x.lower(),
+                            )
+
+                            def _on_add_edit_tag(e: Any) -> None:
+                                if e.value and e.value not in app_data.tags:
+                                    tag_value = str(e.value)
+                                    if tag_value not in state.all_tags:
+                                        logger.info(f"New tag created: '{tag_value}' (for '{app_data.name}')")
+                                    app_data.tags.add(tag_value)
+                                    _rebuild_edit_tags()
+
+                            ui.select(
+                                options=all_options,
+                                with_input=True,
+                                new_value_mode="add-unique",
+                                label="Add tag...",
+                                on_change=_on_add_edit_tag,
+                            ).classes("w-full")
+
+                    _rebuild_edit_tags()
+
+                    with ui.row().classes("mt-4 gap-2"):
+                        ui.button(
+                            "Save Changes",
+                            color="green",
+                            on_click=_save_existing_edit,
+                        ).props("icon=save")
+
+                    with ui.row().classes("mt-2 gap-2"):
+                        prev_btn = ui.button(
+                            "Prev",
+                            on_click=lambda: _navigate_edit(-1),
+                        ).props("flat icon=arrow_back")
+                        if idx <= 0:
+                            prev_btn.disable()
+                        next_btn = ui.button(
+                            "Next",
+                            on_click=lambda: _navigate_edit(1),
+                        ).props("flat icon=arrow_forward")
+                        if idx >= total - 1:
+                            next_btn.disable()
+
+                with splitter.after, ui.column().classes("w-full h-full p-2"):
+                    encoded_url = quote(app_data.url, safe="")
+                    ui.html(
+                        f"""<div style="position:relative;width:100%;height:70vh;">
+                        <div id="iframe-spinner" style="position:absolute;inset:0;display:flex;
+                        align-items:center;justify-content:center;background:#f5f5f5;z-index:1;">
+                        <span style="font-size:1.2em;color:#888;">Loading preview...</span></div>
+                        <iframe src="/proxy?url={encoded_url}"
+                        style="width:100%;height:100%;border:none;position:relative;z-index:2;"
+                        onload="document.getElementById('iframe-spinner').style.display='none'"></iframe>
+                        </div>"""
+                    ).classes("w-full")
+                    ui.link("Open in new tab", app_data.url, new_tab=True).classes("mt-1")
+
+    # --- Main menu ---
+
+    def _show_main_menu() -> None:
+        """Initial screen: choose between reviewing new apps or editing existing ones."""
+        main_container.clear()
+        with main_container:
+            ui.label("Application Manager").classes("text-2xl font-bold mb-6")
+            with ui.row().classes("gap-4"):
+                with ui.card().classes("w-72"):
+                    ui.label("Review New Applications").classes("text-lg font-bold mb-2")
+                    ui.label(
+                        "Load a JSON file and review, edit, then merge new applications."
+                    ).classes("text-sm text-grey-7 mb-4")
+                    ui.button("Select File", on_click=_show_file_selection).props("icon=upload_file")
+                with ui.card().classes("w-72"):
+                    ui.label("Edit Existing Applications").classes("text-lg font-bold mb-2")
+                    ui.label(
+                        "Browse and edit applications already in the database."
+                    ).classes("text-sm text-grey-7 mb-4")
+                    ui.button("Browse", color="primary", on_click=_load_existing_for_edit).props("icon=edit")
+
+    if _cli_input_file:
+        _show_file_selection()
+    else:
+        _show_main_menu()
 
 
 def main() -> None:
     """Entry point: launch the NiceGUI review application."""
-    global _cli_input_file
+    global _cli_input_file, _cli_page_size
 
     parser = argparse.ArgumentParser(description="Review and merge new applications via GUI")
     parser.add_argument("input_file", type=Path, nargs="?", help="Path to JSON file with new applications")
     parser.add_argument("--port", type=int, default=DEFAULT_PORT, help="Port to run the server on")
     parser.add_argument("--reload", action="store_true", help="Enable auto-reload")
+    parser.add_argument("--page-size", type=int, default=20, help="Number of applications per page in edit list")
     args = parser.parse_args()
 
     init_logs()
@@ -634,6 +876,9 @@ def main() -> None:
     if args.input_file:
         _cli_input_file = str(args.input_file)
         logger.info(f"CLI input file: {args.input_file}")
+
+    _cli_page_size = args.page_size
+    logger.info(f"Page size: {_cli_page_size}")
 
     logger.info(f"Starting review app on port {args.port}")
     ui.run(title="Review Applications", port=args.port, host="127.0.0.1", show=False, reload=args.reload)
