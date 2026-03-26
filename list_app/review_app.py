@@ -843,15 +843,15 @@ def index_page() -> None:
             with ui.row().classes("gap-4"):
                 with ui.card().classes("w-72"):
                     ui.label("Review New Applications").classes("text-lg font-bold mb-2")
-                    ui.label(
-                        "Load a JSON file and review, edit, then merge new applications."
-                    ).classes("text-sm text-grey-7 mb-4")
+                    ui.label("Load a JSON file and review, edit, then merge new applications.").classes(
+                        "text-sm text-grey-7 mb-4"
+                    )
                     ui.button("Select File", on_click=_show_file_selection).props("icon=upload_file")
                 with ui.card().classes("w-72"):
                     ui.label("Edit Existing Applications").classes("text-lg font-bold mb-2")
-                    ui.label(
-                        "Browse and edit applications already in the database."
-                    ).classes("text-sm text-grey-7 mb-4")
+                    ui.label("Browse and edit applications already in the database.").classes(
+                        "text-sm text-grey-7 mb-4"
+                    )
                     ui.button("Browse", color="primary", on_click=_load_existing_for_edit).props("icon=edit")
 
     if _cli_input_file:
