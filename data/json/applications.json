@@ -836,9 +836,9 @@
         "description": "A powerful node-based interface for creating diffusion model workflows supporting Stable Diffusion, Flux, and SD3 with memory optimization for low VRAM systems.",
         "tags": [
             "Deep Learning",
+            "Diffusion Model",
             "GUI",
             "image generation",
-            "Stable Diffusion Model",
             "source: Python"
         ]
     },
@@ -1310,8 +1310,8 @@
         "url": "https://github.com/abhishekkrthakur/diffuzers",
         "description": "diffuzers is a web ui for huggingface diffusers.",
         "tags": [
-            "image generation",
-            "Stable Diffusion Model"
+            "Diffusion Model",
+            "image generation"
         ]
     },
     {
@@ -1758,9 +1758,9 @@
         "tags": [
             "AI powered",
             "command line",
+            "Diffusion Model",
             "GUI",
             "image generation",
-            "Stable Diffusion Model",
             "source: Python"
         ]
     },
@@ -1898,9 +1898,9 @@
         "description": "Fooocus is an image generating software.",
         "tags": [
             "Deep Learning",
+            "Diffusion Model",
             "GUI",
             "image generation",
-            "Stable Diffusion Model",
             "source: Python"
         ]
     },
@@ -2630,10 +2630,10 @@
         "description": "This version of Stable Diffusion features a slick WebGUI, an interactive command-line script that combines text2img and img2img functionality in a \"dream bot\" style interface, and multiple features and other enhancements. For more info, see the website link below.",
         "tags": [
             "Deep Learning",
+            "Diffusion Model",
             "image editing",
             "image generation",
             "platform",
-            "Stable Diffusion Model",
             "source: TypeScript"
         ]
     },
@@ -2776,6 +2776,20 @@
             "XML",
             "YAML",
             "source: TypeScript"
+        ]
+    },
+    {
+        "name": "jsongrep",
+        "url": "https://github.com/micahkepe/jsongrep",
+        "description": "A fast command-line tool for searching JSON, YAML, TOML, JSONL, CBOR, and MessagePack documents using regex-like path expressions compiled to DFAs.",
+        "tags": [
+            "command line",
+            "JSON",
+            "searching",
+            "TOML",
+            "YAML",
+            "command line: jq",
+            "source: Rust"
         ]
     },
     {
@@ -3693,8 +3707,8 @@
         "url": "https://github.com/Lightning-AI/stable-diffusion-deploy",
         "description": "Open source, stable-diffusion production server to show how to deploy diffusion models in a real production environment with: load-balancing, gpu-inference, performance-testing, micro-services orchestration and more.",
         "tags": [
-            "image generation",
-            "Stable Diffusion Model"
+            "Diffusion Model",
+            "image generation"
         ]
     },
     {
@@ -4061,9 +4075,9 @@
         "description": "Opendream brings much needed and familiar features, such as layering, non-destructive editing, portability, and easy-to-write extensions, to your Stable Diffusion workflows.",
         "tags": [
             "Deep Learning",
+            "Diffusion Model",
             "image editing",
             "image generation",
-            "Stable Diffusion Model",
             "source: JavaScript"
         ]
     },
@@ -4281,6 +4295,17 @@
         ]
     },
     {
+        "name": "pgmicro",
+        "url": "https://github.com/glommer/pgmicro",
+        "description": "An in-process PostgreSQL reimplementation that runs on a SQLite-compatible storage engine, compiling PostgreSQL syntax to SQLite bytecode with wire protocol support and virtual catalog tables.",
+        "tags": [
+            "database",
+            "PostgreSQL",
+            "SQLite",
+            "source: Rust"
+        ]
+    },
+    {
         "name": "pgmodeler",
         "url": "https://github.com/pgmodeler/pgmodeler",
         "description": "Open-source data modeling tool designed for PostgreSQL. No more typing DDL commands. Let pgModeler do the work for you!",
@@ -4455,6 +4480,19 @@
             "command line",
             "file listing",
             "command line: ls"
+        ]
+    },
+    {
+        "name": "PlutoPrint",
+        "url": "https://github.com/plutoprint/plutoprint",
+        "description": "A Python library for generating high-quality PDFs and images from HTML/XML content, with a command-line interface.",
+        "tags": [
+            "command line",
+            "HTML",
+            "image generation",
+            "PDF",
+            "source: C",
+            "source: Python"
         ]
     },
     {
@@ -5592,10 +5630,10 @@
         "description": "StableStudio is Stability AI's official open-source variant of DreamStudio, our user interface for generative AI. It is a web-based application that allows users to create and edit generated images.",
         "tags": [
             "Deep Learning",
+            "Diffusion Model",
             "GUI",
             "image editing",
             "image generation",
-            "Stable Diffusion Model",
             "source: TypeScript"
         ]
     },
@@ -6736,6 +6774,18 @@
             "monitoring",
             "command line: top",
             "source: Rust"
+        ]
+    },
+    {
+        "name": "Z-Image",
+        "url": "https://github.com/Tongyi-MAI/Z-Image",
+        "description": "A 6-billion-parameter image generation foundation model using a single-stream diffusion transformer architecture, supporting bilingual text rendering and instruction-following image editing.",
+        "tags": [
+            "AI powered",
+            "Diffusion Model",
+            "image generation",
+            "Machine Learning",
+            "source: Python"
         ]
     },
     {

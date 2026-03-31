@@ -223,7 +223,7 @@ Some descriptions are from:
   - Tags: command line, network
 - ComfyUI [🛈](https://github.com/comfyanonymous/ComfyUI)
   - A powerful node-based interface for creating diffusion model workflows supporting Stable Diffusion, Flux, and SD3 with memory optimization for low VRAM systems.
-  - Tags: Deep Learning, GUI, image generation, Stable Diffusion Model, source: Python
+  - Tags: Deep Learning, Diffusion Model, GUI, image generation, source: Python
 - Composio [🛈](https://github.com/ComposioHQ/composio)
   - A toolkit that equips AI agents and large language models with 100+ high-quality integrations through function calling capabilities.
   - Tags: AI agents, AI powered, framework, function calling, Language Model, source: TypeScript
@@ -349,7 +349,7 @@ Some descriptions are from:
   - Tags: command line, diff, command line: diff
 - diffuzers [🛈](https://github.com/abhishekkrthakur/diffuzers)
   - diffuzers is a web ui for huggingface diffusers.
-  - Tags: image generation, Stable Diffusion Model
+  - Tags: Diffusion Model, image generation
 - Digler [🛈](https://github.com/ostafen/digler)
   - A forensic disk analysis and file recovery tool designed to recover deleted or lost data from disk images and raw devices, offering both CLI and desktop interfaces.
   - Tags: command line, cross-platform, data recovery, file system, forensics, GUI, source: Go
@@ -466,7 +466,7 @@ Some descriptions are from:
   - Tags: progress bar, source: Python
 - FastSD CPU [🛈](https://github.com/rupeshs/fastsdcpu)
   - CPU-optimized Stable Diffusion implementation based on Latent Consistency Models enabling rapid image generation on standard computers without GPUs.
-  - Tags: AI powered, command line, GUI, image generation, Stable Diffusion Model, source: Python
+  - Tags: AI powered, command line, Diffusion Model, GUI, image generation, source: Python
 - FauxPilot [🛈](https://github.com/fauxpilot/fauxpilot)
   - FauxPilot - an open-source GitHub Copilot server.
   - Tags: code completion, Deep Learning
@@ -502,7 +502,7 @@ Some descriptions are from:
   - Tags: distribution, encryption, key distribution, key management, security, source: Go
 - Fooocus [🛈](https://github.com/lllyasviel/Fooocus)
   - Fooocus is an image generating software.
-  - Tags: Deep Learning, GUI, image generation, Stable Diffusion Model, source: Python
+  - Tags: Deep Learning, Diffusion Model, GUI, image generation, source: Python
 - Frogmouth [🛈](https://github.com/Textualize/frogmouth)
   - Frogmouth is a Markdown viewer / browser for your terminal, built with Textual.
   - Tags: command line, Markdown, viewer, source: Python
@@ -700,7 +700,7 @@ Some descriptions are from:
   - Tags: forms, invoice, self-hosted, source: TypeScript
 - InvokeAI [🛈](https://github.com/invoke-ai/InvokeAI)
   - This version of Stable Diffusion features a slick WebGUI, an interactive command-line script that combines text2img and img2img functionality in a "dream bot" style interface, and multiple features and other enhancements. For more info, see the website link below.
-  - Tags: Deep Learning, image editing, image generation, platform, Stable Diffusion Model, source: TypeScript
+  - Tags: Deep Learning, Diffusion Model, image editing, image generation, platform, source: TypeScript
 - iotop [🛈](https://repo.or.cz/w/iotop.git)
   - A top utility for IO
   - Tags: command line, disk utility, monitoring
@@ -734,6 +734,9 @@ Some descriptions are from:
 - JSON Crack [🛈](https://github.com/AykutSarac/jsoncrack.com)
   - An open-source visualization tool that transforms data formats (JSON, YAML, XML, CSV, TOML) into interactive graphs for easier exploration and analysis.
   - Tags: CSV, data format, file convert, JSON, TOML, visualization, web page, XML, YAML, source: TypeScript
+- jsongrep [🛈](https://github.com/micahkepe/jsongrep)
+  - A fast command-line tool for searching JSON, YAML, TOML, JSONL, CBOR, and MessagePack documents using regex-like path expressions compiled to DFAs.
+  - Tags: command line, JSON, searching, TOML, YAML, command line: jq, source: Rust
 - Jujutsu [🛈](https://github.com/martinvonz/jj)
   - A Git-compatible version control system designed to be simple and powerful, featuring automatic working-copy commits and conflict tracking.
   - Tags: command line, git, source control system, source: Rust
@@ -979,7 +982,7 @@ Some descriptions are from:
   - Tags: AI agents, isolation, Python interpreter, security, source: Rust
 - Muse [🛈](https://github.com/Lightning-AI/stable-diffusion-deploy)
   - Open source, stable-diffusion production server to show how to deploy diffusion models in a real production environment with: load-balancing, gpu-inference, performance-testing, micro-services orchestration and more.
-  - Tags: image generation, Stable Diffusion Model
+  - Tags: Diffusion Model, image generation
 - MySQL [🛈](https://github.com/mysql/mysql-server)
   - MySQL Server, the world's most popular open source database, and MySQL Cluster, a real-time, open source transactional database.
   - Tags: database, source: C++
@@ -1075,7 +1078,7 @@ Some descriptions are from:
   - Tags: AI personal assistant, Deep Learning, source: Python
 - Opendream [🛈](https://github.com/varunshenoy/opendream)
   - Opendream brings much needed and familiar features, such as layering, non-destructive editing, portability, and easy-to-write extensions, to your Stable Diffusion workflows.
-  - Tags: Deep Learning, image editing, image generation, Stable Diffusion Model, source: JavaScript
+  - Tags: Deep Learning, Diffusion Model, image editing, image generation, source: JavaScript
 - OpenLIT [🛈](https://github.com/openlit/openlit)
   - An open source platform providing OpenTelemetry-native LLM Observability, GPU Monitoring, Guardrails, Evaluations, Prompt Management, Vault, Playground for AI engineering workflows.
   - Tags: AI powered, metrics, monitoring, observability, source: Python
@@ -1133,6 +1136,9 @@ Some descriptions are from:
 - pglinter [🛈](https://github.com/pmpetit/pglinter)
   - A PostgreSQL database linter extension that analyzes databases for potential issues, performance problems, and best practice violations. Runs natively inside PostgreSQL with 10-100x faster execution than Python alternatives and outputs SARIF reports.
   - Tags: database, linter, PostgreSQL, source: Rust
+- pgmicro [🛈](https://github.com/glommer/pgmicro)
+  - An in-process PostgreSQL reimplementation that runs on a SQLite-compatible storage engine, compiling PostgreSQL syntax to SQLite bytecode with wire protocol support and virtual catalog tables.
+  - Tags: database, PostgreSQL, SQLite, source: Rust
 - pgmodeler [🛈](https://github.com/pgmodeler/pgmodeler)
   - Open-source data modeling tool designed for PostgreSQL. No more typing DDL commands. Let pgModeler do the work for you!
   - Tags: database, GUI, SQL
@@ -1181,6 +1187,9 @@ Some descriptions are from:
 - pls [🛈](https://github.com/dhruvkb/pls)
   - pls is a pretty and powerful ls. It works in a similar way to ls, but it adds many more developer-friendly features, such as node filters, file sorting based on attributes, a details view, and more. pls is a simple tool for looking at the contents of directories and not a complete replacement for ls.
   - Tags: command line, file listing, command line: ls
+- PlutoPrint [🛈](https://github.com/plutoprint/plutoprint)
+  - A Python library for generating high-quality PDFs and images from HTML/XML content, with a command-line interface.
+  - Tags: command line, HTML, image generation, PDF, source: C, source: Python
 - PocketPal AI [🛈](https://github.com/a-ghorbani/pocketpal-ai)
   - A mobile application that enables users to run small language models directly on their phones for offline AI assistance with all processing occurring on-device to protect user privacy.
   - Tags: AI powered, Language Model, offline, privacy, source: TypeScript
@@ -1483,7 +1492,7 @@ Some descriptions are from:
   - Tags: command line, network, penetration tests, security, SSL, TLS, vulnerability scanner, source: Python
 - StableStudio [🛈](https://github.com/Stability-AI/StableStudio)
   - StableStudio is Stability AI's official open-source variant of DreamStudio, our user interface for generative AI. It is a web-based application that allows users to create and edit generated images.
-  - Tags: Deep Learning, GUI, image editing, image generation, Stable Diffusion Model, source: TypeScript
+  - Tags: Deep Learning, Diffusion Model, GUI, image editing, image generation, source: TypeScript
 - Stacer [🛈](https://github.com/oguzhaninan/Stacer)
   - Linux System Optimizer and Monitoring
   - Tags: command line, GUI, monitoring, command line: top
@@ -1790,6 +1799,9 @@ Some descriptions are from:
 - ytop [🛈](https://github.com/cjbassi/ytop) - NO LONGER MAINTAINED)
   - ytop is a TUI based system monitor, this time in Rust!
   - Tags: command line, monitoring, command line: top, source: Rust
+- Z-Image [🛈](https://github.com/Tongyi-MAI/Z-Image)
+  - A 6-billion-parameter image generation foundation model using a single-stream diffusion transformer architecture, supporting bilingual text rendering and instruction-following image editing.
+  - Tags: AI powered, Diffusion Model, image generation, Machine Learning, source: Python
 - Zasper [🛈](https://github.com/zasper-io/zasper)
   - A high-performance IDE for Jupyter Notebooks offering up to 5x less CPU and 40x less RAM than JupyterLab, supporting Python, R, Julia, and other kernels.
   - Tags: GUI, IDE, Jupyter, Notebook, source: Go
@@ -1831,7 +1843,7 @@ List of tags with occurrences in the brackets:
 - AI agents (21)
 - AI evaluation (2)
 - AI personal assistant (3)
-- AI powered (67)
+- AI powered (68)
 - alerts (4)
 - allocator (1)
 - AlphaZero (1)
@@ -1873,7 +1885,7 @@ List of tags with occurrences in the brackets:
 - code search (5)
 - code statistics (1)
 - coloring (1)
-- command line (202)
+- command line (204)
 - command line: cat (1)
 - command line: cd (1)
 - command line: diff (3)
@@ -1881,7 +1893,7 @@ List of tags with occurrences in the brackets:
 - command line: find (2)
 - command line: grep (6)
 - command line: hexdump (1)
-- command line: jq (3)
+- command line: jq (4)
 - command line: kill (1)
 - command line: ls (5)
 - command line: make (3)
@@ -1922,7 +1934,7 @@ List of tags with occurrences in the brackets:
 - data recovery (1)
 - data structures (3)
 - data validation (1)
-- database (41)
+- database (42)
 - database management (1)
 - database schema (1)
 - database transfer (1)
@@ -1941,6 +1953,7 @@ List of tags with occurrences in the brackets:
 - developer environment (7)
 - diagram (1)
 - diff (3)
+- Diffusion Model (9)
 - disk utility (5)
 - distribution (2)
 - DNS (1)
@@ -2000,14 +2013,14 @@ List of tags with occurrences in the brackets:
 - highlighter (1)
 - history (1)
 - homelab (1)
-- HTML (4)
+- HTML (5)
 - HTTP client (1)
 - hypermedia (1)
 - icons (1)
 - IDE (3)
 - image (9)
 - image editing (5)
-- image generation (10)
+- image generation (12)
 - in-memory (3)
 - indexing (3)
 - inference (7)
@@ -2018,7 +2031,7 @@ List of tags with occurrences in the brackets:
 - isolation (8)
 - JavaScript engine (1)
 - job (2)
-- JSON (10)
+- JSON (11)
 - Jupyter (13)
 - key distribution (1)
 - key management (1)
@@ -2038,7 +2051,7 @@ List of tags with occurrences in the brackets:
 - LLM-ready (4)
 - load balancer (2)
 - logs (9)
-- Machine Learning (16)
+- Machine Learning (17)
 - Machine Learning transpiler (1)
 - Machine Translation (1)
 - MacOS (1)
@@ -2089,14 +2102,14 @@ List of tags with occurrences in the brackets:
 - parsing (3)
 - passwords (2)
 - pattern search (3)
-- PDF (2)
+- PDF (3)
 - penetration tests (3)
 - pipeline (2)
 - platform (5)
 - Platform-as-a-Service (1)
 - PNG (1)
 - Polars (1)
-- PostgreSQL (6)
+- PostgreSQL (7)
 - presentation (2)
 - printing file (1)
 - privacy (7)
@@ -2132,7 +2145,7 @@ List of tags with occurrences in the brackets:
 - schema validation (1)
 - screenshot (1)
 - search engine (1)
-- searching (14)
+- searching (15)
 - secret management (3)
 - secrets detector (2)
 - security (29)
@@ -2150,7 +2163,7 @@ List of tags with occurrences in the brackets:
 - social media (2)
 - sounds (2)
 - source control system (2)
-- source: C (26)
+- source: C (27)
 - source: C# (2)
 - source: C++ (19)
 - source: Clojure (1)
@@ -2163,9 +2176,9 @@ List of tags with occurrences in the brackets:
 - source: Kotlin (1)
 - source: Lua (1)
 - source: PHP (1)
-- source: Python (165)
+- source: Python (167)
 - source: Ruby (5)
-- source: Rust (126)
+- source: Rust (128)
 - source: Shell (10)
 - source: TypeScript (63)
 - source: Zig (3)
@@ -2175,10 +2188,9 @@ List of tags with occurrences in the brackets:
 - spreadsheet (1)
 - SQL (9)
 - SQL injection (1)
-- SQLite (4)
+- SQLite (5)
 - ssh (7)
 - SSL (1)
-- Stable Diffusion Model (8)
 - static code analyzer (2)
 - static site (1)
 - statistics (3)
@@ -2204,7 +2216,7 @@ List of tags with occurrences in the brackets:
 - text-to-speech (6)
 - tldr (4)
 - TLS (1)
-- TOML (1)
+- TOML (2)
 - trace (2)
 - tracking (2)
 - training (3)
@@ -2246,4 +2258,4 @@ List of tags with occurrences in the brackets:
 - Windows (1)
 - workflow (4)
 - XML (4)
-- YAML (4)
+- YAML (5)
