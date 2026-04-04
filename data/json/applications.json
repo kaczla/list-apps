@@ -3154,6 +3154,18 @@
         ]
     },
     {
+        "name": "lazyssh",
+        "url": "https://github.com/adembc/lazyssh",
+        "description": "A terminal-based SSH manager with a keyboard-driven interactive UI for managing SSH connections defined in ~/.ssh/config, inspired by tools like lazydocker and k9s.",
+        "tags": [
+            "management",
+            "ssh",
+            "ssh management",
+            "terminal interface",
+            "source: Go"
+        ]
+    },
+    {
         "name": "lf",
         "url": "https://github.com/gokcehan/lf",
         "description": "A terminal file manager written in Go inspired by ranger, providing fast, lightweight file browsing with a server/client architecture.",
@@ -3627,6 +3639,20 @@
         ]
     },
     {
+        "name": "mini-coding-agent",
+        "url": "https://github.com/rasbt/mini-coding-agent",
+        "description": "A minimal, readable implementation of a local coding agent harness demonstrating workspace snapshots, structured tools, approval handling for risky operations, and session persistence.",
+        "tags": [
+            "agentic coding",
+            "AI agents",
+            "automation",
+            "code generation",
+            "command line",
+            "terminal",
+            "source: Python"
+        ]
+    },
+    {
         "name": "MinIO",
         "url": "https://github.com/minio/minio",
         "description": "A high-performance, S3-compatible object storage solution designed for speed and scalability, powering AI/ML and data-intensive workloads.",
@@ -3876,6 +3902,18 @@
             "library",
             "network",
             "requests",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "NitroGen",
+        "url": "https://github.com/MineDojo/NitroGen",
+        "description": "An open-source 500M parameter foundation model that enables AI agents to play video games by accepting visual input and outputting gamepad commands, trained via behavior cloning on internet gameplay videos.",
+        "tags": [
+            "AI agents",
+            "computer vision",
+            "Deep Learning",
+            "play video games",
             "source: Python"
         ]
     },
@@ -6576,6 +6614,18 @@
             "network scan",
             "terminal interface",
             "source: Go"
+        ]
+    },
+    {
+        "name": "Win11Debloat",
+        "url": "https://github.com/Raphire/Win11Debloat",
+        "description": "A lightweight PowerShell utility to remove bloatware, disable telemetry, and customize Windows 10 and Windows 11 system settings.",
+        "tags": [
+            "customizing",
+            "privacy",
+            "system settings",
+            "Windows",
+            "source: PowerShell"
         ]
     },
     {

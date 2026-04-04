@@ -833,6 +833,9 @@ Some descriptions are from:
 - lazygit [🛈](https://github.com/jesseduffield/lazygit)
   - Terminal UI for Git with interactive staging, visual rebasing, cherry-picking, commit graph visualization, and undo/redo via reflog.
   - Tags: git, interactive, terminal interface, source: Go
+- lazyssh [🛈](https://github.com/adembc/lazyssh)
+  - A terminal-based SSH manager with a keyboard-driven interactive UI for managing SSH connections defined in ~/.ssh/config, inspired by tools like lazydocker and k9s.
+  - Tags: management, ssh, ssh management, terminal interface, source: Go
 - lf [🛈](https://github.com/gokcehan/lf)
   - A terminal file manager written in Go inspired by ranger, providing fast, lightweight file browsing with a server/client architecture.
   - Tags: command line, file manager, terminal, terminal interface, command line: mc, command line: ranger, source: Go
@@ -959,6 +962,9 @@ Some descriptions are from:
 - Milvus [🛈](https://github.com/milvus-io/milvus)
   - Milvus is an open-source vector database built to power embedding similarity search and AI applications. It makes unstructured data search more accessible and provides a consistent user experience regardless of the deployment environment. All components in Milvus are stateless to enhance elasticity and flexibility.
   - Tags: database, image, platform, searching, unstructured data, vector database
+- mini-coding-agent [🛈](https://github.com/rasbt/mini-coding-agent)
+  - A minimal, readable implementation of a local coding agent harness demonstrating workspace snapshots, structured tools, approval handling for risky operations, and session persistence.
+  - Tags: agentic coding, AI agents, automation, code generation, command line, terminal, source: Python
 - MinIO [🛈](https://github.com/minio/minio)
   - A high-performance, S3-compatible object storage solution designed for speed and scalability, powering AI/ML and data-intensive workloads.
   - Tags: cloud, file storage, S3, storage, source: Go
@@ -1028,6 +1034,9 @@ Some descriptions are from:
 - Niquests [🛈](https://github.com/jawah/niquests)
   - Drop-in replacement for Python Requests with HTTP/1.1, HTTP/2, HTTP/3, WebSocket, async support, DNS-over-HTTPS, and connection multiplexing.
   - Tags: API, library, network, requests, source: Python
+- NitroGen [🛈](https://github.com/MineDojo/NitroGen)
+  - An open-source 500M parameter foundation model that enables AI agents to play video games by accepting visual input and outputting gamepad commands, trained via behavior cloning on internet gameplay videos.
+  - Tags: AI agents, computer vision, Deep Learning, play video games, source: Python
 - nnn [🛈](https://github.com/jarun/nnn)
   - A full-featured terminal file manager that is tiny, nearly zero-config, and incredibly fast with minimal resource usage.
   - Tags: command line, file manager, terminal, source: C
@@ -1751,6 +1760,9 @@ Some descriptions are from:
 - Whosthere [🛈](https://github.com/ramonvermeulen/whosthere)
   - A local network discovery tool with an interactive TUI that identifies devices using mDNS, SSDP, and ARP cache reading, with integrated port scanning and OUI lookups.
   - Tags: network, network scan, terminal interface, source: Go
+- Win11Debloat [🛈](https://github.com/Raphire/Win11Debloat)
+  - A lightweight PowerShell utility to remove bloatware, disable telemetry, and customize Windows 10 and Windows 11 system settings.
+  - Tags: customizing, privacy, system settings, Windows, source: PowerShell
 - Windows [🛈](https://github.com/dockur/windows)
   - A Docker container solution that enables users to run Windows operating systems virtualized inside Docker, complete with automatic ISO downloading, KVM acceleration, and a web-based viewer interface.
   - Tags: container, docker, Windows, source: Shell
@@ -1839,8 +1851,8 @@ List of tags with occurrences in the brackets:
 
 - 3D image generation (1)
 - agent builder (3)
-- agentic coding (7)
-- AI agents (21)
+- agentic coding (8)
+- AI agents (23)
 - AI evaluation (2)
 - AI personal assistant (3)
 - AI powered (68)
@@ -1858,7 +1870,7 @@ List of tags with occurrences in the brackets:
 - authentication (2)
 - autocomplete (1)
 - automate pull requests (2)
-- automation (29)
+- automation (30)
 - awesome-list (1)
 - backup (3)
 - benchmarking (1)
@@ -1879,13 +1891,13 @@ List of tags with occurrences in the brackets:
 - code completion (4)
 - code execution (2)
 - code formatting (2)
-- code generation (8)
+- code generation (9)
 - code quality (2)
 - code review (2)
 - code search (5)
 - code statistics (1)
 - coloring (1)
-- command line (204)
+- command line (205)
 - command line: cat (1)
 - command line: cd (1)
 - command line: diff (3)
@@ -1912,7 +1924,7 @@ List of tags with occurrences in the brackets:
 - commit message (1)
 - compiler (3)
 - compression (7)
-- computer vision (3)
+- computer vision (4)
 - configuration (6)
 - configuration distribution (1)
 - container (20)
@@ -1922,7 +1934,7 @@ List of tags with occurrences in the brackets:
 - cron (1)
 - cross-platform (33)
 - CSV (7)
-- customizing (3)
+- customizing (4)
 - dashboard (11)
 - data anonymization (1)
 - data format (5)
@@ -1943,7 +1955,7 @@ List of tags with occurrences in the brackets:
 - debugging (6)
 - decompression (4)
 - deduplication (8)
-- Deep Learning (39)
+- Deep Learning (40)
 - Deep Learning framework (4)
 - deepfake (1)
 - deletion tool (4)
@@ -2056,7 +2068,7 @@ List of tags with occurrences in the brackets:
 - Machine Translation (1)
 - MacOS (1)
 - makefile (3)
-- management (15)
+- management (16)
 - managing experiment (1)
 - Markdown (5)
 - matplot (1)
@@ -2107,12 +2119,13 @@ List of tags with occurrences in the brackets:
 - pipeline (2)
 - platform (5)
 - Platform-as-a-Service (1)
+- play video games (1)
 - PNG (1)
 - Polars (1)
 - PostgreSQL (7)
 - presentation (2)
 - printing file (1)
-- privacy (7)
+- privacy (8)
 - Privileged Access Management (PAM) (1)
 - process management (2)
 - profiler (3)
@@ -2169,14 +2182,15 @@ List of tags with occurrences in the brackets:
 - source: Clojure (1)
 - source: Dart (1)
 - source: Elixir (1)
-- source: Go (79)
+- source: Go (80)
 - source: HTML (1)
 - source: Java (5)
 - source: JavaScript (18)
 - source: Kotlin (1)
 - source: Lua (1)
 - source: PHP (1)
-- source: Python (167)
+- source: PowerShell (1)
+- source: Python (169)
 - source: Ruby (5)
 - source: Rust (128)
 - source: Shell (10)
@@ -2189,7 +2203,8 @@ List of tags with occurrences in the brackets:
 - SQL (9)
 - SQL injection (1)
 - SQLite (5)
-- ssh (7)
+- ssh (8)
+- ssh management (1)
 - SSL (1)
 - static code analyzer (2)
 - static site (1)
@@ -2202,11 +2217,12 @@ List of tags with occurrences in the brackets:
 - syntax highlighting (2)
 - system call (1)
 - system events (1)
+- system settings (1)
 - TCP (3)
 - templater (1)
-- terminal (29)
+- terminal (30)
 - terminal emulator (3)
-- terminal interface (17)
+- terminal interface (18)
 - terminal multiplexer (1)
 - testing API (4)
 - text (1)
@@ -2255,7 +2271,7 @@ List of tags with occurrences in the brackets:
 - webhooks (1)
 - website (1)
 - Wikipedia (1)
-- Windows (1)
+- Windows (2)
 - workflow (4)
 - XML (4)
 - YAML (5)
