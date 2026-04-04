@@ -566,6 +566,7 @@ def index_page() -> None:
                         on_click=lambda: _save_unmerged(unmerged_indices),
                     ).props("icon=save")
                 ui.button("Back to Review", on_click=_show_review).props("flat icon=arrow_back")
+                ui.button("Back to Main Page", on_click=_show_main_menu).props("flat icon=home")
 
     def _do_merge(accepted_indices: list[int]) -> None:
         """Perform the merge of accepted entries."""
