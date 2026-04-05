@@ -1089,6 +1089,22 @@
         ]
     },
     {
+        "name": "CyScan",
+        "url": "https://cyscan.io/",
+        "description": "Professional-grade website scanner with threat intelligence analysis. Discovers hidden endpoints, performs passive DNS enumeration, directory fuzzing, redirect chain analysis, and captures multi-device screenshots.",
+        "tags": [
+            "DNS",
+            "network scan",
+            "No source code",
+            "OSINT",
+            "screenshot",
+            "security",
+            "SSL",
+            "vulnerability scanner",
+            "website"
+        ]
+    },
+    {
         "name": "daktilo",
         "url": "https://github.com/orhun/daktilo",
         "description": "daktilo is a small command-line program that plays typewriter sounds every time you press a key.",
@@ -1432,6 +1448,20 @@
             "DNS",
             "network",
             "source: Go"
+        ]
+    },
+    {
+        "name": "Domain Digger",
+        "url": "https://github.com/wotschofsky/domain-digger",
+        "description": "Full toolkit for next-level domain analysis with comprehensive DNS lookups, global resolver queries, IP geolocation, WHOIS lookup, and SSL certificate history.",
+        "tags": [
+            "DNS",
+            "geolocation",
+            "OSINT",
+            "security",
+            "SSL",
+            "website",
+            "source: TypeScript"
         ]
     },
     {
@@ -6521,6 +6551,21 @@
             "Android",
             "container",
             "source: Python"
+        ]
+    },
+    {
+        "name": "Web-Check",
+        "url": "https://github.com/lissy93/web-check",
+        "description": "All-in-one OSINT tool for comprehensive website analysis, revealing IP info, SSL certificates, DNS records, server headers, redirect chains, and more.",
+        "tags": [
+            "DNS",
+            "geolocation",
+            "network scan",
+            "OSINT",
+            "security",
+            "SSL",
+            "website",
+            "source: TypeScript"
         ]
     },
     {

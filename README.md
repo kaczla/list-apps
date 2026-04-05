@@ -290,6 +290,9 @@ Some descriptions are from:
 - Cutter [🛈](https://github.com/rizinorg/cutter)
   - Free and open-source reverse engineering platform powered by rizin, providing an advanced customizable GUI for binary analysis and debugging.
   - Tags: analysis, debugger, forensics, GUI, reverse engineering, source: C++
+- CyScan [🛈](https://cyscan.io/)
+  - Professional-grade website scanner with threat intelligence analysis. Discovers hidden endpoints, performs passive DNS enumeration, directory fuzzing, redirect chain analysis, and captures multi-device screenshots.
+  - Tags: DNS, network scan, No source code, OSINT, screenshot, security, SSL, vulnerability scanner, website
 - daktilo [🛈](https://github.com/orhun/daktilo)
   - daktilo is a small command-line program that plays typewriter sounds every time you press a key.
   - Tags: command line, sounds, source: Rust
@@ -380,6 +383,9 @@ Some descriptions are from:
 - doggo [🛈](https://github.com/mr-karan/doggo)
   - A modern command-line DNS client with human-readable output and support for advanced DNS protocols like DoH, DoT, DoQ, and DNSCrypt.
   - Tags: command line, cross-platform, debugging, DNS, network, source: Go
+- Domain Digger [🛈](https://github.com/wotschofsky/domain-digger)
+  - Full toolkit for next-level domain analysis with comprehensive DNS lookups, global resolver queries, IP geolocation, WHOIS lookup, and SSL certificate history.
+  - Tags: DNS, geolocation, OSINT, security, SSL, website, source: TypeScript
 - dotenvx [🛈](https://github.com/dotenvx/dotenvx)
   - A secure environment variable management tool with cross-platform support, multi-environment handling, and encryption using public-key cryptography.
   - Tags: command line, configuration, encryption, environment variables, source: JavaScript
@@ -1736,6 +1742,9 @@ Some descriptions are from:
 - Waydroid [🛈](https://github.com/waydroid/waydroid)
   - A container-based approach to boot a full Android system on GNU/Linux, enabling Android apps on regular Linux desktops using Linux namespaces.
   - Tags: Android, container, source: Python
+- Web-Check [🛈](https://github.com/lissy93/web-check)
+  - All-in-one OSINT tool for comprehensive website analysis, revealing IP info, SSL certificates, DNS records, server headers, redirect chains, and more.
+  - Tags: DNS, geolocation, network scan, OSINT, security, SSL, website, source: TypeScript
 - Werk [🛈](https://github.com/simonask/werk)
   - A simplistic command runner and build system combining features of just and make, with task dependency management and VS Code language extension support.
   - Tags: build system, command line, command runner, makefile, command line: make, source: Rust
@@ -1968,7 +1977,7 @@ List of tags with occurrences in the brackets:
 - Diffusion Model (9)
 - disk utility (5)
 - distribution (2)
-- DNS (1)
+- DNS (4)
 - docker (15)
 - docker-compose (1)
 - documentation (4)
@@ -2011,7 +2020,7 @@ List of tags with occurrences in the brackets:
 - fuzzy search (3)
 - gateway (1)
 - Gemini (1)
-- geolocation (1)
+- geolocation (3)
 - git (20)
 - GitHub actions (2)
 - Google Analytics (1)
@@ -2088,9 +2097,9 @@ List of tags with occurrences in the brackets:
 - Natural Language Processing (6)
 - NeRFs (1)
 - network (29)
-- network scan (6)
+- network scan (8)
 - nixpkgs (1)
-- No source code (2)
+- No source code (3)
 - note (3)
 - Notebook (7)
 - notification (2)
@@ -2105,7 +2114,7 @@ List of tags with occurrences in the brackets:
 - operating system (1)
 - orchestrator (6)
 - OS disk (1)
-- OSINT (3)
+- OSINT (6)
 - P2P (6)
 - package installer (3)
 - package manager (5)
@@ -2156,12 +2165,12 @@ List of tags with occurrences in the brackets:
 - S3 (7)
 - scheduler (4)
 - schema validation (1)
-- screenshot (1)
+- screenshot (2)
 - search engine (1)
 - searching (15)
 - secret management (3)
 - secrets detector (2)
-- security (29)
+- security (32)
 - self-hosted (23)
 - self-replace (1)
 - semantic search (5)
@@ -2194,7 +2203,7 @@ List of tags with occurrences in the brackets:
 - source: Ruby (5)
 - source: Rust (128)
 - source: Shell (10)
-- source: TypeScript (63)
+- source: TypeScript (65)
 - source: Zig (3)
 - space (1)
 - speech generation (8)
@@ -2205,7 +2214,7 @@ List of tags with occurrences in the brackets:
 - SQLite (5)
 - ssh (8)
 - ssh management (1)
-- SSL (1)
+- SSL (4)
 - static code analyzer (2)
 - static site (1)
 - statistics (3)
@@ -2260,7 +2269,7 @@ List of tags with occurrences in the brackets:
 - visualizer (1)
 - voice cloning (3)
 - VPN (2)
-- vulnerability scanner (9)
+- vulnerability scanner (10)
 - weather (1)
 - web browser (8)
 - web page (7)
@@ -2269,7 +2278,7 @@ List of tags with occurrences in the brackets:
 - web-browser extension (2)
 - WebAssembly (2)
 - webhooks (1)
-- website (1)
+- website (4)
 - Wikipedia (1)
 - Windows (2)
 - workflow (4)

@@ -19,15 +19,15 @@ make format        # Format code with ruff
 make type_check    # Run mypy type checking
 
 # Generate README from applications.json
-uv run python -m list_app.generate_readme
+./run.sh generate-readme
 
 # Merge new applications from JSON file
-uv run python -m list_app.merge_json new_apps.json
-uv run python -m list_app.merge_json new_apps.json --dry-run  # Preview changes
+./run.sh merge new_apps.json
+./run.sh merge new_apps.json --dry-run  # Preview changes
 
 # Review new applications via browser UI (NiceGUI)
-uv run python -m list_app.review_app new_apps.json
-uv run python -m list_app.review_app new_apps.json --port 9090  # Custom port
+./run.sh review new_apps.json
+./run.sh review new_apps.json --port 9090  # Custom port
 ```
 
 ## Adding New Applications
@@ -86,16 +86,16 @@ Create a JSON file with the current date and time in the name using format `YYYY
 **Option A: Direct merge (no review)**
 
 ```bash
-uv run python -m list_app.merge_json new_apps_20240115T1430.json --dry-run  # Preview first
-uv run python -m list_app.merge_json new_apps_20240115T1430.json            # Apply changes
-uv run python -m list_app.generate_readme                                   # Generate README
+./run.sh merge new_apps_20240115T1430.json --dry-run  # Preview first
+./run.sh merge new_apps_20240115T1430.json            # Apply changes
+./run.sh generate-readme                              # Generate README
 ```
 
 **Option B: Interactive review via browser UI**
 
 ```bash
-uv run python -m list_app.review_app new_apps_20240115T1430.json            # Opens browser UI on default port
-uv run python -m list_app.review_app new_apps_20240115T1430.json --port 9090  # Custom port
+./run.sh review new_apps_20240115T1430.json            # Opens browser UI on default port
+./run.sh review new_apps_20240115T1430.json --port 9090  # Custom port
 ```
 
 The review UI lets you inspect each app (with iframe preview), edit name/description/tags, and then merge and generate the README from within the browser.
