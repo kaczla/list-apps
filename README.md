@@ -77,6 +77,9 @@ Some descriptions are from:
 - atpbar [🛈](https://github.com/alphatwirl/atpbar)
   - A Python library that displays multiple progress bars simultaneously for threading and multiprocessing tasks, functioning on both terminal and Jupyter Notebook environments.
   - Tags: Jupyter, library, parallel, progress bar, source: Python
+- atuin [🛈](https://github.com/atuinsh/atuin)
+  - Shell history replacement that stores commands in a local SQLite database with rich metadata (exit code, duration, hostname), a full-screen search UI, and optional encrypted cross-machine synchronisation.
+  - Tags: command line, history, shell, SQLite, syncing, source: Rust
 - AudioCraft [🛈](https://github.com/facebookresearch/audiocraft)
   - AudioCraft is a PyTorch library for deep learning research on audio generation.
   - Tags: audio generation, Deep Learning, music generation, speech generation, source: Python
@@ -196,7 +199,7 @@ Some descriptions are from:
   - Tags: configuration, configuration distribution, dotfile, management, source: Go
 - Claude Code [🛈](https://github.com/anthropics/claude-code)
   - An agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining code, and handling git workflows through natural language commands.
-  - Tags: agentic coding, AI powered, automation, code generation, command line, terminal, source: Python, source: Shell
+  - Tags: agentic coding, AI powered, automation, Claude Code, code generation, command line, terminal, source: Python, source: Shell
 - Cline [🛈](https://github.com/cline/cline)
   - An AI-powered coding assistant integrated into VS Code that autonomously handles complex development tasks, including file creation/editing, terminal commands, browser automation, and custom tool extensions.
   - Tags: AI powered, automation, code generation, source: TypeScript
@@ -374,6 +377,9 @@ Some descriptions are from:
 - dockerc [🛈](https://github.com/NilsIrl/dockerc)
   - A compiler that transforms Docker container images into standalone, portable executable binaries for direct distribution without requiring Docker installation, supporting rootless execution and cross-architecture builds.
   - Tags: container, cross-platform, docker, single-binary, source: Zig
+- dockerfile-roast [🛈](https://github.com/immanuwell/dockerfile-roast)
+  - An opinionated Dockerfile linter that enforces 63 rules covering security, best practices, and layer optimization, with VS Code extension, GitHub Actions integration, and SARIF output support.
+  - Tags: docker, linter, source: Rust
 - Dockerman [🛈](https://github.com/ZingerLittleBee/dockerman.app)
   - A modern, lightweight Docker management UI built with Tauri and React that provides a clean interface for managing Docker containers, images, networks, and volumes.
   - Tags: container, docker, GUI, monitoring, source: TypeScript
@@ -455,6 +461,9 @@ Some descriptions are from:
 - extremely-linear [🛈](https://github.com/zegl/extremely-linear)
   - Extremely Linear Git History. Create meaningful checksums: The first commit is 0000000, then 0000001, then 0000002.
   - Tags: command line, git
+- eza [🛈](https://github.com/eza-community/eza)
+  - A modern replacement for ls with colour-coded output, Git status integration, icons, tree view, and extended attribute display.
+  - Tags: command line, file listing, git, shell, command line: ls, source: Rust
 - F2 [🛈](https://github.com/ayoisaiah/f2)
   - A cross-platform command-line utility for bulk file and directory renaming operations with dry-run mode by default, supporting EXIF/ID3 tags, regex, and conflict detection.
   - Tags: command line, cross-platform, file manager, regex, rename, source: Go
@@ -509,6 +518,9 @@ Some descriptions are from:
 - Fooocus [🛈](https://github.com/lllyasviel/Fooocus)
   - Fooocus is an image generating software.
   - Tags: Deep Learning, Diffusion Model, GUI, image generation, source: Python
+- free-claude-code [🛈](https://github.com/Alishahryar1/free-claude-code)
+  - A lightweight proxy that routes Claude Code's API calls to alternative LLM providers (NVIDIA NIM, OpenRouter, DeepSeek, LM Studio, llama.cpp) without requiring an Anthropic API key.
+  - Tags: Claude Code, LLM gateway, proxy, source: Python
 - Frogmouth [🛈](https://github.com/Textualize/frogmouth)
   - Frogmouth is a Markdown viewer / browser for your terminal, built with Textual.
   - Tags: command line, Markdown, viewer, source: Python
@@ -560,6 +572,9 @@ Some descriptions are from:
 - gitingest [🛈](https://github.com/coderamp-labs/gitingest)
   - Transforms any Git repository into a prompt-friendly text digest for LLMs, with statistics on file structure, size, and token counts. Available as a web app, CLI tool, Python package, and browser extension.
   - Tags: content extractor, git, LLM-ready, source: Python
+- GitNexus [🛈](https://github.com/abhigyanpatwari/GitNexus)
+  - A client-side knowledge graph builder that indexes codebases into dependency graphs, call chains, and execution flows, then exposes them via MCP tools for AI agents to analyze code with full architectural awareness.
+  - Tags: agentic coding, code search, knowledge graph, source: TypeScript
 - GitTools [🛈](https://github.com/internetwache/GitTools)
   - A toolkit containing three scripts designed for Git security research to identify publicly exposed .git repositories on websites and extract their contents.
   - Tags: penetration tests, security, vulnerability scanner, source: Python
@@ -887,6 +902,9 @@ Some descriptions are from:
 - Local AI Stack [🛈](https://github.com/ykhli/local-ai-stack)
   - AI Getting Started is a starter kit to build local-only AI apps that cost $0 to run -- starting with document Q&A.
   - Tags: Deep Learning, platform, source: TypeScript
+- loongclaw [🛈](https://github.com/loongclaw-ai/loongclaw)
+  - A Rust-based agent infrastructure framework for vertical AI agents with 42+ built-in providers, 25+ channel integrations, and configuration-driven deployment.
+  - Tags: AI agents, AI personal assistant, source: Rust
 - LotusDB [🛈](https://github.com/lotusdblabs/lotusdb)
   - LotusDB is the most advanced key-value store written in Go, extremely fast, compatible with LSM tree and B+ tree, and optimization of badger and bbolt.
   - Tags: database, key-value store, source: Go
@@ -965,6 +983,9 @@ Some descriptions are from:
 - mgrep [🛈](https://github.com/mixedbread-ai/mgrep)
   - A CLI tool that enables semantic, AI-powered search across code, images, PDFs, and text files using natural language queries, designed as an intelligent complement to traditional grep.
   - Tags: command line, semantic search, command line: grep, source: TypeScript
+- microclaw [🛈](https://github.com/microclaw/microclaw)
+  - An agentic AI assistant runtime in Rust that operates across Telegram, Discord, Slack, Feishu, IRC, and Web with persistent memory, scheduled tasks, sub-agents, MCP support, and OpenTelemetry observability.
+  - Tags: AI agents, AI personal assistant, source: Rust
 - Milvus [🛈](https://github.com/milvus-io/milvus)
   - Milvus is an open-source vector database built to power embedding similarity search and AI applications. It makes unstructured data search more accessible and provides a consistent user experience regardless of the deployment environment. All components in Milvus are stateless to enhance elasticity and flexibility.
   - Tags: database, image, platform, searching, unstructured data, vector database
@@ -986,6 +1007,9 @@ Some descriptions are from:
 - MLC LLM [🛈](https://github.com/mlc-ai/mlc-llm)
   - Universal LLM Deployment Engine with ML Compilation that enables development, optimization, and deployment of AI models across multiple platforms.
   - Tags: compiler, GPU, Language Model, source: Python
+- moltis [🛈](https://github.com/moltis-org/moltis)
+  - A secure, self-hosted persistent agent server in Rust with voice I/O, sandboxed execution, memory/RAG, MCP tools, and multi-channel messaging support (Telegram, Discord, Signal, Teams, WhatsApp, Matrix, Slack).
+  - Tags: AI agents, AI personal assistant, source: Rust
 - MongoDB [🛈](https://github.com/mongodb/mongo)
   - MongoDB is a flexible and scalable database software that supports transactional, searching, analytics, and mobile use cases with a common query interface and a document data model.
   - Tags: database, source: C++
@@ -998,9 +1022,15 @@ Some descriptions are from:
 - MySQL [🛈](https://github.com/mysql/mysql-server)
   - MySQL Server, the world's most popular open source database, and MySQL Cluster, a real-time, open source transactional database.
   - Tags: database, source: C++
+- nanobot [🛈](https://github.com/HKUDS/nanobot)
+  - An open-source, ultra-lightweight AI agent framework in Python with multi-channel chat support (Telegram, Discord, WeChat, Slack, Email), memory management, MCP integration, and OpenAI-compatible API.
+  - Tags: AI agents, AI personal assistant, source: Python
 - nanochat [🛈](https://github.com/karpathy/nanochat)
   - The simplest experimental harness for training LLMs designed to run on a single GPU node, covering all major stages from tokenization through inference.
   - Tags: chat, Language Model, training, source: Python
+- nanoclaw [🛈](https://github.com/qwibitai/nanoclaw)
+  - A containerized AI assistant framework that runs Claude agents in isolated Docker containers with multi-channel messaging support (WhatsApp, Telegram, Discord, Slack, Teams) and credential security via agent vault.
+  - Tags: AI agents, AI personal assistant, source: TypeScript
 - nat [🛈](https://github.com/willdoescode/nat)
   - nat is an alternative of ls command line with useful info and a splash of color.
   - Tags: command line, file listing, command line: ls, source: Rust
@@ -1082,6 +1112,9 @@ Some descriptions are from:
 - open-interpreter [🛈](https://github.com/OpenInterpreter/open-interpreter)
   - A natural language interface for computers that allows LLMs to run Python, JavaScript, Shell, and other code locally with user approval, overcoming ChatGPT Code Interpreter limitations.
   - Tags: AI powered, automation, code execution, command line, interactive, Language Model, source: Python
+- openclaw [🛈](https://github.com/openclaw/openclaw)
+  - A local-first personal AI assistant gateway integrating with 15+ messaging platforms (WhatsApp, Telegram, Slack, Discord, iMessage) with voice mode, live Canvas interface, and multi-agent routing.
+  - Tags: AI agents, AI personal assistant, source: TypeScript
 - OpenCode [🛈](https://github.com/anomalyco/opencode/)
   - An open source AI coding agent that functions as a terminal-based alternative to Claude Code, enabling developers to write and manage code with AI assistance.
   - Tags: AI powered, automation, code generation, command line, source: TypeScript
@@ -1166,6 +1199,9 @@ Some descriptions are from:
 - pico.sh [🛈](https://github.com/picosh/pico)
   - Open source web services that leverage SSH for content publishing and management, enabling developers to deploy sites, share code, and manage blogs without additional installations.
   - Tags: self-hosted, ssh, static site, tunneling, web page, source: Go
+- picoclaw [🛈](https://github.com/sipeed/picoclaw)
+  - An ultra-lightweight personal AI assistant written in Go that runs on $10 embedded hardware with under 10 MB of RAM, supporting 30+ LLM providers, 18+ messaging channels, and MCP integration.
+  - Tags: AI agents, AI personal assistant, source: Go
 - Piko [🛈](https://github.com/andydunstall/piko)
   - An open-source reverse proxy enabling secure connections to non-publicly routable services through outbound-only tunnels, with clustering support for fault tolerance and horizontal scaling.
   - Tags: kubernetes, network, proxy, reverse proxy, source: Go
@@ -1301,6 +1337,9 @@ Some descriptions are from:
 - Quary [🛈](https://github.com/quarylabs/quary)
   - Open-source business intelligence platform for engineers that enables database connections, SQL-based data transformations, and model deployment with version control.
   - Tags: analytics, database, GUI, source: Rust
+- RackPeek [🛈](https://github.com/Timmoth/RackPeek)
+  - A web UI and CLI tool for documenting and managing home lab infrastructure, tracking hardware, services, and networks with an Ansible inventory generator and YAML-based configuration storage.
+  - Tags: command line, GUI, homelab, network, source: C#
 - Raijin [🛈](https://github.com/MasonStooksbury/Raijin)
   - A terminal-based weather application that retrieves meteorological data without requiring API keys, user accounts, or subscriptions.
   - Tags: command line, terminal interface, weather, source: Rust
@@ -1442,6 +1481,9 @@ Some descriptions are from:
 - Sherlock [🛈](https://github.com/sherlock-project/sherlock)
   - A command-line tool that hunts for usernames across 400+ social networks simultaneously to locate online accounts associated with a target username.
   - Tags: command line, OSINT, social media, username search, source: Python
+- sidecar [🛈](https://github.com/marcus/sidecar)
+  - A terminal UI for agentic coding workflows that integrates with Claude Code, Cursor, Codex, and other AI coding agents, providing git diffs, file browsing, conversation history, and workspace management in the shell.
+  - Tags: agentic coding, management, terminal interface, source: Go
 - sidekick [🛈](https://github.com/MightyMoud/sidekick)
   - A CLI tool for VPS deployment that provides Heroku-like simplicity with Docker, Traefik, automatic SSL, zero-downtime deployments, and built-in secret management via SOPS.
   - Tags: automation, CI/CD, command line, deployments, source: Go
@@ -1520,6 +1562,9 @@ Some descriptions are from:
 - starry-night [🛈](https://github.com/wooorm/starry-night)
   - Syntax highlighting, like what GitHub uses to highlight code, but free and open source and JavaScript!
   - Tags: syntax highlighting, source: JavaScript
+- starship [🛈](https://github.com/starship/starship)
+  - A minimal, blazing-fast, and infinitely customizable cross-platform shell prompt that works across all major shells and operating systems, with Git integration and language version indicators.
+  - Tags: command line, cross-platform, customizing, shell, terminal, source: Rust
 - STORM [🛈](https://github.com/stanford-oval/storm)
   - An AI system that researches topics and generates comprehensive Wikipedia-style articles with citations by conducting internet searches and simulating expert conversations.
   - Tags: AI powered, text generation, Wikipedia, source: Python
@@ -1835,6 +1880,9 @@ Some descriptions are from:
 - Zeroboot [🛈](https://github.com/zerobootdev/zeroboot)
   - A sandboxing system that creates sub-millisecond VM sandboxes for AI agents using copy-on-write Firecracker snapshots, providing hardware-enforced KVM isolation with ~0.79ms spawn latency and ~265KB memory per sandbox.
   - Tags: AI agents, isolation, source: Rust
+- zeroclaw [🛈](https://github.com/zeroclaw-labs/zeroclaw)
+  - A fully autonomous personal AI assistant written in Rust that runs on minimal hardware (under 5 MB RAM), connecting across 20+ messaging platforms with sandboxing, DM pairing, and approval gating.
+  - Tags: AI agents, AI personal assistant, source: Rust
 - Zev [🛈](https://github.com/dtnewman/zev)
   - A CLI tool that leverages LLM APIs to translate natural language queries into executable terminal commands, supporting multiple providers including OpenAI, Google Gemini, Ollama, and Azure OpenAI.
   - Tags: AI powered, command line, terminal, source: Python
@@ -1844,6 +1892,9 @@ Some descriptions are from:
 - Zoekt [🛈](https://github.com/sourcegraph/zoekt)
   - A fast trigram-based text search engine for source code supporting substring and regex matching with a rich query language, multi-repository search, and result ranking.
   - Tags: code search, full-text search, indexing, source: Go
+- zoxide [🛈](https://github.com/ajeetdsouza/zoxide)
+  - A smarter cd command that learns your most-used directories and lets you jump to them in a few keystrokes, with optional fuzzy finder integration via fzf.
+  - Tags: command line, fuzzy search, shell, command line: cd, source: Rust
 - zstd [🛈](https://github.com/facebook/zstd)
   - Zstandard, or zstd as short version, is a fast lossless compression algorithm, targeting real-time compression scenarios at zlib-level and better compression ratios.
   - Tags: command line, compression, decompression, source: C
@@ -1860,10 +1911,10 @@ List of tags with occurrences in the brackets:
 
 - 3D image generation (1)
 - agent builder (3)
-- agentic coding (8)
-- AI agents (23)
+- agentic coding (10)
+- AI agents (31)
 - AI evaluation (2)
-- AI personal assistant (3)
+- AI personal assistant (11)
 - AI powered (68)
 - alerts (4)
 - allocator (1)
@@ -1896,6 +1947,7 @@ List of tags with occurrences in the brackets:
 - chat (9)
 - cheat sheet (4)
 - CI/CD (5)
+- Claude Code (2)
 - cloud (7)
 - code completion (4)
 - code execution (2)
@@ -1903,12 +1955,12 @@ List of tags with occurrences in the brackets:
 - code generation (9)
 - code quality (2)
 - code review (2)
-- code search (5)
+- code search (6)
 - code statistics (1)
 - coloring (1)
-- command line (205)
+- command line (210)
 - command line: cat (1)
-- command line: cd (1)
+- command line: cd (2)
 - command line: diff (3)
 - command line: du (3)
 - command line: find (2)
@@ -1916,7 +1968,7 @@ List of tags with occurrences in the brackets:
 - command line: hexdump (1)
 - command line: jq (4)
 - command line: kill (1)
-- command line: ls (5)
+- command line: ls (6)
 - command line: make (3)
 - command line: mc (5)
 - command line: netstat (1)
@@ -1941,9 +1993,9 @@ List of tags with occurrences in the brackets:
 - context retrieval (1)
 - control desktop (1)
 - cron (1)
-- cross-platform (33)
+- cross-platform (34)
 - CSV (7)
-- customizing (4)
+- customizing (5)
 - dashboard (11)
 - data anonymization (1)
 - data format (5)
@@ -1978,7 +2030,7 @@ List of tags with occurrences in the brackets:
 - disk utility (5)
 - distribution (2)
 - DNS (4)
-- docker (15)
+- docker (16)
 - docker-compose (1)
 - documentation (4)
 - dotfile (3)
@@ -1997,7 +2049,7 @@ List of tags with occurrences in the brackets:
 - fake data (1)
 - file convert (3)
 - file detection (1)
-- file listing (5)
+- file listing (6)
 - file manager (9)
 - file searching (2)
 - file storage (7)
@@ -2017,23 +2069,23 @@ List of tags with occurrences in the brackets:
 - full-text search (5)
 - fun (1)
 - function calling (1)
-- fuzzy search (3)
+- fuzzy search (4)
 - gateway (1)
 - Gemini (1)
 - geolocation (3)
-- git (20)
+- git (21)
 - GitHub actions (2)
 - Google Analytics (1)
 - GPU (9)
 - gRPC (1)
-- GUI (42)
+- GUI (43)
 - guide (5)
 - help message (1)
 - hex viewer (1)
 - hide (1)
 - highlighter (1)
-- history (1)
-- homelab (1)
+- history (2)
+- homelab (2)
 - HTML (5)
 - HTTP client (1)
 - hypermedia (1)
@@ -2058,16 +2110,16 @@ List of tags with occurrences in the brackets:
 - key management (1)
 - key-value store (8)
 - killing process (1)
-- knowledge graph (1)
+- knowledge graph (2)
 - kubernetes (7)
 - language detection (2)
 - Language Model (37)
 - library (45)
 - link management (1)
-- linter (11)
+- linter (12)
 - Linux (7)
 - Linux kernel (1)
-- LLM gateway (3)
+- LLM gateway (4)
 - LLM management (5)
 - LLM-ready (4)
 - load balancer (2)
@@ -2077,7 +2129,7 @@ List of tags with occurrences in the brackets:
 - Machine Translation (1)
 - MacOS (1)
 - makefile (3)
-- management (16)
+- management (17)
 - managing experiment (1)
 - Markdown (5)
 - matplot (1)
@@ -2096,7 +2148,7 @@ List of tags with occurrences in the brackets:
 - NAS (1)
 - Natural Language Processing (6)
 - NeRFs (1)
-- network (29)
+- network (30)
 - network scan (8)
 - nixpkgs (1)
 - No source code (3)
@@ -2139,7 +2191,7 @@ List of tags with occurrences in the brackets:
 - process management (2)
 - profiler (3)
 - progress bar (2)
-- proxy (8)
+- proxy (9)
 - pull requests (3)
 - Python interpreter (2)
 - Python linter (7)
@@ -2178,7 +2230,7 @@ List of tags with occurrences in the brackets:
 - serialization (1)
 - server (3)
 - services (1)
-- shell (5)
+- shell (9)
 - shell script (3)
 - single-binary (3)
 - SMTP server (1)
@@ -2186,12 +2238,12 @@ List of tags with occurrences in the brackets:
 - sounds (2)
 - source control system (2)
 - source: C (27)
-- source: C# (2)
+- source: C# (3)
 - source: C++ (19)
 - source: Clojure (1)
 - source: Dart (1)
 - source: Elixir (1)
-- source: Go (80)
+- source: Go (82)
 - source: HTML (1)
 - source: Java (5)
 - source: JavaScript (18)
@@ -2199,11 +2251,11 @@ List of tags with occurrences in the brackets:
 - source: Lua (1)
 - source: PHP (1)
 - source: PowerShell (1)
-- source: Python (169)
+- source: Python (171)
 - source: Ruby (5)
-- source: Rust (128)
+- source: Rust (137)
 - source: Shell (10)
-- source: TypeScript (65)
+- source: TypeScript (68)
 - source: Zig (3)
 - space (1)
 - speech generation (8)
@@ -2211,7 +2263,7 @@ List of tags with occurrences in the brackets:
 - spreadsheet (1)
 - SQL (9)
 - SQL injection (1)
-- SQLite (5)
+- SQLite (6)
 - ssh (8)
 - ssh management (1)
 - SSL (4)
@@ -2222,16 +2274,16 @@ List of tags with occurrences in the brackets:
 - stream data (2)
 - streaming (1)
 - Supabase (1)
-- syncing (1)
+- syncing (2)
 - syntax highlighting (2)
 - system call (1)
 - system events (1)
 - system settings (1)
 - TCP (3)
 - templater (1)
-- terminal (30)
+- terminal (31)
 - terminal emulator (3)
-- terminal interface (18)
+- terminal interface (19)
 - terminal multiplexer (1)
 - testing API (4)
 - text (1)
