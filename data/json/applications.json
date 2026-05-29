@@ -22,6 +22,18 @@
         ]
     },
     {
+        "name": "AdGuard Home",
+        "url": "https://github.com/AdguardTeam/AdGuardHome",
+        "description": "A network-wide DNS server that blocks ads and trackers across all connected devices, with a built-in DHCP server, encrypted DNS support (DoH/DoT/DNSCrypt), and per-device filtering.",
+        "tags": [
+            "ad blocker",
+            "network",
+            "privacy",
+            "self-hosted",
+            "source: Go"
+        ]
+    },
+    {
         "name": "age",
         "url": "https://github.com/FiloSottile/age",
         "description": "A simple, modern and secure encryption tool (and Go library) with small explicit keys, no config options, and UNIX-style composability.",
@@ -321,6 +333,17 @@
         "tags": [
             "AI agents",
             "framework",
+            "source: Python"
+        ]
+    },
+    {
+        "name": "AutoRound",
+        "url": "https://github.com/intel/auto-round",
+        "description": "An advanced quantization toolkit for LLMs and vision-language models that achieves high accuracy at 2-4 bit widths with minimal tuning, exporting to AutoRound, AutoAWQ, AutoGPTQ, and GGUF formats.",
+        "tags": [
+            "Language Model",
+            "Machine Learning",
+            "quantization",
             "source: Python"
         ]
     },
@@ -770,6 +793,19 @@
             "commit message",
             "git",
             "source: Python"
+        ]
+    },
+    {
+        "name": "codedb",
+        "url": "https://github.com/justrach/codedb",
+        "description": "A code intelligence server for AI agents that provides structural indexing, full-text search, and dependency analysis through 21 MCP tools, using trigram indexing for fast pre-indexed queries.",
+        "tags": [
+            "code search",
+            "context retrieval",
+            "full-text search",
+            "indexing",
+            "Model Context Protocol (MCP)",
+            "source: Zig"
         ]
     },
     {
@@ -1300,6 +1336,15 @@
             "offline",
             "web browser",
             "source: Ruby"
+        ]
+    },
+    {
+        "name": "Developer Icons",
+        "url": "https://github.com/xandemon/developer-icons",
+        "description": "A curated collection of high-quality, customizable SVG tech icons for developers and designers, available as an NPM package and downloadable assets with light/dark variants.",
+        "tags": [
+            "icons",
+            "source: TypeScript"
         ]
     },
     {
@@ -1983,6 +2028,21 @@
         ]
     },
     {
+        "name": "Frigate",
+        "url": "https://github.com/blakeblackshear/frigate",
+        "description": "A complete local network video recorder (NVR) with real-time AI object detection on IP camera feeds, designed for Home Assistant with MQTT integration and motion-triggered recording.",
+        "tags": [
+            "AI powered",
+            "computer vision",
+            "IP camera",
+            "monitoring",
+            "object detection",
+            "self-hosted",
+            "video recording",
+            "source: TypeScript"
+        ]
+    },
+    {
         "name": "Frogmouth",
         "url": "https://github.com/Textualize/frogmouth",
         "description": "Frogmouth is a Markdown viewer / browser for your terminal, built with Textual.",
@@ -2507,6 +2567,20 @@
         ]
     },
     {
+        "name": "Home Assistant",
+        "url": "https://github.com/home-assistant/core",
+        "description": "An open source home automation platform emphasizing local control and privacy, with a modular architecture supporting diverse smart devices, automations, and a built-in dashboard.",
+        "tags": [
+            "automation",
+            "dashboard",
+            "home automation",
+            "privacy",
+            "self-hosted",
+            "smart home",
+            "source: Python"
+        ]
+    },
+    {
         "name": "htop",
         "url": "https://github.com/htop-dev/htop",
         "description": "htop - an interactive process viewer",
@@ -2700,6 +2774,18 @@
             "terminal",
             "visualization",
             "source: Python"
+        ]
+    },
+    {
+        "name": "Invidious",
+        "url": "https://github.com/iv-org/invidious",
+        "description": "An open source, privacy-focused alternative front-end to YouTube with no ads or tracking, supporting independent subscriptions, audio-only mode, and a public API for self-hosted deployment.",
+        "tags": [
+            "privacy",
+            "self-hosted",
+            "video",
+            "YouTube",
+            "source: Crystal"
         ]
     },
     {
@@ -3617,6 +3703,16 @@
         ]
     },
     {
+        "name": "Mattermost",
+        "url": "https://github.com/mattermost/mattermost",
+        "description": "An open source, self-hosted collaboration platform offering chat, workflow automation, voice calling, and screen sharing, deployable as a single Linux binary with a PostgreSQL backend.",
+        "tags": [
+            "chat",
+            "self-hosted",
+            "source: TypeScript"
+        ]
+    },
+    {
         "name": "Maxun",
         "url": "https://github.com/getmaxun/maxun",
         "description": "An open-source no-code platform that converts websites into structured APIs with AI-powered point-and-click data extraction, scheduled scraping, and auto-recovery from site updates.",
@@ -4370,6 +4466,17 @@
         ]
     },
     {
+        "name": "Overmind",
+        "url": "https://github.com/DarthSim/overmind",
+        "description": "A process manager for Procfile-based applications built on tmux, letting developers run multiple processes from one terminal while connecting to and restarting individual processes.",
+        "tags": [
+            "command line",
+            "developer environment",
+            "process management",
+            "source: Go"
+        ]
+    },
+    {
         "name": "oxker",
         "url": "https://github.com/mrjackwills/oxker",
         "description": "A terminal user interface for viewing and controlling Docker containers with real-time monitoring, log management, and interactive container operations.",
@@ -4435,6 +4542,17 @@
         "description": "Pelikan is framework for developing cache services.",
         "tags": [
             "caching"
+        ]
+    },
+    {
+        "name": "Penpot",
+        "url": "https://github.com/penpot/penpot",
+        "description": "An open source design platform for teams with real-time collaboration, design tokens, and an inspect mode for code generation, built on open standards like SVG, CSS, and HTML.",
+        "tags": [
+            "design tool",
+            "Model Context Protocol (MCP)",
+            "self-hosted",
+            "source: Clojure"
         ]
     },
     {
@@ -4510,6 +4628,19 @@
             "hide",
             "image",
             "source: C#"
+        ]
+    },
+    {
+        "name": "PhotoPrism",
+        "url": "https://github.com/photoprism/photoprism",
+        "description": "An AI-powered, self-hosted photo management application that automatically labels pictures by content and location, recognizes faces, and supports RAW images with WebDAV sync.",
+        "tags": [
+            "AI powered",
+            "face recognition",
+            "image",
+            "photo management",
+            "self-hosted",
+            "source: Go"
         ]
     },
     {
@@ -4667,6 +4798,19 @@
             "orchestrator",
             "proxy",
             "source: Rust"
+        ]
+    },
+    {
+        "name": "Plausible Analytics",
+        "url": "https://github.com/plausible/analytics",
+        "description": "An open source, privacy-first web analytics platform that is a lightweight, cookie-free alternative to Google Analytics, with a single-page dashboard and GDPR compliance.",
+        "tags": [
+            "analytics",
+            "dashboard",
+            "Google Analytics",
+            "privacy",
+            "self-hosted",
+            "source: Elixir"
         ]
     },
     {
@@ -5968,6 +6112,17 @@
         ]
     },
     {
+        "name": "Sync-in",
+        "url": "https://github.com/Sync-in/server",
+        "description": "A self-hosted platform for file storage, sharing, collaboration, and syncing, with OIDC/LDAP authentication, integrated document editing (Collabora/OnlyOffice), and WebDAV access.",
+        "tags": [
+            "file transfer",
+            "self-hosted",
+            "syncing",
+            "source: TypeScript"
+        ]
+    },
+    {
         "name": "sysm",
         "url": "https://github.com/jafarlihi/sysm",
         "description": "sysm makes your system play custom sounds when any configured system or external event happens.",
@@ -5975,6 +6130,18 @@
             "command line",
             "sounds",
             "system events"
+        ]
+    },
+    {
+        "name": "SysWatch",
+        "url": "https://github.com/matthart1983/syswatch",
+        "description": "A terminal-based system diagnostics tool that monitors CPU, memory, disks, processes, GPU, and network across twelve tabs, with plain-English anomaly detection and session scrubbing.",
+        "tags": [
+            "monitoring",
+            "process management",
+            "terminal interface",
+            "command line: top",
+            "source: Rust"
         ]
     },
     {
@@ -6836,6 +7003,15 @@
             "system settings",
             "Windows",
             "source: PowerShell"
+        ]
+    },
+    {
+        "name": "WinBoat",
+        "url": "https://github.com/TibixDev/winboat",
+        "description": "An Electron application that runs Windows applications natively on Linux as integrated desktop windows, using Docker/Podman containers and FreeRDP RemoteApp for seamless integration.",
+        "tags": [
+            "Windows-virtualization",
+            "source: TypeScript"
         ]
     },
     {

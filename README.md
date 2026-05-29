@@ -14,6 +14,9 @@ Some descriptions are from:
 - act [🛈](https://github.com/nektos/act)
   - Run your GitHub Actions locally.
   - Tags: automation, CI/CD, GitHub actions
+- AdGuard Home [🛈](https://github.com/AdguardTeam/AdGuardHome)
+  - A network-wide DNS server that blocks ads and trackers across all connected devices, with a built-in DHCP server, encrypted DNS support (DoH/DoT/DNSCrypt), and per-device filtering.
+  - Tags: ad blocker, network, privacy, self-hosted, source: Go
 - age [🛈](https://github.com/FiloSottile/age)
   - A simple, modern and secure encryption tool (and Go library) with small explicit keys, no config options, and UNIX-style composability.
   - Tags: command line, encryption
@@ -92,6 +95,9 @@ Some descriptions are from:
 - AutoGen [🛈](https://github.com/microsoft/autogen)
   - A framework for building multi-agent AI applications that operate autonomously or collaborate with humans, with layered APIs and developer tools.
   - Tags: AI agents, framework, source: Python
+- AutoRound [🛈](https://github.com/intel/auto-round)
+  - An advanced quantization toolkit for LLMs and vision-language models that achieves high accuracy at 2-4 bit widths with minimal tuning, exporting to AutoRound, AutoAWQ, AutoGPTQ, and GGUF formats.
+  - Tags: Language Model, Machine Learning, quantization, source: Python
 - AWS Secrets Manager Agent [🛈](https://github.com/aws/aws-secretsmanager-agent)
   - A local HTTP service for fetching and caching AWS Secrets Manager secrets in memory, with SSRF protection and support for Lambda, ECS, EKS, and EC2 environments.
   - Tags: caching, cloud, secret management, security, source: Rust
@@ -206,6 +212,9 @@ Some descriptions are from:
 - Cocommit [🛈](https://github.com/andrewromanenco/cocommit)
   - A command-line tool that analyzes your Git HEAD commit and uses an LLM to enhance commit quality by suggesting improvements to commit messages.
   - Tags: AI powered, automation, command line, commit message, git, source: Python
+- codedb [🛈](https://github.com/justrach/codedb)
+  - A code intelligence server for AI agents that provides structural indexing, full-text search, and dependency analysis through 21 MCP tools, using trigram indexing for fast pre-indexed queries.
+  - Tags: code search, context retrieval, full-text search, indexing, Model Context Protocol (MCP), source: Zig
 - Codel [🛈](https://github.com/semanser/codel)
   - Fully autonomous AI Agent that can perform complicated tasks using terminal, browser, and editor in a sandboxed Docker environment.
   - Tags: AI powered, docker, editor, GUI, Language Model, PostgreSQL, terminal, web browser, source: Go, source: TypeScript
@@ -344,6 +353,9 @@ Some descriptions are from:
 - DevDocs [🛈](https://github.com/freeCodeCamp/devdocs)
   - An API documentation browser that combines multiple developer documentations in a clean and organized web UI with instant search and offline support.
   - Tags: documentation, offline, web browser, source: Ruby
+- Developer Icons [🛈](https://github.com/xandemon/developer-icons)
+  - A curated collection of high-quality, customizable SVG tech icons for developers and designers, available as an NPM package and downloadable assets with light/dark variants.
+  - Tags: icons, source: TypeScript
 - devenv [🛈](https://github.com/cachix/devenv)
   - Fast, Declarative, Reproducible, and Composable Developer Environments
   - Tags: developer environment, environment manager, management
@@ -521,6 +533,9 @@ Some descriptions are from:
 - free-claude-code [🛈](https://github.com/Alishahryar1/free-claude-code)
   - A lightweight proxy that routes Claude Code's API calls to alternative LLM providers (NVIDIA NIM, OpenRouter, DeepSeek, LM Studio, llama.cpp) without requiring an Anthropic API key.
   - Tags: Claude Code, LLM gateway, proxy, source: Python
+- Frigate [🛈](https://github.com/blakeblackshear/frigate)
+  - A complete local network video recorder (NVR) with real-time AI object detection on IP camera feeds, designed for Home Assistant with MQTT integration and motion-triggered recording.
+  - Tags: AI powered, computer vision, IP camera, monitoring, object detection, self-hosted, video recording, source: TypeScript
 - Frogmouth [🛈](https://github.com/Textualize/frogmouth)
   - Frogmouth is a Markdown viewer / browser for your terminal, built with Textual.
   - Tags: command line, Markdown, viewer, source: Python
@@ -662,6 +677,9 @@ Some descriptions are from:
 - hl [🛈](https://github.com/pamburus/hl)
   - A high-performance log viewer and processor that transforms JSON and logfmt formatted logs into readable human-friendly output, capable of handling large files with minimal overhead.
   - Tags: command line, filtering, JSON, logs, terminal, viewer, source: Rust
+- Home Assistant [🛈](https://github.com/home-assistant/core)
+  - An open source home automation platform emphasizing local control and privacy, with a modular architecture supporting diverse smart devices, automations, and a built-in dashboard.
+  - Tags: automation, dashboard, home automation, privacy, self-hosted, smart home, source: Python
 - htop [🛈](https://github.com/htop-dev/htop)
   - htop - an interactive process viewer
   - Tags: command line, monitoring, command line: top
@@ -716,6 +734,9 @@ Some descriptions are from:
 - Intensify [🛈](https://github.com/swairshah/Intensify)
   - A Python package for colorizing terminal text based on intensity values, useful for visualizing probability, entropy, and token metrics through color gradients in CLI applications.
   - Tags: coloring, terminal, visualization, source: Python
+- Invidious [🛈](https://github.com/iv-org/invidious)
+  - An open source, privacy-focused alternative front-end to YouTube with no ads or tracking, supporting independent subscriptions, audio-only mode, and a public API for self-hosted deployment.
+  - Tags: privacy, self-hosted, video, YouTube, source: Crystal
 - Invio [🛈](https://github.com/kittendevv/Invio)
   - A self-hosted invoicing application that emphasizes simplicity and data ownership, allowing users to create invoices and process payments.
   - Tags: forms, invoice, self-hosted, source: TypeScript
@@ -953,6 +974,9 @@ Some descriptions are from:
 - matplotlib-gallery [🛈](https://github.com/rasbt/matplotlib-gallery)
   - This repository is a collection of different matplotlib plots in IPython notebooks that I needed for my data visualizations.
   - Tags: library, matplot, visualization, source: Python
+- Mattermost [🛈](https://github.com/mattermost/mattermost)
+  - An open source, self-hosted collaboration platform offering chat, workflow automation, voice calling, and screen sharing, deployable as a single Linux binary with a PostgreSQL backend.
+  - Tags: chat, self-hosted, source: TypeScript
 - Maxun [🛈](https://github.com/getmaxun/maxun)
   - An open-source no-code platform that converts websites into structured APIs with AI-powered point-and-click data extraction, scheduled scraping, and auto-recovery from site updates.
   - Tags: automation, content extractor, self-hosted, web scraper, source: TypeScript
@@ -1154,6 +1178,9 @@ Some descriptions are from:
 - Overlay [🛈](https://github.com/os-scar/overlay)
   - Overlay is a browser extension that helps developers evaluate open source packages before picking them. It gathers data from various sources, such as Snyk Advisor, Debricked, Socket.dev, and Deps.dev, and displays them on the package pages of popular registries like npm, PyPI, and Go.
   - Tags: security, web-browser extension, source: JavaScript
+- Overmind [🛈](https://github.com/DarthSim/overmind)
+  - A process manager for Procfile-based applications built on tmux, letting developers run multiple processes from one terminal while connecting to and restarting individual processes.
+  - Tags: command line, developer environment, process management, source: Go
 - oxker [🛈](https://github.com/mrjackwills/oxker)
   - A terminal user interface for viewing and controlling Docker containers with real-time monitoring, log management, and interactive container operations.
   - Tags: container, docker, monitoring, terminal interface, source: Rust
@@ -1172,6 +1199,9 @@ Some descriptions are from:
 - Pelikan [🛈](https://github.com/twitter/pelikan)
   - Pelikan is framework for developing cache services.
   - Tags: caching
+- Penpot [🛈](https://github.com/penpot/penpot)
+  - An open source design platform for teams with real-time collaboration, design tokens, and an inspect mode for code generation, built on open standards like SVG, CSS, and HTML.
+  - Tags: design tool, Model Context Protocol (MCP), self-hosted, source: Clojure
 - Perplexica [🛈](https://github.com/ItzCrazyKns/Perplexica)
   - A privacy-focused AI-powered search and answering engine operating entirely on user hardware with local and cloud-based language models.
   - Tags: AI powered, privacy, web search, source: TypeScript
@@ -1193,6 +1223,9 @@ Some descriptions are from:
 - PhotoFiremark [🛈](https://github.com/avestura/PhotoFiremark)
   - PhotoFiremark hides a photo in another photo
   - Tags: hide, image, source: C#
+- PhotoPrism [🛈](https://github.com/photoprism/photoprism)
+  - An AI-powered, self-hosted photo management application that automatically labels pictures by content and location, recognizes faces, and supports RAW images with WebDAV sync.
+  - Tags: AI powered, face recognition, image, photo management, self-hosted, source: Go
 - Pi.Alert [🛈](https://github.com/pucherot/Pi.Alert)
   - A network security monitoring system that continuously scans the network for new devices, disconnections, and IP changes while alerting you with unknown devices.
   - Tags: alerts, monitoring, network, security, web page, source: JavaScript
@@ -1235,6 +1268,9 @@ Some descriptions are from:
 - Plano [🛈](https://github.com/katanemo/plano)
   - AI-native proxy server and data plane for agentic apps with agent orchestration, model routing, OpenTelemetry tracing, and safety guardrails.
   - Tags: AI powered, LLM gateway, monitoring, orchestrator, proxy, source: Rust
+- Plausible Analytics [🛈](https://github.com/plausible/analytics)
+  - An open source, privacy-first web analytics platform that is a lightweight, cookie-free alternative to Google Analytics, with a single-page dashboard and GDPR compliance.
+  - Tags: analytics, dashboard, Google Analytics, privacy, self-hosted, source: Elixir
 - pls [🛈](https://github.com/dhruvkb/pls)
   - pls is a pretty and powerful ls. It works in a similar way to ls, but it adds many more developer-friendly features, such as node filters, file sorting based on attributes, a details view, and more. pls is a simple tool for looking at the contents of directories and not a complete replacement for ls.
   - Tags: command line, file listing, command line: ls
@@ -1580,9 +1616,15 @@ Some descriptions are from:
 - Surya [🛈](https://github.com/VikParuchuri/surya)
   - Surya is a document OCR toolkit.
   - Tags: OCR, source: Python
+- Sync-in [🛈](https://github.com/Sync-in/server)
+  - A self-hosted platform for file storage, sharing, collaboration, and syncing, with OIDC/LDAP authentication, integrated document editing (Collabora/OnlyOffice), and WebDAV access.
+  - Tags: file transfer, self-hosted, syncing, source: TypeScript
 - sysm [🛈](https://github.com/jafarlihi/sysm)
   - sysm makes your system play custom sounds when any configured system or external event happens.
   - Tags: command line, sounds, system events
+- SysWatch [🛈](https://github.com/matthart1983/syswatch)
+  - A terminal-based system diagnostics tool that monitors CPU, memory, disks, processes, GPU, and network across twelve tabs, with plain-English anomaly detection and session scrubbing.
+  - Tags: monitoring, process management, terminal interface, command line: top, source: Rust
 - Tabby [🛈](https://github.com/TabbyML/tabby)
   - Tabby is a self-hosted AI coding assistant. An opensource / on-prem alternative to GitHub Copilot.
   - Tags: code completion, Deep Learning, source: Python
@@ -1817,6 +1859,9 @@ Some descriptions are from:
 - Win11Debloat [🛈](https://github.com/Raphire/Win11Debloat)
   - A lightweight PowerShell utility to remove bloatware, disable telemetry, and customize Windows 10 and Windows 11 system settings.
   - Tags: customizing, privacy, system settings, Windows, source: PowerShell
+- WinBoat [🛈](https://github.com/TibixDev/winboat)
+  - An Electron application that runs Windows applications natively on Linux as integrated desktop windows, using Docker/Podman containers and FreeRDP RemoteApp for seamless integration.
+  - Tags: Windows-virtualization, source: TypeScript
 - Windows [🛈](https://github.com/dockur/windows)
   - A Docker container solution that enables users to run Windows operating systems virtualized inside Docker, complete with automatic ISO downloading, KVM acceleration, and a web-based viewer interface.
   - Tags: container, docker, Windows, source: Shell
@@ -1910,17 +1955,18 @@ Some descriptions are from:
 List of tags with occurrences in the brackets:
 
 - 3D image generation (1)
+- ad blocker (1)
 - agent builder (3)
 - agentic coding (10)
 - AI agents (31)
 - AI evaluation (2)
 - AI personal assistant (11)
-- AI powered (68)
+- AI powered (70)
 - alerts (4)
 - allocator (1)
 - AlphaZero (1)
 - analysis (8)
-- analytics (3)
+- analytics (4)
 - Android (3)
 - API (10)
 - API development platform (4)
@@ -1930,7 +1976,7 @@ List of tags with occurrences in the brackets:
 - authentication (2)
 - autocomplete (1)
 - automate pull requests (2)
-- automation (30)
+- automation (31)
 - awesome-list (1)
 - backup (3)
 - benchmarking (1)
@@ -1944,7 +1990,7 @@ List of tags with occurrences in the brackets:
 - C (1)
 - C++ (1)
 - caching (9)
-- chat (9)
+- chat (10)
 - cheat sheet (4)
 - CI/CD (5)
 - Claude Code (2)
@@ -1955,10 +2001,10 @@ List of tags with occurrences in the brackets:
 - code generation (9)
 - code quality (2)
 - code review (2)
-- code search (6)
+- code search (7)
 - code statistics (1)
 - coloring (1)
-- command line (210)
+- command line (211)
 - command line: cat (1)
 - command line: cd (2)
 - command line: diff (3)
@@ -1979,24 +2025,24 @@ List of tags with occurrences in the brackets:
 - command line: rm (2)
 - command line: sed (1)
 - command line: shuf (1)
-- command line: top (7)
+- command line: top (8)
 - command line: uniq (2)
 - command runner (3)
 - commit message (1)
 - compiler (3)
 - compression (7)
-- computer vision (4)
+- computer vision (5)
 - configuration (6)
 - configuration distribution (1)
 - container (20)
 - content extractor (11)
-- context retrieval (1)
+- context retrieval (2)
 - control desktop (1)
 - cron (1)
 - cross-platform (34)
 - CSV (7)
 - customizing (5)
-- dashboard (11)
+- dashboard (13)
 - data anonymization (1)
 - data format (5)
 - data formatter (5)
@@ -2022,8 +2068,9 @@ List of tags with occurrences in the brackets:
 - deletion tool (4)
 - deploy (5)
 - deployments (2)
+- design tool (1)
 - detector (1)
-- developer environment (7)
+- developer environment (8)
 - diagram (1)
 - diff (3)
 - Diffusion Model (9)
@@ -2044,7 +2091,7 @@ List of tags with occurrences in the brackets:
 - engineering (1)
 - environment manager (8)
 - environment variables (2)
-- face recognition (2)
+- face recognition (3)
 - face swapping (2)
 - fake data (1)
 - file convert (3)
@@ -2055,7 +2102,7 @@ List of tags with occurrences in the brackets:
 - file storage (7)
 - file system (1)
 - file system watcher (1)
-- file transfer (3)
+- file transfer (4)
 - filter editor (3)
 - filtering (2)
 - find and replace (2)
@@ -2066,7 +2113,7 @@ List of tags with occurrences in the brackets:
 - forwarding (5)
 - framerate (1)
 - framework (15)
-- full-text search (5)
+- full-text search (6)
 - fun (1)
 - function calling (1)
 - fuzzy search (4)
@@ -2075,7 +2122,7 @@ List of tags with occurrences in the brackets:
 - geolocation (3)
 - git (21)
 - GitHub actions (2)
-- Google Analytics (1)
+- Google Analytics (2)
 - GPU (9)
 - gRPC (1)
 - GUI (43)
@@ -2085,22 +2132,23 @@ List of tags with occurrences in the brackets:
 - hide (1)
 - highlighter (1)
 - history (2)
+- home automation (1)
 - homelab (2)
 - HTML (5)
 - HTTP client (1)
 - hypermedia (1)
-- icons (1)
+- icons (2)
 - IDE (3)
-- image (9)
+- image (10)
 - image editing (5)
 - image generation (12)
 - in-memory (3)
-- indexing (3)
+- indexing (4)
 - inference (7)
 - interactive (6)
 - internet connection (1)
 - invoice (1)
-- IP camera (1)
+- IP camera (2)
 - isolation (8)
 - JavaScript engine (1)
 - job (2)
@@ -2113,7 +2161,7 @@ List of tags with occurrences in the brackets:
 - knowledge graph (2)
 - kubernetes (7)
 - language detection (2)
-- Language Model (37)
+- Language Model (38)
 - library (45)
 - link management (1)
 - linter (12)
@@ -2124,7 +2172,7 @@ List of tags with occurrences in the brackets:
 - LLM-ready (4)
 - load balancer (2)
 - logs (9)
-- Machine Learning (17)
+- Machine Learning (18)
 - Machine Learning transpiler (1)
 - Machine Translation (1)
 - MacOS (1)
@@ -2140,22 +2188,22 @@ List of tags with occurrences in the brackets:
 - mesh network (3)
 - metadata tracker (1)
 - metrics (5)
-- Model Context Protocol (MCP) (2)
+- Model Context Protocol (MCP) (4)
 - model merging (1)
-- monitoring (33)
+- monitoring (35)
 - multi-language (9)
 - music generation (2)
 - NAS (1)
 - Natural Language Processing (6)
 - NeRFs (1)
-- network (30)
+- network (31)
 - network scan (8)
 - nixpkgs (1)
 - No source code (3)
 - note (3)
 - Notebook (7)
 - notification (2)
-- object detection (2)
+- object detection (3)
 - observability (6)
 - OCR (6)
 - offline (17)
@@ -2177,6 +2225,7 @@ List of tags with occurrences in the brackets:
 - pattern search (3)
 - PDF (3)
 - penetration tests (3)
+- photo management (1)
 - pipeline (2)
 - platform (5)
 - Platform-as-a-Service (1)
@@ -2186,9 +2235,9 @@ List of tags with occurrences in the brackets:
 - PostgreSQL (7)
 - presentation (2)
 - printing file (1)
-- privacy (8)
+- privacy (12)
 - Privileged Access Management (PAM) (1)
-- process management (2)
+- process management (4)
 - profiler (3)
 - progress bar (2)
 - proxy (9)
@@ -2197,6 +2246,7 @@ List of tags with occurrences in the brackets:
 - Python linter (7)
 - Python wrapper (3)
 - QR code (2)
+- quantization (1)
 - querying (4)
 - queue (2)
 - RAG (5)
@@ -2223,7 +2273,7 @@ List of tags with occurrences in the brackets:
 - secret management (3)
 - secrets detector (2)
 - security (32)
-- self-hosted (23)
+- self-hosted (32)
 - self-replace (1)
 - semantic search (5)
 - send email (1)
@@ -2233,6 +2283,7 @@ List of tags with occurrences in the brackets:
 - shell (9)
 - shell script (3)
 - single-binary (3)
+- smart home (1)
 - SMTP server (1)
 - social media (2)
 - sounds (2)
@@ -2240,10 +2291,11 @@ List of tags with occurrences in the brackets:
 - source: C (27)
 - source: C# (3)
 - source: C++ (19)
-- source: Clojure (1)
+- source: Clojure (2)
+- source: Crystal (1)
 - source: Dart (1)
-- source: Elixir (1)
-- source: Go (82)
+- source: Elixir (2)
+- source: Go (85)
 - source: HTML (1)
 - source: Java (5)
 - source: JavaScript (18)
@@ -2251,12 +2303,12 @@ List of tags with occurrences in the brackets:
 - source: Lua (1)
 - source: PHP (1)
 - source: PowerShell (1)
-- source: Python (171)
+- source: Python (173)
 - source: Ruby (5)
-- source: Rust (137)
+- source: Rust (138)
 - source: Shell (10)
-- source: TypeScript (68)
-- source: Zig (3)
+- source: TypeScript (73)
+- source: Zig (4)
 - space (1)
 - speech generation (8)
 - speech recognition (11)
@@ -2274,7 +2326,7 @@ List of tags with occurrences in the brackets:
 - stream data (2)
 - streaming (1)
 - Supabase (1)
-- syncing (2)
+- syncing (3)
 - syntax highlighting (2)
 - system call (1)
 - system events (1)
@@ -2283,7 +2335,7 @@ List of tags with occurrences in the brackets:
 - templater (1)
 - terminal (31)
 - terminal emulator (3)
-- terminal interface (19)
+- terminal interface (20)
 - terminal multiplexer (1)
 - testing API (4)
 - text (1)
@@ -2311,10 +2363,11 @@ List of tags with occurrences in the brackets:
 - username search (2)
 - vector database (4)
 - vector search (3)
-- video (16)
+- video (17)
 - video downloader (4)
 - video editing (3)
 - video generation (1)
+- video recording (1)
 - viewer (3)
 - virtualization (3)
 - visualization (12)
@@ -2333,6 +2386,8 @@ List of tags with occurrences in the brackets:
 - website (4)
 - Wikipedia (1)
 - Windows (2)
+- Windows-virtualization (1)
 - workflow (4)
 - XML (4)
 - YAML (5)
+- YouTube (1)
