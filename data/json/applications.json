@@ -48,9 +48,9 @@
         "description": "A reinforcement learning training framework for optimizing AI agents and agentic workflows by fine-tuning large language model weights, with support for distributed swarm training, multi-agent optimization, and multi-turn conversation workflows.",
         "tags": [
             "AI agents",
-            "Deep Learning framework",
+            "Deep Learning",
             "framework",
-            "Language Model",
+            "LLM",
             "training",
             "source: Python"
         ]
@@ -73,7 +73,7 @@
         "tags": [
             "AI agents",
             "framework",
-            "Language Model",
+            "LLM",
             "RAG",
             "source: Python"
         ]
@@ -107,10 +107,10 @@
         "url": "https://github.com/sigoden/aichat",
         "description": "An all-in-one LLM CLI tool combining shell assistance, interactive chat, RAG document retrieval, and AI agent capabilities with support for 20+ providers.",
         "tags": [
-            "AI powered",
+            "AI-powered",
             "chat",
             "command line",
-            "Language Model",
+            "LLM",
             "RAG",
             "source: Rust"
         ]
@@ -120,7 +120,7 @@
         "url": "https://github.com/paul-gauthier/aider",
         "description": "AI pair programming tool that enables developers to collaborate with large language models directly in the terminal for building new projects or modifying existing codebases.",
         "tags": [
-            "AI powered",
+            "AI-powered",
             "code generation",
             "multi-language",
             "terminal",
@@ -156,10 +156,10 @@
         "description": "A lightweight Python library providing a unified API for working with multiple generative AI providers enabling developers to build LLM-based and agentic applications with minimal setup.",
         "tags": [
             "agent builder",
-            "AI powered",
+            "AI-powered",
             "API",
-            "Language Model",
             "library",
+            "LLM",
             "source: Python"
         ]
     },
@@ -168,10 +168,8 @@
         "url": "https://github.com/matt-kimball/allocscope",
         "description": "allocscope is a tool for tracking down where the most egregiously large allocations are occurring in a C, C++ or Rust codebase.",
         "tags": [
-            "C",
-            "C++",
             "library",
-            "memory tracking",
+            "memory management",
             "source: Rust"
         ]
     },
@@ -202,7 +200,7 @@
         "url": "https://github.com/thepersonalaicompany/amurex",
         "description": "An open-source AI meeting copilot providing real-time suggestions, automatic summaries, action item extraction, and follow-up email generation for Google Meet and Microsoft Teams.",
         "tags": [
-            "AI powered",
+            "AI-powered",
             "automation",
             "chat",
             "meetings",
@@ -215,11 +213,11 @@
         "description": "An all-in-one desktop and Docker AI application with built-in RAG, no-code agent builder, MCP compatibility, multi-user support, and integration with 30+ LLM providers for creating private ChatGPT-like systems.",
         "tags": [
             "agent builder",
-            "AI powered",
+            "AI-powered",
             "automation",
             "chat",
             "GUI",
-            "Language Model",
+            "LLM",
             "RAG",
             "source: JavaScript"
         ]
@@ -238,7 +236,7 @@
         "description": "Arroyo is a distributed stream processing engine written in Rust, designed to efficiently perform stateful computations on streams of data. Unlike traditional batch processing, streaming engines can operate on both bounded and unbounded sources, emitting results as soon as they are available.",
         "tags": [
             "library",
-            "stream data",
+            "streaming",
             "source: Rust"
         ]
     },
@@ -319,7 +317,7 @@
         "url": "https://github.com/EZ-hwh/AutoCrawler",
         "description": "An AI agent that automatically generates web scrapers through progressive web understanding, using LLMs to extract structured data from websites.",
         "tags": [
-            "AI powered",
+            "AI-powered",
             "automation",
             "browser automation",
             "web scraper",
@@ -341,7 +339,7 @@
         "url": "https://github.com/intel/auto-round",
         "description": "An advanced quantization toolkit for LLMs and vision-language models that achieves high accuracy at 2-4 bit widths with minimal tuning, exporting to AutoRound, AutoAWQ, AutoGPTQ, and GGUF formats.",
         "tags": [
-            "Language Model",
+            "LLM",
             "Machine Learning",
             "quantization",
             "source: Python"
@@ -403,7 +401,7 @@
             "audio generation",
             "Deep Learning",
             "speech generation",
-            "text-to-audio",
+            "text-to-speech",
             "source: Python"
         ]
     },
@@ -413,8 +411,8 @@
         "description": "bat is a cat clone with syntax highlighting and Git integration.",
         "tags": [
             "command line",
-            "printing file",
             "syntax highlighting",
+            "viewer",
             "command line: cat",
             "source: Rust"
         ]
@@ -461,7 +459,7 @@
         "url": "https://github.com/p1ngul1n0/blackbird",
         "description": "An OSINT tool that searches for accounts by username and email across 600+ social networks, combining fast searches with free AI-powered profiling to identify user accounts and behavioral patterns.",
         "tags": [
-            "AI powered",
+            "AI-powered",
             "command line",
             "email search",
             "OSINT",
@@ -486,8 +484,8 @@
         "url": "https://github.com/blinkospace/blinko",
         "description": "An open-source, self-hosted personal AI note-taking application that enables users to quickly capture and organize fleeting thoughts using natural language processing and RAG technology.",
         "tags": [
-            "AI powered",
-            "note",
+            "AI-powered",
+            "note-taking",
             "privacy",
             "RAG",
             "self-hosted",
@@ -545,8 +543,8 @@
         "url": "https://github.com/sauravpanda/BrowserAI",
         "description": "A TypeScript library enabling direct execution of large language models within web browsers using WebGPU acceleration, with speech recognition, TTS, and structured output support.",
         "tags": [
-            "AI powered",
-            "Language Model",
+            "AI-powered",
+            "LLM",
             "WebAssembly",
             "source: TypeScript"
         ]
@@ -603,7 +601,6 @@
         "description": "This library aims to be a complete deep learning framework with extreme flexibility written in Rust. The goal would be to satisfy researchers as well as practitioners making it easier to experiment, train and deploy your models.",
         "tags": [
             "Deep Learning",
-            "Deep Learning framework",
             "framework",
             "source: Rust"
         ]
@@ -628,7 +625,7 @@
         "url": "https://github.com/bytebot-ai/bytebot",
         "description": "An open-source AI desktop agent that automates computer tasks through natural language commands, operating within a containerized Linux desktop environment with full application access.",
         "tags": [
-            "AI powered",
+            "AI-powered",
             "automation",
             "browser automation",
             "GUI",
@@ -663,8 +660,8 @@
         "tags": [
             "automation",
             "container",
-            "deployments",
-            "kubernetes",
+            "deploy",
+            "Kubernetes",
             "Platform-as-a-Service",
             "self-hosted",
             "source: Ruby"
@@ -726,7 +723,7 @@
         "url": "https://github.com/resemble-ai/chatterbox",
         "description": "State-of-the-art open-source text-to-speech models with zero-shot voice cloning, multilingual support for 23+ languages, and low-latency voice agent capabilities.",
         "tags": [
-            "AI powered",
+            "AI-powered",
             "audio",
             "multi-language",
             "speech generation",
@@ -763,7 +760,7 @@
         "tags": [
             "configuration",
             "configuration distribution",
-            "dotfile",
+            "dotfiles",
             "management",
             "source: Go"
         ]
@@ -774,7 +771,7 @@
         "description": "An agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining code, and handling git workflows through natural language commands.",
         "tags": [
             "agentic coding",
-            "AI powered",
+            "AI-powered",
             "automation",
             "Claude Code",
             "code generation",
@@ -789,7 +786,7 @@
         "url": "https://github.com/cline/cline",
         "description": "An AI-powered coding assistant integrated into VS Code that autonomously handles complex development tasks, including file creation/editing, terminal commands, browser automation, and custom tool extensions.",
         "tags": [
-            "AI powered",
+            "AI-powered",
             "automation",
             "code generation",
             "source: TypeScript"
@@ -800,7 +797,7 @@
         "url": "https://github.com/andrewromanenco/cocommit",
         "description": "A command-line tool that analyzes your Git HEAD commit and uses an LLM to enhance commit quality by suggesting improvements to commit messages.",
         "tags": [
-            "AI powered",
+            "AI-powered",
             "automation",
             "command line",
             "commit message",
@@ -826,11 +823,11 @@
         "url": "https://github.com/semanser/codel",
         "description": "Fully autonomous AI Agent that can perform complicated tasks using terminal, browser, and editor in a sandboxed Docker environment.",
         "tags": [
-            "AI powered",
-            "docker",
+            "AI-powered",
+            "Docker",
             "editor",
             "GUI",
-            "Language Model",
+            "LLM",
             "PostgreSQL",
             "terminal",
             "web browser",
@@ -877,10 +874,10 @@
         "url": "https://github.com/cohere-ai/cohere-toolkit",
         "description": "A deployable all-in-one RAG application for building LLM-based products with multiple UI options, customizable backends, and cloud deployment guides.",
         "tags": [
-            "AI powered",
+            "AI-powered",
             "API",
             "framework",
-            "Language Model",
+            "LLM",
             "source: TypeScript"
         ]
     },
@@ -911,10 +908,10 @@
         "description": "A toolkit that equips AI agents and large language models with 100+ high-quality integrations through function calling capabilities.",
         "tags": [
             "AI agents",
-            "AI powered",
+            "AI-powered",
             "framework",
             "function calling",
-            "Language Model",
+            "LLM",
             "source: TypeScript"
         ]
     },
@@ -1007,7 +1004,7 @@
         "description": "A lean Python framework for orchestrating multi-agent AI systems where autonomous agents work together seamlessly to tackle complex tasks through role-based collaboration and event-driven workflows.",
         "tags": [
             "agent builder",
-            "AI powered",
+            "AI-powered",
             "automation",
             "framework",
             "source: Python"
@@ -1054,7 +1051,7 @@
         "url": "https://github.com/charmbracelet/crush",
         "description": "A terminal-based AI coding agent that integrates with multiple LLM providers and development tools through LSP integration and MCP support, enabling AI assistance directly from the command line.",
         "tags": [
-            "AI powered",
+            "AI-powered",
             "automation",
             "code generation",
             "command line",
@@ -1077,7 +1074,7 @@
         "description": "A desktop application for managing multiple parallel AI coding sessions using isolated git worktrees, with Claude Code and Codex support, diff viewing, and commit history tracking.",
         "tags": [
             "agentic coding",
-            "AI powered",
+            "AI-powered",
             "GUI",
             "source: TypeScript"
         ]
@@ -1133,7 +1130,7 @@
         "url": "https://github.com/getcursor/cursor",
         "description": "Cursor is an editor made for programming with AI robot.",
         "tags": [
-            "AI powered",
+            "AI-powered",
             "editor",
             "GUI"
         ]
@@ -1162,7 +1159,7 @@
             "OSINT",
             "screenshot",
             "security",
-            "SSL",
+            "SSL/TLS",
             "vulnerability scanner",
             "website"
         ]
@@ -1187,7 +1184,6 @@
             "data processing",
             "JSON",
             "querying",
-            "transforming",
             "XML",
             "YAML",
             "source: Go"
@@ -1230,7 +1226,7 @@
         "url": "https://github.com/daytonaio/daytona",
         "description": "A platform for running AI-generated code in isolated sandboxes with sub-90ms creation time, programmatic APIs, and OCI/Docker compatibility.",
         "tags": [
-            "AI powered",
+            "AI-powered",
             "container",
             "developer environment",
             "isolation",
@@ -1278,7 +1274,7 @@
         "url": "https://github.com/deepnote/deepnote",
         "description": "A drop-in replacement for Jupyter with an AI-first design, sleek UI, and native data integrations that enables working with Python, R, and SQL locally before scaling to cloud collaboration.",
         "tags": [
-            "AI powered",
+            "AI-powered",
             "data processing",
             "Jupyter",
             "Notebook",
@@ -1290,7 +1286,7 @@
         "url": "https://github.com/bytedance/deer-flow",
         "description": "A community-driven Deep Research framework combining language models with specialized tools for web search, crawling, and Python code execution with multi-agent research system.",
         "tags": [
-            "AI powered",
+            "AI-powered",
             "code execution",
             "web scraper",
             "web search",
@@ -1314,7 +1310,6 @@
         "description": "An enterprise friendly way of detecting and preventing secrets in code.",
         "tags": [
             "command line",
-            "detector",
             "library",
             "secrets detector",
             "source: Python"
@@ -1379,7 +1374,7 @@
             "database",
             "in-memory",
             "key-value store",
-            "redis",
+            "Redis",
             "source: Go"
         ]
     },
@@ -1423,7 +1418,7 @@
         "tags": [
             "command line",
             "container",
-            "docker",
+            "Docker",
             "source: Go"
         ]
     },
@@ -1445,7 +1440,7 @@
         "tags": [
             "Android",
             "container",
-            "docker",
+            "Docker",
             "source: Shell"
         ]
     },
@@ -1455,8 +1450,8 @@
         "description": "A tool for running near-native macOS VMs within Docker containers with X11 forwarding, SSH access, and support for multiple macOS versions for security research and CI/CD.",
         "tags": [
             "container",
-            "docker",
-            "MacOS",
+            "Docker",
+            "macOS",
             "virtualization",
             "source: Shell"
         ]
@@ -1466,9 +1461,9 @@
         "url": "https://github.com/Wowu/docker-rollout",
         "description": "Docker CLI plugin that updates Docker Compose services without downtime.",
         "tags": [
-            "docker",
-            "docker-compose",
-            "services"
+            "deploy",
+            "Docker",
+            "Docker Compose"
         ]
     },
     {
@@ -1478,7 +1473,7 @@
         "tags": [
             "container",
             "cross-platform",
-            "docker",
+            "Docker",
             "single-binary",
             "source: Zig"
         ]
@@ -1488,7 +1483,7 @@
         "url": "https://github.com/immanuwell/dockerfile-roast",
         "description": "An opinionated Dockerfile linter that enforces 63 rules covering security, best practices, and layer optimization, with VS Code extension, GitHub Actions integration, and SARIF output support.",
         "tags": [
-            "docker",
+            "Docker",
             "linter",
             "source: Rust"
         ]
@@ -1499,7 +1494,7 @@
         "description": "A modern, lightweight Docker management UI built with Tauri and React that provides a clean interface for managing Docker containers, images, networks, and volumes.",
         "tags": [
             "container",
-            "docker",
+            "Docker",
             "GUI",
             "monitoring",
             "source: TypeScript"
@@ -1510,9 +1505,9 @@
         "url": "https://github.com/DS4SD/docling",
         "description": "A document processing library that converts diverse file formats into structured formats optimized for generative AI applications.",
         "tags": [
-            "AI powered",
-            "data format",
+            "AI-powered",
             "data processing",
+            "file format",
             "library",
             "LLM-ready",
             "parsing",
@@ -1553,7 +1548,7 @@
             "geolocation",
             "OSINT",
             "security",
-            "SSL",
+            "SSL/TLS",
             "website",
             "source: TypeScript"
         ]
@@ -1575,9 +1570,9 @@
         "url": "https://github.com/davtur19/DotGit",
         "description": "A browser extension that detects exposed version control folders (.git, .svn, .hg) and sensitive files (.env, .DS_Store) on visited websites, with the ability to download discovered repositories.",
         "tags": [
+            "browser extension",
             "security",
             "vulnerability scanner",
-            "web-browser extension",
             "source: JavaScript"
         ]
     },
@@ -1589,7 +1584,7 @@
             "automation",
             "command line",
             "configuration",
-            "dotfile",
+            "dotfiles",
             "templater",
             "source: Rust"
         ]
@@ -1625,7 +1620,7 @@
         "description": "A Linux desktop application for note-taking, reading, and translating using offline Speech to Text, Text to Speech, and Machine Translation.",
         "tags": [
             "audio",
-            "note",
+            "note-taking",
             "offline",
             "speech recognition",
             "text-to-speech",
@@ -1661,7 +1656,7 @@
         "description": "Terminal user interface application for managing Docker containers, images, volumes, and networks with an interactive dashboard inspired by K9s.",
         "tags": [
             "container",
-            "docker",
+            "Docker",
             "management",
             "terminal",
             "terminal interface",
@@ -1771,7 +1766,7 @@
         "tags": [
             "database",
             "key-value store",
-            "redis",
+            "Redis",
             "storage",
             "source: C++"
         ]
@@ -1782,7 +1777,6 @@
         "description": "A collection of inspiring resources related to engineering management and tech leadership.",
         "tags": [
             "awesome-list",
-            "engineering",
             "guide"
         ]
     },
@@ -1814,7 +1808,7 @@
         "description": "A distributed AI inference system connecting multiple devices into a cluster for running large language models with automatic device discovery and RDMA over Thunderbolt support.",
         "tags": [
             "command line",
-            "Language Model",
+            "LLM",
             "Machine Learning",
             "parallel",
             "source: Python"
@@ -1886,9 +1880,8 @@
         "tags": [
             "audio",
             "Deep Learning",
-            "Deep Learning framework",
+            "framework",
             "image",
-            "text",
             "video"
         ]
     },
@@ -1906,7 +1899,7 @@
         "url": "https://github.com/rupeshs/fastsdcpu",
         "description": "CPU-optimized Stable Diffusion implementation based on Latent Consistency Models enabling rapid image generation on standard computers without GPUs.",
         "tags": [
-            "AI powered",
+            "AI-powered",
             "command line",
             "Diffusion Model",
             "GUI",
@@ -1929,7 +1922,6 @@
         "description": "fd is a simple, fast and user-friendly alternative to find.",
         "tags": [
             "command line",
-            "file searching",
             "searching",
             "command line: find",
             "source: Rust"
@@ -1943,7 +1935,6 @@
             "command line",
             "deduplication",
             "deletion tool",
-            "unique",
             "source: C"
         ]
     },
@@ -1961,7 +1952,7 @@
         "url": "https://github.com/mendableai/firecrawl",
         "description": "A web data API that transforms entire websites into LLM-ready markdown or structured data, enabling AI agents to access real-time web content.",
         "tags": [
-            "AI powered",
+            "AI-powered",
             "LLM-ready",
             "web scraper",
             "source: TypeScript"
@@ -1989,7 +1980,6 @@
             "HTML",
             "hypermedia",
             "library",
-            "web page",
             "source: HTML"
         ]
     },
@@ -2024,7 +2014,7 @@
             "developer environment",
             "environment manager",
             "isolation",
-            "nixpkgs",
+            "Nix",
             "package manager",
             "source: Rust"
         ]
@@ -2070,7 +2060,7 @@
         "url": "https://github.com/blakeblackshear/frigate",
         "description": "A complete local network video recorder (NVR) with real-time AI object detection on IP camera feeds, designed for Home Assistant with MQTT integration and motion-triggered recording.",
         "tags": [
-            "AI powered",
+            "AI-powered",
             "computer vision",
             "IP camera",
             "monitoring",
@@ -2107,7 +2097,6 @@
         "description": "fzf is a general-purpose command-line fuzzy finder.",
         "tags": [
             "command line",
-            "file searching",
             "searching",
             "command line: find",
             "source: Go"
@@ -2194,7 +2183,7 @@
         "url": "https://github.com/f/git-rewrite-commits",
         "description": "An AI-powered tool that automatically rewrites git commit histories with better, conventional commit messages using OpenAI GPT or local Ollama models, designed for cleaning up messy repositories before open-sourcing.",
         "tags": [
-            "AI powered",
+            "AI-powered",
             "automation",
             "git",
             "source: TypeScript"
@@ -2219,7 +2208,6 @@
         "tags": [
             "command line",
             "git",
-            "repository",
             "source: Python"
         ]
     },
@@ -2252,7 +2240,7 @@
         "tags": [
             "command line",
             "management",
-            "ssh",
+            "SSH",
             "source: TypeScript"
         ]
     },
@@ -2325,7 +2313,7 @@
         "tags": [
             "command line",
             "GUI",
-            "kubernetes",
+            "Kubernetes",
             "package manager",
             "source: Go"
         ]
@@ -2364,10 +2352,10 @@
         "url": "https://github.com/sammcj/gollama",
         "description": "A terminal-based tool for managing Ollama models on macOS and Linux with an interactive TUI for listing, sorting, filtering, editing, and monitoring local LLM models.",
         "tags": [
-            "Language Model",
+            "LLM",
             "LLM management",
             "management",
-            "ollama",
+            "Ollama",
             "terminal interface",
             "source: Go"
         ]
@@ -2402,8 +2390,8 @@
         "url": "https://github.com/xtekky/gpt4free",
         "description": "A community-driven Python package that aggregates multiple LLM providers into a unified interface with OpenAI-compatible APIs, web GUI, and support for image/audio/video generation.",
         "tags": [
-            "AI powered",
-            "Language Model",
+            "AI-powered",
+            "LLM",
             "source: Python"
         ]
     },
@@ -2556,8 +2544,8 @@
         "url": "https://github.com/p-e-w/heretic",
         "description": "Automated removal of safety constraints from transformer-based language models through directional ablation and TPE-based parameter optimization, without requiring expensive retraining.",
         "tags": [
-            "AI powered",
-            "Language Model",
+            "AI-powered",
+            "LLM",
             "source: Python"
         ]
     },
@@ -2566,12 +2554,12 @@
         "url": "https://github.com/mult1v4c/hestia-core",
         "description": "A modular, browser-based dashboard for homelab services that requires no backend database, featuring drag-and-drop widgets and deep customization capabilities.",
         "tags": [
-            "customizing",
+            "customization",
             "dashboard",
             "homelab",
             "monitoring",
             "self-hosted",
-            "web page",
+            "web UI",
             "source: JavaScript"
         ]
     },
@@ -2660,7 +2648,6 @@
         "tags": [
             "command line",
             "deduplication",
-            "unique",
             "command line: uniq",
             "source: Rust"
         ]
@@ -2732,8 +2719,7 @@
         "description": "imagededup is a python package that simplifies the task of finding exact and near duplicates in an image collection.",
         "tags": [
             "deduplication",
-            "image",
-            "unique"
+            "image"
         ]
     },
     {
@@ -2790,8 +2776,8 @@
         "description": "Kong Insomnia is a collaborative open source API development platform that makes it easy to build high-quality APIs \u2014 without the bloat and clutter of other tools.",
         "tags": [
             "API development platform",
-            "GUI",
-            "testing API"
+            "API testing",
+            "GUI"
         ]
     },
     {
@@ -2890,7 +2876,7 @@
         "tags": [
             "data processing",
             "knowledge graph",
-            "Language Model",
+            "LLM",
             "Machine Learning",
             "Natural Language Processing",
             "source: Python"
@@ -2903,7 +2889,6 @@
         "tags": [
             "framework",
             "Machine Learning",
-            "Machine Learning transpiler",
             "transpiler",
             "source: Python"
         ]
@@ -2913,12 +2898,12 @@
         "url": "https://github.com/janhq/jan",
         "description": "An open-source desktop alternative to ChatGPT that runs LLMs fully offline, with support for local models from HuggingFace, cloud provider integrations, an OpenAI-compatible local API, and Model Context Protocol for agentic capabilities.",
         "tags": [
-            "AI powered",
+            "AI-powered",
             "chat",
             "cross-platform",
             "GUI",
             "inference",
-            "Language Model",
+            "LLM",
             "LLM management",
             "Model Context Protocol (MCP)",
             "offline",
@@ -2994,12 +2979,12 @@
         "description": "An open-source visualization tool that transforms data formats (JSON, YAML, XML, CSV, TOML) into interactive graphs for easier exploration and analysis.",
         "tags": [
             "CSV",
-            "data format",
             "file convert",
+            "file format",
             "JSON",
             "TOML",
             "visualization",
-            "web page",
+            "web UI",
             "XML",
             "YAML",
             "source: TypeScript"
@@ -3115,7 +3100,7 @@
             "command line",
             "container",
             "deploy",
-            "docker",
+            "Docker",
             "source: Ruby"
         ]
     },
@@ -3146,7 +3131,7 @@
         "tags": [
             "command line",
             "dashboard",
-            "kubernetes",
+            "Kubernetes",
             "source: Rust"
         ]
     },
@@ -3177,7 +3162,7 @@
         "description": "killport is a command-line utility for killing processes listening on specific ports. It's designed to be simple, fast, and effective. The tool is built with Rust and works on Linux and macOS.",
         "tags": [
             "command line",
-            "killing process",
+            "process management",
             "command line: kill",
             "source: Rust"
         ]
@@ -3202,7 +3187,7 @@
         "tags": [
             "cloud",
             "gateway",
-            "kubernetes",
+            "Kubernetes",
             "LLM gateway",
             "load balancer",
             "reverse proxy",
@@ -3228,10 +3213,10 @@
         "url": "https://github.com/Cinnamon/kotaemon",
         "description": "An open-source RAG application for chatting with documents, featuring hybrid retrieval, multi-modal support, detailed citations, and multiple LLM backend options.",
         "tags": [
-            "AI powered",
+            "AI-powered",
             "chat",
             "documentation",
-            "Language Model",
+            "LLM",
             "source: Python"
         ]
     },
@@ -3242,7 +3227,7 @@
         "tags": [
             "database",
             "file storage",
-            "redis",
+            "Redis",
             "source: Java"
         ]
     },
@@ -3252,8 +3237,8 @@
         "description": "SSH-based access to Kubernetes clusters with terminal UI, social login via GitHub/Google, pod shell access, log viewing, and file transfer via scp/sftp.",
         "tags": [
             "dashboard",
-            "kubernetes",
-            "ssh",
+            "Kubernetes",
+            "SSH",
             "terminal interface",
             "source: Rust"
         ]
@@ -3276,7 +3261,7 @@
             "AI evaluation",
             "monitoring",
             "observability",
-            "trace",
+            "tracing",
             "source: Rust",
             "source: TypeScript"
         ]
@@ -3288,7 +3273,7 @@
         "tags": [
             "Deep Learning",
             "deploy",
-            "Language Model",
+            "LLM",
             "source: Python"
         ]
     },
@@ -3297,7 +3282,7 @@
         "url": "https://github.com/lancedb/lance",
         "description": "Lance is a modern columnar data format that is optimized for ML workflows and datasets. Convert from parquet in 2-lines of code for 100x faster random access, a vector index, data versioning, and more. Compatible with pandas, duckdb, polars, pyarrow, with more integrations on the way.",
         "tags": [
-            "data format",
+            "file format",
             "Natural Language Processing",
             "source: Rust"
         ]
@@ -3318,7 +3303,7 @@
         "url": "https://github.com/google/langextract",
         "description": "A Python library that uses LLMs to extract structured information from unstructured text documents with precise source grounding and interactive visualization capabilities.",
         "tags": [
-            "AI powered",
+            "AI-powered",
             "content extractor",
             "data processing",
             "library",
@@ -3332,7 +3317,7 @@
         "description": "Production-accurate development environments that run directly in Kubernetes clusters, enabling teams to create isolated or shared environments.",
         "tags": [
             "developer environment",
-            "kubernetes",
+            "Kubernetes",
             "source: Rust"
         ]
     },
@@ -3341,9 +3326,9 @@
         "url": "https://github.com/abgulati/LARS",
         "description": "Desktop application for running LLMs locally with Retrieval Augmented Generation (RAG), featuring advanced citations with document names, page numbers, and support for multiple file formats.",
         "tags": [
-            "AI powered",
+            "AI-powered",
             "GPU",
-            "Language Model",
+            "LLM",
             "source: Python"
         ]
     },
@@ -3363,7 +3348,7 @@
         "description": "A terminal UI for managing Docker and Docker Compose containers, designed to simplify common Docker operations through an intuitive interface.",
         "tags": [
             "container",
-            "docker",
+            "Docker",
             "management",
             "terminal interface",
             "source: Go"
@@ -3386,8 +3371,8 @@
         "description": "A terminal-based SSH manager with a keyboard-driven interactive UI for managing SSH connections defined in ~/.ssh/config, inspired by tools like lazydocker and k9s.",
         "tags": [
             "management",
-            "ssh",
-            "ssh management",
+            "SSH",
+            "SSH management",
             "terminal interface",
             "source: Go"
         ]
@@ -3464,7 +3449,7 @@
             "Deep Learning",
             "fine-tuning",
             "GPU",
-            "Language Model",
+            "LLM",
             "Machine Learning",
             "source: Python"
         ]
@@ -3475,9 +3460,8 @@
         "description": "llm is a Rust ecosystem of libraries for running inference on large language models, inspired by llama.cpp.",
         "tags": [
             "Deep Learning",
-            "Deep Learning framework",
             "framework",
-            "Language Model",
+            "LLM",
             "source: Rust"
         ]
     },
@@ -3486,9 +3470,9 @@
         "url": "https://github.com/simonw/llm",
         "description": "A command-line tool and Python library providing unified access to multiple large language models including OpenAI, Claude, Gemini, and local models, with SQLite logging and embedding support.",
         "tags": [
-            "AI powered",
+            "AI-powered",
             "command line",
-            "Language Model",
+            "LLM",
             "source: Python"
         ]
     },
@@ -3497,7 +3481,7 @@
         "url": "https://github.com/randombk/llm2sh",
         "description": "Command-line utility that converts natural language requests into executable shell commands using Large Language Models like OpenAI, Claude, and Groq.",
         "tags": [
-            "AI powered",
+            "AI-powered",
             "automation",
             "code generation",
             "command line",
@@ -3511,7 +3495,7 @@
         "description": "An open-source LLM system for reverse-engineering compiled binaries back into human-readable C source code, supporting various GCC optimization levels.",
         "tags": [
             "binary",
-            "Language Model",
+            "LLM",
             "reverse engineering",
             "source: Python"
         ]
@@ -3521,11 +3505,11 @@
         "url": "https://github.com/AlexsJones/llmfit",
         "description": "A terminal tool that right-sizes LLM models to your hardware by detecting RAM, CPU, and GPU specs, then scoring hundreds of models across quality, speed, fit, and context dimensions.",
         "tags": [
-            "AI powered",
+            "AI-powered",
             "command line",
             "GPU",
             "inference",
-            "Language Model",
+            "LLM",
             "LLM management",
             "management",
             "terminal interface",
@@ -3537,11 +3521,11 @@
         "url": "https://lmstudio.ai/",
         "description": "A desktop application for discovering, downloading, and running large language models locally and privately, with an OpenAI-compatible API, cross-platform support, and a headless CLI mode for server deployments.",
         "tags": [
-            "AI powered",
+            "AI-powered",
             "cross-platform",
             "GUI",
             "inference",
-            "Language Model",
+            "LLM",
             "LLM management",
             "No source code",
             "offline"
@@ -3616,7 +3600,7 @@
         "url": "https://github.com/not-an-aardvark/lucky-commit",
         "description": "Customize your git commit hashes!",
         "tags": [
-            "customizing",
+            "customization",
             "git"
         ]
     },
@@ -3690,7 +3674,7 @@
         "tags": [
             "caching",
             "Machine Learning",
-            "trace",
+            "tracing",
             "tracking",
             "source: Python"
         ]
@@ -3700,7 +3684,7 @@
         "url": "https://github.com/hrishioa/mandark",
         "description": "AI-powered coding assistant supporting multiple models (Claude, GPT-4, Llama) with code extraction, multi-file editing, diff verification, and cost transparency.",
         "tags": [
-            "AI powered",
+            "AI-powered",
             "automation",
             "code completion",
             "command line",
@@ -3749,7 +3733,6 @@
         "description": "This repository is a collection of different matplotlib plots in IPython notebooks that I needed for my data visualizations.",
         "tags": [
             "library",
-            "matplot",
             "visualization",
             "source: Python"
         ]
@@ -3791,7 +3774,7 @@
         "url": "https://github.com/riseandignite/mcp-shield",
         "description": "Security scanner that analyzes installed MCP (Model Context Protocol) servers to identify vulnerabilities including tool poisoning, data exfiltration, and cross-origin escalations.",
         "tags": [
-            "AI powered",
+            "AI-powered",
             "Model Context Protocol (MCP)",
             "security",
             "vulnerability scanner",
@@ -3824,7 +3807,7 @@
         "description": "A toolkit for merging pre-trained language models using multiple algorithms (linear, SLERP, TIES, DARE) with out-of-core approach enabling complex merges in resource-constrained environments.",
         "tags": [
             "Deep Learning",
-            "Language Model",
+            "LLM",
             "Machine Learning",
             "model merging",
             "source: Python"
@@ -3949,7 +3932,7 @@
         "description": "A tool for building customized OS disk images from distribution packages, supporting Fedora, Debian, Arch, and openSUSE with LUKS encryption, Btrfs, and Unified Kernel Image support.",
         "tags": [
             "Linux",
-            "OS disk",
+            "operating system",
             "source: Python"
         ]
     },
@@ -3960,7 +3943,7 @@
         "tags": [
             "compiler",
             "GPU",
-            "Language Model",
+            "LLM",
             "source: Python"
         ]
     },
@@ -4042,7 +4025,7 @@
         "description": "The simplest experimental harness for training LLMs designed to run on a single GPU node, covering all major stages from tokenization through inference.",
         "tags": [
             "chat",
-            "Language Model",
+            "LLM",
             "training",
             "source: Python"
         ]
@@ -4085,7 +4068,7 @@
         "url": "https://github.com/m1k1o/neko",
         "description": "A self-hosted virtual browser that streams a full desktop environment via WebRTC inside Docker, enabling multi-user collaborative browsing, watch parties, and privacy-focused throwaway sessions.",
         "tags": [
-            "docker",
+            "Docker",
             "remote desktop",
             "self-hosted",
             "web browser",
@@ -4213,9 +4196,9 @@
         "description": "Drop-in replacement for Python Requests with HTTP/1.1, HTTP/2, HTTP/3, WebSocket, async support, DNS-over-HTTPS, and connection multiplexing.",
         "tags": [
             "API",
+            "HTTP client",
             "library",
             "network",
-            "requests",
             "source: Python"
         ]
     },
@@ -4258,7 +4241,7 @@
         "description": "A zero-telemetry open-source CLI coding assistant supporting OpenAI-compatible and Anthropic-compatible APIs with Docker sandboxing, MCP connectivity, and mid-conversation model switching.",
         "tags": [
             "agentic coding",
-            "AI powered",
+            "AI-powered",
             "command line",
             "source: TypeScript"
         ]
@@ -4280,13 +4263,13 @@
         "url": "https://github.com/ollama/ollama",
         "description": "An open-source framework for running large language models locally on macOS, Windows, and Linux, with a REST API and support for GPU acceleration, multiple model formats, and integrations with popular AI frameworks.",
         "tags": [
-            "AI powered",
+            "AI-powered",
             "cross-platform",
             "inference",
-            "Language Model",
+            "LLM",
             "LLM management",
             "offline",
-            "ollama",
+            "Ollama",
             "source: Go"
         ]
     },
@@ -4295,10 +4278,10 @@
         "url": "https://github.com/shinhyo/OllamaTalk",
         "description": "A fully local, cross-platform AI chat application powered by Ollama that runs entirely on-device across macOS, Windows, Linux, Android, and iOS with no cloud dependencies.",
         "tags": [
-            "AI powered",
+            "AI-powered",
             "chat",
             "cross-platform",
-            "Language Model",
+            "LLM",
             "offline",
             "source: Dart"
         ]
@@ -4309,8 +4292,8 @@
         "description": "A lightweight Python library enabling large-context LLM inference on consumer GPUs with limited VRAM through intelligent KV cache offloading to SSD without quantization.",
         "tags": [
             "inference",
-            "Language Model",
             "library",
+            "LLM",
             "source: Python"
         ]
     },
@@ -4366,9 +4349,9 @@
         "url": "https://github.com/lfnovo/open-notebook",
         "description": "An open-source, privacy-focused alternative to Google's Notebook LM that enables users to organize research materials and generate AI-powered insights.",
         "tags": [
-            "AI powered",
+            "AI-powered",
             "Jupyter",
-            "note",
+            "note-taking",
             "Notebook",
             "privacy",
             "source: Python"
@@ -4379,12 +4362,12 @@
         "url": "https://github.com/OpenInterpreter/open-interpreter",
         "description": "A natural language interface for computers that allows LLMs to run Python, JavaScript, Shell, and other code locally with user approval, overcoming ChatGPT Code Interpreter limitations.",
         "tags": [
-            "AI powered",
+            "AI-powered",
             "automation",
             "code execution",
             "command line",
             "interactive",
-            "Language Model",
+            "LLM",
             "source: Python"
         ]
     },
@@ -4403,7 +4386,7 @@
         "url": "https://github.com/anomalyco/opencode/",
         "description": "An open source AI coding agent that functions as a terminal-based alternative to Claude Code, enabling developers to write and manage code with AI assistance.",
         "tags": [
-            "AI powered",
+            "AI-powered",
             "automation",
             "code generation",
             "command line",
@@ -4416,7 +4399,7 @@
         "description": "An open-source AI coding agent with a terminal UI offering autonomous code generation and modification, LSP integration, and support for Claude, OpenAI, Google, and local models.",
         "tags": [
             "agentic coding",
-            "AI powered",
+            "AI-powered",
             "command line",
             "source: TypeScript"
         ]
@@ -4448,7 +4431,7 @@
         "url": "https://github.com/openlit/openlit",
         "description": "An open source platform providing OpenTelemetry-native LLM Observability, GPU Monitoring, Guardrails, Evaluations, Prompt Management, Vault, Playground for AI engineering workflows.",
         "tags": [
-            "AI powered",
+            "AI-powered",
             "metrics",
             "monitoring",
             "observability",
@@ -4470,7 +4453,7 @@
         "url": "https://github.com/vercel-labs/openreview",
         "description": "A self-hosted AI code review bot that integrates with GitHub to deliver automated PR reviews, inline suggestions, and direct code fixes using Claude.",
         "tags": [
-            "AI powered",
+            "AI-powered",
             "automate pull requests",
             "code quality",
             "code review",
@@ -4530,7 +4513,7 @@
         "tags": [
             "command line",
             "Deep Learning",
-            "Language Model",
+            "LLM",
             "source: Python"
         ]
     },
@@ -4539,8 +4522,8 @@
         "url": "https://github.com/os-scar/overlay",
         "description": "Overlay is a browser extension that helps developers evaluate open source packages before picking them. It gathers data from various sources, such as Snyk Advisor, Debricked, Socket.dev, and Deps.dev, and displays them on the package pages of popular registries like npm, PyPI, and Go.",
         "tags": [
+            "browser extension",
             "security",
-            "web-browser extension",
             "source: JavaScript"
         ]
     },
@@ -4561,7 +4544,7 @@
         "description": "A terminal user interface for viewing and controlling Docker containers with real-time monitoring, log management, and interactive container operations.",
         "tags": [
             "container",
-            "docker",
+            "Docker",
             "monitoring",
             "terminal interface",
             "source: Rust"
@@ -4572,7 +4555,7 @@
         "url": "https://github.com/Sinaptik-AI/pandas-ai",
         "description": "A Python library enabling natural language interactions with data sources including databases, data lakes, SQL, CSV, and Parquet files using large language models and retrieval-augmented generation.",
         "tags": [
-            "AI powered",
+            "AI-powered",
             "data processing",
             "visualization",
             "source: Python"
@@ -4639,7 +4622,7 @@
         "url": "https://github.com/ItzCrazyKns/Perplexica",
         "description": "A privacy-focused AI-powered search and answering engine operating entirely on user hardware with local and cloud-based language models.",
         "tags": [
-            "AI powered",
+            "AI-powered",
             "privacy",
             "web search",
             "source: TypeScript"
@@ -4651,7 +4634,6 @@
         "description": "A minimal, lightweight task orchestrator with cron-like scheduling, DAG-based execution, parallel processing, and configurable retry policies, built in Rust for embedded hardware environments.",
         "tags": [
             "command line",
-            "cron",
             "orchestrator",
             "scheduler",
             "source: Rust"
@@ -4704,8 +4686,8 @@
         "url": "https://github.com/avestura/PhotoFiremark",
         "description": "PhotoFiremark hides a photo in another photo",
         "tags": [
-            "hide",
             "image",
+            "steganography",
             "source: C#"
         ]
     },
@@ -4714,7 +4696,7 @@
         "url": "https://github.com/photoprism/photoprism",
         "description": "An AI-powered, self-hosted photo management application that automatically labels pictures by content and location, recognizes faces, and supports RAW images with WebDAV sync.",
         "tags": [
-            "AI powered",
+            "AI-powered",
             "face recognition",
             "image",
             "photo management",
@@ -4731,7 +4713,7 @@
             "monitoring",
             "network",
             "security",
-            "web page",
+            "web UI",
             "source: JavaScript"
         ]
     },
@@ -4741,10 +4723,10 @@
         "description": "Open source web services that leverage SSH for content publishing and management, enabling developers to deploy sites, share code, and manage blogs without additional installations.",
         "tags": [
             "self-hosted",
-            "ssh",
+            "SSH",
             "static site",
             "tunneling",
-            "web page",
+            "web UI",
             "source: Go"
         ]
     },
@@ -4763,7 +4745,7 @@
         "url": "https://github.com/andydunstall/piko",
         "description": "An open-source reverse proxy enabling secure connections to non-publicly routable services through outbound-only tunnels, with clustering support for fault tolerance and horizontal scaling.",
         "tags": [
-            "kubernetes",
+            "Kubernetes",
             "network",
             "proxy",
             "reverse proxy",
@@ -4871,7 +4853,7 @@
         "url": "https://github.com/katanemo/plano",
         "description": "AI-native proxy server and data plane for agentic apps with agent orchestration, model routing, OpenTelemetry tracing, and safety guardrails.",
         "tags": [
-            "AI powered",
+            "AI-powered",
             "LLM gateway",
             "monitoring",
             "orchestrator",
@@ -4920,8 +4902,8 @@
         "url": "https://github.com/a-ghorbani/pocketpal-ai",
         "description": "A mobile application that enables users to run small language models directly on their phones for offline AI assistance with all processing occurring on-device to protect user privacy.",
         "tags": [
-            "AI powered",
-            "Language Model",
+            "AI-powered",
+            "LLM",
             "offline",
             "privacy",
             "source: TypeScript"
@@ -4945,7 +4927,6 @@
         "tags": [
             "command line",
             "email",
-            "send email",
             "source: Go"
         ]
     },
@@ -4981,7 +4962,7 @@
             "dashboard",
             "forwarding",
             "network",
-            "ssh",
+            "SSH",
             "source: Go"
         ]
     },
@@ -5000,10 +4981,10 @@
         "description": "A terminal-based HTTP client with jump mode navigation, environment variables, vim keybindings, and YAML-based request storage for version control.",
         "tags": [
             "API",
+            "API testing",
             "command line",
             "HTTP client",
             "terminal interface",
-            "testing API",
             "source: Python"
         ]
     },
@@ -5013,8 +4994,8 @@
         "description": "Postman is an API platform for building and using APIs. Postman simplifies each step of the API lifecycle and streamlines collaboration so you can create better APIs-faster.",
         "tags": [
             "API development platform",
-            "GUI",
-            "testing API"
+            "API testing",
+            "GUI"
         ]
     },
     {
@@ -5022,7 +5003,7 @@
         "url": "https://github.com/pretzelai/pretzelai",
         "description": "An open-source fork of Jupyter that enhances the notebook experience with AI-powered code generation, intelligent editing, and collaborative features designed for modern data workflows.",
         "tags": [
-            "AI powered",
+            "AI-powered",
             "Jupyter",
             "Notebook",
             "source: Python"
@@ -5034,7 +5015,6 @@
         "description": "Process Compose is a simple and flexible scheduler and orchestrator to manage non-containerized applications.",
         "tags": [
             "command line",
-            "job",
             "orchestrator",
             "scheduler",
             "terminal",
@@ -5058,7 +5038,7 @@
         "description": "projectM - The most advanced open-source music visualizer",
         "tags": [
             "audio",
-            "visualizer"
+            "visualization"
         ]
     },
     {
@@ -5329,8 +5309,8 @@
         "description": "RecipeUI is the open source Postman alternative with type safety built in. Catch your API requests before they fail with TypeScript and autocomplete. Enhance your workflows with auto-generated docs and reusable API templates.",
         "tags": [
             "API development platform",
-            "GUI",
-            "testing API"
+            "API testing",
+            "GUI"
         ]
     },
     {
@@ -5353,7 +5333,7 @@
             "caching",
             "database",
             "key-value store",
-            "redis",
+            "Redis",
             "source: Go"
         ]
     },
@@ -5478,10 +5458,10 @@
         "url": "https://github.com/rtk-ai/rtk",
         "description": "A high-performance CLI proxy that reduces LLM token consumption by 60-90% through intelligent filtering and compression of command outputs, with support for 40+ common development commands.",
         "tags": [
-            "AI powered",
+            "AI-powered",
             "command line",
             "filtering",
-            "Language Model",
+            "LLM",
             "proxy",
             "source: Rust"
         ]
@@ -5516,7 +5496,6 @@
         "tags": [
             "command line",
             "deduplication",
-            "unique",
             "command line: uniq",
             "source: Rust"
         ]
@@ -5649,7 +5628,7 @@
         "url": "https://github.com/VinciGit00/Scrapegraph-ai",
         "description": "A Python library that leverages large language models and graph logic to create web scraping pipelines for websites and local documents with automatic extraction based on natural language prompts.",
         "tags": [
-            "AI powered",
+            "AI-powered",
             "web scraper",
             "source: Python"
         ]
@@ -5659,7 +5638,7 @@
         "url": "https://github.com/D4Vinci/Scrapling",
         "description": "An adaptive Python web scraping library that automatically relocates elements after website changes, with anti-bot bypass and AI integration.",
         "tags": [
-            "AI powered",
+            "AI-powered",
             "library",
             "web scraper",
             "source: Python"
@@ -5725,7 +5704,6 @@
         "tags": [
             "binary",
             "distribution",
-            "self-replace",
             "source: Rust"
         ]
     },
@@ -5844,7 +5822,7 @@
             "automation",
             "CI/CD",
             "command line",
-            "deployments",
+            "deploy",
             "source: Go"
         ]
     },
@@ -5908,7 +5886,7 @@
         "url": "https://github.com/sourcebot-dev/sourcebot",
         "description": "A self-hosted tool enabling developers and AI agents to comprehend codebases through intelligent search, IDE-level navigation, and natural language querying across multiple repositories.",
         "tags": [
-            "AI powered",
+            "AI-powered",
             "code search",
             "GUI",
             "source: TypeScript"
@@ -5919,7 +5897,7 @@
         "url": "https://github.com/sourcegraph/sourcegraph",
         "description": "Sourcegraph makes it easy to read, write, and fix code\u2014even in big, complex codebases.",
         "tags": [
-            "AI powered",
+            "AI-powered",
             "database",
             "editor",
             "GUI"
@@ -5931,7 +5909,6 @@
         "description": "spacer is a simple CLI tool to insert spacers when command output stops.",
         "tags": [
             "command line",
-            "space",
             "source: Rust"
         ]
     },
@@ -5964,7 +5941,6 @@
         "description": "A self-hosted application that monitors internet connection performance and uptime through automated testing, capturing detailed metrics including download/upload speeds, ping, and packet loss.",
         "tags": [
             "dashboard",
-            "internet connection",
             "monitoring",
             "network",
             "source: PHP"
@@ -5976,7 +5952,7 @@
         "description": "spin is a bash utility that improves the user-experience for teams using Docker.",
         "tags": [
             "command line",
-            "docker",
+            "Docker",
             "source: Shell"
         ]
     },
@@ -6063,7 +6039,7 @@
             "passwords",
             "secret management",
             "security",
-            "ssh",
+            "SSH",
             "source: Python"
         ]
     },
@@ -6074,7 +6050,7 @@
         "tags": [
             "configuration",
             "shell",
-            "ssh",
+            "SSH",
             "source: Shell"
         ]
     },
@@ -6087,8 +6063,7 @@
             "network",
             "penetration tests",
             "security",
-            "SSL",
-            "TLS",
+            "SSL/TLS",
             "vulnerability scanner",
             "source: Python"
         ]
@@ -6156,7 +6131,7 @@
         "tags": [
             "command line",
             "cross-platform",
-            "customizing",
+            "customization",
             "shell",
             "terminal",
             "source: Rust"
@@ -6167,7 +6142,7 @@
         "url": "https://github.com/stanford-oval/storm",
         "description": "An AI system that researches topics and generates comprehensive Wikipedia-style articles with citations by conducting internet searches and simulating expert conversations.",
         "tags": [
-            "AI powered",
+            "AI-powered",
             "text generation",
             "Wikipedia",
             "source: Python"
@@ -6304,8 +6279,8 @@
         "url": "https://github.com/bensadeh/tailspin",
         "description": "tailspin is a log file highlighter.",
         "tags": [
+            "coloring",
             "command line",
-            "highlighter",
             "logs",
             "source: Rust"
         ]
@@ -6348,7 +6323,7 @@
         "description": "An open-source platform unifying LLM gateway, observability, optimization, evaluation, and experimentation for production-grade AI applications with support for 20+ providers.",
         "tags": [
             "AI evaluation",
-            "AI powered",
+            "AI-powered",
             "LLM gateway",
             "observability",
             "source: Rust"
@@ -6398,7 +6373,7 @@
         "tags": [
             "Deep Learning",
             "GUI",
-            "Language Model",
+            "LLM",
             "text generation",
             "source: Python"
         ]
@@ -6473,7 +6448,7 @@
         "url": "https://github.com/yusufcanb/tlm",
         "description": "A local CLI companion tool using open-source LLMs for command suggestion, shell command explanation, and RAG-based queries, working fully offline.",
         "tags": [
-            "AI powered",
+            "AI-powered",
             "code generation",
             "command line",
             "offline",
@@ -6518,8 +6493,8 @@
         "url": "https://github.com/johannschopplich/toon",
         "description": "A compact, human-readable encoding format for JSON data designed specifically for LLM inputs, achieving up to 40% fewer tokens than standard JSON.",
         "tags": [
-            "AI powered",
-            "data format",
+            "AI-powered",
+            "file format",
             "JSON",
             "library",
             "source: TypeScript"
@@ -6576,7 +6551,7 @@
         "tags": [
             "command line",
             "parsing",
-            "url",
+            "URL",
             "source: Python"
         ]
     },
@@ -6596,8 +6571,8 @@
         "description": "A CLI tool for managing experiment directories with fuzzy search, time-awareness, and automatic date-prefixing for developers who create many temporary projects.",
         "tags": [
             "command line",
+            "experiment tracking",
             "fuzzy search",
-            "managing experiment",
             "source: Ruby"
         ]
     },
@@ -6607,7 +6582,7 @@
         "description": "A command-line tool that shares terminal sessions over the web via a browser interface with WebSocket support, TLS encryption, and file transfer capabilities.",
         "tags": [
             "terminal",
-            "web page",
+            "web UI",
             "source: C"
         ]
     },
@@ -6636,7 +6611,7 @@
         "url": "https://github.com/ncounterspecialist/twick",
         "description": "An open-source React Video Editor Library & SDK featuring AI caption generation, timeline editing, canvas tools, and MP4 export for building custom video applications.",
         "tags": [
-            "AI powered",
+            "AI-powered",
             "transcription",
             "video",
             "video editing",
@@ -6648,7 +6623,7 @@
         "url": "https://github.com/neuml/txtai",
         "description": "An all-in-one AI framework combining semantic search, LLM orchestration, and language model workflows into a unified platform for building intelligent applications.",
         "tags": [
-            "AI powered",
+            "AI-powered",
             "framework",
             "semantic search",
             "source: Python"
@@ -6713,7 +6688,7 @@
         "description": "unblob is an extraction suite that parses unknown binary blobs, extracts their content recursively, and carves out unknown chunks.",
         "tags": [
             "command line",
-            "parse file"
+            "parsing"
         ]
     },
     {
@@ -6722,7 +6697,7 @@
         "description": "A log-native, real-time database for Edge AI and Edge Computing that replicates like a message bus, combining B+Tree storage with WAL-based streaming replication for near-instant fan-out across hundreds of nodes.",
         "tags": [
             "database",
-            "stream data",
+            "streaming",
             "source: Go"
         ]
     },
@@ -6731,8 +6706,8 @@
         "url": "https://github.com/Fadi002/unshackle",
         "description": "Unshackle is an open-source tool to bypass Windows and Linux user passwords from a bootable USB based on Linux.",
         "tags": [
-            "bypass",
             "passwords",
+            "security",
             "source: Shell"
         ]
     },
@@ -6743,7 +6718,7 @@
         "tags": [
             "fine-tuning",
             "inference",
-            "Language Model",
+            "LLM",
             "Machine Learning",
             "training",
             "source: Python"
@@ -6789,7 +6764,7 @@
             "file storage",
             "in-memory",
             "key-value store",
-            "redis",
+            "Redis",
             "storage",
             "source: C"
         ]
@@ -6859,7 +6834,7 @@
             "command line",
             "management",
             "server",
-            "ssh",
+            "SSH",
             "source: Go"
         ]
     },
@@ -6938,8 +6913,8 @@
         "url": "https://github.com/spiraldb/vortex",
         "description": "A next-generation columnar file format and toolkit delivering 100x faster random access and 10-20x faster scans compared to Apache Parquet with zero-copy Arrow compatibility.",
         "tags": [
-            "data format",
             "data processing",
+            "file format",
             "source: Rust"
         ]
     },
@@ -6973,7 +6948,9 @@
         "url": "https://github.com/wailsapp/wails",
         "description": "Wails is a framework for building desktop applications using Go and Web technologies. It has the ability to wrap both Go code and a web frontend into a single binary. Wails features tools for project creation, compilation, and bundling.",
         "tags": [
-            "web page"
+            "cross-platform",
+            "framework",
+            "GUI"
         ]
     },
     {
@@ -6992,7 +6969,7 @@
         "description": "A stateless and diskless container-based operating system provisioning system for large clusters of bare metal and virtual systems in HPC environments.",
         "tags": [
             "container",
-            "docker",
+            "Docker",
             "source: Go"
         ]
     },
@@ -7010,7 +6987,7 @@
         "url": "https://github.com/wavetermdev/waveterm",
         "description": "An open-source terminal combining traditional CLI features with graphical capabilities including file previews, web browsing, AI assistance, and remote SSH connections.",
         "tags": [
-            "AI powered",
+            "AI-powered",
             "cross-platform",
             "terminal",
             "terminal emulator",
@@ -7037,7 +7014,7 @@
             "network scan",
             "OSINT",
             "security",
-            "SSL",
+            "SSL/TLS",
             "website",
             "source: TypeScript"
         ]
@@ -7140,7 +7117,7 @@
         "url": "https://github.com/Raphire/Win11Debloat",
         "description": "A lightweight PowerShell utility to remove bloatware, disable telemetry, and customize Windows 10 and Windows 11 system settings.",
         "tags": [
-            "customizing",
+            "customization",
             "privacy",
             "system settings",
             "Windows",
@@ -7152,7 +7129,8 @@
         "url": "https://github.com/TibixDev/winboat",
         "description": "An Electron application that runs Windows applications natively on Linux as integrated desktop windows, using Docker/Podman containers and FreeRDP RemoteApp for seamless integration.",
         "tags": [
-            "Windows-virtualization",
+            "virtualization",
+            "Windows",
             "source: TypeScript"
         ]
     },
@@ -7162,7 +7140,7 @@
         "description": "A Docker container solution that enables users to run Windows operating systems virtualized inside Docker, complete with automatic ISO downloading, KVM acceleration, and a web-based viewer interface.",
         "tags": [
             "container",
-            "docker",
+            "Docker",
             "Windows",
             "source: Shell"
         ]
@@ -7268,7 +7246,6 @@
             "alerts",
             "automation",
             "dashboard",
-            "job",
             "monitoring",
             "scheduler",
             "self-hosted",
@@ -7293,8 +7270,8 @@
         "description": "A Git-based dotfiles manager with support for system-specific alternatives, templating, encryption via GnuPG/OpenSSL, and customizable bootstrapping.",
         "tags": [
             "configuration",
-            "customizing",
-            "dotfile",
+            "customization",
+            "dotfiles",
             "encryption",
             "environment manager",
             "management",
@@ -7359,7 +7336,7 @@
         "url": "https://github.com/Tongyi-MAI/Z-Image",
         "description": "A 6-billion-parameter image generation foundation model using a single-stream diffusion transformer architecture, supporting bilingual text rendering and instruction-following image editing.",
         "tags": [
-            "AI powered",
+            "AI-powered",
             "Diffusion Model",
             "image generation",
             "Machine Learning",
@@ -7425,7 +7402,7 @@
         "url": "https://github.com/dtnewman/zev",
         "description": "A CLI tool that leverages LLM APIs to translate natural language queries into executable terminal commands, supporting multiple providers including OpenAI, Google Gemini, Ollama, and Azure OpenAI.",
         "tags": [
-            "AI powered",
+            "AI-powered",
             "command line",
             "terminal",
             "source: Python"
@@ -7437,7 +7414,7 @@
         "description": "A high-performance AI inference stack for production that supports any model on any hardware including NVIDIA CUDA, AMD RoCM, Google TPU, and AWS Trainium.",
         "tags": [
             "inference",
-            "Language Model",
+            "LLM",
             "source: Zig"
         ]
     },
