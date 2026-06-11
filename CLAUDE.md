@@ -81,6 +81,33 @@ Create a JSON file with the current date and time in the name using format `YYYY
    - `command line: <tool>` for CLI tool alternatives (e.g., `command line: grep`)
    - `source: <language>` for implementation language (e.g., `source: Rust`, `source: Python`)
 
+### Creating New Tags
+
+Before creating a tag, search `tags.json` for an existing one with the same meaning — including singular/plural,
+hyphenation, and word-order variants (e.g., use existing `deduplication`, not `unique`; `API testing`, not
+`testing API`). When creating one:
+
+- **Casing**: lowercase by default (`encryption`, `monitoring`); capitalize proper nouns and acronyms as officially
+  spelled (`Docker`, `Kubernetes`, `PostgreSQL`, `macOS`, `SSH`, `LLM`, `SSL/TLS`). Exception: `git` stays lowercase.
+- **Naming**: use nouns/noun phrases (`customization`, not `customizing`; `note-taking`, not `note`). Prefer the
+  established technical term (`steganography`, `tracing`, `HTTP client`) over an ad-hoc description (`hide`, `trace`,
+  `requests`).
+- **Granularity**: don't create compound tags when two existing tags cover it (use `Deep Learning` + `framework`,
+  not `Deep Learning framework`). Qualified variants are fine when the qualifier adds meaning (`Python linter`,
+  `vector database`).
+- **Avoid one-off vague tags** (`space`, `detector`, `engineering`) — if a tag would apply to only one app and an
+  existing tag already covers the idea, use the existing tag instead.
+- Use `LLM` for large-language-model topics (consistent with `LLM gateway`, `LLM management`, `LLM-ready`) and
+  `AI-powered` (hyphenated) for AI-assisted tools.
+
+### Bulk Tag Renames
+
+For renaming/merging tags across many apps, prefer a small Python script over manual edits: load
+`applications.json`, apply a `{old_tag: [new_tags]}` mapping per app, deduplicate via a `set`, and re-sort with
+`list_app.data_utils.sort_application_tags()`. Then run `./run.sh generate-readme` — it re-saves both
+`applications.json` and `tags.json` through the canonical code path (sorting, formatting, and tag index are
+regenerated automatically), so `tags.json` never needs hand-editing after a rename.
+
 ### Merging and Generating README
 
 **Option A: Direct merge (no review)**
