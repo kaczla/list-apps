@@ -1222,6 +1222,19 @@
         ]
     },
     {
+        "name": "dateparser",
+        "url": "https://github.com/scrapinghub/dateparser",
+        "description": "A Python library that parses human-readable date strings into datetime objects, handling absolute, relative, and timestamp formats across 200+ language locales with automatic language detection.",
+        "tags": [
+            "language detection",
+            "library",
+            "multi-language",
+            "Natural Language Processing",
+            "parsing",
+            "source: Python"
+        ]
+    },
+    {
         "name": "Daytona",
         "url": "https://github.com/daytonaio/daytona",
         "description": "A platform for running AI-generated code in isolated sandboxes with sub-90ms creation time, programmatic APIs, and OCI/Docker compatibility.",
@@ -2524,6 +2537,19 @@
             "queue",
             "scheduler",
             "source: Go"
+        ]
+    },
+    {
+        "name": "Headroom",
+        "url": "https://github.com/chopratejas/headroom",
+        "description": "A context compression layer that reduces token usage by 60-95% for AI agents while maintaining answer quality, working as a library, proxy, or MCP server to compress tool outputs, logs, RAG chunks, and conversation history.",
+        "tags": [
+            "AI agents",
+            "caching",
+            "compression",
+            "library",
+            "LLM",
+            "source: Python"
         ]
     },
     {
@@ -4485,6 +4511,20 @@
         ]
     },
     {
+        "name": "OpenWork",
+        "url": "https://github.com/different-ai/openwork",
+        "description": "A free, open-source desktop application for working with AI agents on your own local files, supporting 50+ LLM providers and extensible through skills, plugins, and MCP servers.",
+        "tags": [
+            "agentic coding",
+            "AI agents",
+            "cross-platform",
+            "LLM",
+            "Model Context Protocol (MCP)",
+            "self-hosted",
+            "source: TypeScript"
+        ]
+    },
+    {
         "name": "OpenZL",
         "url": "https://github.com/facebook/openzl",
         "description": "A format-aware data compression framework that delivers high compression ratios while preserving high speed by generating specialized compressors optimized for specific data formats using a universal decompressor.",
@@ -4547,6 +4587,18 @@
             "Docker",
             "monitoring",
             "terminal interface",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "Pake",
+        "url": "https://github.com/tw93/Pake",
+        "description": "A Rust/Tauri tool that turns any webpage into a lightweight standalone desktop application with a single command, producing packages around 20 times smaller than Electron.",
+        "tags": [
+            "command line",
+            "cross-platform",
+            "customization",
+            "GUI",
             "source: Rust"
         ]
     },
@@ -5838,6 +5890,19 @@
         ]
     },
     {
+        "name": "SkillSpector",
+        "url": "https://github.com/NVIDIA/SkillSpector",
+        "description": "A security scanning tool that detects vulnerabilities and malicious patterns in AI agent skills before installation, using static analysis, optional LLM evaluation, and 64 vulnerability patterns with SARIF output.",
+        "tags": [
+            "command line",
+            "LLM",
+            "security",
+            "static code analyzer",
+            "vulnerability scanner",
+            "source: Python"
+        ]
+    },
+    {
         "name": "Slidev",
         "url": "https://github.com/slidevjs/slidev",
         "description": "Slives is a program to create presentation slides from Markdown.",
@@ -6813,6 +6878,19 @@
             "RSS",
             "video downloader",
             "source: TypeScript"
+        ]
+    },
+    {
+        "name": "Video2X",
+        "url": "https://github.com/k4yt3x/video2x",
+        "description": "A machine learning-based framework for upscaling videos and interpolating frames using engines like Anime4K, Real-ESRGAN, Real-CUGAN, and RIFE, with Vulkan hardware acceleration.",
+        "tags": [
+            "command line",
+            "framerate",
+            "Machine Learning",
+            "video",
+            "video editing",
+            "source: C++"
         ]
     },
     {

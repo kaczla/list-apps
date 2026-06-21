@@ -323,6 +323,9 @@ Some descriptions are from:
 - DataLens [🛈](https://github.com/datalens-tech/datalens)
   - DataLens is a modern business intelligence and data visualization system.
   - Tags: visualization, source: Python
+- dateparser [🛈](https://github.com/scrapinghub/dateparser)
+  - A Python library that parses human-readable date strings into datetime objects, handling absolute, relative, and timestamp formats across 200+ language locales with automatic language detection.
+  - Tags: language detection, library, multi-language, Natural Language Processing, parsing, source: Python
 - Daytona [🛈](https://github.com/daytonaio/daytona)
   - A platform for running AI-generated code in isolated sandboxes with sub-90ms creation time, programmatic APIs, and OCI/Docker compatibility.
   - Tags: AI-powered, container, developer environment, isolation, source: Go
@@ -668,6 +671,9 @@ Some descriptions are from:
 - Hatchet [🛈](https://github.com/hatchet-dev/hatchet)
   - Background task and durable workflow execution platform built on PostgreSQL, combining task queue, observability, alerting, dashboard, and CLI.
   - Tags: dashboard, orchestrator, PostgreSQL, queue, scheduler, source: Go
+- Headroom [🛈](https://github.com/chopratejas/headroom)
+  - A context compression layer that reduces token usage by 60-95% for AI agents while maintaining answer quality, working as a library, proxy, or MCP server to compress tool outputs, logs, RAG chunks, and conversation history.
+  - Tags: AI agents, caching, compression, library, LLM, source: Python
 - Helium [🛈](https://github.com/mherrmann/helium)
   - A Python library for automating web browsers like Chrome and Firefox with a high-level API that simplifies browser automation compared to Selenium.
   - Tags: automation, browser automation, library, Python wrapper, web browser, source: Python
@@ -1184,6 +1190,9 @@ Some descriptions are from:
 - OpenVMM [🛈](https://github.com/microsoft/openvmm)
   - A modular, cross-platform Virtual Machine Monitor written in Rust, primarily developed for the OpenHCL paravisor.
   - Tags: container, cross-platform, virtualization, source: Rust
+- OpenWork [🛈](https://github.com/different-ai/openwork)
+  - A free, open-source desktop application for working with AI agents on your own local files, supporting 50+ LLM providers and extensible through skills, plugins, and MCP servers.
+  - Tags: agentic coding, AI agents, cross-platform, LLM, Model Context Protocol (MCP), self-hosted, source: TypeScript
 - OpenZL [🛈](https://github.com/facebook/openzl)
   - A format-aware data compression framework that delivers high compression ratios while preserving high speed by generating specialized compressors optimized for specific data formats using a universal decompressor.
   - Tags: command line, compression, decompression, source: C
@@ -1202,6 +1211,9 @@ Some descriptions are from:
 - oxker [🛈](https://github.com/mrjackwills/oxker)
   - A terminal user interface for viewing and controlling Docker containers with real-time monitoring, log management, and interactive container operations.
   - Tags: container, Docker, monitoring, terminal interface, source: Rust
+- Pake [🛈](https://github.com/tw93/Pake)
+  - A Rust/Tauri tool that turns any webpage into a lightweight standalone desktop application with a single command, producing packages around 20 times smaller than Electron.
+  - Tags: command line, cross-platform, customization, GUI, source: Rust
 - pandas-ai [🛈](https://github.com/Sinaptik-AI/pandas-ai)
   - A Python library enabling natural language interactions with data sources including databases, data lakes, SQL, CSV, and Parquet files using large language models and retrieval-augmented generation.
   - Tags: AI-powered, data processing, visualization, source: Python
@@ -1547,6 +1559,9 @@ Some descriptions are from:
 - sig [🛈](https://github.com/ynqa/sig)
   - sig is an interactive grep (for streaming).
   - Tags: command line, interactive, command line: grep, source: Rust
+- SkillSpector [🛈](https://github.com/NVIDIA/SkillSpector)
+  - A security scanning tool that detects vulnerabilities and malicious patterns in AI agent skills before installation, using static analysis, optional LLM evaluation, and 64 vulnerability patterns with SARIF output.
+  - Tags: command line, LLM, security, static code analyzer, vulnerability scanner, source: Python
 - Slidev [🛈](https://github.com/slidevjs/slidev)
   - Slives is a program to create presentation slides from Markdown.
   - Tags: Markdown, presentation
@@ -1811,6 +1826,9 @@ Some descriptions are from:
 - VidBee [🛈](https://github.com/nexmoe/VidBee)
   - A modern, open-source video downloader enabling users to download videos and audio from 1000+ websites globally with RSS automation features.
   - Tags: audio, automation, cross-platform, downloader, GUI, RSS, video downloader, source: TypeScript
+- Video2X [🛈](https://github.com/k4yt3x/video2x)
+  - A machine learning-based framework for upscaling videos and interpolating frames using engines like Anime4K, Real-ESRGAN, Real-CUGAN, and RIFE, with Vulkan hardware acceleration.
+  - Tags: command line, framerate, Machine Learning, video, video editing, source: C++
 - VideoCrafter [🛈](https://github.com/VideoCrafter/VideoCrafter)
   - VideoCrafter is an open-source video generation and editing toolbox for crafting video content.
   - Tags: Deep Learning, video, video generation, source: Python
@@ -1990,8 +2008,8 @@ List of tags with occurrences in the brackets:
 - 3D image generation (1)
 - ad blocker (1)
 - agent builder (3)
-- agentic coding (11)
-- AI agents (32)
+- agentic coding (12)
+- AI agents (34)
 - AI evaluation (2)
 - AI personal assistant (11)
 - AI-powered (70)
@@ -2021,7 +2039,7 @@ List of tags with occurrences in the brackets:
 - browser extension (2)
 - bug tracker (1)
 - build system (3)
-- caching (9)
+- caching (10)
 - chat (10)
 - cheat sheet (4)
 - CI/CD (5)
@@ -2036,7 +2054,7 @@ List of tags with occurrences in the brackets:
 - code search (7)
 - code statistics (1)
 - coloring (2)
-- command line (219)
+- command line (222)
 - command line: cat (1)
 - command line: cd (2)
 - command line: diff (3)
@@ -2062,7 +2080,7 @@ List of tags with occurrences in the brackets:
 - command runner (3)
 - commit message (1)
 - compiler (3)
-- compression (7)
+- compression (8)
 - computer vision (5)
 - configuration (6)
 - configuration distribution (1)
@@ -2070,9 +2088,9 @@ List of tags with occurrences in the brackets:
 - content extractor (11)
 - context retrieval (2)
 - control desktop (1)
-- cross-platform (37)
+- cross-platform (39)
 - CSV (8)
-- customization (5)
+- customization (6)
 - dashboard (13)
 - data anonymization (1)
 - data formatter (5)
@@ -2138,7 +2156,7 @@ List of tags with occurrences in the brackets:
 - forensics (5)
 - forms (2)
 - forwarding (5)
-- framerate (1)
+- framerate (2)
 - framework (17)
 - full-text search (6)
 - fun (1)
@@ -2152,7 +2170,7 @@ List of tags with occurrences in the brackets:
 - Google Analytics (2)
 - GPU (9)
 - gRPC (1)
-- GUI (48)
+- GUI (49)
 - guide (5)
 - help message (1)
 - hex viewer (1)
@@ -2182,19 +2200,19 @@ List of tags with occurrences in the brackets:
 - key-value store (8)
 - knowledge graph (2)
 - Kubernetes (7)
-- language detection (2)
-- library (45)
+- language detection (3)
+- library (47)
 - link management (1)
 - linter (12)
 - Linux (8)
 - Linux kernel (1)
-- LLM (38)
+- LLM (41)
 - LLM gateway (4)
 - LLM management (5)
 - LLM-ready (4)
 - load balancer (2)
 - logs (9)
-- Machine Learning (18)
+- Machine Learning (19)
 - Machine Translation (1)
 - macOS (1)
 - makefile (3)
@@ -2206,13 +2224,13 @@ List of tags with occurrences in the brackets:
 - mesh network (3)
 - metadata tracker (1)
 - metrics (5)
-- Model Context Protocol (MCP) (5)
+- Model Context Protocol (MCP) (6)
 - model merging (1)
 - monitoring (37)
-- multi-language (9)
+- multi-language (10)
 - music generation (2)
 - NAS (1)
-- Natural Language Processing (6)
+- Natural Language Processing (7)
 - NeRFs (1)
 - network (32)
 - network scan (8)
@@ -2236,7 +2254,7 @@ List of tags with occurrences in the brackets:
 - package installer (3)
 - package manager (5)
 - parallel (4)
-- parsing (4)
+- parsing (5)
 - passwords (2)
 - pattern search (3)
 - PDF (3)
@@ -2285,8 +2303,8 @@ List of tags with occurrences in the brackets:
 - searching (15)
 - secret management (3)
 - secrets detector (2)
-- security (34)
-- self-hosted (33)
+- security (35)
+- self-hosted (34)
 - semantic search (5)
 - serialization (1)
 - server (4)
@@ -2300,7 +2318,7 @@ List of tags with occurrences in the brackets:
 - source control system (3)
 - source: C (27)
 - source: C# (3)
-- source: C++ (22)
+- source: C++ (23)
 - source: Clojure (2)
 - source: Crystal (1)
 - source: Dart (1)
@@ -2313,11 +2331,11 @@ List of tags with occurrences in the brackets:
 - source: Lua (1)
 - source: PHP (1)
 - source: PowerShell (1)
-- source: Python (174)
+- source: Python (177)
 - source: Ruby (5)
-- source: Rust (142)
+- source: Rust (143)
 - source: Shell (10)
-- source: TypeScript (73)
+- source: TypeScript (74)
 - source: Zig (4)
 - speech generation (8)
 - speech recognition (11)
@@ -2328,7 +2346,7 @@ List of tags with occurrences in the brackets:
 - SSH (8)
 - SSH management (1)
 - SSL/TLS (4)
-- static code analyzer (2)
+- static code analyzer (3)
 - static site (1)
 - statistics (3)
 - steganography (1)
@@ -2366,9 +2384,9 @@ List of tags with occurrences in the brackets:
 - username search (2)
 - vector database (4)
 - vector search (3)
-- video (17)
+- video (18)
 - video downloader (4)
-- video editing (3)
+- video editing (4)
 - video generation (1)
 - video recording (1)
 - viewer (4)
@@ -2376,7 +2394,7 @@ List of tags with occurrences in the brackets:
 - visualization (13)
 - voice cloning (3)
 - VPN (2)
-- vulnerability scanner (10)
+- vulnerability scanner (11)
 - weather (1)
 - web browser (8)
 - web scraper (13)
