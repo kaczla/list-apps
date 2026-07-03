@@ -122,6 +122,9 @@ Some descriptions are from:
 - bindiff [🛈](https://github.com/google/bindiff)
   - BinDiff is an open-source comparison tool for binary files to quickly find differences and similarities in disassembled code.
   - Tags: binary, command line, diff, command line: diff, source: Rust
+- Binsider [🛈](https://github.com/orhun/binsider)
+  - A terminal user interface for static and dynamic analysis of ELF binaries, with inspection of strings, linked libraries, and hexdumps.
+  - Tags: analysis, binary, command line, hex viewer, reverse engineering, terminal interface, source: Rust
 - bknd [🛈](https://github.com/bknd-io/bknd)
   - A lightweight Firebase/Supabase alternative providing modular backend system with database management, authentication, media handling, and workflows that deploys across multiple runtimes without vendor lock-in.
   - Tags: API development platform, authentication, database management, Firebase, Supabase, source: TypeScript
@@ -314,6 +317,9 @@ Some descriptions are from:
 - Dasel [🛈](https://github.com/TomWright/dasel)
   - A command-line tool and Go library for querying, modifying, and transforming structured data across multiple formats including JSON, YAML, TOML, XML, CSV, HCL, and INI files using a unified syntax.
   - Tags: command line, CSV, data processing, JSON, querying, XML, YAML, source: Go
+- Dashy [🛈](https://github.com/lissy93/dashy)
+  - A self-hostable personal dashboard homepage for organizing and accessing self-hosted services, with status monitoring, widgets, themes, and a UI editor.
+  - Tags: dashboard, homelab, self-hosted, web UI, source: JavaScript
 - Datadrift [🛈](https://github.com/data-drift/data-drift)
   - Datadrift is an open-source monitoring and incident management platform to help data teams deliver trusted and reliable metrics.
   - Tags: metrics, monitoring, source: TypeScript
@@ -464,6 +470,9 @@ Some descriptions are from:
 - EditAnything [🛈](https://github.com/sail-sg/EditAnything)
   - Edit anything in images powered by segment-anything, ControlNet, StableDiffusion, etc.
   - Tags: Deep Learning, image editing, image generation, source: Python
+- eilmeldung [🛈](https://github.com/christo-auer/eilmeldung)
+  - A terminal-based RSS reader with fast, vim-inspired navigation and powerful filtering, built on the news-flash library.
+  - Tags: command line, filtering, RSS, terminal interface, source: Rust
 - Elio [🛈](https://github.com/elio-fm/elio)
   - A snappy terminal-based file manager with rich file previews, inline image rendering, fuzzy search, bulk operations, and trash management.
   - Tags: command line, file manager, fuzzy search, terminal interface, command line: ranger, source: Rust
@@ -557,6 +566,9 @@ Some descriptions are from:
 - fzf [🛈](https://github.com/junegunn/fzf)
   - fzf is a general-purpose command-line fuzzy finder.
   - Tags: command line, searching, command line: find, source: Go
+- fzf-make [🛈](https://github.com/kyu08/fzf-make)
+  - A command-line tool to select and execute commands from make, npm, pnpm, yarn, just, and task using an interactive fuzzy finder with a preview window.
+  - Tags: build system, command runner, fuzzy search, command line: make, source: Rust
 - Garage [🛈](https://github.com/deuxfleurs-org/garage)
   - An S3-compatible distributed object storage service built for self-hosting at small-to-medium scale that replicates data across geo-distributed nodes and maintains availability during server outages.
   - Tags: file storage, S3, storage, source: Rust
@@ -635,6 +647,9 @@ Some descriptions are from:
 - Gopeed [🛈](https://github.com/GopeedLab/gopeed)
   - A modern cross-platform download manager supporting HTTP, BitTorrent, and Magnet protocols, built with Golang and Flutter, with browser extension integration and an extensible API.
   - Tags: cross-platform, downloader, file transfer, source: Go
+- gpg-tui [🛈](https://github.com/orhun/gpg-tui)
+  - A terminal user interface for managing GnuPG keys, easing operations such as listing, exporting, and signing keys.
+  - Tags: command line, encryption, GPG, key management, terminal interface, source: Rust
 - gpt4free [🛈](https://github.com/xtekky/gpt4free)
   - A community-driven Python package that aggregates multiple LLM providers into a unified interface with OpenAI-compatible APIs, web GUI, and support for image/audio/video generation.
   - Tags: AI-powered, LLM, source: Python
@@ -773,6 +788,9 @@ Some descriptions are from:
 - Ivy [🛈](https://github.com/unifyai/ivy)
   - Ivy is both an ML transpiler and a framework, currently supporting JAX, TensorFlow, PyTorch and Numpy.
   - Tags: framework, Machine Learning, transpiler, source: Python
+- JADX [🛈](https://github.com/skylot/jadx)
+  - A decompiler that converts Android DEX and APK files into readable Java source code, with both command-line and GUI interfaces including a deobfuscator and full-text search.
+  - Tags: Android, command line, decompiler, GUI, reverse engineering, source: Java
 - Jan [🛈](https://github.com/janhq/jan)
   - An open-source desktop alternative to ChatGPT that runs LLMs fully offline, with support for local models from HuggingFace, cloud provider integrations, an OpenAI-compatible local API, and Model Context Protocol for agentic capabilities.
   - Tags: AI-powered, chat, cross-platform, GUI, inference, LLM, LLM management, Model Context Protocol (MCP), offline, source: Rust, source: TypeScript
@@ -986,6 +1004,9 @@ Some descriptions are from:
 - masscan [🛈](https://github.com/robertdavidgraham/masscan)
   - An Internet-scale port scanner capable of scanning the entire Internet in under 5 minutes by transmitting 10 million packets per second.
   - Tags: command line, network, network scan, security, source: C
+- Material [🛈](https://github.com/azorng/material)
+  - A terminal application and library that displays a material design color palette, letting you interactively browse and copy hex color codes.
+  - Tags: coloring, command line, terminal, source: Rust
 - Mathesar [🛈](https://github.com/mathesar-foundation/mathesar)
   - A web application providing an intuitive spreadsheet-like interface for users to view, edit, query, and collaborate on PostgreSQL data.
   - Tags: database, GUI, PostgreSQL, self-hosted, spreadsheet, source: Python
@@ -1004,6 +1025,9 @@ Some descriptions are from:
 - MCP-Shield [🛈](https://github.com/riseandignite/mcp-shield)
   - Security scanner that analyzes installed MCP (Model Context Protocol) servers to identify vulnerabilities including tool poisoning, data exfiltration, and cross-origin escalations.
   - Tags: AI-powered, Model Context Protocol (MCP), security, vulnerability scanner, source: TypeScript
+- mdfried [🛈](https://github.com/benjajaja/mdfried)
+  - A terminal markdown viewer that renders headers as enlarged text using graphics protocols such as Sixel, Kitty, and iTerm2.
+  - Tags: command line, Markdown, terminal interface, viewer, source: Rust
 - mem0 [🛈](https://github.com/mem0ai/mem0)
   - Universal memory layer for AI Agents that enables personalized AI interactions by remembering user preferences and learning continuously.
   - Tags: AI agents, library, memory, source: Python
@@ -1133,6 +1157,9 @@ Some descriptions are from:
 - offset-allocator [🛈](https://github.com/pcwalton/offset-allocator)
   - A fast, hard real-time memory allocator optimized for managing GPU resources and other non-CPU memory allocations with O(1) operations and minimal fragmentation.
   - Tags: allocator, GPU, library, memory management, source: Rust
+- oha [🛈](https://github.com/hatoo/oha)
+  - A command-line HTTP load generator with a real-time terminal UI, supporting HTTP/1, HTTP/2, and experimental HTTP/3, inspired by rakyll/hey.
+  - Tags: benchmarking, command line, HTTP client, terminal interface, source: Rust
 - Ollama [🛈](https://github.com/ollama/ollama)
   - An open-source framework for running large language models locally on macOS, Windows, and Linux, with a REST API and support for GPU acceleration, multiple model formats, and integrations with popular AI frameworks.
   - Tags: AI-powered, cross-platform, inference, LLM, LLM management, offline, Ollama, source: Go
@@ -1160,6 +1187,9 @@ Some descriptions are from:
 - open-interpreter [🛈](https://github.com/OpenInterpreter/open-interpreter)
   - A natural language interface for computers that allows LLMs to run Python, JavaScript, Shell, and other code locally with user approval, overcoming ChatGPT Code Interpreter limitations.
   - Tags: AI-powered, automation, code execution, command line, interactive, LLM, source: Python
+- openapi-tui [🛈](https://github.com/zaghaghi/openapi-tui)
+  - A terminal user interface for browsing, listing, and executing APIs defined by OpenAPI v3.0 and v3.1 specifications, with request filtering and syntax-highlighted responses.
+  - Tags: API testing, command line, HTTP client, terminal interface, source: Rust
 - openclaw [🛈](https://github.com/openclaw/openclaw)
   - A local-first personal AI assistant gateway integrating with 15+ messaging platforms (WhatsApp, Telegram, Slack, Discord, iMessage) with voice mode, live Canvas interface, and multi-agent routing.
   - Tags: AI agents, AI personal assistant, source: TypeScript
@@ -1409,12 +1439,18 @@ Some descriptions are from:
 - Raijin [🛈](https://github.com/MasonStooksbury/Raijin)
   - A terminal-based weather application that retrieves meteorological data without requiring API keys, user accounts, or subscriptions.
   - Tags: command line, terminal interface, weather, source: Rust
+- Rainfrog [🛈](https://github.com/achristmascarl/rainfrog)
+  - A lightweight terminal-based database management tool with vim-like keybindings, a query editor with keyword highlighting, session history, and favorites, supporting PostgreSQL, MySQL, SQLite, and more.
+  - Tags: command line, database, database management, SQL, terminal interface, source: Rust
 - ranger [🛈](https://github.com/ranger/ranger)
   - ranger is a console file manager with VI key bindings
   - Tags: file manager, command line: mc, command line: ranger
 - rapidgzip [🛈](https://github.com/mxmlnkn/rapidgzip)
   - Rapidgzip: Parallelized Decompression of Gzip Files with Support for Fast Random Access.
   - Tags: command line, compression, decompression, source: C++
+- Ratatui [🛈](https://github.com/ratatui/ratatui)
+  - A Rust crate providing a simple and flexible framework for building text-based user interfaces (TUIs) in the terminal.
+  - Tags: framework, library, terminal interface, source: Rust
 - Readest [🛈](https://github.com/readest/readest)
   - An open-source ebook reader designed for immersive and deep reading experiences, built with Next.js and Tauri. Supports EPUB, MOBI, AZW3, FB2, CBZ, and TXT formats with annotations, full-text search, parallel reading, text-to-speech, dictionary lookups, and translation via DeepL/Yandex.
   - Tags: book collections, cross-platform, ebook reader, full-text search, GUI, offline, source: TypeScript
@@ -1463,9 +1499,15 @@ Some descriptions are from:
 - rtx [🛈](https://github.com/jdxcode/rtx)
   - rtx is a tool for managing programming language and tool versions.
   - Tags: command line, environment manager, management, source: Rust
+- Rucola [🛈](https://github.com/Linus-Mussmaecher/rucola)
+  - A terminal-based markdown note manager for zettelkasten-style notes, letting you view statistics, explore connections, and launch editing and viewing applications.
+  - Tags: command line, Markdown, note-taking, terminal interface, source: Rust
 - ruff [🛈](https://github.com/charliermarsh/ruff)
   - An extremely fast Python linter and code formatter with 800+ built-in rules, compatible with Flake8, isort, and Black.
   - Tags: code formatting, command line, linter, Python linter, source: Rust
+- Rufus [🛈](https://github.com/pbatard/rufus)
+  - A reliable utility for formatting and creating bootable USB flash drives, supporting a wide range of file systems and boot configurations.
+  - Tags: bootable USB, disk utility, Windows, source: C
 - runiq [🛈](https://github.com/whitfin/runiq)
   - An efficient way to filter duplicate lines from input, à la uniq.
   - Tags: command line, deduplication, command line: uniq, source: Rust
@@ -1565,6 +1607,9 @@ Some descriptions are from:
 - Slidev [🛈](https://github.com/slidevjs/slidev)
   - Slives is a program to create presentation slides from Markdown.
   - Tags: Markdown, presentation
+- Slumber [🛈](https://github.com/LucasPickering/slumber)
+  - A terminal-based HTTP/REST client for defining, executing, and sharing configurable requests, with dynamic request building, JSONPath filtering, and environment profiles.
+  - Tags: API testing, command line, HTTP client, terminal interface, source: Rust
 - smallpond [🛈](https://github.com/deepseek-ai/smallpond)
   - A lightweight framework for processing large-scale data that leverages DuckDB's performance capabilities combined with 3FS distributed storage, enabling efficient handling of petabyte-scale datasets without requiring persistent service infrastructure.
   - Tags: data processing, database, source: Python
@@ -1715,6 +1760,9 @@ Some descriptions are from:
 - tidy-html5 [🛈](https://github.com/htacg/tidy-html5)
   - Tidy is the granddaddy of HTML tools, with support for modern standards.
   - Tags: command line, HTML
+- Tiny RDM [🛈](https://github.com/tiny-craft/tiny-rdm)
+  - A lightweight, modern cross-platform Redis desktop GUI client for Mac, Windows, and Linux, also deployable as a web version via Docker.
+  - Tags: cross-platform, database management, GUI, Redis, source: Go
 - tinyvector [🛈](https://github.com/0hq/tinyvector)
   - tinyvector - the tiny, least-dumb, speedy vector embedding database.
   - Tags: database, embeddings, vector database, source: Python
@@ -1748,6 +1796,9 @@ Some descriptions are from:
 - Treescope [🛈](https://github.com/google-deepmind/treescope)
   - Interactive HTML pretty-printer and N-dimensional array visualizer for machine learning research in IPython notebooks, with support for JAX, PyTorch, and NumPy.
   - Tags: Deep Learning, interactive, Jupyter, Machine Learning, visualization, source: Python
+- Trippy [🛈](https://github.com/fujiapple852/trippy)
+  - A network diagnostic tool that combines the functionality of traceroute and ping to assist with the analysis of networking issues.
+  - Tags: command line, monitoring, network, terminal interface, source: Rust
 - TruffleHog [🛈](https://github.com/trufflesecurity/trufflehog)
   - A secrets discovery, classification, validation, and analysis tool that scans Git repositories, cloud storage, Docker images, and more for over 800 types of leaked credentials.
   - Tags: secrets detector, security, vulnerability scanner, source: Go
@@ -1814,6 +1865,9 @@ Some descriptions are from:
 - Valkey [🛈](https://github.com/valkey-io/valkey)
   - A high-performance key/value data structure server, forked from Redis as an open-source community project, supporting TLS, extensible plugin system, and clustering.
   - Tags: data structures, database, file storage, in-memory, key-value store, Redis, storage, source: C
+- Ventoy [🛈](https://github.com/ventoy/Ventoy)
+  - An open-source tool that creates bootable USB drives from ISO, WIM, IMG, VHD(x), and EFI files without formatting the disk or extracting files.
+  - Tags: bootable USB, cross-platform, disk utility, source: C
 - venvstacks [🛈](https://github.com/lmstudio-ai/venvstacks)
   - A Python tool that packages applications with their dependencies into portable, deterministic formats without duplicating large ML/AI frameworks.
   - Tags: environment manager, source: Python
@@ -1949,6 +2003,9 @@ Some descriptions are from:
 - yadm [🛈](https://github.com/yadm-dev/yadm)
   - A Git-based dotfiles manager with support for system-specific alternatives, templating, encryption via GnuPG/OpenSSL, and customizable bootstrapping.
   - Tags: configuration, customization, dotfiles, encryption, environment manager, management, source: Python
+- Yazi [🛈](https://github.com/sxyazi/yazi)
+  - A blazing fast terminal file manager written in Rust, using non-blocking async I/O with built-in image preview and concurrent plugin support.
+  - Tags: cross-platform, file manager, terminal interface, command line: ranger, source: Rust
 - youtube-dl [🛈](https://github.com/ytdl-org/youtube-dl)
   - youtube-dl - download videos from youtube.com or other video platforms.
   - Tags: command line, downloader, video, video downloader, source: Python
@@ -1961,6 +2018,9 @@ Some descriptions are from:
 - ytop [🛈](https://github.com/cjbassi/ytop) - NO LONGER MAINTAINED)
   - ytop is a TUI based system monitor, this time in Rust!
   - Tags: command line, monitoring, command line: top, source: Rust
+- Yōzefu [🛈](https://github.com/MAIF/yozefu)
+  - An interactive terminal user interface for exploring and analyzing data in Kafka clusters, with real-time access to topics and advanced search capabilities.
+  - Tags: command line, Kafka, searching, streaming, terminal interface, source: Rust
 - Z-Image [🛈](https://github.com/Tongyi-MAI/Z-Image)
   - A 6-billion-parameter image generation foundation model using a single-stream diffusion transformer architecture, supporting bilingual text rendering and instruction-following image editing.
   - Tags: AI-powered, Diffusion Model, image generation, Machine Learning, source: Python
@@ -2016,12 +2076,12 @@ List of tags with occurrences in the brackets:
 - alerts (4)
 - allocator (1)
 - AlphaZero (1)
-- analysis (8)
+- analysis (9)
 - analytics (4)
-- Android (3)
+- Android (4)
 - API (10)
 - API development platform (4)
-- API testing (4)
+- API testing (6)
 - archive (5)
 - audio (22)
 - audio generation (3)
@@ -2031,14 +2091,15 @@ List of tags with occurrences in the brackets:
 - automation (32)
 - awesome-list (1)
 - backup (4)
-- benchmarking (1)
-- binary (5)
+- benchmarking (2)
+- binary (6)
 - book collections (2)
 - bookmark (1)
+- bootable USB (2)
 - browser automation (5)
 - browser extension (2)
 - bug tracker (1)
-- build system (3)
+- build system (4)
 - caching (10)
 - chat (10)
 - cheat sheet (4)
@@ -2053,8 +2114,8 @@ List of tags with occurrences in the brackets:
 - code review (2)
 - code search (7)
 - code statistics (1)
-- coloring (2)
-- command line (222)
+- coloring (3)
+- command line (235)
 - command line: cat (1)
 - command line: cd (2)
 - command line: diff (3)
@@ -2065,19 +2126,19 @@ List of tags with occurrences in the brackets:
 - command line: jq (4)
 - command line: kill (1)
 - command line: ls (6)
-- command line: make (3)
+- command line: make (4)
 - command line: mc (5)
 - command line: netstat (1)
 - command line: parallel (1)
 - command line: pip (1)
 - command line: ps (2)
-- command line: ranger (5)
+- command line: ranger (6)
 - command line: rm (2)
 - command line: sed (1)
 - command line: shuf (1)
 - command line: top (8)
 - command line: uniq (2)
-- command runner (3)
+- command runner (4)
 - commit message (1)
 - compiler (3)
 - compression (8)
@@ -2088,10 +2149,10 @@ List of tags with occurrences in the brackets:
 - content extractor (11)
 - context retrieval (2)
 - control desktop (1)
-- cross-platform (39)
+- cross-platform (42)
 - CSV (8)
 - customization (6)
-- dashboard (13)
+- dashboard (14)
 - data anonymization (1)
 - data formatter (5)
 - data generator (2)
@@ -2101,13 +2162,14 @@ List of tags with occurrences in the brackets:
 - data recovery (1)
 - data structures (3)
 - data validation (1)
-- database (44)
-- database management (1)
+- database (45)
+- database management (3)
 - database schema (1)
 - database transfer (1)
 - dataflow (1)
 - debugger (3)
 - debugging (7)
+- decompiler (1)
 - decompression (4)
 - deduplication (8)
 - Deep Learning (41)
@@ -2119,7 +2181,7 @@ List of tags with occurrences in the brackets:
 - diagram (1)
 - diff (4)
 - Diffusion Model (9)
-- disk utility (5)
+- disk utility (7)
 - distribution (2)
 - DNS (4)
 - Docker (16)
@@ -2132,7 +2194,7 @@ List of tags with occurrences in the brackets:
 - email (2)
 - email search (1)
 - embeddings (4)
-- encryption (13)
+- encryption (14)
 - environment manager (8)
 - environment variables (2)
 - experiment tracking (1)
@@ -2143,13 +2205,13 @@ List of tags with occurrences in the brackets:
 - file detection (1)
 - file format (5)
 - file listing (6)
-- file manager (10)
+- file manager (11)
 - file storage (7)
 - file system (1)
 - file system watcher (1)
 - file transfer (4)
 - filter editor (3)
-- filtering (2)
+- filtering (3)
 - find and replace (2)
 - fine-tuning (2)
 - Firebase (3)
@@ -2157,28 +2219,29 @@ List of tags with occurrences in the brackets:
 - forms (2)
 - forwarding (5)
 - framerate (2)
-- framework (17)
+- framework (18)
 - full-text search (6)
 - fun (1)
 - function calling (1)
-- fuzzy search (5)
+- fuzzy search (6)
 - gateway (1)
 - Gemini (1)
 - geolocation (3)
 - git (23)
 - GitHub actions (2)
 - Google Analytics (2)
+- GPG (1)
 - GPU (9)
 - gRPC (1)
-- GUI (49)
+- GUI (51)
 - guide (5)
 - help message (1)
-- hex viewer (1)
+- hex viewer (2)
 - history (2)
 - home automation (1)
-- homelab (2)
+- homelab (3)
 - HTML (5)
-- HTTP client (2)
+- HTTP client (5)
 - hypermedia (1)
 - icons (2)
 - IDE (3)
@@ -2195,13 +2258,14 @@ List of tags with occurrences in the brackets:
 - JavaScript engine (1)
 - JSON (11)
 - Jupyter (13)
+- Kafka (1)
 - key distribution (1)
-- key management (1)
+- key management (2)
 - key-value store (8)
 - knowledge graph (2)
 - Kubernetes (7)
 - language detection (3)
-- library (47)
+- library (48)
 - link management (1)
 - linter (12)
 - Linux (8)
@@ -2217,7 +2281,7 @@ List of tags with occurrences in the brackets:
 - macOS (1)
 - makefile (3)
 - management (17)
-- Markdown (5)
+- Markdown (7)
 - meetings (1)
 - memory (2)
 - memory management (2)
@@ -2226,17 +2290,17 @@ List of tags with occurrences in the brackets:
 - metrics (5)
 - Model Context Protocol (MCP) (6)
 - model merging (1)
-- monitoring (37)
+- monitoring (38)
 - multi-language (10)
 - music generation (2)
 - NAS (1)
 - Natural Language Processing (7)
 - NeRFs (1)
-- network (32)
+- network (33)
 - network scan (8)
 - Nix (1)
 - No source code (3)
-- note-taking (3)
+- note-taking (4)
 - Notebook (7)
 - notification (2)
 - object detection (3)
@@ -2284,7 +2348,7 @@ List of tags with occurrences in the brackets:
 - queue (2)
 - RAG (5)
 - rate limiting (1)
-- Redis (5)
+- Redis (6)
 - regex (5)
 - remote access (2)
 - remote desktop (5)
@@ -2292,19 +2356,19 @@ List of tags with occurrences in the brackets:
 - replication (1)
 - report (2)
 - resolver (2)
-- reverse engineering (5)
+- reverse engineering (7)
 - reverse proxy (3)
-- RSS (1)
+- RSS (2)
 - S3 (7)
 - scheduler (4)
 - schema validation (1)
 - screenshot (3)
 - search engine (1)
-- searching (15)
+- searching (16)
 - secret management (3)
 - secrets detector (2)
 - security (35)
-- self-hosted (34)
+- self-hosted (35)
 - semantic search (5)
 - serialization (1)
 - server (4)
@@ -2316,31 +2380,31 @@ List of tags with occurrences in the brackets:
 - social media (2)
 - sounds (2)
 - source control system (3)
-- source: C (27)
+- source: C (29)
 - source: C# (3)
 - source: C++ (23)
 - source: Clojure (2)
 - source: Crystal (1)
 - source: Dart (1)
 - source: Elixir (2)
-- source: Go (88)
+- source: Go (89)
 - source: HTML (1)
-- source: Java (5)
-- source: JavaScript (18)
+- source: Java (6)
+- source: JavaScript (19)
 - source: Kotlin (1)
 - source: Lua (1)
 - source: PHP (1)
 - source: PowerShell (1)
 - source: Python (177)
 - source: Ruby (5)
-- source: Rust (143)
+- source: Rust (158)
 - source: Shell (10)
 - source: TypeScript (74)
 - source: Zig (4)
 - speech generation (8)
 - speech recognition (11)
 - spreadsheet (1)
-- SQL (11)
+- SQL (12)
 - SQL injection (1)
 - SQLite (6)
 - SSH (8)
@@ -2351,7 +2415,7 @@ List of tags with occurrences in the brackets:
 - statistics (3)
 - steganography (1)
 - storage (14)
-- streaming (5)
+- streaming (6)
 - Supabase (1)
 - syncing (4)
 - syntax highlighting (2)
@@ -2360,9 +2424,9 @@ List of tags with occurrences in the brackets:
 - system settings (1)
 - TCP (3)
 - templater (1)
-- terminal (32)
+- terminal (33)
 - terminal emulator (3)
-- terminal interface (23)
+- terminal interface (36)
 - terminal multiplexer (1)
 - text generation (2)
 - text processing (5)
@@ -2389,7 +2453,7 @@ List of tags with occurrences in the brackets:
 - video editing (4)
 - video generation (1)
 - video recording (1)
-- viewer (4)
+- viewer (5)
 - virtualization (4)
 - visualization (13)
 - voice cloning (3)
@@ -2399,12 +2463,12 @@ List of tags with occurrences in the brackets:
 - web browser (8)
 - web scraper (13)
 - web search (2)
-- web UI (5)
+- web UI (6)
 - WebAssembly (2)
 - webhooks (1)
 - website (4)
 - Wikipedia (1)
-- Windows (3)
+- Windows (4)
 - workflow (4)
 - XML (4)
 - YAML (5)

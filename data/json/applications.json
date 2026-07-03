@@ -442,6 +442,20 @@
         ]
     },
     {
+        "name": "Binsider",
+        "url": "https://github.com/orhun/binsider",
+        "description": "A terminal user interface for static and dynamic analysis of ELF binaries, with inspection of strings, linked libraries, and hexdumps.",
+        "tags": [
+            "analysis",
+            "binary",
+            "command line",
+            "hex viewer",
+            "reverse engineering",
+            "terminal interface",
+            "source: Rust"
+        ]
+    },
+    {
         "name": "bknd",
         "url": "https://github.com/bknd-io/bknd",
         "description": "A lightweight Firebase/Supabase alternative providing modular backend system with database management, authentication, media handling, and workflows that deploys across multiple runtimes without vendor lock-in.",
@@ -1190,6 +1204,18 @@
         ]
     },
     {
+        "name": "Dashy",
+        "url": "https://github.com/lissy93/dashy",
+        "description": "A self-hostable personal dashboard homepage for organizing and accessing self-hosted services, with status monitoring, widgets, themes, and a UI editor.",
+        "tags": [
+            "dashboard",
+            "homelab",
+            "self-hosted",
+            "web UI",
+            "source: JavaScript"
+        ]
+    },
+    {
         "name": "Datadrift",
         "url": "https://github.com/data-drift/data-drift",
         "description": "Datadrift is an open-source monitoring and incident management platform to help data teams deliver trusted and reliable metrics.",
@@ -1760,6 +1786,18 @@
         ]
     },
     {
+        "name": "eilmeldung",
+        "url": "https://github.com/christo-auer/eilmeldung",
+        "description": "A terminal-based RSS reader with fast, vim-inspired navigation and powerful filtering, built on the news-flash library.",
+        "tags": [
+            "command line",
+            "filtering",
+            "RSS",
+            "terminal interface",
+            "source: Rust"
+        ]
+    },
+    {
         "name": "Elio",
         "url": "https://github.com/elio-fm/elio",
         "description": "A snappy terminal-based file manager with rich file previews, inline image rendering, fuzzy search, bulk operations, and trash management.",
@@ -2116,6 +2154,18 @@
         ]
     },
     {
+        "name": "fzf-make",
+        "url": "https://github.com/kyu08/fzf-make",
+        "description": "A command-line tool to select and execute commands from make, npm, pnpm, yarn, just, and task using an interactive fuzzy finder with a preview window.",
+        "tags": [
+            "build system",
+            "command runner",
+            "fuzzy search",
+            "command line: make",
+            "source: Rust"
+        ]
+    },
+    {
         "name": "Garage",
         "url": "https://github.com/deuxfleurs-org/garage",
         "description": "An S3-compatible distributed object storage service built for self-hosting at small-to-medium scale that replicates data across geo-distributed nodes and maintains availability during server outages.",
@@ -2396,6 +2446,19 @@
             "downloader",
             "file transfer",
             "source: Go"
+        ]
+    },
+    {
+        "name": "gpg-tui",
+        "url": "https://github.com/orhun/gpg-tui",
+        "description": "A terminal user interface for managing GnuPG keys, easing operations such as listing, exporting, and signing keys.",
+        "tags": [
+            "command line",
+            "encryption",
+            "GPG",
+            "key management",
+            "terminal interface",
+            "source: Rust"
         ]
     },
     {
@@ -2917,6 +2980,19 @@
             "Machine Learning",
             "transpiler",
             "source: Python"
+        ]
+    },
+    {
+        "name": "JADX",
+        "url": "https://github.com/skylot/jadx",
+        "description": "A decompiler that converts Android DEX and APK files into readable Java source code, with both command-line and GUI interfaces including a deobfuscator and full-text search.",
+        "tags": [
+            "Android",
+            "command line",
+            "decompiler",
+            "GUI",
+            "reverse engineering",
+            "source: Java"
         ]
     },
     {
@@ -3741,6 +3817,17 @@
         ]
     },
     {
+        "name": "Material",
+        "url": "https://github.com/azorng/material",
+        "description": "A terminal application and library that displays a material design color palette, letting you interactively browse and copy hex color codes.",
+        "tags": [
+            "coloring",
+            "command line",
+            "terminal",
+            "source: Rust"
+        ]
+    },
+    {
         "name": "Mathesar",
         "url": "https://github.com/mathesar-foundation/mathesar",
         "description": "A web application providing an intuitive spreadsheet-like interface for users to view, edit, query, and collaborate on PostgreSQL data.",
@@ -3805,6 +3892,18 @@
             "security",
             "vulnerability scanner",
             "source: TypeScript"
+        ]
+    },
+    {
+        "name": "mdfried",
+        "url": "https://github.com/benjajaja/mdfried",
+        "description": "A terminal markdown viewer that renders headers as enlarged text using graphics protocols such as Sixel, Kitty, and iTerm2.",
+        "tags": [
+            "command line",
+            "Markdown",
+            "terminal interface",
+            "viewer",
+            "source: Rust"
         ]
     },
     {
@@ -4285,6 +4384,18 @@
         ]
     },
     {
+        "name": "oha",
+        "url": "https://github.com/hatoo/oha",
+        "description": "A command-line HTTP load generator with a real-time terminal UI, supporting HTTP/1, HTTP/2, and experimental HTTP/3, inspired by rakyll/hey.",
+        "tags": [
+            "benchmarking",
+            "command line",
+            "HTTP client",
+            "terminal interface",
+            "source: Rust"
+        ]
+    },
+    {
         "name": "Ollama",
         "url": "https://github.com/ollama/ollama",
         "description": "An open-source framework for running large language models locally on macOS, Windows, and Linux, with a REST API and support for GPU acceleration, multiple model formats, and integrations with popular AI frameworks.",
@@ -4395,6 +4506,18 @@
             "interactive",
             "LLM",
             "source: Python"
+        ]
+    },
+    {
+        "name": "openapi-tui",
+        "url": "https://github.com/zaghaghi/openapi-tui",
+        "description": "A terminal user interface for browsing, listing, and executing APIs defined by OpenAPI v3.0 and v3.1 specifications, with request filtering and syntax-highlighted responses.",
+        "tags": [
+            "API testing",
+            "command line",
+            "HTTP client",
+            "terminal interface",
+            "source: Rust"
         ]
     },
     {
@@ -5321,6 +5444,19 @@
         ]
     },
     {
+        "name": "Rainfrog",
+        "url": "https://github.com/achristmascarl/rainfrog",
+        "description": "A lightweight terminal-based database management tool with vim-like keybindings, a query editor with keyword highlighting, session history, and favorites, supporting PostgreSQL, MySQL, SQLite, and more.",
+        "tags": [
+            "command line",
+            "database",
+            "database management",
+            "SQL",
+            "terminal interface",
+            "source: Rust"
+        ]
+    },
+    {
         "name": "ranger",
         "url": "https://github.com/ranger/ranger",
         "description": "ranger is a console file manager with VI key bindings",
@@ -5339,6 +5475,17 @@
             "compression",
             "decompression",
             "source: C++"
+        ]
+    },
+    {
+        "name": "Ratatui",
+        "url": "https://github.com/ratatui/ratatui",
+        "description": "A Rust crate providing a simple and flexible framework for building text-based user interfaces (TUIs) in the terminal.",
+        "tags": [
+            "framework",
+            "library",
+            "terminal interface",
+            "source: Rust"
         ]
     },
     {
@@ -5530,6 +5677,18 @@
         ]
     },
     {
+        "name": "Rucola",
+        "url": "https://github.com/Linus-Mussmaecher/rucola",
+        "description": "A terminal-based markdown note manager for zettelkasten-style notes, letting you view statistics, explore connections, and launch editing and viewing applications.",
+        "tags": [
+            "command line",
+            "Markdown",
+            "note-taking",
+            "terminal interface",
+            "source: Rust"
+        ]
+    },
+    {
         "name": "ruff",
         "url": "https://github.com/charliermarsh/ruff",
         "description": "An extremely fast Python linter and code formatter with 800+ built-in rules, compatible with Flake8, isort, and Black.",
@@ -5539,6 +5698,17 @@
             "linter",
             "Python linter",
             "source: Rust"
+        ]
+    },
+    {
+        "name": "Rufus",
+        "url": "https://github.com/pbatard/rufus",
+        "description": "A reliable utility for formatting and creating bootable USB flash drives, supporting a wide range of file systems and boot configurations.",
+        "tags": [
+            "bootable USB",
+            "disk utility",
+            "Windows",
+            "source: C"
         ]
     },
     {
@@ -5909,6 +6079,18 @@
         "tags": [
             "Markdown",
             "presentation"
+        ]
+    },
+    {
+        "name": "Slumber",
+        "url": "https://github.com/LucasPickering/slumber",
+        "description": "A terminal-based HTTP/REST client for defining, executing, and sharing configurable requests, with dynamic request building, JSONPath filtering, and environment profiles.",
+        "tags": [
+            "API testing",
+            "command line",
+            "HTTP client",
+            "terminal interface",
+            "source: Rust"
         ]
     },
     {
@@ -6474,6 +6656,18 @@
         ]
     },
     {
+        "name": "Tiny RDM",
+        "url": "https://github.com/tiny-craft/tiny-rdm",
+        "description": "A lightweight, modern cross-platform Redis desktop GUI client for Mac, Windows, and Linux, also deployable as a web version via Docker.",
+        "tags": [
+            "cross-platform",
+            "database management",
+            "GUI",
+            "Redis",
+            "source: Go"
+        ]
+    },
+    {
         "name": "tinyvector",
         "url": "https://github.com/0hq/tinyvector",
         "description": "tinyvector - the tiny, least-dumb, speedy vector embedding database.",
@@ -6596,6 +6790,18 @@
             "Machine Learning",
             "visualization",
             "source: Python"
+        ]
+    },
+    {
+        "name": "Trippy",
+        "url": "https://github.com/fujiapple852/trippy",
+        "description": "A network diagnostic tool that combines the functionality of traceroute and ping to assist with the analysis of networking issues.",
+        "tags": [
+            "command line",
+            "monitoring",
+            "network",
+            "terminal interface",
+            "source: Rust"
         ]
     },
     {
@@ -6831,6 +7037,17 @@
             "key-value store",
             "Redis",
             "storage",
+            "source: C"
+        ]
+    },
+    {
+        "name": "Ventoy",
+        "url": "https://github.com/ventoy/Ventoy",
+        "description": "An open-source tool that creates bootable USB drives from ISO, WIM, IMG, VHD(x), and EFI files without formatting the disk or extracting files.",
+        "tags": [
+            "bootable USB",
+            "cross-platform",
+            "disk utility",
             "source: C"
         ]
     },
@@ -7357,6 +7574,18 @@
         ]
     },
     {
+        "name": "Yazi",
+        "url": "https://github.com/sxyazi/yazi",
+        "description": "A blazing fast terminal file manager written in Rust, using non-blocking async I/O with built-in image preview and concurrent plugin support.",
+        "tags": [
+            "cross-platform",
+            "file manager",
+            "terminal interface",
+            "command line: ranger",
+            "source: Rust"
+        ]
+    },
+    {
         "name": "youtube-dl",
         "url": "https://github.com/ytdl-org/youtube-dl",
         "description": "youtube-dl - download videos from youtube.com or other video platforms.",
@@ -7406,6 +7635,19 @@
             "command line",
             "monitoring",
             "command line: top",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "Y\u014dzefu",
+        "url": "https://github.com/MAIF/yozefu",
+        "description": "An interactive terminal user interface for exploring and analyzing data in Kafka clusters, with real-time access to topics and advanced search capabilities.",
+        "tags": [
+            "command line",
+            "Kafka",
+            "searching",
+            "streaming",
+            "terminal interface",
             "source: Rust"
         ]
     },
