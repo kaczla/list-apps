@@ -13,7 +13,7 @@ Some descriptions are from:
   - Tags: Linux, monitoring, observability, profiler, source: Python
 - act [🛈](https://github.com/nektos/act)
   - Run your GitHub Actions locally.
-  - Tags: automation, CI/CD, GitHub actions
+  - Tags: automation, CI/CD, GitHub Actions
 - AdGuard Home [🛈](https://github.com/AdguardTeam/AdGuardHome)
   - A network-wide DNS server that blocks ads and trackers across all connected devices, with a built-in DHCP server, encrypted DNS support (DoH/DoT/DNSCrypt), and per-device filtering.
   - Tags: ad blocker, network, privacy, self-hosted, source: Go
@@ -88,7 +88,7 @@ Some descriptions are from:
   - Tags: audio generation, Deep Learning, music generation, speech generation, source: Python
 - AuthorTrail [🛈](https://github.com/sarimabbas/authortrail)
   - A Git repository exploration tool that identifies and displays all files contributed by a specific author with hierarchical tree visualization and integrated code viewer.
-  - Tags: git, tracking, source: TypeScript
+  - Tags: analysis, git, source: TypeScript
 - AutoCrawler [🛈](https://github.com/EZ-hwh/AutoCrawler)
   - An AI agent that automatically generates web scrapers through progressive web understanding, using LLMs to extract structured data from websites.
   - Tags: AI-powered, automation, browser automation, web scraper, source: Python
@@ -130,7 +130,7 @@ Some descriptions are from:
   - Tags: API development platform, authentication, database management, Firebase, Supabase, source: TypeScript
 - Blackbird [🛈](https://github.com/p1ngul1n0/blackbird)
   - An OSINT tool that searches for accounts by username and email across 600+ social networks, combining fast searches with free AI-powered profiling to identify user accounts and behavioral patterns.
-  - Tags: AI-powered, command line, email search, OSINT, security, social media, username search, source: Python
+  - Tags: AI-powered, command line, OSINT, security, social media, username search, source: Python
 - BleachBit [🛈](https://github.com/bleachbit/bleachbit)
   - BleachBit cleans files to free disk space and to maintain privacy.
   - Tags: deletion tool, disk utility, privacy
@@ -181,7 +181,7 @@ Some descriptions are from:
   - Tags: caching, file storage, S3, storage, source: Rust
 - Canine [🛈](https://github.com/czhu12/canine)
   - A self-hosted Kubernetes deployment platform that brings PaaS simplicity to your own infrastructure, enabling deployments via git push and intuitive web management without requiring YAML knowledge.
-  - Tags: automation, container, deploy, Kubernetes, Platform-as-a-Service, self-hosted, source: Ruby
+  - Tags: automation, container, deployment, Kubernetes, Platform-as-a-Service, self-hosted, source: Ruby
 - CAR [🛈](https://github.com/teknoraver/car)
   - A copy-on-write archiver that avoids data copying by using filesystem reflink capabilities on BtrFS and XFS, achieving dramatically faster archiving than traditional tools.
   - Tags: archive, command line, compression, source: Go
@@ -202,13 +202,13 @@ Some descriptions are from:
   - Tags: AI-powered, audio, multi-language, speech generation, text-to-speech, voice cloning, source: Python
 - cheat.sh [🛈](https://github.com/chubin/cheat.sh)
   - The only cheat sheet you need. Has a simple curl/browser/editor interface. Covers 56 programming languages, several DBMSes, and more than 1000 most important UNIX/Linux commands.
-  - Tags: cheat sheet, command line, guide, tldr
+  - Tags: cheat sheet, command line, guide
 - Cherrybomb [🛈](https://github.com/blst-security/cherrybomb)
   - Cherrybomb is an CLI tool written in Rust that helps prevent incorrect code implementation early in development. It works by validating and testing your API using an OpenAPI file. Its main goal is to reduce security errors and ensure your API functions as intended.
   - Tags: API, linter, source: Rust
 - chezmoi [🛈](https://github.com/twpayne/chezmoi)
   - A dotfile manager for managing configuration across multiple diverse machines securely.
-  - Tags: configuration, configuration distribution, dotfiles, management, source: Go
+  - Tags: configuration, dotfiles, management, source: Go
 - Claude Code [🛈](https://github.com/anthropics/claude-code)
   - An agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining code, and handling git workflows through natural language commands.
   - Tags: agentic coding, AI-powered, automation, Claude Code, code generation, command line, terminal, source: Python, source: Shell
@@ -253,7 +253,7 @@ Some descriptions are from:
   - Tags: configuration, source: TypeScript
 - ConvertX [🛈](https://github.com/C4illin/ConvertX)
   - A self-hosted online file converter supporting over 1,000 different formats for private file transformation needs.
-  - Tags: file convert, self-hosted, source: TypeScript
+  - Tags: file conversion, self-hosted, source: TypeScript
 - Coqui TTS [🛈](https://github.com/coqui-ai/TTS)
   - A deep learning text-to-speech toolkit with pretrained models for 1100+ languages, voice cloning capabilities, and low-latency streaming support.
   - Tags: audio, Deep Learning, multi-language, speech generation, text-to-speech, source: Python
@@ -301,7 +301,7 @@ Some descriptions are from:
   - Tags: command line, container, monitoring, command line: top
 - cua [🛈](https://github.com/trycua/cua)
   - Open-source infrastructure for computer-use agents providing sandboxes, SDKs, and benchmarks for training and evaluating AI agents that control full desktop environments.
-  - Tags: AI agents, automation, browser automation, control desktop, source: Python
+  - Tags: AI agents, automation, browser automation, source: Python
 - Cursor [🛈](https://github.com/getcursor/cursor)
   - Cursor is an editor made for programming with AI robot.
   - Tags: AI-powered, editor, GUI
@@ -313,7 +313,7 @@ Some descriptions are from:
   - Tags: DNS, network scan, No source code, OSINT, screenshot, security, SSL/TLS, vulnerability scanner, website
 - daktilo [🛈](https://github.com/orhun/daktilo)
   - daktilo is a small command-line program that plays typewriter sounds every time you press a key.
-  - Tags: command line, sounds, source: Rust
+  - Tags: audio, command line, source: Rust
 - Dasel [🛈](https://github.com/TomWright/dasel)
   - A command-line tool and Go library for querying, modifying, and transforming structured data across multiple formats including JSON, YAML, TOML, XML, CSV, HCL, and INI files using a unified syntax.
   - Tags: command line, CSV, data processing, JSON, querying, XML, YAML, source: Go
@@ -346,7 +346,7 @@ Some descriptions are from:
   - Tags: computer vision, Deep Learning, face recognition, source: Python
 - Deepnote [🛈](https://github.com/deepnote/deepnote)
   - A drop-in replacement for Jupyter with an AI-first design, sleek UI, and native data integrations that enables working with Python, R, and SQL locally before scaling to cloud collaboration.
-  - Tags: AI-powered, data processing, Jupyter, Notebook, source: TypeScript
+  - Tags: AI-powered, data processing, Jupyter, source: TypeScript
 - DeerFlow [🛈](https://github.com/bytedance/deer-flow)
   - A community-driven Deep Research framework combining language models with specialized tools for web search, crawling, and Python code execution with multi-agent research system.
   - Tags: AI-powered, code execution, web scraper, web search, source: Python
@@ -397,7 +397,7 @@ Some descriptions are from:
   - Tags: container, Docker, macOS, virtualization, source: Shell
 - docker-rollout [🛈](https://github.com/Wowu/docker-rollout)
   - Docker CLI plugin that updates Docker Compose services without downtime.
-  - Tags: deploy, Docker, Docker Compose
+  - Tags: deployment, Docker, Docker Compose
 - dockerc [🛈](https://github.com/NilsIrl/dockerc)
   - A compiler that transforms Docker container images into standalone, portable executable binaries for direct distribution without requiring Docker installation, supporting rootless execution and cross-architecture builds.
   - Tags: container, cross-platform, Docker, single-binary, source: Zig
@@ -445,7 +445,7 @@ Some descriptions are from:
   - Tags: link management, management, source: TypeScript
 - Ducker [🛈](https://github.com/robertpsoane/ducker)
   - Terminal user interface application for managing Docker containers, images, volumes, and networks with an interactive dashboard inspired by K9s.
-  - Tags: container, Docker, management, terminal, terminal interface, source: Rust
+  - Tags: container, Docker, management, terminal interface, source: Rust
 - ducks [🛈](https://github.com/manimino/ducks)
   - ducks is a tool that indexes Python objects for fast lookup by their attributes.
   - Tags: data structures, source: Python
@@ -499,7 +499,7 @@ Some descriptions are from:
   - Tags: command line, file listing, git, shell, command line: ls, source: Rust
 - F2 [🛈](https://github.com/ayoisaiah/f2)
   - A cross-platform command-line utility for bulk file and directory renaming operations with dry-run mode by default, supporting EXIF/ID3 tags, regex, and conflict detection.
-  - Tags: command line, cross-platform, file manager, regex, rename, source: Go
+  - Tags: command line, cross-platform, file manager, regex, renaming, source: Go
 - FaceSwap [🛈](https://github.com/deepfakes/faceswap)
   - A deep learning tool for face recognition and swapping in images and videos with extract, train, and convert workflows and GPU acceleration.
   - Tags: computer vision, Deep Learning, face recognition, face swapping, image, video, source: Python
@@ -547,7 +547,7 @@ Some descriptions are from:
   - Tags: command line, developer environment, environment manager, isolation, Nix, package manager, source: Rust
 - FOKS [🛈](https://github.com/foks-proj/go-foks)
   - A decentralized key management system that enables secure cryptographic operations through federated servers and client agents, providing both client and server implementation for managing keys and distributed trust across multiple parties.
-  - Tags: distribution, encryption, key distribution, key management, security, source: Go
+  - Tags: distribution, encryption, key management, security, source: Go
 - Fooocus [🛈](https://github.com/lllyasviel/Fooocus)
   - Fooocus is an image generating software.
   - Tags: Deep Learning, Diffusion Model, GUI, image generation, source: Python
@@ -616,7 +616,7 @@ Some descriptions are from:
   - Tags: agentic coding, code search, knowledge graph, source: TypeScript
 - GitTools [🛈](https://github.com/internetwache/GitTools)
   - A toolkit containing three scripts designed for Git security research to identify publicly exposed .git repositories on websites and extract their contents.
-  - Tags: penetration tests, security, vulnerability scanner, source: Python
+  - Tags: penetration testing, security, vulnerability scanner, source: Python
 - gitty [🛈](https://github.com/muesli/gitty)
   - gitty is a smart little CLI helper for git projects, that shows you all the relevant issues, pull requests and changes at a quick glance, right on the command-line. It currently supports the GitHub, GitLab, and Gitea APIs.
   - Tags: command line, git
@@ -712,7 +712,7 @@ Some descriptions are from:
   - Tags: command line, filtering, JSON, logs, terminal, viewer, source: Rust
 - Home Assistant [🛈](https://github.com/home-assistant/core)
   - An open source home automation platform emphasizing local control and privacy, with a modular architecture supporting diverse smart devices, automations, and a built-in dashboard.
-  - Tags: automation, dashboard, home automation, privacy, self-hosted, smart home, source: Python
+  - Tags: automation, dashboard, privacy, self-hosted, smart home, source: Python
 - htop [🛈](https://github.com/htop-dev/htop)
   - htop - an interactive process viewer
   - Tags: command line, monitoring, command line: top
@@ -811,7 +811,7 @@ Some descriptions are from:
   - Tags: command line, content extractor, data formatter, filter editor, JSON, source: C
 - JSON Crack [🛈](https://github.com/AykutSarac/jsoncrack.com)
   - An open-source visualization tool that transforms data formats (JSON, YAML, XML, CSV, TOML) into interactive graphs for easier exploration and analysis.
-  - Tags: CSV, file convert, file format, JSON, TOML, visualization, web UI, XML, YAML, source: TypeScript
+  - Tags: CSV, file conversion, file format, JSON, TOML, visualization, web UI, XML, YAML, source: TypeScript
 - jsongrep [🛈](https://github.com/micahkepe/jsongrep)
   - A fast command-line tool for searching JSON, YAML, TOML, JSONL, CBOR, and MessagePack documents using regex-like path expressions compiled to DFAs.
   - Tags: command line, JSON, searching, TOML, YAML, command line: jq, source: Rust
@@ -826,22 +826,22 @@ Some descriptions are from:
   - Tags: database, key-value store, source: Go
 - Jupyter AI [🛈](https://github.com/jupyterlab/jupyter-ai)
   - Jupyter AI connects generative AI with Jupyter notebooks.
-  - Tags: AI personal assistant, Deep Learning, Jupyter, Notebook, source: Python
+  - Tags: AI personal assistant, Deep Learning, Jupyter, source: Python
 - jupyter_contrib_nbextensions [🛈](https://github.com/ipython-contrib/jupyter_contrib_nbextensions)
   - A collection of various notebook extensions for Jupyter.
   - Tags: Jupyter, source: Python
 - JupyterLite [🛈](https://github.com/jupyterlite/jupyterlite)
   - JupyterLite is a JupyterLab distribution that runs entirely in the browser built from the ground-up using JupyterLab components and extensions.
-  - Tags: Jupyter, Notebook, source: Python
+  - Tags: Jupyter, source: Python
 - just [🛈](https://github.com/casey/just)
   - just is a handy way to save and run project-specific commands. Commands, called recipes, are stored in a file called `justfile` with syntax inspired by `make`.
   - Tags: build system, command line, command runner, makefile, command line: make, source: Rust
 - juvio [🛈](https://github.com/OKUA1/juvio)
   - A UV kernel for Jupyter enabling reproducible, dependency-aware, and Git-friendly notebooks with inline dependency management, automatic environment setup, and PEP 723-style metadata storage.
-  - Tags: Jupyter, Notebook, package manager, source: Python
+  - Tags: Jupyter, package manager, source: Python
 - Kamal [🛈](https://github.com/basecamp/kamal)
   - A deployment tool for web apps enabling zero-downtime deploys across bare metal to cloud VMs using Docker containers and seamless traffic switching.
-  - Tags: CI/CD, command line, container, deploy, Docker, source: Ruby
+  - Tags: CI/CD, command line, container, deployment, Docker, source: Ruby
 - Kangas [🛈](https://github.com/comet-ml/kangas)
   - Kangas is a tool for exploring, analyzing, and visualizing large-scale multimedia data.
   - Tags: fuzzy search, library, source: JavaScript
@@ -865,7 +865,7 @@ Some descriptions are from:
   - Tags: audio, library, Machine Learning, speech generation, text-to-speech, source: Python
 - Kong [🛈](https://github.com/Kong/kong)
   - A cloud-native API gateway for microservices, AI/LLM traffic, and MCP systems with plugin-based extensibility, advanced routing, load balancing, and authentication.
-  - Tags: cloud, gateway, Kubernetes, LLM gateway, load balancer, reverse proxy, source: Lua
+  - Tags: API, cloud, Kubernetes, LLM gateway, load balancer, reverse proxy, source: Lua
 - Kopia [🛈](https://github.com/kopia/kopia)
   - Fast and secure backup/restore tool with client-side encryption, deduplication, compression, supporting cloud storage (S3, Azure, GCS) and local targets.
   - Tags: cloud, command line, compression, encryption, GUI, storage, source: Go
@@ -886,7 +886,7 @@ Some descriptions are from:
   - Tags: AI agents, AI evaluation, monitoring, observability, tracing, source: Rust, source: TypeScript
 - Lanarky [🛈](https://github.com/ajndkr/lanarky)
   - Lanarky is an open-source framework to deploy LLM applications in production. It is built on top of FastAPI and comes with batteries included.
-  - Tags: Deep Learning, deploy, LLM, source: Python
+  - Tags: Deep Learning, deployment, LLM, source: Python
 - Lance [🛈](https://github.com/lancedb/lance)
   - Lance is a modern columnar data format that is optimized for ML workflows and datasets. Convert from parquet in 2-lines of code for 100x faster random access, a vector index, data versioning, and more. Compatible with pandas, duckdb, polars, pyarrow, with more integrations on the way.
   - Tags: file format, Natural Language Processing, source: Rust
@@ -913,13 +913,13 @@ Some descriptions are from:
   - Tags: git, interactive, terminal interface, source: Go
 - lazyssh [🛈](https://github.com/adembc/lazyssh)
   - A terminal-based SSH manager with a keyboard-driven interactive UI for managing SSH connections defined in ~/.ssh/config, inspired by tools like lazydocker and k9s.
-  - Tags: management, SSH, SSH management, terminal interface, source: Go
+  - Tags: management, SSH, terminal interface, source: Go
 - lf [🛈](https://github.com/gokcehan/lf)
   - A terminal file manager written in Go inspired by ranger, providing fast, lightweight file browsing with a server/client architecture.
-  - Tags: command line, file manager, terminal, terminal interface, command line: mc, command line: ranger, source: Go
+  - Tags: command line, file manager, terminal interface, command line: mc, command line: ranger, source: Go
 - LibreTranslate [🛈](https://github.com/LibreTranslate/LibreTranslate)
   - Free and Open Source Machine Translation API. 100% self-hosted, offline capable and easy to setup.
-  - Tags: Machine Translation, offline
+  - Tags: offline, translation
 - Limbo [🛈](https://github.com/penberg/limbo)
   - An in-process OLTP database engine written in Rust that represents the modern evolution of SQLite with compatibility for SQLite's SQL dialect, file formats, and C API.
   - Tags: database, OLTP, source: Rust
@@ -994,7 +994,7 @@ Some descriptions are from:
   - Tags: build system, command line, command runner, makefile, command line: make, source: C
 - Mandala [🛈](https://github.com/amakelov/mandala)
   - An experiment tracking framework that automatically saves, queries, and versions Python computations through an @op decorator that captures inputs, outputs, and code dependencies.
-  - Tags: caching, Machine Learning, tracing, tracking, source: Python
+  - Tags: caching, experiment tracking, Machine Learning, tracing, source: Python
 - Mandark [🛈](https://github.com/hrishioa/mandark)
   - AI-powered coding assistant supporting multiple models (Claude, GPT-4, Llama) with code extraction, multi-file editing, diff verification, and cost transparency.
   - Tags: AI-powered, automation, code completion, command line, source: TypeScript
@@ -1039,13 +1039,13 @@ Some descriptions are from:
   - Tags: Deep Learning, LLM, Machine Learning, model merging, source: Python
 - Mergify [🛈](https://mergify.com)
   - Mergify to automate pull requests + secure the code merge using a merge queue.
-  - Tags: automate pull requests, pull requests
+  - Tags: automation, pull requests
 - Mergiraf [🛈](https://codeberg.org/mergiraf/mergiraf)
   - A syntax-aware git merge driver that intelligently resolves conflicts by understanding code structure rather than treating files as plain text.
   - Tags: command line, git, source: Rust
 - Metaflow [🛈](https://github.com/Netflix/metaflow)
   - Metaflow is a human-friendly Python/R library that helps scientists and engineers build and manage real-life data science projects.
-  - Tags: data pipeline, deploy, management, workflow, source: Python
+  - Tags: data pipeline, deployment, management, workflow, source: Python
 - mgrep [🛈](https://github.com/mixedbread-ai/mgrep)
   - A CLI tool that enables semantic, AI-powered search across code, images, PDFs, and text files using natural language queries, designed as an intelligent complement to traditional grep.
   - Tags: command line, semantic search, command line: grep, source: TypeScript
@@ -1084,7 +1084,7 @@ Some descriptions are from:
   - Tags: AI agents, isolation, Python interpreter, security, source: Rust
 - Moonlight [🛈](https://github.com/moonlight-stream/moonlight-qt)
   - An open source PC client for remote gaming through NVIDIA GameStream and Sunshine, with hardware-accelerated decoding, HDR streaming, 7.1 surround sound, and multi-gamepad support across Windows, macOS, and Linux.
-  - Tags: cross-platform, GUI, play video games, remote desktop, streaming, source: C++
+  - Tags: cross-platform, gaming, GUI, remote desktop, streaming, source: C++
 - Muse [🛈](https://github.com/Lightning-AI/stable-diffusion-deploy)
   - Open source, stable-diffusion production server to show how to deploy diffusion models in a real production environment with: load-balancing, gpu-inference, performance-testing, micro-services orchestration and more.
   - Tags: Diffusion Model, image generation
@@ -1105,7 +1105,7 @@ Some descriptions are from:
   - Tags: command line, file listing, command line: ls, source: Rust
 - navi [🛈](https://github.com/denisidoro/navi)
   - navi is an interactive cheatsheet tool for the command-line.
-  - Tags: cheat sheet, command line, guide, tldr, source: Rust
+  - Tags: cheat sheet, command line, guide, source: Rust
 - neko [🛈](https://github.com/m1k1o/neko)
   - A self-hosted virtual browser that streams a full desktop environment via WebRTC inside Docker, enabling multi-user collaborative browsing, watch parties, and privacy-focused throwaway sessions.
   - Tags: Docker, remote desktop, self-hosted, web browser, source: Go
@@ -1144,7 +1144,7 @@ Some descriptions are from:
   - Tags: API, HTTP client, library, network, source: Python
 - NitroGen [🛈](https://github.com/MineDojo/NitroGen)
   - An open-source 500M parameter foundation model that enables AI agents to play video games by accepting visual input and outputting gamepad commands, trained via behavior cloning on internet gameplay videos.
-  - Tags: AI agents, computer vision, Deep Learning, play video games, source: Python
+  - Tags: AI agents, computer vision, Deep Learning, gaming, source: Python
 - nnn [🛈](https://github.com/jarun/nnn)
   - A full-featured terminal file manager that is tiny, nearly zero-config, and incredibly fast with minimal resource usage.
   - Tags: command line, file manager, terminal, source: C
@@ -1171,7 +1171,7 @@ Some descriptions are from:
   - Tags: inference, library, LLM, source: Python
 - olmOCR [🛈](https://github.com/allenai/olmocr)
   - A toolkit that converts PDFs and image-based documents into clean, readable plain text and markdown format using vision language models for accurate OCR processing.
-  - Tags: data processing, file convert, Markdown, OCR, PDF, source: Python
+  - Tags: data processing, file conversion, Markdown, OCR, PDF, source: Python
 - Omnilingual ASR [🛈](https://github.com/facebookresearch/omnilingual-asr)
   - An open-source multilingual speech recognition system supporting over 1,600 languages, including hundreds previously uncovered by ASR technology, enabling new languages to be added with minimal paired examples.
   - Tags: audio, multi-language, speech recognition, source: Python
@@ -1183,7 +1183,7 @@ Some descriptions are from:
   - Tags: library, regex, source: C
 - Open Notebook [🛈](https://github.com/lfnovo/open-notebook)
   - An open-source, privacy-focused alternative to Google's Notebook LM that enables users to organize research materials and generate AI-powered insights.
-  - Tags: AI-powered, Jupyter, note-taking, Notebook, privacy, source: Python
+  - Tags: AI-powered, note-taking, privacy, source: Python
 - open-interpreter [🛈](https://github.com/OpenInterpreter/open-interpreter)
   - A natural language interface for computers that allows LLMs to run Python, JavaScript, Shell, and other code locally with user approval, overcoming ChatGPT Code Interpreter limitations.
   - Tags: AI-powered, automation, code execution, command line, interactive, LLM, source: Python
@@ -1213,7 +1213,7 @@ Some descriptions are from:
   - Tags: logs, metrics, source: Rust
 - OpenReview [🛈](https://github.com/vercel-labs/openreview)
   - A self-hosted AI code review bot that integrates with GitHub to deliver automated PR reviews, inline suggestions, and direct code fixes using Claude.
-  - Tags: AI-powered, automate pull requests, code quality, code review, pull requests, self-hosted, source: TypeScript
+  - Tags: AI-powered, automation, code quality, code review, pull requests, self-hosted, source: TypeScript
 - OpenShell [🛈](https://github.com/NVIDIA/OpenShell)
   - A secure runtime environment for executing autonomous AI agents in isolated, policy-governed sandboxes with declarative controls over filesystem, network, and process access.
   - Tags: AI agents, isolation, security, source: Rust
@@ -1315,7 +1315,7 @@ Some descriptions are from:
   - Tags: computer vision, framework, Machine Learning, source: Rust
 - pipes.sh [🛈](https://github.com/pipeseroni/pipes.sh)
   - Animated pipes terminal screensaver.
-  - Tags: fun, shell script
+  - Tags: screensaver, shell script
 - Pipet [🛈](https://github.com/bjesus/pipet)
   - A web scraping tool supporting HTML parsing via CSS selectors, JSON parsing with GJSON, JavaScript evaluation, pagination, and change monitoring with Unix pipe integration.
   - Tags: command line, HTML, JSON, monitoring, web scraper, source: Go
@@ -1366,7 +1366,7 @@ Some descriptions are from:
   - Tags: API development platform, API testing, GUI
 - Pretzel [🛈](https://github.com/pretzelai/pretzelai)
   - An open-source fork of Jupyter that enhances the notebook experience with AI-powered code generation, intelligent editing, and collaborative features designed for modern data workflows.
-  - Tags: AI-powered, Jupyter, Notebook, source: Python
+  - Tags: AI-powered, Jupyter, source: Python
 - process-compose [🛈](https://github.com/F1bonacc1/process-compose)
   - Process Compose is a simple and flexible scheduler and orchestrator to manage non-containerized applications.
   - Tags: command line, orchestrator, scheduler, terminal, source: Go
@@ -1582,7 +1582,7 @@ Some descriptions are from:
   - Tags: alerts, dashboard, monitoring, network, observability, source: Elixir
 - setup-ucacher [🛈](https://github.com/earthly/setup-ucacher)
   - A GitHub Action that installs ucacher, Earthly's universal caching tool that tracks file access, automatically skips redundant commands, and restores cached outputs to significantly reduce CI/CD execution times.
-  - Tags: automation, caching, CI/CD, GitHub actions
+  - Tags: automation, caching, CI/CD, GitHub Actions
 - ShadeOfColor2 [🛈](https://github.com/archistico/ShadeOfColor2)
   - A cross-platform application that converts files into PNG images and recovers them, enabling data concealment within image pixels.
   - Tags: cross-platform, image, PNG, source: C#
@@ -1597,7 +1597,7 @@ Some descriptions are from:
   - Tags: agentic coding, management, terminal interface, source: Go
 - sidekick [🛈](https://github.com/MightyMoud/sidekick)
   - A CLI tool for VPS deployment that provides Heroku-like simplicity with Docker, Traefik, automatic SSL, zero-downtime deployments, and built-in secret management via SOPS.
-  - Tags: automation, CI/CD, command line, deploy, source: Go
+  - Tags: automation, CI/CD, command line, deployment, source: Go
 - sig [🛈](https://github.com/ynqa/sig)
   - sig is an interactive grep (for streaming).
   - Tags: command line, interactive, command line: grep, source: Rust
@@ -1657,7 +1657,7 @@ Some descriptions are from:
   - Tags: database, embeddings, SQLite, vector database, vector search, source: C
 - sqlmap [🛈](https://github.com/sqlmapproject/sqlmap)
   - sqlmap is an open source penetration testing tool that automates the process of detecting and exploiting SQL injection flaws and taking over of database servers.
-  - Tags: command line, database, penetration tests, SQL, SQL injection
+  - Tags: command line, database, penetration testing, SQL, SQL injection
 - ssh-crypt [🛈](https://github.com/Sets88/ssh-crypt)
   - A tool that enables secure password storage within shell scripts by leveraging SSH keys managed through ssh-agent, encrypting sensitive data that only decrypts when the corresponding SSH key is active.
   - Tags: command line, encryption, passwords, secret management, security, SSH, source: Python
@@ -1666,7 +1666,7 @@ Some descriptions are from:
   - Tags: configuration, shell, SSH, source: Shell
 - SSLyze [🛈](https://github.com/nabla-c0d3/sslyze)
   - A fast and powerful tool for scanning SSL/TLS server configurations to identify weak encryption settings and known vulnerabilities like Heartbleed and ROBOT attacks.
-  - Tags: command line, network, penetration tests, security, SSL/TLS, vulnerability scanner, source: Python
+  - Tags: command line, network, penetration testing, security, SSL/TLS, vulnerability scanner, source: Python
 - StableStudio [🛈](https://github.com/Stability-AI/StableStudio)
   - StableStudio is Stability AI's official open-source variant of DreamStudio, our user interface for generative AI. It is a web-based application that allows users to create and edit generated images.
   - Tags: Deep Learning, Diffusion Model, GUI, image editing, image generation, source: TypeScript
@@ -1696,7 +1696,7 @@ Some descriptions are from:
   - Tags: library, text processing, source: Python
 - Sunshine [🛈](https://github.com/LizardByte/Sunshine)
   - A self-hosted game streaming server compatible with Moonlight clients, enabling low-latency cloud gaming with hardware encoding for AMD, Intel, and NVIDIA GPUs, a web UI, and HDR/4K support.
-  - Tags: play video games, remote desktop, self-hosted, server, streaming, source: C++
+  - Tags: gaming, remote desktop, self-hosted, server, streaming, source: C++
 - Superfile [🛈](https://github.com/MHNightCat/superfile)
   - A modern terminal file manager with intuitive interface, customization support, and cross-platform compatibility.
   - Tags: command line, cross-platform, file manager, terminal interface, command line: mc, command line: ranger, source: Go
@@ -1708,7 +1708,7 @@ Some descriptions are from:
   - Tags: file transfer, self-hosted, syncing, source: TypeScript
 - sysm [🛈](https://github.com/jafarlihi/sysm)
   - sysm makes your system play custom sounds when any configured system or external event happens.
-  - Tags: command line, sounds, system events
+  - Tags: audio, command line, system events
 - SysWatch [🛈](https://github.com/matthart1983/syswatch)
   - A terminal-based system diagnostics tool that monitors CPU, memory, disks, processes, GPU, and network across twelve tabs, with plain-English anomaly detection and session scrubbing.
   - Tags: monitoring, process management, terminal interface, command line: top, source: Rust
@@ -1726,13 +1726,13 @@ Some descriptions are from:
   - Tags: coloring, command line, logs, source: Rust
 - Tau [🛈](https://github.com/taubyte/tau)
   - An open-source Git-native Platform-as-a-Service for building, deploying, and scaling applications with infrastructure defined in Git, featuring serverless functions and built-in databases.
-  - Tags: CI/CD, deploy, source: Go
+  - Tags: CI/CD, deployment, source: Go
 - tbmk [🛈](https://github.com/linhx/tbmk)
   - tbmk is a commands bookmark for terminal.
   - Tags: bookmark, terminal, source: Go
 - tealdeer [🛈](https://github.com/dbrgn/tealdeer)
   - tealdeer is a very fast implementation of tldr in Rust: Simplified, example based and community-driven man pages.
-  - Tags: cheat sheet, command line, guide, tldr, source: Rust
+  - Tags: cheat sheet, command line, guide, source: Rust
 - TensorZero [🛈](https://github.com/tensorzero/tensorzero)
   - An open-source platform unifying LLM gateway, observability, optimization, evaluation, and experimentation for production-grade AI applications with support for 20+ providers.
   - Tags: AI evaluation, AI-powered, LLM gateway, observability, source: Rust
@@ -1753,7 +1753,7 @@ Some descriptions are from:
   - Tags: Deep Learning, GUI, LLM, text generation, source: Python
 - the-art-of-command-line [🛈](https://github.com/jlevy/the-art-of-command-line)
   - Master the command line, in one page
-  - Tags: cheat sheet, command line, guide, tldr
+  - Tags: cheat sheet, command line, guide
 - threestudio [🛈](https://github.com/threestudio-project/threestudio)
   - threestudio is a unified framework for 3D content creation from text prompts, single images, and few-shot images, by lifting 2D text-to-image generation models.
   - Tags: 3D image generation, Deep Learning, source: Python
@@ -1816,7 +1816,7 @@ Some descriptions are from:
   - Tags: terminal, web UI, source: C
 - tunnelto [🛈](https://github.com/agrinman/tunnelto)
   - A command-line tool that lets you expose your locally running web server via a public URL, enabling developers to make local services accessible over the internet.
-  - Tags: command line, deploy, source: Rust
+  - Tags: command line, deployment, source: Rust
 - TurboPilot [🛈](https://github.com/ravenscroftj/turbopilot)
   - TurboPilot is a self-hosted copilot clone which uses the library behind llama.cpp to run the 6 Billion Parameter Salesforce Codegen model in 4GiB of RAM. It is heavily based and inspired by on the fauxpilot project.
   - Tags: code completion, Deep Learning, source: Python
@@ -2026,13 +2026,13 @@ Some descriptions are from:
   - Tags: AI-powered, Diffusion Model, image generation, Machine Learning, source: Python
 - Zasper [🛈](https://github.com/zasper-io/zasper)
   - A high-performance IDE for Jupyter Notebooks offering up to 5x less CPU and 40x less RAM than JupyterLab, supporting Python, R, Julia, and other kernels.
-  - Tags: GUI, IDE, Jupyter, Notebook, source: Go
+  - Tags: GUI, IDE, Jupyter, source: Go
 - Zeal [🛈](https://github.com/zealdocs/zeal/)
   - Zeal is a simple offline documentation browser inspired by Dash.
   - Tags: documentation, GUI, offline, source: C++
 - Zellij [🛈](https://github.com/zellij-org/zellij)
   - Zellij is a workspace aimed at developers, ops-oriented people and anyone who loves the terminal. At its core, it is a terminal multiplexer (similar to tmux and screen), but this is merely its infrastructure layer.
-  - Tags: terminal, terminal interface, terminal multiplexer, source: Rust
+  - Tags: terminal interface, terminal multiplexer, source: Rust
 - Zeroboot [🛈](https://github.com/zerobootdev/zeroboot)
   - A sandboxing system that creates sub-millisecond VM sandboxes for AI agents using copy-on-write Firecracker snapshots, providing hardware-enforced KVM isolation with ~0.79ms spawn latency and ~265KB memory per sandbox.
   - Tags: AI agents, isolation, source: Rust
@@ -2076,19 +2076,18 @@ List of tags with occurrences in the brackets:
 - alerts (4)
 - allocator (1)
 - AlphaZero (1)
-- analysis (9)
+- analysis (10)
 - analytics (4)
 - Android (4)
-- API (10)
+- API (11)
 - API development platform (4)
 - API testing (6)
 - archive (5)
-- audio (22)
+- audio (24)
 - audio generation (3)
 - authentication (2)
 - autocomplete (1)
-- automate pull requests (2)
-- automation (32)
+- automation (34)
 - awesome-list (1)
 - backup (4)
 - benchmarking (2)
@@ -2144,11 +2143,9 @@ List of tags with occurrences in the brackets:
 - compression (8)
 - computer vision (5)
 - configuration (6)
-- configuration distribution (1)
 - container (20)
 - content extractor (11)
 - context retrieval (2)
-- control desktop (1)
 - cross-platform (42)
 - CSV (8)
 - customization (6)
@@ -2175,7 +2172,7 @@ List of tags with occurrences in the brackets:
 - Deep Learning (41)
 - deepfake (1)
 - deletion tool (4)
-- deploy (8)
+- deployment (8)
 - design tool (1)
 - developer environment (8)
 - diagram (1)
@@ -2192,16 +2189,15 @@ List of tags with occurrences in the brackets:
 - ebook reader (1)
 - editor (8)
 - email (2)
-- email search (1)
 - embeddings (4)
 - encryption (14)
 - environment manager (8)
 - environment variables (2)
-- experiment tracking (1)
+- experiment tracking (2)
 - face recognition (3)
 - face swapping (2)
 - fake data (1)
-- file convert (3)
+- file conversion (3)
 - file detection (1)
 - file format (5)
 - file listing (6)
@@ -2221,14 +2217,13 @@ List of tags with occurrences in the brackets:
 - framerate (2)
 - framework (18)
 - full-text search (6)
-- fun (1)
 - function calling (1)
 - fuzzy search (6)
-- gateway (1)
+- gaming (3)
 - Gemini (1)
 - geolocation (3)
 - git (23)
-- GitHub actions (2)
+- GitHub Actions (2)
 - Google Analytics (2)
 - GPG (1)
 - GPU (9)
@@ -2238,7 +2233,6 @@ List of tags with occurrences in the brackets:
 - help message (1)
 - hex viewer (2)
 - history (2)
-- home automation (1)
 - homelab (3)
 - HTML (5)
 - HTTP client (5)
@@ -2257,9 +2251,8 @@ List of tags with occurrences in the brackets:
 - isolation (8)
 - JavaScript engine (1)
 - JSON (11)
-- Jupyter (13)
+- Jupyter (12)
 - Kafka (1)
-- key distribution (1)
 - key management (2)
 - key-value store (8)
 - knowledge graph (2)
@@ -2277,7 +2270,6 @@ List of tags with occurrences in the brackets:
 - load balancer (2)
 - logs (9)
 - Machine Learning (19)
-- Machine Translation (1)
 - macOS (1)
 - makefile (3)
 - management (17)
@@ -2301,7 +2293,6 @@ List of tags with occurrences in the brackets:
 - Nix (1)
 - No source code (3)
 - note-taking (4)
-- Notebook (7)
 - notification (2)
 - object detection (3)
 - observability (6)
@@ -2322,12 +2313,11 @@ List of tags with occurrences in the brackets:
 - passwords (2)
 - pattern search (3)
 - PDF (3)
-- penetration tests (3)
+- penetration testing (3)
 - photo management (1)
 - pipeline (2)
 - platform (5)
 - Platform-as-a-Service (1)
-- play video games (3)
 - PNG (1)
 - Polars (1)
 - PostgreSQL (7)
@@ -2352,7 +2342,7 @@ List of tags with occurrences in the brackets:
 - regex (5)
 - remote access (2)
 - remote desktop (5)
-- rename (1)
+- renaming (1)
 - replication (1)
 - report (2)
 - resolver (2)
@@ -2362,6 +2352,7 @@ List of tags with occurrences in the brackets:
 - S3 (7)
 - scheduler (4)
 - schema validation (1)
+- screensaver (1)
 - screenshot (3)
 - search engine (1)
 - searching (16)
@@ -2378,7 +2369,6 @@ List of tags with occurrences in the brackets:
 - smart home (1)
 - SMTP server (1)
 - social media (2)
-- sounds (2)
 - source control system (3)
 - source: C (29)
 - source: C# (3)
@@ -2408,7 +2398,6 @@ List of tags with occurrences in the brackets:
 - SQL injection (1)
 - SQLite (6)
 - SSH (8)
-- SSH management (1)
 - SSL/TLS (4)
 - static code analyzer (3)
 - static site (1)
@@ -2424,20 +2413,18 @@ List of tags with occurrences in the brackets:
 - system settings (1)
 - TCP (3)
 - templater (1)
-- terminal (33)
+- terminal (30)
 - terminal emulator (3)
 - terminal interface (36)
 - terminal multiplexer (1)
 - text generation (2)
 - text processing (5)
 - text-to-speech (7)
-- tldr (4)
 - TOML (2)
 - tracing (2)
-- tracking (2)
 - training (3)
 - transcription (11)
-- translation (2)
+- translation (3)
 - transpiler (1)
 - TSV (1)
 - tunneling (1)

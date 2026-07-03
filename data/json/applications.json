@@ -18,7 +18,7 @@
         "tags": [
             "automation",
             "CI/CD",
-            "GitHub actions"
+            "GitHub Actions"
         ]
     },
     {
@@ -307,8 +307,8 @@
         "url": "https://github.com/sarimabbas/authortrail",
         "description": "A Git repository exploration tool that identifies and displays all files contributed by a specific author with hierarchical tree visualization and integrated code viewer.",
         "tags": [
+            "analysis",
             "git",
-            "tracking",
             "source: TypeScript"
         ]
     },
@@ -475,7 +475,6 @@
         "tags": [
             "AI-powered",
             "command line",
-            "email search",
             "OSINT",
             "security",
             "social media",
@@ -674,7 +673,7 @@
         "tags": [
             "automation",
             "container",
-            "deploy",
+            "deployment",
             "Kubernetes",
             "Platform-as-a-Service",
             "self-hosted",
@@ -753,8 +752,7 @@
         "tags": [
             "cheat sheet",
             "command line",
-            "guide",
-            "tldr"
+            "guide"
         ]
     },
     {
@@ -773,7 +771,6 @@
         "description": "A dotfile manager for managing configuration across multiple diverse machines securely.",
         "tags": [
             "configuration",
-            "configuration distribution",
             "dotfiles",
             "management",
             "source: Go"
@@ -952,7 +949,7 @@
         "url": "https://github.com/C4illin/ConvertX",
         "description": "A self-hosted online file converter supporting over 1,000 different formats for private file transformation needs.",
         "tags": [
-            "file convert",
+            "file conversion",
             "self-hosted",
             "source: TypeScript"
         ]
@@ -1135,7 +1132,6 @@
             "AI agents",
             "automation",
             "browser automation",
-            "control desktop",
             "source: Python"
         ]
     },
@@ -1183,8 +1179,8 @@
         "url": "https://github.com/orhun/daktilo",
         "description": "daktilo is a small command-line program that plays typewriter sounds every time you press a key.",
         "tags": [
+            "audio",
             "command line",
-            "sounds",
             "source: Rust"
         ]
     },
@@ -1316,7 +1312,6 @@
             "AI-powered",
             "data processing",
             "Jupyter",
-            "Notebook",
             "source: TypeScript"
         ]
     },
@@ -1500,7 +1495,7 @@
         "url": "https://github.com/Wowu/docker-rollout",
         "description": "Docker CLI plugin that updates Docker Compose services without downtime.",
         "tags": [
-            "deploy",
+            "deployment",
             "Docker",
             "Docker Compose"
         ]
@@ -1697,7 +1692,6 @@
             "container",
             "Docker",
             "management",
-            "terminal",
             "terminal interface",
             "source: Rust"
         ]
@@ -1896,7 +1890,7 @@
             "cross-platform",
             "file manager",
             "regex",
-            "rename",
+            "renaming",
             "source: Go"
         ]
     },
@@ -2077,7 +2071,6 @@
         "tags": [
             "distribution",
             "encryption",
-            "key distribution",
             "key management",
             "security",
             "source: Go"
@@ -2334,7 +2327,7 @@
         "url": "https://github.com/internetwache/GitTools",
         "description": "A toolkit containing three scripts designed for Git security research to identify publicly exposed .git repositories on websites and extract their contents.",
         "tags": [
-            "penetration tests",
+            "penetration testing",
             "security",
             "vulnerability scanner",
             "source: Python"
@@ -2702,7 +2695,6 @@
         "tags": [
             "automation",
             "dashboard",
-            "home automation",
             "privacy",
             "self-hosted",
             "smart home",
@@ -3081,7 +3073,7 @@
         "description": "An open-source visualization tool that transforms data formats (JSON, YAML, XML, CSV, TOML) into interactive graphs for easier exploration and analysis.",
         "tags": [
             "CSV",
-            "file convert",
+            "file conversion",
             "file format",
             "JSON",
             "TOML",
@@ -3146,7 +3138,6 @@
             "AI personal assistant",
             "Deep Learning",
             "Jupyter",
-            "Notebook",
             "source: Python"
         ]
     },
@@ -3165,7 +3156,6 @@
         "description": "JupyterLite is a JupyterLab distribution that runs entirely in the browser built from the ground-up using JupyterLab components and extensions.",
         "tags": [
             "Jupyter",
-            "Notebook",
             "source: Python"
         ]
     },
@@ -3188,7 +3178,6 @@
         "description": "A UV kernel for Jupyter enabling reproducible, dependency-aware, and Git-friendly notebooks with inline dependency management, automatic environment setup, and PEP 723-style metadata storage.",
         "tags": [
             "Jupyter",
-            "Notebook",
             "package manager",
             "source: Python"
         ]
@@ -3201,7 +3190,7 @@
             "CI/CD",
             "command line",
             "container",
-            "deploy",
+            "deployment",
             "Docker",
             "source: Ruby"
         ]
@@ -3287,8 +3276,8 @@
         "url": "https://github.com/Kong/kong",
         "description": "A cloud-native API gateway for microservices, AI/LLM traffic, and MCP systems with plugin-based extensibility, advanced routing, load balancing, and authentication.",
         "tags": [
+            "API",
             "cloud",
-            "gateway",
             "Kubernetes",
             "LLM gateway",
             "load balancer",
@@ -3374,7 +3363,7 @@
         "description": "Lanarky is an open-source framework to deploy LLM applications in production. It is built on top of FastAPI and comes with batteries included.",
         "tags": [
             "Deep Learning",
-            "deploy",
+            "deployment",
             "LLM",
             "source: Python"
         ]
@@ -3474,7 +3463,6 @@
         "tags": [
             "management",
             "SSH",
-            "SSH management",
             "terminal interface",
             "source: Go"
         ]
@@ -3486,7 +3474,6 @@
         "tags": [
             "command line",
             "file manager",
-            "terminal",
             "terminal interface",
             "command line: mc",
             "command line: ranger",
@@ -3498,8 +3485,8 @@
         "url": "https://github.com/LibreTranslate/LibreTranslate",
         "description": "Free and Open Source Machine Translation API. 100% self-hosted, offline capable and easy to setup.",
         "tags": [
-            "Machine Translation",
-            "offline"
+            "offline",
+            "translation"
         ]
     },
     {
@@ -3775,9 +3762,9 @@
         "description": "An experiment tracking framework that automatically saves, queries, and versions Python computations through an @op decorator that captures inputs, outputs, and code dependencies.",
         "tags": [
             "caching",
+            "experiment tracking",
             "Machine Learning",
             "tracing",
-            "tracking",
             "source: Python"
         ]
     },
@@ -3943,7 +3930,7 @@
         "url": "https://mergify.com",
         "description": "Mergify to automate pull requests + secure the code merge using a merge queue.",
         "tags": [
-            "automate pull requests",
+            "automation",
             "pull requests"
         ]
     },
@@ -3963,7 +3950,7 @@
         "description": "Metaflow is a human-friendly Python/R library that helps scientists and engineers build and manage real-life data science projects.",
         "tags": [
             "data pipeline",
-            "deploy",
+            "deployment",
             "management",
             "workflow",
             "source: Python"
@@ -4109,8 +4096,8 @@
         "description": "An open source PC client for remote gaming through NVIDIA GameStream and Sunshine, with hardware-accelerated decoding, HDR streaming, 7.1 surround sound, and multi-gamepad support across Windows, macOS, and Linux.",
         "tags": [
             "cross-platform",
+            "gaming",
             "GUI",
-            "play video games",
             "remote desktop",
             "streaming",
             "source: C++"
@@ -4184,7 +4171,6 @@
             "cheat sheet",
             "command line",
             "guide",
-            "tldr",
             "source: Rust"
         ]
     },
@@ -4335,7 +4321,7 @@
             "AI agents",
             "computer vision",
             "Deep Learning",
-            "play video games",
+            "gaming",
             "source: Python"
         ]
     },
@@ -4440,7 +4426,7 @@
         "description": "A toolkit that converts PDFs and image-based documents into clean, readable plain text and markdown format using vision language models for accurate OCR processing.",
         "tags": [
             "data processing",
-            "file convert",
+            "file conversion",
             "Markdown",
             "OCR",
             "PDF",
@@ -4487,9 +4473,7 @@
         "description": "An open-source, privacy-focused alternative to Google's Notebook LM that enables users to organize research materials and generate AI-powered insights.",
         "tags": [
             "AI-powered",
-            "Jupyter",
             "note-taking",
-            "Notebook",
             "privacy",
             "source: Python"
         ]
@@ -4603,7 +4587,7 @@
         "description": "A self-hosted AI code review bot that integrates with GitHub to deliver automated PR reviews, inline suggestions, and direct code fixes using Claude.",
         "tags": [
             "AI-powered",
-            "automate pull requests",
+            "automation",
             "code quality",
             "code review",
             "pull requests",
@@ -4984,7 +4968,7 @@
         "url": "https://github.com/pipeseroni/pipes.sh",
         "description": "Animated pipes terminal screensaver.",
         "tags": [
-            "fun",
+            "screensaver",
             "shell script"
         ]
     },
@@ -5180,7 +5164,6 @@
         "tags": [
             "AI-powered",
             "Jupyter",
-            "Notebook",
             "source: Python"
         ]
     },
@@ -5986,7 +5969,7 @@
             "automation",
             "caching",
             "CI/CD",
-            "GitHub actions"
+            "GitHub Actions"
         ]
     },
     {
@@ -6044,7 +6027,7 @@
             "automation",
             "CI/CD",
             "command line",
-            "deploy",
+            "deployment",
             "source: Go"
         ]
     },
@@ -6271,7 +6254,7 @@
         "tags": [
             "command line",
             "database",
-            "penetration tests",
+            "penetration testing",
             "SQL",
             "SQL injection"
         ]
@@ -6308,7 +6291,7 @@
         "tags": [
             "command line",
             "network",
-            "penetration tests",
+            "penetration testing",
             "security",
             "SSL/TLS",
             "vulnerability scanner",
@@ -6420,7 +6403,7 @@
         "url": "https://github.com/LizardByte/Sunshine",
         "description": "A self-hosted game streaming server compatible with Moonlight clients, enabling low-latency cloud gaming with hardware encoding for AMD, Intel, and NVIDIA GPUs, a web UI, and HDR/4K support.",
         "tags": [
-            "play video games",
+            "gaming",
             "remote desktop",
             "self-hosted",
             "server",
@@ -6467,8 +6450,8 @@
         "url": "https://github.com/jafarlihi/sysm",
         "description": "sysm makes your system play custom sounds when any configured system or external event happens.",
         "tags": [
+            "audio",
             "command line",
-            "sounds",
             "system events"
         ]
     },
@@ -6538,7 +6521,7 @@
         "description": "An open-source Git-native Platform-as-a-Service for building, deploying, and scaling applications with infrastructure defined in Git, featuring serverless functions and built-in databases.",
         "tags": [
             "CI/CD",
-            "deploy",
+            "deployment",
             "source: Go"
         ]
     },
@@ -6560,7 +6543,6 @@
             "cheat sheet",
             "command line",
             "guide",
-            "tldr",
             "source: Rust"
         ]
     },
@@ -6632,8 +6614,7 @@
         "tags": [
             "cheat sheet",
             "command line",
-            "guide",
-            "tldr"
+            "guide"
         ]
     },
     {
@@ -6863,7 +6844,7 @@
         "description": "A command-line tool that lets you expose your locally running web server via a public URL, enabling developers to make local services accessible over the internet.",
         "tags": [
             "command line",
-            "deploy",
+            "deployment",
             "source: Rust"
         ]
     },
@@ -7671,7 +7652,6 @@
             "GUI",
             "IDE",
             "Jupyter",
-            "Notebook",
             "source: Go"
         ]
     },
@@ -7691,7 +7671,6 @@
         "url": "https://github.com/zellij-org/zellij",
         "description": "Zellij is a workspace aimed at developers, ops-oriented people and anyone who loves the terminal. At its core, it is a terminal multiplexer (similar to tmux and screen), but this is merely its infrastructure layer.",
         "tags": [
-            "terminal",
             "terminal interface",
             "terminal multiplexer",
             "source: Rust"
