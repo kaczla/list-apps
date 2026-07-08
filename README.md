@@ -137,6 +137,9 @@ Some descriptions are from:
 - Blinko [🛈](https://github.com/blinkospace/blinko)
   - An open-source, self-hosted personal AI note-taking application that enables users to quickly capture and organize fleeting thoughts using natural language processing and RAG technology.
   - Tags: AI-powered, note-taking, privacy, RAG, self-hosted, source: TypeScript
+- BlockAds [🛈](https://github.com/pass-with-high-score/blockads-android)
+  - A free, open-source Android ad blocker that filters ads, trackers, and malware system-wide via a local VPN with DNS filtering, requiring no root access.
+  - Tags: ad blocker, Android, DNS, privacy, VPN, source: Go, source: Kotlin
 - BookLore [🛈](https://github.com/booklore-app/booklore)
   - A self-hosted web application for organizing personal book collections with smart organization, custom shelves, powerful filters, and dynamic auto-updating collections through magic shelves.
   - Tags: book collections, management, self-hosted, source: Java
@@ -1346,6 +1349,9 @@ Some descriptions are from:
 - Pop [🛈](https://github.com/charmbracelet/pop)
   - Pop allows to send emails from your terminal.
   - Tags: command line, email, source: Go
+- Portainer [🛈](https://github.com/portainer/portainer)
+  - A lightweight service delivery platform with a web UI for managing Docker, Docker Swarm, Kubernetes, and Azure Container Instances environments.
+  - Tags: container, dashboard, Docker, Kubernetes, management, web UI, source: Go, source: TypeScript
 - portfwd [🛈](https://github.com/gaetanlhf/portfwd)
   - A lightweight tool that forwards TCP and UDP network traffic from one port to another, supporting simultaneous forwarding to multiple destinations with a single compiled binary.
   - Tags: command line, forwarding, network, TCP, UDP, source: Go
@@ -2066,7 +2072,7 @@ Some descriptions are from:
 List of tags with occurrences in the brackets:
 
 - 3D image generation (1)
-- ad blocker (1)
+- ad blocker (2)
 - agent builder (3)
 - agentic coding (12)
 - AI agents (34)
@@ -2078,7 +2084,7 @@ List of tags with occurrences in the brackets:
 - AlphaZero (1)
 - analysis (10)
 - analytics (4)
-- Android (4)
+- Android (5)
 - API (11)
 - API development platform (4)
 - API testing (6)
@@ -2143,13 +2149,13 @@ List of tags with occurrences in the brackets:
 - compression (8)
 - computer vision (5)
 - configuration (6)
-- container (20)
+- container (21)
 - content extractor (11)
 - context retrieval (2)
 - cross-platform (42)
 - CSV (8)
 - customization (6)
-- dashboard (14)
+- dashboard (15)
 - data anonymization (1)
 - data formatter (5)
 - data generator (2)
@@ -2180,8 +2186,8 @@ List of tags with occurrences in the brackets:
 - Diffusion Model (9)
 - disk utility (7)
 - distribution (2)
-- DNS (4)
-- Docker (16)
+- DNS (5)
+- Docker (17)
 - Docker Compose (1)
 - documentation (4)
 - dotfiles (3)
@@ -2256,7 +2262,7 @@ List of tags with occurrences in the brackets:
 - key management (2)
 - key-value store (8)
 - knowledge graph (2)
-- Kubernetes (7)
+- Kubernetes (8)
 - language detection (3)
 - library (48)
 - link management (1)
@@ -2272,7 +2278,7 @@ List of tags with occurrences in the brackets:
 - Machine Learning (19)
 - macOS (1)
 - makefile (3)
-- management (17)
+- management (18)
 - Markdown (7)
 - meetings (1)
 - memory (2)
@@ -2322,7 +2328,7 @@ List of tags with occurrences in the brackets:
 - Polars (1)
 - PostgreSQL (7)
 - presentation (2)
-- privacy (12)
+- privacy (13)
 - Privileged Access Management (PAM) (1)
 - process management (5)
 - profiler (3)
@@ -2377,11 +2383,11 @@ List of tags with occurrences in the brackets:
 - source: Crystal (1)
 - source: Dart (1)
 - source: Elixir (2)
-- source: Go (89)
+- source: Go (91)
 - source: HTML (1)
 - source: Java (6)
 - source: JavaScript (19)
-- source: Kotlin (1)
+- source: Kotlin (2)
 - source: Lua (1)
 - source: PHP (1)
 - source: PowerShell (1)
@@ -2389,7 +2395,7 @@ List of tags with occurrences in the brackets:
 - source: Ruby (5)
 - source: Rust (158)
 - source: Shell (10)
-- source: TypeScript (74)
+- source: TypeScript (75)
 - source: Zig (4)
 - speech generation (8)
 - speech recognition (11)
@@ -2444,13 +2450,13 @@ List of tags with occurrences in the brackets:
 - virtualization (4)
 - visualization (13)
 - voice cloning (3)
-- VPN (2)
+- VPN (3)
 - vulnerability scanner (11)
 - weather (1)
 - web browser (8)
 - web scraper (13)
 - web search (2)
-- web UI (6)
+- web UI (7)
 - WebAssembly (2)
 - webhooks (1)
 - website (4)
