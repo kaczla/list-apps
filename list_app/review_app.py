@@ -146,8 +146,8 @@ def _evict_stale_cache() -> None:
         logger.debug(f"Evicting {len(stale_keys)} stale proxy cache entries")
     for k in stale_keys:
         del _proxy_cache[k]
-    # Evict oldest if over max size
-    while len(_proxy_cache) > PROXY_CACHE_MAX_SIZE:
+    # Evict oldest to leave room for the entry about to be inserted
+    while len(_proxy_cache) >= PROXY_CACHE_MAX_SIZE:
         oldest_key = min(_proxy_cache, key=lambda k: _proxy_cache[k][4])
         del _proxy_cache[oldest_key]
 

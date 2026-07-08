@@ -14,6 +14,7 @@ from pathlib import Path
 from loguru import logger
 
 from list_app.data_utils import load_applications
+from list_app.log_utils import init_logs
 
 
 def load_links(file: Path) -> list[str]:
@@ -72,6 +73,7 @@ Examples:
 
 
 def main(cmd_args: list[str] | None = None) -> None:
+    init_logs()
     input_file = parse_args(cmd_args)
 
     links = load_links(input_file)

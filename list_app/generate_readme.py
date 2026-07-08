@@ -1,7 +1,6 @@
 """Generate README.md from applications.json data."""
 
 from collections import Counter
-from typing import Counter as CounterType
 
 from loguru import logger
 
@@ -27,7 +26,7 @@ def calculate_tag_occurrences(apps: list[ApplicationData]) -> list[Tag]:
     Returns:
         List of Tag objects with names and occurrence counts, sorted alphabetically.
     """
-    tags_counter: CounterType[str] = Counter()
+    tags_counter: Counter[str] = Counter()
 
     for app in apps:
         tags_counter.update(app.tags)
@@ -148,7 +147,6 @@ def generate_and_save_readme(apps: list[ApplicationData]) -> None:
 def main() -> None:
     """Entry point: load JSON, generate README, and write to file."""
     init_logs(debug=False)
-    logger.info(f"Loading applications from: {DATA_APPLICATIONS_PATH}")
 
     if not DATA_APPLICATIONS_PATH.exists():
         logger.error(f"Applications JSON file not found: {DATA_APPLICATIONS_PATH}")
@@ -157,7 +155,6 @@ def main() -> None:
     apps = load_applications(DATA_APPLICATIONS_PATH)
     apps.sort(key=lambda x: x.name.lower())
 
-    logger.info(f"Loaded {len(apps)} applications")
     generate_and_save_readme(apps)
     save_applications(apps)
 

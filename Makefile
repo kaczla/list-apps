@@ -22,4 +22,4 @@ type_check:
 	@echo "[INFO] Running type check..."
 	@uv run mypy list_app
 
-.PHONY: lint lint_fix format format_toml type_check
+.PHONY: all lint lint_fix format format_toml type_check

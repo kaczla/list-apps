@@ -1,4 +1,4 @@
-"""Merge JSON data into LM data or links files."""
+"""Merge JSON data into the applications file."""
 
 import argparse
 import json
@@ -36,7 +36,7 @@ def load_input_json(input_path: Path) -> list[dict[str, Any]]:
 
 def merge_applications(input_data: list[dict[str, Any]], dry_run: bool = False, overwrite: bool = False) -> int:
     """
-    Merge input data into application.json.
+    Merge input data into applications.json.
 
     Returns:
         Error count
@@ -52,48 +52,54 @@ def merge_applications(input_data: list[dict[str, Any]], dry_run: bool = False, 
     duplicate_count = 0
     error_count = 0
     new_items: list[ApplicationData] = []
+    new_url_to_idx: dict[str, int] = {}
 
     for idx, item in enumerate(input_data):
         try:
-            model_info = ApplicationData(**item)
+            app_info = ApplicationData(**item)
         except ValidationError as e:
-            logger.error(f"[{idx + 1}] Invalid ModelInfo data: {e}")
+            logger.error(f"[{idx + 1}] Invalid application data: {e}")
             error_count += 1
             continue
 
-        # Check for duplicate URL
-        if model_info.url in url_to_idx:
+        # Check for duplicate URL (in existing data or in items added earlier this run)
+        if app_info.url in url_to_idx or app_info.url in new_url_to_idx:
             if overwrite:
-                existing_idx = url_to_idx[model_info.url]
-                old_name = existing_list[existing_idx].name
-                existing_list[existing_idx] = model_info
+                if app_info.url in url_to_idx:
+                    existing_idx = url_to_idx[app_info.url]
+                    old_name = existing_list[existing_idx].name
+                    existing_list[existing_idx] = app_info
+                else:
+                    new_idx = new_url_to_idx[app_info.url]
+                    old_name = new_items[new_idx].name
+                    new_items[new_idx] = app_info
                 # Update name lookup if name changed
-                if old_name != model_info.name:
+                if old_name != app_info.name:
                     existing_names.discard(old_name)
-                    existing_names.add(model_info.name)
+                    existing_names.add(app_info.name)
                 replaced_count += 1
-                logger.info(f"[{idx + 1}] Replacing model: {model_info.name}")
+                logger.info(f"[{idx + 1}] Replacing application: {app_info.name}")
             else:
-                logger.error(f"[{idx + 1}] Duplicate URL for {model_info.name!r}: {model_info.url} - skipping")
+                logger.error(f"[{idx + 1}] Duplicate URL for {app_info.name!r}: {app_info.url} - skipping")
                 duplicate_count += 1
             continue
 
         # Check for duplicate name (different URL)
-        if model_info.name in existing_names:
-            logger.warning(f"[{idx + 1}] Duplicate model name for {model_info.name!r}: {model_info.url} - continuing")
+        if app_info.name in existing_names:
+            logger.warning(f"[{idx + 1}] Duplicate application name for {app_info.name!r}: {app_info.url} - continuing")
 
         # Add to new items and update lookup sets
-        new_items.append(model_info)
-        existing_names.add(model_info.name)
-        url_to_idx[model_info.url] = -1  # Mark as seen (index not needed for new items)
+        new_url_to_idx[app_info.url] = len(new_items)
+        new_items.append(app_info)
+        existing_names.add(app_info.name)
         added_count += 1
-        logger.info(f"[{idx + 1}] Adding model: {model_info.name}")
+        logger.info(f"[{idx + 1}] Adding application: {app_info.name}")
 
     has_changes = new_items or replaced_count > 0
     if has_changes and not dry_run:
         merged_list = existing_list + new_items
         merged_list.sort(key=lambda x: x.name.lower())
-        logger.info(f"Saving {len(merged_list)} models")
+        logger.info(f"Saving {len(merged_list)} applications")
         save_applications(merged_list)
         generate_and_save_readme(merged_list)
 
@@ -115,13 +121,13 @@ def main() -> None:
         epilog="""
 Examples:
   # Merge applications from a JSON file
-  uv run python -m list_lm.merge_json new_apps.json
+  uv run python -m list_app.merge_json new_apps.json
 
   # Dry run to preview what would be added
-  uv run python -m list_lm.merge_json new_apps.json --dry-run
+  uv run python -m list_app.merge_json new_apps.json --dry-run
 
   # Overwrite existing entries instead of skipping
-  uv run python -m list_lm.merge_json new_apps.json--overwrite
+  uv run python -m list_app.merge_json new_apps.json --overwrite
         """,
     )
     parser.add_argument(
