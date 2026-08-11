@@ -313,6 +313,19 @@
         ]
     },
     {
+        "name": "Auto-Editor",
+        "url": "https://github.com/WyattBlue/auto-editor",
+        "description": "A command line tool that automatically edits video and audio by detecting silence or motion and cutting dead space, with configurable margins and export to Premiere Pro, DaVinci Resolve, and Final Cut Pro.",
+        "tags": [
+            "audio",
+            "audio editing",
+            "command line",
+            "video",
+            "video editing",
+            "source: Nim"
+        ]
+    },
+    {
         "name": "AutoCrawler",
         "url": "https://github.com/EZ-hwh/AutoCrawler",
         "description": "An AI agent that automatically generates web scrapers through progressive web understanding, using LLMs to extract structured data from websites.",
@@ -770,6 +783,32 @@
         ]
     },
     {
+        "name": "CheckCle",
+        "url": "https://github.com/operacle/checkcle",
+        "description": "A self-hosted full-stack monitoring system covering HTTP, DNS, and ping checks from distributed regions, server metrics, SSL and domain expiration, with incident management, public status pages, and email, Telegram, Discord, Slack, and Matrix alerts.",
+        "tags": [
+            "alerts",
+            "dashboard",
+            "monitoring",
+            "notification",
+            "self-hosted",
+            "source: Go"
+        ]
+    },
+    {
+        "name": "Checkmate",
+        "url": "https://github.com/bluewave-labs/Checkmate",
+        "description": "A self-hosted monitoring server that tracks uptime, response times, hardware, Docker containers, ports, SSL certificates, and game servers, with status pages, maintenance windows, and notifications via email, webhooks, Discord, Slack, and PagerDuty.",
+        "tags": [
+            "alerts",
+            "dashboard",
+            "monitoring",
+            "notification",
+            "self-hosted",
+            "source: JavaScript"
+        ]
+    },
+    {
         "name": "Cherrybomb",
         "url": "https://github.com/blst-security/cherrybomb",
         "description": "Cherrybomb is an CLI tool written in Rust that helps prevent incorrect code implementation early in development. It works by validating and testing your API using an OpenAPI file. Its main goal is to reduce security errors and ensure your API functions as intended.",
@@ -1186,6 +1225,19 @@
             "SSL/TLS",
             "vulnerability scanner",
             "website"
+        ]
+    },
+    {
+        "name": "Czkawka",
+        "url": "https://github.com/qarmin/czkawka",
+        "description": "A multifunctional cleaner that finds duplicate files, empty folders, temporary files, similar images and videos, broken files, and invalid symlinks, with a Slint GUI (Krokiet), a GTK 4 frontend, a CLI, and cache-backed rescans.",
+        "tags": [
+            "command line",
+            "deduplication",
+            "deletion tool",
+            "disk utility",
+            "GUI",
+            "source: Rust"
         ]
     },
     {
@@ -1720,6 +1772,21 @@
         ]
     },
     {
+        "name": "Ducky",
+        "url": "https://github.com/thecmdguy/Ducky",
+        "description": "An all-in-one desktop networking toolbox combining an SSH, Telnet, and serial terminal with diagnostics (ping, traceroute, port scanning, subnet calculation), DNS and SMTP tools, SSL inspection, CVE scanning, and IP geolocation.",
+        "tags": [
+            "DNS",
+            "GUI",
+            "network",
+            "network scan",
+            "security",
+            "SSH",
+            "terminal",
+            "source: Python"
+        ]
+    },
+    {
         "name": "duf",
         "url": "https://github.com/muesli/duf",
         "description": "Disk Usage/Free Utility (Linux, BSD, macOS & Windows)",
@@ -2053,6 +2120,17 @@
         ]
     },
     {
+        "name": "Floci",
+        "url": "https://github.com/floci-io/floci",
+        "description": "A local AWS emulator for development, testing, and CI that supports 69 services with real Docker-backed workloads, multi-account isolation, and configurable persistence modes, with no account or auth token required.",
+        "tags": [
+            "AWS emulator",
+            "cloud",
+            "developer environment",
+            "source: Java"
+        ]
+    },
+    {
         "name": "Flowctl",
         "url": "https://github.com/cvhariharan/flowctl",
         "description": "A self-service workflow execution platform providing secure access to complex workflows in a single binary, from infrastructure provisioning to custom business automation.",
@@ -2236,6 +2314,18 @@
             "library",
             "text processing",
             "source: Python"
+        ]
+    },
+    {
+        "name": "Gigatoken",
+        "url": "https://github.com/marcelroed/gigatoken",
+        "description": "A tokenizer for language modeling that reaches gigabyte-per-second throughput, offering a drop-in compatibility mode for HuggingFace Tokenizers and Tiktoken plus a native API, with x86 and ARM support for GPT-2, Llama, Qwen, and DeepSeek tokenizers.",
+        "tags": [
+            "library",
+            "Machine Learning",
+            "Natural Language Processing",
+            "tokenizer",
+            "source: Rust"
         ]
     },
     {
@@ -2567,6 +2657,20 @@
         ]
     },
     {
+        "name": "Grok CLI",
+        "url": "https://github.com/superagent-ai/grok-cli",
+        "description": "A terminal coding agent built on xAI's Grok models with live X and web search, image and video generation, background subagents, scheduled tasks, MCP support, and remote control from Telegram with voice transcription.",
+        "tags": [
+            "agentic coding",
+            "AI agents",
+            "code generation",
+            "command line",
+            "Model Context Protocol (MCP)",
+            "terminal",
+            "source: TypeScript"
+        ]
+    },
+    {
         "name": "gyroflow",
         "url": "https://github.com/gyroflow/gyroflow",
         "description": "Gyroflow is an application that can stabilize your video by using motion data from a gyroscope and optionally an accelerometer.",
@@ -2633,6 +2737,18 @@
             "Python wrapper",
             "web browser",
             "source: Python"
+        ]
+    },
+    {
+        "name": "Herdr",
+        "url": "https://github.com/ogulcancelik/herdr",
+        "description": "A background terminal multiplexer built as a runtime for AI coding agents, keeping sessions alive across disconnects with pane status indicators, agent-to-agent coordination via CLI and socket APIs, and tmux-style keybindings.",
+        "tags": [
+            "agentic coding",
+            "AI agents",
+            "terminal",
+            "terminal multiplexer",
+            "source: Rust"
         ]
     },
     {
@@ -2723,6 +2839,19 @@
             "command line",
             "monitoring",
             "command line: top"
+        ]
+    },
+    {
+        "name": "httptap",
+        "url": "https://github.com/ozeranskii/httptap",
+        "description": "A command line tool that breaks HTTP requests into DNS, TCP, TLS, server wait, and transfer phases and renders them as a waterfall, compact summary, or JSON, with TLS certificate inspection, redirect chain timing, and SLO thresholds for CI.",
+        "tags": [
+            "benchmarking",
+            "command line",
+            "HTTP client",
+            "network",
+            "SSL/TLS",
+            "source: Python"
         ]
     },
     {
@@ -3270,6 +3399,21 @@
             "process management",
             "command line: kill",
             "source: Rust"
+        ]
+    },
+    {
+        "name": "Kimi Code CLI",
+        "url": "https://github.com/MoonshotAI/kimi-code",
+        "description": "A single-binary terminal coding agent from Moonshot AI that reads and edits code, runs shell commands, and fetches web pages, with video input, MCP configuration, subagents, lifecycle hooks, and Agent Client Protocol editor integration.",
+        "tags": [
+            "agentic coding",
+            "AI agents",
+            "code generation",
+            "command line",
+            "LLM",
+            "Model Context Protocol (MCP)",
+            "terminal",
+            "source: TypeScript"
         ]
     },
     {
@@ -4621,6 +4765,17 @@
         ]
     },
     {
+        "name": "Openship",
+        "url": "https://github.com/oblien/openship",
+        "description": "A self-hosted deployment platform that detects project configuration, builds Docker images, runs apps as containers or processes, and routes traffic with automatic Let's Encrypt TLS, including push-to-deploy via GitHub webhooks and preview environments.",
+        "tags": [
+            "deployment",
+            "Platform-as-a-Service",
+            "self-hosted",
+            "source: TypeScript"
+        ]
+    },
+    {
         "name": "OpenVMM",
         "url": "https://github.com/microsoft/openvmm",
         "description": "A modular, cross-platform Virtual Machine Monitor written in Rust, primarily developed for the OpenHCL paravisor.",
@@ -4732,6 +4887,18 @@
             "data processing",
             "visualization",
             "source: Python"
+        ]
+    },
+    {
+        "name": "Partimage",
+        "url": "https://gitlab.com/partimage/partimage-sources",
+        "description": "A disk imaging utility that saves partitions to compressed image files and restores them, copying only used blocks for faster backups and recovery.",
+        "tags": [
+            "compression",
+            "data recovery",
+            "disk utility",
+            "image",
+            "source: C++"
         ]
     },
     {
@@ -4891,6 +5058,21 @@
         ]
     },
     {
+        "name": "Pic Smaller",
+        "url": "https://github.com/joye61/pic-smaller",
+        "description": "A browser-based batch image compressor that processes JPEG, PNG, WebP, GIF, SVG, and AVIF files locally via Web Workers and WebAssembly, with HEIC decoding, resizing, cropping, split-view comparison, and ZIP export.",
+        "tags": [
+            "compression",
+            "image",
+            "image editing",
+            "offline",
+            "privacy",
+            "web UI",
+            "WebAssembly",
+            "source: TypeScript"
+        ]
+    },
+    {
         "name": "pico.sh",
         "url": "https://github.com/picosh/pico",
         "description": "Open source web services that leverage SSH for content publishing and management, enabling developers to deploy sites, share code, and manage blogs without additional installations.",
@@ -5006,6 +5188,18 @@
         "tags": [
             "command line",
             "cross-platform",
+            "package manager",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "pkgx",
+        "url": "https://github.com/pkgxdev/pkgx",
+        "description": "A 4 MiB standalone package runner that executes any version of a tool or programming language on demand, downloading dependencies into a local cache instead of installing them system-wide.",
+        "tags": [
+            "command line",
+            "cross-platform",
+            "package installer",
             "package manager",
             "source: Rust"
         ]
@@ -5433,6 +5627,21 @@
         ]
     },
     {
+        "name": "Quickwit",
+        "url": "https://github.com/quickwit-oss/quickwit",
+        "description": "A search engine for logs and traces with sub-second search directly on cloud storage, decoupled compute and storage, Elasticsearch-compatible APIs, native Jaeger and OpenTelemetry support, and Kafka, Kinesis, and Pulsar ingestion.",
+        "tags": [
+            "full-text search",
+            "indexing",
+            "logs",
+            "observability",
+            "OpenTelemetry",
+            "search engine",
+            "tracing",
+            "source: Rust"
+        ]
+    },
+    {
         "name": "RackPeek",
         "url": "https://github.com/Timmoth/RackPeek",
         "description": "A web UI and CLI tool for documenting and managing home lab infrastructure, tracking hardware, services, and networks with an Ansible inventory generator and YAML-based configuration storage.",
@@ -5606,6 +5815,20 @@
         ]
     },
     {
+        "name": "reverse_ssh",
+        "url": "https://github.com/NHAS/reverse_ssh",
+        "description": "Manages reverse shells using native SSH syntax, letting operators connect with ssh, scp, and sftp, with local, remote, and dynamic port forwarding, HTTP/WebSocket/TLS transports, VPN TUN routing, and full Windows shell support.",
+        "tags": [
+            "penetration testing",
+            "remote access",
+            "reverse SSH",
+            "security",
+            "SSH",
+            "tunneling",
+            "source: Go"
+        ]
+    },
+    {
         "name": "rinetd",
         "url": "https://github.com/samhocevar/rinetd",
         "description": "A tool for efficiently redirecting TCP and UDP connections from one IP address and port to another, useful for virtual servers, firewalls, and load balancing.",
@@ -5661,6 +5884,18 @@
             "command line",
             "debugger",
             "reverse engineering",
+            "source: C"
+        ]
+    },
+    {
+        "name": "rmlint",
+        "url": "https://github.com/sahib/rmlint",
+        "description": "A fast filesystem cleaner that reports duplicate files and directories, broken symlinks, empty files, and unstripped binaries, with a paranoia mode for byte-wise verification, BTRFS support, and replayable output formats.",
+        "tags": [
+            "command line",
+            "deduplication",
+            "deletion tool",
+            "disk utility",
             "source: C"
         ]
     },
@@ -5978,6 +6213,21 @@
         ]
     },
     {
+        "name": "ServerKit",
+        "url": "https://github.com/jhd3197/ServerKit",
+        "description": "A self-hosted server control panel for deploying apps, databases, and Docker containers across a fleet of servers, with domain and Let's Encrypt management, monitoring and status pages, S3 backups, a 100+ app marketplace, and WAF, ClamAV, and Fail2Ban security tools.",
+        "tags": [
+            "dashboard",
+            "deployment",
+            "management",
+            "monitoring",
+            "self-hosted",
+            "server",
+            "web UI",
+            "source: Python"
+        ]
+    },
+    {
         "name": "ServiceRadar",
         "url": "https://github.com/carverauto/serviceradar",
         "description": "A distributed network monitoring system designed for infrastructure and services in hard-to-reach places or constrained environments, featuring WASM plugin system, graph-based network discovery, and cloud-based alerting.",
@@ -6038,6 +6288,19 @@
         ]
     },
     {
+        "name": "Shutter Encoder",
+        "url": "https://github.com/paulpacifico/shutter-encoder",
+        "description": "A free, cross-platform video, audio, and image encoding application built on FFmpeg, offering codec conversion, batch processing with presets, lossless cutting/trimming, subtitle and color correction tools, and web video downloading.",
+        "tags": [
+            "file conversion",
+            "GUI",
+            "video",
+            "video downloader",
+            "video editing",
+            "source: Java"
+        ]
+    },
+    {
         "name": "sidecar",
         "url": "https://github.com/marcus/sidecar",
         "description": "A terminal UI for agentic coding workflows that integrates with Claude Code, Cursor, Codex, and other AI coding agents, providing git diffs, file browsing, conversation history, and workspace management in the shell.",
@@ -6094,6 +6357,19 @@
         ]
     },
     {
+        "name": "Slim",
+        "url": "https://github.com/nilbuild/slim",
+        "description": "A local development proxy that maps clean HTTPS domains to localhost ports and shares them publicly over slim.show URLs with optional passwords and custom domains, configured through a .slim.yaml file.",
+        "tags": [
+            "command line",
+            "developer environment",
+            "proxy",
+            "SSL/TLS",
+            "tunneling",
+            "source: Go"
+        ]
+    },
+    {
         "name": "Slumber",
         "url": "https://github.com/LucasPickering/slumber",
         "description": "A terminal-based HTTP/REST client for defining, executing, and sharing configurable requests, with dynamic request building, JSONPath filtering, and environment profiles.",
@@ -6113,6 +6389,19 @@
             "data processing",
             "database",
             "source: Python"
+        ]
+    },
+    {
+        "name": "Sniffnet",
+        "url": "https://github.com/GyulyVGC/sniffnet",
+        "description": "A cross-platform network monitor that inspects traffic in real time with charts, geolocation and ASN lookup for remote hosts, identification of 6000+ services and the programs generating traffic, PCAP import/export, and IP blacklists.",
+        "tags": [
+            "cross-platform",
+            "GUI",
+            "monitoring",
+            "network",
+            "network scan",
+            "source: Rust"
         ]
     },
     {
@@ -6625,6 +6914,17 @@
         ]
     },
     {
+        "name": "Tesseract.js",
+        "url": "https://github.com/naptha/tesseract.js",
+        "description": "A JavaScript OCR library wrapping a WebAssembly port of the Tesseract engine, recognizing text in over 100 languages in the browser and Node.js with real-time video recognition, auto-rotate preprocessing, and parallel schedulers.",
+        "tags": [
+            "library",
+            "OCR",
+            "WebAssembly",
+            "source: JavaScript"
+        ]
+    },
+    {
         "name": "Text Generation Web UI",
         "url": "https://github.com/oobabooga/text-generation-webui",
         "description": "A gradio web UI for running Large Language Models like LLaMA, llama.cpp, GPT-J, Pythia, OPT, and GALACTICA.",
@@ -6767,6 +7067,29 @@
             "JSON",
             "library",
             "source: TypeScript"
+        ]
+    },
+    {
+        "name": "Traefik",
+        "url": "https://github.com/traefik/traefik",
+        "description": "A modern HTTP reverse proxy and load balancer that discovers services from Docker, Kubernetes, and Consul and updates routes without restarts, with Let's Encrypt certificates, circuit breakers, WebSocket/HTTP2/gRPC support, and a web dashboard.",
+        "tags": [
+            "load balancer",
+            "proxy",
+            "reverse proxy",
+            "source: Go"
+        ]
+    },
+    {
+        "name": "Traefik Manager",
+        "url": "https://github.com/chr0nzz/traefik-manager",
+        "description": "A self-hosted web UI for Traefik that manages HTTP, TCP, and UDP routes, middlewares, and TLS certificates without hand-editing YAML, with guided middleware wizards, a static config editor, timestamped backups, and multi-server agents.",
+        "tags": [
+            "management",
+            "reverse proxy",
+            "self-hosted",
+            "web UI",
+            "source: Python"
         ]
     },
     {
@@ -7006,6 +7329,19 @@
         ]
     },
     {
+        "name": "UpSnap",
+        "url": "https://github.com/seriousm4x/UpSnap",
+        "description": "A self-hosted Wake-on-LAN dashboard for waking, pinging, and shutting down devices on a local network, with nmap-based discovery, cron-scheduled events, user permissions, and multi-language support.",
+        "tags": [
+            "network",
+            "scheduler",
+            "self-hosted",
+            "Wake-on-LAN",
+            "web UI",
+            "source: Go"
+        ]
+    },
+    {
         "name": "Uptime Kuma",
         "url": "https://github.com/louislam/uptime-kuma",
         "description": "Uptime Kuma is an easy-to-use self-hosted monitoring tool.",
@@ -7048,6 +7384,21 @@
             "Redis",
             "storage",
             "source: C"
+        ]
+    },
+    {
+        "name": "Vane",
+        "url": "https://github.com/ItzCrazyKns/Vane",
+        "description": "A privacy-focused AI answering engine that runs on your own hardware, combining web search with local or hosted LLMs to produce cited answers, with Speed/Balanced/Quality modes, file uploads, and locally stored history.",
+        "tags": [
+            "AI-powered",
+            "LLM",
+            "privacy",
+            "search engine",
+            "self-hosted",
+            "web search",
+            "web UI",
+            "source: TypeScript"
         ]
     },
     {
@@ -7285,6 +7636,19 @@
         "tags": [
             "command line",
             "file system watcher"
+        ]
+    },
+    {
+        "name": "Watchtower",
+        "url": "https://github.com/containrrr/watchtower",
+        "description": "Automatically updates running Docker containers by watching their base images and gracefully restarting them with the original deployment options, with registry support, notifications, and Prometheus metrics.",
+        "tags": [
+            "automation",
+            "container",
+            "Docker",
+            "homelab",
+            "monitoring",
+            "source: Go"
         ]
     },
     {
@@ -7790,6 +8154,21 @@
             "vector database",
             "vector search",
             "source: C++"
+        ]
+    },
+    {
+        "name": "\u00c1sbr\u00fa Connection Manager",
+        "url": "https://github.com/asbru-cm/asbru-cm",
+        "description": "A GUI connection manager for remote terminal sessions that organizes hosts into clusters and automates repetitive tasks with pre- and post-connection commands, Expect-based macros, KeePassXC integration, proxy support, and Wake-on-LAN.",
+        "tags": [
+            "automation",
+            "connection manager",
+            "GUI",
+            "remote access",
+            "SSH",
+            "terminal",
+            "Wake-on-LAN",
+            "source: Perl"
         ]
     },
     {
