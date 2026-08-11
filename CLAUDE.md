@@ -92,13 +92,26 @@ hyphenation, and word-order variants (e.g., use existing `deduplication`, not `u
 - **Naming**: use nouns/noun phrases (`customization`, not `customizing`; `note-taking`, not `note`). Prefer the
   established technical term (`steganography`, `tracing`, `HTTP client`) over an ad-hoc description (`hide`, `trace`,
   `requests`).
-- **Granularity**: don't create compound tags when two existing tags cover it (use `Deep Learning` + `framework`,
-  not `Deep Learning framework`). Qualified variants are fine when the qualifier adds meaning (`Python linter`,
+- **Granularity**: don't create compound tags when two existing tags cover it (use `deep learning` + `framework`,
+  not `deep learning framework`). Qualified variants are fine when the qualifier adds meaning (`Python linter`,
   `vector database`).
 - **Avoid one-off vague tags** (`space`, `detector`, `engineering`) — if a tag would apply to only one app and an
   existing tag already covers the idea, use the existing tag instead.
+- **Don't reintroduce retired catch-alls**: `analysis`, `interactive`, `platform`, `server`, `terminal`, and
+  `pipeline` were removed because every app carrying them already had a specific tag. Tag what the app *does*
+  (`reverse engineering`, `logs`, `data pipeline`), not that it analyses or is interactive. Use bare `management`
+  only when no `X management` / `X manager` tag fits.
+- **One tag, one meaning**: `memory` and `distribution` were retired for covering two unrelated senses each
+  (agent memory vs. RAM forensics; decentralised vs. self-updating binaries). If a tag would mean different
+  things on different apps, split it.
 - Use `LLM` for large-language-model topics (consistent with `LLM gateway`, `LLM management`, `LLM-ready`) and
   `AI-powered` (hyphenated) for AI-assisted tools.
+- **Terminal-related tags** are three distinct things — pick by interface, and never use a bare `terminal` tag:
+  `command line` for tools invoked as commands, `terminal interface` for full-screen interactive TUIs
+  (`btop`, `ranger`, `nnn`), `terminal emulator` for the terminal application itself (`Ghostty`, `Wave Terminal`).
+  A tool can be both `command line` and `terminal interface` if it has both modes.
+- Any app with a `command line: <tool>` tag also needs one of those interface tags (or `GUI`), since
+  `command line: <tool>` marks it as an alternative to that tool and says nothing about its own interface.
 
 ### Bulk Tag Renames
 

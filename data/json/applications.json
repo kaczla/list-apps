@@ -48,7 +48,7 @@
         "description": "A reinforcement learning training framework for optimizing AI agents and agentic workflows by fine-tuning large language model weights, with support for distributed swarm training, multi-agent optimization, and multi-turn conversation workflows.",
         "tags": [
             "AI agents",
-            "Deep Learning",
+            "deep learning",
             "framework",
             "LLM",
             "training",
@@ -83,8 +83,7 @@
         "url": "https://github.com/a16z-infra/ai-getting-started",
         "description": "AI Getting Started is a Javascript AI getting started stack for weekend projects, including image/text models, vector stores, auth, and deployment configs.",
         "tags": [
-            "Deep Learning",
-            "platform",
+            "deep learning",
             "source: TypeScript"
         ]
     },
@@ -122,8 +121,8 @@
         "tags": [
             "AI-powered",
             "code generation",
+            "command line",
             "multi-language",
-            "terminal",
             "source: Python"
         ]
     },
@@ -133,7 +132,7 @@
         "description": "An easy-to-use & supercharged open-source AI metadata tracker.",
         "tags": [
             "dashboard",
-            "metadata tracker",
+            "experiment tracking",
             "metrics",
             "source: Python"
         ]
@@ -145,7 +144,6 @@
         "tags": [
             "AI agents",
             "API",
-            "context retrieval",
             "RAG",
             "source: Python"
         ]
@@ -178,7 +176,7 @@
         "url": "https://github.com/reactorsh/ambrosia",
         "description": "Ambrosia is a cross-platform command line tool for improving the text datasets you use for machine learning.",
         "tags": [
-            "Natural Language Processing",
+            "natural language processing",
             "text processing",
             "source: Go"
         ]
@@ -227,7 +225,7 @@
         "url": "https://github.com/caronc/apprise",
         "description": "Apprise is a library that allows developers to send notifications to almost all of the most popular notification services available. It features a common and intuitive notification syntax and it supports the handling of images and attachments. A list of notification types and services supported by Apprise is available.",
         "tags": [
-            "notification"
+            "notifications"
         ]
     },
     {
@@ -257,10 +255,10 @@
         "url": "https://github.com/ast-grep/ast-grep",
         "description": "ast-grep(sg) is a lightning fast and user friendly tool for code searching, linting, rewriting at large scale.",
         "tags": [
+            "code search",
             "command line",
             "library",
-            "pattern search",
-            "searching",
+            "search",
             "command line: grep",
             "source: Rust"
         ]
@@ -272,7 +270,7 @@
         "tags": [
             "Jupyter",
             "library",
-            "parallel",
+            "parallel execution",
             "progress bar",
             "source: Python"
         ]
@@ -283,8 +281,8 @@
         "description": "Shell history replacement that stores commands in a local SQLite database with rich metadata (exit code, duration, hostname), a full-screen search UI, and optional encrypted cross-machine synchronisation.",
         "tags": [
             "command line",
-            "history",
             "shell",
+            "shell history",
             "SQLite",
             "syncing",
             "source: Rust"
@@ -296,7 +294,7 @@
         "description": "AudioCraft is a PyTorch library for deep learning research on audio generation.",
         "tags": [
             "audio generation",
-            "Deep Learning",
+            "deep learning",
             "music generation",
             "speech generation",
             "source: Python"
@@ -307,7 +305,6 @@
         "url": "https://github.com/sarimabbas/authortrail",
         "description": "A Git repository exploration tool that identifies and displays all files contributed by a specific author with hierarchical tree visualization and integrated code viewer.",
         "tags": [
-            "analysis",
             "git",
             "source: TypeScript"
         ]
@@ -353,7 +350,7 @@
         "description": "An advanced quantization toolkit for LLMs and vision-language models that achieves high accuracy at 2-4 bit widths with minimal tuning, exporting to AutoRound, AutoAWQ, AutoGPTQ, and GGUF formats.",
         "tags": [
             "LLM",
-            "Machine Learning",
+            "machine learning",
             "quantization",
             "source: Python"
         ]
@@ -412,7 +409,7 @@
         "tags": [
             "audio",
             "audio generation",
-            "Deep Learning",
+            "deep learning",
             "speech generation",
             "text-to-speech",
             "source: Python"
@@ -459,7 +456,6 @@
         "url": "https://github.com/orhun/binsider",
         "description": "A terminal user interface for static and dynamic analysis of ELF binaries, with inspection of strings, linked libraries, and hexdumps.",
         "tags": [
-            "analysis",
             "binary",
             "command line",
             "hex viewer",
@@ -595,6 +591,7 @@
         "description": "Resource monitor that shows usage and stats for processor, memory, disks, network and processes.",
         "tags": [
             "monitoring",
+            "terminal interface",
             "command line: top"
         ]
     },
@@ -618,8 +615,7 @@
             "gRPC",
             "key-value store",
             "library",
-            "Machine Learning",
-            "server",
+            "machine learning",
             "SQL",
             "storage",
             "source: Rust"
@@ -640,7 +636,7 @@
         "url": "https://github.com/burn-rs/burn",
         "description": "This library aims to be a complete deep learning framework with extreme flexibility written in Rust. The goal would be to satisfy researchers as well as practitioners making it easier to experiment, train and deploy your models.",
         "tags": [
-            "Deep Learning",
+            "deep learning",
             "framework",
             "source: Rust"
         ]
@@ -753,7 +749,6 @@
         "url": "https://github.com/mlomb/chat-analytics",
         "description": "Generate interactive, beautiful and insightful chat analysis reports.",
         "tags": [
-            "analysis",
             "GUI",
             "report"
         ]
@@ -787,10 +782,9 @@
         "url": "https://github.com/operacle/checkcle",
         "description": "A self-hosted full-stack monitoring system covering HTTP, DNS, and ping checks from distributed regions, server metrics, SSL and domain expiration, with incident management, public status pages, and email, Telegram, Discord, Slack, and Matrix alerts.",
         "tags": [
-            "alerts",
             "dashboard",
             "monitoring",
-            "notification",
+            "notifications",
             "self-hosted",
             "source: Go"
         ]
@@ -800,10 +794,9 @@
         "url": "https://github.com/bluewave-labs/Checkmate",
         "description": "A self-hosted monitoring server that tracks uptime, response times, hardware, Docker containers, ports, SSL certificates, and game servers, with status pages, maintenance windows, and notifications via email, webhooks, Discord, Slack, and PagerDuty.",
         "tags": [
-            "alerts",
             "dashboard",
             "monitoring",
-            "notification",
+            "notifications",
             "self-hosted",
             "source: JavaScript"
         ]
@@ -840,7 +833,6 @@
             "Claude Code",
             "code generation",
             "command line",
-            "terminal",
             "source: Python",
             "source: Shell"
         ]
@@ -875,10 +867,10 @@
         "description": "A code intelligence server for AI agents that provides structural indexing, full-text search, and dependency analysis through 21 MCP tools, using trigram indexing for fast pre-indexed queries.",
         "tags": [
             "code search",
-            "context retrieval",
             "full-text search",
             "indexing",
             "Model Context Protocol (MCP)",
+            "RAG",
             "source: Zig"
         ]
     },
@@ -893,7 +885,6 @@
             "GUI",
             "LLM",
             "PostgreSQL",
-            "terminal",
             "web browser",
             "source: Go",
             "source: TypeScript"
@@ -906,7 +897,7 @@
         "tags": [
             "code search",
             "command line",
-            "searching",
+            "search",
             "source: Go"
         ]
     },
@@ -920,7 +911,6 @@
             "code generation",
             "command line",
             "OpenAI",
-            "terminal",
             "source: Rust"
         ]
     },
@@ -959,8 +949,8 @@
         "url": "https://github.com/comfyanonymous/ComfyUI",
         "description": "A powerful node-based interface for creating diffusion model workflows supporting Stable Diffusion, Flux, and SD3 with memory optimization for low VRAM systems.",
         "tags": [
-            "Deep Learning",
-            "Diffusion Model",
+            "deep learning",
+            "diffusion model",
             "GUI",
             "image generation",
             "source: Python"
@@ -1013,7 +1003,7 @@
         "description": "A deep learning text-to-speech toolkit with pretrained models for 1100+ languages, voice cloning capabilities, and low-latency streaming support.",
         "tags": [
             "audio",
-            "Deep Learning",
+            "deep learning",
             "multi-language",
             "speech generation",
             "text-to-speech",
@@ -1119,7 +1109,6 @@
             "automation",
             "code generation",
             "command line",
-            "terminal",
             "source: Go"
         ]
     },
@@ -1151,8 +1140,8 @@
             "command line",
             "CSV",
             "querying",
-            "searching",
-            "terminal",
+            "search",
+            "terminal interface",
             "source: Rust"
         ]
     },
@@ -1203,7 +1192,6 @@
         "url": "https://github.com/rizinorg/cutter",
         "description": "Free and open-source reverse engineering platform powered by rizin, providing an advanced customizable GUI for binary analysis and debugging.",
         "tags": [
-            "analysis",
             "debugger",
             "forensics",
             "GUI",
@@ -1317,7 +1305,7 @@
             "language detection",
             "library",
             "multi-language",
-            "Natural Language Processing",
+            "natural language processing",
             "parsing",
             "source: Python"
         ]
@@ -1330,7 +1318,7 @@
             "AI-powered",
             "container",
             "developer environment",
-            "isolation",
+            "sandboxing",
             "source: Go"
         ]
     },
@@ -1349,7 +1337,7 @@
         "url": "https://github.com/hacksider/Deep-Live-Cam",
         "description": "Real-time face swapping and deepfake video creation application using a single image, with GPU acceleration support for NVIDIA, AMD, and Apple Silicon.",
         "tags": [
-            "Deep Learning",
+            "deep learning",
             "deepfake",
             "face swapping",
             "GPU",
@@ -1365,7 +1353,7 @@
         "description": "A lightweight Python library for face recognition and facial attribute analysis wrapping state-of-the-art deep learning models, supporting verification, recognition, and demographic analysis.",
         "tags": [
             "computer vision",
-            "Deep Learning",
+            "deep learning",
             "face recognition",
             "source: Python"
         ]
@@ -1420,7 +1408,7 @@
         "url": "https://github.com/IDEA-Research/detrex",
         "description": "detrex is an open-source toolbox that provides state-of-the-art Transformer-based detection algorithms.",
         "tags": [
-            "Deep Learning",
+            "deep learning",
             "object detection",
             "source: Python"
         ]
@@ -1432,7 +1420,7 @@
         "tags": [
             "command line",
             "container",
-            "isolation"
+            "sandboxing"
         ]
     },
     {
@@ -1461,8 +1449,7 @@
         "description": "Fast, Declarative, Reproducible, and Composable Developer Environments",
         "tags": [
             "developer environment",
-            "environment manager",
-            "management"
+            "environment manager"
         ]
     },
     {
@@ -1493,7 +1480,7 @@
         "url": "https://github.com/abhishekkrthakur/diffuzers",
         "description": "diffuzers is a web ui for huggingface diffusers.",
         "tags": [
-            "Diffusion Model",
+            "diffusion model",
             "image generation"
         ]
     },
@@ -1505,7 +1492,6 @@
             "command line",
             "cross-platform",
             "data recovery",
-            "file system",
             "forensics",
             "GUI",
             "source: Go"
@@ -1527,9 +1513,9 @@
         "url": "https://github.com/ayrna/dlordinal",
         "description": "A Python library implementing deep ordinal classification methods with specialized loss functions, output layers, and evaluation metrics for problems with ordered classes.",
         "tags": [
-            "Deep Learning",
+            "deep learning",
             "library",
-            "Machine Learning",
+            "machine learning",
             "source: Python"
         ]
     },
@@ -1746,7 +1732,6 @@
         "description": "Dub is an open-source link management tool for modern marketing teams to create, share, and track short links.",
         "tags": [
             "link management",
-            "management",
             "source: TypeScript"
         ]
     },
@@ -1757,7 +1742,6 @@
         "tags": [
             "container",
             "Docker",
-            "management",
             "terminal interface",
             "source: Rust"
         ]
@@ -1782,7 +1766,7 @@
             "network scan",
             "security",
             "SSH",
-            "terminal",
+            "terminal emulator",
             "source: Python"
         ]
     },
@@ -1812,7 +1796,7 @@
         "url": "https://github.com/e2b-dev/e2b",
         "description": "Open-source IDE powered by AI agents that do the work for you.",
         "tags": [
-            "Deep Learning",
+            "deep learning",
             "IDE",
             "source: Python"
         ]
@@ -1854,7 +1838,7 @@
         "url": "https://github.com/sail-sg/EditAnything",
         "description": "Edit anything in images powered by segment-anything, ControlNet, StableDiffusion, etc.",
         "tags": [
-            "Deep Learning",
+            "deep learning",
             "image editing",
             "image generation",
             "source: Python"
@@ -1902,7 +1886,6 @@
         "url": "https://github.com/charlax/engineering-management",
         "description": "A collection of inspiring resources related to engineering management and tech leadership.",
         "tags": [
-            "awesome-list",
             "guide"
         ]
     },
@@ -1913,7 +1896,6 @@
         "tags": [
             "command line",
             "environment manager",
-            "management",
             "source: Rust"
         ]
     },
@@ -1934,9 +1916,10 @@
         "description": "A distributed AI inference system connecting multiple devices into a cluster for running large language models with automatic device discovery and RDMA over Thunderbolt support.",
         "tags": [
             "command line",
+            "inference",
             "LLM",
-            "Machine Learning",
-            "parallel",
+            "machine learning",
+            "parallel execution",
             "source: Python"
         ]
     },
@@ -1981,7 +1964,7 @@
         "description": "A deep learning tool for face recognition and swapping in images and videos with extract, train, and convert workflows and GPU acceleration.",
         "tags": [
             "computer vision",
-            "Deep Learning",
+            "deep learning",
             "face recognition",
             "face swapping",
             "image",
@@ -1995,7 +1978,6 @@
         "description": "Use Faker.js UI to easiliy generate fake (but realistic) data for testing and development using Faker.js.",
         "tags": [
             "data generator",
-            "fake data",
             "source: JavaScript"
         ]
     },
@@ -2005,7 +1987,7 @@
         "description": "An Easy-to-use and Fast Deep Learning Model Deployment Toolkit for Cloud Mobile and Edge. Including Image, Video, Text and Audio 20+ main stream scenarios and 150+ SOTA models with end-to-end optimization, multi-platform and multi-framework support.",
         "tags": [
             "audio",
-            "Deep Learning",
+            "deep learning",
             "framework",
             "image",
             "video"
@@ -2027,7 +2009,7 @@
         "tags": [
             "AI-powered",
             "command line",
-            "Diffusion Model",
+            "diffusion model",
             "GUI",
             "image generation",
             "source: Python"
@@ -2039,7 +2021,7 @@
         "description": "FauxPilot - an open-source GitHub Copilot server.",
         "tags": [
             "code completion",
-            "Deep Learning"
+            "deep learning"
         ]
     },
     {
@@ -2048,7 +2030,7 @@
         "description": "fd is a simple, fast and user-friendly alternative to find.",
         "tags": [
             "command line",
-            "searching",
+            "search",
             "command line: find",
             "source: Rust"
         ]
@@ -2090,7 +2072,7 @@
         "description": "An advanced text-to-speech system with fine-grained emotion control, voice cloning from 10-30 second samples, and multilingual support for 9+ languages.",
         "tags": [
             "audio",
-            "Deep Learning",
+            "deep learning",
             "multi-language",
             "speech generation",
             "text-to-speech",
@@ -2150,9 +2132,9 @@
             "command line",
             "developer environment",
             "environment manager",
-            "isolation",
             "Nix",
             "package manager",
+            "sandboxing",
             "source: Rust"
         ]
     },
@@ -2161,7 +2143,6 @@
         "url": "https://github.com/foks-proj/go-foks",
         "description": "A decentralized key management system that enables secure cryptographic operations through federated servers and client agents, providing both client and server implementation for managing keys and distributed trust across multiple parties.",
         "tags": [
-            "distribution",
             "encryption",
             "key management",
             "security",
@@ -2173,8 +2154,8 @@
         "url": "https://github.com/lllyasviel/Fooocus",
         "description": "Fooocus is an image generating software.",
         "tags": [
-            "Deep Learning",
-            "Diffusion Model",
+            "deep learning",
+            "diffusion model",
             "GUI",
             "image generation",
             "source: Python"
@@ -2233,7 +2214,7 @@
         "description": "fzf is a general-purpose command-line fuzzy finder.",
         "tags": [
             "command line",
-            "searching",
+            "search",
             "command line: find",
             "source: Go"
         ]
@@ -2244,6 +2225,7 @@
         "description": "A command-line tool to select and execute commands from make, npm, pnpm, yarn, just, and task using an interactive fuzzy finder with a preview window.",
         "tags": [
             "build system",
+            "command line",
             "command runner",
             "fuzzy search",
             "command line: make",
@@ -2270,7 +2252,6 @@
             "AI agents",
             "command line",
             "Gemini",
-            "terminal",
             "source: TypeScript"
         ]
     },
@@ -2289,7 +2270,7 @@
         "tags": [
             "archive",
             "command line",
-            "searching",
+            "search",
             "web scraper",
             "source: Go"
         ]
@@ -2300,7 +2281,6 @@
         "description": "A fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.",
         "tags": [
             "cross-platform",
-            "terminal",
             "terminal emulator",
             "source: Zig"
         ]
@@ -2322,8 +2302,8 @@
         "description": "A tokenizer for language modeling that reaches gigabyte-per-second throughput, offering a drop-in compatibility mode for HuggingFace Tokenizers and Tiktoken plus a native API, with x86 and ARM support for GPT-2, Llama, Qwen, and DeepSeek tokenizers.",
         "tags": [
             "library",
-            "Machine Learning",
-            "Natural Language Processing",
+            "machine learning",
+            "natural language processing",
             "tokenizer",
             "source: Rust"
         ]
@@ -2354,7 +2334,6 @@
         "url": "https://github.com/sinclairtarget/git-who",
         "description": "A command-line tool providing git blame for entire file trees, showing which developers are responsible for components with table, tree, and history visualizations.",
         "tags": [
-            "analysis",
             "command line",
             "git",
             "statistics",
@@ -2484,7 +2463,7 @@
         "description": "GlotLID is an open-source language identification model with support for more than 1600 languages.",
         "tags": [
             "language detection",
-            "Natural Language Processing",
+            "natural language processing",
             "source: Python"
         ]
     },
@@ -2514,7 +2493,6 @@
         "tags": [
             "LLM",
             "LLM management",
-            "management",
             "Ollama",
             "terminal interface",
             "source: Go"
@@ -2576,8 +2554,7 @@
             "command line",
             "git",
             "querying",
-            "searching",
-            "terminal",
+            "search",
             "source: Rust"
         ]
     },
@@ -2626,9 +2603,8 @@
         "tags": [
             "command line",
             "library",
-            "pattern search",
             "regex",
-            "searching",
+            "search",
             "command line: grep",
             "source: C"
         ]
@@ -2666,7 +2642,6 @@
             "code generation",
             "command line",
             "Model Context Protocol (MCP)",
-            "terminal",
             "source: TypeScript"
         ]
     },
@@ -2685,7 +2660,7 @@
         "description": "A CLI tool to get help with CLI tools.",
         "tags": [
             "command line",
-            "help message",
+            "documentation",
             "source: Rust"
         ]
     },
@@ -2695,7 +2670,6 @@
         "description": "A scalable general purpose micro-framework for defining dataflows in Python.",
         "tags": [
             "data pipeline",
-            "dataflow",
             "library",
             "source: Python"
         ]
@@ -2746,7 +2720,7 @@
         "tags": [
             "agentic coding",
             "AI agents",
-            "terminal",
+            "terminal interface",
             "terminal multiplexer",
             "source: Rust"
         ]
@@ -2800,8 +2774,8 @@
         "url": "https://github.com/ddworken/hishtory",
         "description": "Your shell history: synced, queryable, and in context",
         "tags": [
-            "history",
-            "shell"
+            "shell",
+            "shell history"
         ]
     },
     {
@@ -2813,7 +2787,6 @@
             "filtering",
             "JSON",
             "logs",
-            "terminal",
             "viewer",
             "source: Rust"
         ]
@@ -2861,7 +2834,7 @@
         "tags": [
             "command line",
             "forms",
-            "terminal",
+            "terminal interface",
             "source: Go"
         ]
     },
@@ -2953,7 +2926,6 @@
         "tags": [
             "environment variables",
             "GUI",
-            "management",
             "secret management",
             "shell",
             "source: TypeScript"
@@ -2969,7 +2941,6 @@
             "data processing",
             "database",
             "database transfer",
-            "pipeline",
             "source: Python"
         ]
     },
@@ -2990,7 +2961,7 @@
         "description": "inshellisense provides IDE style autocomplete for shells. It's a terminal native runtime for autocomplete which has support for 600+ command line tools.",
         "tags": [
             "autocomplete",
-            "terminal",
+            "command line",
             "source: TypeScript"
         ]
     },
@@ -3033,7 +3004,7 @@
         "description": "A Python package for colorizing terminal text based on intensity values, useful for visualizing probability, entropy, and token metrics through color gradients in CLI applications.",
         "tags": [
             "coloring",
-            "terminal",
+            "command line",
             "visualization",
             "source: Python"
         ]
@@ -3066,11 +3037,10 @@
         "url": "https://github.com/invoke-ai/InvokeAI",
         "description": "This version of Stable Diffusion features a slick WebGUI, an interactive command-line script that combines text2img and img2img functionality in a \"dream bot\" style interface, and multiple features and other enhancements. For more info, see the website link below.",
         "tags": [
-            "Deep Learning",
-            "Diffusion Model",
+            "deep learning",
+            "diffusion model",
             "image editing",
             "image generation",
-            "platform",
             "source: TypeScript"
         ]
     },
@@ -3101,8 +3071,8 @@
             "data processing",
             "knowledge graph",
             "LLM",
-            "Machine Learning",
-            "Natural Language Processing",
+            "machine learning",
+            "natural language processing",
             "source: Python"
         ]
     },
@@ -3112,7 +3082,7 @@
         "description": "Ivy is both an ML transpiler and a framework, currently supporting JAX, TensorFlow, PyTorch and Numpy.",
         "tags": [
             "framework",
-            "Machine Learning",
+            "machine learning",
             "transpiler",
             "source: Python"
         ]
@@ -3157,7 +3127,6 @@
             "content extractor",
             "data formatter",
             "JSON",
-            "terminal",
             "source: Rust"
         ]
     },
@@ -3180,9 +3149,9 @@
         "tags": [
             "command line",
             "content extractor",
-            "filter editor",
-            "interactive",
+            "filtering",
             "JSON",
+            "terminal interface",
             "source: Rust"
         ]
     },
@@ -3192,6 +3161,7 @@
         "description": "ranger-like terminal file manager written in Rust.",
         "tags": [
             "file manager",
+            "terminal interface",
             "command line: mc",
             "command line: ranger",
             "source: Rust"
@@ -3205,7 +3175,7 @@
             "command line",
             "content extractor",
             "data formatter",
-            "filter editor",
+            "filtering",
             "JSON",
             "source: C"
         ]
@@ -3234,7 +3204,7 @@
         "tags": [
             "command line",
             "JSON",
-            "searching",
+            "search",
             "TOML",
             "YAML",
             "command line: jq",
@@ -3279,7 +3249,7 @@
         "description": "Jupyter AI connects generative AI with Jupyter notebooks.",
         "tags": [
             "AI personal assistant",
-            "Deep Learning",
+            "deep learning",
             "Jupyter",
             "source: Python"
         ]
@@ -3374,8 +3344,8 @@
         "url": "https://github.com/keephq/keep",
         "description": "Keep is a simple CLI tool that contains everything you need to start creating Alerts.",
         "tags": [
-            "alerts",
             "command line",
+            "notifications",
             "source: Python"
         ]
     },
@@ -3386,7 +3356,7 @@
         "tags": [
             "AI personal assistant",
             "chat",
-            "Deep Learning",
+            "deep learning",
             "source: Python"
         ]
     },
@@ -3412,7 +3382,6 @@
             "command line",
             "LLM",
             "Model Context Protocol (MCP)",
-            "terminal",
             "source: TypeScript"
         ]
     },
@@ -3423,7 +3392,7 @@
         "tags": [
             "audio",
             "library",
-            "Machine Learning",
+            "machine learning",
             "speech generation",
             "text-to-speech",
             "source: Python"
@@ -3520,7 +3489,7 @@
         "url": "https://github.com/ajndkr/lanarky",
         "description": "Lanarky is an open-source framework to deploy LLM applications in production. It is built on top of FastAPI and comes with batteries included.",
         "tags": [
-            "Deep Learning",
+            "deep learning",
             "deployment",
             "LLM",
             "source: Python"
@@ -3532,7 +3501,7 @@
         "description": "Lance is a modern columnar data format that is optimized for ML workflows and datasets. Convert from parquet in 2-lines of code for 100x faster random access, a vector index, data versioning, and more. Compatible with pandas, duckdb, polars, pyarrow, with more integrations on the way.",
         "tags": [
             "file format",
-            "Natural Language Processing",
+            "natural language processing",
             "source: Rust"
         ]
     },
@@ -3587,7 +3556,7 @@
         "description": "A Python library that automates machine learning model selection by training and comparing 40+ classification and regression models with minimal code.",
         "tags": [
             "automation",
-            "Machine Learning",
+            "machine learning",
             "source: Python"
         ]
     },
@@ -3598,7 +3567,6 @@
         "tags": [
             "container",
             "Docker",
-            "management",
             "terminal interface",
             "source: Go"
         ]
@@ -3609,7 +3577,6 @@
         "description": "Terminal UI for Git with interactive staging, visual rebasing, cherry-picking, commit graph visualization, and undo/redo via reflog.",
         "tags": [
             "git",
-            "interactive",
             "terminal interface",
             "source: Go"
         ]
@@ -3663,8 +3630,7 @@
         "description": "A shell utility to interactively select lines from stdin and output them to stdout. This allows you to effectively pause the pipeline to make a manual selection before the pipeline, or other composed command, continues.",
         "tags": [
             "command line",
-            "interactive",
-            "pipeline",
+            "terminal interface",
             "source: JavaScript"
         ]
     },
@@ -3685,7 +3651,7 @@
         "description": "Llama is a terminal file manager. It allows for quick navigation with fuzzy searching. Llama is very simple and minimalistic.",
         "tags": [
             "file manager",
-            "terminal"
+            "terminal interface"
         ]
     },
     {
@@ -3693,11 +3659,11 @@
         "url": "https://github.com/hiyouga/LLaMA-Factory",
         "description": "Unified framework for efficient fine-tuning of 100+ LLMs and VLMs with support for LoRA, QLoRA, PPO, DPO, and various optimization techniques.",
         "tags": [
-            "Deep Learning",
+            "deep learning",
             "fine-tuning",
             "GPU",
             "LLM",
-            "Machine Learning",
+            "machine learning",
             "source: Python"
         ]
     },
@@ -3706,7 +3672,7 @@
         "url": "https://github.com/rustformers/llm",
         "description": "llm is a Rust ecosystem of libraries for running inference on large language models, inspired by llama.cpp.",
         "tags": [
-            "Deep Learning",
+            "deep learning",
             "framework",
             "LLM",
             "source: Rust"
@@ -3758,7 +3724,6 @@
             "inference",
             "LLM",
             "LLM management",
-            "management",
             "terminal interface",
             "source: Rust"
         ]
@@ -3793,8 +3758,7 @@
         "url": "https://github.com/ykhli/local-ai-stack",
         "description": "AI Getting Started is a starter kit to build local-only AI apps that cost $0 to run -- starting with document Q&A.",
         "tags": [
-            "Deep Learning",
-            "platform",
+            "deep learning",
             "source: TypeScript"
         ]
     },
@@ -3867,7 +3831,7 @@
         "description": "A fast test runner that executes every test in isolated micro-containers, supporting Rust, Go, and Python.",
         "tags": [
             "container",
-            "isolation",
+            "sandboxing",
             "source: Rust"
         ]
     },
@@ -3877,7 +3841,7 @@
         "description": "Magika is a novel AI powered file type detection tool that relies on the recent advance of deep learning to provide accurate detection.",
         "tags": [
             "command line",
-            "file detection",
+            "file type detection",
             "source: Python"
         ]
     },
@@ -3896,7 +3860,7 @@
         "url": "https://github.com/seatgeek/mailroom",
         "description": "A Go framework for creating, routing, and delivering user notifications from external system webhooks with user preference-based routing and multi-transport delivery.",
         "tags": [
-            "notification",
+            "notifications",
             "webhooks",
             "source: Go"
         ]
@@ -3921,7 +3885,7 @@
         "tags": [
             "caching",
             "experiment tracking",
-            "Machine Learning",
+            "machine learning",
             "tracing",
             "source: Python"
         ]
@@ -3968,7 +3932,7 @@
         "tags": [
             "coloring",
             "command line",
-            "terminal",
+            "terminal interface",
             "source: Rust"
         ]
     },
@@ -4023,7 +3987,7 @@
         "description": "GNU Midnight Commander is a visual file manager, licensed under GNU General Public License and therefore qualifies as Free Software. It's a feature rich full-screen text mode application that allows you to copy, move and delete files and whole directory trees, search for files and run commands in the subshell. Internal viewer and editor are included.",
         "tags": [
             "file manager",
-            "terminal",
+            "terminal interface",
             "command line: mc"
         ]
     },
@@ -4056,9 +4020,9 @@
         "url": "https://github.com/mem0ai/mem0",
         "description": "Universal memory layer for AI Agents that enables personalized AI interactions by remembering user preferences and learning continuously.",
         "tags": [
+            "agent memory",
             "AI agents",
             "library",
-            "memory",
             "source: Python"
         ]
     },
@@ -4076,9 +4040,9 @@
         "url": "https://github.com/arcee-ai/mergekit",
         "description": "A toolkit for merging pre-trained language models using multiple algorithms (linear, SLERP, TIES, DARE) with out-of-core approach enabling complex merges in resource-constrained environments.",
         "tags": [
-            "Deep Learning",
+            "deep learning",
             "LLM",
-            "Machine Learning",
+            "machine learning",
             "model merging",
             "source: Python"
         ]
@@ -4142,8 +4106,7 @@
         "tags": [
             "database",
             "image",
-            "platform",
-            "searching",
+            "search",
             "unstructured data",
             "vector database"
         ]
@@ -4158,7 +4121,6 @@
             "automation",
             "code generation",
             "command line",
-            "terminal",
             "source: Python"
         ]
     },
@@ -4242,8 +4204,8 @@
         "description": "A minimal, secure Python interpreter written in Rust for use by AI, enabling safe execution of LLM-generated Python code with microsecond startup times and strict resource controls.",
         "tags": [
             "AI agents",
-            "isolation",
             "Python interpreter",
+            "sandboxing",
             "security",
             "source: Rust"
         ]
@@ -4266,7 +4228,7 @@
         "url": "https://github.com/Lightning-AI/stable-diffusion-deploy",
         "description": "Open source, stable-diffusion production server to show how to deploy diffusion models in a real production environment with: load-balancing, gpu-inference, performance-testing, micro-services orchestration and more.",
         "tags": [
-            "Diffusion Model",
+            "diffusion model",
             "image generation"
         ]
     },
@@ -4328,7 +4290,6 @@
         "tags": [
             "cheat sheet",
             "command line",
-            "guide",
             "source: Rust"
         ]
     },
@@ -4350,7 +4311,7 @@
         "description": "An open-source platform for secure execution of autonomous AI assistants using NVIDIA's OpenShell runtime with policy-based sandboxing and cloud inference routing.",
         "tags": [
             "AI agents",
-            "isolation",
+            "sandboxing",
             "security",
             "source: TypeScript"
         ]
@@ -4440,7 +4401,6 @@
         "url": "https://github.com/facundoolano/ngtop",
         "description": "A CLI tool for analyzing nginx access logs with flexible filtering, grouping by URL/status/user-agent, time range queries, and SQLite storage.",
         "tags": [
-            "analysis",
             "command line",
             "logs",
             "statistics",
@@ -4478,7 +4438,7 @@
         "tags": [
             "AI agents",
             "computer vision",
-            "Deep Learning",
+            "deep learning",
             "gaming",
             "source: Python"
         ]
@@ -4490,7 +4450,7 @@
         "tags": [
             "command line",
             "file manager",
-            "terminal",
+            "terminal interface",
             "source: C"
         ]
     },
@@ -4520,7 +4480,6 @@
         "url": "https://github.com/pcwalton/offset-allocator",
         "description": "A fast, hard real-time memory allocator optimized for managing GPU resources and other non-CPU memory allocations with O(1) operations and minimal fragmentation.",
         "tags": [
-            "allocator",
             "GPU",
             "library",
             "memory management",
@@ -4645,7 +4604,6 @@
             "automation",
             "code execution",
             "command line",
-            "interactive",
             "LLM",
             "source: Python"
         ]
@@ -4701,7 +4659,7 @@
         "description": "OpenDAN is an open source Personal AI OS , which consolidates various AI modules in one place for your personal use.",
         "tags": [
             "AI personal assistant",
-            "Deep Learning",
+            "deep learning",
             "source: Python"
         ]
     },
@@ -4710,8 +4668,8 @@
         "url": "https://github.com/varunshenoy/opendream",
         "description": "Opendream brings much needed and familiar features, such as layering, non-destructive editing, portability, and easy-to-write extensions, to your Stable Diffusion workflows.",
         "tags": [
-            "Deep Learning",
-            "Diffusion Model",
+            "deep learning",
+            "diffusion model",
             "image editing",
             "image generation",
             "source: JavaScript"
@@ -4759,7 +4717,7 @@
         "description": "A secure runtime environment for executing autonomous AI agents in isolated, policy-governed sandboxes with declarative controls over filesystem, network, and process access.",
         "tags": [
             "AI agents",
-            "isolation",
+            "sandboxing",
             "security",
             "source: Rust"
         ]
@@ -4828,7 +4786,7 @@
         "description": "otem is the text-based terminal client for Ollama.",
         "tags": [
             "command line",
-            "Deep Learning",
+            "deep learning",
             "LLM",
             "source: Python"
         ]
@@ -4928,7 +4886,6 @@
         "url": "https://github.com/hasherezade/pe-bear",
         "description": "Multiplatform reversing tool for PE files providing fast and flexible analysis for malware analysts, capable of handling malformed PE files.",
         "tags": [
-            "analysis",
             "binary",
             "cross-platform",
             "forensics",
@@ -5049,9 +5006,9 @@
         "url": "https://github.com/pucherot/Pi.Alert",
         "description": "A network security monitoring system that continuously scans the network for new devices, disconnections, and IP changes while alerting you with unknown devices.",
         "tags": [
-            "alerts",
             "monitoring",
             "network",
+            "notifications",
             "security",
             "web UI",
             "source: JavaScript"
@@ -5133,8 +5090,8 @@
         "url": "https://github.com/jazzband/pip-tools",
         "description": "pip-tools ia a set of command line tools to help you keep your pip-based packages fresh, even when you've pinned them.",
         "tags": [
+            "dependency resolution",
             "package installer",
-            "resolver",
             "source: Python"
         ]
     },
@@ -5143,6 +5100,7 @@
         "url": "https://github.com/feynmanix/pipask",
         "description": "A safer Python package installer that performs security audits before installation, acting as a drop-in replacement for pip that asks for user consent before executing any third-party code.",
         "tags": [
+            "command line",
             "package installer",
             "command line: pip",
             "source: Python"
@@ -5155,7 +5113,7 @@
         "tags": [
             "computer vision",
             "framework",
-            "Machine Learning",
+            "machine learning",
             "source: Rust"
         ]
     },
@@ -5306,7 +5264,6 @@
             "dashboard",
             "Docker",
             "Kubernetes",
-            "management",
             "web UI",
             "source: Go",
             "source: TypeScript"
@@ -5398,7 +5355,6 @@
             "command line",
             "orchestrator",
             "scheduler",
-            "terminal",
             "source: Go"
         ]
     },
@@ -5439,7 +5395,7 @@
         "description": "Pueue is a command-line task management tool for sequential and parallel execution of long-running tasks.",
         "tags": [
             "command line",
-            "parallel",
+            "parallel execution",
             "queue",
             "source: Rust"
         ]
@@ -5449,6 +5405,8 @@
         "url": "https://github.com/hansonkd/puff",
         "description": "Puff is a 'deep stack' for Python that tries to minimize the barrier between Python and Rust. It gives Rust its own layer so that developers can build tools in Rust that work together without having to re-enter Python. Puff allows developers to build runtimes using standard CPython and extend them with Rust.",
         "tags": [
+            "framework",
+            "Python wrapper",
             "source: Python",
             "source: Rust"
         ]
@@ -5534,7 +5492,6 @@
         "url": "https://github.com/ludo-technologies/pyscn",
         "description": "An intelligent Python code quality analyzer that performs structural analysis to maintain codebase quality, designed for AI coding assistant users.",
         "tags": [
-            "analysis",
             "code quality",
             "linter",
             "Python linter",
@@ -5599,8 +5556,7 @@
             "command line",
             "CSV",
             "querying",
-            "searching",
-            "terminal",
+            "search",
             "source: Rust"
         ]
     },
@@ -5683,6 +5639,7 @@
         "description": "ranger is a console file manager with VI key bindings",
         "tags": [
             "file manager",
+            "terminal interface",
             "command line: mc",
             "command line: ranger"
         ]
@@ -5857,6 +5814,7 @@
         "url": "https://github.com/MilesCranmer/rip2",
         "description": "A safer, Rust-based alternative to rm that moves deleted files to a graveyard directory instead of permanently removing them, allowing for recovery with undo functionality.",
         "tags": [
+            "command line",
             "deletion tool",
             "command line: rm",
             "source: Rust"
@@ -5869,9 +5827,8 @@
         "tags": [
             "command line",
             "library",
-            "pattern search",
             "regex",
-            "searching",
+            "search",
             "command line: grep",
             "source: Rust"
         ]
@@ -5919,7 +5876,6 @@
         "tags": [
             "command line",
             "environment manager",
-            "management",
             "source: Rust"
         ]
     },
@@ -5987,7 +5943,7 @@
         "description": "A cross-platform command-line tool for executing jobs in parallel with support for custom variables, timeout handling, retry logic, and resumable execution after interruption.",
         "tags": [
             "command line",
-            "parallel",
+            "parallel execution",
             "command line: parallel",
             "source: Go"
         ]
@@ -6162,7 +6118,7 @@
         "tags": [
             "full-text search",
             "indexing",
-            "searching",
+            "search",
             "source: Rust"
         ]
     },
@@ -6172,7 +6128,7 @@
         "description": "self-replace is a crate that allows binaries to replace themselves with newer versions or to uninstall themselves. On Unix systems this is a simple feat, but on Windows a few hacks are needed which is why this crate exists.",
         "tags": [
             "binary",
-            "distribution",
+            "library",
             "source: Rust"
         ]
     },
@@ -6207,7 +6163,7 @@
             "command line",
             "embeddings",
             "multi-language",
-            "searching",
+            "search",
             "command line: grep",
             "source: Go"
         ]
@@ -6222,7 +6178,6 @@
             "management",
             "monitoring",
             "self-hosted",
-            "server",
             "web UI",
             "source: Python"
         ]
@@ -6232,10 +6187,10 @@
         "url": "https://github.com/carverauto/serviceradar",
         "description": "A distributed network monitoring system designed for infrastructure and services in hard-to-reach places or constrained environments, featuring WASM plugin system, graph-based network discovery, and cloud-based alerting.",
         "tags": [
-            "alerts",
             "dashboard",
             "monitoring",
             "network",
+            "notifications",
             "observability",
             "source: Elixir"
         ]
@@ -6267,7 +6222,6 @@
         "url": "https://github.com/bellingcat/ShadowFinder",
         "description": "A geolocation tool that estimates Earth surface locations based on shadow lengths, using object height, shadow measurements, and time data for open-source investigations.",
         "tags": [
-            "analysis",
             "command line",
             "geolocation",
             "image",
@@ -6329,7 +6283,7 @@
         "description": "sig is an interactive grep (for streaming).",
         "tags": [
             "command line",
-            "interactive",
+            "terminal interface",
             "command line: grep",
             "source: Rust"
         ]
@@ -6422,6 +6376,7 @@
         "url": "https://github.com/theopfr/somo",
         "description": "A human-friendly alternative to netstat for socket and port monitoring on Linux and macOS, with filtering by port/protocol/process, sorting, and interactive process termination.",
         "tags": [
+            "command line",
             "monitoring",
             "network",
             "network scan",
@@ -6466,7 +6421,6 @@
         "description": "SpacetimeDB as both a database and server combined into one.",
         "tags": [
             "database",
-            "server",
             "source: Rust"
         ]
     },
@@ -6477,8 +6431,8 @@
         "tags": [
             "API",
             "data processing",
-            "Deep Learning",
-            "Machine Learning",
+            "deep learning",
+            "machine learning",
             "OCR",
             "source: Python"
         ]
@@ -6621,8 +6575,8 @@
         "url": "https://github.com/Stability-AI/StableStudio",
         "description": "StableStudio is Stability AI's official open-source variant of DreamStudio, our user interface for generative AI. It is a web-based application that allows users to create and edit generated images.",
         "tags": [
-            "Deep Learning",
-            "Diffusion Model",
+            "deep learning",
+            "diffusion model",
             "GUI",
             "image editing",
             "image generation",
@@ -6657,7 +6611,6 @@
         "url": "https://github.com/m-ahmed-elbeskeri/Starguard",
         "description": "A CLI tool that analyzes GitHub repositories to detect fake-star campaigns, dependency hijacks, and license red flags.",
         "tags": [
-            "analysis",
             "command line",
             "git",
             "source: Python"
@@ -6681,7 +6634,6 @@
             "cross-platform",
             "customization",
             "shell",
-            "terminal",
             "source: Rust"
         ]
     },
@@ -6701,7 +6653,7 @@
         "url": "https://github.com/stanfordnlp/string2string",
         "description": "The string2string library is an open-source tool that offers a comprehensive suite of efficient algorithms for a broad range of string-to-string problems. It includes both traditional algorithmic solutions and recent advanced neural approaches to address various problems in pairwise string alignment, distance measurement, lexical and semantic search, and similarity analysis. Additionally, the library provides several helpful visualization tools and metrics to facilitate the interpretation and analysis of these methods.",
         "tags": [
-            "Natural Language Processing",
+            "natural language processing",
             "text processing",
             "source: Python"
         ]
@@ -6724,7 +6676,6 @@
             "gaming",
             "remote desktop",
             "self-hosted",
-            "server",
             "streaming",
             "source: C++"
         ]
@@ -6791,7 +6742,7 @@
         "description": "Tabby is a self-hosted AI coding assistant. An opensource / on-prem alternative to GitHub Copilot.",
         "tags": [
             "code completion",
-            "Deep Learning",
+            "deep learning",
             "source: Python"
         ]
     },
@@ -6849,7 +6800,7 @@
         "description": "tbmk is a commands bookmark for terminal.",
         "tags": [
             "bookmark",
-            "terminal",
+            "command line",
             "source: Go"
         ]
     },
@@ -6860,7 +6811,6 @@
         "tags": [
             "cheat sheet",
             "command line",
-            "guide",
             "source: Rust"
         ]
     },
@@ -6900,7 +6850,6 @@
         "tags": [
             "command line",
             "screenshot",
-            "terminal",
             "source: Go"
         ]
     },
@@ -6929,7 +6878,7 @@
         "url": "https://github.com/oobabooga/text-generation-webui",
         "description": "A gradio web UI for running Large Language Models like LLaMA, llama.cpp, GPT-J, Pythia, OPT, and GALACTICA.",
         "tags": [
-            "Deep Learning",
+            "deep learning",
             "GUI",
             "LLM",
             "text generation",
@@ -6952,7 +6901,7 @@
         "description": "threestudio is a unified framework for 3D content creation from text prompts, single images, and few-shot images, by lifting 2D text-to-image generation models.",
         "tags": [
             "3D image generation",
-            "Deep Learning",
+            "deep learning",
             "source: Python"
         ]
     },
@@ -6995,8 +6944,7 @@
         "tags": [
             "AlphaZero",
             "command line",
-            "Machine Learning",
-            "terminal",
+            "machine learning",
             "source: Rust"
         ]
     },
@@ -7029,8 +6977,8 @@
         "url": "https://github.com/XAMPPRocky/tokei",
         "description": "Tokei is a program that displays statistics about your code.",
         "tags": [
-            "code statistics",
             "command line",
+            "statistics",
             "source: Rust"
         ]
     },
@@ -7039,7 +6987,7 @@
         "url": "https://github.com/omerbt/TokenFlow",
         "description": "TokenFlow is a framework that enables consistent video editing, using a pre-trained text-to-image diffusion model, without any further training or finetuning.",
         "tags": [
-            "Deep Learning",
+            "deep learning",
             "video",
             "video editing",
             "source: Python"
@@ -7052,7 +7000,7 @@
         "tags": [
             "command line",
             "logs",
-            "searching",
+            "search",
             "viewer",
             "source: Python"
         ]
@@ -7117,10 +7065,9 @@
         "url": "https://github.com/google-deepmind/treescope",
         "description": "Interactive HTML pretty-printer and N-dimensional array visualizer for machine learning research in IPython notebooks, with support for JAX, PyTorch, and NumPy.",
         "tags": [
-            "Deep Learning",
-            "interactive",
+            "deep learning",
             "Jupyter",
-            "Machine Learning",
+            "machine learning",
             "visualization",
             "source: Python"
         ]
@@ -7185,7 +7132,7 @@
         "url": "https://github.com/tsl0922/ttyd",
         "description": "A command-line tool that shares terminal sessions over the web via a browser interface with WebSocket support, TLS encryption, and file transfer capabilities.",
         "tags": [
-            "terminal",
+            "command line",
             "web UI",
             "source: C"
         ]
@@ -7206,7 +7153,7 @@
         "description": "TurboPilot is a self-hosted copilot clone which uses the library behind llama.cpp to run the 6 Billion Parameter Salesforce Codegen model in 4GiB of RAM. It is heavily based and inspired by on the fauxpilot project.",
         "tags": [
             "code completion",
-            "Deep Learning",
+            "deep learning",
             "source: Python"
         ]
     },
@@ -7271,7 +7218,6 @@
         "description": "Ubicloud is an open, free, and portable cloud.",
         "tags": [
             "cloud",
-            "platform",
             "source: Ruby"
         ]
     },
@@ -7323,7 +7269,7 @@
             "fine-tuning",
             "inference",
             "LLM",
-            "Machine Learning",
+            "machine learning",
             "training",
             "source: Python"
         ]
@@ -7366,8 +7312,8 @@
         "url": "https://github.com/astral-sh/uv",
         "description": "uv ia an extremely fast Python package installer and resolver, written in Rust.",
         "tags": [
+            "dependency resolution",
             "package installer",
-            "resolver",
             "source: Rust"
         ]
     },
@@ -7465,7 +7411,7 @@
         "tags": [
             "command line",
             "framerate",
-            "Machine Learning",
+            "machine learning",
             "video",
             "video editing",
             "source: C++"
@@ -7476,7 +7422,7 @@
         "url": "https://github.com/VideoCrafter/VideoCrafter",
         "description": "VideoCrafter is an open-source video generation and editing toolbox for crafting video content.",
         "tags": [
-            "Deep Learning",
+            "deep learning",
             "video",
             "video generation",
             "source: Python"
@@ -7489,7 +7435,6 @@
         "tags": [
             "command line",
             "management",
-            "server",
             "SSH",
             "source: Go"
         ]
@@ -7523,7 +7468,7 @@
         "description": "A speech restoration model using flow-matching transformers to enhance degraded voice recordings by addressing noise, reverberation, distortion, and signal loss.",
         "tags": [
             "audio",
-            "Deep Learning",
+            "deep learning",
             "speech recognition",
             "source: Python"
         ]
@@ -7545,7 +7490,6 @@
         "description": "The world's most widely used framework for extracting digital artifacts from volatile memory (RAM) samples for forensic analysis and incident response.",
         "tags": [
             "forensics",
-            "memory",
             "security",
             "vulnerability scanner",
             "source: Python"
@@ -7658,7 +7602,6 @@
         "tags": [
             "AI-powered",
             "cross-platform",
-            "terminal",
             "terminal emulator",
             "source: Go"
         ]
@@ -7740,7 +7683,7 @@
         "tags": [
             "audio",
             "cross-platform",
-            "Machine Learning",
+            "machine learning",
             "speech recognition",
             "transcription",
             "source: C++"
@@ -7788,7 +7731,6 @@
         "tags": [
             "customization",
             "privacy",
-            "system settings",
             "Windows",
             "source: PowerShell"
         ]
@@ -7833,7 +7775,7 @@
         "url": "https://github.com/webonnx/wonnx",
         "description": "Wonnx is a GPU-accelerated ONNX inference run-time written 100% in Rust, ready for the web.",
         "tags": [
-            "Deep Learning",
+            "deep learning",
             "GPU",
             "library",
             "WebAssembly",
@@ -7848,7 +7790,7 @@
             "deduplication",
             "embeddings",
             "library",
-            "Natural Language Processing",
+            "natural language processing",
             "source: Python"
         ]
     },
@@ -7858,7 +7800,7 @@
         "description": "Workflow tool combining git worktrees and tmux windows to enable isolated parallel development environments for working on multiple features simultaneously.",
         "tags": [
             "automation",
-            "terminal",
+            "command line",
             "workflow",
             "source: Rust"
         ]
@@ -7869,7 +7811,7 @@
         "description": "A personal information dashboard for the terminal providing at-a-glance access to important stats and data with 30+ integrations including GitHub, Calendar, and cloud services.",
         "tags": [
             "dashboard",
-            "terminal",
+            "terminal interface",
             "source: Go"
         ]
     },
@@ -7912,10 +7854,10 @@
         "url": "https://github.com/pixlcore/xyops",
         "description": "A unified platform combining job scheduling, workflow automation, server monitoring, alerting, and incident response for managing automation infrastructure across server fleets.",
         "tags": [
-            "alerts",
             "automation",
             "dashboard",
             "monitoring",
+            "notifications",
             "scheduler",
             "self-hosted",
             "workflow",
@@ -7943,7 +7885,6 @@
             "dotfiles",
             "encryption",
             "environment manager",
-            "management",
             "source: Python"
         ]
     },
@@ -7980,7 +7921,7 @@
             "content extractor",
             "CSV",
             "data formatter",
-            "filter editor",
+            "filtering",
             "JSON",
             "TSV",
             "XML",
@@ -8019,7 +7960,7 @@
         "tags": [
             "command line",
             "Kafka",
-            "searching",
+            "search",
             "streaming",
             "terminal interface",
             "source: Rust"
@@ -8031,9 +7972,9 @@
         "description": "A 6-billion-parameter image generation foundation model using a single-stream diffusion transformer architecture, supporting bilingual text rendering and instruction-following image editing.",
         "tags": [
             "AI-powered",
-            "Diffusion Model",
+            "diffusion model",
             "image generation",
-            "Machine Learning",
+            "machine learning",
             "source: Python"
         ]
     },
@@ -8075,7 +8016,7 @@
         "description": "A sandboxing system that creates sub-millisecond VM sandboxes for AI agents using copy-on-write Firecracker snapshots, providing hardware-enforced KVM isolation with ~0.79ms spawn latency and ~265KB memory per sandbox.",
         "tags": [
             "AI agents",
-            "isolation",
+            "sandboxing",
             "source: Rust"
         ]
     },
@@ -8096,7 +8037,6 @@
         "tags": [
             "AI-powered",
             "command line",
-            "terminal",
             "source: Python"
         ]
     },
@@ -8166,7 +8106,7 @@
             "GUI",
             "remote access",
             "SSH",
-            "terminal",
+            "terminal emulator",
             "Wake-on-LAN",
             "source: Perl"
         ]
