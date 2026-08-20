@@ -440,6 +440,34 @@
         ]
     },
     {
+        "name": "Beekeeper Studio",
+        "url": "https://github.com/beekeeper-studio/beekeeper-studio",
+        "description": "A cross-platform SQL editor and database manager supporting 25+ engines including PostgreSQL, MySQL, SQLite, SQL Server, and MongoDB, with autocomplete, tabbed queries, query history, and import/export.",
+        "tags": [
+            "cross-platform",
+            "database",
+            "database management",
+            "editor",
+            "GUI",
+            "SQL",
+            "source: TypeScript"
+        ]
+    },
+    {
+        "name": "BetterWright",
+        "url": "https://github.com/BetterWright/betterwright",
+        "description": "A persistent, policy-guarded browser for AI agents that keeps sessions alive across turns and returns compressed accessibility snapshots to save tokens, with an encrypted credential vault, network policy enforcement, and CLI, MCP, and API modes.",
+        "tags": [
+            "AI agents",
+            "browser automation",
+            "command line",
+            "Model Context Protocol (MCP)",
+            "passwords",
+            "web browser",
+            "source: TypeScript"
+        ]
+    },
+    {
         "name": "bindiff",
         "url": "https://github.com/google/bindiff",
         "description": "BinDiff is an open-source comparison tool for binary files to quickly find differences and similarities in disassembled code.",
@@ -690,6 +718,18 @@
         ]
     },
     {
+        "name": "Caesium Image Compressor",
+        "url": "https://github.com/Lymphatus/caesium-image-compressor",
+        "description": "A cross-platform desktop application for batch-compressing JPG, PNG, WebP, and TIFF images with adjustable quality and optional resizing while preserving overall visual quality.",
+        "tags": [
+            "compression",
+            "cross-platform",
+            "GUI",
+            "image",
+            "source: C++"
+        ]
+    },
+    {
         "name": "Canine",
         "url": "https://github.com/czhu12/canine",
         "description": "A self-hosted Kubernetes deployment platform that brings PaaS simplicity to your own infrastructure, enabling deployments via git push and intuitive web management without requiring YAML knowledge.",
@@ -835,6 +875,20 @@
             "command line",
             "source: Python",
             "source: Shell"
+        ]
+    },
+    {
+        "name": "cliamp",
+        "url": "https://github.com/bjarneo/cliamp",
+        "description": "A retro Winamp-inspired terminal music player that plays local files, radio streams, and podcasts alongside YouTube, Spotify, SoundCloud, Navidrome, Plex, and Jellyfin, with a spectrum visualizer, parametric EQ, and Lua plugins.",
+        "tags": [
+            "audio",
+            "cross-platform",
+            "music player",
+            "streaming",
+            "terminal interface",
+            "YouTube",
+            "source: Go"
         ]
     },
     {
@@ -985,6 +1039,18 @@
         "tags": [
             "configuration",
             "source: TypeScript"
+        ]
+    },
+    {
+        "name": "Constrict",
+        "url": "https://github.com/Wartybix/Constrict",
+        "description": "A GTK application that compresses videos to a target file size, automatically calculating bitrate, resolution, framerate, and audio quality, with bulk processing and H.264, HEVC, AV1, and VP9 support.",
+        "tags": [
+            "compression",
+            "framerate",
+            "GUI",
+            "video",
+            "source: Python"
         ]
     },
     {
@@ -1520,6 +1586,20 @@
         ]
     },
     {
+        "name": "dnsglobe",
+        "url": "https://github.com/514-labs/dnsglobe",
+        "description": "A terminal DNS propagation checker that queries 34 public resolvers in parallel and plots their answers on a world map or rotating globe, with latency and TTL details, watch mode, EDNS Client Subnet, and NSID server identification.",
+        "tags": [
+            "command line",
+            "DNS",
+            "monitoring",
+            "network",
+            "terminal interface",
+            "visualization",
+            "source: Rust"
+        ]
+    },
+    {
         "name": "docker-android",
         "url": "https://github.com/HQarroum/docker-android",
         "description": "A minimal Docker image that runs the Android emulator as a service with headless operation and remote control capabilities.",
@@ -2047,6 +2127,20 @@
         ]
     },
     {
+        "name": "ffmpeg-webCLI",
+        "url": "https://github.com/tejaswigowda/ffmpeg-webCLI",
+        "description": "A browser-based video editor running ffmpeg.wasm locally with 30+ operations including conversion, compression, trimming, GIF creation, filters, and Whisper auto-captioning, plus batch processing, operation chaining, and offline PWA support.",
+        "tags": [
+            "file conversion",
+            "offline",
+            "transcription",
+            "video",
+            "video editing",
+            "WebAssembly",
+            "source: JavaScript"
+        ]
+    },
+    {
         "name": "finch",
         "url": "https://github.com/runfinch/finch",
         "description": "The Finch CLI an open source client for container development.",
@@ -2196,6 +2290,19 @@
             "Markdown",
             "viewer",
             "source: Python"
+        ]
+    },
+    {
+        "name": "fscan",
+        "url": "https://github.com/shadow1ng/fscan",
+        "description": "An intranet reconnaissance tool for authorized assessments, combining host discovery, port scanning, service fingerprinting, credential attacks against 28 service types, and POC-based vulnerability detection in one command.",
+        "tags": [
+            "command line",
+            "network scan",
+            "penetration testing",
+            "security",
+            "vulnerability scanner",
+            "source: Go"
         ]
     },
     {
@@ -2880,6 +2987,20 @@
         ]
     },
     {
+        "name": "Hyvor Relay",
+        "url": "https://github.com/hyvor/relay",
+        "description": "A self-hosted email sending API and SMTP service as an alternative to SES, Mailgun, and SendGrid, with multi-tenancy, bounce and greylisting handling, webhooks, DNS automation, IP reputation management, and Prometheus metrics.",
+        "tags": [
+            "API",
+            "email",
+            "monitoring",
+            "self-hosted",
+            "SMTP server",
+            "webhooks",
+            "source: PHP"
+        ]
+    },
+    {
         "name": "IceCream",
         "url": "https://github.com/gruns/icecream",
         "description": "IceCream \u2014 Never use print() to debug again",
@@ -3319,6 +3440,23 @@
         ]
     },
     {
+        "name": "Karakeep",
+        "url": "https://github.com/karakeep-app/karakeep",
+        "description": "A self-hostable bookmark manager for links, notes, images, and PDFs with LLM-based automatic tagging and summarization, full-text and semantic search, RSS auto-hoarding, page archival, OCR, and browser and mobile apps.",
+        "tags": [
+            "AI-powered",
+            "bookmark",
+            "browser extension",
+            "full-text search",
+            "mobile",
+            "OCR",
+            "RSS",
+            "self-hosted",
+            "semantic search",
+            "source: TypeScript"
+        ]
+    },
+    {
         "name": "katana",
         "url": "https://github.com/projectdiscovery/katana",
         "description": "A next-generation crawling and spidering framework",
@@ -3482,6 +3620,20 @@
             "tracing",
             "source: Rust",
             "source: TypeScript"
+        ]
+    },
+    {
+        "name": "LAN Orangutan",
+        "url": "https://github.com/291-Group/LAN-Orangutan",
+        "description": "A lightweight self-hosted network scanner that discovers devices on local networks and Tailscale, letting you label, group, and monitor them from a web dashboard or a JSON-capable CLI.",
+        "tags": [
+            "command line",
+            "dashboard",
+            "homelab",
+            "network scan",
+            "self-hosted",
+            "single-binary",
+            "source: Go"
         ]
     },
     {
@@ -4004,6 +4156,22 @@
         ]
     },
     {
+        "name": "MDFlux",
+        "url": "https://github.com/ibrahimqureshae/mdflux",
+        "description": "A local-first desktop application that converts PDF, Office, EPUB, HTML, image, and audio files into clean Markdown for AI and RAG pipelines, with OCR recovery for scanned PDFs, batch folder processing, and optional cleanup modes.",
+        "tags": [
+            "file conversion",
+            "GUI",
+            "LLM-ready",
+            "Markdown",
+            "OCR",
+            "offline",
+            "PDF",
+            "RAG",
+            "source: Rust"
+        ]
+    },
+    {
         "name": "mdfried",
         "url": "https://github.com/benjajaja/mdfried",
         "description": "A terminal markdown viewer that renders headers as enlarged text using graphics protocols such as Sixel, Kitty, and iTerm2.",
@@ -4487,6 +4655,20 @@
         ]
     },
     {
+        "name": "oh-my-pi",
+        "url": "https://github.com/can1357/oh-my-pi",
+        "description": "A terminal AI coding agent with IDE capabilities, supporting 60+ LLM providers and 31 built-in tools including hash-anchored edits, LSP refactoring, debugger attachment, persistent code execution, and subagent coordination.",
+        "tags": [
+            "agentic coding",
+            "AI agents",
+            "code execution",
+            "debugger",
+            "LLM",
+            "terminal interface",
+            "source: Rust"
+        ]
+    },
+    {
         "name": "oha",
         "url": "https://github.com/hatoo/oha",
         "description": "A command-line HTTP load generator with a real-time terminal UI, supporting HTTP/1, HTTP/2, and experimental HTTP/3, inspired by rakyll/hey.",
@@ -4767,6 +4949,21 @@
             "compression",
             "decompression",
             "source: C"
+        ]
+    },
+    {
+        "name": "Orbien",
+        "url": "https://github.com/orbien-org/orbien",
+        "description": "A lightweight intranet penetration and tunneling tool exposing internal TCP, UDP, HTTP, and HTTPS services over TCP, QUIC, KCP, or WebSocket transports, with token authentication, TLS/mTLS, a desktop client, and a web admin panel.",
+        "tags": [
+            "cross-platform",
+            "forwarding",
+            "GUI",
+            "network",
+            "TCP",
+            "tunneling",
+            "UDP",
+            "source: Rust"
         ]
     },
     {
@@ -5200,6 +5397,19 @@
         ]
     },
     {
+        "name": "Playwright",
+        "url": "https://github.com/microsoft/playwright",
+        "description": "A web automation and testing framework driving Chromium, Firefox, and WebKit through one API, with auto-waiting assertions, browser context isolation, parallel runs, trace recording, and bindings for Python, Java, and .NET.",
+        "tags": [
+            "browser automation",
+            "framework",
+            "multi-language",
+            "screenshot",
+            "web scraper",
+            "source: TypeScript"
+        ]
+    },
+    {
         "name": "pls",
         "url": "https://github.com/dhruvkb/pls",
         "description": "pls is a pretty and powerful ls. It works in a similar way to ls, but it adds many more developer-friendly features, such as node filters, file sorting based on attributes, a details view, and more. pls is a simple tool for looking at the contents of directories and not a complete replacement for ls.",
@@ -5408,6 +5618,21 @@
             "framework",
             "Python wrapper",
             "source: Python",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "Purple",
+        "url": "https://github.com/erickochen/purple",
+        "description": "A terminal SSH manager and config editor that syncs ~/.ssh/config with 17 cloud providers, monitors tunnels with live throughput, manages Docker and Podman containers over SSH, and pulls secrets from Keychain, 1Password, and Vault.",
+        "tags": [
+            "cloud",
+            "connection manager",
+            "Docker",
+            "fuzzy search",
+            "SSH",
+            "terminal interface",
+            "tunneling",
             "source: Rust"
         ]
     },
@@ -5736,6 +5961,21 @@
         ]
     },
     {
+        "name": "Repowise",
+        "url": "https://github.com/repowise-dev/repowise",
+        "description": "A codebase intelligence platform that indexes repositories to give coding agents architectural context over MCP, plus deterministic code health scores, dependency graphs across 19 languages, hotspot detection, and change-risk scoring.",
+        "tags": [
+            "AI agents",
+            "code quality",
+            "code review",
+            "code search",
+            "documentation",
+            "Model Context Protocol (MCP)",
+            "static code analyzer",
+            "source: Python"
+        ]
+    },
+    {
         "name": "Restic",
         "url": "https://github.com/restic/restic",
         "description": "A fast, efficient, and secure backup program supporting multiple storage backends including local directories, SFTP, S3, Azure Blob Storage, and Google Cloud with deduplication and encryption.",
@@ -5854,6 +6094,19 @@
             "deletion tool",
             "disk utility",
             "source: C"
+        ]
+    },
+    {
+        "name": "Rota",
+        "url": "https://github.com/alpkeskin/rota",
+        "description": "A proxy rotation platform with HTTP, HTTPS, and SOCKS4/5 support, multiple rotation strategies, automatic pool health checks and failover, GeoIP tagging, per-user authentication, and a real-time analytics dashboard.",
+        "tags": [
+            "dashboard",
+            "load balancer",
+            "monitoring",
+            "proxy",
+            "web scraper",
+            "source: Go"
         ]
     },
     {
@@ -7239,6 +7492,20 @@
         "tags": [
             "command line",
             "parsing"
+        ]
+    },
+    {
+        "name": "Unbound Dashboard",
+        "url": "https://github.com/ar51an/unbound-dashboard",
+        "description": "A Grafana monitoring stack for the Unbound DNS resolver, pairing a custom Prometheus exporter with Loki log aggregation to visualize query analytics and resolver statistics, tuned for low-resource hosts.",
+        "tags": [
+            "dashboard",
+            "DNS",
+            "logs",
+            "metrics",
+            "monitoring",
+            "visualization",
+            "source: Go"
         ]
     },
     {
