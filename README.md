@@ -29,6 +29,9 @@ Some descriptions are from:
 - Agno [🛈](https://github.com/phidatahq/phidata)
   - A framework enabling the creation of multi-agent systems with persistent learning capabilities that remember users across sessions, accumulate knowledge, and learn from decisions.
   - Tags: AI agents, framework, LLM, RAG, source: Python
+- AI File Sorter [🛈](https://github.com/hyperfield/ai-file-sorter)
+  - A cross-platform desktop application that organises files into categories and suggests better names using local or remote language models, with CUDA, Vulkan or CPU backends for on-device analysis.
+  - Tags: AI-powered, cross-platform, file manager, GUI, LLM, offline, renaming, source: C++
 - AI Getting Started [🛈](https://github.com/a16z-infra/ai-getting-started)
   - AI Getting Started is a Javascript AI getting started stack for weekend projects, including image/text models, vector stores, auth, and deployment configs.
   - Tags: deep learning, source: TypeScript
@@ -44,6 +47,9 @@ Some descriptions are from:
 - aim [🛈](https://github.com/aimhubio/aim)
   - An easy-to-use & supercharged open-source AI metadata tracker.
   - Tags: dashboard, experiment tracking, metrics, source: Python
+- Airgorah [🛈](https://github.com/martin-olivier/airgorah)
+  - A WiFi security auditing application with a GTK4 interface that scans networks, discovers connected clients, runs deauthentication attacks, captures handshakes and cracks access point passwords.
+  - Tags: GUI, network, network scan, passwords, penetration testing, security, source: Rust
 - Airweave [🛈](https://github.com/airweave-ai/airweave)
   - An open-source context retrieval infrastructure that connects to apps, databases, and documents, continuously syncing their data and exposing it through a unified search interface for AI agents and RAG systems.
   - Tags: AI agents, API, RAG, source: Python
@@ -350,6 +356,9 @@ Some descriptions are from:
 - Dashy [🛈](https://github.com/lissy93/dashy)
   - A self-hostable personal dashboard homepage for organizing and accessing self-hosted services, with status monitoring, widgets, themes, and a UI editor.
   - Tags: dashboard, homelab, self-hosted, web UI, source: JavaScript
+- Databasement [🛈](https://github.com/David-Crty/databasement)
+  - A self-hosted database backup manager with a web UI for scheduling, running and restoring backups across multiple database engines and storage backends, with SSH tunneling and remote agent support.
+  - Tags: backup, database, database management, scheduler, self-hosted, SSH, web UI, source: PHP
 - Datadrift [🛈](https://github.com/data-drift/data-drift)
   - Datadrift is an open-source monitoring and incident management platform to help data teams deliver trusted and reliable metrics.
   - Tags: metrics, monitoring, source: TypeScript
@@ -617,6 +626,9 @@ Some descriptions are from:
 - Garage [🛈](https://github.com/deuxfleurs-org/garage)
   - An S3-compatible distributed object storage service built for self-hosting at small-to-medium scale that replicates data across geo-distributed nodes and maintains availability during server outages.
   - Tags: file storage, S3, storage, source: Rust
+- gdown [🛈](https://github.com/wkentaro/gdown)
+  - A command line downloader for public Google Drive files and folders where curl and wget fail, bypassing virus-scan confirmation pages, recursing into folders and exporting Docs, Sheets and Slides.
+  - Tags: command line, downloader, source: Python
 - Gemini CLI [🛈](https://github.com/google-gemini/gemini-cli)
   - An open-source AI agent that brings the power of Gemini directly into your terminal with built-in tools for code analysis, file operations, and web integration.
   - Tags: agentic coding, AI agents, command line, Gemini, source: TypeScript
@@ -638,6 +650,9 @@ Some descriptions are from:
 - git-bug [🛈](https://github.com/MichaelMure/git-bug)
   - Distributed, offline-first bug tracker embedded in git, with bridges
   - Tags: bug tracker, git, offline
+- git-knife [🛈](https://github.com/TheRealYT/git-knife)
+  - A desktop application for editing git commit metadata in a table-like interface, rewriting messages, author and committer names, emails and dates through git commit-tree while preserving file contents.
+  - Tags: commit message, git, GUI, source: Rust, source: TypeScript
 - git-rewrite-commits [🛈](https://github.com/f/git-rewrite-commits)
   - An AI-powered tool that automatically rewrites git commit histories with better, conventional commit messages using OpenAI GPT or local Ollama models, designed for cleaning up messy repositories before open-sourcing.
   - Tags: AI-powered, automation, git, source: TypeScript
@@ -683,6 +698,9 @@ Some descriptions are from:
 - Glow [🛈](https://github.com/charmbracelet/glow)
   - Render markdown on the CLI, with pizzazz!
   - Tags: command line, editor, Markdown
+- GoBackup [🛈](https://github.com/gobackup/gobackup)
+  - A dependency-free CLI tool for scheduling backups of databases and files to cloud storage, supporting MySQL, PostgreSQL, Redis and MongoDB, S3, GCS and Azure targets, compression, encryption and a web UI.
+  - Tags: backup, cloud, command line, compression, database, encryption, scheduler, web UI, source: Go
 - GoFakeS3 [🛈](https://github.com/johannesboyne/gofakes3)
   - A fake AWS S3 object storage server for local development and integration testing, implementing the S3 API to allow testing of S3-dependent code without a real AWS account.
   - Tags: S3, source: Go
@@ -743,7 +761,7 @@ Some descriptions are from:
 - Helium [🛈](https://github.com/mherrmann/helium)
   - A Python library for automating web browsers like Chrome and Firefox with a high-level API that simplifies browser automation compared to Selenium.
   - Tags: automation, browser automation, library, Python wrapper, web browser, source: Python
-- Herdr [🛈](https://github.com/ogulcancelik/herdr)
+- Herdr [🛈](https://github.com/herdrdev/herdr)
   - A background terminal multiplexer built as a runtime for AI coding agents, keeping sessions alive across disconnects with pane status indicators, agent-to-agent coordination via CLI and socket APIs, and tmux-style keybindings.
   - Tags: agentic coding, AI agents, terminal interface, terminal multiplexer, source: Rust
 - Heretic [🛈](https://github.com/p-e-w/heretic)
@@ -1133,6 +1151,9 @@ Some descriptions are from:
 - MinIO [🛈](https://github.com/minio/minio)
   - A high-performance, S3-compatible object storage solution designed for speed and scalability, powering AI/ML and data-intensive workloads.
   - Tags: cloud, file storage, S3, storage, source: Go
+- mitmproxy [🛈](https://github.com/mitmproxy/mitmproxy)
+  - An interactive SSL/TLS-capable intercepting proxy for HTTP/1, HTTP/2 and WebSockets, available as a console interface, a web UI and a scriptable command line dump tool.
+  - Tags: command line, debugging, network, penetration testing, proxy, security, SSL/TLS, terminal interface, web UI, source: Python
 - Mixwave [🛈](https://github.com/matvp91/mixwave)
   - A self-hostable platform for simplifying video delivery that enables transcoding into multiple quality tracks and dynamic playlist generation.
   - Tags: self-hosted, streaming, video, source: TypeScript
@@ -1355,6 +1376,9 @@ Some descriptions are from:
 - pgAdmin [🛈](https://github.com/pgadmin-org/pgadmin4)
   - pgAdmin is the most popular and feature rich Open Source administration and development platform for PostgreSQL, the most advanced Open Source database in the world.
   - Tags: database, GUI, SQL
+- pgbot [🛈](https://github.com/pgrundev/pgbot)
+  - An in-database PostgreSQL observability tool that connects read-only, reads the statistics views and prints a findings-first health report showing what changed since the last run, with no agent or external services.
+  - Tags: command line, database, monitoring, observability, PostgreSQL, report, source: Go
 - pglinter [🛈](https://github.com/pmpetit/pglinter)
   - A PostgreSQL database linter extension that analyzes databases for potential issues, performance problems, and best practice violations. Runs natively inside PostgreSQL with 10-100x faster execution than Python alternatives and outputs SARIF reports.
   - Tags: database, linter, PostgreSQL, source: Rust
@@ -1364,6 +1388,12 @@ Some descriptions are from:
 - pgmodeler [🛈](https://github.com/pgmodeler/pgmodeler)
   - Open-source data modeling tool designed for PostgreSQL. No more typing DDL commands. Let pgModeler do the work for you!
   - Tags: database, GUI, SQL
+- pgrok [🛈](https://github.com/R44VC0RP/pgrok)
+  - A self-hosted ngrok alternative that exposes local ports to the internet over SSH tunnels with automatic HTTPS provided by Caddy, driven from a terminal client.
+  - Tags: network, self-hosted, SSH, SSL/TLS, terminal interface, tunneling, source: Python, source: TypeScript
+- pgterm [🛈](https://github.com/pgrundev/pgterm)
+  - A terminal dashboard that read-only monitors many PostgreSQL databases at once, showing connections, cache performance, locks, query regressions, index usage and replication in a single view.
+  - Tags: dashboard, database, monitoring, PostgreSQL, terminal interface, source: Rust
 - PhotoFiremark [🛈](https://github.com/avestura/PhotoFiremark)
   - PhotoFiremark hides a photo in another photo
   - Tags: image, steganography, source: C#
@@ -1490,6 +1520,9 @@ Some descriptions are from:
 - pwncat [🛈](https://github.com/cytopia/pwncat)
   - A netcat alternative providing advanced networking capabilities including firewall/IDS/IPS evasion, bind and reverse shells, self-injecting capabilities, and port forwarding with full scriptability.
   - Tags: command line, network, security, source: Python
+- pwneye [🛈](https://github.com/Hackerest/pwneye)
+  - An offensive security tool for discovering, authenticating against and interacting with IP cameras exposing ONVIF and RTSP services, combining reconnaissance, credential testing and stream access in one CLI.
+  - Tags: command line, IP camera, network scan, passwords, penetration testing, security, source: Python
 - PyApp [🛈](https://github.com/ofek/pyapp)
   - PyApp is a wrapper for Python applications that bootstrap themselves at runtime.
   - Tags: Python wrapper, source: Rust
@@ -1532,6 +1565,9 @@ Some descriptions are from:
 - Quary [🛈](https://github.com/quarylabs/quary)
   - Open-source business intelligence platform for engineers that enables database connections, SQL-based data transformations, and model deployment with version control.
   - Tags: analytics, database, GUI, source: Rust
+- Quickemu [🛈](https://github.com/quickemu-project/quickemu)
+  - A QEMU wrapper that downloads operating system images and launches virtual machines with hardware-optimised settings, covering nearly 1000 OS editions without manual configuration.
+  - Tags: command line, operating system, virtual machine, virtualization, source: Shell
 - Quickwit [🛈](https://github.com/quickwit-oss/quickwit)
   - A search engine for logs and traces with sub-second search directly on cloud storage, decoupled compute and storage, Elasticsearch-compatible APIs, native Jaeger and OpenTelemetry support, and Kafka, Kinesis, and Pulsar ingestion.
   - Tags: full-text search, indexing, logs, observability, OpenTelemetry, search engine, tracing, source: Rust
@@ -1838,12 +1874,18 @@ Some descriptions are from:
 - SysWatch [🛈](https://github.com/matthart1983/syswatch)
   - A terminal-based system diagnostics tool that monitors CPU, memory, disks, processes, GPU, and network across twelve tabs, with plain-English anomaly detection and session scrubbing.
   - Tags: monitoring, process management, terminal interface, command line: top, source: Rust
+- T3 Code [🛈](https://github.com/pingdotgg/t3code)
+  - An agent harness control surface for driving coding agents such as Claude Code, Codex, Cursor, Grok Build and OpenCode from mobile, web and desktop clients.
+  - Tags: agentic coding, AI agents, mobile, remote access, web UI, source: TypeScript
 - Tabby [🛈](https://github.com/TabbyML/tabby)
   - Tabby is a self-hosted AI coding assistant. An opensource / on-prem alternative to GitHub Copilot.
   - Tags: code completion, deep learning, source: Python
 - Tablecruncher [🛈](https://github.com/Tablecruncher/tablecruncher)
   - A blazing-fast CSV editor designed to handle massive files with ease across macOS, Windows, and Linux, with a built-in JavaScript macro language and multiple encoding support.
   - Tags: cross-platform, CSV, data processing, editor, GUI, source: C++
+- Tabularis [🛈](https://github.com/TabularisDB/tabularis)
+  - A desktop SQL workspace for PostgreSQL, MySQL/MariaDB, SQLite and 15+ more databases via plugins, with SQL notebooks mixing code and Markdown, visual query explain and a built-in MCP server for AI agents.
+  - Tags: database, database management, GUI, Model Context Protocol (MCP), querying, SQL, source: Rust, source: TypeScript
 - Tailscale [🛈](https://github.com/tailscale/tailscale)
   - A networking tool that creates secure private WireGuard-based mesh networks with easy setup, supporting multi-platform devices, SSO, SSH, and DERP relay servers.
   - Tags: mesh network, network, P2P, remote access, security, VPN, source: Go
@@ -1868,6 +1910,9 @@ Some descriptions are from:
 - tere [🛈](https://github.com/mgunyho/tere)
   - tere is a terminal file explorer that is faster than using cd or ls. It enables fast navigation to a folder and then prints the path to that folder on exit. tere is not a file manager and it can only be used to browse folders.
   - Tags: file manager
+- Terminator [🛈](https://github.com/terminator-ssh/terminator-desktop)
+  - A cross-platform SSH client that syncs connections across devices with end-to-end encryption applied before data leaves the client, and can be pointed at a self-hosted server.
+  - Tags: connection manager, cross-platform, encryption, GUI, self-hosted, SSH, syncing, source: Go
 - termshot [🛈](https://github.com/homeport/termshot)
   - A command-line tool that generates screenshot images of terminal output by capturing ANSI escape codes and rendering them in a styled window frame.
   - Tags: command line, screenshot, source: Go
@@ -2009,6 +2054,9 @@ Some descriptions are from:
 - Vane [🛈](https://github.com/ItzCrazyKns/Vane)
   - A privacy-focused AI answering engine that runs on your own hardware, combining web search with local or hosted LLMs to produce cited answers, with Speed/Balanced/Quality modes, file uploads, and locally stored history.
   - Tags: AI-powered, LLM, privacy, search engine, self-hosted, web search, web UI, source: TypeScript
+- VaultS3 [🛈](https://github.com/Kodiqa-Solutions/VaultS3)
+  - A single-binary S3-compatible object storage server implementing 80+ S3 operations, idling in about 17 MB of RAM and shipping a web dashboard for management and file operations.
+  - Tags: file storage, S3, self-hosted, single-binary, web UI, source: Go
 - Ventoy [🛈](https://github.com/ventoy/Ventoy)
   - An open-source tool that creates bootable USB drives from ISO, WIM, IMG, VHD(x), and EFI files without formatting the disk or extracting files.
   - Tags: bootable USB, cross-platform, disk utility, source: C
@@ -2042,6 +2090,9 @@ Some descriptions are from:
 - VoiceRestore [🛈](https://github.com/skirdey/voicerestore)
   - A speech restoration model using flow-matching transformers to enhance degraded voice recordings by addressing noise, reverberation, distortion, and signal loss.
   - Tags: audio, deep learning, speech recognition, source: Python
+- VoiceStudio [🛈](https://github.com/debpalash/VoiceStudio)
+  - A fully local alternative to ElevenLabs for voice cloning, voice design, video dubbing, dictation and audiobook creation across 646 languages, running without cloud services or API keys.
+  - Tags: AI-powered, GUI, multi-language, offline, self-hosted, speech generation, speech recognition, text-to-speech, voice cloning, source: Python, source: Rust, source: TypeScript
 - Void [🛈](https://github.com/voideditor/void)
   - An open-source IDE built on VS Code that integrates AI agents for code analysis and manipulation with checkpoint visualization and local model hosting support.
   - Tags: agentic coding, editor, IDE, source: TypeScript
@@ -2057,6 +2108,9 @@ Some descriptions are from:
 - Vosk [🛈](https://github.com/alphacep/vosk-api)
   - An offline, open-source speech recognition system supporting 20+ languages with small models that deliver continuous transcription and zero-latency streaming responses.
   - Tags: audio, multi-language, offline, privacy, speech recognition, source: C++
+- VPS Audit [🛈](https://github.com/nuver-labs/vps-audit)
+  - A shell script that audits the security and performance of a Linux server, checking SSH configuration, firewall status, failed logins and system resource usage, and reporting the findings.
+  - Tags: command line, Linux, report, security, SSH, source: Shell
 - vsd [🛈](https://github.com/clitic/vsd)
   - vsd - video stream downloader is a command line program to download video streams served over HTTP from websites, HLS and DASH playlists.
   - Tags: command line, downloader, video, video downloader, source: Rust
@@ -2219,11 +2273,11 @@ List of tags with occurrences in the brackets:
 - ad blocker (2)
 - agent builder (3)
 - agent memory (1)
-- agentic coding (16)
-- AI agents (40)
+- agentic coding (17)
+- AI agents (41)
 - AI evaluation (2)
 - AI personal assistant (11)
-- AI-powered (72)
+- AI-powered (74)
 - AlphaZero (1)
 - analytics (4)
 - Android (5)
@@ -2238,7 +2292,7 @@ List of tags with occurrences in the brackets:
 - autocomplete (1)
 - automation (36)
 - AWS emulator (1)
-- backup (4)
+- backup (6)
 - benchmarking (3)
 - binary (6)
 - book collections (2)
@@ -2253,7 +2307,7 @@ List of tags with occurrences in the brackets:
 - cheat sheet (4)
 - CI/CD (5)
 - Claude Code (2)
-- cloud (9)
+- cloud (10)
 - code completion (4)
 - code execution (3)
 - code formatting (2)
@@ -2262,7 +2316,7 @@ List of tags with occurrences in the brackets:
 - code review (3)
 - code search (9)
 - coloring (3)
-- command line (257)
+- command line (264)
 - command line: cat (1)
 - command line: cd (2)
 - command line: diff (3)
@@ -2286,18 +2340,18 @@ List of tags with occurrences in the brackets:
 - command line: top (8)
 - command line: uniq (2)
 - command runner (4)
-- commit message (1)
+- commit message (2)
 - compiler (3)
-- compression (12)
+- compression (13)
 - computer vision (5)
 - configuration (6)
-- connection manager (2)
+- connection manager (3)
 - container (22)
 - content extractor (11)
-- cross-platform (48)
+- cross-platform (50)
 - CSV (8)
 - customization (6)
-- dashboard (21)
+- dashboard (22)
 - data anonymization (1)
 - data formatter (5)
 - data generator (2)
@@ -2307,12 +2361,12 @@ List of tags with occurrences in the brackets:
 - data recovery (2)
 - data structures (3)
 - data validation (1)
-- database (46)
-- database management (4)
+- database (51)
+- database management (6)
 - database schema (1)
 - database transfer (1)
 - debugger (4)
-- debugging (7)
+- debugging (8)
 - decompiler (1)
 - decompression (4)
 - deduplication (10)
@@ -2332,12 +2386,12 @@ List of tags with occurrences in the brackets:
 - Docker Compose (1)
 - documentation (6)
 - dotfiles (3)
-- downloader (6)
+- downloader (7)
 - ebook reader (1)
 - editor (9)
 - email (3)
 - embeddings (4)
-- encryption (14)
+- encryption (16)
 - environment manager (8)
 - environment variables (2)
 - experiment tracking (3)
@@ -2346,8 +2400,8 @@ List of tags with occurrences in the brackets:
 - file conversion (6)
 - file format (5)
 - file listing (6)
-- file manager (11)
-- file storage (7)
+- file manager (12)
+- file storage (8)
 - file system watcher (1)
 - file transfer (4)
 - file type detection (1)
@@ -2366,13 +2420,13 @@ List of tags with occurrences in the brackets:
 - gaming (3)
 - Gemini (1)
 - geolocation (3)
-- git (23)
+- git (24)
 - GitHub Actions (2)
 - Google Analytics (2)
 - GPG (1)
 - GPU (9)
 - gRPC (1)
-- GUI (61)
+- GUI (67)
 - guide (3)
 - hex viewer (2)
 - homelab (5)
@@ -2388,7 +2442,7 @@ List of tags with occurrences in the brackets:
 - indexing (5)
 - inference (8)
 - invoice (1)
-- IP camera (2)
+- IP camera (3)
 - JavaScript engine (1)
 - JSON (11)
 - Jupyter (12)
@@ -2401,9 +2455,9 @@ List of tags with occurrences in the brackets:
 - library (51)
 - link management (1)
 - linter (12)
-- Linux (8)
+- Linux (9)
 - Linux kernel (1)
-- LLM (44)
+- LLM (45)
 - LLM gateway (4)
 - LLM management (5)
 - LLM-ready (5)
@@ -2418,31 +2472,31 @@ List of tags with occurrences in the brackets:
 - memory management (2)
 - mesh network (3)
 - metrics (6)
-- mobile (1)
-- Model Context Protocol (MCP) (10)
+- mobile (2)
+- Model Context Protocol (MCP) (11)
 - model merging (1)
-- monitoring (47)
-- multi-language (11)
+- monitoring (49)
+- multi-language (12)
 - music generation (2)
 - music player (1)
 - NAS (1)
 - natural language processing (8)
 - NeRFs (1)
-- network (39)
-- network scan (12)
+- network (42)
+- network scan (14)
 - Nix (1)
 - No source code (3)
 - note-taking (4)
 - notifications (8)
 - object detection (3)
-- observability (7)
+- observability (8)
 - OCR (9)
-- offline (20)
+- offline (22)
 - Ollama (2)
 - OLTP (1)
 - OpenAI (1)
 - OpenTelemetry (2)
-- operating system (2)
+- operating system (3)
 - orchestrator (6)
 - OSINT (6)
 - P2P (6)
@@ -2450,45 +2504,45 @@ List of tags with occurrences in the brackets:
 - package manager (6)
 - parallel execution (4)
 - parsing (5)
-- passwords (3)
+- passwords (5)
 - PDF (4)
-- penetration testing (5)
+- penetration testing (8)
 - photo management (1)
 - Platform-as-a-Service (2)
 - PNG (1)
 - Polars (1)
-- PostgreSQL (7)
+- PostgreSQL (9)
 - presentation (2)
 - privacy (15)
 - Privileged Access Management (PAM) (1)
 - process management (5)
 - profiler (3)
 - progress bar (2)
-- proxy (12)
+- proxy (13)
 - pull requests (3)
 - Python interpreter (2)
 - Python linter (7)
 - Python wrapper (4)
 - QR code (2)
 - quantization (1)
-- querying (4)
+- querying (5)
 - queue (2)
 - RAG (7)
 - rate limiting (1)
 - Redis (6)
 - regex (5)
-- remote access (4)
+- remote access (5)
 - remote desktop (5)
-- renaming (1)
+- renaming (2)
 - replication (1)
-- report (2)
+- report (4)
 - reverse engineering (7)
 - reverse proxy (5)
 - reverse SSH (1)
 - RSS (3)
-- S3 (7)
+- S3 (8)
 - sandboxing (8)
-- scheduler (5)
+- scheduler (7)
 - schema validation (1)
 - screensaver (1)
 - screenshot (4)
@@ -2496,26 +2550,26 @@ List of tags with occurrences in the brackets:
 - search engine (3)
 - secret management (3)
 - secrets detector (2)
-- security (38)
-- self-hosted (45)
+- security (42)
+- self-hosted (50)
 - semantic search (6)
 - serialization (1)
 - shell (9)
 - shell history (2)
 - shell script (3)
-- single-binary (4)
+- single-binary (5)
 - smart home (1)
 - SMTP server (2)
 - social media (2)
 - source control system (3)
 - source: C (30)
 - source: C# (3)
-- source: C++ (25)
+- source: C++ (26)
 - source: Clojure (2)
 - source: Crystal (1)
 - source: Dart (1)
 - source: Elixir (2)
-- source: Go (102)
+- source: Go (106)
 - source: HTML (1)
 - source: Java (8)
 - source: JavaScript (22)
@@ -2523,22 +2577,22 @@ List of tags with occurrences in the brackets:
 - source: Lua (1)
 - source: Nim (1)
 - source: Perl (1)
-- source: PHP (2)
+- source: PHP (3)
 - source: PowerShell (1)
-- source: Python (183)
+- source: Python (188)
 - source: Ruby (5)
-- source: Rust (169)
-- source: Shell (10)
-- source: TypeScript (84)
+- source: Rust (174)
+- source: Shell (12)
+- source: TypeScript (89)
 - source: Zig (4)
-- speech generation (8)
-- speech recognition (11)
+- speech generation (9)
+- speech recognition (12)
 - spreadsheet (1)
-- SQL (13)
+- SQL (14)
 - SQL injection (1)
 - SQLite (6)
-- SSH (12)
-- SSL/TLS (6)
+- SSH (16)
+- SSL/TLS (8)
 - static code analyzer (4)
 - static site (1)
 - statistics (4)
@@ -2546,18 +2600,18 @@ List of tags with occurrences in the brackets:
 - storage (14)
 - streaming (7)
 - Supabase (1)
-- syncing (4)
+- syncing (5)
 - syntax highlighting (2)
 - system call (1)
 - system events (1)
 - TCP (4)
 - templater (1)
 - terminal emulator (5)
-- terminal interface (54)
+- terminal interface (57)
 - terminal multiplexer (2)
 - text generation (2)
 - text processing (5)
-- text-to-speech (7)
+- text-to-speech (8)
 - tokenizer (1)
 - TOML (2)
 - tracing (3)
@@ -2566,7 +2620,7 @@ List of tags with occurrences in the brackets:
 - translation (3)
 - transpiler (1)
 - TSV (1)
-- tunneling (5)
+- tunneling (6)
 - type checking (3)
 - UDP (4)
 - unstructured data (3)
@@ -2580,9 +2634,10 @@ List of tags with occurrences in the brackets:
 - video generation (1)
 - video recording (1)
 - viewer (5)
-- virtualization (4)
+- virtual machine (1)
+- virtualization (5)
 - visualization (15)
-- voice cloning (3)
+- voice cloning (4)
 - VPN (3)
 - vulnerability scanner (12)
 - Wake-on-LAN (2)
@@ -2590,7 +2645,7 @@ List of tags with occurrences in the brackets:
 - web browser (9)
 - web scraper (15)
 - web search (3)
-- web UI (12)
+- web UI (17)
 - WebAssembly (5)
 - webhooks (2)
 - website (4)

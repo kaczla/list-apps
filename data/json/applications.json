@@ -79,6 +79,21 @@
         ]
     },
     {
+        "name": "AI File Sorter",
+        "url": "https://github.com/hyperfield/ai-file-sorter",
+        "description": "A cross-platform desktop application that organises files into categories and suggests better names using local or remote language models, with CUDA, Vulkan or CPU backends for on-device analysis.",
+        "tags": [
+            "AI-powered",
+            "cross-platform",
+            "file manager",
+            "GUI",
+            "LLM",
+            "offline",
+            "renaming",
+            "source: C++"
+        ]
+    },
+    {
         "name": "AI Getting Started",
         "url": "https://github.com/a16z-infra/ai-getting-started",
         "description": "AI Getting Started is a Javascript AI getting started stack for weekend projects, including image/text models, vector stores, auth, and deployment configs.",
@@ -135,6 +150,20 @@
             "experiment tracking",
             "metrics",
             "source: Python"
+        ]
+    },
+    {
+        "name": "Airgorah",
+        "url": "https://github.com/martin-olivier/airgorah",
+        "description": "A WiFi security auditing application with a GTK4 interface that scans networks, discovers connected clients, runs deauthentication attacks, captures handshakes and cracks access point passwords.",
+        "tags": [
+            "GUI",
+            "network",
+            "network scan",
+            "passwords",
+            "penetration testing",
+            "security",
+            "source: Rust"
         ]
     },
     {
@@ -1332,6 +1361,21 @@
         ]
     },
     {
+        "name": "Databasement",
+        "url": "https://github.com/David-Crty/databasement",
+        "description": "A self-hosted database backup manager with a web UI for scheduling, running and restoring backups across multiple database engines and storage backends, with SSH tunneling and remote agent support.",
+        "tags": [
+            "backup",
+            "database",
+            "database management",
+            "scheduler",
+            "self-hosted",
+            "SSH",
+            "web UI",
+            "source: PHP"
+        ]
+    },
+    {
         "name": "Datadrift",
         "url": "https://github.com/data-drift/data-drift",
         "description": "Datadrift is an open-source monitoring and incident management platform to help data teams deliver trusted and reliable metrics.",
@@ -2351,6 +2395,16 @@
         ]
     },
     {
+        "name": "gdown",
+        "url": "https://github.com/wkentaro/gdown",
+        "description": "A command line downloader for public Google Drive files and folders where curl and wget fail, bypassing virus-scan confirmation pages, recursing into folders and exporting Docs, Sheets and Slides.",
+        "tags": [
+            "command line",
+            "downloader",
+            "source: Python"
+        ]
+    },
+    {
         "name": "Gemini CLI",
         "url": "https://github.com/google-gemini/gemini-cli",
         "description": "An open-source AI agent that brings the power of Gemini directly into your terminal with built-in tools for code analysis, file operations, and web integration.",
@@ -2423,6 +2477,18 @@
             "bug tracker",
             "git",
             "offline"
+        ]
+    },
+    {
+        "name": "git-knife",
+        "url": "https://github.com/TheRealYT/git-knife",
+        "description": "A desktop application for editing git commit metadata in a table-like interface, rewriting messages, author and committer names, emails and dates through git commit-tree while preserving file contents.",
+        "tags": [
+            "commit message",
+            "git",
+            "GUI",
+            "source: Rust",
+            "source: TypeScript"
         ]
     },
     {
@@ -2582,6 +2648,22 @@
             "command line",
             "editor",
             "Markdown"
+        ]
+    },
+    {
+        "name": "GoBackup",
+        "url": "https://github.com/gobackup/gobackup",
+        "description": "A dependency-free CLI tool for scheduling backups of databases and files to cloud storage, supporting MySQL, PostgreSQL, Redis and MongoDB, S3, GCS and Azure targets, compression, encryption and a web UI.",
+        "tags": [
+            "backup",
+            "cloud",
+            "command line",
+            "compression",
+            "database",
+            "encryption",
+            "scheduler",
+            "web UI",
+            "source: Go"
         ]
     },
     {
@@ -2822,7 +2904,7 @@
     },
     {
         "name": "Herdr",
-        "url": "https://github.com/ogulcancelik/herdr",
+        "url": "https://github.com/herdrdev/herdr",
         "description": "A background terminal multiplexer built as a runtime for AI coding agents, keeping sessions alive across disconnects with pane status indicators, agent-to-agent coordination via CLI and socket APIs, and tmux-style keybindings.",
         "tags": [
             "agentic coding",
@@ -4305,6 +4387,23 @@
         ]
     },
     {
+        "name": "mitmproxy",
+        "url": "https://github.com/mitmproxy/mitmproxy",
+        "description": "An interactive SSL/TLS-capable intercepting proxy for HTTP/1, HTTP/2 and WebSockets, available as a console interface, a web UI and a scriptable command line dump tool.",
+        "tags": [
+            "command line",
+            "debugging",
+            "network",
+            "penetration testing",
+            "proxy",
+            "security",
+            "SSL/TLS",
+            "terminal interface",
+            "web UI",
+            "source: Python"
+        ]
+    },
+    {
         "name": "Mixwave",
         "url": "https://github.com/matvp91/mixwave",
         "description": "A self-hostable platform for simplifying video delivery that enables transcoding into multiple quality tracks and dynamic playlist generation.",
@@ -5144,6 +5243,20 @@
         ]
     },
     {
+        "name": "pgbot",
+        "url": "https://github.com/pgrundev/pgbot",
+        "description": "An in-database PostgreSQL observability tool that connects read-only, reads the statistics views and prints a findings-first health report showing what changed since the last run, with no agent or external services.",
+        "tags": [
+            "command line",
+            "database",
+            "monitoring",
+            "observability",
+            "PostgreSQL",
+            "report",
+            "source: Go"
+        ]
+    },
+    {
         "name": "pglinter",
         "url": "https://github.com/pmpetit/pglinter",
         "description": "A PostgreSQL database linter extension that analyzes databases for potential issues, performance problems, and best practice violations. Runs natively inside PostgreSQL with 10-100x faster execution than Python alternatives and outputs SARIF reports.",
@@ -5173,6 +5286,34 @@
             "database",
             "GUI",
             "SQL"
+        ]
+    },
+    {
+        "name": "pgrok",
+        "url": "https://github.com/R44VC0RP/pgrok",
+        "description": "A self-hosted ngrok alternative that exposes local ports to the internet over SSH tunnels with automatic HTTPS provided by Caddy, driven from a terminal client.",
+        "tags": [
+            "network",
+            "self-hosted",
+            "SSH",
+            "SSL/TLS",
+            "terminal interface",
+            "tunneling",
+            "source: Python",
+            "source: TypeScript"
+        ]
+    },
+    {
+        "name": "pgterm",
+        "url": "https://github.com/pgrundev/pgterm",
+        "description": "A terminal dashboard that read-only monitors many PostgreSQL databases at once, showing connections, cache performance, locks, query regressions, index usage and replication in a single view.",
+        "tags": [
+            "dashboard",
+            "database",
+            "monitoring",
+            "PostgreSQL",
+            "terminal interface",
+            "source: Rust"
         ]
     },
     {
@@ -5659,6 +5800,20 @@
         ]
     },
     {
+        "name": "pwneye",
+        "url": "https://github.com/Hackerest/pwneye",
+        "description": "An offensive security tool for discovering, authenticating against and interacting with IP cameras exposing ONVIF and RTSP services, combining reconnaissance, credential testing and stream access in one CLI.",
+        "tags": [
+            "command line",
+            "IP camera",
+            "network scan",
+            "passwords",
+            "penetration testing",
+            "security",
+            "source: Python"
+        ]
+    },
+    {
         "name": "PyApp",
         "url": "https://github.com/ofek/pyapp",
         "description": "PyApp is a wrapper for Python applications that bootstrap themselves at runtime.",
@@ -5805,6 +5960,18 @@
             "database",
             "GUI",
             "source: Rust"
+        ]
+    },
+    {
+        "name": "Quickemu",
+        "url": "https://github.com/quickemu-project/quickemu",
+        "description": "A QEMU wrapper that downloads operating system images and launches virtual machines with hardware-optimised settings, covering nearly 1000 OS editions without manual configuration.",
+        "tags": [
+            "command line",
+            "operating system",
+            "virtual machine",
+            "virtualization",
+            "source: Shell"
         ]
     },
     {
@@ -6990,6 +7157,19 @@
         ]
     },
     {
+        "name": "T3 Code",
+        "url": "https://github.com/pingdotgg/t3code",
+        "description": "An agent harness control surface for driving coding agents such as Claude Code, Codex, Cursor, Grok Build and OpenCode from mobile, web and desktop clients.",
+        "tags": [
+            "agentic coding",
+            "AI agents",
+            "mobile",
+            "remote access",
+            "web UI",
+            "source: TypeScript"
+        ]
+    },
+    {
         "name": "Tabby",
         "url": "https://github.com/TabbyML/tabby",
         "description": "Tabby is a self-hosted AI coding assistant. An opensource / on-prem alternative to GitHub Copilot.",
@@ -7010,6 +7190,21 @@
             "editor",
             "GUI",
             "source: C++"
+        ]
+    },
+    {
+        "name": "Tabularis",
+        "url": "https://github.com/TabularisDB/tabularis",
+        "description": "A desktop SQL workspace for PostgreSQL, MySQL/MariaDB, SQLite and 15+ more databases via plugins, with SQL notebooks mixing code and Markdown, visual query explain and a built-in MCP server for AI agents.",
+        "tags": [
+            "database",
+            "database management",
+            "GUI",
+            "Model Context Protocol (MCP)",
+            "querying",
+            "SQL",
+            "source: Rust",
+            "source: TypeScript"
         ]
     },
     {
@@ -7094,6 +7289,21 @@
         "description": "tere is a terminal file explorer that is faster than using cd or ls. It enables fast navigation to a folder and then prints the path to that folder on exit. tere is not a file manager and it can only be used to browse folders.",
         "tags": [
             "file manager"
+        ]
+    },
+    {
+        "name": "Terminator",
+        "url": "https://github.com/terminator-ssh/terminator-desktop",
+        "description": "A cross-platform SSH client that syncs connections across devices with end-to-end encryption applied before data leaves the client, and can be pointed at a self-hosted server.",
+        "tags": [
+            "connection manager",
+            "cross-platform",
+            "encryption",
+            "GUI",
+            "self-hosted",
+            "SSH",
+            "syncing",
+            "source: Go"
         ]
     },
     {
@@ -7615,6 +7825,19 @@
         ]
     },
     {
+        "name": "VaultS3",
+        "url": "https://github.com/Kodiqa-Solutions/VaultS3",
+        "description": "A single-binary S3-compatible object storage server implementing 80+ S3 operations, idling in about 17 MB of RAM and shipping a web dashboard for management and file operations.",
+        "tags": [
+            "file storage",
+            "S3",
+            "self-hosted",
+            "single-binary",
+            "web UI",
+            "source: Go"
+        ]
+    },
+    {
         "name": "Ventoy",
         "url": "https://github.com/ventoy/Ventoy",
         "description": "An open-source tool that creates bootable USB drives from ISO, WIM, IMG, VHD(x), and EFI files without formatting the disk or extracting files.",
@@ -7741,6 +7964,25 @@
         ]
     },
     {
+        "name": "VoiceStudio",
+        "url": "https://github.com/debpalash/VoiceStudio",
+        "description": "A fully local alternative to ElevenLabs for voice cloning, voice design, video dubbing, dictation and audiobook creation across 646 languages, running without cloud services or API keys.",
+        "tags": [
+            "AI-powered",
+            "GUI",
+            "multi-language",
+            "offline",
+            "self-hosted",
+            "speech generation",
+            "speech recognition",
+            "text-to-speech",
+            "voice cloning",
+            "source: Python",
+            "source: Rust",
+            "source: TypeScript"
+        ]
+    },
+    {
         "name": "Void",
         "url": "https://github.com/voideditor/void",
         "description": "An open-source IDE built on VS Code that integrates AI agents for code analysis and manipulation with checkpoint visualization and local model hosting support.",
@@ -7796,6 +8038,19 @@
             "privacy",
             "speech recognition",
             "source: C++"
+        ]
+    },
+    {
+        "name": "VPS Audit",
+        "url": "https://github.com/nuver-labs/vps-audit",
+        "description": "A shell script that audits the security and performance of a Linux server, checking SSH configuration, firewall status, failed logins and system resource usage, and reporting the findings.",
+        "tags": [
+            "command line",
+            "Linux",
+            "report",
+            "security",
+            "SSH",
+            "source: Shell"
         ]
     },
     {
