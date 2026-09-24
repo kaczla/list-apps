@@ -258,6 +258,20 @@
         ]
     },
     {
+        "name": "ArchiveBox",
+        "url": "https://github.com/ArchiveBox/ArchiveBox",
+        "description": "A self-hosted web archiving tool that saves websites from URLs, bookmarks, browser history or RSS feeds as HTML, PDF, screenshots, WARC and media, available via CLI, web UI and REST API.",
+        "tags": [
+            "archive",
+            "bookmark",
+            "command line",
+            "self-hosted",
+            "web UI",
+            "website",
+            "source: Python"
+        ]
+    },
+    {
         "name": "Arroyo",
         "url": "https://github.com/ArroyoSystems/arroyo",
         "description": "Arroyo is a distributed stream processing engine written in Rust, designed to efficiently perform stateful computations on streams of data. Unlike traditional batch processing, streaming engines can operate on both bounded and unbounded sources, emitting results as soon as they are available.",
@@ -814,6 +828,19 @@
         ]
     },
     {
+        "name": "changedetection.io",
+        "url": "https://github.com/dgtlmoon/changedetection.io",
+        "description": "A self-hosted website change detection and monitoring tool that tracks content, price and stock changes with visual element selection, browser steps and JSON filtering, sending alerts via email, Discord, Slack, Telegram or webhooks.",
+        "tags": [
+            "monitoring",
+            "notifications",
+            "self-hosted",
+            "web UI",
+            "website",
+            "source: Python"
+        ]
+    },
+    {
         "name": "chatanalytics",
         "url": "https://github.com/mlomb/chat-analytics",
         "description": "Generate interactive, beautiful and insightful chat analysis reports.",
@@ -907,6 +934,33 @@
         ]
     },
     {
+        "name": "claude-code-proxy",
+        "url": "https://github.com/raine/claude-code-proxy",
+        "description": "A local proxy that lets Claude Code use other AI provider subscriptions (ChatGPT/Codex, Kimi, Grok, Cursor) by translating Anthropic API traffic, with model-based routing and a monitoring dashboard for sessions, requests and token usage.",
+        "tags": [
+            "Claude Code",
+            "dashboard",
+            "LLM gateway",
+            "proxy",
+            "source: Rust"
+        ]
+    },
+    {
+        "name": "claude-proxy",
+        "url": "https://github.com/MorseWayne/claude-proxy",
+        "description": "A multi-model gateway for Claude Code and other Anthropic API clients that routes requests to OpenAI, GitHub Copilot, Google, OpenRouter and custom backends, with OAuth support, rate limiting, request deduplication, SQLite-backed metrics and a TUI dashboard, shipped as a single static binary.",
+        "tags": [
+            "Claude Code",
+            "dashboard",
+            "LLM gateway",
+            "proxy",
+            "rate limiting",
+            "single-binary",
+            "terminal interface",
+            "source: Rust"
+        ]
+    },
+    {
         "name": "cliamp",
         "url": "https://github.com/bjarneo/cliamp",
         "description": "A retro Winamp-inspired terminal music player that plays local files, radio streams, and podcasts alongside YouTube, Spotify, SoundCloud, Navidrome, Plex, and Jellyfin, with a spectrum visualizer, parametric EQ, and Lua plugins.",
@@ -928,6 +982,20 @@
             "AI-powered",
             "automation",
             "code generation",
+            "source: TypeScript"
+        ]
+    },
+    {
+        "name": "cobalt",
+        "url": "https://github.com/imputnet/cobalt",
+        "description": "An ad-free, tracker-free media downloader for YouTube, TikTok, Instagram, Twitter, Reddit, SoundCloud and more - just paste a link; usable as a web app or self-hosted instance.",
+        "tags": [
+            "downloader",
+            "self-hosted",
+            "social media",
+            "video downloader",
+            "web UI",
+            "YouTube",
             "source: TypeScript"
         ]
     },
@@ -2006,6 +2074,18 @@
         ]
     },
     {
+        "name": "Endlessh",
+        "url": "https://github.com/skeeto/endlessh",
+        "description": "An SSH tarpit that traps brute-force clients by sending an endless, random SSH banner very slowly, keeping attackers connected for hours without any crypto dependencies.",
+        "tags": [
+            "command line",
+            "network",
+            "security",
+            "SSH",
+            "source: C"
+        ]
+    },
+    {
         "name": "engineering-management",
         "url": "https://github.com/charlax/engineering-management",
         "description": "A collection of inspiring resources related to engineering management and tech leadership.",
@@ -2384,6 +2464,17 @@
         ]
     },
     {
+        "name": "gallery-dl",
+        "url": "https://github.com/mikf/gallery-dl",
+        "description": "A command-line tool for downloading image galleries and collections from many image hosting sites, with flexible file naming, configuration files and authentication support.",
+        "tags": [
+            "command line",
+            "downloader",
+            "image",
+            "source: Python"
+        ]
+    },
+    {
         "name": "Garage",
         "url": "https://github.com/deuxfleurs-org/garage",
         "description": "An S3-compatible distributed object storage service built for self-hosting at small-to-medium scale that replicates data across geo-distributed nodes and maintains availability during server outages.",
@@ -2434,6 +2525,17 @@
             "search",
             "web scraper",
             "source: Go"
+        ]
+    },
+    {
+        "name": "Ghostport",
+        "url": "https://github.com/vxfemboy/ghostport",
+        "description": "A port spoofing tool that deceives port scanners by emulating service signatures on any TCP port, with customizable signature files and an async Tokio runtime.",
+        "tags": [
+            "command line",
+            "network",
+            "security",
+            "source: Rust"
         ]
     },
     {
@@ -2835,12 +2937,37 @@
         ]
     },
     {
+        "name": "GTweak",
+        "url": "https://github.com/Greedeks/GTweak",
+        "description": "A portable Windows customization and optimization tool for tweaking system settings, removing bloatware and preinstalled apps (OneDrive, Edge, Copilot), disabling telemetry and applying performance tweaks without installation.",
+        "tags": [
+            "customization",
+            "GUI",
+            "privacy",
+            "Windows",
+            "source: C#"
+        ]
+    },
+    {
         "name": "gyroflow",
         "url": "https://github.com/gyroflow/gyroflow",
         "description": "Gyroflow is an application that can stabilize your video by using motion data from a gyroscope and optionally an accelerometer.",
         "tags": [
             "video",
             "video editing"
+        ]
+    },
+    {
+        "name": "ha.mr",
+        "url": "https://github.com/p2r3/ha.mr",
+        "description": "A serverless URL shortener that compresses links entirely in the browser using bit flags and Huffman coding, with an alphanumeric output mode optimized for compact QR codes.",
+        "tags": [
+            "compression",
+            "QR code",
+            "self-hosted",
+            "URL",
+            "web UI",
+            "source: JavaScript"
         ]
     },
     {
@@ -2936,6 +3063,19 @@
             "self-hosted",
             "web UI",
             "source: JavaScript"
+        ]
+    },
+    {
+        "name": "Hetty",
+        "url": "https://github.com/dstotijn/hetty",
+        "description": "An HTTP toolkit for security research, offering a man-in-the-middle proxy with logging and search, request interception, a replay client and scope management as a Burp Suite alternative.",
+        "tags": [
+            "HTTP client",
+            "penetration testing",
+            "proxy",
+            "security",
+            "web UI",
+            "source: Go"
         ]
     },
     {
@@ -3682,6 +3822,36 @@
         ]
     },
     {
+        "name": "Kudu",
+        "url": "https://github.com/AdventDevInc/kudu",
+        "description": "A cross-platform system cleaner and security scanner that reclaims disk space, debloats Windows, scans for malware, hardens privacy settings and securely deletes files.",
+        "tags": [
+            "command line",
+            "cross-platform",
+            "disk utility",
+            "GUI",
+            "monitoring",
+            "privacy",
+            "security",
+            "source: TypeScript"
+        ]
+    },
+    {
+        "name": "L0p4Map",
+        "url": "https://github.com/HaxL0p4/L0p4Map",
+        "description": "A network monitoring tool combining high-speed ARP discovery, nmap integration and a real-time interactive topology graph, with device fingerprinting, CVE detection and packet capture.",
+        "tags": [
+            "GUI",
+            "monitoring",
+            "network",
+            "network scan",
+            "security",
+            "visualization",
+            "vulnerability scanner",
+            "source: Python"
+        ]
+    },
+    {
         "name": "Label Studio",
         "url": "https://github.com/heartexlabs/label-studio/",
         "description": "Label Studio is an open source data labeling tool. It lets you label data types like audio, text, images, videos, and time series with a simple and straightforward UI and export to various model formats. It can be used to prepare raw data or improve existing training data to get more accurate ML models.",
@@ -3994,6 +4164,20 @@
         "tags": [
             "deep learning",
             "source: TypeScript"
+        ]
+    },
+    {
+        "name": "LocalSend",
+        "url": "https://github.com/localsend/localsend",
+        "description": "A free, open-source, cross-platform app for securely sharing files and messages with nearby devices over the local network via HTTPS, without an internet connection or third-party servers.",
+        "tags": [
+            "Android",
+            "cross-platform",
+            "encryption",
+            "file transfer",
+            "GUI",
+            "offline",
+            "source: Dart"
         ]
     },
     {
@@ -4729,6 +4913,20 @@
             "command line",
             "GPU",
             "monitoring"
+        ]
+    },
+    {
+        "name": "Obscura",
+        "url": "https://github.com/h4ckf0r0day/obscura",
+        "description": "A lightweight headless browser engine for web scraping and AI agent automation that runs real JavaScript via V8, speaks the Chrome DevTools Protocol as a drop-in replacement for headless Chrome (Puppeteer, Playwright, MCP), and offers stealth mode, screenshots and PDF export.",
+        "tags": [
+            "AI agents",
+            "browser automation",
+            "command line",
+            "Model Context Protocol (MCP)",
+            "screenshot",
+            "web scraper",
+            "source: Rust"
         ]
     },
     {
@@ -6532,6 +6730,18 @@
         ]
     },
     {
+        "name": "SearXNG",
+        "url": "https://github.com/searxng/searxng",
+        "description": "A free, privacy-respecting metasearch engine that aggregates results from many search services without tracking or profiling users.",
+        "tags": [
+            "privacy",
+            "search engine",
+            "self-hosted",
+            "web search",
+            "source: Python"
+        ]
+    },
+    {
         "name": "SeekStorm",
         "url": "https://github.com/SeekStorm/SeekStorm",
         "description": "An open-source, sub-millisecond full-text search library and multi-tenancy server written in Rust with BM25F ranking, real-time indexing, faceted search, typo tolerance, and support for 18 languages.",
@@ -6789,6 +6999,17 @@
             "network scan",
             "terminal interface",
             "source: Go"
+        ]
+    },
+    {
+        "name": "Sofka",
+        "url": "https://github.com/nklmilojevic/sofka",
+        "description": "A terminal UI for Kubernetes clusters with generic resource browsing, native Flux CD and Argo CD operations, background port-forwarding, bulk actions and evidence-based incident views.",
+        "tags": [
+            "Kubernetes",
+            "management",
+            "terminal interface",
+            "source: Rust"
         ]
     },
     {
@@ -7682,6 +7903,23 @@
         "tags": [
             "cloud",
             "source: Ruby"
+        ]
+    },
+    {
+        "name": "ugrep",
+        "url": "https://github.com/Genivia/ugrep",
+        "description": "A faster, more capable grep replacement with an interactive TUI, Boolean and fuzzy queries, and search inside archives, compressed files, PDFs and documents.",
+        "tags": [
+            "archive",
+            "command line",
+            "decompression",
+            "full-text search",
+            "fuzzy search",
+            "regex",
+            "search",
+            "terminal interface",
+            "command line: grep",
+            "source: C++"
         ]
     },
     {
