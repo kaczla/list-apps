@@ -9,7 +9,7 @@ A curated list of applications worth knowing, maintained as a README.md file wit
 ## Development Commands
 
 ```bash
-# Run all checks (format + lint fix)
+# Run all checks (format + lint fix + type check)
 make
 
 # Individual commands
@@ -24,10 +24,14 @@ make type_check    # Run mypy type checking
 # Merge new applications from JSON file
 ./run.sh merge new_apps.json
 ./run.sh merge new_apps.json --dry-run  # Preview changes
+./run.sh merge new_apps.json --overwrite  # Replace existing entries with the same URL
 
 # Review new applications via browser UI (NiceGUI)
 ./run.sh review new_apps.json
 ./run.sh review new_apps.json --port 9090  # Custom port
+
+# Filter a text file of URLs down to ones not already in applications.json (writes unique_urls.txt)
+./run.sh check-urls urls.txt
 ```
 
 ## Adding New Applications
@@ -39,7 +43,7 @@ When given a GitHub URL, use WebFetch to extract:
 - **Description**: A concise summary of what the application does
 - **Tags**: Based on programming language, features, and use cases
 
-**Important**: Fetch URLs in batches of 3 at a time to avoid overloading. Wait for each batch to complete before starting the next one.
+Fetch URLs at most 3 at a time, and let each batch finish before starting the next, so the sites aren't overloaded.
 
 ### JSON Format
 
@@ -65,13 +69,13 @@ Create a JSON file with the current date and time in the name using format `YYYY
 
 ### Working with applications.json and tags.json
 
-**`data/json/applications.json`** is a large file (~6400+ lines, 500+ applications). Key points:
-- The `Read` tool truncates at 2000 lines — always read it in multiple passes using `offset` and `limit` parameters (e.g., offsets 0, 2000, 4000, 6000).
-- To find a specific application, use `Grep` on the file rather than reading the whole file (e.g., search for `"name": "AppName"`).
-- For bulk tag fixes across many apps, use `Edit` with `replace_all: true` — safe when the search string is a quoted JSON value (e.g., `"old-tag"`) that only appears as a standalone tag, not embedded in descriptions.
-- For targeted edits to a single app, use the app's URL or a unique part of its description as anchor context to ensure uniqueness.
+**`data/json/applications.json`** is large (hundreds of apps, several thousand lines). Look up specific apps by
+searching (e.g., `"name": "AppName"` or the URL) rather than reading the whole file; when editing one app, anchor
+on its URL, since names and tags repeat. For changes spanning many apps, use the script approach in
+[Bulk Tag Renames](#bulk-tag-renames).
 
-**`data/json/tags.json`** is small (~420 lines) and can be read in one pass. It is a sorted JSON array of tag strings. When adding or removing tags, maintain alphabetical order.
+**`data/json/tags.json`** is a small, sorted JSON array of every tag in use. It is generated: `./run.sh generate-readme`
+rebuilds it from `applications.json`, so don't edit it by hand.
 
 ### Tag Conventions
 
@@ -140,7 +144,8 @@ regenerated automatically), so `tags.json` never needs hand-editing after a rena
 
 The review UI lets you inspect each app (with iframe preview), edit name/description/tags, and then merge and generate the README from within the browser.
 
-**Important**: After creating the JSON file, do NOT run any of the above commands automatically. Just inform the user that the file has been created and show them the commands they can run to merge and generate the README.
+After creating the JSON file, stop there: tell the user the file is ready and show them the commands above. They
+review and merge new entries themselves, so don't run merge, review, or generate-readme on their behalf.
 
 ## Architecture
 
@@ -154,7 +159,9 @@ The canonical data lives in `data/json/applications.json`. The README.md is gene
 - `generate_readme.py` - Generates README.md from applications.json, sorts apps alphabetically, generates Tags section with occurrence counts
 - `merge_json.py` - Merges new applications into applications.json with duplicate detection
 - `review_app.py` - NiceGUI browser UI for reviewing, editing, and merging new applications (file selection → per-app review with iframe preview → summary & merge)
-- `data_utils.py` - JSON loading utilities
+- `check_urls.py` - Filters a URL list against existing applications and removes duplicates
+- `data_utils.py` - JSON load/save utilities; saving applications also regenerates `tags.json`
+- `log_utils.py` - loguru setup
 
 ### Tag Sorting Order
 
