@@ -625,6 +625,17 @@
         ]
     },
     {
+        "name": "boring",
+        "url": "https://github.com/alebeck/boring",
+        "description": "A simple command-line SSH tunnel manager supporting local, remote, and dynamic (SOCKS5) port forwarding, SSH config and ssh-agent integration, auto-reconnect, and TOML configuration.",
+        "tags": [
+            "command line",
+            "SSH",
+            "tunneling",
+            "source: Go"
+        ]
+    },
+    {
         "name": "bottom",
         "url": "https://github.com/ClementTsang/bottom",
         "description": "bottom is a customizable cross-platform graphical process/system monitor for the terminal.",
@@ -1868,6 +1879,20 @@
         ]
     },
     {
+        "name": "Dozzle",
+        "url": "https://github.com/amir20/dozzle",
+        "description": "A lightweight web-based application for real-time monitoring of Docker container logs, with fuzzy/regex/SQL search, split-screen views, live CPU/memory stats, multi-user authentication, and Swarm support.",
+        "tags": [
+            "container",
+            "Docker",
+            "logs",
+            "monitoring",
+            "self-hosted",
+            "web UI",
+            "source: Go"
+        ]
+    },
+    {
         "name": "dprint",
         "url": "https://github.com/dprint/dprint",
         "description": "dprint is a pluggable and configurable code formatting platform.",
@@ -3017,6 +3042,18 @@
         ]
     },
     {
+        "name": "Headscale",
+        "url": "https://github.com/juanfont/headscale",
+        "description": "An open source, self-hosted implementation of the Tailscale control server, managing WireGuard key exchange, IP assignment, and users for a private mesh network.",
+        "tags": [
+            "mesh network",
+            "network",
+            "self-hosted",
+            "VPN",
+            "source: Go"
+        ]
+    },
+    {
         "name": "Helium",
         "url": "https://github.com/mherrmann/helium",
         "description": "A Python library for automating web browsers like Chrome and Firefox with a high-level API that simplifies browser automation compared to Selenium.",
@@ -3636,6 +3673,17 @@
             "Jupyter",
             "package manager",
             "source: Python"
+        ]
+    },
+    {
+        "name": "Kafgres",
+        "url": "https://github.com/RayElg/kafgres",
+        "description": "A PostgreSQL extension that embeds a Kafka broker, letting unmodified Kafka clients connect to the database, with transactional produce alongside business writes, change data capture, consumer groups, retention, and compaction.",
+        "tags": [
+            "Kafka",
+            "PostgreSQL",
+            "queue",
+            "source: Rust"
         ]
     },
     {
@@ -8130,6 +8178,23 @@
             "RSS",
             "video downloader",
             "source: TypeScript"
+        ]
+    },
+    {
+        "name": "Video Duplicate Finder",
+        "url": "https://github.com/0x90d/videoduplicatefinder",
+        "description": "A cross-platform tool that finds duplicate and similar videos and images by visual similarity, even across different resolutions, frame rates, or watermarks, with optional AI-powered matching and audio fingerprinting for partial clips. Offers desktop GUI, CLI, and web UI.",
+        "tags": [
+            "AI-powered",
+            "command line",
+            "cross-platform",
+            "deduplication",
+            "Docker",
+            "GUI",
+            "image",
+            "video",
+            "web UI",
+            "source: C#"
         ]
     },
     {

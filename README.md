@@ -164,6 +164,9 @@ Some descriptions are from:
 - BorgBackup [🛈](https://github.com/borgbackup/borg)
   - A deduplicating backup program with client-side authenticated encryption, multiple compression algorithms, and SSH-based remote backup support for efficient and secure data archiving.
   - Tags: archive, backup, command line, compression, deduplication, encryption, source: Python
+- boring [🛈](https://github.com/alebeck/boring)
+  - A simple command-line SSH tunnel manager supporting local, remote, and dynamic (SOCKS5) port forwarding, SSH config and ssh-agent integration, auto-reconnect, and TOML configuration.
+  - Tags: command line, SSH, tunneling, source: Go
 - bottom [🛈](https://github.com/ClementTsang/bottom)
   - bottom is a customizable cross-platform graphical process/system monitor for the terminal.
   - Tags: command line, monitoring, command line: top, source: Rust
@@ -485,6 +488,9 @@ Some descriptions are from:
 - Dotter [🛈](https://github.com/SuperCuber/dotter)
   - A dotfile manager and templater that automates the deployment of configuration files across multiple machines with flexible configuration and automatic templating or symlinking capabilities.
   - Tags: automation, command line, configuration, dotfiles, templater, source: Rust
+- Dozzle [🛈](https://github.com/amir20/dozzle)
+  - A lightweight web-based application for real-time monitoring of Docker container logs, with fuzzy/regex/SQL search, split-screen views, live CPU/memory stats, multi-user authentication, and Swarm support.
+  - Tags: container, Docker, logs, monitoring, self-hosted, web UI, source: Go
 - dprint [🛈](https://github.com/dprint/dprint)
   - dprint is a pluggable and configurable code formatting platform.
   - Tags: code formatting, command line, source: Rust
@@ -788,6 +794,9 @@ Some descriptions are from:
 - Headroom [🛈](https://github.com/chopratejas/headroom)
   - A context compression layer that reduces token usage by 60-95% for AI agents while maintaining answer quality, working as a library, proxy, or MCP server to compress tool outputs, logs, RAG chunks, and conversation history.
   - Tags: AI agents, caching, compression, library, LLM, source: Python
+- Headscale [🛈](https://github.com/juanfont/headscale)
+  - An open source, self-hosted implementation of the Tailscale control server, managing WireGuard key exchange, IP assignment, and users for a private mesh network.
+  - Tags: mesh network, network, self-hosted, VPN, source: Go
 - Helium [🛈](https://github.com/mherrmann/helium)
   - A Python library for automating web browsers like Chrome and Firefox with a high-level API that simplifies browser automation compared to Selenium.
   - Tags: automation, browser automation, library, Python wrapper, web browser, source: Python
@@ -950,6 +959,9 @@ Some descriptions are from:
 - juvio [🛈](https://github.com/OKUA1/juvio)
   - A UV kernel for Jupyter enabling reproducible, dependency-aware, and Git-friendly notebooks with inline dependency management, automatic environment setup, and PEP 723-style metadata storage.
   - Tags: Jupyter, package manager, source: Python
+- Kafgres [🛈](https://github.com/RayElg/kafgres)
+  - A PostgreSQL extension that embeds a Kafka broker, letting unmodified Kafka clients connect to the database, with transactional produce alongside business writes, change data capture, consumer groups, retention, and compaction.
+  - Tags: Kafka, PostgreSQL, queue, source: Rust
 - Kamal [🛈](https://github.com/basecamp/kamal)
   - A deployment tool for web apps enabling zero-downtime deploys across bare metal to cloud VMs using Docker containers and seamless traffic switching.
   - Tags: CI/CD, command line, container, deployment, Docker, source: Ruby
@@ -2126,6 +2138,9 @@ Some descriptions are from:
 - VidBee [🛈](https://github.com/nexmoe/VidBee)
   - A modern, open-source video downloader enabling users to download videos and audio from 1000+ websites globally with RSS automation features.
   - Tags: audio, automation, cross-platform, downloader, GUI, RSS, video downloader, source: TypeScript
+- Video Duplicate Finder [🛈](https://github.com/0x90d/videoduplicatefinder)
+  - A cross-platform tool that finds duplicate and similar videos and images by visual similarity, even across different resolutions, frame rates, or watermarks, with optional AI-powered matching and audio fingerprinting for partial clips. Offers desktop GUI, CLI, and web UI.
+  - Tags: AI-powered, command line, cross-platform, deduplication, Docker, GUI, image, video, web UI, source: C#
 - Video2X [🛈](https://github.com/k4yt3x/video2x)
   - A machine learning-based framework for upscaling videos and interpolating frames using engines like Anime4K, Real-ESRGAN, Real-CUGAN, and RIFE, with Vulkan hardware acceleration.
   - Tags: command line, framerate, machine learning, video, video editing, source: C++
@@ -2331,7 +2346,7 @@ List of tags with occurrences in the brackets:
 - AI agents (42)
 - AI evaluation (2)
 - AI personal assistant (11)
-- AI-powered (74)
+- AI-powered (75)
 - AlphaZero (1)
 - analytics (4)
 - Android (6)
@@ -2370,7 +2385,7 @@ List of tags with occurrences in the brackets:
 - code review (3)
 - code search (9)
 - coloring (3)
-- command line (271)
+- command line (273)
 - command line: cat (1)
 - command line: cd (2)
 - command line: diff (3)
@@ -2400,9 +2415,9 @@ List of tags with occurrences in the brackets:
 - computer vision (5)
 - configuration (6)
 - connection manager (3)
-- container (22)
+- container (23)
 - content extractor (11)
-- cross-platform (52)
+- cross-platform (53)
 - CSV (8)
 - customization (7)
 - dashboard (24)
@@ -2423,7 +2438,7 @@ List of tags with occurrences in the brackets:
 - debugging (8)
 - decompiler (1)
 - decompression (5)
-- deduplication (10)
+- deduplication (11)
 - deep learning (41)
 - deepfake (1)
 - deletion tool (6)
@@ -2436,7 +2451,7 @@ List of tags with occurrences in the brackets:
 - diffusion model (9)
 - disk utility (11)
 - DNS (8)
-- Docker (19)
+- Docker (21)
 - Docker Compose (1)
 - documentation (6)
 - dotfiles (3)
@@ -2480,7 +2495,7 @@ List of tags with occurrences in the brackets:
 - GPG (1)
 - GPU (9)
 - gRPC (1)
-- GUI (71)
+- GUI (72)
 - guide (3)
 - hex viewer (2)
 - homelab (5)
@@ -2489,7 +2504,7 @@ List of tags with occurrences in the brackets:
 - hypermedia (1)
 - icons (2)
 - IDE (3)
-- image (14)
+- image (15)
 - image editing (6)
 - image generation (12)
 - in-memory (3)
@@ -2500,7 +2515,7 @@ List of tags with occurrences in the brackets:
 - JavaScript engine (1)
 - JSON (11)
 - Jupyter (12)
-- Kafka (1)
+- Kafka (2)
 - key management (2)
 - key-value store (8)
 - knowledge graph (2)
@@ -2516,7 +2531,7 @@ List of tags with occurrences in the brackets:
 - LLM management (5)
 - LLM-ready (5)
 - load balancer (4)
-- logs (11)
+- logs (12)
 - machine learning (20)
 - macOS (1)
 - makefile (3)
@@ -2524,19 +2539,19 @@ List of tags with occurrences in the brackets:
 - Markdown (8)
 - meetings (1)
 - memory management (2)
-- mesh network (3)
+- mesh network (4)
 - metrics (6)
 - mobile (2)
 - Model Context Protocol (MCP) (12)
 - model merging (1)
-- monitoring (52)
+- monitoring (53)
 - multi-language (12)
 - music generation (2)
 - music player (1)
 - NAS (1)
 - natural language processing (8)
 - NeRFs (1)
-- network (45)
+- network (46)
 - network scan (15)
 - Nix (1)
 - No source code (3)
@@ -2565,7 +2580,7 @@ List of tags with occurrences in the brackets:
 - Platform-as-a-Service (2)
 - PNG (1)
 - Polars (1)
-- PostgreSQL (9)
+- PostgreSQL (10)
 - presentation (2)
 - privacy (18)
 - Privileged Access Management (PAM) (1)
@@ -2580,7 +2595,7 @@ List of tags with occurrences in the brackets:
 - QR code (3)
 - quantization (1)
 - querying (5)
-- queue (2)
+- queue (3)
 - RAG (7)
 - rate limiting (2)
 - Redis (6)
@@ -2605,7 +2620,7 @@ List of tags with occurrences in the brackets:
 - secret management (3)
 - secrets detector (2)
 - security (47)
-- self-hosted (55)
+- self-hosted (57)
 - semantic search (6)
 - serialization (1)
 - shell (9)
@@ -2617,13 +2632,13 @@ List of tags with occurrences in the brackets:
 - social media (3)
 - source control system (3)
 - source: C (31)
-- source: C# (4)
+- source: C# (5)
 - source: C++ (27)
 - source: Clojure (2)
 - source: Crystal (1)
 - source: Dart (2)
 - source: Elixir (2)
-- source: Go (107)
+- source: Go (110)
 - source: HTML (1)
 - source: Java (8)
 - source: JavaScript (23)
@@ -2635,7 +2650,7 @@ List of tags with occurrences in the brackets:
 - source: PowerShell (1)
 - source: Python (193)
 - source: Ruby (5)
-- source: Rust (179)
+- source: Rust (180)
 - source: Shell (12)
 - source: TypeScript (91)
 - source: Zig (4)
@@ -2645,7 +2660,7 @@ List of tags with occurrences in the brackets:
 - SQL (14)
 - SQL injection (1)
 - SQLite (6)
-- SSH (17)
+- SSH (18)
 - SSL/TLS (8)
 - static code analyzer (4)
 - static site (1)
@@ -2674,7 +2689,7 @@ List of tags with occurrences in the brackets:
 - translation (3)
 - transpiler (1)
 - TSV (1)
-- tunneling (6)
+- tunneling (7)
 - type checking (3)
 - UDP (4)
 - unstructured data (3)
@@ -2682,7 +2697,7 @@ List of tags with occurrences in the brackets:
 - username search (2)
 - vector database (4)
 - vector search (3)
-- video (22)
+- video (23)
 - video downloader (6)
 - video editing (7)
 - video generation (1)
@@ -2692,14 +2707,14 @@ List of tags with occurrences in the brackets:
 - virtualization (5)
 - visualization (16)
 - voice cloning (4)
-- VPN (3)
+- VPN (4)
 - vulnerability scanner (13)
 - Wake-on-LAN (2)
 - weather (1)
 - web browser (9)
 - web scraper (16)
 - web search (4)
-- web UI (22)
+- web UI (24)
 - WebAssembly (5)
 - webhooks (2)
 - website (6)
