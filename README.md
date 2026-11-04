@@ -164,6 +164,9 @@ Some descriptions are from:
 - BorgBackup [🛈](https://github.com/borgbackup/borg)
   - A deduplicating backup program with client-side authenticated encryption, multiple compression algorithms, and SSH-based remote backup support for efficient and secure data archiving.
   - Tags: archive, backup, command line, compression, deduplication, encryption, source: Python
+- borgmatic [🛈](https://github.com/borgmatic-collective/borgmatic)
+  - Configuration-driven backup software wrapping Borg Backup, with client-side encryption, database dumps (PostgreSQL, MySQL, MongoDB, SQLite), retention policies, consistency checks and monitoring integrations.
+  - Tags: backup, command line, configuration, encryption, notifications, source: Python
 - boring [🛈](https://github.com/alebeck/boring)
   - A simple command-line SSH tunnel manager supporting local, remote, and dynamic (SOCKS5) port forwarding, SSH config and ssh-agent integration, auto-reconnect, and TOML configuration.
   - Tags: command line, SSH, tunneling, source: Go
@@ -1007,6 +1010,9 @@ Some descriptions are from:
 - kty [🛈](https://github.com/grampelberg/kty)
   - SSH-based access to Kubernetes clusters with terminal UI, social login via GitHub/Google, pod shell access, log viewing, and file transfer via scp/sftp.
   - Tags: dashboard, Kubernetes, SSH, terminal interface, source: Rust
+- Kubetail [🛈](https://github.com/kubetail-org/kubetail)
+  - Real-time logging dashboard for Kubernetes that merges logs from all containers in a workload into a single chronological timeline, with filtering by time, node and grep, available as a web dashboard, CLI and desktop app.
+  - Tags: command line, dashboard, Kubernetes, logs, monitoring, web UI, source: Go, source: Rust, source: TypeScript
 - Kudu [🛈](https://github.com/AdventDevInc/kudu)
   - A cross-platform system cleaner and security scanner that reclaims disk space, debloats Windows, scans for malware, hardens privacy settings and securely deletes files.
   - Tags: command line, cross-platform, disk utility, GUI, monitoring, privacy, security, source: TypeScript
@@ -1865,6 +1871,9 @@ Some descriptions are from:
 - spin [🛈](https://github.com/serversideup/spin)
   - spin is a bash utility that improves the user-experience for teams using Docker.
   - Tags: command line, Docker, source: Shell
+- Spokenly [🛈](https://spokenly.app/)
+  - Voice-to-text dictation app for macOS, Windows, Linux and iPhone with system-wide dictation, file and meeting transcription in 100+ languages, free on-device models (Whisper, Parakeet) and optional AI text processing.
+  - Tags: AI-powered, cross-platform, No source code, offline, speech recognition, transcription
 - sq [🛈](https://github.com/neilotoole/sq)
   - A command-line tool providing jq-style access to structured data sources including SQL databases and document formats like CSV and Excel.
   - Tags: command line, CSV, data processing, database, SQL, command line: jq, source: Go
@@ -2346,7 +2355,7 @@ List of tags with occurrences in the brackets:
 - AI agents (42)
 - AI evaluation (2)
 - AI personal assistant (11)
-- AI-powered (75)
+- AI-powered (76)
 - AlphaZero (1)
 - analytics (4)
 - Android (6)
@@ -2361,7 +2370,7 @@ List of tags with occurrences in the brackets:
 - autocomplete (1)
 - automation (36)
 - AWS emulator (1)
-- backup (6)
+- backup (7)
 - benchmarking (3)
 - binary (6)
 - book collections (2)
@@ -2385,7 +2394,7 @@ List of tags with occurrences in the brackets:
 - code review (3)
 - code search (9)
 - coloring (3)
-- command line (273)
+- command line (275)
 - command line: cat (1)
 - command line: cd (2)
 - command line: diff (3)
@@ -2413,14 +2422,14 @@ List of tags with occurrences in the brackets:
 - compiler (3)
 - compression (14)
 - computer vision (5)
-- configuration (6)
+- configuration (7)
 - connection manager (3)
 - container (23)
 - content extractor (11)
-- cross-platform (53)
+- cross-platform (54)
 - CSV (8)
 - customization (7)
-- dashboard (24)
+- dashboard (25)
 - data anonymization (1)
 - data formatter (5)
 - data generator (2)
@@ -2460,7 +2469,7 @@ List of tags with occurrences in the brackets:
 - editor (9)
 - email (3)
 - embeddings (4)
-- encryption (17)
+- encryption (18)
 - environment manager (8)
 - environment variables (2)
 - experiment tracking (3)
@@ -2519,7 +2528,7 @@ List of tags with occurrences in the brackets:
 - key management (2)
 - key-value store (8)
 - knowledge graph (2)
-- Kubernetes (9)
+- Kubernetes (10)
 - language detection (3)
 - library (51)
 - link management (1)
@@ -2531,7 +2540,7 @@ List of tags with occurrences in the brackets:
 - LLM management (5)
 - LLM-ready (5)
 - load balancer (4)
-- logs (12)
+- logs (13)
 - machine learning (20)
 - macOS (1)
 - makefile (3)
@@ -2544,7 +2553,7 @@ List of tags with occurrences in the brackets:
 - mobile (2)
 - Model Context Protocol (MCP) (12)
 - model merging (1)
-- monitoring (53)
+- monitoring (54)
 - multi-language (12)
 - music generation (2)
 - music player (1)
@@ -2554,13 +2563,13 @@ List of tags with occurrences in the brackets:
 - network (46)
 - network scan (15)
 - Nix (1)
-- No source code (3)
+- No source code (4)
 - note-taking (4)
-- notifications (9)
+- notifications (10)
 - object detection (3)
 - observability (8)
 - OCR (9)
-- offline (23)
+- offline (24)
 - Ollama (2)
 - OLTP (1)
 - OpenAI (1)
@@ -2638,7 +2647,7 @@ List of tags with occurrences in the brackets:
 - source: Crystal (1)
 - source: Dart (2)
 - source: Elixir (2)
-- source: Go (110)
+- source: Go (111)
 - source: HTML (1)
 - source: Java (8)
 - source: JavaScript (23)
@@ -2648,14 +2657,14 @@ List of tags with occurrences in the brackets:
 - source: Perl (1)
 - source: PHP (3)
 - source: PowerShell (1)
-- source: Python (193)
+- source: Python (194)
 - source: Ruby (5)
-- source: Rust (180)
+- source: Rust (181)
 - source: Shell (12)
-- source: TypeScript (91)
+- source: TypeScript (92)
 - source: Zig (4)
 - speech generation (9)
-- speech recognition (12)
+- speech recognition (13)
 - spreadsheet (1)
 - SQL (14)
 - SQL injection (1)
@@ -2685,7 +2694,7 @@ List of tags with occurrences in the brackets:
 - TOML (2)
 - tracing (3)
 - training (3)
-- transcription (12)
+- transcription (13)
 - translation (3)
 - transpiler (1)
 - TSV (1)
@@ -2714,7 +2723,7 @@ List of tags with occurrences in the brackets:
 - web browser (9)
 - web scraper (16)
 - web search (4)
-- web UI (24)
+- web UI (25)
 - WebAssembly (5)
 - webhooks (2)
 - website (6)

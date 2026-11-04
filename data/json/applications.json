@@ -625,6 +625,19 @@
         ]
     },
     {
+        "name": "borgmatic",
+        "url": "https://github.com/borgmatic-collective/borgmatic",
+        "description": "Configuration-driven backup software wrapping Borg Backup, with client-side encryption, database dumps (PostgreSQL, MySQL, MongoDB, SQLite), retention policies, consistency checks and monitoring integrations.",
+        "tags": [
+            "backup",
+            "command line",
+            "configuration",
+            "encryption",
+            "notifications",
+            "source: Python"
+        ]
+    },
+    {
         "name": "boring",
         "url": "https://github.com/alebeck/boring",
         "description": "A simple command-line SSH tunnel manager supporting local, remote, and dynamic (SOCKS5) port forwarding, SSH config and ssh-agent integration, auto-reconnect, and TOML configuration.",
@@ -3867,6 +3880,22 @@
             "SSH",
             "terminal interface",
             "source: Rust"
+        ]
+    },
+    {
+        "name": "Kubetail",
+        "url": "https://github.com/kubetail-org/kubetail",
+        "description": "Real-time logging dashboard for Kubernetes that merges logs from all containers in a workload into a single chronological timeline, with filtering by time, node and grep, available as a web dashboard, CLI and desktop app.",
+        "tags": [
+            "command line",
+            "dashboard",
+            "Kubernetes",
+            "logs",
+            "monitoring",
+            "web UI",
+            "source: Go",
+            "source: Rust",
+            "source: TypeScript"
         ]
     },
     {
@@ -7145,6 +7174,19 @@
             "command line",
             "Docker",
             "source: Shell"
+        ]
+    },
+    {
+        "name": "Spokenly",
+        "url": "https://spokenly.app/",
+        "description": "Voice-to-text dictation app for macOS, Windows, Linux and iPhone with system-wide dictation, file and meeting transcription in 100+ languages, free on-device models (Whisper, Parakeet) and optional AI text processing.",
+        "tags": [
+            "AI-powered",
+            "cross-platform",
+            "No source code",
+            "offline",
+            "speech recognition",
+            "transcription"
         ]
     },
     {
