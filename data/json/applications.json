@@ -2554,6 +2554,20 @@
         ]
     },
     {
+        "name": "Ghost Downloader 3",
+        "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
+        "description": "A cross-platform, multi-protocol download manager supporting HTTP, BitTorrent/Magnet, FTP, M3U8, MPEG-DASH and eD2k, with YouTube/Bilibili video downloads, a browser extension for media sniffing, an aria2-compatible RPC API and a plugin system.",
+        "tags": [
+            "browser extension",
+            "cross-platform",
+            "downloader",
+            "GUI",
+            "P2P",
+            "video downloader",
+            "source: Python"
+        ]
+    },
+    {
         "name": "GhostHunter",
         "url": "https://github.com/Mysteriza/GhostHunter",
         "description": "A tool that searches the Wayback Machine for archived URLs of specific domains, filters by file extensions, and organizes results with concurrent fetching for exploring historical web data.",
@@ -3804,6 +3818,20 @@
             "LLM",
             "Model Context Protocol (MCP)",
             "source: TypeScript"
+        ]
+    },
+    {
+        "name": "Kiri",
+        "url": "https://github.com/libracoder/kiri",
+        "description": "A lightweight container runtime and Docker Desktop replacement that speaks the Docker Engine API (docker CLI, Compose and buildx work unchanged), with single-node Kubernetes, Linux machines, local HTTPS domains and port sharing.",
+        "tags": [
+            "container",
+            "Docker",
+            "Docker Compose",
+            "GUI",
+            "Kubernetes",
+            "virtualization",
+            "source: Rust"
         ]
     },
     {
@@ -7366,6 +7394,21 @@
             "customization",
             "shell",
             "source: Rust"
+        ]
+    },
+    {
+        "name": "StatLite",
+        "url": "https://github.com/PVRLabs/statlite",
+        "description": "A lightweight, self-hosted single-binary monitoring tool for apps on VPSs and small servers, collecting traffic, latency, CPU and memory metrics into SQLite and showing historical charts in a built-in web dashboard without Prometheus or Grafana.",
+        "tags": [
+            "dashboard",
+            "metrics",
+            "monitoring",
+            "self-hosted",
+            "single-binary",
+            "SQLite",
+            "web UI",
+            "source: Go"
         ]
     },
     {
