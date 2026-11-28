@@ -5447,6 +5447,23 @@
         ]
     },
     {
+        "name": "paraphrase",
+        "url": "https://github.com/keshavbhatt/paraphrase",
+        "description": "An offline AI writing assistant for Linux that proofreads, rewrites tone, summarizes, drafts replies, and translates selected text via a global shortcut, using a local LLM (Gemma via llama.cpp).",
+        "tags": [
+            "AI-powered",
+            "command line",
+            "GUI",
+            "Linux",
+            "LLM",
+            "offline",
+            "privacy",
+            "text processing",
+            "translation",
+            "source: C++"
+        ]
+    },
+    {
         "name": "Partimage",
         "url": "https://gitlab.com/partimage/partimage-sources",
         "description": "A disk imaging utility that saves partitions to compressed image files and restores them, copying only used blocks for faster backups and recovery.",
@@ -6901,6 +6918,18 @@
             "search",
             "command line: grep",
             "source: Go"
+        ]
+    },
+    {
+        "name": "Serie",
+        "url": "https://github.com/lusingander/serie",
+        "description": "A terminal UI that renders a rich git commit graph as inline images (like git log --graph), with search, refs view, and commit details with diffs.",
+        "tags": [
+            "git",
+            "terminal interface",
+            "visualization",
+            "command line: git",
+            "source: Rust"
         ]
     },
     {

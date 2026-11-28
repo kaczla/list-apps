@@ -52,6 +52,7 @@
     "command line: diff",
     "command line: du",
     "command line: find",
+    "command line: git",
     "command line: grep",
     "command line: hexdump",
     "command line: jq",
